@@ -1,0 +1,17 @@
+{
+  "date": "2026-10-13",
+  "verified_at": "2026-10-14T00:24:17.759254-07:00",
+  "metrics": {
+    "reviewed": 3488,
+    "sources_ok": 13,
+    "unverified": 5,
+    "applied_excluded": 0,
+    "seen_excluded": 0,
+    "linkedin_candidates": 20,
+    "linkedin": "Acceso público limitado (HTTPError); sin evasión ni login",
+    "errors": [
+      "Airbnb / 8278753: ValueError"
+    ]
+  },
+  "jobs": []
+}
