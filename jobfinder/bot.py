@@ -413,13 +413,31 @@ def page_links(page, base):
             if href and urlsplit(urljoin(base, href)).scheme == 'https']
 
 
+def employer_board(url):
+    """Recognize exact supported ATS hosts, never lookalike domains."""
+    parsed = urlsplit(url)
+    if parsed.scheme != 'https' or parsed.username or parsed.password:
+        return None
+    parts = [p for p in parsed.path.split('/') if p]
+    if not parts or not re.fullmatch(r'[A-Za-z0-9_-]{1,100}', parts[0]):
+        return None
+    hosts = {'boards.greenhouse.io':'greenhouse', 'job-boards.greenhouse.io':'greenhouse',
+             'jobs.ashbyhq.com':'ashby', 'jobs.smartrecruiters.com':'smartrecruiters',
+             'careers.smartrecruiters.com':'smartrecruiters'}
+    kind = hosts.get(parsed.hostname)
+    if not kind or parts[0].casefold() in ('jobs','search','embed','privacy','login'):
+        return None
+    return dict(type=kind, slug=parts[0], company=parts[0], discovery_url=url)
+
+
 def discovery(config, client, today, jobs, metrics):
     """Third-party boards discover candidates; only official pages verify them."""
     from urllib.robotparser import RobotFileParser
     metrics['discovery'] = []
+    discovered = {}
     official_hosts = set(config['official_hosts'])
     for source in config.get('discovery_sources', []):
-        stat = dict(source=source['name'], pages=0, candidates=0, verified=0, issues=[])
+        stat = dict(source=source['name'], category=source.get('category','Company careers'), pages=0, candidates=0, verified=0, issues=[])
         allowed = set(source['hosts']) | official_hosts
         worker = Client(allowed)
         visited = set()
@@ -448,6 +466,9 @@ def discovery(config, client, today, jobs, metrics):
                 stat['pages'] += 1
                 # Association boards may link directly to employer job postings.
                 for url, title in page_links(page, final):
+                    board = employer_board(url)
+                    if board:
+                        discovered[(board['type'],board['slug'])] = board
                     host = urlsplit(url).hostname
                     if title_ok(title) or host in official_hosts and re.search(r'/jobs?/|/postings?/|/careers?/', url):
                         if host in allowed and url not in visited:
@@ -462,6 +483,9 @@ def discovery(config, client, today, jobs, metrics):
                 destinations = [(final, page)] if urlsplit(final).hostname in official_hosts else []
                 if not destinations:
                     for outbound, _ in page_links(page, final):
+                        board = employer_board(outbound)
+                        if board:
+                            discovered[(board['type'],board['slug'])] = board
                         if urlsplit(outbound).hostname in official_hosts and re.search(r'/jobs?/|/postings?/|/careers?/', outbound):
                             official, dest = worker.get(outbound)
                             destinations.append((dest, official))
@@ -488,6 +512,7 @@ def discovery(config, client, today, jobs, metrics):
             stat['issues'].append('No supported role links in public HTML; dynamic or member-only results may be unavailable')
         metrics['discovery'].append(stat)
         metrics['errors'].extend(source['name'] + ': ' + issue for issue in stat['issues'])
+    return list(discovered.values())
 
 
 def linkedin(config, client, today, jobs, metrics):
@@ -615,9 +640,9 @@ def report(today, jobs, metrics, now):
             f"- Relevant themes: {md(', '.join(j.get('focus_matches',j.get('matched_skills',[]))) or 'None recorded')}.",
             *[f"- Theme evidence: the official title or description mentions {md(t)}." for t in j.get('focus_evidence',{})], '']
     if metrics.get('discovery'):
-        lines += ['## Additional discovery sources', '', '| Source | Accessible seed pages | Candidate pages checked | Official date-verified discoveries before deduplication | Issues |', '|---|---|---|---|---|']
+        lines += ['## Additional discovery sources', '', f"New verified employer boards retained for future searches: {metrics.get('new_employer_boards',0)}.", '', '| Source category | Source | Accessible seed pages | Candidate pages checked | Official date-verified discoveries before deduplication | Issues |', '|---|---|---|---|---|---|']
         for source in metrics['discovery']:
-            lines.append(f"| {md(source['source'])} | {source['pages']} | {source['candidates']} | {source['verified']} | {len(source['issues'])} |")
+            lines.append(f"| {md(source.get('category','Company careers'))} | {md(source['source'])} | {source['pages']} | {source['candidates']} | {source['verified']} | {len(source['issues'])} |")
     lines += ['## Coverage and source issues', '', 'The daily 5 pm run cannot include listings published after it begins. Historical searches include postings still accessible when checked. First-seen dates are never substituted for publication dates. SmartRecruiters release dates may refer to reposts. Work arrangements are not inferred from a city or an onboarding event. Additional discovery boards are checked through accessible public HTML with robots.txt respected. Member-only and JavaScript-only results may be unavailable. Third-party publication dates never replace official date evidence.']
     lines.extend('- '+md(e) for e in metrics['errors'])
     return ('\n'.join(lines)+'\n').replace('—','-').replace('–','-')
@@ -638,6 +663,12 @@ def main():
         save(ROOT / 'data/applied.json', entries)
         return
     config = load(ROOT / 'config/sources.json')
+    registry = load(ROOT / 'data/discovered.sources.json', [])
+    configured = {(s['type'],s['slug']) for s in config['boards']}
+    for source in registry:
+        if (source['type'],source['slug']) not in configured:
+            config['boards'].append(source)
+            configured.add((source['type'],source['slug']))
     profile = load(ROOT / 'config/profile.json')
     now = datetime.now(TZ)
     today = date.fromisoformat(args.date) if args.date else now.date()
@@ -659,7 +690,23 @@ def main():
             for key in ('reviewed','sources_ok','unverified'):
                 metrics[key] += stats[key]
             metrics['errors'].extend(stats['errors'])
-    discovery(config, client, today, jobs, metrics)
+    discovered = discovery(config, client, today, jobs, metrics)
+    new_sources = [s for s in discovered if (s['type'],s['slug']) not in configured]
+    metrics['new_employer_boards'] = 0
+    # Discover employers through the source network and verify their ATS endpoint
+    # before retaining them. The registry grows without a manually fixed company list.
+    for source in new_sources[:30]:
+        result, stats = collect_one(source)
+        jobs.extend(result)
+        for key in ('reviewed','sources_ok','unverified'):
+            metrics[key] += stats[key]
+        metrics['errors'].extend(stats['errors'])
+        if stats['sources_ok']:
+            registry.append(source)
+            metrics['new_employer_boards'] += 1
+    if len(new_sources) > 30:
+        metrics['errors'].append('New employer board verification capped at 30 per run')
+    save(ROOT / 'data/discovered.sources.json', registry)
     linkedin(config, client, today, jobs, metrics)
     if not metrics['sources_ok']:
         raise SystemExit('No official board was accessible; refusing to overwrite the dashboard with a misleading empty report')
