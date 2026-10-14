@@ -101,14 +101,17 @@ class CollectorTests(unittest.TestCase):
             self.assertEqual((root/'data/state.json').read_text(),'{"seen": {"existing": {}}}')
             self.assertTrue((root/'reports/2000-01-01.json').exists())
 
-    def test_california_has_priority_over_higher_match_elsewhere(self):
+    def test_match_has_priority_and_california_breaks_ties(self):
         california_job=job(99)
         california_job['location']='Los Angeles, California'
         california_job['description']=''
         other=job(100)
         other['description']='Agile QA delivery'
         chosen=select([other,california_job],{'seen':{}},[],TODAY,metrics(),{'skills':['Agile','QA','delivery']})
-        self.assertEqual(chosen[0]['id'],california_job['id'])
+        self.assertEqual(chosen[0]['id'],other['id'])
+        california_job['description']=other['description']
+        tied=select([other,california_job],{'seen':{}},[],TODAY,metrics(),{'skills':['Agile','QA','delivery']})
+        self.assertEqual(tied[0]['id'],california_job['id'])
 
     def test_amazon_declared_publication_date_and_identity(self):
         from jobfinder.bot import collect
