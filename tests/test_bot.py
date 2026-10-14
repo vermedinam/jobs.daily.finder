@@ -7,7 +7,7 @@ from jobfinder.bot import title_ok, local_date, schema_job, geography, select, c
 TODAY = date(2026, 10, 13)
 
 def job(i=1):
-    return dict(id=f'greenhouse:test:{i}', company='Test', title='Senior Program Manager', official_url=f'https://job-boards.greenhouse.io/test/jobs/{i}', description='Agile QA delivery', location='USA', posted='2026-10-13', salary='No publicado')
+    return dict(id=f'greenhouse:test:{i}', company='Test', title='Senior Program Manager', official_url=f'https://job-boards.greenhouse.io/test/jobs/{i}', description='Agile QA delivery', location='USA', posted='2026-10-13', salary='Not disclosed')
 
 def metrics():
     return dict(applied_excluded=0, seen_excluded=0, reviewed=0, sources_ok=0, unverified=0, errors=[])
@@ -128,17 +128,17 @@ class CollectorTests(unittest.TestCase):
 
     def test_work_mode_does_not_confuse_onboarding_or_events(self):
         from jobfinder.bot import work_mode
-        self.assertEqual(work_mode({'description':'Attend an in-person Day 1 onboarding.','location':'USA'})[0],'No especificado')
-        self.assertEqual(work_mode({'description':'Drive onsite preparation for sponsored events.','location':'USA'})[0],'No especificado')
-        self.assertEqual(work_mode({'description':'This role is hybrid, based out of Santa Clara.','location':'USA'})[0],'Híbrido')
-        self.assertEqual(work_mode({'description':'This position is US - Remote Eligible.','location':'USA'})[0],'Remoto')
-        self.assertEqual(work_mode({'description':'Required On-Site: This position is required to be performed full-time from a designated worksite.','location':'USA'})[0],'Presencial')
-        self.assertEqual(work_mode({'description':'#LI-ONSITE. This role will need to be in the office for in-person collaboration 1-2 times/week.','location':'Brazil'})[0],'Híbrido')
-        self.assertEqual(work_mode({'description':'','location':'USA'},'Hybrid')[0],'Híbrido')
+        self.assertEqual(work_mode({'description':'Attend an in-person Day 1 onboarding.','location':'USA'})[0],'Not specified')
+        self.assertEqual(work_mode({'description':'Drive onsite preparation for sponsored events.','location':'USA'})[0],'Not specified')
+        self.assertEqual(work_mode({'description':'This role is hybrid, based out of Santa Clara.','location':'USA'})[0],'Hybrid')
+        self.assertEqual(work_mode({'description':'This position is US - Remote Eligible.','location':'USA'})[0],'Remote')
+        self.assertEqual(work_mode({'description':'Required On-Site: This position is required to be performed full-time from a designated worksite.','location':'USA'})[0],'On-site')
+        self.assertEqual(work_mode({'description':'#LI-ONSITE. This role will need to be in the office for in-person collaboration 1-2 times/week.','location':'Brazil'})[0],'Hybrid')
+        self.assertEqual(work_mode({'description':'','location':'USA'},'Hybrid')[0],'Hybrid')
 
     def test_focus_aliases_and_iso_standard_are_specific(self):
         from jobfinder.bot import focus_matches,score
-        profile={'focus_categories':['Agile','OKRs','Operaciones','ISO 27001'],'require_focus':True}
+        profile={'focus_categories':['Agile','OKRs','Operations','ISO 27001'],'require_focus':True}
         candidate=job(200)
         candidate['description']='Scrum delivery, objectives and key results, business operations and ISO/IEC 27001:2022.'
         self.assertEqual(len(focus_matches(candidate,profile)[0]),4)
@@ -148,7 +148,7 @@ class CollectorTests(unittest.TestCase):
 
     def test_without_focus_is_excluded_without_marking_seen(self):
         from jobfinder.bot import select
-        profile={'focus_categories':['Agile','OKRs','Operaciones','ISO 27001'],'require_focus':True}
+        profile={'focus_categories':['Agile','OKRs','Operations','ISO 27001'],'require_focus':True}
         no_focus=job(201)
         no_focus['description']='Manage film budgets and deliverables.'
         with_focus=job(202)
@@ -159,6 +159,17 @@ class CollectorTests(unittest.TestCase):
         self.assertEqual([j['id'] for j in selected],[with_focus['id']])
         self.assertNotIn(no_focus['id'],state['seen'])
         self.assertEqual(stats['focus_excluded'],1)
-        self.assertEqual(selected[0]['focus_matches'],['OKRs','Operaciones'])
+        self.assertEqual(selected[0]['focus_matches'],['OKRs','Operations'])
+
+    def test_report_is_english_and_contains_encouragement(self):
+        from jobfinder.bot import report,ENCOURAGEMENT
+        from datetime import datetime,timezone
+        stats=metrics()
+        stats.update(linkedin_candidates=0,linkedin='Not run')
+        rendered=report(TODAY,[],stats,datetime.now(timezone.utc))
+        self.assertIn(ENCOURAGEMENT,rendered)
+        self.assertIn('Work arrangement',rendered)
+        self.assertNotIn('Vacantes',rendered)
+        self.assertNotIn('—',rendered)
 
 if __name__=='__main__': unittest.main()
