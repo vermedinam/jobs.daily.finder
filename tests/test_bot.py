@@ -110,4 +110,17 @@ class CollectorTests(unittest.TestCase):
         chosen=select([other,california_job],{'seen':{}},[],TODAY,metrics(),{'skills':['Agile','QA','delivery']})
         self.assertEqual(chosen[0]['id'],california_job['id'])
 
+    def test_amazon_declared_publication_date_and_identity(self):
+        from jobfinder.bot import collect
+        entry={'id_icims':'12345','title':'Senior Technical Program Manager','posted_date':'October 13, 2026','location':'US, CA, Sunnyvale','country_code':'USA','job_path':'/en/jobs/12345/senior-technical-program-manager','description':'Agile','preferred_qualifications':'USA, CA, Sunnyvale - 132,000.00 - 154,000.00 USD annually'}
+        class Fake:
+            def json(self,url): return {'hits':1,'jobs':[entry]}
+            def get(self,url): return 'Job 12345',url
+        result=collect({'boards':[{'type':'amazon','slug':'amazon','company':'Amazon'}]},Fake(),TODAY,metrics())
+        self.assertTrue(result)
+        self.assertEqual(result[0]['posted'],'October 13, 2026')
+        self.assertIn('132,000',result[0]['salary'])
+        entry['posted_date']='October 12, 2026'
+        self.assertEqual(collect({'boards':[{'type':'amazon','slug':'amazon','company':'Amazon'}]},Fake(),TODAY,metrics()),[])
+
 if __name__=='__main__': unittest.main()
