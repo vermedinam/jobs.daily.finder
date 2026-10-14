@@ -63,3 +63,7 @@ El último comando marca una vacante como aplicada; el ID y URL deben copiarse d
 Match es una puntuación reproducible de afinidad con el perfil configurado, **no una probabilidad de contratación**. Sin CV confirmado es provisional. No se rellenan salarios ausentes ni fechas no verificadas.
 
 Modalidad: remoto, híbrido o presencial únicamente cuando la fuente lo confirma; de lo contrario, No especificado.
+
+## Enfoque temático de búsqueda
+
+Se exige que el título o la descripción oficial mencionen al menos uno de estos temas: Agile (incluye Scrum, Kanban y sprints), OKRs (incluye Objectives and Key Results), operaciones o ISO 27001 (incluye ISO/IEC 27001). Los puestos sin coincidencia temática se excluyen. El reporte muestra los temas encontrados y fragmentos de evidencia. Match temático = 40 + 15 por tema encontrado, hasta 100; no representa una certificación, experiencia confirmada ni probabilidad de contratación. El match descendente ordena los resultados y California desempata. No se amplían las fechas para completar 20. Esta configuración se aplica a las próximas búsquedas; los reportes anteriores conservan el criterio con que fueron generados.
