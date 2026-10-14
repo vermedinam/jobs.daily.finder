@@ -194,6 +194,28 @@ def schema_job(page, url, today):
                 evidence_url=url, description=clean(item.get('description')), linkedin_url='')
 
 
+def work_mode(job, structured=None):
+    text = clean(html.unescape(job.get('description','')))
+    location = job.get('location','')
+    if structured in ('Hybrid','Remote','OnSite'):
+        return {'Hybrid':'Híbrido','Remote':'Remoto','OnSite':'Presencial'}[structured], 'Campo oficial workplaceType: ' + structured
+    # Explicit requirements take precedence over generic tags or event/onboarding references.
+    patterns = [
+        ('Híbrido', r'[^.]{0,100}(?:this role|this position|the role|position|role).{0,80}(?:hybrid|in.person collaboration 1.2 times/week)[^.]{0,180}'),
+        ('Remoto', r'[^.]{0,100}(?:this position|this role|the role).{0,80}(?:remote eligible|fully remote|100% remote|remote position)[^.]{0,180}'),
+        ('Presencial', r'[^.]{0,70}(?:required on.site|required to be performed full.time from|this (?:position|role) (?:is|will be|must be) (?:strictly |fully |100% )?(?:on.site|onsite|in.office))[^.]{0,180}')
+    ]
+    for label, pattern in patterns:
+        match = re.search(pattern, text, re.I)
+        if match:
+            return label, match.group(0).strip()
+    if re.search(r'on.site presence and requirements may change', text, re.I):
+        return 'No especificado', 'Se menciona presencia en sitio según necesidades del cliente; no se especifica una modalidad o frecuencia fija.'
+    if re.search(r'\bremote\b', location, re.I):
+        return 'Remoto disponible', 'La ubicación oficial incluye Remote; confirmar restricciones y otras modalidades con la empresa.'
+    return 'No especificado', 'La fuente consultada no confirma una modalidad para este puesto.'
+
+
 def score(job, profile):
     # This is an explainable relevance heuristic, not a hiring probability.
     terms = profile.get('skills', [])
@@ -266,7 +288,7 @@ def collect(config, client, today, metrics):
                     if re.search(r'job (?:is no longer|has been filled)|position (?:is no longer|has been filled)', clean(page), re.I):
                         continue
                     ranges = detail.get('pay_input_ranges', [])
-                    salary = '; '.join(f"{r['currency_type']} {r['min_cents']/100:,.0f}–{r['max_cents']/100:,.0f} ({r.get('title', 'intervalo no especificado')})" for r in ranges if all(r.get(k) is not None for k in ('currency_type', 'min_cents', 'max_cents'))) or 'No publicado'
+                    salary = '; '.join(f"{r['currency_type']} {r['min_cents']/100:,.0f}-{r['max_cents']/100:,.0f} ({r.get('title', 'intervalo no especificado')})" for r in ranges if all(r.get(k) is not None for k in ('currency_type', 'min_cents', 'max_cents'))) or 'No publicado'
                     jobs.append(dict(id=f'greenhouse:{source["slug"]}:{entry["id"]}', company=detail.get('company_name') or company,
                                      title=detail['title'], location=loc, salary=salary, official_url=final_url,
                                      posted=posted, date_evidence='Greenhouse.first_published', evidence_url=detail_url,
@@ -327,6 +349,7 @@ def collect(config, client, today, metrics):
                     if job:
                         job['id'] = 'ashby:' + source['slug'] + ':' + urlsplit(url).path.rstrip('/').split('/')[-1]
                         job['salary'] = entry.get('compensation', {}).get('scrapeableCompensationSalarySummary') or job['salary']
+                        job['work_mode'], job['work_mode_evidence'] = work_mode(job, entry.get('workplaceType'))
                         jobs.append(job)
             except Exception as exc:
                 metrics['unverified'] += 1
@@ -404,6 +427,8 @@ def select(jobs, state, applied, today, metrics, profile):
             continue
         state['seen'].setdefault(job['id'], {'url': url, 'first_seen': today.isoformat(), 'last_seen': today.isoformat()})
         state['seen'][job['id']]['last_seen'] = today.isoformat()
+        job.setdefault('work_mode', work_mode(job)[0])
+        job.setdefault('work_mode_evidence', work_mode(job)[1])
         job['match'], job['matched_skills'] = score(job, profile)
         if url in unique:
             if job.get('linkedin_url'):
@@ -423,13 +448,14 @@ def report(today, jobs, metrics, now):
         lines.append(f"- **{job['match']}% estimado** · {md(job['company'])} · [{md(job['title'])}](<{job['official_url']}>)")
     if not jobs:
         lines.append('No se encontraron vacantes que cumplan todos los criterios en las fuentes accesibles.')
-    lines += ['', '## Vacantes verificadas', '', '| Match estimado | Empresa / puesto | Ubicación | Salario | Fecha oficial | Aplicar | LinkedIn |', '|---|---|---|---|---|---|---|']
+    lines += ['', '## Vacantes verificadas', '', '| Match estimado | Empresa / puesto | Ubicación | Modalidad | Salario | Fecha oficial | Aplicar | LinkedIn |', '|---|---|---|---|---|---|---|---|']
     for job in jobs:
         linkedin_link = f"[LinkedIn](<{job['linkedin_url']}>)" if job.get('linkedin_url') else 'No disponible'
-        lines.append(f"| {job['match']}% | {md(job['company'])} / {md(job['title'])} | {md(job['location'])} | {md(job['salary'])} | {md(job['posted'])} | [Apply Now](<{job['official_url']}>) | {linkedin_link} |")
+        lines.append(f"| {job['match']}% | {md(job['company'])} / {md(job['title'])} | {md(job['location'])} | {md(job.get('work_mode', 'No especificado'))} | {md(job['salary'])} | {md(job['posted'])} | [Apply Now](<{job['official_url']}>) | {linkedin_link} |")
     lines += ['', '## Evidencia y razones', '', 'Match = afinidad orientativa, no probabilidad de contratación. Base 60; +10 por Senior; hasta +30 por habilidades configuradas presentes en la descripción. Sin CV confirmado, el perfil es provisional.', '']
     for job in jobs:
         lines += [f"### {md(job['company'])} · {md(job['title'])}", '', f"- Job ID: {md(job['id'])}", '- Estado: Not Applied',
+                  f"- Modalidad: {md(job.get('work_mode', 'No especificado'))}. {md(job.get('work_mode_evidence', ''))}",
                   f"- Fecha: {md(job['posted'])}, convertida al día de California cuando tiene zona horaria.",
                   f"- Evidencia: [{md(job['date_evidence'])}](<{job['evidence_url']}>)",
                   f"- Afinidad: título solicitado; ubicación admitida; habilidades coincidentes: {md(', '.join(job['matched_skills']) or 'ninguna configurada')}.", '']
