@@ -10,15 +10,15 @@ Ubicación: USA, México o remoto. Para remoto sin restricciones explícitas se 
 
 ## Dashboard · 2026-10-14
 
-Verificado: 2026-10-14T00:03:50.966155-07:00 · America/Los_Angeles.
+Verificado: 2026-10-14T00:21:05.006592-07:00 · America/Los_Angeles.
 
 Hasta 20 vacantes con fecha oficial del día. Un reporte vacío es válido. No es una búsqueda exhaustiva.
 
 Revisadas: 3488 · Recomendadas: 0 · Aplicadas excluidas: 0 · Vistas anteriormente: 0 · Sin verificar: 0
 
-Fuentes accesibles: 13 · Candidatas LinkedIn: 18
+Fuentes accesibles: 13 · Candidatas LinkedIn: 0
 
-LinkedIn: Acceso público disponible: 14 búsquedas; fechas verificadas únicamente en fuentes oficiales
+LinkedIn: Acceso público limitado (HTTPError); sin evasión ni login
 
 ## Top 5
 
