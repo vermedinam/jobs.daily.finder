@@ -18,7 +18,9 @@
     "www.riotgames.com",
     "www.roblox.com",
     "www.take2games.com",
-    "www.unity.com"
+    "www.unity.com",
+    "www.amazon.jobs",
+    "amazon.jobs"
   ],
   "boards": [
     {
@@ -730,6 +732,11 @@
       "type": "smartrecruiters",
       "slug": "WesternDigital",
       "company": "WesternDigital"
+    },
+    {
+      "type": "amazon",
+      "slug": "amazon",
+      "company": "Amazon"
     }
   ]
 }
