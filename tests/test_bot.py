@@ -49,11 +49,11 @@ class CollectorTests(unittest.TestCase):
         candidates=[job(i) for i in range(30)]+[job(5)]
         applied=[{'id':job(0)['id']},{'official_url':job(1)['official_url']}]
         result=select(candidates,state,applied,TODAY,metrics(),{'skills':['Agile','QA']})
-        self.assertEqual(len(result),20)
-        self.assertEqual(len({x['official_url'] for x in result}),20)
+        self.assertEqual(len(result),28)
+        self.assertEqual(len({x['official_url'] for x in result}),28)
         self.assertNotIn(job(0)['id'],[x['id'] for x in result])
         self.assertNotIn(job(1)['id'],[x['id'] for x in result])
-        self.assertEqual(len(select(copy.deepcopy(candidates),state,applied,TODAY,metrics(),{'skills':[]})),20)
+        self.assertEqual(len(select(copy.deepcopy(candidates),state,applied,TODAY,metrics(),{'skills':[]})),28)
         # Applied rows were never marked seen; still exclude them tomorrow.
         self.assertEqual(select(candidates,state,applied,date(2026,10,14),metrics(),{'skills':[]}),[])
     def test_url_identity_and_output_escaping(self):
@@ -171,5 +171,22 @@ class CollectorTests(unittest.TestCase):
         self.assertIn('Work arrangement',rendered)
         self.assertNotIn('Vacantes',rendered)
         self.assertNotIn('—',rendered)
+
+    def test_spain_and_mexico_are_in_scope(self):
+        self.assertTrue(geography('Madrid, Spain',['ES']))
+        self.assertTrue(geography('Barcelona'))
+        self.assertTrue(geography('CDMX'))
+        self.assertTrue(geography('Mexico City',['MEX']))
+        self.assertFalse(geography('London, UK',['GB']))
+
+    def test_regional_candidates_are_not_crowded_out_by_us_results(self):
+        candidates=[job(i) for i in range(40)]
+        mexico=job(1001);mexico['location']='Mexico City, MX';mexico['description']=''
+        spain=job(1002);spain['location']='Madrid, Spain';spain['description']=''
+        chosen=select(candidates+[mexico,spain],{'seen':{}},[],TODAY,metrics(),{'skills':['Agile']})
+        self.assertEqual(len(chosen),30)
+        self.assertIn(mexico['id'],[j['id'] for j in chosen])
+        self.assertIn(spain['id'],[j['id'] for j in chosen])
+        self.assertEqual([j['match'] for j in chosen],sorted([j['match'] for j in chosen],reverse=True))
 
 if __name__=='__main__': unittest.main()
