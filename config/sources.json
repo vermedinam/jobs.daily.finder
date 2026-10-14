@@ -1,0 +1,86 @@
+{
+  "linkedin_public": true,
+  "official_hosts": [
+    "boards.greenhouse.io",
+    "job-boards.greenhouse.io",
+    "jobs.ashbyhq.com",
+    "www.riotgames.com",
+    "careers.riotgames.com",
+    "www.roblox.com",
+    "careers.roblox.com",
+    "www.take2games.com",
+    "careers.unity.com",
+    "www.unity.com",
+    "unity.com",
+    "careers.take2games.com",
+    "openai.com",
+    "www.openai.com"
+  ],
+  "boards": [
+    {
+      "type": "greenhouse",
+      "slug": "riotgames",
+      "company": "Riot Games"
+    },
+    {
+      "type": "greenhouse",
+      "slug": "roblox",
+      "company": "Roblox"
+    },
+    {
+      "type": "greenhouse",
+      "slug": "discord",
+      "company": "Discord"
+    },
+    {
+      "type": "greenhouse",
+      "slug": "taketwo",
+      "company": "Take-Two Interactive"
+    },
+    {
+      "type": "greenhouse",
+      "slug": "2k",
+      "company": "2K"
+    },
+    {
+      "type": "greenhouse",
+      "slug": "bungie",
+      "company": "Bungie"
+    },
+    {
+      "type": "greenhouse",
+      "slug": "cloudflare",
+      "company": "Cloudflare"
+    },
+    {
+      "type": "greenhouse",
+      "slug": "datadog",
+      "company": "Datadog"
+    },
+    {
+      "type": "greenhouse",
+      "slug": "stripe",
+      "company": "Stripe"
+    },
+    {
+      "type": "greenhouse",
+      "slug": "airbnb",
+      "company": "Airbnb"
+    },
+    {
+      "type": "ashby",
+      "slug": "openai",
+      "company": "OpenAI"
+    },
+    {
+      "type": "ashby",
+      "slug": "notion",
+      "company": "Notion"
+    },
+    {
+      "type": "ashby",
+      "slug": "ramp",
+      "company": "Ramp"
+    }
+  ]
+}

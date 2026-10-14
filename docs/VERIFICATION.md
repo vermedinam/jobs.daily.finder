@@ -1,0 +1,20 @@
+# Verificación y cobertura
+
+La fecha de referencia es el día local en America/Los_Angeles al comenzar el run. Timestamps ISO con offset se convierten a California; una fecha ISO sin hora se conserva tal como la declara la fuente. Timestamps sin zona, fechas relativas, fechas ausentes y fechas de actualización no son evidencia de publicación.
+
+Greenhouse: descubre mediante listado público, consulta el detalle oficial y requiere `first_published` del día. Nunca utiliza `updated_at`. Verifica disponibilidad del enlace y que la página/destino contenga el ID de la vacante; una página genérica sin identidad comprobable se excluye. Salario: `pay_input_ranges` con `pay_transparency=true`.
+
+Ashby: descubre mediante API pública, requiere `isListed` y verifica `JobPosting.datePosted` en la página oficial. **`publishedAt` significa última publicación**, por lo que no se utiliza para afirmar publicación original hoy. Sin datos estructurados verificables, queda fuera. Su salario solo se toma de datos oficiales. El resultado puede ser cero aun cuando el ATS tenga vacantes.
+
+LinkedIn: intenta búsquedas públicas por cada título en Estados Unidos y México con filtro de últimas 24 horas. Este filtro solo sirve para descubrir, no verifica una fecha. Si hay bloqueo, 401/403 o error, deja de consultar y lo informa, sin login, cookies, proxy ni evasión. Los enlaces se adjuntan por coincidencia exacta empresa/título con una vacante oficial ya verificada. También inspecciona enlaces oficiales públicos visibles en la ficha: solo se admite una página con un único `JobPosting`, fecha del día, empresa y título coincidentes. LinkedIn puede ocultar esos enlaces o requerir JavaScript; tales candidatas no se incluyen sin evidencia oficial. La búsqueda pública es limitada a la primera página por título/país, no exhaustiva.
+
+Cada recomendación incluye URL oficial directo, timestamp/fecha original, fuente de evidencia, ubicación, salario o “No publicado”, ID, match y vínculo LinkedIn cuando se encuentra. HTTP 200 no garantiza aceptación de solicitudes: se valida identidad y señales explícitas de cierre; las discrepancias requieren revisión humana. No se garantiza detectar todas las formas de cierre.
+
+Los errores parciales se guardan en el reporte; si ningún tablero oficial funciona, el workflow falla y conserva el dashboard anterior. Consultar su fecha para no confundirlo con un reporte nuevo. No genera vacantes ficticias para llegar a 20.
+
+## Referencias oficiales
+
+- [Greenhouse Job Board API](https://docs.greenhouse.io/job-board.html)
+- [Ashby Public Job Posting API](https://developers.ashbyhq.com/docs/public-job-posting-api)
+- [GitHub Actions timezone support](https://github.blog/changelog/2026-03-19-github-actions-late-march-2026-updates/)
+- [GitHub workflow schedule](https://docs.github.com/en/actions/reference/workflows-and-actions/events-that-trigger-workflows#schedule)
