@@ -1,15 +1,644 @@
 {
   "date": "2026-10-14",
-  "verified_at": "2026-10-14T00:21:05.006592-07:00",
+  "verified_at": "2026-10-14T16:42:52.746496-07:00",
   "metrics": {
-    "reviewed": 3488,
-    "sources_ok": 13,
+    "reviewed": 60866,
+    "sources_ok": 276,
     "unverified": 0,
     "applied_excluded": 0,
     "seen_excluded": 0,
-    "linkedin_candidates": 0,
-    "linkedin": "Public access limited (HTTPError); no bypass or login attempted",
-    "errors": []
+    "linkedin_candidates": 107,
+    "linkedin": "Public access available: 42 searches; publication dates verified only against official sources",
+    "errors": [
+      "wiz: HTTPError",
+      "yelp: HTTPError",
+      "contentsquare: HTTPError",
+      "factorialhr: HTTPError",
+      "factorial: HTTPError",
+      "travelperk: HTTPError",
+      "jobandtalent: HTTPError",
+      "glovo: HTTPError",
+      "bookingcom: HTTPError",
+      "expediagroup: HTTPError",
+      "cimpress: HTTPError",
+      "vistaprint: HTTPError",
+      "softtek: HTTPError",
+      "agileengine: HTTPError",
+      "konfio: HTTPError",
+      "clipmx: HTTPError",
+      "kueski: HTTPError",
+      "klar: HTTPError",
+      "yalo: HTTPError",
+      "nowports: HTTPError",
+      "remitly: HTTPError",
+      "payjoy: HTTPError",
+      "tala: HTTPError",
+      "openpay: HTTPError",
+      "global66: HTTPError",
+      "habi: HTTPError",
+      "truora: HTTPError",
+      "platzi: HTTPError",
+      "clara: HTTPError",
+      "bitso: HTTPError",
+      "stori: HTTPError",
+      "mendel: HTTPError",
+      "factorial: HTTPError",
+      "lodgify: HTTPError",
+      "secretsource: HTTPError",
+      "sastrify: HTTPError",
+      "safetywing: HTTPError",
+      "jobgether: HTTPError",
+      "lemonio: HTTPError",
+      "nearsure: HTTPError",
+      "crunchyroll: HTTPError",
+      "amdocs: HTTPError",
+      "slalom: HTTPError",
+      "slalombuild: HTTPError",
+      "cprime: HTTPError",
+      "avature: HTTPError",
+      "guidewire: HTTPError",
+      "netsuite: HTTPError",
+      "eon: HTTPError",
+      "epamanywhere: HTTPError",
+      "akamai: HTTPError",
+      "thoughtmachine: HTTPError",
+      "checkoutcom: HTTPError",
+      "flywire: HTTPError",
+      "Prospanica: https://jobs.prospanica.org/home/index.cfm: HTTP Error 403: Forbidden",
+      "Lean In Latinas: No supported role links in public HTML; dynamic or member-only results may be unavailable",
+      "Welcome to the Jungle: No supported role links in public HTML; dynamic or member-only results may be unavailable",
+      "Biocom Career Hub: No supported role links in public HTML; dynamic or member-only results may be unavailable",
+      "WelbeHealth official careers: No supported role links in public HTML; dynamic or member-only results may be unavailable",
+      "thatgamecompany official careers: https://thatgamecompany.com/company/jobs/: Only public HTTPS URLs are allowed",
+      "Turtle Rock Studios official careers: No supported role links in public HTML; dynamic or member-only results may be unavailable",
+      "HLPA: https://jobs.hlpa.com/employment/search.aspx: HTTP Error 406: Not Acceptable",
+      "SHPE: https://careercenter.shpe.org/: HTTP Error 403: Forbidden",
+      "Techqueria: No supported role links in public HTML; dynamic or member-only results may be unavailable",
+      "Latinx in Tech Career Center: No supported role links in public HTML; dynamic or member-only results may be unavailable",
+      "PowerToFly: No supported role links in public HTML; dynamic or member-only results may be unavailable",
+      "Women Who Design: No supported role links in public HTML; dynamic or member-only results may be unavailable",
+      "Women in Games International: No supported role links in public HTML; dynamic or member-only results may be unavailable",
+      "Y Combinator California: No supported role links in public HTML; dynamic or member-only results may be unavailable",
+      "Games Jobs Direct: https://www.gamesjobsdirect.com/search: HTTP Error 406: Not Acceptable",
+      "Bloks: No supported role links in public HTML; dynamic or member-only results may be unavailable",
+      "ASGC Games Jobs: No supported role links in public HTML; dynamic or member-only results may be unavailable",
+      "BioSpace California: No supported role links in public HTML; dynamic or member-only results may be unavailable",
+      "BioTalent: No supported role links in public HTML; dynamic or member-only results may be unavailable",
+      "Manfred Spain: No supported role links in public HTML; dynamic or member-only results may be unavailable",
+      "Jobgether: https://jobgether.com/remote-jobs/program-manager: HTTP Error 403: Forbidden"
+    ],
+    "discovery": [
+      {
+        "source": "Prospanica",
+        "category": "Latino and professional associations",
+        "pages": 0,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "https://jobs.prospanica.org/home/index.cfm: HTTP Error 403: Forbidden"
+        ]
+      },
+      {
+        "source": "HOPE - Hispanas Organized for Political Equality",
+        "category": "Latino and professional associations",
+        "pages": 1,
+        "candidates": 1,
+        "verified": 0,
+        "issues": []
+      },
+      {
+        "source": "Lean In Latinas",
+        "category": "Latino and professional associations",
+        "pages": 1,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "No supported role links in public HTML; dynamic or member-only results may be unavailable"
+        ]
+      },
+      {
+        "source": "Built In San Francisco",
+        "category": "Regional technology and startups",
+        "pages": 3,
+        "candidates": 23,
+        "verified": 0,
+        "issues": []
+      },
+      {
+        "source": "Hitmarker",
+        "category": "Games and entertainment",
+        "pages": 3,
+        "candidates": 1,
+        "verified": 0,
+        "issues": []
+      },
+      {
+        "source": "Welcome to the Jungle",
+        "category": "Regional technology and startups",
+        "pages": 4,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "No supported role links in public HTML; dynamic or member-only results may be unavailable"
+        ]
+      },
+      {
+        "source": "Biocom Career Hub",
+        "category": "Life sciences",
+        "pages": 1,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "No supported role links in public HTML; dynamic or member-only results may be unavailable"
+        ]
+      },
+      {
+        "source": "WelbeHealth official careers",
+        "category": "Company careers",
+        "pages": 1,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "No supported role links in public HTML; dynamic or member-only results may be unavailable"
+        ]
+      },
+      {
+        "source": "Branch official careers",
+        "category": "Company careers",
+        "pages": 1,
+        "candidates": 13,
+        "verified": 0,
+        "issues": []
+      },
+      {
+        "source": "thatgamecompany official careers",
+        "category": "Company careers",
+        "pages": 0,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "https://thatgamecompany.com/company/jobs/: Only public HTTPS URLs are allowed"
+        ]
+      },
+      {
+        "source": "Turtle Rock Studios official careers",
+        "category": "Company careers",
+        "pages": 1,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "No supported role links in public HTML; dynamic or member-only results may be unavailable"
+        ]
+      },
+      {
+        "source": "HLPA",
+        "category": "Latino and professional associations",
+        "pages": 0,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "https://jobs.hlpa.com/employment/search.aspx: HTTP Error 406: Not Acceptable"
+        ]
+      },
+      {
+        "source": "SHPE",
+        "category": "Latino and professional associations",
+        "pages": 0,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "https://careercenter.shpe.org/: HTTP Error 403: Forbidden"
+        ]
+      },
+      {
+        "source": "Techqueria",
+        "category": "Latino and professional associations",
+        "pages": 1,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "No supported role links in public HTML; dynamic or member-only results may be unavailable"
+        ]
+      },
+      {
+        "source": "Latinx in Tech Career Center",
+        "category": "Latino and professional associations",
+        "pages": 1,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "No supported role links in public HTML; dynamic or member-only results may be unavailable"
+        ]
+      },
+      {
+        "source": "PowerToFly",
+        "category": "Women and inclusive career networks",
+        "pages": 1,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "No supported role links in public HTML; dynamic or member-only results may be unavailable"
+        ]
+      },
+      {
+        "source": "Women Who Design",
+        "category": "Women and inclusive career networks",
+        "pages": 1,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "No supported role links in public HTML; dynamic or member-only results may be unavailable"
+        ]
+      },
+      {
+        "source": "Women in Games International",
+        "category": "Women and inclusive career networks",
+        "pages": 1,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "No supported role links in public HTML; dynamic or member-only results may be unavailable"
+        ]
+      },
+      {
+        "source": "Started by Women",
+        "category": "Women and inclusive career networks",
+        "pages": 1,
+        "candidates": 6,
+        "verified": 0,
+        "issues": []
+      },
+      {
+        "source": "Wellfound California",
+        "category": "Regional technology and startups",
+        "pages": 1,
+        "candidates": 1,
+        "verified": 0,
+        "issues": []
+      },
+      {
+        "source": "Y Combinator California",
+        "category": "Regional technology and startups",
+        "pages": 1,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "No supported role links in public HTML; dynamic or member-only results may be unavailable"
+        ]
+      },
+      {
+        "source": "Games Jobs Direct",
+        "category": "Games and entertainment",
+        "pages": 0,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "https://www.gamesjobsdirect.com/search: HTTP Error 406: Not Acceptable"
+        ]
+      },
+      {
+        "source": "Bloks",
+        "category": "Games and entertainment",
+        "pages": 1,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "No supported role links in public HTML; dynamic or member-only results may be unavailable"
+        ]
+      },
+      {
+        "source": "Gaming Industry Job Tracker",
+        "category": "Games and entertainment",
+        "pages": 1,
+        "candidates": 1,
+        "verified": 0,
+        "issues": []
+      },
+      {
+        "source": "ASGC Games Jobs",
+        "category": "Games and entertainment",
+        "pages": 1,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "No supported role links in public HTML; dynamic or member-only results may be unavailable"
+        ]
+      },
+      {
+        "source": "BioSpace California",
+        "category": "Life sciences",
+        "pages": 1,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "No supported role links in public HTML; dynamic or member-only results may be unavailable"
+        ]
+      },
+      {
+        "source": "BioTalent",
+        "category": "Life sciences",
+        "pages": 1,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "No supported role links in public HTML; dynamic or member-only results may be unavailable"
+        ]
+      },
+      {
+        "source": "Manfred Spain",
+        "category": "Remote and international",
+        "pages": 1,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "No supported role links in public HTML; dynamic or member-only results may be unavailable"
+        ]
+      },
+      {
+        "source": "Wellfound Remote",
+        "category": "Remote and international",
+        "pages": 1,
+        "candidates": 31,
+        "verified": 0,
+        "issues": []
+      },
+      {
+        "source": "Jobgether",
+        "category": "Remote and international",
+        "pages": 0,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "https://jobgether.com/remote-jobs/program-manager: HTTP Error 403: Forbidden"
+        ]
+      },
+      {
+        "source": "Remotely",
+        "category": "Remote and international",
+        "pages": 1,
+        "candidates": 7,
+        "verified": 0,
+        "issues": []
+      }
+    ],
+    "new_employer_boards": 0,
+    "focus_excluded": 6,
+    "mexico_verified_candidates": 0,
+    "spain_verified_candidates": 1
   },
-  "jobs": []
+  "jobs": [
+    {
+      "id": "smartrecruiters:SGS:744000155519660",
+      "company": "SGS",
+      "title": "IT Service Delivery Manager",
+      "location": "Madrid, MD, es",
+      "salary": "Not disclosed",
+      "official_url": "https://jobs.smartrecruiters.com/SGS/744000155519660-it-service-delivery-manager",
+      "posted": "2026-10-14T13:48:32.576Z",
+      "date_evidence": "SmartRecruiters.releasedDate (release; may be a repost)",
+      "evidence_url": "https://api.smartrecruiters.com/v1/companies/SGS/postings/744000155519660",
+      "description": "SGS is the world’s leading Testing, Inspection and Certification company. We operate a network of over 2,500 laboratories and business facilities across 115 countries , supported by a team of over 100,000 dedicated professionals . With more than 145 years of service excellence , we combine the precision and accuracy that define Swiss companies to help organizations achieve t he highest standards of quality, compliance and sustainability. Our brand promise – “when you need to be sure” – underscores our commitment to trust, integrity and reliability , enabling businesses to thrive with confidence . We proudly deliver our expert services through the SGS name and a portfolio of trusted specialized brands , including Applied Technical Services , Brightsight , Bluesign and Nutrasource . We are looking for an experienced IT Service Delivery Manager to lead the end-to-end delivery and management of custom applications across SDLC . You will lead multidisciplinary technical teams, connecting business priorities with application development, maintenance and operations. The role requires strong service management and Agile delivery capabilities, together with sufficient technical knowledge to contribute effectively to application, architecture and production discussions. You will manage key stakeholders, follow up on delivery commitments and improvement actions, and provide regular service status reports covering performance, progress, risks, issues and KPIs. This is not a purely administrative role. You will have overall ownership of the services under your responsibility, including delivery, quality, application stability, risk management and continuous improvement. Key Responsibilities Manage the end-to-end lifecycle of custom applications across SDLC . Lead multidisciplinary teams, including Developers, Architects, QA Engineers and Business Analysts. Manage roadmaps, backlogs, releases, capacity, dependencies and delivery commitments. Ensure application stability, quality and compliance with agreed SLAs and KPIs. Oversee incidents, problem management, production transitions and service improvement actions. Manage stakeholders, ensuring clear communication, alignment and effective follow-up. Prepare and present regular service status reports covering performance, progress, risks, issues and KPIs. Collaborate with Business, Product, Architecture, Security and Operations teams. Promote Agile ways of working while maintaining effective IT service management and governance. Monitor technical debt, obsolescence, performance, security and operational risks. Bachelor’s degree in IT, Computer Science or related field. Understanding of Agile methodologies Solid knowledge of project management & service delivery Excellent communication skills Proven ability to influence and engage stakeholders at all levels Strong understanding of the full Software Development Life Cycle (SDLC), from requirements and design through deployment, support, and continuous improvement. Proven experience leading cross-functional technical teams, including Engineering, QA, Architecture and Application Support. Ability to engage with engineering teams, manage technical dependencies, and translate risks into business impact. Nice to Have Bachelor's degree in Engineering, Computer Science, Information Technology or a related discipline. Experience in implementation and optimization of Microsoft Dynamics 365 (D365) environment, especially Field Services. Previous hands-on experience in software engineering, application development or a related technical field. Technical background in application development Experience with ServiceNow and Azure DevOps ITIL4 Certification Why SGS? Join a globally recognized and stable company, a leader in the Testing, Inspection, and Certification (TIC) industry. Enjoy a flexible schedule and hybrid work model Access continuous learning opportunities through SGS University and Campus. Collaborate in a multinational environment with colleagues from various continents. Benefit from a comprehensive benefits platform. Apply Now : At SGS, we are committed to fostering an open, friendly, and supportive culture that thrives on teamwork. We value diversity and provide endless opportunities to learn, grow your expertise, and fulfill your potential. Apply now to join our motivated and dynamic team!",
+      "linkedin_url": "",
+      "focus_matches": [
+        "Agile",
+        "Operations"
+      ],
+      "focus_evidence": {
+        "Agile": "operations. The role requires strong service management and Agile delivery capabilities, together with sufficient technical knowledge to contribute effectively to ap",
+        "Operations": "ss priorities with application development, maintenance and operations. The role requires strong service management and Agile delivery capabilities, together with suffici"
+      },
+      "work_mode": "Not specified",
+      "work_mode_evidence": "The reviewed official source does not confirm the work arrangement for this role.",
+      "match": 70,
+      "matched_skills": [
+        "Agile",
+        "Operations"
+      ]
+    },
+    {
+      "id": "amazon:10579095",
+      "company": "Amazon",
+      "title": "Data Center Infrastructure Delivery Manager , ID",
+      "location": "US, GA, Hampton",
+      "salary": "USA, GA, Hampton - 107,700.00 - 188,500.00 USD annually; USA, GA, JACKSON - 107,700.00 - 188,500.00 USD annually",
+      "official_url": "https://www.amazon.jobs/en/jobs/10579095/data-center-infrastructure-delivery-manager-id",
+      "posted": "October 14, 2026",
+      "date_evidence": "Amazon Jobs.posted_date (declared date without timezone)",
+      "evidence_url": "https://www.amazon.jobs/en/search.json?base_query=10579095",
+      "description": "Amazon Web Services is a fast-paced technology company and a leader in the world of Data Centers. We are looking for proven Data Center Technology Manager with solid experience in people management and scaling teams. The DCO Area Manager will drive the vision for the Data Center Operations within the region. We are looking for an inspiring leader capable to drive experienced managers. The ideal candidate would have a background in IT Infrastructure, Data Centers or worked for the industrial manufacturing domain (aircraft, automobiles, consumer electronics, heavy machinery... list not exhaustive) or Military. The company's infrastructure consists of various custom built and off-the-shelf applications operating on a variety of platforms and other major technologies. The successful candidate will have experience managing a team of 70+ people on a 24/7 rotating shift across multiple Data Centers in central Ohio. You should be familiar with Problem Change & Incident Management, creating & tracking expenditure, continuously design and implement new mechanisms. The role includes mentoring, developing and growing people in all levels, supporting Infrastructure projects and proposing technical solutions that are scalable. Key job responsibilities - Team management of experienced Data Center Managers leading Data Center Technicians. This includes recruitment / people development through coaching and mentoring / performance review / rotation management. - Define the strategy to improve the efficiency and productivity of day to day 24x7 Datacenter Operations. - Manage and continuously Improve the workflows, processes and throughput for data Centers Operations. - Manage effectively the global yearly operating budget: CAPEX (technical equipment, infrastructure development), OPEX (cost of personnel, service provision, consumables and team events) - Ensure all operational KPIs and Metrics are consistent, being measured and met inside AWS Data Centers. - Drive innovation and automation within Data Center Operations. - Challenge the quality and quantity of services being provided by the Data Center Operations team and continuously strive to improve our Customer Experience. - Management of large-scale events in the Datacenters (crisis situations: thermal or power events, networking issues, etc..) - Manage Vendor performance. - Ensure Data Centers are compliant with all relevant security policies and procedures. - 5+ years of management/team lead function experience - 4+ years of experience in a data center technology role and/or 4+ years of knowledge in TCP/IP networking, network cabling, fiber, optic types, and test equipment - certification in a relevant field (CCENT - Cisco Certified Entry Networking Technician, Network+, or CCNA - Cisco Certified Network Associate), or A+ or CND (Certified Network Defender) or Network+ or Security+ - Work flexible schedule including weekends, nights, and holidays - Bachelor's degree or equivalent professional or military experience in an IT-related field (e.g. computer science, network engineering, etc.) - Understanding of networking infrastructure topology - Behavioral interviewing and hiring experience - Experience with fiber optic and copper cabling standards, testing equipment & troubleshooting methodologies - Experience contributing to the definition and implementation of automation opportunities within an operations environment Amazon is an equal opportunity employer and does not discriminate on the basis of protected veteran status, disability, or other legally protected status. Our inclusive culture empowers Amazonians to deliver the best results for our customers. If you have a disability and need a workplace accommodation or adjustment during the application and hiring process, including support for the interview or onboarding process, please visit https://amazon.jobs/content/en/how-we-hire/accommodations for more information. If the country/region you’re applying in isn’t listed, please contact your Recruiting Partner. The base salary range for this position is listed below. Your Amazon package will include sign-on payments and restricted stock units (RSUs). Final compensation will be determined based on factors including experience, qualifications, and location. Amazon also offers comprehensive benefits including health insurance (medical, dental, vision, prescription, Basic Life & AD&D insurance and option for Supplemental life plans, EAP, Mental Health Support, Medical Advice Line, Flexible Spending Accounts, Adoption and Surrogacy Reimbursement coverage), 401(k) matching, paid time off, and parental leave. Learn more about our benefits at https://amazon.jobs/en/benefits . USA, GA, Hampton - 107,700.00 - 188,500.00 USD annually USA, GA, JACKSON - 107,700.00 - 188,500.00 USD annually",
+      "linkedin_url": "",
+      "focus_matches": [
+        "Operations"
+      ],
+      "focus_evidence": {
+        "Operations": " DCO Area Manager will drive the vision for the Data Center Operations within the region. We are looking for an inspiring leader capable to drive experienced managers. Th"
+      },
+      "work_mode": "Not specified",
+      "work_mode_evidence": "The reviewed official source does not confirm the work arrangement for this role.",
+      "match": 55,
+      "matched_skills": [
+        "Operations"
+      ]
+    },
+    {
+      "id": "amazon:10579238",
+      "company": "Amazon",
+      "title": "Food Safety Program Manager II, WWGS Retail Food Safety",
+      "location": "US, TX, Austin",
+      "salary": "USA, CA, Irvine - 74,200.00 - 129,800.00 USD annually; USA, CA, Pasadena - 74,200.00 - 129,800.00 USD annually; USA, CO, Denver - 74,200.00 - 129,800.00 USD annually; USA, FL, FORT LAUDERDALE - 74,200.00 - 129,800.00 USD annually; USA, GA, Atlanta - 74,200.00 - 129,800.00 USD annually; USA, IL, Chicago - 74,200.00 - 129,800.00 USD annually; USA, NJ, JERSEY CITY - 81,600.00 - 142,800.00 USD annually; USA, TX, Austin - 74,200.00 - 129,800.00 USD annually; USA, VA, Arlington - 74,200.00 - 129,800.00 USD annually; USA, WA, Seattle - 82,700.00 - 129,800.00 USD annually",
+      "official_url": "https://www.amazon.jobs/en/jobs/10579238/food-safety-program-manager-ii-wwgs-retail-food-safety",
+      "posted": "October 14, 2026",
+      "date_evidence": "Amazon Jobs.posted_date (declared date without timezone)",
+      "evidence_url": "https://www.amazon.jobs/en/search.json?base_query=10579238",
+      "description": "Application deadline: Oct 19, 2026 A typical day centers on keeping the Food Safety Audits programs running smoothly and the 3P auditor relationship healthy and productive. The Program Manager II leads the Worldwide Grocery Stores retail food safety audit program, partnering with a third party audit vendor, food safety analysts, store leadership, and cross functional stakeholders to ensure compliance with FDA Food Code. Key job responsibilities The role requires a results-oriented, analytical, customer-service approach to manage the audit program, measure progress, and drive risk management and compliance outcomes. •Manage the day-to-day execution of the Food Safety Audits programs, including the 3P Food Safety audit cycle — scheduling, coverage, standards alignment, and data integrity; works on one or more projects and may own a program. •Own accountability to the 3P Food Safety Auditor’s KPI scorecard; monitor audit completion, on-time delivery, scoring consistency, and finding-closure metrics, and act to keep them on target. •Manage the relationship with the 3P audit provider — align on audit standards and expectations, resolve data and scoring discrepancies, and hold the provider to KPI commitments. •Analyze and trend large audit data sets from internal and external audits to identify emerging Food Safety risks, recurring violations, and improvement opportunities. •Verify Food Safety policy and the FDA Food Code are correctly reflected in audit standards, checklists, and scoring criteria. •Support Food Safety escalations arising from audits; track corrective and preventive actions to closure with Operations stakeholders. •Optimize audit procedures, processes, and best practices to improve efficiency, data quality, and reporting cycle time. •Anticipate near-term bottlenecks in the audit program; identify, track, and mitigate immediate issues and risks, escalating when appropriate. •Write and publish audit performance and trend content for WWGS Business Reviews; convey findings and recommendations clearly to stakeholders. •Collaborate with AMZ & WFM stakeholders to align audit processes with Food Safety policy and Operations needs. •Stay informed of FDA Food Code updates, regulatory publications, and industry audit benchmarks, and apply them to the audit program. •Begin to mentor peers and new team members on audit standards, data analysis, and the FDA Food Code. •Make trade-offs across time, quality, and resources to deliver reliable audit outcomes; decide when to resolve independently versus escalate. A day in the life Day-to-day responsibilities include: •Data governance of internal and third-party audits for stores across the US, Canada, and UK •Data analysis to identify process gaps and resolution •Maintaining relevant metrics for a food safety scorecard that measures each store's food safety performance •Reviewing and resolving clarifications •Monitor vendor performance through a KPI scorecard •Ownership of food safety self-audit questions and data •Creation and publishing of monthly and ad-hoc content for food safety culture (Food Safety Empowerment Teams) About the team The Retail Food Safety team supports stores and company facilities with Food Safety policy, mechanisms to efficiently embed Food Safety in store processes, and a means to measure compliance. We bridge Food Safety to cross-functional stakeholders including Operations, Merchandising, Facilities, Procurement, and Leadership. - 3+ years of program or project management experience - Experience working cross functionally with tech and non-tech teams - 3+ years of defining and implementing process improvement initiatives using data and metrics experience - Knowledge of Excel at an intermediate level (e.g., pivot tables & charts, multiple criteria lookups, nested logical/IF formulas, data cleansing, array formulas, etc.) - Experience using data and metrics to determine and drive improvements - 5+ years of managing food safety and quality in a large-scale retail or manufacturing environment experience - Bachelor's degree or equivalent - Travel up to 25% of the time - CP-FS (Certified Professional – Food Safety) certification, or a comparable Food Safety professional certification. - Expertise in the FDA Food Code and retail food delivery/audit programs. - 3+ years of driving end to end delivery, and communicating results to senior leadership experience - 3+ years of driving process improvements experience - Experience in stakeholder management, dealing with multiple stakeholders at varied levels of the organization - Experience building processes, project management, and schedules - 5+ years of working directly with government officials and regulatory bodies experience Amazon is an equal opportunity employer and does not discriminate on the basis of protected veteran status, disability, or other legally protected status. Los Angeles County applicants: Job duties for this position include: work safely and cooperatively with other employees, supervisors, and staff; adhere to standards of excellence despite stressful conditions; communicate effectively and respectfully with employees, supervisors, and staff to ensure exceptional customer service; and follow all federal, state, and local laws and Company policies. Criminal history may have a direct, adverse, and negative relationship with some of the material job duties of this position. These include the duties and responsibilities listed above, as well as the abilities to adhere to company policies, exercise sound judgment, effectively manage stress and work safely and respectfully with others, exhibit trustworthiness and professionalism, and safeguard business operations and the Company’s reputation. Pursuant to the Los Angeles County Fair Chance Ordinance, we will consider for employment qualified applicants with arrest and conviction records. Our inclusive culture empowers Amazonians to deliver the best results for our customers. If you have a disability and need a workplace accommodation or adjustment during the application and hiring process, including support for the interview or onboarding process, please visit https://amazon.jobs/content/en/how-we-hire/accommodations for more information. If the country/region you’re applying in isn’t listed, please contact your Recruiting Partner. The base salary range for this position is listed below. Your Amazon package will include sign-on payments and restricted stock units (RSUs). Final compensation will be determined based on factors including experience, qualifications, and location. Amazon also offers comprehensive benefits including health insurance (medical, dental, vision, prescription, Basic Life & AD&D insurance and option for Supplemental life plans, EAP, Mental Health Support, Medical Advice Line, Flexible Spending Accounts, Adoption and Surrogacy Reimbursement coverage), 401(k) matching, paid time off, and parental leave. Learn more about our benefits at https://amazon.jobs/en/benefits . USA, CA, Irvine - 74,200.00 - 129,800.00 USD annually USA, CA, Pasadena - 74,200.00 - 129,800.00 USD annually USA, CO, Denver - 74,200.00 - 129,800.00 USD annually USA, FL, FORT LAUDERDALE - 74,200.00 - 129,800.00 USD annually USA, GA, Atlanta - 74,200.00 - 129,800.00 USD annually USA, IL, Chicago - 74,200.00 - 129,800.00 USD annually USA, NJ, JERSEY CITY - 81,600.00 - 142,800.00 USD annually USA, TX, Austin - 74,200.00 - 129,800.00 USD annually USA, VA, Arlington - 74,200.00 - 129,800.00 USD annually USA, WA, Seattle - 82,700.00 - 129,800.00 USD annually",
+      "linkedin_url": "",
+      "focus_matches": [
+        "Operations"
+      ],
+      "focus_evidence": {
+        "Operations": "ts; track corrective and preventive actions to closure with Operations stakeholders. •Optimize audit procedures, processes, and best practices to improve efficiency, data"
+      },
+      "work_mode": "Not specified",
+      "work_mode_evidence": "The reviewed official source does not confirm the work arrangement for this role.",
+      "match": 55,
+      "matched_skills": [
+        "Operations"
+      ]
+    },
+    {
+      "id": "amazon:10579348",
+      "company": "Amazon",
+      "title": "ML Data Center Delivery Program Manager, ML Capacity Delivery",
+      "location": "US, WA, Seattle",
+      "salary": "USA, VA, Herndon - 127,200.00 - 172,100.00 USD annually; USA, WA, Seattle - 127,200.00 - 172,100.00 USD annually",
+      "official_url": "https://www.amazon.jobs/en/jobs/10579348/ml-data-center-delivery-program-manager-ml-capacity-delivery",
+      "posted": "October 14, 2026",
+      "date_evidence": "Amazon Jobs.posted_date (declared date without timezone)",
+      "evidence_url": "https://www.amazon.jobs/en/search.json?base_query=10579348",
+      "description": "The Amazon Web Services (AWS) Data Center Delivery Operations team seeks a Senior Program Manager to serve as the operational backbone of the Machine Learning (ML) Capacity Delivery organization. The person in this seat owns the rhythm of the business, ensures leadership is always decision-ready, and drives the mechanisms that keep a large, fast-moving ML infrastructure delivery organization aligned and accountable. The Senior Program Manager operates with full autonomy, shapes operating strategy, and influences outcomes at the Director and Vice President level. Key job responsibilities Own the ML Capacity Delivery rhythm of business end-to-end — design, run, and continuously improve the operating cadence across weekly business reviews (WBRs), monthly business reviews (MBRs), and quarterly business reviews (QBRs); ensure each mechanism produces decisions, not just updates. Drive organizational goal-setting and goal-tracking cycles; partner with senior leaders to translate ML capacity delivery strategy into measurable quarterly and annual goals, track progress against them weekly, and surface risks before they become misses. Own document readiness for all leadership forums; set and enforce timelines for narrative preparation, pre-read distribution, and post-meeting action tracking; hold contributors accountable to quality and deadline standards. Author and edit executive-level narratives, escalation memos, and business review documents on behalf of the ML Capacity Delivery leadership team; produce clear, data-driven written communication for Director and VP audiences with no supervision. Serve as the primary coordination layer across stakeholders — including finance, recruiting, engineering, and technical program management — to resolve cross-functional dependencies, align on priorities, and drive decisions at pace. Identify gaps in organizational visibility; build and maintain reporting dashboards and scorecards that give leadership a real-time view of ML capacity delivery health, headcount, and program milestones. Lead the annual and mid-year headcount planning cycle for the ML Capacity Delivery organization; partner with finance and recruiting to translate demand signals into staffing plans with clear owners and milestones. Manage the leadership team's strategic calendar — sequence the right conversations at the right cadence, eliminate redundant forums, and protect senior leader time for high-leverage decisions. Mentor junior program managers on operating rigor, written communication standards, and stakeholder management; establish and codify best practices across the organization. - 6+ years of working cross functionally with tech and non-tech teams experience - 5+ years of cross functional project delivery experience - 5+ years of program or project management experience - Experience defining program requirements and using data and metrics to determine improvements - Experience managing, analyzing and communicating results to senior leadership Amazon is an equal opportunity employer and does not discriminate on the basis of protected veteran status, disability, or other legally protected status. Our inclusive culture empowers Amazonians to deliver the best results for our customers. If you have a disability and need a workplace accommodation or adjustment during the application and hiring process, including support for the interview or onboarding process, please visit https://amazon.jobs/content/en/how-we-hire/accommodations for more information. If the country/region you’re applying in isn’t listed, please contact your Recruiting Partner. The base salary range for this position is listed below. Your Amazon package will include sign-on payments and restricted stock units (RSUs). Final compensation will be determined based on factors including experience, qualifications, and location. Amazon also offers comprehensive benefits including health insurance (medical, dental, vision, prescription, Basic Life & AD&D insurance and option for Supplemental life plans, EAP, Mental Health Support, Medical Advice Line, Flexible Spending Accounts, Adoption and Surrogacy Reimbursement coverage), 401(k) matching, paid time off, and parental leave. Learn more about our benefits at https://amazon.jobs/en/benefits . USA, VA, Herndon - 127,200.00 - 172,100.00 USD annually USA, WA, Seattle - 127,200.00 - 172,100.00 USD annually",
+      "linkedin_url": "",
+      "focus_matches": [
+        "Operations"
+      ],
+      "focus_evidence": {
+        "Operations": "elivery. The Amazon Web Services (AWS) Data Center Delivery Operations team seeks a Senior Program Manager to serve as the operational backbone of the Machine Learning (M"
+      },
+      "work_mode": "Not specified",
+      "work_mode_evidence": "The reviewed official source does not confirm the work arrangement for this role.",
+      "match": 55,
+      "matched_skills": [
+        "Operations"
+      ]
+    },
+    {
+      "id": "amazon:10578804",
+      "company": "Amazon",
+      "title": "Program Manager, Quality, GES NA Quality (D&C)",
+      "location": "US, VA, Arlington",
+      "salary": "USA, AZ, Tempe - 74,200.00 - 129,800.00 USD annually; USA, CA, San Francisco - 81,600.00 - 142,800.00 USD annually; USA, MA, Boston - 74,200.00 - 129,800.00 USD annually; USA, NY, New York - 81,600.00 - 142,800.00 USD annually; USA, TN, Nashville - 66,800.00 - 116,800.00 USD annually; USA, TX, Austin - 74,200.00 - 129,800.00 USD annually; USA, TX, Houston - 74,200.00 - 129,800.00 USD annually; USA, TX, Irving - 74,200.00 - 129,800.00 USD annually; USA, VA, Arlington - 74,200.00 - 129,800.00 USD annually; USA, WA, Bellevue - 82,700.00 - 129,800.00 USD annually",
+      "official_url": "https://www.amazon.jobs/en/jobs/10578804/program-manager-quality-ges-na-quality-d-c",
+      "posted": "October 14, 2026",
+      "date_evidence": "Amazon Jobs.posted_date (declared date without timezone)",
+      "evidence_url": "https://www.amazon.jobs/en/search.json?base_query=10578804",
+      "description": "At Amazon, we're working to be the most customer-centric company on earth. To get there, we need exceptionally talented, bright, and driven people. If you'd like to help us build the place to find and buy anything online, this is your chance to make history. We are looking for a dynamic, organized self-starter to join our Global Engineering, Maintenance, & Sustainability - Design & Construction Quality Management team as a Program Manager. The Program Manager will play a critical role for defining process within the Preconstruction and Construction Execution team and benchmark the processes within the different business units globally. They will be responsible for defining Amazon values and technology with the best of lean management and six sigma to achieve excellence. The team will benchmark processes across facility and infrastructure Pre-Construction and Construction lifecycle. Travel up to 60% within assigned regions regional travel and availability to work from a corporate office when not traveling. Candidates should either live near or be willing to relocate within a reasonable commuting distance of the office. Relocation assistance may be provided. Key job responsibilities · Utilize industry standard methodologies to include PMP and Lean Six Sigma based continuous improvement methodologies to engage teams to solve customer problems. · Drive speed, quality, and simplification by eliminating rework loops, reducing and automating manual work and hand-offs, identifying and implementing best practices across the business, and minimizing process variability through standardization and automation. · Motivate others to achieve impeccable quality in an explosive growth and deadline-driven environment. · Diagnose Amazon processes, identify improvement opportunities, prescribe improvement strategies, and guide the improvement effort. · Responsible for leading and driving process improvements (short-term wins) as well as process design / redesign (long-term wins) efforts. · Create global best practice documentation and facilitate sharing across the globe. · Maintain close relationships with internal stakeholders and understanding our highest priority execution pain-points and opportunities, which will translate into benchmarking initiatives that improve processes, tools, and team capabilities. About the team Amazon Benefits: Amazon offers a full range of benefits that support you and eligible family members, including domestic partners and their children. Benefits can vary by location, the number of regularly scheduled hours you work, length of employment, and job status such as seasonal or temporary employment. The benefits that generally apply to regular, full-time employees include: 1. Medical, Dental, and Vision Coverage 2. Maternity and Parental Leave Options 3. Paid Time Off (PTO) 4. 401(k) Plan If you are not sure that every qualification on the list above describes you exactly, we'd still love to hear from you! At Amazon, we value people with unique backgrounds, experiences, and skill sets. If you’re passionate about this role and want to make an impact on a global scale, please apply! - 5+ years of program or project management experience - 3+ years of defining and implementing process improvement initiatives using data and metrics experience - Experience using data and metrics to determine and drive improvements - Experience working cross functionally with tech and non-tech teams - Bachelor's degree in business, engineering, operations, supply chain, transportation logistics - Experience in facility and infrastructure construction management - 5+ years of driving end to end delivery, and communicating results to senior leadership experience - 3+ years of driving process improvements experience - Experience in stakeholder management, dealing with multiple stakeholders at varied levels of the organization - Experience building processes, project management, and schedules - PMP certificate - Master's degree Amazon is an equal opportunity employer and does not discriminate on the basis of protected veteran status, disability, or other legally protected status. Los Angeles County applicants: Job duties for this position include: work safely and cooperatively with other employees, supervisors, and staff; adhere to standards of excellence despite stressful conditions; communicate effectively and respectfully with employees, supervisors, and staff to ensure exceptional customer service; and follow all federal, state, and local laws and Company policies. Criminal history may have a direct, adverse, and negative relationship with some of the material job duties of this position. These include the duties and responsibilities listed above, as well as the abilities to adhere to company policies, exercise sound judgment, effectively manage stress and work safely and respectfully with others, exhibit trustworthiness and professionalism, and safeguard business operations and the Company’s reputation. Pursuant to the Los Angeles County Fair Chance Ordinance, we will consider for employment qualified applicants with arrest and conviction records. Pursuant to the San Francisco Fair Chance Ordinance, we will consider for employment qualified applicants with arrest and conviction records. Our inclusive culture empowers Amazonians to deliver the best results for our customers. If you have a disability and need a workplace accommodation or adjustment during the application and hiring process, including support for the interview or onboarding process, please visit https://amazon.jobs/content/en/how-we-hire/accommodations for more information. If the country/region you’re applying in isn’t listed, please contact your Recruiting Partner. The base salary range for this position is listed below. Your Amazon package will include sign-on payments and restricted stock units (RSUs). Final compensation will be determined based on factors including experience, qualifications, and location. Amazon also offers comprehensive benefits including health insurance (medical, dental, vision, prescription, Basic Life & AD&D insurance and option for Supplemental life plans, EAP, Mental Health Support, Medical Advice Line, Flexible Spending Accounts, Adoption and Surrogacy Reimbursement coverage), 401(k) matching, paid time off, and parental leave. Learn more about our benefits at https://amazon.jobs/en/benefits . USA, AZ, Tempe - 74,200.00 - 129,800.00 USD annually USA, CA, San Francisco - 81,600.00 - 142,800.00 USD annually USA, MA, Boston - 74,200.00 - 129,800.00 USD annually USA, NY, New York - 81,600.00 - 142,800.00 USD annually USA, TN, Nashville - 66,800.00 - 116,800.00 USD annually USA, TX, Austin - 74,200.00 - 129,800.00 USD annually USA, TX, Houston - 74,200.00 - 129,800.00 USD annually USA, TX, Irving - 74,200.00 - 129,800.00 USD annually USA, VA, Arlington - 74,200.00 - 129,800.00 USD annually USA, WA, Bellevue - 82,700.00 - 129,800.00 USD annually",
+      "linkedin_url": "",
+      "focus_matches": [
+        "Operations"
+      ],
+      "focus_evidence": {
+        "Operations": "ndard methodologies to include PMP and Lean Six Sigma based continuous improvement methodologies to engage teams to solve customer problems. · Drive speed, quality, and simplificatio"
+      },
+      "work_mode": "Not specified",
+      "work_mode_evidence": "The reviewed official source does not confirm the work arrangement for this role.",
+      "match": 55,
+      "matched_skills": [
+        "Operations"
+      ]
+    },
+    {
+      "id": "amazon:10578611",
+      "company": "Amazon",
+      "title": "Program Manager, Shared Services, Central RME",
+      "location": "US, AZ, Phoenix",
+      "salary": "USA, AZ, Phoenix - 83,200.00 - 145,500.00 USD annually; USA, TN, Nashville - 74,800.00 - 131,000.00 USD annually",
+      "official_url": "https://www.amazon.jobs/en/jobs/10578611/program-manager-shared-services-central-rme",
+      "posted": "October 14, 2026",
+      "date_evidence": "Amazon Jobs.posted_date (declared date without timezone)",
+      "evidence_url": "https://www.amazon.jobs/en/search.json?base_query=10578611",
+      "description": "Amazon Worldwide Operations is looking for a Program Manager with a strong delivery record and proven program management experience to own strategic, tactical, cross-functional and technology projects and programs within Amazon Reliability Maintenance Engineering. This role requires management of a team of planners with direct oversight of employee management, creating project plans, developing processes, coordinating and driving execution, and communicating to senior management on status, risks and process/development changes. Cross-team coordination, project management and executive presentation skills are essential. Key job responsibilities - Manage a team of maintenance planners to drive execution of proactive maintenance across all field RME customers - Manage new and existing programs for several Shared Service Planning business units, successfully drive preventative maintenance programs in accordance with regulatory SLA requirements across multiple organizations. - Work directly with external providers, customers, and partner teams to craft and deliver scalable solutions - Partner with other program managers to secure resources, scope efforts, set project priorities and milestones and drive delivery - Own program communication, accelerating progress by driving crisp and timely decisions, clearing blockers (e.g., path to green), escalating as appropriate - Influence design and development of strategic processes - Work with program managers and business leaders to communicate and impact critical business initiatives - Develop, implement, and govern key performance indicators (KPI) reporting for a portfolio of programs, providing visibility to the milestones, and performance across all programs and using this data to drive/influence business decisions - Engage other Amazon business units globally to share best practices and improve end to end outcomes for Amazon customers - Manage post-launch support plans (e.g., post-mortem, issue/ticket management, etc.) and look for opportunities to improve program quality and operational excellence - Travel domestically up to 50% - 3+ years of team management experience - 3+ years of program or project management experience - 3+ years of working cross functionally with tech and non-tech teams experience - 3+ years of delivering cross functional projects experience - Experience defining program requirements and using data and metrics to determine improvements - Experience implementing repeatable processes and driving automation or standardization - Experience in data mining, data management, reporting, and SQL queries Amazon is an equal opportunity employer and does not discriminate on the basis of protected veteran status, disability, or other legally protected status. Our inclusive culture empowers Amazonians to deliver the best results for our customers. If you have a disability and need a workplace accommodation or adjustment during the application and hiring process, including support for the interview or onboarding process, please visit https://amazon.jobs/content/en/how-we-hire/accommodations for more information. If the country/region you’re applying in isn’t listed, please contact your Recruiting Partner. The base salary range for this position is listed below. Your Amazon package will include sign-on payments and restricted stock units (RSUs). Final compensation will be determined based on factors including experience, qualifications, and location. Amazon also offers comprehensive benefits including health insurance (medical, dental, vision, prescription, Basic Life & AD&D insurance and option for Supplemental life plans, EAP, Mental Health Support, Medical Advice Line, Flexible Spending Accounts, Adoption and Surrogacy Reimbursement coverage), 401(k) matching, paid time off, and parental leave. Learn more about our benefits at https://amazon.jobs/en/benefits . USA, AZ, Phoenix - 83,200.00 - 145,500.00 USD annually USA, TN, Nashville - 74,800.00 - 131,000.00 USD annually",
+      "linkedin_url": "",
+      "focus_matches": [
+        "Operations"
+      ],
+      "focus_evidence": {
+        "Operations": "ram Manager, Shared Services, Central RME. Amazon Worldwide Operations is looking for a Program Manager with a strong delivery record and proven program management experi"
+      },
+      "work_mode": "Not specified",
+      "work_mode_evidence": "The reviewed official source does not confirm the work arrangement for this role.",
+      "match": 55,
+      "matched_skills": [
+        "Operations"
+      ]
+    },
+    {
+      "id": "amazon:10578154",
+      "company": "Amazon",
+      "title": "Senior Technical Program Manager, Amazon Connect",
+      "location": "US, WA, Seattle",
+      "salary": "USA, CA, Sunnyvale - 171,000.00 - 231,400.00 USD annually; USA, WA, Seattle - 148,700.00 - 201,200.00 USD annually",
+      "official_url": "https://www.amazon.jobs/en/jobs/10578154/senior-technical-program-manager-amazon-connect",
+      "posted": "October 14, 2026",
+      "date_evidence": "Amazon Jobs.posted_date (declared date without timezone)",
+      "evidence_url": "https://www.amazon.jobs/en/search.json?base_query=10578154",
+      "description": "AWS Applied AI Solutions (AAIS) is building toward a future where every business innovates with Amazon AI teammates. To get there, we build AI solutions that improve human capabilities and transform entire business functions. We create end-to-end products that surprise and delight out-of-the-box, making complex things easy and hard things possible, with no cloud experience required. We start with customers who embrace the future and build bridges to meet the rest where they are. We pursue ambitious opportunities with conviction, and we are looking for builders who share that mindset. Amazon Connect is an AI-powered customer experience solution that enables superior outcomes at a lower cost. Since its 2017 public launch, Amazon Connect has become an AI leader, transforming how organizations of all types interact with their customers. As part of the AWS Connect, we have a vision to provide business applications, leveraging Amazon’s unique experience and expertise, that are used by millions of companies worldwide to manage day-to-day operations. We will accomplish this by accelerating our customers’ businesses through delivery of intuitive and differentiated technology solutions that solve enduring business challenges. We blend vision with curiosity and Amazon’s real-world experience to build opinionated, turnkey solutions. Where customers prefer to buy over build, we become their trusted partner with solutions that are no-brainers to buy and easy to use. Amazon Connect is a highly disruptive cloud-based contact center that enables businesses to deliver engaging, dynamic, and personal customer service experiences. Amazon Connect is the result of the ten years of development that went into building the tools Amazon uses to provide its award winning customer service at massive scale and launching it as a publicly available AWS service. With Amazon Connect, you can create your own cloud-based contact center and be taking calls in minutes. Amazon Connect leverages the power of Artificial Intelligence and the large ecosystem of AWS services such as Amazon Lex, Amazon Polly, AWS Lambda, Amazon S3 and Amazon Kinesis to provide a truly frustration free, easy-to-use, extensible, and natural customer experience. With this technology, we are transforming an industry and the way customers interact with businesses and how agents service them. We have a rapidly growing customer base and an exciting charter in front of us that includes solving highly complex engineering and algorithmic problems. We are looking for passionate and talented Technical Program Manager to join us to innovate on this new service that addresses customer needs to build modern contact centers in the cloud. The position represents a rare opportunity to be a part of a fast-growing business soon after launch, and help shape the technology and product as we grow. You will be playing a crucial role in developing the next generation contact center, and get the opportunity to design and deliver scaleable, resilient systems while maintaining a constant customer focus. We are looking for a highly effective Senior Technical Program Manager that can lead a team to quickly design and deliver systems while maintaining a constant customer focus. You will work with design, technical, and business leaders to set strategy and define the product. You will drive, track, and report the development effort to leadership and partners. You will define the engagement model and manage internal/external dependencies and relationships. You will be key leader responsible for delivering the distributed systems and analytics that will enable AWS to continue changing the software industry by delivering more capabilities to more customers. This team is a great fit for you if - You enjoy working with a fun team that prides itself on a great work environment with an inclusive group of people that are working together towards a common goal. - You are sensitive to customer needs and interested in working on a service that will be used, directly and indirectly, by millions of customers and has a meaningful impact to their functions and interactions. - You’d like to be directly responsible for solving real customer problems. - You are a passionate learner and are motivated to take on new challenges. - You want to have fun; surround yourself with a highly talented pool of engineers that like to solve complex problems, but also enjoy work life balance. About the team ABOUT AWS: Diverse Experiences Amazon values diverse experiences. Even if you do not meet all of the preferred qualifications and skills listed in the job description, we encourage candidates to apply. If your career is just starting, hasn’t followed a traditional path, or includes alternative experiences, don’t let it stop you from applying. Why AWS Amazon Web Services (AWS) is the world’s most comprehensive and broadly adopted cloud platform. We pioneered cloud computing and never stopped innovating — that’s why customers from the most successful startups to Global 500 companies trust our robust suite of products and services to power their businesses. Work/Life Balance We value work-life harmony. Achieving success at work should never come at the expense of sacrifices at home, which is why flexible work hours and arrangements are part of our culture. When we feel supported in the workplace and at home, there’s nothing we can’t achieve in the cloud. Inclusive Team Culture Here at AWS, it’s in our nature to learn and be curious. Our employee-led affinity groups foster a culture of inclusion that empower us to be proud of our differences. Ongoing events and learning experiences, including our Conversations on Race and Ethnicity and AmazeCon conferences, inspire us to never stop embracing our uniqueness. Mentorship and Career Growth We’re continuously raising our performance bar as we strive to become Earth’s Best Employer. That’s why you’ll find endless knowledge-sharing, mentorship and other career-advancing resources here to help you develop into a better-rounded professional. - 5+ years of technical product or program management experience - 7+ years of working directly with engineering teams experience - 3+ years of software development experience - 5+ years of technical program management working directly with software engineering teams experience - Experience managing programs across cross functional teams, building processes and coordinating release schedules - 5+ years of project management disciplines including scope, schedule, budget, quality, along with risk and critical path management experience - Experience managing projects across cross functional teams, building sustainable processes and coordinating release schedules - Experience defining KPI's/SLA's used to drive multi-million dollar businesses and reporting to senior leadership Amazon is an equal opportunity employer and does not discriminate on the basis of protected veteran status, disability, or other legally protected status. Los Angeles County applicants: Job duties for this position include: work safely and cooperatively with other employees, supervisors, and staff; adhere to standards of excellence despite stressful conditions; communicate effectively and respectfully with employees, supervisors, and staff to ensure exceptional customer service; and follow all federal, state, and local laws and Company policies. Criminal history may have a direct, adverse, and negative relationship with some of the material job duties of this position. These include the duties and responsibilities listed above, as well as the abilities to adhere to company policies, exercise sound judgment, effectively manage stress and work safely and respectfully with others, exhibit trustworthiness and professionalism, and safeguard business operations and the Company’s reputation. Pursuant to the Los Angeles County Fair Chance Ordinance, we will consider for employment qualified applicants with arrest and conviction records. Our inclusive culture empowers Amazonians to deliver the best results for our customers. If you have a disability and need a workplace accommodation or adjustment during the application and hiring process, including support for the interview or onboarding process, please visit https://amazon.jobs/content/en/how-we-hire/accommodations for more information. If the country/region you’re applying in isn’t listed, please contact your Recruiting Partner. The base salary range for this position is listed below. Your Amazon package will include sign-on payments and restricted stock units (RSUs). Final compensation will be determined based on factors including experience, qualifications, and location. Amazon also offers comprehensive benefits including health insurance (medical, dental, vision, prescription, Basic Life & AD&D insurance and option for Supplemental life plans, EAP, Mental Health Support, Medical Advice Line, Flexible Spending Accounts, Adoption and Surrogacy Reimbursement coverage), 401(k) matching, paid time off, and parental leave. Learn more about our benefits at https://amazon.jobs/en/benefits . USA, CA, Sunnyvale - 171,000.00 - 231,400.00 USD annually USA, WA, Seattle - 148,700.00 - 201,200.00 USD annually",
+      "linkedin_url": "",
+      "focus_matches": [
+        "Operations"
+      ],
+      "focus_evidence": {
+        "Operations": "sed by millions of companies worldwide to manage day-to-day operations. We will accomplish this by accelerating our customers’ businesses through delivery of intuitive an"
+      },
+      "work_mode": "Not specified",
+      "work_mode_evidence": "The reviewed official source does not confirm the work arrangement for this role.",
+      "match": 55,
+      "matched_skills": [
+        "Operations"
+      ]
+    },
+    {
+      "id": "amazon:10579061",
+      "company": "Amazon",
+      "title": "Senior Technical Program Manager, Network Engineering",
+      "location": "US, WA, Seattle",
+      "salary": "USA, CA, Santa Clara - 171,000.00 - 231,400.00 USD annually; USA, VA, Arlington - 148,700.00 - 201,200.00 USD annually; USA, VA, Herndon - 148,700.00 - 201,200.00 USD annually; USA, WA, Seattle - 148,700.00 - 201,200.00 USD annually",
+      "official_url": "https://www.amazon.jobs/en/jobs/10579061/senior-technical-program-manager-network-engineering",
+      "posted": "October 14, 2026",
+      "date_evidence": "Amazon Jobs.posted_date (declared date without timezone)",
+      "evidence_url": "https://www.amazon.jobs/en/search.json?base_query=10579061",
+      "description": "AWS Infrastructure Services owns the design, planning, delivery, and operation of all AWS global infrastructure. In other words, we’re the people who keep the cloud running. We support all AWS data centers and all of the servers, storage, networking, power, and cooling equipment that ensure our customers have continual access to the innovation they rely on. We work on the most challenging problems, with thousands of variables impacting the supply chain — and we’re looking for talented people who want to help. You’ll join a diverse team of software, hardware, and network engineers, supply chain specialists, security experts, operations managers, and other vital roles. You’ll collaborate with people across AWS to help us deliver the highest standards for safety and security while providing seemingly infinite capacity at the lowest possible cost for our customers. And you’ll experience an inclusive culture that welcomes bold ideas and empowers you to own them to completion. Network Engineering is seeking a Technical Program Manager (TPM) to help us continue to build the largest network in the world. This role offers endless opportunities to work on latest technologies and solve complex technical challenges on the forefront of Global Cloud Computing. As a TPM, you will lead complex, multi-disciplinary networking projects with the opportunity to shape, define & deliver new methods of delivering technology solutions at scale. You will be responsible for end to end delivery of network infrastructure changes and upgrades across Amazon Data Centers. You will manage our cross-functional projects, working with all organizational levels and groups including network operations, network engineering, infrastructure engineering & internal project management teams, as well as external vendors. You must have excellent Program Management skills, the ability to identify and mitigate risks, and remove blockers whilst applying critical thinking to develop paths to success. Excellent written and verbal communication skills are essential as you will be responsible to communicating with a variety of teams and partners as well as senior leadership. You must have a proven track record of successful project management & show the ability to deliver effectively with compressed timelines while dealing with ambiguity. You must possess a working knowledge of networking and data center technologies. Key job responsibilities • Program manager, monitor the network infrastructure builds health, customer demand, anticipate risks, resolve issues and initiate corrective action as appropriate. • Work with stakeholders (networking engineers/tech program managers/senior management) to define requirements and processes. • Manage the dependencies and the interfaces between projects and negotiate the trade-offs as needed. • You actively participate in the hiring process as well as mentor others - improving their skills and ability to get things done.Manage multiple competing cross-organizational projects/programs simultaneously • Interact with engineers, technicians, project managers and senior management on a daily basis • Analyze, interpret and visualize data, with Redshift, Oracle, Tableau, QuickSight, Redshift, and other BI management and visualization tools. • Create predictable process paths and Drive automation initiatives, and drive simplification efforts in engineering and project/program management and architectures to unblock innovation. A day in the life Meeting with project teams to ensure progress and delivery timelines meet or exceed the need-by-date. Planning future projects, coordinating design and requirements discussions and driving commitment from stakeholder teams to ensure project are started and finish on time. Reviewing processes and mechanisms for improvement opportunities and driving improvement initiatives at the team and org level. About the team We are the center of excellence for end-to-end management of networking programs to support AWS New Regions, New AZ's, and LZ's builds. We plan and manage all networking deliverables throughout the project lifecycle including design, scope definition, procurement, scheduling, monitoring and ensuring the execution of work, tracking and reporting project status, risks, issues and change requests. We collaborate with our customers and partners to create and improve repeatable processes to continually reduce cycle-time and cost, and improve quality standards. - 5+ years of technical product or program management experience - 7+ years of working directly with engineering teams experience - 3+ years of software development experience - 5+ years of technical program management working directly with software engineering teams experience - Experience managing programs across cross functional teams, building processes and coordinating release schedules - Experience leading the design, automation, deployment, and support of large-scale infrastructure - Bachelor's degree in Information Science, Information Technology, Computer Science, Computer Engineering, Electrical Engineering, or a related field - 5+ years of project management disciplines including scope, schedule, budget, quality, along with risk and critical path management experience - Experience managing projects across cross functional teams, building sustainable processes and coordinating release schedules - Experience defining KPI's/SLA's used to drive multi-million dollar businesses and reporting to senior leadership - Experience managing multiple projects and priorities across teams in a fast-paced, deadline-driven environment - Experience managing multiple competing priorities simultaneously and driving goals to completion - Project Management Professional (PMP) or equivalent certification Amazon is an equal opportunity employer and does not discriminate on the basis of protected veteran status, disability, or other legally protected status. Los Angeles County applicants: Job duties for this position include: work safely and cooperatively with other employees, supervisors, and staff; adhere to standards of excellence despite stressful conditions; communicate effectively and respectfully with employees, supervisors, and staff to ensure exceptional customer service; and follow all federal, state, and local laws and Company policies. Criminal history may have a direct, adverse, and negative relationship with some of the material job duties of this position. These include the duties and responsibilities listed above, as well as the abilities to adhere to company policies, exercise sound judgment, effectively manage stress and work safely and respectfully with others, exhibit trustworthiness and professionalism, and safeguard business operations and the Company’s reputation. Pursuant to the Los Angeles County Fair Chance Ordinance, we will consider for employment qualified applicants with arrest and conviction records. Our inclusive culture empowers Amazonians to deliver the best results for our customers. If you have a disability and need a workplace accommodation or adjustment during the application and hiring process, including support for the interview or onboarding process, please visit https://amazon.jobs/content/en/how-we-hire/accommodations for more information. If the country/region you’re applying in isn’t listed, please contact your Recruiting Partner. The base salary range for this position is listed below. Your Amazon package will include sign-on payments and restricted stock units (RSUs). Final compensation will be determined based on factors including experience, qualifications, and location. Amazon also offers comprehensive benefits including health insurance (medical, dental, vision, prescription, Basic Life & AD&D insurance and option for Supplemental life plans, EAP, Mental Health Support, Medical Advice Line, Flexible Spending Accounts, Adoption and Surrogacy Reimbursement coverage), 401(k) matching, paid time off, and parental leave. Learn more about our benefits at https://amazon.jobs/en/benefits . USA, CA, Santa Clara - 171,000.00 - 231,400.00 USD annually USA, VA, Arlington - 148,700.00 - 201,200.00 USD annually USA, VA, Herndon - 148,700.00 - 201,200.00 USD annually USA, WA, Seattle - 148,700.00 - 201,200.00 USD annually",
+      "linkedin_url": "",
+      "focus_matches": [
+        "Operations"
+      ],
+      "focus_evidence": {
+        "Operations": "work engineers, supply chain specialists, security experts, operations managers, and other vital roles. You’ll collaborate with people across AWS to help us deliver the h"
+      },
+      "work_mode": "Not specified",
+      "work_mode_evidence": "The reviewed official source does not confirm the work arrangement for this role.",
+      "match": 55,
+      "matched_skills": [
+        "Operations"
+      ]
+    },
+    {
+      "id": "amazon:10578819",
+      "company": "Amazon",
+      "title": "Sr. Technical Program Manager, Worldwide Grocery Stores-Tech (WWGST) ",
+      "location": "US, WA, Seattle",
+      "salary": "USA, TX, AUSTIN - 148,700.00 - 201,200.00 USD annually; USA, WA, Seattle - 148,700.00 - 201,200.00 USD annually",
+      "official_url": "https://www.amazon.jobs/en/jobs/10578819/sr-technical-program-manager-worldwide-grocery-stores-tech-wwgst",
+      "posted": "October 14, 2026",
+      "date_evidence": "Amazon Jobs.posted_date (declared date without timezone)",
+      "evidence_url": "https://www.amazon.jobs/en/search.json?base_query=10578819",
+      "description": "Do you want to build technology that changes how Amazon's physical grocery stores run? Amazon's Worldwide Grocery Stores-Tech (WWGST), Stores UTR Tech (UTRT) team is looking for a Sr. Technical Program Manager to lead complex programs that span multiple teams across this charter. You'll own programs from the first idea to deployment across the network. You'll work closely with engineering, science, product, store operations, finance, and outside partners. You'll turn broad goals into clear technical plans and get teams delivering on them. And you'll explain tradeoffs and progress to senior leadership. This role has a lot of ownership, and its impact shows up directly in store floors, operator workflows, and the customer experience. Stores UTR Tech (UTRT) invents the technology behind Amazon's physical store and food production operations. Our goal is to make store operations intelligent and effortless, so operators can focus on serving customers instead of working around systems, and every customer gets an excellent grocery shopping experience. Our charter covers the full life of store operations. That includes inbound and receiving, inventory accuracy and cycle counts, labor and task orchestration, issue escalation, and food production. We build first-party platforms, connect them with partner technology, and deploy them across a growing network of stores. The goals are to cut cost-to-serve and operational complexity sharply, and to improve both convenience and quality for customers. This Sr. TPM leads one or more multi-team technical programs within the UTRT charter. You'll own the program strategy, roadmap, architecture alignment, dependency and risk management, and the rollout across the store network. The right person can go deep with engineers on system design and integration choices. They're just as comfortable working with store operations leaders to make sure the technology works on the floor and delivers measurable business results. Key job responsibilities - Own the end-to-end delivery of complex technical programs across the UTRT charter, from defining requirements through pilot, network rollout, and ongoing operation. - Work with engineering, applied science, and product teams to define system requirements, architecture, APIs, and integration points across store systems, enterprise platforms (such as inventory, financial, and labor systems), and partner technology. - Turn business goals and operator pain points into technical roadmaps, milestones, and success criteria. Write and contribute to PR/FAQs, BRDs, and planning documents (OP1/OP2, 3-year plans). - Manage cross-team and cross-organization dependencies, the critical path, and risks. Raise blockers early and push them to resolution. - Plan and run pilots and multi-site rollouts, including deployment playbooks, store readiness, change management, training, and post-launch stabilization. - Design integration approaches so that partner-provided capabilities fit cleanly into our first-party platforms and data models. - Set up and run program mechanisms: weekly business reviews, monthly progress reviews, gate reviews, and risk registers. Report clearly to senior leadership. - Define and track program KPIs, such as inventory accuracy, labor productivity, cost-to-serve, system reliability, and adoption, and use the data to make tradeoff and prioritization decisions. - Work with operations, finance, food safety, and compliance partners so that regulatory, audit, and financial controls are built into systems from the start. - Raise the TPM bar across the organization by building scalable processes, sharing best practices, and mentoring other program managers. About the team Stores UTR Tech (UTRT) builds the technology behind Amazon's physical grocery stores and food production operations. Our vision is to make store operations intelligent and effortless, so operators can focus on customers instead of systems and every customer has a great grocery shopping experience. We own technology across the whole life of store operations: inbound and receiving, inventory accuracy and cycle counts, labor and task orchestration, issue escalation, and food production. We're a cross-functional team of technical program managers, product managers, software engineers, and scientists. We build first-party platforms, connect them with partner technology, and roll them out across a growing network of stores. Our goals are to lower cost-to-serve and operational complexity for store operators, and to give customers a better experience in both convenience and quality. We work closely with store operators, so the technology we ship shows up quickly on the store floor and in how customers shop. Our team values ownership, writing things down clearly, and moving quickly when the path isn't clear. - Bachelor's degree in engineering, computer science or equivalent - 7+ years of working directly with engineering teams experience - 5+ years of technical program management working directly with software engineering teams experience - Experience managing programs across cross functional teams, building processes and coordinating release schedules - Experience working with customers, technical teams, and management to collect requirements, describe software product features, and technical designs - 5+ years of project management disciplines including scope, schedule, budget, quality, along with risk and critical path management experience - Experience managing projects across cross functional teams, building sustainable processes and coordinating release schedules - Experience defining KPI's/SLA's used to drive multi-million dollar businesses and reporting to senior leadership - Experience with AI/ML technologies Amazon is an equal opportunity employer and does not discriminate on the basis of protected veteran status, disability, or other legally protected status. Our inclusive culture empowers Amazonians to deliver the best results for our customers. If you have a disability and need a workplace accommodation or adjustment during the application and hiring process, including support for the interview or onboarding process, please visit https://amazon.jobs/content/en/how-we-hire/accommodations for more information. If the country/region you’re applying in isn’t listed, please contact your Recruiting Partner. The base salary range for this position is listed below. Your Amazon package will include sign-on payments and restricted stock units (RSUs). Final compensation will be determined based on factors including experience, qualifications, and location. Amazon also offers comprehensive benefits including health insurance (medical, dental, vision, prescription, Basic Life & AD&D insurance and option for Supplemental life plans, EAP, Mental Health Support, Medical Advice Line, Flexible Spending Accounts, Adoption and Surrogacy Reimbursement coverage), 401(k) matching, paid time off, and parental leave. Learn more about our benefits at https://amazon.jobs/en/benefits . USA, TX, AUSTIN - 148,700.00 - 201,200.00 USD annually USA, WA, Seattle - 148,700.00 - 201,200.00 USD annually",
+      "linkedin_url": "",
+      "focus_matches": [
+        "Operations"
+      ],
+      "focus_evidence": {
+        "Operations": "u'll work closely with engineering, science, product, store operations, finance, and outside partners. You'll turn broad goals into clear technical plans and get teams de"
+      },
+      "work_mode": "Not specified",
+      "work_mode_evidence": "The reviewed official source does not confirm the work arrangement for this role.",
+      "match": 55,
+      "matched_skills": [
+        "Operations"
+      ]
+    },
+    {
+      "id": "amazon:10579137",
+      "company": "Amazon",
+      "title": "TPM - Mfg. Systems Engineering, Manufacturing Systems Engineering- Leo Satellite Build Systems",
+      "location": "US, WA, Bellevue",
+      "salary": "USA, WA, Bellevue - 148,700.00 - 201,200.00 USD annually",
+      "official_url": "https://www.amazon.jobs/en/jobs/10579137/tpm-mfg-systems-engineering-manufacturing-systems-engineering-leo-satellite-build-systems",
+      "posted": "October 14, 2026",
+      "date_evidence": "Amazon Jobs.posted_date (declared date without timezone)",
+      "evidence_url": "https://www.amazon.jobs/en/search.json?base_query=10579137",
+      "description": "Leo is Amazon’s low Earth orbit satellite broadband network. Its mission is to deliver fast, reliable internet to customers and communities around the world, and we’ve designed the system with the capacity, flexibility, and performance to serve a wide range of customers, from individual households to schools, hospitals, businesses, government agencies, and other organizations operating in locations without reliable connectivity. Export Control Requirement: Due to applicable export control laws and regulations, candidates must be a U.S. citizen or national, U.S. permanent resident (i.e., current Green Card holder), or lawfully admitted into the U.S. as a refugee or granted asylum. To deliver these complex solutions, as the Sr Program Manager you will partner with peers across multiple Leo teams, including hardware, software, supply chain, and manufacturing. This role includes direct responsibility for program management of various engineering work-streams under manufacturing, system integration, and production test systems. This is a highly technical role requiring experience with software systems, data and metrics reporting while tracking multiple senior leadership level goals. Candidate superpowers should include stakeholder management, ownership, coordinating across multiple cross-functional teams, dealing with many unknowns and ambiguities. Key job responsibilities - Own the roadmap and tracking of various engineering work-streams - tools and frameworks, tests systems and test optimization that span end-to-end from contract manufacturers to Leo factory locations. - Establish the linkage between production roadmap and goals to team level work-streams for progress measurement, monitoring and risk mitigation. - Represent overall impact of systems and solutions delivered to yield, speed, manufacturability, cost, stability and trust. - Translate strategic goals into actionable plans for specific projects and operations. - Understand dependencies among multiple cross functional teams and their roadmaps, synchronize milestones, identify constraints and necessary ways to unblock delivery. - Create programs and outreach communications for successful rollout of various solutions - Drive executive communication cadence and deliver artifacts that provide insight into the activities, accomplishments, challenges and risks of operations to senior leadership. - Measure, analyze, improve, and control KPIs across all aspects of the operation. - Work with software and analytics teams to develop reporting tools and applications that support, operating rhythms - Advices production directors and sr. managers on technology and execution decisions and ensure effective communication of changes and improvements across the organization. A day in the life This role will be highly collaborative, requiring partnerships with cross-functional production stakeholders to drive positive results. This role requires the ability to advocate solutions built for our customers and an ability to influence decisions through trusted relationships. This role will involve managing roadmap of solutions built by the manufacturing systems engineering team and onboarding customers in production operations teams spread across Redmond and Kirkland, WA. A typical day for this role will be working directly with multiple satellite component teams. Communication skills are crucial, as they interact with various stakeholders including internal teams. The role requires strong leadership to motivate and coordinate teams towards achieving project goals while maintaining a focus on quality, efficiency, and adherence to timelines. This role will tackle challenging, novel situations every day and have the opportunity to work with multiple technical teams at Amazon in different locations. You should be comfortable with a high degree of ambiguity and relish the idea of solving problems that haven't been solved at scale before. About the team Project Leo is an initiative to launch a constellation of Low Earth Orbit satellites that will provide low-latency, high-speed broadband connectivity to unserved and underserved communities around the world. To deliver these complex solutions, manufacturing systems engineering team is building shop floor operations software, hardware testing frameworks, satellite hardware & software testing lab, data analytics and AI solutions for various production operations and efficiency needs. - 5+ years of technical product or program management experience - 7+ years of working directly with engineering teams experience - Experience managing programs across cross functional teams, building processes and coordinating release schedules - 5+ years of project management disciplines including scope, schedule, budget, quality, along with risk and critical path management experience - Experience managing projects across cross functional teams, building sustainable processes and coordinating release schedules - Experience defining KPI's/SLA's used to drive multi-million dollar businesses and reporting to senior leadership Amazon is an equal opportunity employer and does not discriminate on the basis of protected veteran status, disability, or other legally protected status. Our inclusive culture empowers Amazonians to deliver the best results for our customers. If you have a disability and need a workplace accommodation or adjustment during the application and hiring process, including support for the interview or onboarding process, please visit https://amazon.jobs/content/en/how-we-hire/accommodations for more information. If the country/region you’re applying in isn’t listed, please contact your Recruiting Partner. The base salary range for this position is listed below. Your Amazon package will include sign-on payments and restricted stock units (RSUs). Final compensation will be determined based on factors including experience, qualifications, and location. Amazon also offers comprehensive benefits including health insurance (medical, dental, vision, prescription, Basic Life & AD&D insurance and option for Supplemental life plans, EAP, Mental Health Support, Medical Advice Line, Flexible Spending Accounts, Adoption and Surrogacy Reimbursement coverage), 401(k) matching, paid time off, and parental leave. Learn more about our benefits at https://amazon.jobs/en/benefits . USA, WA, Bellevue - 148,700.00 - 201,200.00 USD annually",
+      "linkedin_url": "",
+      "focus_matches": [
+        "Operations"
+      ],
+      "focus_evidence": {
+        "Operations": "tegic goals into actionable plans for specific projects and operations. - Understand dependencies among multiple cross functional teams and their roadmaps, synchronize mi"
+      },
+      "work_mode": "Not specified",
+      "work_mode_evidence": "The reviewed official source does not confirm the work arrangement for this role.",
+      "match": 55,
+      "matched_skills": [
+        "Operations"
+      ]
+    }
+  ]
 }

@@ -1,3 +1,54 @@
 {
-  "seen": {}
+  "seen": {
+    "amazon:10579137": {
+      "url": "https://www.amazon.jobs/en/jobs/10579137/tpm-mfg-systems-engineering-manufacturing-systems-engineering-leo-satellite-build-systems",
+      "first_seen": "2026-10-14",
+      "last_seen": "2026-10-14"
+    },
+    "amazon:10579238": {
+      "url": "https://www.amazon.jobs/en/jobs/10579238/food-safety-program-manager-ii-wwgs-retail-food-safety",
+      "first_seen": "2026-10-14",
+      "last_seen": "2026-10-14"
+    },
+    "amazon:10579348": {
+      "url": "https://www.amazon.jobs/en/jobs/10579348/ml-data-center-delivery-program-manager-ml-capacity-delivery",
+      "first_seen": "2026-10-14",
+      "last_seen": "2026-10-14"
+    },
+    "amazon:10578804": {
+      "url": "https://www.amazon.jobs/en/jobs/10578804/program-manager-quality-ges-na-quality-d-c",
+      "first_seen": "2026-10-14",
+      "last_seen": "2026-10-14"
+    },
+    "amazon:10578154": {
+      "url": "https://www.amazon.jobs/en/jobs/10578154/senior-technical-program-manager-amazon-connect",
+      "first_seen": "2026-10-14",
+      "last_seen": "2026-10-14"
+    },
+    "amazon:10579061": {
+      "url": "https://www.amazon.jobs/en/jobs/10579061/senior-technical-program-manager-network-engineering",
+      "first_seen": "2026-10-14",
+      "last_seen": "2026-10-14"
+    },
+    "amazon:10578819": {
+      "url": "https://www.amazon.jobs/en/jobs/10578819/sr-technical-program-manager-worldwide-grocery-stores-tech-wwgst",
+      "first_seen": "2026-10-14",
+      "last_seen": "2026-10-14"
+    },
+    "amazon:10578611": {
+      "url": "https://www.amazon.jobs/en/jobs/10578611/program-manager-shared-services-central-rme",
+      "first_seen": "2026-10-14",
+      "last_seen": "2026-10-14"
+    },
+    "amazon:10579095": {
+      "url": "https://www.amazon.jobs/en/jobs/10579095/data-center-infrastructure-delivery-manager-id",
+      "first_seen": "2026-10-14",
+      "last_seen": "2026-10-14"
+    },
+    "smartrecruiters:SGS:744000155519660": {
+      "url": "https://jobs.smartrecruiters.com/SGS/744000155519660-it-service-delivery-manager",
+      "first_seen": "2026-10-14",
+      "last_seen": "2026-10-14"
+    }
+  }
 }
