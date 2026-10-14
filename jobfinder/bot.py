@@ -410,7 +410,7 @@ def select(jobs, state, applied, today, metrics, profile):
                 unique[url]['linkedin_url'] = job['linkedin_url']
         else:
             unique[url] = job
-    return sorted(unique.values(), key=lambda j: (not california(j), -j['match'], j['company'], j['title']))[:20]
+    return sorted(unique.values(), key=lambda j: (-j['match'], not california(j), j['company'], j['title']))[:20]
 
 
 def report(today, jobs, metrics, now):
