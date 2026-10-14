@@ -38,9 +38,11 @@ def canonical(url):
 def title_ok(title):
     if re.search(r'\blead\b', title, re.I):
         return False
-    # Allow a discipline suffix separated by punctuation, not unrelated seniority.
-    base = re.split(r'\s*[,|:–—]\s*|\s+-\s+', clean(title))[0].casefold()
-    return base in {t.casefold() for t in TITLES}
+    text = clean(title).casefold()
+    if re.search(r'\b(principal|staff|director|associate|executive|intern|vp)\b', text):
+        return False
+    text = re.sub(r'\bsr\.?\s+', 'senior ', text)
+    return bool(re.search(r'\b(program manager|delivery manager|producer)\b', text))
 
 
 def local_date(raw):
@@ -133,17 +135,27 @@ def postings(node):
             yield from postings(node['@graph'])
 
 
+ALLOWED_COUNTRIES = {'us','usa','united states','united states of america','mx','mex','mexico','méxico',
+    'ca','can','canada','br','brazil','brasil','ar','argentina','cl','chile','co','colombia','cr','costa rica',
+    'uy','uruguay','pe','peru','perú','ec','ecuador','pa','panama','panamá','gt','guatemala','sv','el salvador',
+    'hn','honduras','ni','nicaragua','bo','bolivia','py','paraguay','ve','venezuela','do','dominican republic',
+    'república dominicana','pr','puerto rico','cu','cuba'}
+
+
 def geography(location, countries=(), remote=False):
-    countries = {str(c).casefold() for c in countries}
-    allowed = {'us', 'usa', 'united states', 'united states of america', 'mx', 'mex', 'mexico', 'méxico'}
-    if countries & allowed:
+    countries = {str(c).casefold() for c in countries if c}
+    if countries:
+        return bool(countries & ALLOWED_COUNTRIES)
+    allowed = r'united states|usa|mexico|méxico|canada|toronto|vancouver|montreal|montréal|ottawa|quebec|ontario|british columbia|brazil|brasil|argentina|chile|colombia|costa rica|uruguay|peru|perú|ecuador|panama|panamá|guatemala|el salvador|honduras|nicaragua|bolivia|paraguay|venezuela|dominican republic|puerto rico|latam|latin america|california|new york|texas|washington|massachusetts|illinois|florida|colorado|oregon|georgia|arizona|virginia|north carolina|new jersey|pennsylvania|utah|nevada|guadalajara|monterrey|san francisco|los angeles|san diego|san jose|santa monica|san mateo|mountain view|palo alto|sunnyvale|irvine|foster city|costa mesa|redwood city|buenos aires|bogotá|bogota|são paulo|sao paulo|medellin|medellín|santiago|lima'
+    if re.search(r'\b(' + allowed + r')\b', location, re.I):
         return True
-    if countries and not countries & allowed:
-        # Remote jobs confined to another country do not qualify.
+    if re.search(r'\b(united kingdom|uk|france|germany|india|australia|spain|japan|singapore|china|ireland|poland|netherlands|emea|europe|apac)\b', location, re.I):
         return False
-    if re.search(r'\b(canada|united kingdom|uk|france|germany|india|australia|brazil|spain|japan|singapore|china|ireland|poland|netherlands)\b', location, re.I):
-        return False
-    return bool(re.search(r'\b(united states|usa|u\.s\.|mexico|méxico|remote|remoto|worldwide|global|california|new york|texas|washington|massachusetts|illinois|florida|colorado|oregon|georgia|arizona|virginia|north carolina|new jersey|pennsylvania|utah|nevada|ciudad de méxico|guadalajara|monterrey)\b', location, re.I) or remote)
+    return bool(remote or re.search(r'\b(remote|remoto|worldwide|global)\b', location, re.I))
+
+
+def california(job):
+    return bool(re.search(r'\b(california|san francisco|los angeles|san diego|san jose|santa monica|san mateo|mountain view|palo alto|sunnyvale|irvine|foster city|costa mesa|redwood city)\b|,\s*CA\b', job['location'], re.I))
 
 
 def schema_job(page, url, today):
@@ -203,6 +215,16 @@ def collect(config, client, today, metrics):
             elif kind == 'ashby':
                 endpoint = f'https://api.ashbyhq.com/posting-api/job-board/{slug}?includeCompensation=true'
                 entries = client.json(endpoint)['jobs']
+            elif kind == 'smartrecruiters':
+                endpoint = f'https://api.smartrecruiters.com/v1/companies/{slug}/postings'
+                entries = []
+                for offset in range(0, 20000, 100):
+                    data = client.json(endpoint + '?' + urlencode({'limit':100,'offset':offset}))
+                    entries.extend(data.get('content', []))
+                    if offset + 100 >= data.get('totalFound', 0):
+                        break
+                else:
+                    metrics['errors'].append(f'{company}: pagination capped at 20,000 jobs')
             else:
                 raise ValueError('Unsupported board type')
             metrics['sources_ok'] += 1
@@ -211,7 +233,7 @@ def collect(config, client, today, metrics):
             continue
         for entry in entries:
             metrics['reviewed'] += 1
-            if not title_ok(entry.get('title', '')):
+            if not title_ok(entry.get('title', entry.get('name', ''))):
                 continue
             try:
                 if kind == 'greenhouse':
@@ -221,10 +243,11 @@ def collect(config, client, today, metrics):
                     if local_date(posted) != today:
                         continue
                     loc = detail.get('location', {}).get('name', '')
-                    countries = [o.get('location') for o in entry.get('offices', []) if o.get('location') in ('United States', 'Mexico', 'México')]
+                    countries = [o.get('location') for o in entry.get('offices', []) if str(o.get('location','')).casefold() in ALLOWED_COUNTRIES]
                     if not geography(loc, countries):
                         continue
                     url = detail.get('absolute_url', entry['absolute_url'])
+                    client.hosts.add(urlsplit(url).hostname)  # official destination supplied by the ATS API
                     page, final_url = client.get(url)
                     # API listing + detail identify the live job; require same job ID in destination URL/page.
                     if str(entry['id']) not in final_url and str(entry['id']) not in page:
@@ -233,10 +256,35 @@ def collect(config, client, today, metrics):
                         continue
                     ranges = detail.get('pay_input_ranges', [])
                     salary = '; '.join(f"{r['currency_type']} {r['min_cents']/100:,.0f}–{r['max_cents']/100:,.0f} ({r.get('title', 'intervalo no especificado')})" for r in ranges if all(r.get(k) is not None for k in ('currency_type', 'min_cents', 'max_cents'))) or 'No publicado'
-                    jobs.append(dict(id=f'greenhouse:{source["slug"]}:{entry["id"]}', company=company,
+                    jobs.append(dict(id=f'greenhouse:{source["slug"]}:{entry["id"]}', company=detail.get('company_name') or company,
                                      title=detail['title'], location=loc, salary=salary, official_url=final_url,
                                      posted=posted, date_evidence='Greenhouse.first_published', evidence_url=detail_url,
                                      description=clean(detail.get('content')), linkedin_url=''))
+                elif kind == 'smartrecruiters':
+                    posted = entry.get('releasedDate')
+                    if local_date(posted) != today:
+                        continue
+                    detail_url = endpoint + '/' + str(entry['id'])
+                    detail = client.json(detail_url)
+                    posted = detail.get('releasedDate', posted)
+                    if local_date(posted) != today:
+                        continue
+                    address = detail.get('location', {})
+                    loc = ', '.join(str(address.get(k,'')) for k in ('city','region','country') if address.get(k))
+                    if address.get('remote'): loc += ' (Remote)'
+                    if not geography(loc, [address.get('country')], address.get('remote',False)):
+                        continue
+                    url = detail.get('postingUrl') or detail.get('applyUrl')
+                    if not url: raise ValueError('No direct official URL')
+                    client.hosts.add(urlsplit(url).hostname)
+                    page, final_url = client.get(url)
+                    if str(entry['id']) not in final_url and str(entry['id']) not in page:
+                        raise ValueError('Cannot verify destination identity')
+                    sections = detail.get('jobAd',{}).get('sections',{})
+                    jobs.append(dict(id=f'smartrecruiters:{source["slug"]}:{entry["id"]}', company=detail.get('company',{}).get('name') or company,
+                        title=detail['name'], location=loc, salary='No publicado', official_url=final_url, posted=posted,
+                        date_evidence='SmartRecruiters.releasedDate (release; may be a repost)', evidence_url=detail_url,
+                        description=clean(' '.join(x.get('text','') for x in sections.values())), linkedin_url=''))
                 else:
                     if not entry.get('isListed'):
                         continue
@@ -260,7 +308,7 @@ def linkedin(config, client, today, jobs, metrics):
         metrics['linkedin'] = 'Desactivado en configuración'
         return
     accessible = 0
-    for location in ('United States', 'Mexico'):
+    for location in ('California, United States', 'United States', 'Canada', 'Mexico', 'Latin America'):
         for title in TITLES:
             query = urlencode({'keywords': title, 'location': location, 'f_TPR': 'r86400' if today == datetime.now(TZ).date() else 'r604800', 'start': 0})
             try:
@@ -331,7 +379,7 @@ def select(jobs, state, applied, today, metrics, profile):
                 unique[url]['linkedin_url'] = job['linkedin_url']
         else:
             unique[url] = job
-    return sorted(unique.values(), key=lambda j: (-j['match'], j['company'], j['title']))[:20]
+    return sorted(unique.values(), key=lambda j: (not california(j), -j['match'], j['company'], j['title']))[:20]
 
 
 def report(today, jobs, metrics, now):
@@ -382,7 +430,19 @@ def main():
     historical = today != now.date()
     metrics = dict(reviewed=0, sources_ok=0, unverified=0, applied_excluded=0, seen_excluded=0, linkedin_candidates=0, linkedin='No ejecutado', errors=[])
     client = Client(config['official_hosts'] + ['boards-api.greenhouse.io', 'api.ashbyhq.com', 'www.linkedin.com', 'linkedin.com'])
-    jobs = collect(config, client, today, metrics)
+    from concurrent.futures import ThreadPoolExecutor
+    def collect_one(source):
+        stats = dict(reviewed=0, sources_ok=0, unverified=0, errors=[])
+        worker = Client(client.hosts)
+        result = collect({'boards':[source]}, worker, today, stats)
+        return result, stats
+    jobs = []
+    with ThreadPoolExecutor(max_workers=6) as pool:
+        for result, stats in pool.map(collect_one, config['boards']):
+            jobs.extend(result)
+            for key in ('reviewed','sources_ok','unverified'):
+                metrics[key] += stats[key]
+            metrics['errors'].extend(stats['errors'])
     linkedin(config, client, today, jobs, metrics)
     if not metrics['sources_ok']:
         raise SystemExit('No official board was accessible; refusing to overwrite the dashboard with a misleading empty report')
