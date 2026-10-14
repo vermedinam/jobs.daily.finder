@@ -29,3 +29,7 @@ gh workflow run daily.yml --repo vermedinam/jobs.daily.finder
 ```
 
 El comando de creación requiere que esta carpeta tenga un commit Git. Si el repositorio ya existe, revisar su contenido antes de integrar los archivos; no sobrescribir trabajo previo. No copiar un token en el chat ni incluirlo en archivos.
+
+## Buscar una fecha anterior
+
+En Actions → Daily job finder → Run workflow, escribir `2026-10-13` en `date`, o ejecutar `python3 -m jobfinder.bot run --date 2026-10-13`. Verifica publicaciones de ese día aún disponibles; no reconstruye vacantes cerradas. El reporte histórico no reemplaza el dashboard actual ni modifica los vistos. Sí excluye aplicaciones registradas. LinkedIn usa hasta siete días para descubrimiento retrospectivo; la fecha siempre se comprueba en la fuente oficial.
