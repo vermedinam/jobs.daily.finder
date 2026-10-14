@@ -1,69 +1,38 @@
 # jobs.daily.finder
 
-Búsqueda diaria para `vermedinam`: hasta **20 vacantes verificadas**, con Top 5 y enlaces directos oficiales. Ejecución programada a las **17:00 America/Los_Angeles**, con ajuste automático al horario de verano. GitHub Actions puede retrasar una ejecución; las 17:00 son la hora de inicio solicitada, no una garantía de entrega exacta.
+> Your worth is not measured by an inbox. One thoughtful application at a time is enough for today.
 
-Títulos: Program Manager, Senior Program Manager, Technical Program Manager, Senior Technical Program Manager, Delivery Manager, Producer y Senior Producer. Se admiten especialidades antes o después del título y la abreviatura Sr.; se excluyen rangos distintos como Staff, Principal, Director y Associate. Se excluye cualquier título con la palabra **Lead**, así como vacantes marcadas como aplicadas y vistas en días anteriores.
+Daily job discovery at **5 pm America/Los_Angeles**, with automatic daylight-saving adjustment. GitHub may delay scheduled runs.
 
-Ubicación: USA, Canadá, México, LATAM o remoto. El match estimado descendente determina la selección y el Top 5; California desempata. Para remoto sin restricciones explícitas se indica elegibilidad pendiente; una restricción explícita a otro país queda excluida. El candidato debe confirmar su autorización laboral y elegibilidad.
+Focus: **Agile, OKRs, Operations, and ISO 27001**. A listing must mention at least one theme in its official title or description. Target roles: Program Manager, Senior Program Manager, Technical Program Manager, Senior Technical Program Manager, Delivery Manager, Producer, and Senior Producer, including specialty modifiers and Sr./TPM abbreviations. Lead, Staff, Principal, Director, Associate, Executive, Intern, and VP titles are excluded.
+
+Search area: USA, Canada, Mexico, LATAM, and eligible remote roles. Results are sorted by estimated topic match; California breaks ties. Up to 20 results from the exact requested publication day. Dates and listings are never invented to fill the quota.
 
 <!-- DASHBOARD:START -->
 
-## Dashboard · 2026-10-14
+## Dashboard
 
-Verificado: 2026-10-14T00:21:05.006592-07:00 · America/Los_Angeles.
-
-Hasta 20 vacantes con fecha oficial del día. Un reporte vacío es válido. No es una búsqueda exhaustiva.
-
-Revisadas: 3488 · Recomendadas: 0 · Aplicadas excluidas: 0 · Vistas anteriormente: 0 · Sin verificar: 0
-
-Fuentes accesibles: 13 · Candidatas LinkedIn: 0
-
-LinkedIn: Acceso público limitado (HTTPError); sin evasión ni login
-
-## Top 5
-
-No se encontraron vacantes que cumplan todos los criterios en las fuentes accesibles.
-
-## Vacantes verificadas
-
-| Match estimado | Empresa / puesto | Ubicación | Modalidad | Salario | Fecha oficial | Aplicar | LinkedIn |
-|---|---|---|---|---|---|---|---|
-
-## Evidencia y razones
-
-Match = afinidad orientativa, no probabilidad de contratación. Base 60; +10 por Senior; hasta +30 por habilidades configuradas presentes en la descripción. Sin CV confirmado, el perfil es provisional.
-
-## Cobertura y fallos
-
-Vacantes posteriores a las 17:00 quedan fuera de esta ejecución. No se sustituye una fecha ausente por “visto hoy”.
+The next successful current-day run will refresh this dashboard. See [daily reports](reports/) for completed searches.
 
 <!-- DASHBOARD:END -->
 
-## Uso y configuración
+## What each listing includes
 
-- [Setup y publicación](docs/SETUP.md)
-- [Verificación, cobertura y fuentes](docs/VERIFICATION.md)
-- [Seguridad](SECURITY.md)
-- [Reportes diarios](reports/)
+Official direct application URL, verified publication date and evidence, location, work arrangement, published salary when available, estimated topic match, relevant themes, and LinkedIn link when accessible. Work arrangements are labeled Remote, Hybrid, On-site, Remote available, or Not specified; a city alone is not evidence of office attendance.
+
+Topic match = 40 base points plus 15 per matched theme, capped at 100. It is an explainable relevance heuristic, not a hiring probability, a certification claim, or a verified evaluation of your experience.
+
+## Run and configure
 
 ```sh
 python3 -m unittest discover -s tests -v
 python3 -m jobfinder.bot run
-python3 -m jobfinder.bot applied --id 'greenhouse:empresa:12345' --url 'https://job-boards.greenhouse.io/empresa/jobs/12345'
+python3 -m jobfinder.bot run --date 2026-10-13
+python3 -m jobfinder.bot applied --id 'greenhouse:company:12345' --url 'https://job-boards.greenhouse.io/company/jobs/12345'
 ```
 
-El último comando marca una vacante como aplicada; el ID y URL deben copiarse del reporte. También puedes editar `data/applied.json` en GitHub. La lista inicial está vacía: importa tus aplicaciones anteriores antes de activar el bot. El bot no envía solicitudes.
+[Setup](docs/SETUP.md) | [Verification and coverage](docs/VERIFICATION.md) | [Security](SECURITY.md)
 
-`config/sources.json` contiene tableros ATS y dominios exactos autorizados. La cobertura inicial es una selección de empresas de tecnología y videojuegos, no todo el mercado. Los slugs y dominios pueden cambiar; el reporte expone fallos y fuentes inaccesibles. La cobertura ampliada incluye tableros públicos confirmados de Greenhouse, Ashby y SmartRecruiters; revisa los fallos de cada ejecución. `config/profile.json` contiene habilidades provisionales editables; no se afirma haber revisado un CV.
+Sources are configured in `config/sources.json`; preferences in `config/profile.json`. Application exclusions are stored in `data/applied.json`; seen listings in `data/state.json`. The repository does not have direct access to Gmail and does not send emails automatically. Email delivery and inbox checks in this chat are separate actions. Import applications into the exclusion list to prevent repeat recommendations from scheduled runs. Do not put private emails or personal notes in a public repository.
 
-## Persistencia
-
-`data/state.json` conserva ID, URL canónico y primera/última observación de vacantes elegibles. `data/applied.json` conserva bloqueos por ID y/o URL. Una repetición el mismo día mantiene resultados; los reportes de cada fecha se actualizan sin crear duplicados. Las vacantes elegibles más allá del límite de 20 se marcan vistas para evitar reutilizarlas otro día. Los archivos Markdown y JSON en `reports/` guardan evidencia, métricas y errores de cobertura. Estado y reportes se guardan mediante un commit del bot.
-
-Match es una puntuación reproducible de afinidad con el perfil configurado, **no una probabilidad de contratación**. Sin CV confirmado es provisional. No se rellenan salarios ausentes ni fechas no verificadas.
-
-Modalidad: remoto, híbrido o presencial únicamente cuando la fuente lo confirma; de lo contrario, No especificado.
-
-## Enfoque temático de búsqueda
-
-Se exige que el título o la descripción oficial mencionen al menos uno de estos temas: Agile (incluye Scrum, Kanban y sprints), OKRs (incluye Objectives and Key Results), operaciones o ISO 27001 (incluye ISO/IEC 27001). Los puestos sin coincidencia temática se excluyen. El reporte muestra los temas encontrados y fragmentos de evidencia. Match temático = 40 + 15 por tema encontrado, hasta 100; no representa una certificación, experiencia confirmada ni probabilidad de contratación. El match descendente ordena los resultados y California desempata. No se amplían las fechas para completar 20. Esta configuración se aplica a las próximas búsquedas; los reportes anteriores conservan el criterio con que fueron generados.
+Historical searches preserve the current dashboard and seen history. They verify postings still accessible now and cannot reconstruct closed historical listings. A run with no accessible official boards fails and preserves the prior report instead of presenting a misleading empty result.
