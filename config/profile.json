@@ -6,12 +6,13 @@
     "Operations",
     "ISO 27001"
   ],
-  "note": "Preferencias de búsqueda solicitadas por el usuario. No implican experiencia ni certificaciones confirmadas.",
+  "note": "User-requested search preferences, not confirmed experience or certifications.",
   "focus_categories": [
     "Agile",
     "OKRs",
-    "Operaciones",
+    "Operations",
     "ISO 27001"
   ],
-  "require_focus": true
+  "require_focus": true,
+  "language": "en"
 }
