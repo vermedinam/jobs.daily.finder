@@ -1,18 +1,61 @@
 {
   "date": "2026-10-13",
-  "verified_at": "2026-10-14T01:13:54.312572-07:00",
+  "verified_at": "2026-10-14T01:28:52.160661-07:00",
   "metrics": {
-    "reviewed": 37834,
-    "sources_ok": 143,
-    "unverified": 8,
+    "reviewed": 49505,
+    "sources_ok": 226,
+    "unverified": 3,
     "applied_excluded": 0,
     "seen_excluded": 0,
-    "linkedin_candidates": 22,
+    "linkedin_candidates": 8,
     "linkedin": "Public access limited (HTTPError); no bypass or login attempted",
     "errors": [
-      "nuro / 8279156: ValueError"
+      "nuro / 8279156: ValueError",
+      "wiz: HTTPError",
+      "yelp: HTTPError",
+      "contentsquare: HTTPError",
+      "factorialhr: HTTPError",
+      "factorial: HTTPError",
+      "travelperk: HTTPError",
+      "jobandtalent: HTTPError",
+      "glovo: HTTPError",
+      "bookingcom: HTTPError",
+      "expediagroup: HTTPError",
+      "cimpress: HTTPError",
+      "vistaprint: HTTPError",
+      "softtek: HTTPError",
+      "agileengine: HTTPError",
+      "konfio: HTTPError",
+      "clipmx: HTTPError",
+      "kueski: HTTPError",
+      "klar: HTTPError",
+      "yalo: HTTPError",
+      "nowports: HTTPError",
+      "remitly: HTTPError",
+      "payjoy: HTTPError",
+      "tala: HTTPError",
+      "openpay: HTTPError",
+      "global66: HTTPError",
+      "habi: HTTPError",
+      "truora: HTTPError",
+      "platzi: HTTPError",
+      "clara: HTTPError",
+      "bitso: HTTPError",
+      "stori: HTTPError",
+      "mendel: HTTPError",
+      "factorial: HTTPError",
+      "lodgify: HTTPError",
+      "secretsource: HTTPError",
+      "sastrify: HTTPError",
+      "safetywing: HTTPError",
+      "jobgether: HTTPError",
+      "lemonio: HTTPError",
+      "nearsure: HTTPError",
+      "crunchyroll: HTTPError"
     ],
-    "focus_excluded": 5
+    "focus_excluded": 5,
+    "mexico_verified_candidates": 0,
+    "spain_verified_candidates": 1
   },
   "jobs": [
     {
@@ -241,6 +284,31 @@
       ],
       "focus_evidence": {
         "Operations": " & Manufacturing. In this role, you will help run strategic operations programs across our food production facilities, supporting cross-functional initiatives from concep"
+      },
+      "work_mode": "Not specified",
+      "work_mode_evidence": "The reviewed official source does not confirm the work arrangement for this role.",
+      "match": 55,
+      "matched_skills": [
+        "Operations"
+      ]
+    },
+    {
+      "id": "amazon:10577482",
+      "company": "Amazon",
+      "title": "Program Manager, Translation Service Ops - Localization Scalability & Country Launch",
+      "location": "ES, B, Barcelona",
+      "salary": "Not disclosed",
+      "official_url": "https://www.amazon.jobs/en/jobs/10577482/program-manager-translation-service-ops-localization-scalability-country-launch",
+      "posted": "October 13, 2026",
+      "date_evidence": "Amazon Jobs.posted_date (declared date without timezone)",
+      "evidence_url": "https://www.amazon.jobs/en/search.json?base_query=10577482",
+      "description": "Want to shape how millions of customers experience Amazon in their own language? The country launch team owns the end-to-end content localization strategy for launching Amazon into new countries. As a Program Manager on this team, you will drive international expansion launches across multiple business lines, own localization scope and cost decisions, and build scalable frameworks that let us take on more launches without adding complexity or slowing down. Key job responsibilities - Own country launch readiness end-to-end: Drive localization planning from intake through go-live, coordinating cross-functionally to deliver launches on time - Make scope and cost decisions: Prioritize and phase localization scope to maximize impact while keeping programs on budget, applying optimization strategies to eliminate waste and keep programs on budget - Drive cross-functional alignment: Keep all workstreams in sync when business priorities shift, so no team is working on outdated plans or spending against cancelled scope - Build and enforce governance: Stand up intake processes, define readiness criteria, and manage financial controls that bring consistency and predictability to every launch - Deliver quality at scale: Partner with expansion business teams to set and maintain a high bar for localized content, coordinate UAT, triage issues, and make readiness recommendations to business owners - Scale through process: Design repeatable frameworks, runbooks, and playbooks that capture what works and make each launch easier than the last - Manage stakeholders and communicate clearly: Engage in planning cycles, forecast costs, report status to sr.leadership, and run postmortems to turn every launch into a learning opportunity - Identify AI-driven automation opportunities: Identify and pilot AI/ML solutions, including generative AI and LLM-based approaches, to automate manual processes and reduce program costs - Onboard new business lines: Bring new businesses into the localization framework, define the right level of support, and build a path toward full self-service over time About the team Every time Amazon launches in a new country, someone has to make sure the experience feels local from the start. That's us. We own localization readiness for Amazon's international expansion, working across multiple business lines to plan, scope, and deliver localized content that customers, sellers, and partners trust on Day 1. We sit at the intersection of language, technology, and global strategy. We're a strategic partner that shapes what gets built, when it launches, and how it scales. We're building toward a future where AI and automation do the heavy lifting so our people can focus on the decisions that matter. If you want a role where your work directly impacts how millions of people experience Amazon around the world, this is it. - Bachelor's degree - Experience in program or project management - Experience working cross functionally with tech and non-tech teams - Experience defining program requirements and using data and metrics to determine improvements - Speak, write, and read fluently in English - Experience in driving end to end delivery, and communicating results to senior leadership - Experience in written and verbal communication skills to communicate with technical and non-technical audiences, including senior leadership - Experience managing content projects of varying complexity, conducting content review and overseeing localization - Familiarity with NMT or LLM machine translation technologies and how they apply to large-scale content operations - Understanding of software internationalization (i18n) principles and how products are built for global markets - PMP - Bachelor's degree in management, business administration, economics, engineering, marketing - Experience managing service providers and vendors - Experience implementing repeatable processes and driving automation or standardization - Experience managing budgets Amazon is an equal opportunities employer. We believe passionately that employing a diverse workforce is central to our success. We make recruiting decisions based on your experience and skills. We value your passion to discover, invent, simplify and build. Protecting your privacy and the security of your data is a longstanding top priority for Amazon. Please consult our Privacy Notice ( https://www.amazon.jobs/en/privacy_page ) to know more about how we collect, use and transfer the personal data of our candidates. Our inclusive culture empowers Amazonians to deliver the best results for our customers. If you have a disability and need a workplace accommodation or adjustment during the application and hiring process, including support for the interview or onboarding process, please visit https://amazon.jobs/content/en/how-we-hire/accommodations for more information. If the country/region you’re applying in isn’t listed, please contact your Recruiting Partner.",
+      "linkedin_url": "",
+      "focus_matches": [
+        "Operations"
+      ],
+      "focus_evidence": {
+        "Operations": "tion technologies and how they apply to large-scale content operations - Understanding of software internationalization (i18n) principles and how products are built for g"
       },
       "work_mode": "Not specified",
       "work_mode_evidence": "The reviewed official source does not confirm the work arrangement for this role.",
