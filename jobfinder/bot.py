@@ -42,7 +42,7 @@ def title_ok(title):
     if re.search(r'\b(principal|staff|director|associate|executive|intern|vp)\b', text):
         return False
     text = re.sub(r'\bsr\.?\s+', 'senior ', text)
-    return bool(re.search(r'\b(program manager|delivery manager|producer)\b', text))
+    return bool(re.search(r'\b(program manager|delivery manager|producer|tpm)\b', text))
 
 
 def local_date(raw):
@@ -215,6 +215,17 @@ def collect(config, client, today, metrics):
             elif kind == 'ashby':
                 endpoint = f'https://api.ashbyhq.com/posting-api/job-board/{slug}?includeCompensation=true'
                 entries = client.json(endpoint)['jobs']
+            elif kind == 'amazon':
+                endpoint = 'https://www.amazon.jobs/en/search.json'
+                entries = []
+                for query in ('program manager', 'delivery manager', 'producer'):
+                    for offset in range(0, 5000, 100):
+                        data = client.json(endpoint + '?' + urlencode({'base_query':query, 'sort':'recent', 'offset':offset, 'result_limit':100}))
+                        entries.extend(data.get('jobs', []))
+                        if offset + 100 >= data.get('hits', 0):
+                            break
+                    else:
+                        metrics['errors'].append(f'Amazon: pagination capped for {query}')
             elif kind == 'smartrecruiters':
                 endpoint = f'https://api.smartrecruiters.com/v1/companies/{slug}/postings'
                 entries = []
@@ -260,6 +271,26 @@ def collect(config, client, today, metrics):
                                      title=detail['title'], location=loc, salary=salary, official_url=final_url,
                                      posted=posted, date_evidence='Greenhouse.first_published', evidence_url=detail_url,
                                      description=clean(detail.get('content')), linkedin_url=''))
+                elif kind == 'amazon':
+                    posted = entry.get('posted_date')
+                    parsed = datetime.strptime(posted, '%B %d, %Y').date()
+                    if parsed != today:
+                        continue
+                    loc = entry.get('location', '')
+                    if not geography(loc, [entry.get('country_code')]):
+                        continue
+                    url = 'https://www.amazon.jobs' + entry['job_path']
+                    page, final_url = client.get(url)
+                    if str(entry['id_icims']) not in final_url and str(entry['id_icims']) not in page:
+                        raise ValueError('Cannot verify Amazon destination identity')
+                    if re.search(r'job (?:is no longer|has been filled)|position (?:is no longer|has been filled)', clean(page), re.I):
+                        continue
+                    description = clean(entry.get('description','') + ' ' + entry.get('basic_qualifications','') + ' ' + entry.get('preferred_qualifications',''))
+                    pay = re.findall(r'[A-Z]{3}, [^<>\n]+? - [0-9][0-9,]*\.[0-9]{2} - [0-9][0-9,]*\.[0-9]{2} [A-Z]{3} (?:annually|hourly)', html.unescape(entry.get('preferred_qualifications','')))
+                    jobs.append(dict(id='amazon:' + str(entry['id_icims']), company='Amazon', title=entry['title'],
+                        location=loc, salary='; '.join(pay) or 'No publicado', official_url=final_url,
+                        posted=posted, date_evidence='Amazon Jobs.posted_date (fecha declarada sin zona horaria)',
+                        evidence_url=endpoint + '?' + urlencode({'base_query':entry['id_icims']}), description=description, linkedin_url=''))
                 elif kind == 'smartrecruiters':
                     posted = entry.get('releasedDate')
                     if local_date(posted) != today:
