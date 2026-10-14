@@ -26,8 +26,8 @@ No se encontraron vacantes que cumplan todos los criterios en las fuentes accesi
 
 ## Vacantes verificadas
 
-| Match estimado | Empresa / puesto | Ubicación | Salario | Fecha oficial | Aplicar | LinkedIn |
-|---|---|---|---|---|---|---|
+| Match estimado | Empresa / puesto | Ubicación | Modalidad | Salario | Fecha oficial | Aplicar | LinkedIn |
+|---|---|---|---|---|---|---|---|
 
 ## Evidencia y razones
 
@@ -61,3 +61,5 @@ El último comando marca una vacante como aplicada; el ID y URL deben copiarse d
 `data/state.json` conserva ID, URL canónico y primera/última observación de vacantes elegibles. `data/applied.json` conserva bloqueos por ID y/o URL. Una repetición el mismo día mantiene resultados; los reportes de cada fecha se actualizan sin crear duplicados. Las vacantes elegibles más allá del límite de 20 se marcan vistas para evitar reutilizarlas otro día. Los archivos Markdown y JSON en `reports/` guardan evidencia, métricas y errores de cobertura. Estado y reportes se guardan mediante un commit del bot.
 
 Match es una puntuación reproducible de afinidad con el perfil configurado, **no una probabilidad de contratación**. Sin CV confirmado es provisional. No se rellenan salarios ausentes ni fechas no verificadas.
+
+Modalidad: remoto, híbrido o presencial únicamente cuando la fuente lo confirma; de lo contrario, No especificado.
