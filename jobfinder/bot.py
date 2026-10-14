@@ -262,7 +262,7 @@ def linkedin(config, client, today, jobs, metrics):
     accessible = 0
     for location in ('United States', 'Mexico'):
         for title in TITLES:
-            query = urlencode({'keywords': title, 'location': location, 'f_TPR': 'r86400', 'start': 0})
+            query = urlencode({'keywords': title, 'location': location, 'f_TPR': 'r86400' if today == datetime.now(TZ).date() else 'r604800', 'start': 0})
             try:
                 page, _ = client.get('https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?' + query)
                 accessible += 1
@@ -354,7 +354,7 @@ def report(today, jobs, metrics, now):
                   f"- Fecha: {md(job['posted'])}, convertida al día de California cuando tiene zona horaria.",
                   f"- Evidencia: [{md(job['date_evidence'])}](<{job['evidence_url']}>)",
                   f"- Afinidad: título solicitado; ubicación admitida; habilidades coincidentes: {md(', '.join(job['matched_skills']) or 'ninguna configurada')}.", '']
-    lines += ['## Cobertura y fallos', '', 'Vacantes posteriores a las 17:00 quedan fuera de esta ejecución. No se sustituye una fecha ausente por “visto hoy”.']
+    lines += ['## Cobertura y fallos', '', 'La ejecución diaria de las 17:00 no incluye publicaciones posteriores a su inicio. Las búsquedas retrospectivas consultan vacantes todavía accesibles. No se sustituye una fecha ausente por “visto hoy”.']
     lines.extend('- ' + md(e) for e in metrics['errors'])
     return '\n'.join(lines) + '\n'
 
@@ -364,6 +364,7 @@ def main():
     parser.add_argument('command', choices=['run', 'applied'])
     parser.add_argument('--id')
     parser.add_argument('--url')
+    parser.add_argument('--date', help='Publication day in California, YYYY-MM-DD; default today')
     args = parser.parse_args()
     if args.command == 'applied':
         if not args.id and not args.url:
@@ -375,20 +376,28 @@ def main():
     config = load(ROOT / 'config/sources.json')
     profile = load(ROOT / 'config/profile.json')
     now = datetime.now(TZ)
-    today = now.date()
+    today = date.fromisoformat(args.date) if args.date else now.date()
+    if today > now.date():
+        parser.error('Cannot search future publication dates')
+    historical = today != now.date()
     metrics = dict(reviewed=0, sources_ok=0, unverified=0, applied_excluded=0, seen_excluded=0, linkedin_candidates=0, linkedin='No ejecutado', errors=[])
     client = Client(config['official_hosts'] + ['boards-api.greenhouse.io', 'api.ashbyhq.com', 'www.linkedin.com', 'linkedin.com'])
     jobs = collect(config, client, today, metrics)
     linkedin(config, client, today, jobs, metrics)
     if not metrics['sources_ok']:
         raise SystemExit('No official board was accessible; refusing to overwrite the dashboard with a misleading empty report')
-    state = load(ROOT / 'data/state.json', {'seen': {}})
+    state = {'seen': {}} if historical else load(ROOT / 'data/state.json', {'seen': {}})
     jobs = select(jobs, state, load(ROOT / 'data/applied.json', []), today, metrics, profile)
     text = report(today, jobs, metrics, now)
+    if historical:
+        text += '\nBúsqueda retrospectiva: verifica publicaciones de esa fecha que siguen accesibles hoy. No reconstruye vacantes ya cerradas. Conserva el dashboard actual y el historial de vistos; excluye las aplicaciones registradas.\n'
     directory = ROOT / 'reports'
     directory.mkdir(exist_ok=True)
     (directory / f'{today}.md').write_text(text)
     save(directory / f'{today}.json', {'date': today.isoformat(), 'verified_at': now.isoformat(), 'metrics': metrics, 'jobs': jobs})
+    if historical:
+        print(f'{today}: {len(jobs)} verified historical jobs, {len(metrics["errors"])} source warnings')
+        return
     readme = (ROOT / 'README.md').read_text()
     start, end = '<!-- DASHBOARD:START -->', '<!-- DASHBOARD:END -->'
     dashboard = text.replace(f'# Daily Job Report · {today}', f'## Dashboard · {today}').replace('](<reports/', '](<')
