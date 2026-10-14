@@ -2,9 +2,9 @@
 
 Búsqueda diaria para `vermedinam`: hasta **20 vacantes verificadas**, con Top 5 y enlaces directos oficiales. Ejecución programada a las **17:00 America/Los_Angeles**, con ajuste automático al horario de verano. GitHub Actions puede retrasar una ejecución; las 17:00 son la hora de inicio solicitada, no una garantía de entrega exacta.
 
-Títulos: Program Manager, Senior Program Manager, Technical Program Manager, Senior Technical Program Manager, Delivery Manager, Producer y Senior Producer. Se admiten sufijos de especialidad separados por puntuación. Se excluye cualquier título con la palabra **Lead**, así como vacantes marcadas como aplicadas y vistas en días anteriores.
+Títulos: Program Manager, Senior Program Manager, Technical Program Manager, Senior Technical Program Manager, Delivery Manager, Producer y Senior Producer. Se admiten especialidades antes o después del título y la abreviatura Sr.; se excluyen rangos distintos como Staff, Principal, Director y Associate. Se excluye cualquier título con la palabra **Lead**, así como vacantes marcadas como aplicadas y vistas en días anteriores.
 
-Ubicación: USA, México o remoto. Para remoto sin restricciones explícitas se indica elegibilidad pendiente; una restricción explícita a otro país queda excluida. El candidato debe confirmar su autorización laboral y elegibilidad.
+Ubicación: USA, Canadá, México, LATAM o remoto. California tiene prioridad en la selección y el Top 5. Para remoto sin restricciones explícitas se indica elegibilidad pendiente; una restricción explícita a otro país queda excluida. El candidato debe confirmar su autorización laboral y elegibilidad.
 
 <!-- DASHBOARD:START -->
 
@@ -54,7 +54,7 @@ python3 -m jobfinder.bot applied --id 'greenhouse:empresa:12345' --url 'https://
 
 El último comando marca una vacante como aplicada; el ID y URL deben copiarse del reporte. También puedes editar `data/applied.json` en GitHub. La lista inicial está vacía: importa tus aplicaciones anteriores antes de activar el bot. El bot no envía solicitudes.
 
-`config/sources.json` contiene tableros ATS y dominios exactos autorizados. La cobertura inicial es una selección de empresas de tecnología y videojuegos, no todo el mercado. Los slugs y dominios pueden cambiar; el reporte expone fallos y fuentes inaccesibles. Añade empresas para ampliar la cobertura en México. `config/profile.json` contiene habilidades provisionales editables; no se afirma haber revisado un CV.
+`config/sources.json` contiene tableros ATS y dominios exactos autorizados. La cobertura inicial es una selección de empresas de tecnología y videojuegos, no todo el mercado. Los slugs y dominios pueden cambiar; el reporte expone fallos y fuentes inaccesibles. La cobertura ampliada incluye tableros públicos confirmados de Greenhouse, Ashby y SmartRecruiters; revisa los fallos de cada ejecución. `config/profile.json` contiene habilidades provisionales editables; no se afirma haber revisado un CV.
 
 ## Persistencia
 
