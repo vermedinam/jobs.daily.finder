@@ -1,5 +1,17 @@
 {
   "confirmed": false,
-  "skills": ["Agile", "SDLC", "QA", "program management", "delivery", "stakeholder", "games"],
-  "note": "Perfil provisional editable; no implica experiencia confirmada. No guardar datos personales ni CV aquí."
+  "skills": [
+    "Agile",
+    "OKRs",
+    "Operations",
+    "ISO 27001"
+  ],
+  "note": "Preferencias de búsqueda solicitadas por el usuario. No implican experiencia ni certificaciones confirmadas.",
+  "focus_categories": [
+    "Agile",
+    "OKRs",
+    "Operaciones",
+    "ISO 27001"
+  ],
+  "require_focus": true
 }
