@@ -3,7 +3,7 @@ import json
 import unittest
 from datetime import date
 from unittest.mock import patch
-from jobfinder.bot import title_ok, local_date, schema_job, geography, select, canonical, md, public_url, collect
+from jobfinder.bot import title_ok, local_date, schema_job, geography, select, canonical, md, public_url, collect, discovery
 TODAY = date(2026, 10, 13)
 
 def job(i=1):
@@ -18,6 +18,42 @@ def page(**overrides):
     return '<script type="application/ld+json">' + json.dumps(data) + '</script>'
 
 class CollectorTests(unittest.TestCase):
+    def test_discovery_requires_official_date_not_board_date(self):
+        from unittest.mock import patch
+        class FakeClient:
+            def __init__(self, hosts): pass
+            def get(self, url):
+                if url.endswith('/robots.txt'): return 'User-agent: *\nAllow: /', url
+                if url == 'https://board.test/':
+                    return '<a href="/jobs/1">Program Manager</a>', url
+                if url == 'https://board.test/jobs/1':
+                    return page() + '<a href="https://official.test/jobs/1">Apply</a>', url
+                return page(datePosted='2026-10-12'), url
+        config = {'official_hosts':['official.test'], 'discovery_sources':[{'name':'Test Board','hosts':['board.test'],'urls':['https://board.test/']}]}
+        jobs, stats = [], metrics()
+        with patch('jobfinder.bot.Client', FakeClient):
+            discovery(config, None, TODAY, jobs, stats)
+        self.assertEqual(jobs, [])
+        self.assertEqual(stats['discovery'][0]['candidates'], 1)
+        original = FakeClient.get
+        def current(self, url):
+            return (page(), url) if url == 'https://official.test/jobs/1' else original(self, url)
+        with patch('jobfinder.bot.Client', FakeClient), patch.object(FakeClient,'get',current):
+            discovery(config, None, TODAY, jobs, metrics())
+        self.assertEqual(len(jobs), 1)
+        self.assertEqual(jobs[0]['official_url'], 'https://official.test/jobs/1')
+    def test_discovery_respects_robots(self):
+        from unittest.mock import patch
+        class FakeClient:
+            def __init__(self, hosts): pass
+            def get(self, url):
+                if url.endswith('/robots.txt'): return 'User-agent: *\nDisallow: /', url
+                raise AssertionError('Forbidden page requested')
+        stats = metrics()
+        with patch('jobfinder.bot.Client', FakeClient):
+            discovery({'official_hosts':[], 'discovery_sources':[{'name':'Blocked','hosts':['board.test'],'urls':['https://board.test/']}]},None,TODAY,[],stats)
+        self.assertEqual(stats['discovery'][0]['pages'], 0)
+        self.assertIn('disallowed', stats['errors'][0])
     def test_requested_titles_and_lead_exclusion(self):
         for t in ('Program Manager','Senior Producer','Technical Program Manager','Delivery Manager','Senior Technical Program Manager – Games','Sr. Technical Program Manager','Marketing Program Manager'):
             self.assertTrue(title_ok(t), t)
