@@ -3,7 +3,7 @@ import json
 import unittest
 from datetime import date
 from unittest.mock import patch
-from jobfinder.bot import title_ok, local_date, schema_job, geography, select, canonical, md, public_url, collect, discovery
+from jobfinder.bot import title_ok, local_date, schema_job, geography, select, canonical, md, public_url, collect, discovery, employer_board
 TODAY = date(2026, 10, 13)
 
 def job(i=1):
@@ -18,6 +18,12 @@ def page(**overrides):
     return '<script type="application/ld+json">' + json.dumps(data) + '</script>'
 
 class CollectorTests(unittest.TestCase):
+    def test_employer_board_discovery_is_not_a_fixed_company_list(self):
+        self.assertEqual(employer_board('https://job-boards.greenhouse.io/newcompany/jobs/123')['slug'],'newcompany')
+        self.assertEqual(employer_board('https://jobs.ashbyhq.com/anothercompany/abc')['type'],'ashby')
+        self.assertEqual(employer_board('https://jobs.smartrecruiters.com/Company/123')['type'],'smartrecruiters')
+        for url in ('https://job-boards.greenhouse.io.evil.test/company/jobs/1','https://evil.test/jobs/company','http://jobs.ashbyhq.com/company/1','https://user:password@jobs.ashbyhq.com/company/1'):
+            self.assertIsNone(employer_board(url))
     def test_discovery_requires_official_date_not_board_date(self):
         from unittest.mock import patch
         class FakeClient:
