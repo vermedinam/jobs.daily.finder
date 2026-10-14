@@ -33,7 +33,11 @@
     "careers.amgen.com",
     "careers.illumina.com",
     "calcareers.ca.gov",
-    "www.governmentjobs.com"
+    "www.governmentjobs.com",
+    "ats.rippling.com",
+    "thatgamecompany.com",
+    "www.turtlerockstudios.com",
+    "unknownworlds.com"
   ],
   "boards": [
     {
@@ -1675,6 +1679,16 @@
       "type": "greenhouse",
       "slug": "welbehealth",
       "company": "WelbeHealth"
+    },
+    {
+      "type": "greenhouse",
+      "slug": "unknownworlds",
+      "company": "Unknown Worlds"
+    },
+    {
+      "type": "greenhouse",
+      "slug": "turtlerockstudios",
+      "company": "Turtle Rock Studios"
     }
   ],
   "target_results": 30,
@@ -1766,6 +1780,33 @@
       ],
       "urls": [
         "https://careers.welbehealth.com/us/en"
+      ]
+    },
+    {
+      "name": "Branch official careers",
+      "hosts": [
+        "ats.rippling.com"
+      ],
+      "urls": [
+        "https://ats.rippling.com/nl-NL/branch/jobs"
+      ]
+    },
+    {
+      "name": "thatgamecompany official careers",
+      "hosts": [
+        "thatgamecompany.com"
+      ],
+      "urls": [
+        "https://thatgamecompany.com/company/jobs/"
+      ]
+    },
+    {
+      "name": "Turtle Rock Studios official careers",
+      "hosts": [
+        "www.turtlerockstudios.com"
+      ],
+      "urls": [
+        "https://www.turtlerockstudios.com/careers/"
       ]
     }
   ]
