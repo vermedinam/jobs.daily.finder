@@ -76,4 +76,27 @@ class CollectorTests(unittest.TestCase):
             def json(self,url): return {'jobs':[dict(title='Program Manager',isListed=True,publishedAt='2026-10-13',jobUrl=job()['official_url'])]}
             def get(self,url): return page(datePosted='2026-10-12'),url
         self.assertEqual(collect({'boards':[{'type':'ashby','slug':'test','company':'Test'}]},Fake(),TODAY,metrics()),[])
+    def test_historical_run_preserves_dashboard_and_seen(self):
+        import tempfile
+        from pathlib import Path
+        from jobfinder import bot
+        with tempfile.TemporaryDirectory() as folder:
+            root=Path(folder)
+            (root/'config').mkdir()
+            (root/'data').mkdir()
+            (root/'README.md').write_text('Current dashboard')
+            (root/'data/state.json').write_text('{"seen": {"existing": {}}}')
+            (root/'data/applied.json').write_text('[]')
+            (root/'config/sources.json').write_text('{"official_hosts": [], "boards": []}')
+            (root/'config/profile.json').write_text('{"skills": []}')
+            def fake_collect(config, client, day, stats):
+                stats['sources_ok']=1
+                self.assertEqual(day, date(2000,1,1))
+                return []
+            with patch.object(bot,'ROOT',root), patch.object(bot,'collect',side_effect=fake_collect), patch.object(bot,'linkedin'), patch('sys.argv',['bot','run','--date','2000-01-01']):
+                bot.main()
+            self.assertEqual((root/'README.md').read_text(),'Current dashboard')
+            self.assertEqual((root/'data/state.json').read_text(),'{"seen": {"existing": {}}}')
+            self.assertTrue((root/'reports/2000-01-01.json').exists())
+
 if __name__=='__main__': unittest.main()
