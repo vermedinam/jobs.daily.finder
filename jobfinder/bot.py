@@ -181,7 +181,7 @@ def schema_job(page, url, today):
     required = [a.get('name', '') for a in eligibility if isinstance(a, dict)]
     if remote and required:
         countries = required
-    location = '; '.join(locations + (['Remote' + (': ' + ', '.join(required) if required else ' (eligibilidad por confirmar)')] if remote else []))
+    location = '; '.join(locations + (['Remote' + (': ' + ', '.join(required) if required else ' (eligibility to confirm)')] if remote else []))
     if not geography(location, countries, remote):
         return None
     company = item.get('hiringOrganization', {}).get('name', '')
@@ -189,7 +189,7 @@ def schema_job(page, url, today):
         return None
     salary = item.get('baseSalary')
     return dict(id='url:' + canonical(url), company=clean(company), title=clean(item['title']),
-                location=location, salary=clean(json.dumps(salary, ensure_ascii=False)) if salary else 'No publicado',
+                location=location, salary=clean(json.dumps(salary, ensure_ascii=False)) if salary else 'Not disclosed',
                 official_url=url, posted=item['datePosted'], date_evidence='JobPosting.datePosted',
                 evidence_url=url, description=clean(item.get('description')), linkedin_url='')
 
@@ -198,28 +198,28 @@ def work_mode(job, structured=None):
     text = clean(html.unescape(job.get('description','')))
     location = job.get('location','')
     if structured in ('Hybrid','Remote','OnSite'):
-        return {'Hybrid':'Híbrido','Remote':'Remoto','OnSite':'Presencial'}[structured], 'Campo oficial workplaceType: ' + structured
+        return {'Hybrid':'Hybrid','Remote':'Remote','OnSite':'On-site'}[structured], 'Official workplaceType field: ' + structured
     # Explicit requirements take precedence over generic tags or event/onboarding references.
     patterns = [
-        ('Híbrido', r'[^.]{0,100}(?:this role|this position|the role|position|role).{0,80}(?:hybrid|in.person collaboration 1.2 times/week)[^.]{0,180}'),
-        ('Remoto', r'[^.]{0,100}(?:this position|this role|the role).{0,80}(?:remote eligible|fully remote|100% remote|remote position)[^.]{0,180}'),
-        ('Presencial', r'[^.]{0,70}(?:required on.site|required to be performed full.time from|this (?:position|role) (?:is|will be|must be) (?:strictly |fully |100% )?(?:on.site|onsite|in.office))[^.]{0,180}')
+        ('Hybrid', r'[^.]{0,100}(?:this role|this position|the role|position|role).{0,80}(?:hybrid|in.person collaboration 1.2 times/week)[^.]{0,180}'),
+        ('Remote', r'[^.]{0,100}(?:this position|this role|the role).{0,80}(?:remote eligible|fully remote|100% remote|remote position)[^.]{0,180}'),
+        ('On-site', r'[^.]{0,70}(?:required on.site|required to be performed full.time from|this (?:position|role) (?:is|will be|must be) (?:strictly |fully |100% )?(?:on.site|onsite|in.office))[^.]{0,180}')
     ]
     for label, pattern in patterns:
         match = re.search(pattern, text, re.I)
         if match:
             return label, match.group(0).strip()
     if re.search(r'on.site presence and requirements may change', text, re.I):
-        return 'No especificado', 'Se menciona presencia en sitio según necesidades del cliente; no se especifica una modalidad o frecuencia fija.'
+        return 'Not specified', 'On-site attendance depends on client needs; a fixed work arrangement or frequency is not specified.'
     if re.search(r'\bremote\b', location, re.I):
-        return 'Remoto disponible', 'La ubicación oficial incluye Remote; confirmar restricciones y otras modalidades con la empresa.'
-    return 'No especificado', 'La fuente consultada no confirma una modalidad para este puesto.'
+        return 'Remote available', 'The official location includes remote work; confirm geographic restrictions and other work arrangements with the employer.'
+    return 'Not specified', 'The reviewed official source does not confirm the work arrangement for this role.'
 
 
 FOCUS_PATTERNS = {
     'Agile': r'\b(?:agile|agilidad|scrum|kanban|sprints?)\b',
     'OKRs': r'\b(?:okrs?|objectives and key results|objetivos y resultados clave)\b',
-    'Operaciones': r'\b(?:operations|operaciones|operational excellence|operational readiness|operating model|process improvement|continuous improvement|excelencia operativa|mejora continua)\b',
+    'Operations': r'\b(?:operations|operaciones|operational excellence|operational readiness|operating model|process improvement|continuous improvement|excelencia operativa|mejora continua)\b',
     'ISO 27001': r'\biso\s*(?:/\s*iec\s*)?[- ]?27001\b'
 }
 
@@ -312,7 +312,7 @@ def collect(config, client, today, metrics):
                     if re.search(r'job (?:is no longer|has been filled)|position (?:is no longer|has been filled)', clean(page), re.I):
                         continue
                     ranges = detail.get('pay_input_ranges', [])
-                    salary = '; '.join(f"{r['currency_type']} {r['min_cents']/100:,.0f}-{r['max_cents']/100:,.0f} ({r.get('title', 'intervalo no especificado')})" for r in ranges if all(r.get(k) is not None for k in ('currency_type', 'min_cents', 'max_cents'))) or 'No publicado'
+                    salary = '; '.join(f"{r['currency_type']} {r['min_cents']/100:,.0f}-{r['max_cents']/100:,.0f} ({r.get('title', 'interval not specified')})" for r in ranges if all(r.get(k) is not None for k in ('currency_type', 'min_cents', 'max_cents'))) or 'Not disclosed'
                     jobs.append(dict(id=f'greenhouse:{source["slug"]}:{entry["id"]}', company=detail.get('company_name') or company,
                                      title=detail['title'], location=loc, salary=salary, official_url=final_url,
                                      posted=posted, date_evidence='Greenhouse.first_published', evidence_url=detail_url,
@@ -334,8 +334,8 @@ def collect(config, client, today, metrics):
                     description = clean(entry.get('description','') + ' ' + entry.get('basic_qualifications','') + ' ' + entry.get('preferred_qualifications',''))
                     pay = re.findall(r'[A-Z]{3}, [^<>\n]+? - [0-9][0-9,]*\.[0-9]{2} - [0-9][0-9,]*\.[0-9]{2} [A-Z]{3} (?:annually|hourly)', html.unescape(entry.get('preferred_qualifications','')))
                     jobs.append(dict(id='amazon:' + str(entry['id_icims']), company='Amazon', title=entry['title'],
-                        location=loc, salary='; '.join(pay) or 'No publicado', official_url=final_url,
-                        posted=posted, date_evidence='Amazon Jobs.posted_date (fecha declarada sin zona horaria)',
+                        location=loc, salary='; '.join(pay) or 'Not disclosed', official_url=final_url,
+                        posted=posted, date_evidence='Amazon Jobs.posted_date (declared date without timezone)',
                         evidence_url=endpoint + '?' + urlencode({'base_query':entry['id_icims']}), description=description, linkedin_url=''))
                 elif kind == 'smartrecruiters':
                     posted = entry.get('releasedDate')
@@ -359,7 +359,7 @@ def collect(config, client, today, metrics):
                         raise ValueError('Cannot verify destination identity')
                     sections = detail.get('jobAd',{}).get('sections',{})
                     jobs.append(dict(id=f'smartrecruiters:{source["slug"]}:{entry["id"]}', company=detail.get('company',{}).get('name') or company,
-                        title=detail['name'], location=loc, salary='No publicado', official_url=final_url, posted=posted,
+                        title=detail['name'], location=loc, salary='Not disclosed', official_url=final_url, posted=posted,
                         date_evidence='SmartRecruiters.releasedDate (release; may be a repost)', evidence_url=detail_url,
                         description=clean(' '.join(x.get('text','') for x in sections.values())), linkedin_url=''))
                 else:
@@ -383,7 +383,7 @@ def collect(config, client, today, metrics):
 
 def linkedin(config, client, today, jobs, metrics):
     if not config.get('linkedin_public', True):
-        metrics['linkedin'] = 'Desactivado en configuración'
+        metrics['linkedin'] = 'Disabled in configuration'
         return
     accessible = 0
     for location in ('California, United States', 'United States', 'Canada', 'Mexico', 'Latin America'):
@@ -393,7 +393,7 @@ def linkedin(config, client, today, jobs, metrics):
                 page, _ = client.get('https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?' + query)
                 accessible += 1
             except Exception as exc:
-                metrics['linkedin'] = f'Acceso público limitado ({type(exc).__name__}); sin evasión ni login'
+                metrics['linkedin'] = f'Public access limited ({type(exc).__name__}); no bypass or login attempted'
                 return
             for card in re.findall(r'<li\b[^>]*>(.*?)</li>', page, re.S):
                 t = re.search(r'<h3\b[^>]*>(.*?)</h3>', card, re.S)
@@ -422,7 +422,7 @@ def linkedin(config, client, today, jobs, metrics):
                 except Exception:
                     metrics['unverified'] += 1
             time.sleep(0.3)
-    metrics['linkedin'] = f'Acceso público disponible: {accessible} búsquedas; fechas verificadas únicamente en fuentes oficiales'
+    metrics['linkedin'] = f'Public access available: {accessible} searches; publication dates verified only against official sources'
 
 
 def load(path, default=None):
@@ -467,31 +467,35 @@ def select(jobs, state, applied, today, metrics, profile):
     return sorted(unique.values(), key=lambda j: (-j['match'], not california(j), j['company'], j['title']))[:20]
 
 
+ENCOURAGEMENT = "Your worth is not measured by an inbox. One thoughtful application at a time is enough for today."
+
+
 def report(today, jobs, metrics, now):
-    lines = [f'# Daily Job Report · {today}', '', f'Verificado: {now.isoformat()} · America/Los_Angeles.', '',
-             'Hasta 20 vacantes con fecha oficial del día. Un reporte vacío es válido. No es una búsqueda exhaustiva.', '',
-             f"Revisadas: {metrics['reviewed']} · Recomendadas: {len(jobs)} · Aplicadas excluidas: {metrics['applied_excluded']} · Vistas anteriormente: {metrics['seen_excluded']} · Sin verificar: {metrics['unverified']} · Sin afinidad temática: {metrics.get('focus_excluded', 0)}", '',
-             f"Fuentes accesibles: {metrics['sources_ok']} · Candidatas LinkedIn: {metrics['linkedin_candidates']}", '', f"LinkedIn: {md(metrics['linkedin'])}", '',
-             '## Top 5', '']
-    for job in jobs[:5]:
-        lines.append(f"- **{job['match']}% estimado** · {md(job['company'])} · [{md(job['title'])}](<{job['official_url']}>)")
-    if not jobs:
-        lines.append('No se encontraron vacantes que cumplan todos los criterios en las fuentes accesibles.')
-    lines += ['', '## Vacantes verificadas', '', '| Match estimado | Empresa / puesto | Ubicación | Modalidad | Salario | Fecha oficial | Aplicar | LinkedIn |', '|---|---|---|---|---|---|---|---|']
-    for job in jobs:
-        linkedin_link = f"[LinkedIn](<{job['linkedin_url']}>)" if job.get('linkedin_url') else 'No disponible'
-        lines.append(f"| {job['match']}% | {md(job['company'])} / {md(job['title'])} | {md(job['location'])} | {md(job.get('work_mode', 'No especificado'))} | {md(job['salary'])} | {md(job['posted'])} | [Apply Now](<{job['official_url']}>) | {linkedin_link} |")
-    lines += ['', '## Evidencia y razones', '', 'Match = afinidad orientativa, no probabilidad de contratación. Con enfoque temático activo: base 40 y +15 por cada tema confirmado en el título o descripción (Agile, OKRs, operaciones, ISO 27001). Se exige al menos un tema; el score mide afinidad temática, no experiencia validada ni probabilidad de contratación. Sin enfoque temático configurado se conserva el cálculo anterior.', '']
-    for job in jobs:
-        lines += [f"### {md(job['company'])} · {md(job['title'])}", '', f"- Job ID: {md(job['id'])}", '- Estado: Not Applied',
-                  f"- Modalidad: {md(job.get('work_mode', 'No especificado'))}. {md(job.get('work_mode_evidence', ''))}",
-                  f"- Fecha: {md(job['posted'])}, convertida al día de California cuando tiene zona horaria.",
-                  f"- Evidencia: [{md(job['date_evidence'])}](<{job['evidence_url']}>)",
-                  f"- Afinidad: título solicitado; ubicación admitida; temas o habilidades coincidentes: {md(', '.join(job['matched_skills']) or 'ninguna configurada')}.",
-                  *[f"- Evidencia de {md(topic)}: {md(snippet)}" for topic, snippet in job.get('focus_evidence', {}).items()], '']
-    lines += ['## Cobertura y fallos', '', 'La ejecución diaria de las 17:00 no incluye publicaciones posteriores a su inicio. Las búsquedas retrospectivas consultan vacantes todavía accesibles. No se sustituye una fecha ausente por “visto hoy”.']
-    lines.extend('- ' + md(e) for e in metrics['errors'])
-    return '\n'.join(lines) + '\n'
+    lines = [f'# Daily Job Report: {today}', '', f'> {ENCOURAGEMENT}', '',
+        f'Publication day: {today}. Verified at: {now.isoformat()} (America/Los_Angeles).', '',
+        'Up to 20 verified listings from the requested publication day. Coverage is limited to accessible sources.', '',
+        f"Reviewed: {metrics['reviewed']} | Recommended: {len(jobs)} | Applied excluded: {metrics['applied_excluded']} | Previously seen: {metrics['seen_excluded']} | Unverified: {metrics['unverified']} | Outside topic focus: {metrics.get('focus_excluded',0)}", '',
+        f"Accessible sources: {metrics['sources_ok']} | LinkedIn candidates: {metrics['linkedin_candidates']}", '',
+        f"LinkedIn: {md(metrics['linkedin'])}", '', '## Top 5', '']
+    for j in jobs[:5]:
+        lines.append(f"- **{j['match']}% estimated topic match** | {md(j['company'])} | [{md(j['title'])}](<{j['official_url']}>) | {md(j.get('work_mode','Not specified'))}")
+    if not jobs: lines.append('No verified listings met all filters in the accessible sources.')
+    lines += ['', '## Verified jobs', '', '| Estimated match | Company / role | Location | Work arrangement | Published salary | Official publication date | Apply | LinkedIn |', '|---|---|---|---|---|---|---|---|']
+    for j in jobs:
+        li = f"[LinkedIn](<{j['linkedin_url']}>)" if j.get('linkedin_url') else 'Not available'
+        lines.append(f"| {j['match']}% | {md(j['company'])} / {md(j['title'])} | {md(j['location'])} | {md(j.get('work_mode','Not specified'))} | {md(j['salary'])} | {md(j['posted'])} | [Apply](<{j['official_url']}>) | {li} |")
+    lines += ['', '## Evidence and fit', '', 'Topic match is a heuristic, not a hiring probability or verified assessment of experience. With topic focus enabled: 40 base points plus 15 per matched theme (Agile, OKRs, Operations, ISO 27001), capped at 100. At least one theme is required. Results are ordered by match; California breaks ties.', '']
+    for j in jobs:
+        lines += [f"### {md(j['company'])}: {md(j['title'])}", '', f"- Job ID: {md(j['id'])}",
+            '- Application status: Not recorded as applied',
+            f"- Work arrangement: {md(j.get('work_mode','Not specified'))}. {md(j.get('work_mode_evidence',''))}",
+            f"- Publication date: {md(j['posted'])}. Zoned timestamps are evaluated in California time.",
+            f"- Date evidence: [{md(j['date_evidence'])}](<{j['evidence_url']}>)",
+            f"- Relevant themes: {md(', '.join(j.get('focus_matches',j.get('matched_skills',[]))) or 'None recorded')}.",
+            *[f"- Theme evidence: the official title or description mentions {md(t)}." for t in j.get('focus_evidence',{})], '']
+    lines += ['## Coverage and source issues', '', 'The daily 5 pm run cannot include listings published after it begins. Historical searches include postings still accessible when checked. First-seen dates are never substituted for publication dates. SmartRecruiters release dates may refer to reposts. Work arrangements are not inferred from a city or an onboarding event.']
+    lines.extend('- '+md(e) for e in metrics['errors'])
+    return ('\n'.join(lines)+'\n').replace('—','-').replace('–','-')
 
 
 def main():
@@ -515,7 +519,7 @@ def main():
     if today > now.date():
         parser.error('Cannot search future publication dates')
     historical = today != now.date()
-    metrics = dict(reviewed=0, sources_ok=0, unverified=0, applied_excluded=0, seen_excluded=0, linkedin_candidates=0, linkedin='No ejecutado', errors=[])
+    metrics = dict(reviewed=0, sources_ok=0, unverified=0, applied_excluded=0, seen_excluded=0, linkedin_candidates=0, linkedin='Not run', errors=[])
     client = Client(config['official_hosts'] + ['boards-api.greenhouse.io', 'api.ashbyhq.com', 'www.linkedin.com', 'linkedin.com'])
     from concurrent.futures import ThreadPoolExecutor
     def collect_one(source):
@@ -537,7 +541,7 @@ def main():
     jobs = select(jobs, state, load(ROOT / 'data/applied.json', []), today, metrics, profile)
     text = report(today, jobs, metrics, now)
     if historical:
-        text += '\nBúsqueda retrospectiva: verifica publicaciones de esa fecha que siguen accesibles hoy. No reconstruye vacantes ya cerradas. Conserva el dashboard actual y el historial de vistos; excluye las aplicaciones registradas.\n'
+        text += '\nHistorical search: includes postings from that day still accessible now. Closed historical postings cannot be reconstructed. The current dashboard and seen history are preserved. Recorded applications remain excluded.\n'
     directory = ROOT / 'reports'
     directory.mkdir(exist_ok=True)
     (directory / f'{today}.md').write_text(text)
@@ -547,7 +551,7 @@ def main():
         return
     readme = (ROOT / 'README.md').read_text()
     start, end = '<!-- DASHBOARD:START -->', '<!-- DASHBOARD:END -->'
-    dashboard = text.replace(f'# Daily Job Report · {today}', f'## Dashboard · {today}').replace('](<reports/', '](<')
+    dashboard = text.replace(f'# Daily Job Report: {today}', f'## Dashboard: {today}').replace('](<reports/', '](<')
     # Dashboard report evidence links are absolute, so no link rewriting is needed.
     readme = readme.split(start)[0] + start + '\n\n' + dashboard + '\n' + end + readme.split(end)[1]
     (ROOT / 'README.md').write_text(readme)
@@ -557,4 +561,5 @@ def main():
 
 if __name__ == '__main__':
     main()
+
 
