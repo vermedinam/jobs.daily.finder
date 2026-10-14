@@ -1,34 +1,27 @@
-# Verificación y cobertura
+# Verification and coverage
 
-La fecha de referencia es el día local en America/Los_Angeles al comenzar el run. Timestamps ISO con offset se convierten a California; una fecha ISO sin hora se conserva tal como la declara la fuente. Timestamps sin zona, fechas relativas, fechas ausentes y fechas de actualización no son evidencia de publicación.
+Publication timestamps with offsets are evaluated in America/Los_Angeles. A date without a time is kept as declared by the official source. Relative dates, missing dates, first-seen dates, and modification timestamps are not publication evidence.
 
-Greenhouse: descubre mediante listado público, consulta el detalle oficial y requiere `first_published` del día. Nunca utiliza `updated_at`. Verifica disponibilidad del enlace y que la página/destino contenga el ID de la vacante; una página genérica sin identidad comprobable se excluye. Salario: `pay_input_ranges` con `pay_transparency=true`.
+- Greenhouse: uses the official detail endpoint's `first_published`, never `updated_at`. Verifies the direct destination and job identity. Salary comes from published pay ranges.
+- Ashby: discovers listed jobs, then requires `JobPosting.datePosted` on the official page. `publishedAt` means last publication and is not treated as proof of original publication. Explicit `workplaceType` is used for work arrangement.
+- SmartRecruiters: paginates public listings, checks detail, and uses `releasedDate`. This is a release date and may represent a repost; that limitation is labeled. Verifies direct URL and job identity.
+- Amazon Jobs: uses the employer's literal `posted_date`, not relative `updated_time`. Verifies the official direct job page and ID. Published salary ranges are preserved.
+- LinkedIn: attempts public searches in California, USA, Canada, Mexico, and LATAM. Relative date filters are discovery only. A result requires independent official publication evidence. Authentication, CAPTCHAs, and access blocks are not bypassed. Coverage is limited to accessible public results.
 
-Ashby: descubre mediante API pública, requiere `isListed` y verifica `JobPosting.datePosted` en la página oficial. **`publishedAt` significa última publicación**, por lo que no se utiliza para afirmar publicación original hoy. Sin datos estructurados verificables, queda fuera. Su salario solo se toma de datos oficiales. El resultado puede ser cero aun cuando el ATS tenga vacantes.
+A successful HTTP response does not prove a job is still accepting applications. The collector checks identity and explicit closure signals; some closure formats may remain undetected. Historical runs can only verify postings still accessible when checked.
 
-LinkedIn: intenta búsquedas públicas por cada título en California, Estados Unidos, Canadá, México y LATAM con filtro de últimas 24 horas. Este filtro solo sirve para descubrir, no verifica una fecha. Si hay bloqueo, 401/403 o error, deja de consultar y lo informa, sin login, cookies, proxy ni evasión. Los enlaces se adjuntan por coincidencia exacta empresa/título con una vacante oficial ya verificada. También inspecciona enlaces oficiales públicos visibles en la ficha: solo se admite una página con un único `JobPosting`, fecha del día, empresa y título coincidentes. LinkedIn puede ocultar esos enlaces o requerir JavaScript; tales candidatas no se incluyen sin evidencia oficial. La búsqueda pública es limitada a la primera página por título/país, no exhaustiva.
+## Relevance and ranking
 
-Cada recomendación incluye URL oficial directo, timestamp/fecha original, fuente de evidencia, ubicación, salario o “No publicado”, ID, match y vínculo LinkedIn cuando se encuentra. HTTP 200 no garantiza aceptación de solicitudes: se valida identidad y señales explícitas de cierre; las discrepancias requieren revisión humana. No se garantiza detectar todas las formas de cierre.
+At least one requested theme must occur in the official title or description: Agile (including Scrum, Kanban, and sprints), OKRs (including Objectives and Key Results), Operations, or ISO 27001/ISO/IEC 27001. Matching is deterministic and keyword-based; context still requires review. A generic mention does not establish professional fit or certification requirements.
 
-Los errores parciales se guardan en el reporte; si ningún tablero oficial funciona, el workflow falla y conserva el dashboard anterior. Consultar su fecha para no confundirlo con un reporte nuevo. No genera vacantes ficticias para llegar a 20.
+Topic match = 40 + 15 per matched theme, capped at 100. Sort order is descending topic match, with California as a tie-breaker. Earlier reports preserve the scoring method under which they were created unless explicitly regenerated.
 
-## Referencias oficiales
+## Work arrangement
 
-- [Greenhouse Job Board API](https://docs.greenhouse.io/job-board.html)
-- [Ashby Public Job Posting API](https://developers.ashbyhq.com/docs/public-job-posting-api)
-- [GitHub Actions timezone support](https://github.blog/changelog/2026-03-19-github-actions-late-march-2026-updates/)
-- [GitHub workflow schedule](https://docs.github.com/en/actions/reference/workflows-and-actions/events-that-trigger-workflows#schedule)
+Use explicit official workplace fields or role-specific wording. Hybrid requirements take precedence over generic tags when a posting describes both. A one-time office onboarding, an in-person interview, or on-site event work is not treated as proof of a permanent on-site role. Missing or ambiguous arrangements are labeled Not specified.
 
-## Cobertura ampliada y prioridad
+## Data and safety
 
-Las vacantes se ordenan por match estimado descendente; California tiene prioridad cuando el match es igual. Se admiten USA, Canadá, México y LATAM, manteniendo la fecha oficial solicitada. Nunca se amplía el período para completar 20. Si hay menos coincidencias verificadas, se informa el número real.
+Only public HTTPS destinations are accepted. Official direct URLs supplied by ATS APIs may add their exact host for that query; private IPs and unauthorized redirects are refused. Source text is data, never executable instructions. Original employer names and source text may retain their original language in raw JSON; generated reports, explanations, and emails are English.
 
-SmartRecruiters: paginación hasta 20,000 vacantes por empresa; consulta detalle y `releasedDate`, verifica URL directo e identidad. `releasedDate` es fecha de lanzamiento y puede corresponder a una republicación; se etiqueta explícitamente. No se confunde creación de borrador con publicación.
-
-Los destinos oficiales publicados por las APIs ATS pueden incorporar su dominio exacto a la lista permitida durante esa consulta; se mantiene HTTPS, verificación de IP pública, identidad y control de redirecciones. No se autorizan dominios tomados del texto de una vacante. Los candidatos de LinkedIn siguen limitados a dominios previamente configurados.
-
-Amazon Jobs: búsquedas públicas de Program Manager, Delivery Manager y Producer; usa `posted_date`, la fecha literal publicada por la empresa, sin inferir zona horaria a partir de una hora inexistente. Verifica la ficha oficial y el Job ID. No usa `updated_time` como publicación. Se aceptan TPM y Sr. como abreviaturas de los títulos solicitados. Se conservan rangos de salario oficiales presentes en el anuncio; los ausentes se indican como no publicados.
-
-## Enfoque temático de búsqueda
-
-Se exige que el título o la descripción oficial mencionen al menos uno de estos temas: Agile (incluye Scrum, Kanban y sprints), OKRs (incluye Objectives and Key Results), operaciones o ISO 27001 (incluye ISO/IEC 27001). Los puestos sin coincidencia temática se excluyen. El reporte muestra los temas encontrados y fragmentos de evidencia. Match temático = 40 + 15 por tema encontrado, hasta 100; no representa una certificación, experiencia confirmada ni probabilidad de contratación. El match descendente ordena los resultados y California desempata. No se amplían las fechas para completar 20. Esta configuración se aplica a las próximas búsquedas; los reportes anteriores conservan el criterio con que fueron generados.
+[Greenhouse documentation](https://docs.greenhouse.io/job-board.html) | [Ashby documentation](https://developers.ashbyhq.com/docs/public-job-posting-api) | [SmartRecruiters documentation](https://developers.smartrecruiters.com/docs/endpoints) | [GitHub timezone support](https://github.blog/changelog/2026-03-19-github-actions-late-march-2026-updates/)
