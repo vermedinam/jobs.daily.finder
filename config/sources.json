@@ -20,7 +20,20 @@
     "www.take2games.com",
     "www.unity.com",
     "www.amazon.jobs",
-    "amazon.jobs"
+    "amazon.jobs",
+    "careers.welbehealth.com",
+    "apply.workable.com",
+    "jobs.workable.com",
+    "jobs.lever.co",
+    "careers.microsoft.com",
+    "careers.google.com",
+    "www.google.com",
+    "careers.biocom.org",
+    "careers.gene.com",
+    "careers.amgen.com",
+    "careers.illumina.com",
+    "calcareers.ca.gov",
+    "www.governmentjobs.com"
   ],
   "boards": [
     {
@@ -1652,11 +1665,108 @@
       "type": "smartrecruiters",
       "slug": "Etsy1",
       "company": "Etsy1"
+    },
+    {
+      "type": "greenhouse",
+      "slug": "chaosindustries",
+      "company": "CHAOS Industries"
+    },
+    {
+      "type": "greenhouse",
+      "slug": "welbehealth",
+      "company": "WelbeHealth"
     }
   ],
   "target_results": 30,
   "country_focus": [
     "Mexico",
     "Spain"
+  ],
+  "discovery_sources": [
+    {
+      "name": "Prospanica",
+      "hosts": [
+        "jobs.prospanica.org"
+      ],
+      "urls": [
+        "https://jobs.prospanica.org/home/index.cfm"
+      ]
+    },
+    {
+      "name": "HOPE - Hispanas Organized for Political Equality",
+      "hosts": [
+        "www.latinas.org",
+        "latinas.org"
+      ],
+      "urls": [
+        "https://www.latinas.org/job-board/"
+      ]
+    },
+    {
+      "name": "Lean In Latinas",
+      "hosts": [
+        "leaninlatinas.org",
+        "www.leaninlatinas.org"
+      ],
+      "urls": [
+        "https://leaninlatinas.org/resources/"
+      ]
+    },
+    {
+      "name": "Built In San Francisco",
+      "hosts": [
+        "www.builtinsf.com",
+        "builtinsf.com",
+        "builtin.com",
+        "www.builtin.com"
+      ],
+      "urls": [
+        "https://www.builtinsf.com/",
+        "https://www.builtinsf.com/jobs/product",
+        "https://www.builtinsf.com/jobs?search=program%20manager"
+      ]
+    },
+    {
+      "name": "Hitmarker",
+      "hosts": [
+        "hitmarker.net"
+      ],
+      "urls": [
+        "https://hitmarker.net/",
+        "https://hitmarker.net/jobs",
+        "https://hitmarker.net/game-producer-jobs"
+      ]
+    },
+    {
+      "name": "Welcome to the Jungle",
+      "hosts": [
+        "www.welcometothejungle.com",
+        "app.welcometothejungle.com"
+      ],
+      "urls": [
+        "https://www.welcometothejungle.com/en/pages/jobs-california-us",
+        "https://www.welcometothejungle.com/en/pages/jobs-remote-california-us",
+        "https://app.welcometothejungle.com/jobs/_ew4xDQa",
+        "https://app.welcometothejungle.com/jobs/hw0y0YnS"
+      ]
+    },
+    {
+      "name": "Biocom Career Hub",
+      "hosts": [
+        "careerhub.biocom.org"
+      ],
+      "urls": [
+        "https://careerhub.biocom.org/jobs?titlePrefix=Program%20Manager"
+      ]
+    },
+    {
+      "name": "WelbeHealth official careers",
+      "hosts": [
+        "careers.welbehealth.com"
+      ],
+      "urls": [
+        "https://careers.welbehealth.com/us/en"
+      ]
+    }
   ]
 }
