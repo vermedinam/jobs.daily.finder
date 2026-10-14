@@ -19,7 +19,7 @@ def page(**overrides):
 
 class CollectorTests(unittest.TestCase):
     def test_requested_titles_and_lead_exclusion(self):
-        for t in ('Program Manager','Senior Producer','Technical Program Manager','Delivery Manager','Senior Technical Program Manager – Games','Sr. Technical Program Manager','Marketing Program Manager'):
+        for t in ('Program Manager','Senior Producer','Technical Program Manager','Delivery Manager','Senior Technical Program Manager - Games','Sr. Technical Program Manager','Marketing Program Manager'):
             self.assertTrue(title_ok(t), t)
         for t in ('Lead Program Manager','Program Manager, Lead','Principal Program Manager','Producer Lead','Associate Producer','Product Manager'):
             self.assertFalse(title_ok(t), t)
@@ -125,5 +125,15 @@ class CollectorTests(unittest.TestCase):
         self.assertIn('132,000',result[0]['salary'])
         entry['posted_date']='October 12, 2026'
         self.assertEqual(collect({'boards':[{'type':'amazon','slug':'amazon','company':'Amazon'}]},Fake(),TODAY,metrics()),[])
+
+    def test_work_mode_does_not_confuse_onboarding_or_events(self):
+        from jobfinder.bot import work_mode
+        self.assertEqual(work_mode({'description':'Attend an in-person Day 1 onboarding.','location':'USA'})[0],'No especificado')
+        self.assertEqual(work_mode({'description':'Drive onsite preparation for sponsored events.','location':'USA'})[0],'No especificado')
+        self.assertEqual(work_mode({'description':'This role is hybrid, based out of Santa Clara.','location':'USA'})[0],'Híbrido')
+        self.assertEqual(work_mode({'description':'This position is US - Remote Eligible.','location':'USA'})[0],'Remoto')
+        self.assertEqual(work_mode({'description':'Required On-Site: This position is required to be performed full-time from a designated worksite.','location':'USA'})[0],'Presencial')
+        self.assertEqual(work_mode({'description':'#LI-ONSITE. This role will need to be in the office for in-person collaboration 1-2 times/week.','location':'Brazil'})[0],'Híbrido')
+        self.assertEqual(work_mode({'description':'','location':'USA'},'Hybrid')[0],'Híbrido')
 
 if __name__=='__main__': unittest.main()
