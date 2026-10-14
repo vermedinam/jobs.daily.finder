@@ -19,7 +19,7 @@ def page(**overrides):
 
 class CollectorTests(unittest.TestCase):
     def test_requested_titles_and_lead_exclusion(self):
-        for t in ('Program Manager','Senior Producer','Technical Program Manager','Delivery Manager','Senior Technical Program Manager - Games','Sr. Technical Program Manager','Marketing Program Manager'):
+        for t in ('Program Manager','Senior Producer','Technical Program Manager','Delivery Manager','Senior Technical Program Manager – Games','Sr. Technical Program Manager','Marketing Program Manager'):
             self.assertTrue(title_ok(t), t)
         for t in ('Lead Program Manager','Program Manager, Lead','Principal Program Manager','Producer Lead','Associate Producer','Product Manager'):
             self.assertFalse(title_ok(t), t)
@@ -135,5 +135,30 @@ class CollectorTests(unittest.TestCase):
         self.assertEqual(work_mode({'description':'Required On-Site: This position is required to be performed full-time from a designated worksite.','location':'USA'})[0],'Presencial')
         self.assertEqual(work_mode({'description':'#LI-ONSITE. This role will need to be in the office for in-person collaboration 1-2 times/week.','location':'Brazil'})[0],'Híbrido')
         self.assertEqual(work_mode({'description':'','location':'USA'},'Hybrid')[0],'Híbrido')
+
+    def test_focus_aliases_and_iso_standard_are_specific(self):
+        from jobfinder.bot import focus_matches,score
+        profile={'focus_categories':['Agile','OKRs','Operaciones','ISO 27001'],'require_focus':True}
+        candidate=job(200)
+        candidate['description']='Scrum delivery, objectives and key results, business operations and ISO/IEC 27001:2022.'
+        self.assertEqual(len(focus_matches(candidate,profile)[0]),4)
+        self.assertEqual(score(candidate,profile)[0],100)
+        candidate['description']='ISO 9001 and secure safe software.'
+        self.assertEqual(focus_matches(candidate,profile)[0],[])
+
+    def test_without_focus_is_excluded_without_marking_seen(self):
+        from jobfinder.bot import select
+        profile={'focus_categories':['Agile','OKRs','Operaciones','ISO 27001'],'require_focus':True}
+        no_focus=job(201)
+        no_focus['description']='Manage film budgets and deliverables.'
+        with_focus=job(202)
+        with_focus['description']='Own operations and OKRs.'
+        state={'seen':{}}
+        stats=metrics()
+        selected=select([no_focus,with_focus],state,[],TODAY,stats,profile)
+        self.assertEqual([j['id'] for j in selected],[with_focus['id']])
+        self.assertNotIn(no_focus['id'],state['seen'])
+        self.assertEqual(stats['focus_excluded'],1)
+        self.assertEqual(selected[0]['focus_matches'],['OKRs','Operaciones'])
 
 if __name__=='__main__': unittest.main()
