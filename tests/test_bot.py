@@ -19,7 +19,7 @@ def page(**overrides):
 
 class CollectorTests(unittest.TestCase):
     def test_requested_titles_and_lead_exclusion(self):
-        for t in ('Program Manager','Senior Producer','Technical Program Manager','Delivery Manager','Senior Technical Program Manager – Games'):
+        for t in ('Program Manager','Senior Producer','Technical Program Manager','Delivery Manager','Senior Technical Program Manager – Games','Sr. Technical Program Manager','Marketing Program Manager'):
             self.assertTrue(title_ok(t), t)
         for t in ('Lead Program Manager','Program Manager, Lead','Principal Program Manager','Producer Lead','Associate Producer','Product Manager'):
             self.assertFalse(title_ok(t), t)
@@ -36,12 +36,14 @@ class CollectorTests(unittest.TestCase):
         self.assertIsNone(schema_job(page(validThrough='2026-10-12'), job()['official_url'], TODAY))
         self.assertIsNone(schema_job(page()+page(), job()['official_url'], TODAY))
     def test_remote_country_restrictions(self):
-        self.assertFalse(geography('Remote Canada',['CA'],True))
-        self.assertFalse(geography('Remote Canada'))
+        self.assertTrue(geography('Remote Canada',['CA'],True))
+        self.assertTrue(geography('Remote Canada'))
+        self.assertTrue(geography('Remote Colombia',['CO'],True))
+        self.assertFalse(geography('Remote Germany',['DE'],True))
         self.assertTrue(geography('Los Angeles, California'))
         self.assertTrue(geography('Remote',[],True))
         self.assertTrue(geography('Ciudad de México'))
-        self.assertIsNone(schema_job(page(jobLocationType='TELECOMMUTE',applicantLocationRequirements={'name':'Canada'}), job()['official_url'], TODAY))
+        self.assertIsNone(schema_job(page(jobLocationType='TELECOMMUTE',applicantLocationRequirements={'name':'Germany'}), job()['official_url'], TODAY))
     def test_limit_dedup_applied_seen_and_rerun(self):
         state={'seen':{}}
         candidates=[job(i) for i in range(30)]+[job(5)]
@@ -87,7 +89,7 @@ class CollectorTests(unittest.TestCase):
             (root/'README.md').write_text('Current dashboard')
             (root/'data/state.json').write_text('{"seen": {"existing": {}}}')
             (root/'data/applied.json').write_text('[]')
-            (root/'config/sources.json').write_text('{"official_hosts": [], "boards": []}')
+            (root/'config/sources.json').write_text('{"official_hosts": [], "boards": [{"type":"greenhouse","slug":"test","company":"Test"}]}')
             (root/'config/profile.json').write_text('{"skills": []}')
             def fake_collect(config, client, day, stats):
                 stats['sources_ok']=1
@@ -98,5 +100,14 @@ class CollectorTests(unittest.TestCase):
             self.assertEqual((root/'README.md').read_text(),'Current dashboard')
             self.assertEqual((root/'data/state.json').read_text(),'{"seen": {"existing": {}}}')
             self.assertTrue((root/'reports/2000-01-01.json').exists())
+
+    def test_california_has_priority_over_higher_match_elsewhere(self):
+        california_job=job(99)
+        california_job['location']='Los Angeles, California'
+        california_job['description']=''
+        other=job(100)
+        other['description']='Agile QA delivery'
+        chosen=select([other,california_job],{'seen':{}},[],TODAY,metrics(),{'skills':['Agile','QA','delivery']})
+        self.assertEqual(chosen[0]['id'],california_job['id'])
 
 if __name__=='__main__': unittest.main()
