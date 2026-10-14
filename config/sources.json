@@ -1704,7 +1704,8 @@
       ],
       "urls": [
         "https://jobs.prospanica.org/home/index.cfm"
-      ]
+      ],
+      "category": "Latino and professional associations"
     },
     {
       "name": "HOPE - Hispanas Organized for Political Equality",
@@ -1714,7 +1715,8 @@
       ],
       "urls": [
         "https://www.latinas.org/job-board/"
-      ]
+      ],
+      "category": "Latino and professional associations"
     },
     {
       "name": "Lean In Latinas",
@@ -1724,7 +1726,8 @@
       ],
       "urls": [
         "https://leaninlatinas.org/resources/"
-      ]
+      ],
+      "category": "Latino and professional associations"
     },
     {
       "name": "Built In San Francisco",
@@ -1738,7 +1741,8 @@
         "https://www.builtinsf.com/",
         "https://www.builtinsf.com/jobs/product",
         "https://www.builtinsf.com/jobs?search=program%20manager"
-      ]
+      ],
+      "category": "Regional technology and startups"
     },
     {
       "name": "Hitmarker",
@@ -1749,7 +1753,8 @@
         "https://hitmarker.net/",
         "https://hitmarker.net/jobs",
         "https://hitmarker.net/game-producer-jobs"
-      ]
+      ],
+      "category": "Games and entertainment"
     },
     {
       "name": "Welcome to the Jungle",
@@ -1762,7 +1767,8 @@
         "https://www.welcometothejungle.com/en/pages/jobs-remote-california-us",
         "https://app.welcometothejungle.com/jobs/_ew4xDQa",
         "https://app.welcometothejungle.com/jobs/hw0y0YnS"
-      ]
+      ],
+      "category": "Regional technology and startups"
     },
     {
       "name": "Biocom Career Hub",
@@ -1771,7 +1777,8 @@
       ],
       "urls": [
         "https://careerhub.biocom.org/jobs?titlePrefix=Program%20Manager"
-      ]
+      ],
+      "category": "Life sciences"
     },
     {
       "name": "WelbeHealth official careers",
@@ -1780,7 +1787,8 @@
       ],
       "urls": [
         "https://careers.welbehealth.com/us/en"
-      ]
+      ],
+      "category": "Company careers"
     },
     {
       "name": "Branch official careers",
@@ -1789,7 +1797,8 @@
       ],
       "urls": [
         "https://ats.rippling.com/nl-NL/branch/jobs"
-      ]
+      ],
+      "category": "Company careers"
     },
     {
       "name": "thatgamecompany official careers",
@@ -1798,7 +1807,8 @@
       ],
       "urls": [
         "https://thatgamecompany.com/company/jobs/"
-      ]
+      ],
+      "category": "Company careers"
     },
     {
       "name": "Turtle Rock Studios official careers",
@@ -1807,7 +1817,232 @@
       ],
       "urls": [
         "https://www.turtlerockstudios.com/careers/"
+      ],
+      "category": "Company careers"
+    },
+    {
+      "name": "HLPA",
+      "category": "Latino and professional associations",
+      "hosts": [
+        "jobs.hlpa.com"
+      ],
+      "urls": [
+        "https://jobs.hlpa.com/employment/search.aspx"
+      ]
+    },
+    {
+      "name": "SHPE",
+      "category": "Latino and professional associations",
+      "hosts": [
+        "careercenter.shpe.org"
+      ],
+      "urls": [
+        "https://careercenter.shpe.org/"
+      ]
+    },
+    {
+      "name": "Techqueria",
+      "category": "Latino and professional associations",
+      "hosts": [
+        "techqueria.org"
+      ],
+      "urls": [
+        "https://techqueria.org/jobs/"
+      ]
+    },
+    {
+      "name": "Latinx in Tech Career Center",
+      "category": "Latino and professional associations",
+      "hosts": [
+        "latinxintechcareers.com"
+      ],
+      "urls": [
+        "https://latinxintechcareers.com/"
+      ]
+    },
+    {
+      "name": "PowerToFly",
+      "category": "Women and inclusive career networks",
+      "hosts": [
+        "powertofly.com"
+      ],
+      "urls": [
+        "https://powertofly.com/jobs/embed/"
+      ]
+    },
+    {
+      "name": "Women Who Design",
+      "category": "Women and inclusive career networks",
+      "hosts": [
+        "womenwho.design"
+      ],
+      "urls": [
+        "https://womenwho.design/jobs"
+      ]
+    },
+    {
+      "name": "Women in Games International",
+      "category": "Women and inclusive career networks",
+      "hosts": [
+        "www.getwigi.com"
+      ],
+      "urls": [
+        "https://www.getwigi.com/job-board"
+      ]
+    },
+    {
+      "name": "Started by Women",
+      "category": "Women and inclusive career networks",
+      "hosts": [
+        "startedbywomen.com"
+      ],
+      "urls": [
+        "https://startedbywomen.com/jobs"
+      ]
+    },
+    {
+      "name": "Wellfound California",
+      "category": "Regional technology and startups",
+      "hosts": [
+        "wellfound.com"
+      ],
+      "urls": [
+        "https://wellfound.com/location/california"
+      ]
+    },
+    {
+      "name": "Y Combinator California",
+      "category": "Regional technology and startups",
+      "hosts": [
+        "www.ycombinator.com"
+      ],
+      "urls": [
+        "https://www.ycombinator.com/jobs/location/california"
+      ]
+    },
+    {
+      "name": "Games Jobs Direct",
+      "category": "Games and entertainment",
+      "hosts": [
+        "www.gamesjobsdirect.com"
+      ],
+      "urls": [
+        "https://www.gamesjobsdirect.com/search"
+      ]
+    },
+    {
+      "name": "Bloks",
+      "category": "Games and entertainment",
+      "hosts": [
+        "bloks.gg"
+      ],
+      "urls": [
+        "https://bloks.gg/"
+      ]
+    },
+    {
+      "name": "Gaming Industry Job Tracker",
+      "category": "Games and entertainment",
+      "hosts": [
+        "jobs.christran.gg"
+      ],
+      "urls": [
+        "https://jobs.christran.gg/"
+      ]
+    },
+    {
+      "name": "ASGC Games Jobs",
+      "category": "Games and entertainment",
+      "hosts": [
+        "jobs.asgc.gg"
+      ],
+      "urls": [
+        "https://jobs.asgc.gg/"
+      ]
+    },
+    {
+      "name": "BioSpace California",
+      "category": "Life sciences",
+      "hosts": [
+        "jobs.biospace.com"
+      ],
+      "urls": [
+        "https://jobs.biospace.com/california"
+      ]
+    },
+    {
+      "name": "BioTalent",
+      "category": "Life sciences",
+      "hosts": [
+        "www.biotalent.com"
+      ],
+      "urls": [
+        "https://www.biotalent.com/jobs"
+      ]
+    },
+    {
+      "name": "Manfred Spain",
+      "category": "Remote and international",
+      "hosts": [
+        "www.getmanfred.com"
+      ],
+      "urls": [
+        "https://www.getmanfred.com/en/job-offers"
+      ]
+    },
+    {
+      "name": "Wellfound Remote",
+      "category": "Remote and international",
+      "hosts": [
+        "wellfound.com"
+      ],
+      "urls": [
+        "https://wellfound.com/role/r/program-manager?page=1"
+      ]
+    },
+    {
+      "name": "Jobgether",
+      "category": "Remote and international",
+      "hosts": [
+        "jobgether.com"
+      ],
+      "urls": [
+        "https://jobgether.com/remote-jobs/program-manager"
+      ]
+    },
+    {
+      "name": "Remotely",
+      "category": "Remote and international",
+      "hosts": [
+        "tryremotely.com"
+      ],
+      "urls": [
+        "https://tryremotely.com/jobs/role/program-manager"
       ]
     }
-  ]
+  ],
+  "discovery_scope": {
+    "mode": "category_based",
+    "named_sites_are_examples": true,
+    "categories": [
+      "Latino and professional associations",
+      "Women and inclusive career networks",
+      "Regional technology and startups",
+      "Games and entertainment",
+      "Life sciences",
+      "Remote and international",
+      "Company careers"
+    ],
+    "regions": [
+      "California",
+      "USA",
+      "Mexico",
+      "Canada",
+      "Latin America",
+      "Spain",
+      "Remote"
+    ],
+    "employer_expansion": "Verify supported ATS boards linked by sources and persist for future searches",
+    "coverage_statement": "Open-ended scope; public coverage is partial, not every website."
+  }
 }
