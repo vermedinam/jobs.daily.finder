@@ -216,8 +216,32 @@ def work_mode(job, structured=None):
     return 'No especificado', 'La fuente consultada no confirma una modalidad para este puesto.'
 
 
+FOCUS_PATTERNS = {
+    'Agile': r'\b(?:agile|agilidad|scrum|kanban|sprints?)\b',
+    'OKRs': r'\b(?:okrs?|objectives and key results|objetivos y resultados clave)\b',
+    'Operaciones': r'\b(?:operations|operaciones|operational excellence|operational readiness|operating model|process improvement|continuous improvement|excelencia operativa|mejora continua)\b',
+    'ISO 27001': r'\biso\s*(?:/\s*iec\s*)?[- ]?27001\b'
+}
+
+
+def focus_matches(job, profile):
+    text = clean(html.unescape(job.get('title','') + '. ' + job.get('description','')))
+    found = []
+    evidence = {}
+    for name in profile.get('focus_categories', []):
+        pattern = FOCUS_PATTERNS.get(name)
+        match = re.search(pattern, text, re.I) if pattern else None
+        if match:
+            found.append(name)
+            evidence[name] = text[max(0,match.start()-60):min(len(text),match.end()+100)]
+    return found, evidence
+
+
 def score(job, profile):
     # This is an explainable relevance heuristic, not a hiring probability.
+    if profile.get('focus_categories'):
+        matched, _ = focus_matches(job, profile)
+        return min(100, 40 + 15 * len(matched)), matched
     terms = profile.get('skills', [])
     text = job['description'].casefold()
     matched = [s for s in terms if re.search(r'(?<!\w)' + re.escape(s.casefold()) + r'(?!\w)', text)]
@@ -418,6 +442,11 @@ def select(jobs, state, applied, today, metrics, profile):
     blocked_urls = {canonical(x['official_url']) for x in applied if x.get('official_url')}
     for job in jobs:
         url = canonical(job['official_url'])
+        topics, evidence = focus_matches(job, profile)
+        if profile.get('require_focus') and not topics:
+            metrics['focus_excluded'] = metrics.get('focus_excluded', 0) + 1
+            continue
+        job['focus_matches'], job['focus_evidence'] = topics, evidence
         if job['id'] in blocked_ids or url in blocked_urls:
             metrics['applied_excluded'] += 1
             continue
@@ -441,7 +470,7 @@ def select(jobs, state, applied, today, metrics, profile):
 def report(today, jobs, metrics, now):
     lines = [f'# Daily Job Report · {today}', '', f'Verificado: {now.isoformat()} · America/Los_Angeles.', '',
              'Hasta 20 vacantes con fecha oficial del día. Un reporte vacío es válido. No es una búsqueda exhaustiva.', '',
-             f"Revisadas: {metrics['reviewed']} · Recomendadas: {len(jobs)} · Aplicadas excluidas: {metrics['applied_excluded']} · Vistas anteriormente: {metrics['seen_excluded']} · Sin verificar: {metrics['unverified']}", '',
+             f"Revisadas: {metrics['reviewed']} · Recomendadas: {len(jobs)} · Aplicadas excluidas: {metrics['applied_excluded']} · Vistas anteriormente: {metrics['seen_excluded']} · Sin verificar: {metrics['unverified']} · Sin afinidad temática: {metrics.get('focus_excluded', 0)}", '',
              f"Fuentes accesibles: {metrics['sources_ok']} · Candidatas LinkedIn: {metrics['linkedin_candidates']}", '', f"LinkedIn: {md(metrics['linkedin'])}", '',
              '## Top 5', '']
     for job in jobs[:5]:
@@ -452,13 +481,14 @@ def report(today, jobs, metrics, now):
     for job in jobs:
         linkedin_link = f"[LinkedIn](<{job['linkedin_url']}>)" if job.get('linkedin_url') else 'No disponible'
         lines.append(f"| {job['match']}% | {md(job['company'])} / {md(job['title'])} | {md(job['location'])} | {md(job.get('work_mode', 'No especificado'))} | {md(job['salary'])} | {md(job['posted'])} | [Apply Now](<{job['official_url']}>) | {linkedin_link} |")
-    lines += ['', '## Evidencia y razones', '', 'Match = afinidad orientativa, no probabilidad de contratación. Base 60; +10 por Senior; hasta +30 por habilidades configuradas presentes en la descripción. Sin CV confirmado, el perfil es provisional.', '']
+    lines += ['', '## Evidencia y razones', '', 'Match = afinidad orientativa, no probabilidad de contratación. Con enfoque temático activo: base 40 y +15 por cada tema confirmado en el título o descripción (Agile, OKRs, operaciones, ISO 27001). Se exige al menos un tema; el score mide afinidad temática, no experiencia validada ni probabilidad de contratación. Sin enfoque temático configurado se conserva el cálculo anterior.', '']
     for job in jobs:
         lines += [f"### {md(job['company'])} · {md(job['title'])}", '', f"- Job ID: {md(job['id'])}", '- Estado: Not Applied',
                   f"- Modalidad: {md(job.get('work_mode', 'No especificado'))}. {md(job.get('work_mode_evidence', ''))}",
                   f"- Fecha: {md(job['posted'])}, convertida al día de California cuando tiene zona horaria.",
                   f"- Evidencia: [{md(job['date_evidence'])}](<{job['evidence_url']}>)",
-                  f"- Afinidad: título solicitado; ubicación admitida; habilidades coincidentes: {md(', '.join(job['matched_skills']) or 'ninguna configurada')}.", '']
+                  f"- Afinidad: título solicitado; ubicación admitida; temas o habilidades coincidentes: {md(', '.join(job['matched_skills']) or 'ninguna configurada')}.",
+                  *[f"- Evidencia de {md(topic)}: {md(snippet)}" for topic, snippet in job.get('focus_evidence', {}).items()], '']
     lines += ['## Cobertura y fallos', '', 'La ejecución diaria de las 17:00 no incluye publicaciones posteriores a su inicio. Las búsquedas retrospectivas consultan vacantes todavía accesibles. No se sustituye una fecha ausente por “visto hoy”.']
     lines.extend('- ' + md(e) for e in metrics['errors'])
     return '\n'.join(lines) + '\n'
@@ -527,3 +557,4 @@ def main():
 
 if __name__ == '__main__':
     main()
+
