@@ -136,7 +136,7 @@ def postings(node):
 
 
 ALLOWED_COUNTRIES = {'us','usa','united states','united states of america','mx','mex','mexico','méxico',
-    'ca','can','canada','br','brazil','brasil','ar','argentina','cl','chile','co','colombia','cr','costa rica',
+    'es','esp','spain','españa','espana','ca','can','canada','br','brazil','brasil','ar','argentina','cl','chile','co','colombia','cr','costa rica',
     'uy','uruguay','pe','peru','perú','ec','ecuador','pa','panama','panamá','gt','guatemala','sv','el salvador',
     'hn','honduras','ni','nicaragua','bo','bolivia','py','paraguay','ve','venezuela','do','dominican republic',
     'república dominicana','pr','puerto rico','cu','cuba'}
@@ -146,12 +146,20 @@ def geography(location, countries=(), remote=False):
     countries = {str(c).casefold() for c in countries if c}
     if countries:
         return bool(countries & ALLOWED_COUNTRIES)
-    allowed = r'united states|usa|mexico|méxico|canada|toronto|vancouver|montreal|montréal|ottawa|quebec|ontario|british columbia|brazil|brasil|argentina|chile|colombia|costa rica|uruguay|peru|perú|ecuador|panama|panamá|guatemala|el salvador|honduras|nicaragua|bolivia|paraguay|venezuela|dominican republic|puerto rico|latam|latin america|california|new york|texas|washington|massachusetts|illinois|florida|colorado|oregon|georgia|arizona|virginia|north carolina|new jersey|pennsylvania|utah|nevada|guadalajara|monterrey|san francisco|los angeles|san diego|san jose|santa monica|san mateo|mountain view|palo alto|sunnyvale|irvine|foster city|costa mesa|redwood city|buenos aires|bogotá|bogota|são paulo|sao paulo|medellin|medellín|santiago|lima'
+    allowed = r'united states|usa|mexico|méxico|cdmx|ciudad de mexico|ciudad de méxico|spain|españa|espana|madrid|barcelona|valencia|málaga|malaga|sevilla|bilbao|canada|toronto|vancouver|montreal|montréal|ottawa|quebec|ontario|british columbia|brazil|brasil|argentina|chile|colombia|costa rica|uruguay|peru|perú|ecuador|panama|panamá|guatemala|el salvador|honduras|nicaragua|bolivia|paraguay|venezuela|dominican republic|puerto rico|latam|latin america|california|new york|texas|washington|massachusetts|illinois|florida|colorado|oregon|georgia|arizona|virginia|north carolina|new jersey|pennsylvania|utah|nevada|guadalajara|monterrey|san francisco|los angeles|san diego|san jose|santa monica|san mateo|mountain view|palo alto|sunnyvale|irvine|foster city|costa mesa|redwood city|buenos aires|bogotá|bogota|são paulo|sao paulo|medellin|medellín|santiago|lima'
     if re.search(r'\b(' + allowed + r')\b', location, re.I):
         return True
-    if re.search(r'\b(united kingdom|uk|france|germany|india|australia|spain|japan|singapore|china|ireland|poland|netherlands|emea|europe|apac)\b', location, re.I):
+    if re.search(r'\b(united kingdom|uk|france|germany|india|australia|japan|singapore|china|ireland|poland|netherlands|emea|europe|apac)\b', location, re.I):
         return False
     return bool(remote or re.search(r'\b(remote|remoto|worldwide|global)\b', location, re.I))
+
+
+def regional_location(job, region):
+    text = job.get('location','')
+    if region == 'Mexico':
+        text = re.sub(r'new mexico', '', text, flags=re.I)
+        return bool(re.search(r'\b(mexico|méxico|cdmx|guadalajara|monterrey|querétaro|queretaro|tijuana|ramos arizpe|aguascalientes)\b|[,;]\s*MX\b', text, re.I))
+    return bool(re.search(r'\b(spain|españa|espana|madrid|barcelona|valencia|malaga|málaga|sevilla|bilbao)\b|[,;]\s*ES\b', text, re.I))
 
 
 def california(job):
@@ -386,7 +394,7 @@ def linkedin(config, client, today, jobs, metrics):
         metrics['linkedin'] = 'Disabled in configuration'
         return
     accessible = 0
-    for location in ('California, United States', 'United States', 'Canada', 'Mexico', 'Latin America'):
+    for location in ('California, United States', 'United States', 'Canada', 'Mexico', 'Latin America', 'Spain'):
         for title in TITLES:
             query = urlencode({'keywords': title, 'location': location, 'f_TPR': 'r86400' if today == datetime.now(TZ).date() else 'r604800', 'start': 0})
             try:
@@ -464,7 +472,18 @@ def select(jobs, state, applied, today, metrics, profile):
                 unique[url]['linkedin_url'] = job['linkedin_url']
         else:
             unique[url] = job
-    return sorted(unique.values(), key=lambda j: (-j['match'], not california(j), j['company'], j['title']))[:20]
+    rank = lambda j: (-j['match'], not california(j), j['company'], j['title'])
+    ranked = sorted(unique.values(), key=rank)
+    metrics['mexico_verified_candidates'] = sum(regional_location(j,'Mexico') for j in ranked)
+    metrics['spain_verified_candidates'] = sum(regional_location(j,'Spain') for j in ranked)
+    # Retain regional coverage when valid candidates exist; never invent a quota result.
+    reserved = {j['official_url']:j for region in ('Mexico','Spain') for j in [x for x in ranked if regional_location(x,region)][:5]}
+    picked = list(reserved.values())
+    for j in ranked:
+        if len(picked) >= 30: break
+        if j['official_url'] not in reserved:
+            picked.append(j)
+    return sorted(picked, key=rank)
 
 
 ENCOURAGEMENT = "Your worth is not measured by an inbox. One thoughtful application at a time is enough for today."
@@ -473,10 +492,10 @@ ENCOURAGEMENT = "Your worth is not measured by an inbox. One thoughtful applicat
 def report(today, jobs, metrics, now):
     lines = [f'# Daily Job Report: {today}', '', f'> {ENCOURAGEMENT}', '',
         f'Publication day: {today}. Verified at: {now.isoformat()} (America/Los_Angeles).', '',
-        'Up to 20 verified listings from the requested publication day. Coverage is limited to accessible sources.', '',
+        'Up to 30 verified listings from the requested publication day. Coverage is limited to accessible sources.', '',
         f"Reviewed: {metrics['reviewed']} | Recommended: {len(jobs)} | Applied excluded: {metrics['applied_excluded']} | Previously seen: {metrics['seen_excluded']} | Unverified: {metrics['unverified']} | Outside topic focus: {metrics.get('focus_excluded',0)}", '',
         f"Accessible sources: {metrics['sources_ok']} | LinkedIn candidates: {metrics['linkedin_candidates']}", '',
-        f"LinkedIn: {md(metrics['linkedin'])}", '', '## Top 5', '']
+        f"LinkedIn: {md(metrics['linkedin'])}", '', f"Regional coverage: Mexico {metrics.get('mexico_verified_candidates',0)} verified candidates | Spain {metrics.get('spain_verified_candidates',0)} verified candidates. Target: 30; returned: {len(jobs)}.", '', '## Top 5', '']
     for j in jobs[:5]:
         lines.append(f"- **{j['match']}% estimated topic match** | {md(j['company'])} | [{md(j['title'])}](<{j['official_url']}>) | {md(j.get('work_mode','Not specified'))}")
     if not jobs: lines.append('No verified listings met all filters in the accessible sources.')
