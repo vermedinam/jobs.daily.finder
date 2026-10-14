@@ -21,7 +21,7 @@ Los errores parciales se guardan en el reporte; si ningún tablero oficial funci
 
 ## Cobertura ampliada y prioridad
 
-California se ordena antes del resto de ubicaciones; dentro de cada grupo se ordena por match. Se admiten USA, Canadá, México y LATAM, manteniendo la fecha oficial solicitada. Nunca se amplía el período para completar 20. Si hay menos coincidencias verificadas, se informa el número real.
+Las vacantes se ordenan por match estimado descendente; California tiene prioridad cuando el match es igual. Se admiten USA, Canadá, México y LATAM, manteniendo la fecha oficial solicitada. Nunca se amplía el período para completar 20. Si hay menos coincidencias verificadas, se informa el número real.
 
 SmartRecruiters: paginación hasta 20,000 vacantes por empresa; consulta detalle y `releasedDate`, verifica URL directo e identidad. `releasedDate` es fecha de lanzamiento y puede corresponder a una republicación; se etiqueta explícitamente. No se confunde creación de borrador con publicación.
 
