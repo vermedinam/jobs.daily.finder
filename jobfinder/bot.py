@@ -9,7 +9,7 @@ import time
 from datetime import datetime, date, timezone
 from html.parser import HTMLParser
 from pathlib import Path
-from urllib.parse import urlsplit, urlunsplit, urlencode, quote
+from urllib.parse import urlsplit, urlunsplit, urlencode, quote, urljoin
 from urllib.request import Request, build_opener, HTTPRedirectHandler
 from zoneinfo import ZoneInfo
 
@@ -389,6 +389,107 @@ def collect(config, client, today, metrics):
     return jobs
 
 
+class Links(HTMLParser):
+    def __init__(self):
+        super().__init__()
+        self.items = []
+        self.current = None
+    def handle_starttag(self, tag, attrs):
+        if tag == 'a':
+            self.current = [dict(attrs).get('href', ''), '']
+    def handle_data(self, data):
+        if self.current is not None:
+            self.current[1] += data
+    def handle_endtag(self, tag):
+        if tag == 'a' and self.current is not None:
+            self.items.append(self.current)
+            self.current = None
+
+
+def page_links(page, base):
+    parser = Links()
+    parser.feed(page)
+    return [(canonical(urljoin(base, href)), clean(text)) for href, text in parser.items
+            if href and urlsplit(urljoin(base, href)).scheme == 'https']
+
+
+def discovery(config, client, today, jobs, metrics):
+    """Third-party boards discover candidates; only official pages verify them."""
+    from urllib.robotparser import RobotFileParser
+    metrics['discovery'] = []
+    official_hosts = set(config['official_hosts'])
+    for source in config.get('discovery_sources', []):
+        stat = dict(source=source['name'], pages=0, candidates=0, verified=0, issues=[])
+        allowed = set(source['hosts']) | official_hosts
+        worker = Client(allowed)
+        visited = set()
+        robots = {}
+        def fetch(url):
+            host = urlsplit(url).hostname
+            if host in source['hosts']:
+                if host not in robots:
+                    try:
+                        raw, _ = worker.get('https://' + host + '/robots.txt')
+                    except Exception as exc:
+                        from urllib.error import HTTPError
+                        if not isinstance(exc, HTTPError) or exc.code not in (404, 410):
+                            raise
+                        raw = ''
+                    robot = RobotFileParser()
+                    robot.parse(raw.splitlines())
+                    robots[host] = robot
+                if not robots[host].can_fetch('jobs.daily.finder', url):
+                    raise ValueError('Public crawling disallowed by robots.txt')
+            return worker.get(url)
+        candidates = []
+        for seed in source['urls']:
+            try:
+                page, final = fetch(seed)
+                stat['pages'] += 1
+                # Association boards may link directly to employer job postings.
+                for url, title in page_links(page, final):
+                    host = urlsplit(url).hostname
+                    if title_ok(title) or host in official_hosts and re.search(r'/jobs?/|/postings?/|/careers?/', url):
+                        if host in allowed and url not in visited:
+                            visited.add(url)
+                            candidates.append(url)
+            except Exception as exc:
+                stat['issues'].append(seed + ': ' + str(exc)[:160])
+        for url in candidates[:80]:
+            stat['candidates'] += 1
+            try:
+                page, final = fetch(url)
+                destinations = [(final, page)] if urlsplit(final).hostname in official_hosts else []
+                if not destinations:
+                    for outbound, _ in page_links(page, final):
+                        if urlsplit(outbound).hostname in official_hosts and re.search(r'/jobs?/|/postings?/|/careers?/', outbound):
+                            official, dest = worker.get(outbound)
+                            destinations.append((dest, official))
+                    # JSON-LD may expose the same external official application link.
+                    parser = Scripts()
+                    parser.feed(page)
+                    for item in postings(parser.items):
+                        outbound = item.get('url', '')
+                        if urlsplit(outbound).hostname in official_hosts:
+                            official, dest = worker.get(outbound)
+                            destinations.append((dest, official))
+                for dest, official in destinations:
+                    job = schema_job(official, dest, today)
+                    if job:
+                        job['discovery_source'] = source['name']
+                        job['discovery_url'] = url
+                        jobs.append(job)
+                        stat['verified'] += 1
+            except Exception as exc:
+                stat['issues'].append(url + ': ' + str(exc)[:160])
+        if len(candidates) > 80:
+            stat['issues'].append('Candidate scan capped at 80; coverage is partial')
+        if not stat['candidates'] and stat['pages']:
+            stat['issues'].append('No supported role links in public HTML; dynamic or member-only results may be unavailable')
+        metrics['discovery'].append(stat)
+        metrics['errors'].extend(source['name'] + ': ' + issue for issue in stat['issues'])
+
+
 def linkedin(config, client, today, jobs, metrics):
     if not config.get('linkedin_public', True):
         metrics['linkedin'] = 'Disabled in configuration'
@@ -496,8 +597,9 @@ def report(today, jobs, metrics, now):
         f"Reviewed: {metrics['reviewed']} | Recommended: {len(jobs)} | Applied excluded: {metrics['applied_excluded']} | Previously seen: {metrics['seen_excluded']} | Unverified: {metrics['unverified']} | Outside topic focus: {metrics.get('focus_excluded',0)}", '',
         f"Accessible sources: {metrics['sources_ok']} | LinkedIn candidates: {metrics['linkedin_candidates']}", '',
         f"LinkedIn: {md(metrics['linkedin'])}", '', f"Regional coverage: Mexico {metrics.get('mexico_verified_candidates',0)} verified candidates | Spain {metrics.get('spain_verified_candidates',0)} verified candidates. Target: 30; returned: {len(jobs)}.", '', '## Top 5', '']
+    lines += ['| Estimated match | Company | Role | Location | Work arrangement | Apply |', '|---|---|---|---|---|---|']
     for j in jobs[:5]:
-        lines.append(f"- **{j['match']}% estimated topic match** | {md(j['company'])} | [{md(j['title'])}](<{j['official_url']}>) | {md(j.get('work_mode','Not specified'))}")
+        lines.append(f"| {j['match']}% | {md(j['company'])} | {md(j['title'])} | {md(j['location'])} | {md(j.get('work_mode','Not specified'))} | [Apply](<{j['official_url']}>) |")
     if not jobs: lines.append('No verified listings met all filters in the accessible sources.')
     lines += ['', '## Verified jobs', '', '| Estimated match | Company / role | Location | Work arrangement | Published salary | Official publication date | Apply | LinkedIn |', '|---|---|---|---|---|---|---|---|']
     for j in jobs:
@@ -512,7 +614,11 @@ def report(today, jobs, metrics, now):
             f"- Date evidence: [{md(j['date_evidence'])}](<{j['evidence_url']}>)",
             f"- Relevant themes: {md(', '.join(j.get('focus_matches',j.get('matched_skills',[]))) or 'None recorded')}.",
             *[f"- Theme evidence: the official title or description mentions {md(t)}." for t in j.get('focus_evidence',{})], '']
-    lines += ['## Coverage and source issues', '', 'The daily 5 pm run cannot include listings published after it begins. Historical searches include postings still accessible when checked. First-seen dates are never substituted for publication dates. SmartRecruiters release dates may refer to reposts. Work arrangements are not inferred from a city or an onboarding event.']
+    if metrics.get('discovery'):
+        lines += ['## Additional discovery sources', '', '| Source | Accessible seed pages | Candidate pages checked | Official date-verified discoveries before deduplication | Issues |', '|---|---|---|---|---|']
+        for source in metrics['discovery']:
+            lines.append(f"| {md(source['source'])} | {source['pages']} | {source['candidates']} | {source['verified']} | {len(source['issues'])} |")
+    lines += ['## Coverage and source issues', '', 'The daily 5 pm run cannot include listings published after it begins. Historical searches include postings still accessible when checked. First-seen dates are never substituted for publication dates. SmartRecruiters release dates may refer to reposts. Work arrangements are not inferred from a city or an onboarding event. Additional discovery boards are checked through accessible public HTML with robots.txt respected. Member-only and JavaScript-only results may be unavailable. Third-party publication dates never replace official date evidence.']
     lines.extend('- '+md(e) for e in metrics['errors'])
     return ('\n'.join(lines)+'\n').replace('—','-').replace('–','-')
 
@@ -553,6 +659,7 @@ def main():
             for key in ('reviewed','sources_ok','unverified'):
                 metrics[key] += stats[key]
             metrics['errors'].extend(stats['errors'])
+    discovery(config, client, today, jobs, metrics)
     linkedin(config, client, today, jobs, metrics)
     if not metrics['sources_ok']:
         raise SystemExit('No official board was accessible; refusing to overwrite the dashboard with a misleading empty report')
