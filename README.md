@@ -4,7 +4,7 @@ Búsqueda diaria para `vermedinam`: hasta **20 vacantes verificadas**, con Top 5
 
 Títulos: Program Manager, Senior Program Manager, Technical Program Manager, Senior Technical Program Manager, Delivery Manager, Producer y Senior Producer. Se admiten especialidades antes o después del título y la abreviatura Sr.; se excluyen rangos distintos como Staff, Principal, Director y Associate. Se excluye cualquier título con la palabra **Lead**, así como vacantes marcadas como aplicadas y vistas en días anteriores.
 
-Ubicación: USA, Canadá, México, LATAM o remoto. California tiene prioridad en la selección y el Top 5. Para remoto sin restricciones explícitas se indica elegibilidad pendiente; una restricción explícita a otro país queda excluida. El candidato debe confirmar su autorización laboral y elegibilidad.
+Ubicación: USA, Canadá, México, LATAM o remoto. El match estimado descendente determina la selección y el Top 5; California desempata. Para remoto sin restricciones explícitas se indica elegibilidad pendiente; una restricción explícita a otro país queda excluida. El candidato debe confirmar su autorización laboral y elegibilidad.
 
 <!-- DASHBOARD:START -->
 
