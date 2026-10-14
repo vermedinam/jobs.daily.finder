@@ -31,7 +31,9 @@
         "program management",
         "delivery",
         "stakeholder"
-      ]
+      ],
+      "work_mode": "No especificado",
+      "work_mode_evidence": "La fuente consultada no confirma una modalidad para este puesto."
     },
     {
       "id": "smartrecruiters:TurnerTownsend:744000155341539",
@@ -50,7 +52,9 @@
         "program management",
         "delivery",
         "stakeholder"
-      ]
+      ],
+      "work_mode": "No especificado",
+      "work_mode_evidence": "Se menciona presencia en sitio según necesidades del cliente; no se especifica una modalidad o frecuencia fija."
     },
     {
       "id": "amazon:10577620",
@@ -67,7 +71,9 @@
       "match": 74,
       "matched_skills": [
         "delivery"
-      ]
+      ],
+      "work_mode": "No especificado",
+      "work_mode_evidence": "La fuente consultada no confirma una modalidad para este puesto."
     },
     {
       "id": "smartrecruiters:AECOM2:744000155260429",
@@ -86,7 +92,9 @@
         "program management",
         "delivery",
         "stakeholder"
-      ]
+      ],
+      "work_mode": "No especificado",
+      "work_mode_evidence": "La fuente consultada no confirma una modalidad para este puesto."
     },
     {
       "id": "amazon:10578012",
@@ -105,7 +113,9 @@
         "program management",
         "delivery",
         "stakeholder"
-      ]
+      ],
+      "work_mode": "No especificado",
+      "work_mode_evidence": "La fuente consultada no confirma una modalidad para este puesto."
     },
     {
       "id": "amazon:10577449",
@@ -124,7 +134,9 @@
         "program management",
         "delivery",
         "stakeholder"
-      ]
+      ],
+      "work_mode": "No especificado",
+      "work_mode_evidence": "La fuente consultada no confirma una modalidad para este puesto."
     },
     {
       "id": "amazon:10576606",
@@ -143,7 +155,9 @@
         "Agile",
         "program management",
         "delivery"
-      ]
+      ],
+      "work_mode": "No especificado",
+      "work_mode_evidence": "La fuente consultada no confirma una modalidad para este puesto."
     },
     {
       "id": "amazon:10577794",
@@ -162,7 +176,9 @@
         "Agile",
         "program management",
         "delivery"
-      ]
+      ],
+      "work_mode": "No especificado",
+      "work_mode_evidence": "La fuente consultada no confirma una modalidad para este puesto."
     },
     {
       "id": "greenhouse:tenstorrent:5265014007",
@@ -180,7 +196,9 @@
       "matched_skills": [
         "program management",
         "delivery"
-      ]
+      ],
+      "work_mode": "Híbrido",
+      "work_mode_evidence": "This role is hybrid, based out of Santa Clara, CA; Austin, TX; or Toronto, Canada"
     },
     {
       "id": "smartrecruiters:AECOM2:744000155342415",
@@ -198,7 +216,9 @@
       "matched_skills": [
         "program management",
         "delivery"
-      ]
+      ],
+      "work_mode": "No especificado",
+      "work_mode_evidence": "La fuente consultada no confirma una modalidad para este puesto."
     },
     {
       "id": "amazon:10577725",
@@ -216,7 +236,9 @@
       "matched_skills": [
         "delivery",
         "stakeholder"
-      ]
+      ],
+      "work_mode": "No especificado",
+      "work_mode_evidence": "La fuente consultada no confirma una modalidad para este puesto."
     },
     {
       "id": "amazon:10578112",
@@ -234,7 +256,9 @@
       "matched_skills": [
         "program management",
         "delivery"
-      ]
+      ],
+      "work_mode": "No especificado",
+      "work_mode_evidence": "La fuente consultada no confirma una modalidad para este puesto."
     },
     {
       "id": "amazon:10577748",
@@ -252,7 +276,9 @@
       "matched_skills": [
         "delivery",
         "stakeholder"
-      ]
+      ],
+      "work_mode": "No especificado",
+      "work_mode_evidence": "La fuente consultada no confirma una modalidad para este puesto."
     },
     {
       "id": "amazon:10577203",
@@ -270,7 +296,9 @@
       "matched_skills": [
         "program management",
         "delivery"
-      ]
+      ],
+      "work_mode": "No especificado",
+      "work_mode_evidence": "La fuente consultada no confirma una modalidad para este puesto."
     },
     {
       "id": "amazon:10577206",
@@ -288,7 +316,9 @@
       "matched_skills": [
         "delivery",
         "stakeholder"
-      ]
+      ],
+      "work_mode": "No especificado",
+      "work_mode_evidence": "La fuente consultada no confirma una modalidad para este puesto."
     },
     {
       "id": "greenhouse:pinterest:8260075",
@@ -306,7 +336,9 @@
       "matched_skills": [
         "program management",
         "delivery"
-      ]
+      ],
+      "work_mode": "Híbrido",
+      "work_mode_evidence": "What this looks like day-to-day can vary based on the needs of each organization or role. This role will need to be in the office for in-person collaboration 1-2 times/week, and therefore can be situated in a commutable distance from the Sao Paulo, Brazil office Relocation Statement: This position is not eligible for relocation assistance"
     },
     {
       "id": "ashby:openai:2bdd1b8b-2883-40fb-b006-583959ad4c5f",
@@ -323,7 +355,9 @@
       "match": 64,
       "matched_skills": [
         "delivery"
-      ]
+      ],
+      "work_mode": "Remoto disponible",
+      "work_mode_evidence": "La ubicación oficial incluye Remote; confirmar restricciones y otras modalidades con la empresa."
     },
     {
       "id": "greenhouse:airbnb:8278753",
@@ -340,7 +374,9 @@
       "match": 64,
       "matched_skills": [
         "delivery"
-      ]
+      ],
+      "work_mode": "Remoto",
+      "work_mode_evidence": "environment across multiple locations and time zones to drive consensus across teams Your Location: This position is US - Remote Eligible"
     },
     {
       "id": "amazon:10576881",
@@ -357,7 +393,9 @@
       "match": 64,
       "matched_skills": [
         "delivery"
-      ]
+      ],
+      "work_mode": "No especificado",
+      "work_mode_evidence": "La fuente consultada no confirma una modalidad para este puesto."
     },
     {
       "id": "smartrecruiters:NBCUniversal3:744000155412459",
@@ -372,7 +410,9 @@
       "description": "NBCUniversal is one of the world's leading media and entertainment companies. We create world-class content, which we distribute across our portfolio of film, television, and streaming, and bring to life through our global theme park destinations, consumer products, and experiences. We own and operate leading entertainment and news brands, including NBC, NBC News, NBC Sports, Telemundo, NBC Local Stations, Bravo, and Peacock, our premium ad-supported streaming service. We produce and distribute premier filmed entertainment and programming through our powerhouse film and television studios, including Universal Pictures, DreamWorks Animation, and Focus Features, and the four global television studios under the Universal Studio Group banner, and operate industry-leading theme parks and experiences around the world through Universal Destinations & Experiences, including Universal Orlando Resort, home to Universal Epic Universe, and Universal Studios Hollywood. NBCUniversal is a subsidiary of Comcast Corporation. Visit www.nbcuniversal.com for more information. Our impact is rooted in improving the communities where our employees, customers, and audiences live and work. We have a rich tradition of giving back and ensuring our employees have the opportunity to serve their communities. We champion an inclusive culture and strive to attract and develop a talented workforce to create and deliver a wide range of content reflecting our world. NBC 7 is looking for a multi-platform News Producer. You will be required to write, edit, create and produce news content for broadcast or digital platforms based on daily newsroom needs. This role requires strong editorial judgment, adaptability, and the ability to deliver accurate, compelling content under deadline. Responsible for overall production and content of newscasts on any platform on any one of the morning, afternoon or evening shifts Write news scripts, teases, headlines for broadcast and edit video Execute live shots and communicate with anchors during live newscasts Respond to breaking news with accuracy and urgency Contribute to the creation of videos for OTT, FAST and all platforms Collaborate with reporters on daily stories to deliver content across all platforms Write text articles, create and publish videos, photos and podcast for our website Curate YouTube channels Manage video livestreams when necessary Stay well-informed of daily news events and knowledgeable of the San Diego news market Contribute story ideas, participate in daily coverage decisions and editorial meetings Perform other related duties as assigned A minimum of 2 years of experience as broadcast line producer Bachelor’s degree in communication, journalism or related field At least 2-years prior news editing experience Familiarity with Adobe Premiere and/or other editing programs Ability to work on multiple tasks and stories simultaneously in a fast-paced environment Ability to react to breaking news, updating the news as stories evolve and write intros and leads to video online content Experience working with online publishing tools or content management system Demonstrated knowledge of AP style writing and guidelines Eligibility Requirements: Interested candidates must submit a resume/CV through the www.nbcunicareers.com site Internal applicants must submit via myNBCU Careers Must be willing to work at the station in San Diego location Must be 18 years or older Must have unrestricted work authorization to work in the United States Must have valid driver’s license Must have ability to work any of a 24x7 shift Must submit a sample of own work to be considered Desired Qualities: Demonstrated leadership abilities and communication skills Experience writing scripts, captions and text for video graphics Ability to communicate effectively and work well with people while under pressure Experience in editing video for web, social media platforms and TV Knowledge of laws of libel, slander and applicable FCC rules and regulations Personal initiative and ability to work with minimum supervision Team player who is flexible Displays a positive work ethic and can work under tight deadlines High degree of integrity and professionalism Strong organizational skills Bilingual (English/Spanish) both written and verbal preferred Required On-Site : This position is required to be performed full-time from an NBCUniversal-designated worksite. This position is eligible for company sponsored benefits, including medical, dental and vision insurance, 401(k), paid leave, tuition reimbursement, and a variety of other discounts and perks. Learn more about the benefits offered by NBCUniversal by visiting the Benefits page of the Careers website. Salary range: $65,000-$85,000 As part of our selection process, external candidates may be required to attend an in-person interview with an NBCUniversal employee at one of our locations prior to a hiring decision. NBCUniversal's policy is to provide equal employment opportunities to all applicants and employees without regard to race, color, religion, creed, gender, gender identity or expression, age, national origin or ancestry, citizenship, disability, sexual orientation, marital status, pregnancy, veteran status, membership in the uniformed services, genetic information, or any other basis protected by applicable law. If you are a qualified individual with a disability or a disabled veteran and require support throughout the application and/or recruitment process as a result of your disability, you have the right to request a reasonable accommodation. You can submit your request to AccessibilitySupport@nbcuni.com.",
       "linkedin_url": "",
       "match": 60,
-      "matched_skills": []
+      "matched_skills": [],
+      "work_mode": "Presencial",
+      "work_mode_evidence": "skills Bilingual (English/Spanish) both written and verbal preferred Required On-Site : This position is required to be performed full-time from an NBCUniversal-designated worksite"
     }
   ]
 }
