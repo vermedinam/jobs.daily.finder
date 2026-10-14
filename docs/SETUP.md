@@ -1,35 +1,22 @@
 # Setup
 
-Requiere Python 3.9 o posterior con base de zonas horarias (GitHub usa Python 3.12). No requiere paquetes de terceros ni claves de búsqueda. No hay servicio que opere hasta publicar y habilitar el workflow.
+Python 3.9 or newer with IANA timezone data is required. GitHub Actions uses Python 3.12. No third-party Python packages or ATS credentials are required.
 
-1. Publicar estos archivos en un repositorio `vermedinam/jobs.daily.finder`. Preferir privado si se conservará historial de aplicaciones; en público todos pueden leer `data/` y los reportes.
-2. Revisar `config/sources.json`. Confirmar el slug en la página oficial de cada empresa, y agregar el dominio exacto de destino si usa una página propia. No autorizar dominios de agregadores como fuentes oficiales.
-3. Editar las habilidades de `config/profile.json` y marcar `confirmed` true tras revisar el perfil. El algoritmo solo usa esas habilidades y el título; no infiere años de experiencia.
-4. Importar aplicaciones previas en `data/applied.json`, usando ID y/o URL oficial. No poner nombres personales, contactos, notas privadas o CV.
-5. En Settings → Actions habilitar workflows y permitir el permiso `contents: write` del workflow. Si la rama está protegida, proporcionar un mecanismo aprobado de commit/PR; este workflow no evita protecciones.
-6. Abrir Actions → Daily job finder → Run workflow. Revisar el commit, README y `reports/`. La ejecución automática funciona sobre la rama por defecto.
-7. Revisar los fallos de fuentes y agregar empresas regularmente. GitHub puede retrasar/omitir ejecuciones por carga y deshabilitar workflows programados en repositorios públicos sin actividad durante 60 días. Revisar Actions si un reporte falta.
+1. Enable GitHub Actions on the repository's default branch.
+2. The daily workflow requests `contents: write` only to persist reports and seen state. Protected branches may require an approved PR-based persistence mechanism.
+3. Review `config/sources.json` and `config/profile.json`. Board identifiers can change; inaccessible sources are reported.
+4. Import previously submitted applications into `data/applied.json` using official job IDs and/or direct URLs. Any entry in this file is excluded regardless of its status label. Remove an entry to undo an exclusion.
+5. Open Actions, Daily job finder, Run workflow. Leave `date` blank for the current California day, or enter a publication date in YYYY-MM-DD format for a historical search.
+6. Review the report, evidence, source issues, and verification timestamp. Scheduled workflows can be delayed; public repositories may have schedules disabled after prolonged inactivity.
 
-Programación: `cron: '0 17 * * *'` más `timezone: America/Los_Angeles`. Mantiene las 17:00 durante PST/PDT. Las vacantes posteriores a esa hora quedan fuera; una ejecución manual posterior amplía el mismo reporte del día. Un run retrasado a otro día usa la fecha real local y nunca atribuye resultados al día anterior.
+The schedule is `0 17 * * *` with timezone `America/Los_Angeles`. A run does not include jobs posted after it begins. Historical searches leave the latest dashboard and seen state intact.
 
-Para marcar aplicado desde tu copia: ejecutar el comando del README, revisar el archivo y subirlo con un commit. Para hacerlo en GitHub: editar `data/applied.json` con este formato (ejemplo ficticio, no una vacante):
+Example exclusion, using a fictional job:
 
 ```json
-[{"id":"greenhouse:empresa:12345", "official_url":"https://job-boards.greenhouse.io/empresa/jobs/12345", "status":"Applied"}]
+[{"id":"greenhouse:company:12345","official_url":"https://job-boards.greenhouse.io/company/jobs/12345","status":"Applied"}]
 ```
 
-Para desmarcar, eliminar la entrada. Para usar únicamente URL, omitir ID. Cualquier entrada de este archivo se excluye sin importar la etiqueta `status`; no mezclar pendientes en él.
+Use a private repository if application history should remain confidential. Gmail application confirmations are not automatically available to the GitHub workflow. This chat can cross-check them before sending a report, but that does not automatically populate the repository's exclusion file.
 
-## Publicar desde una terminal autorizada
-
-```sh
-gh auth login
-gh repo create vermedinam/jobs.daily.finder --private --source=. --remote=origin --push
-gh workflow run daily.yml --repo vermedinam/jobs.daily.finder
-```
-
-El comando de creación requiere que esta carpeta tenga un commit Git. Si el repositorio ya existe, revisar su contenido antes de integrar los archivos; no sobrescribir trabajo previo. No copiar un token en el chat ni incluirlo en archivos.
-
-## Buscar una fecha anterior
-
-En Actions → Daily job finder → Run workflow, escribir `2026-10-13` en `date`, o ejecutar `python3 -m jobfinder.bot run --date 2026-10-13`. Verifica publicaciones de ese día aún disponibles; no reconstruye vacantes cerradas. El reporte histórico no reemplaza el dashboard actual ni modifica los vistos. Sí excluye aplicaciones registradas. LinkedIn usa hasta siete días para descubrimiento retrospectivo; la fecha siempre se comprueba en la fuente oficial.
+Emails are sent only through an authorized connected mail account when requested in chat. Do not place Gmail passwords or OAuth credentials in the repository.
