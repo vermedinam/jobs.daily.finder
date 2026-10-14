@@ -4,6 +4,11 @@ on:
     - cron: '0 17 * * *'
       timezone: America/Los_Angeles
   workflow_dispatch:
+    inputs:
+      date:
+        description: 'Publication date YYYY-MM-DD (blank for today)'
+        required: false
+        type: string
 permissions:
   contents: read
 concurrency:
@@ -23,7 +28,14 @@ jobs:
       - name: Verify collector
         run: python -m unittest discover -s tests -v
       - name: Collect and render verified jobs
-        run: python -m jobfinder.bot run
+        env:
+          REPORT_DATE: ${{ inputs.date }}
+        run: |
+          if [ -n "$REPORT_DATE" ]; then
+            python -m jobfinder.bot run --date "$REPORT_DATE"
+          else
+            python -m jobfinder.bot run
+          fi
       - name: Persist report and state
         shell: bash
         run: |
