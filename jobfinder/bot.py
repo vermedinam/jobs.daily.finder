@@ -575,6 +575,10 @@ def select(jobs, state, applied, today, metrics, profile):
     blocked_ids = {x.get('id') for x in applied}
     blocked_urls = {canonical(x['official_url']) for x in applied if x.get('official_url')}
     for job in jobs:
+        # User exclusion: never recommend Amazon or its branded subsidiaries.
+        company = clean(job.get('company', '')).casefold()
+        if re.search(r'\bamazon\b|\baws\b|\bamazon web services\b', company):
+            continue
         url = canonical(job['official_url'])
         topics, evidence = focus_matches(job, profile)
         if profile.get('require_focus') and not topics:
