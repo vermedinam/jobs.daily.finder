@@ -14,15 +14,15 @@ Search area: USA, Canada, Mexico, Spain, LATAM, and eligible remote roles. Resul
 
 > Your worth is not measured by an inbox. One thoughtful application at a time is enough for today.
 
-Publication day: 2026-10-14. Verified at: 2026-10-14T16:42:52.746496-07:00 (America/Los_Angeles).
+Publication day: 2026-10-14. Verified at: 2026-10-14T17:30:31.149174-07:00 (America/Los_Angeles).
 
 Up to 30 verified listings from the requested publication day. Coverage is limited to accessible sources.
 
-Reviewed: 60866 | Recommended: 10 | Applied excluded: 0 | Previously seen: 0 | Unverified: 0 | Outside topic focus: 6
+Reviewed: 60858 | Recommended: 10 | Applied excluded: 0 | Previously seen: 0 | Unverified: 2 | Outside topic focus: 6
 
-Accessible sources: 276 | LinkedIn candidates: 107
+Accessible sources: 276 | LinkedIn candidates: 74
 
-LinkedIn: Public access available: 42 searches; publication dates verified only against official sources
+LinkedIn: Public access limited (HTTPError); no bypass or login attempted
 
 Regional coverage: Mexico 0 verified candidates | Spain 1 verified candidates. Target: 30; returned: 10.
 
@@ -241,6 +241,8 @@ The daily 5 pm run cannot include listings published after it begins. Historical
 - slalom: HTTPError
 - slalombuild: HTTPError
 - cprime: HTTPError
+- qualtrics / 8283648: HTTPError
+- qualtrics / 8283601: HTTPError
 - avature: HTTPError
 - guidewire: HTTPError
 - netsuite: HTTPError

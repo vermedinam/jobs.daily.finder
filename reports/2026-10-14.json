@@ -1,14 +1,14 @@
 {
   "date": "2026-10-14",
-  "verified_at": "2026-10-14T16:42:52.746496-07:00",
+  "verified_at": "2026-10-14T17:30:31.149174-07:00",
   "metrics": {
-    "reviewed": 60866,
+    "reviewed": 60858,
     "sources_ok": 276,
-    "unverified": 0,
+    "unverified": 2,
     "applied_excluded": 0,
     "seen_excluded": 0,
-    "linkedin_candidates": 107,
-    "linkedin": "Public access available: 42 searches; publication dates verified only against official sources",
+    "linkedin_candidates": 74,
+    "linkedin": "Public access limited (HTTPError); no bypass or login attempted",
     "errors": [
       "wiz: HTTPError",
       "yelp: HTTPError",
@@ -55,6 +55,8 @@
       "slalom: HTTPError",
       "slalombuild: HTTPError",
       "cprime: HTTPError",
+      "qualtrics / 8283648: HTTPError",
+      "qualtrics / 8283601: HTTPError",
       "avature: HTTPError",
       "guidewire: HTTPError",
       "netsuite: HTTPError",
