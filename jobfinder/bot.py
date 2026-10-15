@@ -579,6 +579,12 @@ def select(jobs, state, applied, today, metrics, profile):
         company = clean(job.get('company', '')).casefold()
         if re.search(r'\bamazon\b|\baws\b|\bamazon web services\b', company):
             continue
+        # Require a relevant program or production leadership role, not generic IT service delivery.
+        title = clean(job.get('title', '')).casefold()
+        if re.search(r'\b(service delivery|it service|data center|food safety|facilities|infrastructure delivery)\b', title):
+            continue
+        if not re.search(r'\b(program manager|technical program manager|producer|production manager|project manager|delivery manager|tpm)\b', title):
+            continue
         url = canonical(job['official_url'])
         topics, evidence = focus_matches(job, profile)
         if profile.get('require_focus') and not topics:
@@ -611,7 +617,7 @@ def select(jobs, state, applied, today, metrics, profile):
     picked = list(reserved.values())
     for j in ranked:
         if len(picked) >= 30: break
-        if j['official_url'] not in reserved:
+        if j['official_url'] not in reserved and sum(x['company'].casefold() == j['company'].casefold() for x in picked) < 3:
             picked.append(j)
     return sorted(picked, key=rank)
 
