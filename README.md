@@ -10,149 +10,93 @@ Search area: USA, Canada, Mexico, Spain, LATAM, and eligible remote roles. Resul
 
 <!-- DASHBOARD:START -->
 
-## Dashboard: 2026-10-14
+## Dashboard: 2026-10-23
 
 > Your worth is not measured by an inbox. One thoughtful application at a time is enough for today.
 
-Publication day: 2026-10-14. Verified at: 2026-10-14T17:30:31.149174-07:00 (America/Los_Angeles).
+Publication day: 2026-10-23. Verified at: 2026-10-23T20:21:28.517622-07:00 (America/Los_Angeles).
 
 Up to 30 verified listings from the requested publication day. Coverage is limited to accessible sources.
 
-Reviewed: 60858 | Recommended: 10 | Applied excluded: 0 | Previously seen: 0 | Unverified: 2 | Outside topic focus: 6
+Reviewed: 61350 | Recommended: 5 | Applied excluded: 0 | Previously seen: 0 | Unverified: 0 | Outside topic focus: 4
 
-Accessible sources: 276 | LinkedIn candidates: 74
+Accessible sources: 275 | LinkedIn candidates: 88
 
-LinkedIn: Public access limited (HTTPError); no bypass or login attempted
+LinkedIn: Public access available: 42 searches; publication dates verified only against official sources
 
-Regional coverage: Mexico 0 verified candidates | Spain 1 verified candidates. Target: 30; returned: 10.
+Regional coverage: Mexico 0 verified candidates | Spain 1 verified candidates. Target: 30; returned: 5.
 
 ## Top 5
 
 | Estimated match | Company | Role | Location | Work arrangement | Apply |
 |---|---|---|---|---|---|
-| 70% | SGS | IT Service Delivery Manager | Madrid, MD, es | Not specified | [Apply](<https://jobs.smartrecruiters.com/SGS/744000155519660-it-service-delivery-manager>) |
-| 55% | Amazon | Data Center Infrastructure Delivery Manager , ID | US, GA, Hampton | Not specified | [Apply](<https://www.amazon.jobs/en/jobs/10579095/data-center-infrastructure-delivery-manager-id>) |
-| 55% | Amazon | Food Safety Program Manager II, WWGS Retail Food Safety | US, TX, Austin | Not specified | [Apply](<https://www.amazon.jobs/en/jobs/10579238/food-safety-program-manager-ii-wwgs-retail-food-safety>) |
-| 55% | Amazon | ML Data Center Delivery Program Manager, ML Capacity Delivery | US, WA, Seattle | Not specified | [Apply](<https://www.amazon.jobs/en/jobs/10579348/ml-data-center-delivery-program-manager-ml-capacity-delivery>) |
-| 55% | Amazon | Program Manager, Quality, GES NA Quality (D&amp;C) | US, VA, Arlington | Not specified | [Apply](<https://www.amazon.jobs/en/jobs/10578804/program-manager-quality-ges-na-quality-d-c>) |
+| 55% | AECOM | Mining Study Program Manager | Murray, UT, us (Remote) | Remote available | [Apply](<https://jobs.smartrecruiters.com/AECOM2/744000157537779-mining-study-program-manager>) |
+| 55% | Fictiv | Strategic Program Manager - Boston | Remote - USA | Remote available | [Apply](<https://job-boards.greenhouse.io/fictiv/jobs/8900378002>) |
+| 55% | Twilio | Partner Program Manager | Remote - US | Remote available | [Apply](<https://job-boards.greenhouse.io/twilio/jobs/8287927>) |
+| 55% | ZoomInfo Technologies LLC | Program Manager, GTM Programs | Bethesda, Maryland, United States; Vancouver, Washington, United States; Waltham, Massachusetts, United States | Not specified | [Apply](<https://www.zoominfo.com/careers/8911097002>) |
+| 55% | n8n | Partner Delivery Manager &#124; Remote &#124; Europe | Berlin, Berlin-Brandenburg, Germany; Remote: Bosnia, Norway, Estonia, Latvia, Slovenia, Netherlands, Hungary, Kosovo, Portugal, Poland, Serbia, Germany, Austria, Finland, Montenegro, United Kingdom, Albania, Lithuania, Slovakia, Ireland, Bulgaria, Denmark, Belgium, Czech Republic, Croatia, Spain, Greece | Remote | [Apply](<https://jobs.ashbyhq.com/n8n/01d9f6ac-4bc2-410d-aa2e-0bc7d471c210>) |
 
 ## Verified jobs
 
 | Estimated match | Company / role | Location | Work arrangement | Published salary | Official publication date | Apply | LinkedIn |
 |---|---|---|---|---|---|---|---|
-| 70% | SGS / IT Service Delivery Manager | Madrid, MD, es | Not specified | Not disclosed | 2026-10-14T13:48:32.576Z | [Apply](<https://jobs.smartrecruiters.com/SGS/744000155519660-it-service-delivery-manager>) | Not available |
-| 55% | Amazon / Data Center Infrastructure Delivery Manager , ID | US, GA, Hampton | Not specified | USA, GA, Hampton - 107,700.00 - 188,500.00 USD annually; USA, GA, JACKSON - 107,700.00 - 188,500.00 USD annually | October 14, 2026 | [Apply](<https://www.amazon.jobs/en/jobs/10579095/data-center-infrastructure-delivery-manager-id>) | Not available |
-| 55% | Amazon / Food Safety Program Manager II, WWGS Retail Food Safety | US, TX, Austin | Not specified | USA, CA, Irvine - 74,200.00 - 129,800.00 USD annually; USA, CA, Pasadena - 74,200.00 - 129,800.00 USD annually; USA, CO, Denver - 74,200.00 - 129,800.00 USD annually; USA, FL, FORT LAUDERDALE - 74,200.00 - 129,800.00 USD annually; USA, GA, Atlanta - 74,200.00 - 129,800.00 USD annually; USA, IL, Chicago - 74,200.00 - 129,800.00 USD annually; USA, NJ, JERSEY CITY - 81,600.00 - 142,800.00 USD annually; USA, TX, Austin - 74,200.00 - 129,800.00 USD annually; USA, VA, Arlington - 74,200.00 - 129,800.00 USD annually; USA, WA, Seattle - 82,700.00 - 129,800.00 USD annually | October 14, 2026 | [Apply](<https://www.amazon.jobs/en/jobs/10579238/food-safety-program-manager-ii-wwgs-retail-food-safety>) | Not available |
-| 55% | Amazon / ML Data Center Delivery Program Manager, ML Capacity Delivery | US, WA, Seattle | Not specified | USA, VA, Herndon - 127,200.00 - 172,100.00 USD annually; USA, WA, Seattle - 127,200.00 - 172,100.00 USD annually | October 14, 2026 | [Apply](<https://www.amazon.jobs/en/jobs/10579348/ml-data-center-delivery-program-manager-ml-capacity-delivery>) | Not available |
-| 55% | Amazon / Program Manager, Quality, GES NA Quality (D&amp;C) | US, VA, Arlington | Not specified | USA, AZ, Tempe - 74,200.00 - 129,800.00 USD annually; USA, CA, San Francisco - 81,600.00 - 142,800.00 USD annually; USA, MA, Boston - 74,200.00 - 129,800.00 USD annually; USA, NY, New York - 81,600.00 - 142,800.00 USD annually; USA, TN, Nashville - 66,800.00 - 116,800.00 USD annually; USA, TX, Austin - 74,200.00 - 129,800.00 USD annually; USA, TX, Houston - 74,200.00 - 129,800.00 USD annually; USA, TX, Irving - 74,200.00 - 129,800.00 USD annually; USA, VA, Arlington - 74,200.00 - 129,800.00 USD annually; USA, WA, Bellevue - 82,700.00 - 129,800.00 USD annually | October 14, 2026 | [Apply](<https://www.amazon.jobs/en/jobs/10578804/program-manager-quality-ges-na-quality-d-c>) | Not available |
-| 55% | Amazon / Program Manager, Shared Services, Central RME | US, AZ, Phoenix | Not specified | USA, AZ, Phoenix - 83,200.00 - 145,500.00 USD annually; USA, TN, Nashville - 74,800.00 - 131,000.00 USD annually | October 14, 2026 | [Apply](<https://www.amazon.jobs/en/jobs/10578611/program-manager-shared-services-central-rme>) | Not available |
-| 55% | Amazon / Senior Technical Program Manager, Amazon Connect | US, WA, Seattle | Not specified | USA, CA, Sunnyvale - 171,000.00 - 231,400.00 USD annually; USA, WA, Seattle - 148,700.00 - 201,200.00 USD annually | October 14, 2026 | [Apply](<https://www.amazon.jobs/en/jobs/10578154/senior-technical-program-manager-amazon-connect>) | Not available |
-| 55% | Amazon / Senior Technical Program Manager, Network Engineering | US, WA, Seattle | Not specified | USA, CA, Santa Clara - 171,000.00 - 231,400.00 USD annually; USA, VA, Arlington - 148,700.00 - 201,200.00 USD annually; USA, VA, Herndon - 148,700.00 - 201,200.00 USD annually; USA, WA, Seattle - 148,700.00 - 201,200.00 USD annually | October 14, 2026 | [Apply](<https://www.amazon.jobs/en/jobs/10579061/senior-technical-program-manager-network-engineering>) | Not available |
-| 55% | Amazon / Sr. Technical Program Manager, Worldwide Grocery Stores-Tech (WWGST) | US, WA, Seattle | Not specified | USA, TX, AUSTIN - 148,700.00 - 201,200.00 USD annually; USA, WA, Seattle - 148,700.00 - 201,200.00 USD annually | October 14, 2026 | [Apply](<https://www.amazon.jobs/en/jobs/10578819/sr-technical-program-manager-worldwide-grocery-stores-tech-wwgst>) | Not available |
-| 55% | Amazon / TPM - Mfg. Systems Engineering, Manufacturing Systems Engineering- Leo Satellite Build Systems | US, WA, Bellevue | Not specified | USA, WA, Bellevue - 148,700.00 - 201,200.00 USD annually | October 14, 2026 | [Apply](<https://www.amazon.jobs/en/jobs/10579137/tpm-mfg-systems-engineering-manufacturing-systems-engineering-leo-satellite-build-systems>) | Not available |
+| 55% | AECOM / Mining Study Program Manager | Murray, UT, us (Remote) | Remote available | Not disclosed | 2026-10-23T17:42:22.211Z | [Apply](<https://jobs.smartrecruiters.com/AECOM2/744000157537779-mining-study-program-manager>) | Not available |
+| 55% | Fictiv / Strategic Program Manager - Boston | Remote - USA | Remote available | Not disclosed | 2026-10-23T14:05:37-04:00 | [Apply](<https://job-boards.greenhouse.io/fictiv/jobs/8900378002>) | Not available |
+| 55% | Twilio / Partner Program Manager | Remote - US | Remote available | Not disclosed | 2026-10-23T11:43:38-04:00 | [Apply](<https://job-boards.greenhouse.io/twilio/jobs/8287927>) | Not available |
+| 55% | ZoomInfo Technologies LLC / Program Manager, GTM Programs | Bethesda, Maryland, United States; Vancouver, Washington, United States; Waltham, Massachusetts, United States | Not specified | USD 84,000-132,000 (Below is the US base salary for this position. Additional compensation such as Bonus, Commission, Equity and other benefits may also apply.) | 2026-10-23T07:57:16-04:00 | [Apply](<https://www.zoominfo.com/careers/8911097002>) | Not available |
+| 55% | n8n / Partner Delivery Manager &#124; Remote &#124; Europe | Berlin, Berlin-Brandenburg, Germany; Remote: Bosnia, Norway, Estonia, Latvia, Slovenia, Netherlands, Hungary, Kosovo, Portugal, Poland, Serbia, Germany, Austria, Finland, Montenegro, United Kingdom, Albania, Lithuania, Slovakia, Ireland, Bulgaria, Denmark, Belgium, Czech Republic, Croatia, Spain, Greece | Remote | Not disclosed | 2026-10-23 | [Apply](<https://jobs.ashbyhq.com/n8n/01d9f6ac-4bc2-410d-aa2e-0bc7d471c210>) | Not available |
 
 ## Evidence and fit
 
 Topic match is a heuristic, not a hiring probability or verified assessment of experience. With topic focus enabled: 40 base points plus 15 per matched theme (Agile, OKRs, Operations, ISO 27001), capped at 100. At least one theme is required. Results are ordered by match; California breaks ties.
 
-### SGS: IT Service Delivery Manager
+### AECOM: Mining Study Program Manager
 
-- Job ID: smartrecruiters:SGS:744000155519660
+- Job ID: smartrecruiters:AECOM2:744000157537779
 - Application status: Not recorded as applied
-- Work arrangement: Not specified. The reviewed official source does not confirm the work arrangement for this role.
-- Publication date: 2026-10-14T13:48:32.576Z. Zoned timestamps are evaluated in California time.
-- Date evidence: [SmartRecruiters.releasedDate (release; may be a repost)](<https://api.smartrecruiters.com/v1/companies/SGS/postings/744000155519660>)
-- Relevant themes: Agile, Operations.
-- Theme evidence: the official title or description mentions Agile.
-- Theme evidence: the official title or description mentions Operations.
-
-### Amazon: Data Center Infrastructure Delivery Manager , ID
-
-- Job ID: amazon:10579095
-- Application status: Not recorded as applied
-- Work arrangement: Not specified. The reviewed official source does not confirm the work arrangement for this role.
-- Publication date: October 14, 2026. Zoned timestamps are evaluated in California time.
-- Date evidence: [Amazon Jobs.posted_date (declared date without timezone)](<https://www.amazon.jobs/en/search.json?base_query=10579095>)
+- Work arrangement: Remote available. The official location includes remote work; confirm geographic restrictions and other work arrangements with the employer.
+- Publication date: 2026-10-23T17:42:22.211Z. Zoned timestamps are evaluated in California time.
+- Date evidence: [SmartRecruiters.releasedDate (release; may be a repost)](<https://api.smartrecruiters.com/v1/companies/AECOM2/postings/744000157537779>)
 - Relevant themes: Operations.
 - Theme evidence: the official title or description mentions Operations.
 
-### Amazon: Food Safety Program Manager II, WWGS Retail Food Safety
+### Fictiv: Strategic Program Manager - Boston
 
-- Job ID: amazon:10579238
+- Job ID: greenhouse:fictiv:8900378002
 - Application status: Not recorded as applied
-- Work arrangement: Not specified. The reviewed official source does not confirm the work arrangement for this role.
-- Publication date: October 14, 2026. Zoned timestamps are evaluated in California time.
-- Date evidence: [Amazon Jobs.posted_date (declared date without timezone)](<https://www.amazon.jobs/en/search.json?base_query=10579238>)
+- Work arrangement: Remote available. The official location includes remote work; confirm geographic restrictions and other work arrangements with the employer.
+- Publication date: 2026-10-23T14:05:37-04:00. Zoned timestamps are evaluated in California time.
+- Date evidence: [Greenhouse.first_published](<https://boards-api.greenhouse.io/v1/boards/fictiv/jobs/8900378002?pay_transparency=true>)
 - Relevant themes: Operations.
 - Theme evidence: the official title or description mentions Operations.
 
-### Amazon: ML Data Center Delivery Program Manager, ML Capacity Delivery
+### Twilio: Partner Program Manager
 
-- Job ID: amazon:10579348
+- Job ID: greenhouse:twilio:8287927
 - Application status: Not recorded as applied
-- Work arrangement: Not specified. The reviewed official source does not confirm the work arrangement for this role.
-- Publication date: October 14, 2026. Zoned timestamps are evaluated in California time.
-- Date evidence: [Amazon Jobs.posted_date (declared date without timezone)](<https://www.amazon.jobs/en/search.json?base_query=10579348>)
+- Work arrangement: Remote available. The official location includes remote work; confirm geographic restrictions and other work arrangements with the employer.
+- Publication date: 2026-10-23T11:43:38-04:00. Zoned timestamps are evaluated in California time.
+- Date evidence: [Greenhouse.first_published](<https://boards-api.greenhouse.io/v1/boards/twilio/jobs/8287927?pay_transparency=true>)
 - Relevant themes: Operations.
 - Theme evidence: the official title or description mentions Operations.
 
-### Amazon: Program Manager, Quality, GES NA Quality (D&amp;C)
+### ZoomInfo Technologies LLC: Program Manager, GTM Programs
 
-- Job ID: amazon:10578804
+- Job ID: greenhouse:zoominfo:8911097002
 - Application status: Not recorded as applied
 - Work arrangement: Not specified. The reviewed official source does not confirm the work arrangement for this role.
-- Publication date: October 14, 2026. Zoned timestamps are evaluated in California time.
-- Date evidence: [Amazon Jobs.posted_date (declared date without timezone)](<https://www.amazon.jobs/en/search.json?base_query=10578804>)
+- Publication date: 2026-10-23T07:57:16-04:00. Zoned timestamps are evaluated in California time.
+- Date evidence: [Greenhouse.first_published](<https://boards-api.greenhouse.io/v1/boards/zoominfo/jobs/8911097002?pay_transparency=true>)
 - Relevant themes: Operations.
 - Theme evidence: the official title or description mentions Operations.
 
-### Amazon: Program Manager, Shared Services, Central RME
+### n8n: Partner Delivery Manager &#124; Remote &#124; Europe
 
-- Job ID: amazon:10578611
+- Job ID: ashby:n8n:01d9f6ac-4bc2-410d-aa2e-0bc7d471c210
 - Application status: Not recorded as applied
-- Work arrangement: Not specified. The reviewed official source does not confirm the work arrangement for this role.
-- Publication date: October 14, 2026. Zoned timestamps are evaluated in California time.
-- Date evidence: [Amazon Jobs.posted_date (declared date without timezone)](<https://www.amazon.jobs/en/search.json?base_query=10578611>)
-- Relevant themes: Operations.
-- Theme evidence: the official title or description mentions Operations.
-
-### Amazon: Senior Technical Program Manager, Amazon Connect
-
-- Job ID: amazon:10578154
-- Application status: Not recorded as applied
-- Work arrangement: Not specified. The reviewed official source does not confirm the work arrangement for this role.
-- Publication date: October 14, 2026. Zoned timestamps are evaluated in California time.
-- Date evidence: [Amazon Jobs.posted_date (declared date without timezone)](<https://www.amazon.jobs/en/search.json?base_query=10578154>)
-- Relevant themes: Operations.
-- Theme evidence: the official title or description mentions Operations.
-
-### Amazon: Senior Technical Program Manager, Network Engineering
-
-- Job ID: amazon:10579061
-- Application status: Not recorded as applied
-- Work arrangement: Not specified. The reviewed official source does not confirm the work arrangement for this role.
-- Publication date: October 14, 2026. Zoned timestamps are evaluated in California time.
-- Date evidence: [Amazon Jobs.posted_date (declared date without timezone)](<https://www.amazon.jobs/en/search.json?base_query=10579061>)
-- Relevant themes: Operations.
-- Theme evidence: the official title or description mentions Operations.
-
-### Amazon: Sr. Technical Program Manager, Worldwide Grocery Stores-Tech (WWGST)
-
-- Job ID: amazon:10578819
-- Application status: Not recorded as applied
-- Work arrangement: Not specified. The reviewed official source does not confirm the work arrangement for this role.
-- Publication date: October 14, 2026. Zoned timestamps are evaluated in California time.
-- Date evidence: [Amazon Jobs.posted_date (declared date without timezone)](<https://www.amazon.jobs/en/search.json?base_query=10578819>)
-- Relevant themes: Operations.
-- Theme evidence: the official title or description mentions Operations.
-
-### Amazon: TPM - Mfg. Systems Engineering, Manufacturing Systems Engineering- Leo Satellite Build Systems
-
-- Job ID: amazon:10579137
-- Application status: Not recorded as applied
-- Work arrangement: Not specified. The reviewed official source does not confirm the work arrangement for this role.
-- Publication date: October 14, 2026. Zoned timestamps are evaluated in California time.
-- Date evidence: [Amazon Jobs.posted_date (declared date without timezone)](<https://www.amazon.jobs/en/search.json?base_query=10579137>)
+- Work arrangement: Remote. Official workplaceType field: Remote
+- Publication date: 2026-10-23. Zoned timestamps are evaluated in California time.
+- Date evidence: [JobPosting.datePosted](<https://jobs.ashbyhq.com/n8n/01d9f6ac-4bc2-410d-aa2e-0bc7d471c210>)
 - Relevant themes: Operations.
 - Theme evidence: the official title or description mentions Operations.
 
@@ -165,12 +109,12 @@ New verified employer boards retained for future searches: 0.
 | Latino and professional associations | Prospanica | 0 | 0 | 0 | 1 |
 | Latino and professional associations | HOPE - Hispanas Organized for Political Equality | 1 | 1 | 0 | 0 |
 | Latino and professional associations | Lean In Latinas | 1 | 0 | 0 | 1 |
-| Regional technology and startups | Built In San Francisco | 3 | 23 | 0 | 0 |
-| Games and entertainment | Hitmarker | 3 | 1 | 0 | 0 |
+| Regional technology and startups | Built In San Francisco | 3 | 21 | 0 | 0 |
+| Games and entertainment | Hitmarker | 3 | 2 | 0 | 0 |
 | Regional technology and startups | Welcome to the Jungle | 4 | 0 | 0 | 1 |
 | Life sciences | Biocom Career Hub | 1 | 0 | 0 | 1 |
 | Company careers | WelbeHealth official careers | 1 | 0 | 0 | 1 |
-| Company careers | Branch official careers | 1 | 13 | 0 | 0 |
+| Company careers | Branch official careers | 1 | 14 | 0 | 0 |
 | Company careers | thatgamecompany official careers | 0 | 0 | 0 | 1 |
 | Company careers | Turtle Rock Studios official careers | 1 | 0 | 0 | 1 |
 | Latino and professional associations | HLPA | 0 | 0 | 0 | 1 |
@@ -180,22 +124,23 @@ New verified employer boards retained for future searches: 0.
 | Women and inclusive career networks | PowerToFly | 1 | 0 | 0 | 1 |
 | Women and inclusive career networks | Women Who Design | 1 | 0 | 0 | 1 |
 | Women and inclusive career networks | Women in Games International | 1 | 0 | 0 | 1 |
-| Women and inclusive career networks | Started by Women | 1 | 6 | 0 | 0 |
-| Regional technology and startups | Wellfound California | 1 | 1 | 0 | 0 |
+| Women and inclusive career networks | Started by Women | 1 | 1 | 0 | 0 |
+| Regional technology and startups | Wellfound California | 1 | 0 | 0 | 1 |
 | Regional technology and startups | Y Combinator California | 1 | 0 | 0 | 1 |
 | Games and entertainment | Games Jobs Direct | 0 | 0 | 0 | 1 |
 | Games and entertainment | Bloks | 1 | 0 | 0 | 1 |
 | Games and entertainment | Gaming Industry Job Tracker | 1 | 1 | 0 | 0 |
 | Games and entertainment | ASGC Games Jobs | 1 | 0 | 0 | 1 |
-| Life sciences | BioSpace California | 1 | 0 | 0 | 1 |
+| Life sciences | BioSpace California | 0 | 0 | 0 | 1 |
 | Life sciences | BioTalent | 1 | 0 | 0 | 1 |
 | Remote and international | Manfred Spain | 1 | 0 | 0 | 1 |
-| Remote and international | Wellfound Remote | 1 | 31 | 0 | 0 |
+| Remote and international | Wellfound Remote | 1 | 29 | 0 | 0 |
 | Remote and international | Jobgether | 0 | 0 | 0 | 1 |
-| Remote and international | Remotely | 1 | 7 | 0 | 0 |
+| Remote and international | Remotely | 1 | 11 | 0 | 0 |
 ## Coverage and source issues
 
 The daily 5 pm run cannot include listings published after it begins. Historical searches include postings still accessible when checked. First-seen dates are never substituted for publication dates. SmartRecruiters release dates may refer to reposts. Work arrangements are not inferred from a city or an onboarding event. Additional discovery boards are checked through accessible public HTML with robots.txt respected. Member-only and JavaScript-only results may be unavailable. Third-party publication dates never replace official date evidence.
+- devot: HTTPError
 - wiz: HTTPError
 - yelp: HTTPError
 - contentsquare: HTTPError
@@ -241,8 +186,6 @@ The daily 5 pm run cannot include listings published after it begins. Historical
 - slalom: HTTPError
 - slalombuild: HTTPError
 - cprime: HTTPError
-- qualtrics / 8283648: HTTPError
-- qualtrics / 8283601: HTTPError
 - avature: HTTPError
 - guidewire: HTTPError
 - netsuite: HTTPError
@@ -266,11 +209,12 @@ The daily 5 pm run cannot include listings published after it begins. Historical
 - PowerToFly: No supported role links in public HTML; dynamic or member-only results may be unavailable
 - Women Who Design: No supported role links in public HTML; dynamic or member-only results may be unavailable
 - Women in Games International: No supported role links in public HTML; dynamic or member-only results may be unavailable
+- Wellfound California: No supported role links in public HTML; dynamic or member-only results may be unavailable
 - Y Combinator California: No supported role links in public HTML; dynamic or member-only results may be unavailable
 - Games Jobs Direct: https://www.gamesjobsdirect.com/search: HTTP Error 406: Not Acceptable
 - Bloks: No supported role links in public HTML; dynamic or member-only results may be unavailable
 - ASGC Games Jobs: No supported role links in public HTML; dynamic or member-only results may be unavailable
-- BioSpace California: No supported role links in public HTML; dynamic or member-only results may be unavailable
+- BioSpace California: https://jobs.biospace.com/california: HTTP Error 403: Forbidden
 - BioTalent: No supported role links in public HTML; dynamic or member-only results may be unavailable
 - Manfred Spain: No supported role links in public HTML; dynamic or member-only results may be unavailable
 - Jobgether: https://jobgether.com/remote-jobs/program-manager: HTTP Error 403: Forbidden

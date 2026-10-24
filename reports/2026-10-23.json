@@ -1,0 +1,520 @@
+{
+  "date": "2026-10-23",
+  "verified_at": "2026-10-23T20:21:28.517622-07:00",
+  "metrics": {
+    "reviewed": 61350,
+    "sources_ok": 275,
+    "unverified": 0,
+    "applied_excluded": 0,
+    "seen_excluded": 0,
+    "linkedin_candidates": 88,
+    "linkedin": "Public access available: 42 searches; publication dates verified only against official sources",
+    "errors": [
+      "devot: HTTPError",
+      "wiz: HTTPError",
+      "yelp: HTTPError",
+      "contentsquare: HTTPError",
+      "factorialhr: HTTPError",
+      "factorial: HTTPError",
+      "travelperk: HTTPError",
+      "jobandtalent: HTTPError",
+      "glovo: HTTPError",
+      "bookingcom: HTTPError",
+      "expediagroup: HTTPError",
+      "cimpress: HTTPError",
+      "vistaprint: HTTPError",
+      "softtek: HTTPError",
+      "agileengine: HTTPError",
+      "konfio: HTTPError",
+      "clipmx: HTTPError",
+      "kueski: HTTPError",
+      "klar: HTTPError",
+      "yalo: HTTPError",
+      "nowports: HTTPError",
+      "remitly: HTTPError",
+      "payjoy: HTTPError",
+      "tala: HTTPError",
+      "openpay: HTTPError",
+      "global66: HTTPError",
+      "habi: HTTPError",
+      "truora: HTTPError",
+      "platzi: HTTPError",
+      "clara: HTTPError",
+      "bitso: HTTPError",
+      "stori: HTTPError",
+      "mendel: HTTPError",
+      "factorial: HTTPError",
+      "lodgify: HTTPError",
+      "secretsource: HTTPError",
+      "sastrify: HTTPError",
+      "safetywing: HTTPError",
+      "jobgether: HTTPError",
+      "lemonio: HTTPError",
+      "nearsure: HTTPError",
+      "crunchyroll: HTTPError",
+      "amdocs: HTTPError",
+      "slalom: HTTPError",
+      "slalombuild: HTTPError",
+      "cprime: HTTPError",
+      "avature: HTTPError",
+      "guidewire: HTTPError",
+      "netsuite: HTTPError",
+      "eon: HTTPError",
+      "epamanywhere: HTTPError",
+      "akamai: HTTPError",
+      "thoughtmachine: HTTPError",
+      "checkoutcom: HTTPError",
+      "flywire: HTTPError",
+      "Prospanica: https://jobs.prospanica.org/home/index.cfm: HTTP Error 403: Forbidden",
+      "Lean In Latinas: No supported role links in public HTML; dynamic or member-only results may be unavailable",
+      "Welcome to the Jungle: No supported role links in public HTML; dynamic or member-only results may be unavailable",
+      "Biocom Career Hub: No supported role links in public HTML; dynamic or member-only results may be unavailable",
+      "WelbeHealth official careers: No supported role links in public HTML; dynamic or member-only results may be unavailable",
+      "thatgamecompany official careers: https://thatgamecompany.com/company/jobs/: Only public HTTPS URLs are allowed",
+      "Turtle Rock Studios official careers: No supported role links in public HTML; dynamic or member-only results may be unavailable",
+      "HLPA: https://jobs.hlpa.com/employment/search.aspx: HTTP Error 406: Not Acceptable",
+      "SHPE: https://careercenter.shpe.org/: HTTP Error 403: Forbidden",
+      "Techqueria: No supported role links in public HTML; dynamic or member-only results may be unavailable",
+      "Latinx in Tech Career Center: No supported role links in public HTML; dynamic or member-only results may be unavailable",
+      "PowerToFly: No supported role links in public HTML; dynamic or member-only results may be unavailable",
+      "Women Who Design: No supported role links in public HTML; dynamic or member-only results may be unavailable",
+      "Women in Games International: No supported role links in public HTML; dynamic or member-only results may be unavailable",
+      "Wellfound California: No supported role links in public HTML; dynamic or member-only results may be unavailable",
+      "Y Combinator California: No supported role links in public HTML; dynamic or member-only results may be unavailable",
+      "Games Jobs Direct: https://www.gamesjobsdirect.com/search: HTTP Error 406: Not Acceptable",
+      "Bloks: No supported role links in public HTML; dynamic or member-only results may be unavailable",
+      "ASGC Games Jobs: No supported role links in public HTML; dynamic or member-only results may be unavailable",
+      "BioSpace California: https://jobs.biospace.com/california: HTTP Error 403: Forbidden",
+      "BioTalent: No supported role links in public HTML; dynamic or member-only results may be unavailable",
+      "Manfred Spain: No supported role links in public HTML; dynamic or member-only results may be unavailable",
+      "Jobgether: https://jobgether.com/remote-jobs/program-manager: HTTP Error 403: Forbidden"
+    ],
+    "discovery": [
+      {
+        "source": "Prospanica",
+        "category": "Latino and professional associations",
+        "pages": 0,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "https://jobs.prospanica.org/home/index.cfm: HTTP Error 403: Forbidden"
+        ]
+      },
+      {
+        "source": "HOPE - Hispanas Organized for Political Equality",
+        "category": "Latino and professional associations",
+        "pages": 1,
+        "candidates": 1,
+        "verified": 0,
+        "issues": []
+      },
+      {
+        "source": "Lean In Latinas",
+        "category": "Latino and professional associations",
+        "pages": 1,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "No supported role links in public HTML; dynamic or member-only results may be unavailable"
+        ]
+      },
+      {
+        "source": "Built In San Francisco",
+        "category": "Regional technology and startups",
+        "pages": 3,
+        "candidates": 21,
+        "verified": 0,
+        "issues": []
+      },
+      {
+        "source": "Hitmarker",
+        "category": "Games and entertainment",
+        "pages": 3,
+        "candidates": 2,
+        "verified": 0,
+        "issues": []
+      },
+      {
+        "source": "Welcome to the Jungle",
+        "category": "Regional technology and startups",
+        "pages": 4,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "No supported role links in public HTML; dynamic or member-only results may be unavailable"
+        ]
+      },
+      {
+        "source": "Biocom Career Hub",
+        "category": "Life sciences",
+        "pages": 1,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "No supported role links in public HTML; dynamic or member-only results may be unavailable"
+        ]
+      },
+      {
+        "source": "WelbeHealth official careers",
+        "category": "Company careers",
+        "pages": 1,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "No supported role links in public HTML; dynamic or member-only results may be unavailable"
+        ]
+      },
+      {
+        "source": "Branch official careers",
+        "category": "Company careers",
+        "pages": 1,
+        "candidates": 14,
+        "verified": 0,
+        "issues": []
+      },
+      {
+        "source": "thatgamecompany official careers",
+        "category": "Company careers",
+        "pages": 0,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "https://thatgamecompany.com/company/jobs/: Only public HTTPS URLs are allowed"
+        ]
+      },
+      {
+        "source": "Turtle Rock Studios official careers",
+        "category": "Company careers",
+        "pages": 1,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "No supported role links in public HTML; dynamic or member-only results may be unavailable"
+        ]
+      },
+      {
+        "source": "HLPA",
+        "category": "Latino and professional associations",
+        "pages": 0,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "https://jobs.hlpa.com/employment/search.aspx: HTTP Error 406: Not Acceptable"
+        ]
+      },
+      {
+        "source": "SHPE",
+        "category": "Latino and professional associations",
+        "pages": 0,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "https://careercenter.shpe.org/: HTTP Error 403: Forbidden"
+        ]
+      },
+      {
+        "source": "Techqueria",
+        "category": "Latino and professional associations",
+        "pages": 1,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "No supported role links in public HTML; dynamic or member-only results may be unavailable"
+        ]
+      },
+      {
+        "source": "Latinx in Tech Career Center",
+        "category": "Latino and professional associations",
+        "pages": 1,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "No supported role links in public HTML; dynamic or member-only results may be unavailable"
+        ]
+      },
+      {
+        "source": "PowerToFly",
+        "category": "Women and inclusive career networks",
+        "pages": 1,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "No supported role links in public HTML; dynamic or member-only results may be unavailable"
+        ]
+      },
+      {
+        "source": "Women Who Design",
+        "category": "Women and inclusive career networks",
+        "pages": 1,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "No supported role links in public HTML; dynamic or member-only results may be unavailable"
+        ]
+      },
+      {
+        "source": "Women in Games International",
+        "category": "Women and inclusive career networks",
+        "pages": 1,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "No supported role links in public HTML; dynamic or member-only results may be unavailable"
+        ]
+      },
+      {
+        "source": "Started by Women",
+        "category": "Women and inclusive career networks",
+        "pages": 1,
+        "candidates": 1,
+        "verified": 0,
+        "issues": []
+      },
+      {
+        "source": "Wellfound California",
+        "category": "Regional technology and startups",
+        "pages": 1,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "No supported role links in public HTML; dynamic or member-only results may be unavailable"
+        ]
+      },
+      {
+        "source": "Y Combinator California",
+        "category": "Regional technology and startups",
+        "pages": 1,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "No supported role links in public HTML; dynamic or member-only results may be unavailable"
+        ]
+      },
+      {
+        "source": "Games Jobs Direct",
+        "category": "Games and entertainment",
+        "pages": 0,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "https://www.gamesjobsdirect.com/search: HTTP Error 406: Not Acceptable"
+        ]
+      },
+      {
+        "source": "Bloks",
+        "category": "Games and entertainment",
+        "pages": 1,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "No supported role links in public HTML; dynamic or member-only results may be unavailable"
+        ]
+      },
+      {
+        "source": "Gaming Industry Job Tracker",
+        "category": "Games and entertainment",
+        "pages": 1,
+        "candidates": 1,
+        "verified": 0,
+        "issues": []
+      },
+      {
+        "source": "ASGC Games Jobs",
+        "category": "Games and entertainment",
+        "pages": 1,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "No supported role links in public HTML; dynamic or member-only results may be unavailable"
+        ]
+      },
+      {
+        "source": "BioSpace California",
+        "category": "Life sciences",
+        "pages": 0,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "https://jobs.biospace.com/california: HTTP Error 403: Forbidden"
+        ]
+      },
+      {
+        "source": "BioTalent",
+        "category": "Life sciences",
+        "pages": 1,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "No supported role links in public HTML; dynamic or member-only results may be unavailable"
+        ]
+      },
+      {
+        "source": "Manfred Spain",
+        "category": "Remote and international",
+        "pages": 1,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "No supported role links in public HTML; dynamic or member-only results may be unavailable"
+        ]
+      },
+      {
+        "source": "Wellfound Remote",
+        "category": "Remote and international",
+        "pages": 1,
+        "candidates": 29,
+        "verified": 0,
+        "issues": []
+      },
+      {
+        "source": "Jobgether",
+        "category": "Remote and international",
+        "pages": 0,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "https://jobgether.com/remote-jobs/program-manager: HTTP Error 403: Forbidden"
+        ]
+      },
+      {
+        "source": "Remotely",
+        "category": "Remote and international",
+        "pages": 1,
+        "candidates": 11,
+        "verified": 0,
+        "issues": []
+      }
+    ],
+    "new_employer_boards": 0,
+    "focus_excluded": 4,
+    "mexico_verified_candidates": 0,
+    "spain_verified_candidates": 1
+  },
+  "jobs": [
+    {
+      "id": "smartrecruiters:AECOM2:744000157537779",
+      "company": "AECOM",
+      "title": "Mining Study Program Manager",
+      "location": "Murray, UT, us (Remote)",
+      "salary": "Not disclosed",
+      "official_url": "https://jobs.smartrecruiters.com/AECOM2/744000157537779-mining-study-program-manager",
+      "posted": "2026-10-23T17:42:22.211Z",
+      "date_evidence": "SmartRecruiters.releasedDate (release; may be a repost)",
+      "evidence_url": "https://api.smartrecruiters.com/v1/companies/AECOM2/postings/744000157537779",
+      "description": "Work with Us. Change the World. At AECOM, we're delivering a better world. Whether improving your commute, keeping the lights on, providing access to clean water, or transforming skylines, our work helps people and communities thrive. We are the world's trusted infrastructure consulting firm, partnering with clients to solve the world’s most complex challenges and build legacies for future generations. There has never been a better time to be at AECOM. With accelerating infrastructure investment worldwide, our services are in great demand. We invite you to bring your bold ideas and big dreams and become part of a global team of over 50,000 planners, designers, engineers, scientists, digital innovators, program and construction managers and other professionals delivering projects that create a positive and tangible impact around the world. We're one global team driven by our common purpose to deliver a better world. Join us. AECOM is seeking a motivated and technically strong Mining Study Program Manager to join our growing Mining team supporting projects across North America and Globally. The successful candidate will manage mining projects from early-stage studies through detailed engineering and construction support while working as part of multidisciplinary project teams. This individual will collaborate with project managers, and engineering discipline leads to develop practical and innovative engineering solutions for mining clients. The role requires solid technical knowledge of the mining industry and involves managing strategic and operations aspects of programs to provide alignment with client objectives and study requirements. The role includes the ability to establish and maintain rapport with the client while managing several studies simultaneously. Key Responsibilities Serve as the single point of contact for clients, ensuring alignment with their goals and objectives. Act as the primary liaison between clients, internal teams, and external stakeholders. Business development activities to promote AECOM’s growing presence in Mining Facilitate communication and collaboration to address client concerns and achieve project milestones. Oversee planning, scheduling, communication, and coordination of program activities. Manage program staffing, subcontractor relationships, and resource allocation to ensure cost-effective solutions. Develop and implement project plans, including scope, schedule, budget, and quality control measures. Utilize advanced project management tools like Microsoft Project, Primavera, and AECOM’s proprietary systems for tracking progress and managing resources. Ensure compliance with health, safety, and environmental standards. Identify and mitigate risks through proactive planning and monitoring. Prepare progress reports, work plans, and financial summaries for internal and client review. Maintain accurate records of project activities, budgets, and schedules. Travel approximately 20% domestically and internationally, including occasional extended assignments. Enforce quality assurance and quality control (QA/QC) procedures to meet project standards. Minimum Qualifications BS in Mining Engineering or a related engineering discipline and 8+ years of relevant experience or demonstrated equivalency of experience and/or education. Preferred Qualifications 15+ years of progressive experience in studies and/or project management pertaining to the mining industry. Proven track record in mining industry program and project management. Proficiency in project management software (e.g., Microsoft Project, Primavera). Certification in project management (e.g., PMP) or completion of AECOM’s internal project management certification program. Experience managing international mining projects or programs. Knowledge of geological exploration/ modeling, mining engineering, mineral processing, environmental permitting, geotechnical investigations, and hydrogeological modeling Strong leadership, communication, and problem-solving abilities. Ability to work collaboratively with diverse teams and stakeholders. No sponsorship will be offered for this role now or in the future No relocation will be offered for this role. THIS POSTING IS FOR A CURRENT VACANCY, AND AECOM INTENDS TO FILL THIS POSITION BY JANUARY 25, 2027 At AECOM, we are committed to maintaining a secure and trustworthy recruitment process and take any fraudulent hiring activity seriously. To support this commitment, all newly hired employees are required to attend an in-person Day 1 onboarding at an AECOM office location as a condition of employment. About AECOM AECOM is proud to offer comprehensive benefits to meet the diverse needs of our employees. Depending on your employment status, AECOM benefits may include medical, dental, vision, life, AD&D, disability benefits, paid time off, leaves of absences, voluntary benefits, perks, flexible work options , well-being resources, employee assistance program, business travel insurance, service recognition awards, retirement savings plan, and employee stock purchase plan. AECOM is the global infrastructure leader, committed to delivering a better world. As a trusted professional services firm powered by deep technical abilities, we solve our clients’ complex challenges in water, environment, energy, transportation and buildings. Our teams partner with public- and private-sector clients to create innovative, sustainable and resilient solutions throughout the project lifecycle – from advisory, planning, design and engineering to program and construction management. AECOM is a Fortune 500 firm that had revenue of $16.1 billion in fiscal year 2025. Learn more at aecom.com. What makes AECOM a great place to work You will be part of a global team that champions your growth and career ambitions. Work on groundbreaking projects - both in your local community and on a global scale - that are transforming our industry and shaping the future. With cutting-edge technology and a network of experts, you’ll have the resources to make a real impact. Our award-winning training and development programs are designed to expand your technical expertise and leadership skills, helping you build the career you’ve always envisioned. Here, you’ll find a welcoming workplace built on respect, collaboration and community—where you have the freedom to grow in a world of opportunity. As an Equal Opportunity Employer, we believe in your potential and are here to help you achieve it. All your information will be kept confidential according to EEO guidelines.",
+      "linkedin_url": "",
+      "focus_matches": [
+        "Operations"
+      ],
+      "focus_evidence": {
+        "Operations": " of the mining industry and involves managing strategic and operations aspects of programs to provide alignment with client objectives and study requirements. The role in"
+      },
+      "work_mode": "Remote available",
+      "work_mode_evidence": "The official location includes remote work; confirm geographic restrictions and other work arrangements with the employer.",
+      "match": 55,
+      "matched_skills": [
+        "Operations"
+      ]
+    },
+    {
+      "id": "greenhouse:fictiv:8900378002",
+      "company": "Fictiv",
+      "title": "Strategic Program Manager - Boston",
+      "location": "Remote - USA",
+      "salary": "Not disclosed",
+      "official_url": "https://job-boards.greenhouse.io/fictiv/jobs/8900378002",
+      "posted": "2026-10-23T14:05:37-04:00",
+      "date_evidence": "Greenhouse.first_published",
+      "evidence_url": "https://boards-api.greenhouse.io/v1/boards/fictiv/jobs/8900378002?pay_transparency=true",
+      "description": "<div class=\"content-intro\"><p><strong>About MISUMI Americas</strong></p> <p>MISUMI Americas, a division of MISUMI Group, is a leading provider of standard, configurable, and custom manufacturing solutions. By integrating a vast catalog of components with a world-class digital manufacturing platform, MISUMI Americas empowers engineers and procurement teams to accelerate innovation across the entire product lifecycle. With operations in the San Francisco Bay Area and Chicago, the company serves as a vital partner for the most innovative companies in the Americas.</p></div><p><strong>Strategic Program Manager (SPM) – Join Our World-Class Team at MISUMI Americas!</strong></p> <p class=\"font-claude-response-body break-words whitespace-normal\">As a Strategic Program Manager (SPM) at MISUMI Americas, you'll partner with leading enterprises and innovative startups to accelerate product launches without sacrificing quality. Acting as a trusted advisor, you'll bring deep expertise in engineering, operations, quality, and logistics to guide customers through every stage — from New Product Development (NPD) and New Product Introduction (NPI) through mass production.</p> <p class=\"font-claude-response-body break-words whitespace-normal\">You'll work cross-functionally with Sales, Solutions Engineering, and Fulfillment teams to scope, plan, and execute complex programs, ensuring products launch on time, within budget, and at the highest quality standards. Your ability to align internal teams with customer goals will be central to delivering consistent, measurable value across the full product lifecycle.</p> <p class=\"font-claude-response-body break-words whitespace-normal\">Beyond program execution, you'll play an active role in continuous improvement — identifying opportunities to refine internal processes and drive operational enhancements that make MISUMI Americas an even stronger partner for its customers.</p> <p><strong>What You’ll Be Doing:</strong></p> <ul> <li>Act as the primary customer advocate, building strong relationships to deliver high-quality customer experiences that drive long-term loyalty.</li> <li>Collaborate cross-functionally with pre- &amp; post-sale teams to ensure on-time delivery while proactively managing risks and changes throughout the program lifecycle.</li> <li>Leverage your technical expertise in engineering and manufacturing alongside strong program management skills to identify risks early, develop risk mitigation plans, and manage changes to keep projects on track.</li> <li>Serve as the Subject Matter Expert (SME) for the program, providing valuable insights and guidance to both internal teams and customers to ensure alignment and clarity.</li> <li>Monitor and report program milestones making necessary adjustments to timelines and deliverables, to meet customer expectations and maintain high-quality standards.</li> <li>Identify opportunities for process improvements and collaborate with cross-functional teams to enhance operational efficiency and customer satisfaction.</li> <li>Facilitate regular status meetings with customers and internal teams to clearly communicate requirements, timelines, and quality standards, ensuring alignment and proactively resolving any blockers.</li> <li>All employees are expected to maintain and contribute to the QMS.</li> </ul> <p><strong>Desired Traits:</strong></p> <ul> <li>Bachelor’s degree in Mechanical, Manufacturing, or Industrial Engineering.</li> <li>5+ years of experience managing projects/ programs in fast-paced engineering or manufacturing environments.</li> <li>Hands-on experience with New Product Development (NPD), New Product Introduction (NPI), and high-volume manufacturing facilities.</li> <li>Expertise in one or more manufacturing processes, such as CNC Machining, 3D Printing, Injection Molding, Sheet Metal Fabrication, Die Casting, or Assembly.</li> <li>Customer-Facing Experience to lead complex, consultative technical sales engagements, leveraging operational expertise to drive success.</li> <li>Strong program management, risk management, and time management skills, with the ability to prioritize and meet deadlines within a structured framework.</li> <li>Proficiency in standard program management tools and software used for tracking, communication, and reporting across distributed teams.</li> <li>Self-starter, with strong business acumen and a customer-first mindset, capable of solving problems and building deep, meaningful relationships with customers and internal stakeholders.</li> <li>Demonstrates a focus on process optimization, service enhancement, and driving customer success.</li> <li>Passionate about learning, building solutions, and tackling challenges.</li> <li>Outstanding verbal and written communication skills, with experience working across multi-cultural, cross-functional teams.</li> </ul> <p>At MISUMI Americas you will be part of an innovative team that is redefining the future of manufacturing. If you’re excited by challenges, passionate about delivering customer success, and eager to continuously learn and grow, we want to hear from you!</p> <h3><span style=\"font-size: 10pt; font-family: helvetica, arial, sans-serif;\"><strong>Perks and Benefits</strong></span></h3> <ul> <li style=\"font-family: helvetica, arial, sans-serif; font-size: 10pt;\"><span style=\"font-size: 10pt; font-family: helvetica, arial, sans-serif;\">Competitive medical, dental, and vision insurance</span></li> <li style=\"font-family: helvetica, arial, sans-serif; font-size: 10pt;\"><span style=\"font-size: 10pt; font-family: helvetica, arial, sans-serif;\">401K plan</span></li> <li style=\"font-family: helvetica, arial, sans-serif; font-size: 10pt;\"><span style=\"font-size: 10pt; font-family: helvetica, arial, sans-serif;\">Monthly Virtual Work stipend for things like food, internet, travel, pet care, health and wellness</span></li> <li style=\"font-family: helvetica, arial, sans-serif; font-size: 10pt;\"><span style=\"font-size: 10pt; font-family: helvetica, arial, sans-serif;\">Parental leave programs&nbsp;</span></li> <li style=\"font-family: helvetica, arial, sans-serif; font-size: 10pt;\"><span style=\"font-size: 10pt; font-family: helvetica, arial, sans-serif;\">Paid volunteer days</span></li> <li style=\"font-family: helvetica, arial, sans-serif; font-size: 10pt;\"><span style=\"font-size: 10pt; font-family: helvetica, arial, sans-serif;\">Onboarding setup, including: standing desk, laptop, monitor, and chair, and a stipend for additional items such as headphones, blue light glasses, or any other ergonomic supplies you may want or need</span></li> <li style=\"font-family: helvetica, arial, sans-serif; font-size: 10pt;\"><span style=\"font-size: 10pt; font-family: helvetica, arial, sans-serif;\">And much, much more!</span></li> </ul> <p><span style=\"font-family: helvetica, arial, sans-serif; font-size: 10pt;\">Salary Range: $123,000 to $145,000 USD per year, depending upon experience</span></p> <p><span style=\"font-family: helvetica, arial, sans-serif; font-size: 10pt;\"><span style=\"font-family: verdana, geneva, sans-serif; font-size: 10pt;\"><strong>Interested in learning more?&nbsp; We look forward to hearing from you soon.</strong></span></span></p><div class=\"content-conclusion\"><p>We’re actively seeking teammates who:</p> <ul> <li>Bring diverse perspectives and experience to our culture and company.&nbsp;</li> <li>Excel at being part of a strong, empathetic team.</li> <li>Thrive in an environment emphasizing respect, honesty, collaboration, and growth.</li> <li>Have an ‘always learning’ mindset that celebrates learning, not just wins.&nbsp;</li> <li>Help us continue to build a world-class organization that values the contributions of all of our teammates</li> </ul> <p>We encourage applications from members of underrepresented groups, including but not limited to women, members of the LGBTQ community, people of color, people with disabilities, and veterans.</p></div>",
+      "linkedin_url": "",
+      "focus_matches": [
+        "Operations"
+      ],
+      "focus_evidence": {
+        "Operations": "lerate innovation across the entire product lifecycle. With operations in the San Francisco Bay Area and Chicago, the company serves as a vital partner for the most innov"
+      },
+      "work_mode": "Remote available",
+      "work_mode_evidence": "The official location includes remote work; confirm geographic restrictions and other work arrangements with the employer.",
+      "match": 55,
+      "matched_skills": [
+        "Operations"
+      ]
+    },
+    {
+      "id": "greenhouse:twilio:8287927",
+      "company": "Twilio",
+      "title": "Partner Program Manager",
+      "location": "Remote - US",
+      "salary": "Not disclosed",
+      "official_url": "https://job-boards.greenhouse.io/twilio/jobs/8287927",
+      "posted": "2026-10-23T11:43:38-04:00",
+      "date_evidence": "Greenhouse.first_published",
+      "evidence_url": "https://boards-api.greenhouse.io/v1/boards/twilio/jobs/8287927?pay_transparency=true",
+      "description": "<div class=\"content-intro\"><p><strong>Who we are&nbsp;</strong></p> <p>At Twilio, we’re shaping the future of communications, all from the comfort of our homes. We deliver innovative solutions to<a class=\"c-link\" href=\"https://customers.twilio.com/\" target=\"_blank\" data-stringify-link=\"https://customers.twilio.com/\" data-sk=\"tooltip_parent\">&nbsp;hundreds of thousands of businesses&nbsp;</a>and empower millions of developers worldwide to craft personalized customer experiences.</p> <p>Our dedication to <a class=\"c-link\" href=\"https://www.twilio.com/en-us/blog/open-work\" target=\"_blank\" data-stringify-link=\"https://www.twilio.com/en-us/blog/open-work\" data-sk=\"tooltip_parent\">remote-first work</a>, and strong culture of connection and global inclusion means that no matter your location, you’re part of a vibrant team with diverse experiences making a global impact each day. As we continue to revolutionize how the world interacts, we’re acquiring new skills and experiences that make work feel truly rewarding. Your career at Twilio is in your hands.<br><span style=\"color: rgb(255, 255, 255);\">.</span></p> <p><strong>Hiring and how we work</strong></p> <p>We use Artificial Intelligence (AI) to help make our hiring process efficient. That said, every hiring decision is made by real Twilions!&nbsp;</p> <p>Also, while we are a remote-first company, you may be asked to report in person on an ad-hoc basis for team gatherings, functional off-sites or customer meetings.&nbsp;<br><span style=\"color: rgb(255, 255, 255);\">.</span></p></div><p><strong>See yourself at Twilio</strong></p> <p>Join the team as Twilio’s next Partner Program Manager.</p> <p><strong>About the job</strong></p> <p>As we expand our partner ecosystem to support global growth targets, we are expanding our team to scale responsibly. We are seeking a versatile <strong>Partner Program Manager </strong>to drive an exceptional experience across our Systems Integrators (SIs), ISVs, Resell, and Technology partners. This balanced role bridges the gap between high-touch partner experience, strategic cross-functional project management, and advanced lifecycle automation. If you have a deep background in partnerships, an AI-forward mindset for process optimization, and hands-on experience with modern ecosystem toolsets, this role offers an exciting opportunity to shape the future of our global network.</p> <p>In this role, you won't just follow a static blueprint—you will help build it. We are seeking a highly proactive partner program manager to drive exceptional experiences for our Systems Integrators (SIs), ISVs, Resell, and Technology partners. You will take the lead on optimizing the end-to-end partner journey, managing cross-functional projects, and eliminating operational friction.</p> <p>This position requires a \"can-do\" attitude and a passion for continuous improvement. You will be responsible for transforming manual workflows into automated, scalable systems, managing key vendor capabilities, and implementing strategic initiatives that directly unlock ecosystem revenue velocity.</p> <p><strong>Responsibilities</strong></p> <p>In this role, you’ll:</p> <ul> <li><strong>Drive Program Modernization &amp; Scale:</strong> Act as an operational engine for the team, identifying process bottlenecks and proactively designing new ways to automate existing manual workflows.</li> <li><strong>Own Problem-Solving:</strong> Step into complex challenges across the partner lifecycle and chart a clear path forward to build repeatable, programmatic solutions.</li> <li><strong>Optimize the Partner Experience:</strong> Lead and refine core partner onboarding pathways, lifecycle touchpoints, and support workflows to deliver a seamless, world-class journey for external ecosystems.</li> <li><strong>Accelerate Partner Revenue Mechanics:</strong> Build and execute operational frameworks that eliminate transaction friction, streamline incentive administration, and maximize partner-sourced revenue pipelines.</li> <li><strong>Manage Technology &amp; Vendor Capabilities:</strong> Serve as a strategic owner for key components of our partner tech stack and vendor relationships, ensuring our data models and tools are optimized for ecosystem scale rather than mere maintenance.</li> <li><strong>Orchestrate High-Touch Communications:</strong> Develop and execute comprehensive partner engagement strategies, ensuring clear, accessible program documentation, impactful updates, and consistent enablement communications across all segments.</li> <li><strong>Lead Cross-Functional Project Execution:</strong> Develop and run end-to-end project plans for new partner initiatives, collaborating closely with Product, Marketing, Sales, Legal, and Tech teams to ensure alignment and timely milestone delivery.</li> </ul> <p><strong>Qualifications&nbsp;</strong></p> <p>Twilio values diverse experiences from all kinds of industries, and we encourage everyone who meets the required qualifications to apply. If your career is just starting or hasn't followed a traditional path, don't let that stop you from considering Twilio. We are always looking for people who will bring something new to the table!</p> <p><strong>*Required:</strong></p> <ul> <li><strong>Education:</strong> Bachelor’s degree in Business, Marketing, Communications, or a related field; relevant experience may be considered.</li> <li><strong>Experience:</strong> 5–8 years of experience in partner program or project management, partner management, strategy and operations, or a similar role within a fast-paced technology company.</li> <li><strong>The \"Get-Stuff-Done\" Mindset:</strong> A proven track record of operating effectively in complex environments, turning ambiguous problems into plans, and delivering results without a rigid instructions script.</li> <li><strong>Project Management &amp; Collaboration:</strong> Strong project management skills, with the ability to manage complex cross-functional timelines, align diverse stakeholders, and drive accountability.</li> <li><strong>Communication &amp; Content:</strong> Excellent written and verbal communication skills for translating complex program guidelines into clear, compelling partner assets, guides, and updates.</li> </ul> <p><strong>Desired:</strong></p> <ul> <li><strong>Ecosystem Acumen:</strong> Solid understanding of modern partner program structures, lifecycle methodologies, and experience working with SIs, ISVs, Resell, or Technology tracks.</li> <li><strong>Tech Stack &amp; Automation Familiarity:</strong> Hands-on exposure to CRM and partner ecosystem technologies (such as PRMs, account-mapping utilities, or data integration tools) with a strong desire to leverage software and AI to remove manual tasks.</li> <li><strong>Revenue Orientation:</strong> Experience designing or supporting commercial program models, referral paths, or joint sales plays that directly drive channel pipelines.</li> <li><strong>Advanced Degree:</strong> BA/BS degree or equivalent required. MBA is a plus.</li> </ul> <p><strong>Location</strong></p> <p>This role will be remote,<em> </em>but is not eligible to be hired in CA, CT, NJ, NY, PA, WA.</p> <p><strong>Travel&nbsp;</strong></p> <p>We prioritize connection and opportunities to build relationships with our customers and each other. For this role, you may be required to travel occasionally to participate in project or team in-person meetings.</p> <p><strong>What We Offer</strong></p> <p>Working at Twilio offers many benefits, including competitive pay, generous time off, ample parental and wellness leave, healthcare, a retirement savings program, and much more. Offerings vary by location.</p> <p><strong>Compensation</strong></p> <p>The estimated pay ranges for this role are as follows:</p> <ul> <li>Based in Colorado, Hawaii, Illinois, Maryland, Massachusetts, Minnesota, Vermont or Washington D.C. : $116,960 - $146,200.</li> <li>Based in New York, New Jersey, Washington State, or California (outside of the San Francisco Bay area): $123,760 - $154,700.</li> <li>Based in the San Francisco Bay area, California: $137,520 - $171,900.</li> <li>This role may be eligible to participate in Twilio’s equity plan and corporate bonus plan. All roles are generally eligible for the following benefits: health care insurance, 401(k) retirement account, paid sick time, paid personal time off, paid parental leave.</li> </ul> <p>The successful candidate’s starting salary will be determined based on permissible, non-discriminatory factors such as skills, experience, and geographic location.</p> <p><strong>Application deadline information&nbsp;</strong></p> <p>Applications for this role are intended to be accepted until November 23,2026, but may change based on business needs.&nbsp;</p> <p>&nbsp;</p><div class=\"content-conclusion\"><p><strong>Twilio thinks big. Do you?</strong></p> <p>We like to solve problems, take initiative, pitch in when needed, and are always up for trying new things. That's why we seek out colleagues who embody our values — something we call <a href=\"https://www.twilio.com/company/values\">Twilio Magic</a>. Additionally, we empower employees to build <a href=\"https://twilio.org/support-and-resources/impact-fund\">positive change in their communities</a> by supporting their volunteering and donation efforts.</p> <p>So, if you're ready to unleash your full potential, do your best work, and be the best version of yourself, apply now! If this role isn't what you're looking for, <a href=\"https://www.twilio.com/company/jobs#open-positions\">please consider other open positions.</a></p> <p><strong><span style=\"color: rgb(255, 255, 255);\">.</span></strong></p> <p><strong>Stay alert to recruitment fraud</strong></p> <p>We care about your safety. Scammers sometimes impersonate Twilio recruiters through fake job postings, emails, websites, or messages. Please ensure you are engaging with an official @<a href=\"http://twilio.com\">twilio.com</a> email address. We will never ask for payment, gift cards, cryptocurrency, or banking information during the recruiting process. We do not make job offers without a formal interview process or conduct interviews exclusively through text-based messaging apps.<br><br><span style=\"color: rgb(255, 255, 255);\">.</span><strong> </strong></p> <p><strong>Twilio is proud to be an equal opportunity employer.</strong> We do not discriminate based upon race, religion, color, national origin, sex (including pregnancy, childbirth, reproductive health decisions, or related medical conditions), sexual orientation, gender identity, gender expression, age, status as a protected veteran, status as an individual with a disability, genetic information, political views or activity, or other applicable legally protected characteristics. We also consider qualified applicants with criminal histories, consistent with applicable federal, state and local law. Qualified applicants with arrest or conviction records will be considered for employment in accordance with the Los Angeles County Fair Chance Ordinance for Employers and the California Fair Chance Act. Additionally, Twilio participates in the E-Verify program in certain locations, as required by law.</p></div>",
+      "linkedin_url": "",
+      "focus_matches": [
+        "Operations"
+      ],
+      "focus_evidence": {
+        "Operations": "his position requires a \"can-do\" attitude and a passion for continuous improvement. You will be responsible for transforming manual workflows into automated, scalable systems, managi"
+      },
+      "work_mode": "Remote available",
+      "work_mode_evidence": "The official location includes remote work; confirm geographic restrictions and other work arrangements with the employer.",
+      "match": 55,
+      "matched_skills": [
+        "Operations"
+      ]
+    },
+    {
+      "id": "greenhouse:zoominfo:8911097002",
+      "company": "ZoomInfo Technologies LLC",
+      "title": "Program Manager, GTM Programs",
+      "location": "Bethesda, Maryland, United States; Vancouver, Washington, United States; Waltham, Massachusetts, United States",
+      "salary": "USD 84,000-132,000 (Below is the US base salary for this position. Additional compensation such as Bonus, Commission, Equity and other benefits may also apply.)",
+      "official_url": "https://www.zoominfo.com/careers/8911097002",
+      "posted": "2026-10-23T07:57:16-04:00",
+      "date_evidence": "Greenhouse.first_published",
+      "evidence_url": "https://boards-api.greenhouse.io/v1/boards/zoominfo/jobs/8911097002?pay_transparency=true",
+      "description": "<div class=\"content-intro\"><p>ZoomInfo is where careers accelerate. We move fast, think boldly, and empower you to do the best work of your life. You’ll be surrounded by teammates who care deeply, challenge each other, and celebrate wins. With tools that amplify your impact and a culture that backs your ambition, you won’t just contribute. You’ll make things happen fast.</p></div><p>&nbsp;</p> <h1>Overview</h1> <p>As a Program Manager on our GTM Programs team, you will drive strategic programs that directly support the CRO's revenue priorities and operational excellence across the go-to-market organization. Backed by intelligent automation that eliminates administrative overhead, you'll spend your time where it matters most: shaping program strategy, aligning cross-functional executives, managing risk, and ensuring GTM initiatives deliver measurable business impact. This is a role for a proactive program manager who wants to operate at the intersection of GTM strategy and execution, not just track a project plan.</p> <h2><span style=\"font-size: 14pt;\"><strong>What You’ll Do:</strong><strong>&nbsp;</strong></span></h2> <h2><span style=\"font-size: 12pt;\">Program Strategy &amp; Delivery</span></h2> <ul> <li>Own end-to-end delivery of GTM programs directly tied to CRO and GTM leadership priorities (e.g., pipeline generation, sales productivity, territory/segmentation, GTM systems, compensation/quota initiatives), ensuring alignment to business goals, not just scope/timeline/budget.</li> <li>Translate ambiguous executive priorities into structured program plans, phased roadmaps, and clear success metrics.</li> <li>Independently manage a portfolio of concurrent, cross-functional programs spanning Sales, Marketing, Customer Success, RevOps, and GTM Technology.</li> <li>Proactively identify, quantify, and mitigate program-level risks and dependencies; escalate strategically with recommended options, not just problem statements, to senior leadership.</li> <li>Lead change management for new processes, tools, and org changes, driving adoption across GTM teams.</li> <li>Run executive-level program reviews, steering committee updates, and cross-functional working sessions; drive decisions and hold owners accountable to action items.</li> <li>Serve as a trusted advisor to functional leaders, connecting program-level work back to broader GTM/CRO strategy.</li> </ul> <h2><span style=\"font-size: 12pt;\">Process &amp; Workflow Optimization</span></h2> <ul> <li>Leverage AI-driven automation and modern productivity tooling to eliminate manual PM overhead and maximize time spent on judgment-based, strategic work.</li> <li>Use data (Salesforce, Smartsheet, BI tools) to monitor program health, surface trends, and inform leadership decisions, going beyond status reporting into insight generation.</li> <li>Identify systemic inefficiencies across GTM workflows and lead process redesign efforts, partnering with GTM Ops and GTM Technology teams.</li> <li>Continuously evaluate and pilot new intelligent tools to raise the bar on program management maturity across the team.</li> </ul> <h2><span style=\"font-size: 14pt;\">What You Bring:</span></h2> <ul> <li>5+ years of program/project management experience, with demonstrated ownership of cross-functional, business-critical initiatives (SaaS or tech environment strongly preferred).</li> <li>Track record of managing programs with direct executive/senior-leadership visibility and competing priorities.</li> <li>Strong business acumen, able to connect program execution to revenue and GTM strategy, not just deliverables.</li> <li>Excellent judgment in risk identification and escalation; comfortable making recommendations, not just surfacing issues.</li> <li>Sharp written and verbal communication skills, including experience presenting to senior/executive stakeholders.</li> <li>Demonstrated success driving change management and adoption across diverse, sometimes resistant, stakeholder groups.</li> <li>Highly organized, self-directed, and comfortable operating with ambiguity in a fast-paced, high-growth environment.</li> </ul> <h2><span style=\"font-size: 12pt;\">AI &amp; Innovation Mindset</span></h2> <ul> <li>Fluent with AI-enabled productivity and automation tools; treats them as core infrastructure for how you manage programs, not a nice-to-have.</li> <li>Actively seeks ways to apply automation/AI to reduce administrative burden and increase strategic capacity across the team.</li> <li>Growth-oriented and curious; quick to adopt and champion new tools and ways of working.</li> </ul> <h2><span style=\"font-size: 12pt;\">Strongly Preferred</span></h2> <ul> <li>Direct experience in Sales Operations, Revenue Operations, or GTM Strategy/Technology functions.</li> <li>SaaS experience in a high-growth environment.</li> <li>Hands-on experience with Salesforce, Smartsheet, Jira, and Google Suite.</li> <li>Bachelor's degree or equivalent experience.</li> <li>PMP, PgMP, or equivalent program management certification (nice to have, not required).</li> </ul> <p>#LI-AP3</p> <p><span style=\"font-weight: 400;\">#LI-Hybrid</span></p><div class=\"content-pay-transparency\"><div class=\"pay-input\"><div class=\"description\"><p>Actual compensation offered will be based on factors such as the candidate’s work location, qualifications, skills, experience and/or training. Your recruiter can share more information about the specific salary range for your desired work location during the hiring process. We want our employees and their families to thrive.</p> <p>In addition to comprehensive benefits we offer holistic mind, body and lifestyle programs designed for overall well-being. Learn more about ZoomInfo benefits <a class=\"c-link\" href=\"https://www.zoominfo.com/careers#benefits\" target=\"_blank\" data-stringify-link=\"https://www.zoominfo.com/careers#benefits\" data-sk=\"tooltip_parent\">here</a>.</p></div><div class=\"title\">Below is the US base salary for this position. Additional compensation such as Bonus, Commission, Equity and other benefits may also apply.</div><div class=\"pay-range\"><span>$84,000</span><span class=\"divider\">&mdash;</span><span>$132,000 USD</span></div></div></div><div class=\"content-conclusion\"><p><strong>About us:</strong>&nbsp;</p> <p>ZoomInfo (NASDAQ: GTM), the all-in-one AI GTM platform, enables sales, marketing, and customer success teams to execute their go-to-market strategy with confidence. Powered by the industry's most comprehensive B2B data, including more than 100 million companies, 500 million contacts, and billions of signals, ZoomInfo delivers the intelligence, automation, and integrations that modern revenue teams need to identify, engage, and convert their best buyers.</p> <p>ZoomInfo is committed to protecting your privacy when you apply for jobs with us. Please review our Job Applicant <a href=\"https://drive.google.com/file/d/1yiG-k0YX_sW10PiJk_xliDc3W-veJCrK/view?usp=drive_link\" target=\"_blank\">Privacy Notice</a> for more details on how we handle your personal information.</p> <p>ZoomInfo may use a software-based assessment as part of the recruitment process. More information about this tool, including the results of the most recent bias audit, is available <a href=\"https://www.zoominfo.com/legal/nyc-local-law-144-notice\" target=\"_blank\">here</a>.</p> <p>ZoomInfo is proud to be an equal opportunity employer, hiring based on qualifications, merit, and business needs, and does not discriminate based on protected status. We welcome all applicants and are committed to providing equal employment opportunities regardless of sex, race, age, color, national origin, sexual orientation, gender identity, marital status, disability status, religion, protected military or veteran status, medical condition, or any other characteristic protected by applicable law. We also consider qualified candidates with criminal histories in accordance with legal requirements.</p> <p>For Massachusetts Applicants: It is unlawful in Massachusetts to require or administer a lie detector test as a condition of employment or continued employment. An employer who violates this law shall be subject to criminal penalties and civil liability. ZoomInfo does not administer lie detector tests to applicants in any location.</p></div>",
+      "linkedin_url": "",
+      "focus_matches": [
+        "Operations"
+      ],
+      "focus_evidence": {
+        "Operations": "rams that directly support the CRO's revenue priorities and operational excellence across the go-to-market organization. Backed by intelligent automation that eliminates administrati"
+      },
+      "work_mode": "Not specified",
+      "work_mode_evidence": "The reviewed official source does not confirm the work arrangement for this role.",
+      "match": 55,
+      "matched_skills": [
+        "Operations"
+      ]
+    },
+    {
+      "id": "ashby:n8n:01d9f6ac-4bc2-410d-aa2e-0bc7d471c210",
+      "company": "n8n",
+      "title": "Partner Delivery Manager | Remote | Europe",
+      "location": "Berlin, Berlin-Brandenburg, Germany; Remote: Bosnia, Norway, Estonia, Latvia, Slovenia, Netherlands, Hungary, Kosovo, Portugal, Poland, Serbia, Germany, Austria, Finland, Montenegro, United Kingdom, Albania, Lithuania, Slovakia, Ireland, Bulgaria, Denmark, Belgium, Czech Republic, Croatia, Spain, Greece",
+      "salary": "Not disclosed",
+      "official_url": "https://jobs.ashbyhq.com/n8n/01d9f6ac-4bc2-410d-aa2e-0bc7d471c210",
+      "posted": "2026-10-23",
+      "date_evidence": "JobPosting.datePosted",
+      "evidence_url": "https://jobs.ashbyhq.com/n8n/01d9f6ac-4bc2-410d-aa2e-0bc7d471c210",
+      "description": "The AI orchestration of your wildest imagination. n8n is the open workflow orchestration platform built for the new era of AI. We give technical teams the freedom of code with the speed of no-code, so they can automate faster, smarter, and without limits. Backed by a fiercely inventive community and 500+ builder-approved integrations, we’re changing the way people bring systems together and scale ideas for impact. Since our founding in 2019, we’ve grown into a diverse team of over 260 - working across Europe and the US, connected by a shared builder spirit and with our centre of gravity in Berlin. Along the way, we’ve: Cultivated a community of more than 650,000 active developers and builders Earned 190K+ GitHub stars, making us one of the world’s Top 40 most popular projects Backed by top investors, from Sequoia’s first German seed to our SAP's recent strategic investment - bringing us to a $5.2bn valuation That’s the company we’ve built. Now we’d love to see what you can build. If you’re applying, try n8n out - whether you’re technical or not - and share a screenshot of your first workflow with us. The easiest place to start is here: app.n8n.cloud/register . We’re in a defining moment of an incredible journey. Come and build with us. 🎯 Your main goal will be to build and scale a high-performing partner delivery program that enables n8n to deliver exceptional customer outcomes through trusted services partners. You'll ensure partner-led engagements are seamlessly coordinated, commercially sound, and consistently high-quality, helping us scale our Forward Deployed Engineering (FDE) capabilities without compromising on customer experience. Responsibilities: Build and Scale Partner Delivery Operations Define and continuously improve the delivery playbooks, engagement processes, and quality standards that underpin partner-led FDE engagements. Own engagement intake and allocation, coordinating with internal FDE teams and Partnerships to determine the right delivery model and partner for each customer. Provide visibility into program performance, capacity, delivery risks, and key learnings to Customer Success, Partnerships, and Sales leadership. Own Partner Commercials and Governance Manage partner subcontracting agreements, statements of work (SOWs), and rate cards in collaboration with Legal, Finance, and Procurement. Oversee partner billing, engagement costs, and commercial structures across different delivery models, ensuring accurate financial tracking. Partner with Finance and Revenue Operations to ensure engagements are structured and reported correctly, including their impact on ARR and compensation. Drive Partner Performance and Readiness Define and track partner KPIs and SLAs, including staffing speed, delivery quality, customer satisfaction, utilization, and adoption outcomes. Run partner performance reviews, maintain scorecards, and drive corrective actions to continuously improve delivery standards. Maintain visibility into partner capacity and certified consultants across regions, while coordinating onboarding, certification, access, and offboarding with Enablement and Partner Solution Engineering. Ensure Outstanding Customer Outcomes Ensure every partner-led engagement has a clear scope, measurable success criteria, and a smooth handoff to the Customer Success Manager. Proactively identify, escalate, and resolve delivery risks before they impact customer relationships or project outcomes. Capture and share learnings from workshops, hackathons, and staff augmentation engagements to continuously refine and scale the delivery model. Requirements Must-have 🤝 Partner Delivery Experience: You have 5+ years of experience in partner delivery, professional services operations, or vendor/subcontractor management within a software or technology company. 📝 Commercial & Contract Management: You're experienced in drafting, negotiating, and managing SOWs, subcontracting agreements, and commercial frameworks with services partners or systems integrators. 📊 Performance & Governance: You know how to build meaningful KPIs and SLAs, establish partner governance processes, and use performance data to drive accountability and continuous improvement. 🔗 Cross-functional Collaboration: You're confident navigating competing priorities and working effectively with Legal, Finance, Sales, Customer Success, and Partnerships teams. ⚙️ Operational Excellence: You're highly organized, detail-oriented, and comfortable managing multiple partner engagements, timelines, and stakeholders simultaneously. 🚀 Builder Mindset: You thrive in fast-moving environments where processes are still evolving, and you're excited to build scalable systems while keeping day-to-day operations running smoothly. Nice-to-have 🌍 Global Partner Ecosystems: You have experience working with global systems integrators or large professional services organizations. 💼 Services Delivery Models: You're familiar with staff augmentation, partner-led workshops, hackathons, or other technical services delivery models. 🛠️ Technical Understanding: You have a background in workflow automation, systems integration, low-code platforms, or related technologies. Why join us? At n8n, you'll have the opportunity to build a critical part of how we scale customer delivery. Rather than simply managing an established partner program, you'll shape the processes, commercial frameworks, and performance standards that enable our partners to deliver outstanding customer outcomes around the world. You'll work closely with leaders across Customer Success, Partnerships, Sales, and Finance, giving you meaningful visibility and influence as we scale our Forward Deployed Engineering capabilities. You'll join one of Europe's fastest-growing startups, where autonomy, experimentation, and a builder mindset are part of how we work. Sound like a challenge you're excited to take on? Apply now — and help us build the future of automation. n8n is an equal opportunity employer and does not discriminate on the basis of race, religion, colour, national origin, gender, sexual orientation, gender identity, age, marital status, veteran status, or disability status. We can sponsor visas to Germany; for any other country, you need to have existing right to work. Our company language is English. You care about diversity and inclusion? We do too! Check out our Diversity, Inclusion and Belonging initiatives at n8n ( https://www.notion.so/n8n/Diversity-inclusion-and-belonging-n8n-c1bec2fff536422d868b1a438d990e35 ). Location disclaimer: If you see multiple job postings for the same role, it is most likely because we're hiring remotely for this role and posting in different locations to make sure every potential candidate can see the role. Please apply to the location you're the most likely to work from in the future. Benefits Competitive compensation 💸 – We offer fair and attractive pay. Ownership 💪 – Our core value is to “empower others,” and we mean it—you’ll get a slice of n8n with equity. Work/life balance 🏖️ – We work hard but ensure you have time to recharge: Europe: 30 days of vacation, plus public holidays wherever you are. US: 20 vacation days, 8 sick days, plus public holidays wherever you are. Health & wellness 🩺 – Europe: We provide benefits according to local country norms.* US : Multiple low-premium, low-deductible medical plans with coverage for individuals and families—plus a no-cost premium HDHP option with a pre-seeded HSA—along with dental and vision coverage. Future planning 💰 – Europe: We provide pension contributions according to local country norms.* US: 401(k) retirement plan with a 4% employer match. Financial security 🛡️ – Europe: We provide benefits according to local country norms.* US: Company-paid short-term and long-term disability insurance, plus life insurance to support you and your loved ones. Career growth 📈 – We hire rising stars who grow with us! You’ll get €1K (or equivalent) per year to spend on courses, books, events, or coaching to level up your skills. A passionate team 🤩 – We love our product, and we prove it with regular hackathons where we see who can build the coolest thing with it! Remote-first 🌏 – Our team works remotely across Europe, with regular off-sites for team bonding. Some roles, like sales in the US, are hybrid—please check the job description. Giving back 🤝 – We're big fans of open source, and you'll get $100 per month to support projects you care about. Transparency 🙏 – We all know what everyone’s working on, how the company is doing—the whole shebang. *Country and/or State specific details provided in your employment agreement.",
+      "linkedin_url": "",
+      "work_mode": "Remote",
+      "work_mode_evidence": "Official workplaceType field: Remote",
+      "focus_matches": [
+        "Operations"
+      ],
+      "focus_evidence": {
+        "Operations": "erience. Responsibilities: Build and Scale Partner Delivery Operations Define and continuously improve the delivery playbooks, engagement processes, and quality standards"
+      },
+      "match": 55,
+      "matched_skills": [
+        "Operations"
+      ]
+    }
+  ]
+}

@@ -49,6 +49,31 @@
       "url": "https://jobs.smartrecruiters.com/SGS/744000155519660-it-service-delivery-manager",
       "first_seen": "2026-10-14",
       "last_seen": "2026-10-14"
+    },
+    "greenhouse:twilio:8287927": {
+      "url": "https://job-boards.greenhouse.io/twilio/jobs/8287927",
+      "first_seen": "2026-10-23",
+      "last_seen": "2026-10-23"
+    },
+    "greenhouse:zoominfo:8911097002": {
+      "url": "https://www.zoominfo.com/careers/8911097002",
+      "first_seen": "2026-10-23",
+      "last_seen": "2026-10-23"
+    },
+    "smartrecruiters:AECOM2:744000157537779": {
+      "url": "https://jobs.smartrecruiters.com/AECOM2/744000157537779-mining-study-program-manager",
+      "first_seen": "2026-10-23",
+      "last_seen": "2026-10-23"
+    },
+    "greenhouse:fictiv:8900378002": {
+      "url": "https://job-boards.greenhouse.io/fictiv/jobs/8900378002",
+      "first_seen": "2026-10-23",
+      "last_seen": "2026-10-23"
+    },
+    "ashby:n8n:01d9f6ac-4bc2-410d-aa2e-0bc7d471c210": {
+      "url": "https://jobs.ashbyhq.com/n8n/01d9f6ac-4bc2-410d-aa2e-0bc7d471c210",
+      "first_seen": "2026-10-23",
+      "last_seen": "2026-10-23"
     }
   }
 }
