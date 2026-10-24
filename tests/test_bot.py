@@ -7,7 +7,7 @@ from jobfinder.bot import title_ok, local_date, schema_job, geography, select, c
 TODAY = date(2026, 10, 13)
 
 def job(i=1):
-    return dict(id=f'greenhouse:test:{i}', company='Test', title='Senior Program Manager', official_url=f'https://job-boards.greenhouse.io/test/jobs/{i}', description='Agile QA delivery', location='USA', posted='2026-10-13', salary='Not disclosed')
+    return dict(id=f'greenhouse:test:{i}', company=f'Test {i}', title='Senior Program Manager', official_url=f'https://job-boards.greenhouse.io/test/jobs/{i}', description='Agile QA delivery', location='USA', posted='2026-10-13', salary='Not disclosed')
 
 def metrics():
     return dict(applied_excluded=0, seen_excluded=0, reviewed=0, sources_ok=0, unverified=0, errors=[])
@@ -18,6 +18,13 @@ def page(**overrides):
     return '<script type="application/ld+json">' + json.dumps(data) + '</script>'
 
 class CollectorTests(unittest.TestCase):
+    def test_company_diversity_and_amazon_exclusion(self):
+        candidates = [dict(job(i), company='Same employer') for i in range(8)]
+        candidates.append(dict(job(100), company='Amazon'))
+        chosen = select(candidates, {'seen':{}}, [], TODAY, metrics(), {'skills':[]})
+        self.assertEqual(len(chosen), 3)
+        self.assertTrue(all(j['company'] == 'Same employer' for j in chosen))
+
     def test_employer_board_discovery_is_not_a_fixed_company_list(self):
         self.assertEqual(employer_board('https://job-boards.greenhouse.io/newcompany/jobs/123')['slug'],'newcompany')
         self.assertEqual(employer_board('https://jobs.ashbyhq.com/anothercompany/abc')['type'],'ashby')
