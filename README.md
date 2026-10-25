@@ -10,95 +10,36 @@ Search area: USA, Canada, Mexico, Spain, LATAM, and eligible remote roles. Resul
 
 <!-- DASHBOARD:START -->
 
-## Dashboard: 2026-10-23
+## Dashboard: 2026-10-24
 
 > Your worth is not measured by an inbox. One thoughtful application at a time is enough for today.
 
-Publication day: 2026-10-23. Verified at: 2026-10-23T20:21:28.517622-07:00 (America/Los_Angeles).
+Publication day: 2026-10-24. Verified at: 2026-10-24T17:26:05.346166-07:00 (America/Los_Angeles).
 
 Up to 30 verified listings from the requested publication day. Coverage is limited to accessible sources.
 
-Reviewed: 61350 | Recommended: 5 | Applied excluded: 0 | Previously seen: 0 | Unverified: 0 | Outside topic focus: 4
+Reviewed: 61303 | Recommended: 0 | Applied excluded: 0 | Previously seen: 0 | Unverified: 0 | Outside topic focus: 0
 
-Accessible sources: 275 | LinkedIn candidates: 88
+Accessible sources: 275 | LinkedIn candidates: 79
 
 LinkedIn: Public access available: 42 searches; publication dates verified only against official sources
 
-Regional coverage: Mexico 0 verified candidates | Spain 1 verified candidates. Target: 30; returned: 5.
+Regional coverage: Mexico 0 verified candidates | Spain 0 verified candidates. Target: 30; returned: 0.
 
 ## Top 5
 
 | Estimated match | Company | Role | Location | Work arrangement | Apply |
 |---|---|---|---|---|---|
-| 55% | AECOM | Mining Study Program Manager | Murray, UT, us (Remote) | Remote available | [Apply](<https://jobs.smartrecruiters.com/AECOM2/744000157537779-mining-study-program-manager>) |
-| 55% | Fictiv | Strategic Program Manager - Boston | Remote - USA | Remote available | [Apply](<https://job-boards.greenhouse.io/fictiv/jobs/8900378002>) |
-| 55% | Twilio | Partner Program Manager | Remote - US | Remote available | [Apply](<https://job-boards.greenhouse.io/twilio/jobs/8287927>) |
-| 55% | ZoomInfo Technologies LLC | Program Manager, GTM Programs | Bethesda, Maryland, United States; Vancouver, Washington, United States; Waltham, Massachusetts, United States | Not specified | [Apply](<https://www.zoominfo.com/careers/8911097002>) |
-| 55% | n8n | Partner Delivery Manager &#124; Remote &#124; Europe | Berlin, Berlin-Brandenburg, Germany; Remote: Bosnia, Norway, Estonia, Latvia, Slovenia, Netherlands, Hungary, Kosovo, Portugal, Poland, Serbia, Germany, Austria, Finland, Montenegro, United Kingdom, Albania, Lithuania, Slovakia, Ireland, Bulgaria, Denmark, Belgium, Czech Republic, Croatia, Spain, Greece | Remote | [Apply](<https://jobs.ashbyhq.com/n8n/01d9f6ac-4bc2-410d-aa2e-0bc7d471c210>) |
+No verified listings met all filters in the accessible sources.
 
 ## Verified jobs
 
 | Estimated match | Company / role | Location | Work arrangement | Published salary | Official publication date | Apply | LinkedIn |
 |---|---|---|---|---|---|---|---|
-| 55% | AECOM / Mining Study Program Manager | Murray, UT, us (Remote) | Remote available | Not disclosed | 2026-10-23T17:42:22.211Z | [Apply](<https://jobs.smartrecruiters.com/AECOM2/744000157537779-mining-study-program-manager>) | Not available |
-| 55% | Fictiv / Strategic Program Manager - Boston | Remote - USA | Remote available | Not disclosed | 2026-10-23T14:05:37-04:00 | [Apply](<https://job-boards.greenhouse.io/fictiv/jobs/8900378002>) | Not available |
-| 55% | Twilio / Partner Program Manager | Remote - US | Remote available | Not disclosed | 2026-10-23T11:43:38-04:00 | [Apply](<https://job-boards.greenhouse.io/twilio/jobs/8287927>) | Not available |
-| 55% | ZoomInfo Technologies LLC / Program Manager, GTM Programs | Bethesda, Maryland, United States; Vancouver, Washington, United States; Waltham, Massachusetts, United States | Not specified | USD 84,000-132,000 (Below is the US base salary for this position. Additional compensation such as Bonus, Commission, Equity and other benefits may also apply.) | 2026-10-23T07:57:16-04:00 | [Apply](<https://www.zoominfo.com/careers/8911097002>) | Not available |
-| 55% | n8n / Partner Delivery Manager &#124; Remote &#124; Europe | Berlin, Berlin-Brandenburg, Germany; Remote: Bosnia, Norway, Estonia, Latvia, Slovenia, Netherlands, Hungary, Kosovo, Portugal, Poland, Serbia, Germany, Austria, Finland, Montenegro, United Kingdom, Albania, Lithuania, Slovakia, Ireland, Bulgaria, Denmark, Belgium, Czech Republic, Croatia, Spain, Greece | Remote | Not disclosed | 2026-10-23 | [Apply](<https://jobs.ashbyhq.com/n8n/01d9f6ac-4bc2-410d-aa2e-0bc7d471c210>) | Not available |
 
 ## Evidence and fit
 
 Topic match is a heuristic, not a hiring probability or verified assessment of experience. With topic focus enabled: 40 base points plus 15 per matched theme (Agile, OKRs, Operations, ISO 27001), capped at 100. At least one theme is required. Results are ordered by match; California breaks ties.
-
-### AECOM: Mining Study Program Manager
-
-- Job ID: smartrecruiters:AECOM2:744000157537779
-- Application status: Not recorded as applied
-- Work arrangement: Remote available. The official location includes remote work; confirm geographic restrictions and other work arrangements with the employer.
-- Publication date: 2026-10-23T17:42:22.211Z. Zoned timestamps are evaluated in California time.
-- Date evidence: [SmartRecruiters.releasedDate (release; may be a repost)](<https://api.smartrecruiters.com/v1/companies/AECOM2/postings/744000157537779>)
-- Relevant themes: Operations.
-- Theme evidence: the official title or description mentions Operations.
-
-### Fictiv: Strategic Program Manager - Boston
-
-- Job ID: greenhouse:fictiv:8900378002
-- Application status: Not recorded as applied
-- Work arrangement: Remote available. The official location includes remote work; confirm geographic restrictions and other work arrangements with the employer.
-- Publication date: 2026-10-23T14:05:37-04:00. Zoned timestamps are evaluated in California time.
-- Date evidence: [Greenhouse.first_published](<https://boards-api.greenhouse.io/v1/boards/fictiv/jobs/8900378002?pay_transparency=true>)
-- Relevant themes: Operations.
-- Theme evidence: the official title or description mentions Operations.
-
-### Twilio: Partner Program Manager
-
-- Job ID: greenhouse:twilio:8287927
-- Application status: Not recorded as applied
-- Work arrangement: Remote available. The official location includes remote work; confirm geographic restrictions and other work arrangements with the employer.
-- Publication date: 2026-10-23T11:43:38-04:00. Zoned timestamps are evaluated in California time.
-- Date evidence: [Greenhouse.first_published](<https://boards-api.greenhouse.io/v1/boards/twilio/jobs/8287927?pay_transparency=true>)
-- Relevant themes: Operations.
-- Theme evidence: the official title or description mentions Operations.
-
-### ZoomInfo Technologies LLC: Program Manager, GTM Programs
-
-- Job ID: greenhouse:zoominfo:8911097002
-- Application status: Not recorded as applied
-- Work arrangement: Not specified. The reviewed official source does not confirm the work arrangement for this role.
-- Publication date: 2026-10-23T07:57:16-04:00. Zoned timestamps are evaluated in California time.
-- Date evidence: [Greenhouse.first_published](<https://boards-api.greenhouse.io/v1/boards/zoominfo/jobs/8911097002?pay_transparency=true>)
-- Relevant themes: Operations.
-- Theme evidence: the official title or description mentions Operations.
-
-### n8n: Partner Delivery Manager &#124; Remote &#124; Europe
-
-- Job ID: ashby:n8n:01d9f6ac-4bc2-410d-aa2e-0bc7d471c210
-- Application status: Not recorded as applied
-- Work arrangement: Remote. Official workplaceType field: Remote
-- Publication date: 2026-10-23. Zoned timestamps are evaluated in California time.
-- Date evidence: [JobPosting.datePosted](<https://jobs.ashbyhq.com/n8n/01d9f6ac-4bc2-410d-aa2e-0bc7d471c210>)
-- Relevant themes: Operations.
-- Theme evidence: the official title or description mentions Operations.
 
 ## Additional discovery sources
 
@@ -110,7 +51,7 @@ New verified employer boards retained for future searches: 0.
 | Latino and professional associations | HOPE - Hispanas Organized for Political Equality | 1 | 1 | 0 | 0 |
 | Latino and professional associations | Lean In Latinas | 1 | 0 | 0 | 1 |
 | Regional technology and startups | Built In San Francisco | 3 | 21 | 0 | 0 |
-| Games and entertainment | Hitmarker | 3 | 2 | 0 | 0 |
+| Games and entertainment | Hitmarker | 3 | 1 | 0 | 0 |
 | Regional technology and startups | Welcome to the Jungle | 4 | 0 | 0 | 1 |
 | Life sciences | Biocom Career Hub | 1 | 0 | 0 | 1 |
 | Company careers | WelbeHealth official careers | 1 | 0 | 0 | 1 |
@@ -214,7 +155,7 @@ The daily 5 pm run cannot include listings published after it begins. Historical
 - Games Jobs Direct: https://www.gamesjobsdirect.com/search: HTTP Error 406: Not Acceptable
 - Bloks: No supported role links in public HTML; dynamic or member-only results may be unavailable
 - ASGC Games Jobs: No supported role links in public HTML; dynamic or member-only results may be unavailable
-- BioSpace California: https://jobs.biospace.com/california: HTTP Error 403: Forbidden
+- BioSpace California: https://jobs.biospace.com/california: HTTP Error 429: Too Many Requests
 - BioTalent: No supported role links in public HTML; dynamic or member-only results may be unavailable
 - Manfred Spain: No supported role links in public HTML; dynamic or member-only results may be unavailable
 - Jobgether: https://jobgether.com/remote-jobs/program-manager: HTTP Error 403: Forbidden
