@@ -10,17 +10,17 @@ Search area: USA, Canada, Mexico, Spain, LATAM, and eligible remote roles. Resul
 
 <!-- DASHBOARD:START -->
 
-## Dashboard: 2026-10-24
+## Dashboard: 2026-10-25
 
 > Your worth is not measured by an inbox. One thoughtful application at a time is enough for today.
 
-Publication day: 2026-10-24. Verified at: 2026-10-24T17:26:05.346166-07:00 (America/Los_Angeles).
+Publication day: 2026-10-25. Verified at: 2026-10-25T17:37:26.793515-07:00 (America/Los_Angeles).
 
 Up to 30 verified listings from the requested publication day. Coverage is limited to accessible sources.
 
-Reviewed: 61303 | Recommended: 0 | Applied excluded: 0 | Previously seen: 0 | Unverified: 0 | Outside topic focus: 0
+Reviewed: 61251 | Recommended: 0 | Applied excluded: 0 | Previously seen: 0 | Unverified: 0 | Outside topic focus: 0
 
-Accessible sources: 275 | LinkedIn candidates: 79
+Accessible sources: 275 | LinkedIn candidates: 76
 
 LinkedIn: Public access available: 42 searches; publication dates verified only against official sources
 
