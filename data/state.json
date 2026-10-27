@@ -74,6 +74,36 @@
       "url": "https://jobs.ashbyhq.com/n8n/01d9f6ac-4bc2-410d-aa2e-0bc7d471c210",
       "first_seen": "2026-10-23",
       "last_seen": "2026-10-23"
+    },
+    "ashby:openai:aaf9aa75-e782-49a0-8820-79b96f343bb0": {
+      "url": "https://jobs.ashbyhq.com/openai/aaf9aa75-e782-49a0-8820-79b96f343bb0",
+      "first_seen": "2026-10-26",
+      "last_seen": "2026-10-26"
+    },
+    "greenhouse:braze:8315083": {
+      "url": "https://job-boards.greenhouse.io/braze/jobs/8315083",
+      "first_seen": "2026-10-26",
+      "last_seen": "2026-10-26"
+    },
+    "greenhouse:motional:8044945003": {
+      "url": "https://motional.com/open-positions?gh_jid=8044945003",
+      "first_seen": "2026-10-26",
+      "last_seen": "2026-10-26"
+    },
+    "greenhouse:upstart:8325254": {
+      "url": "https://careers.upstart.com/jobs/website-producer-burlingame-california-united-states?gh_jid=8325254",
+      "first_seen": "2026-10-26",
+      "last_seen": "2026-10-26"
+    },
+    "greenhouse:chaosindustries:5257632007": {
+      "url": "https://job-boards.greenhouse.io/chaosindustries/jobs/5257632007",
+      "first_seen": "2026-10-26",
+      "last_seen": "2026-10-26"
+    },
+    "greenhouse:chaosindustries:5257631007": {
+      "url": "https://job-boards.greenhouse.io/chaosindustries/jobs/5257631007",
+      "first_seen": "2026-10-26",
+      "last_seen": "2026-10-26"
     }
   }
 }

@@ -1,0 +1,554 @@
+{
+  "date": "2026-10-26",
+  "verified_at": "2026-10-26T17:31:05.720110-07:00",
+  "metrics": {
+    "reviewed": 60738,
+    "sources_ok": 275,
+    "unverified": 0,
+    "applied_excluded": 0,
+    "seen_excluded": 0,
+    "linkedin_candidates": 89,
+    "linkedin": "Public access limited (HTTPError); no bypass or login attempted",
+    "errors": [
+      "devot: HTTPError",
+      "wiz: HTTPError",
+      "yelp: HTTPError",
+      "contentsquare: HTTPError",
+      "factorialhr: HTTPError",
+      "factorial: HTTPError",
+      "travelperk: HTTPError",
+      "jobandtalent: HTTPError",
+      "glovo: HTTPError",
+      "bookingcom: HTTPError",
+      "expediagroup: HTTPError",
+      "cimpress: HTTPError",
+      "vistaprint: HTTPError",
+      "softtek: HTTPError",
+      "agileengine: HTTPError",
+      "konfio: HTTPError",
+      "clipmx: HTTPError",
+      "kueski: HTTPError",
+      "klar: HTTPError",
+      "yalo: HTTPError",
+      "nowports: HTTPError",
+      "remitly: HTTPError",
+      "payjoy: HTTPError",
+      "tala: HTTPError",
+      "openpay: HTTPError",
+      "global66: HTTPError",
+      "habi: HTTPError",
+      "truora: HTTPError",
+      "platzi: HTTPError",
+      "clara: HTTPError",
+      "bitso: HTTPError",
+      "stori: HTTPError",
+      "mendel: HTTPError",
+      "factorial: HTTPError",
+      "lodgify: HTTPError",
+      "secretsource: HTTPError",
+      "sastrify: HTTPError",
+      "safetywing: HTTPError",
+      "jobgether: HTTPError",
+      "lemonio: HTTPError",
+      "nearsure: HTTPError",
+      "crunchyroll: HTTPError",
+      "amdocs: HTTPError",
+      "slalom: HTTPError",
+      "slalombuild: HTTPError",
+      "cprime: HTTPError",
+      "avature: HTTPError",
+      "guidewire: HTTPError",
+      "netsuite: HTTPError",
+      "eon: HTTPError",
+      "epamanywhere: HTTPError",
+      "akamai: HTTPError",
+      "thoughtmachine: HTTPError",
+      "checkoutcom: HTTPError",
+      "flywire: HTTPError",
+      "Prospanica: https://jobs.prospanica.org/home/index.cfm: HTTP Error 403: Forbidden",
+      "Lean In Latinas: No supported role links in public HTML; dynamic or member-only results may be unavailable",
+      "Welcome to the Jungle: No supported role links in public HTML; dynamic or member-only results may be unavailable",
+      "Biocom Career Hub: No supported role links in public HTML; dynamic or member-only results may be unavailable",
+      "WelbeHealth official careers: No supported role links in public HTML; dynamic or member-only results may be unavailable",
+      "thatgamecompany official careers: https://thatgamecompany.com/company/jobs/: Only public HTTPS URLs are allowed",
+      "Turtle Rock Studios official careers: No supported role links in public HTML; dynamic or member-only results may be unavailable",
+      "HLPA: https://jobs.hlpa.com/employment/search.aspx: HTTP Error 406: Not Acceptable",
+      "SHPE: https://careercenter.shpe.org/: HTTP Error 403: Forbidden",
+      "Techqueria: No supported role links in public HTML; dynamic or member-only results may be unavailable",
+      "Latinx in Tech Career Center: No supported role links in public HTML; dynamic or member-only results may be unavailable",
+      "PowerToFly: No supported role links in public HTML; dynamic or member-only results may be unavailable",
+      "Women Who Design: No supported role links in public HTML; dynamic or member-only results may be unavailable",
+      "Women in Games International: No supported role links in public HTML; dynamic or member-only results may be unavailable",
+      "Wellfound California: No supported role links in public HTML; dynamic or member-only results may be unavailable",
+      "Y Combinator California: No supported role links in public HTML; dynamic or member-only results may be unavailable",
+      "Games Jobs Direct: https://www.gamesjobsdirect.com/search: HTTP Error 406: Not Acceptable",
+      "Bloks: No supported role links in public HTML; dynamic or member-only results may be unavailable",
+      "ASGC Games Jobs: No supported role links in public HTML; dynamic or member-only results may be unavailable",
+      "BioSpace California: https://jobs.biospace.com/california: HTTP Error 429: Too Many Requests",
+      "BioTalent: No supported role links in public HTML; dynamic or member-only results may be unavailable",
+      "Manfred Spain: No supported role links in public HTML; dynamic or member-only results may be unavailable",
+      "Jobgether: https://jobgether.com/remote-jobs/program-manager: HTTP Error 403: Forbidden"
+    ],
+    "discovery": [
+      {
+        "source": "Prospanica",
+        "category": "Latino and professional associations",
+        "pages": 0,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "https://jobs.prospanica.org/home/index.cfm: HTTP Error 403: Forbidden"
+        ]
+      },
+      {
+        "source": "HOPE - Hispanas Organized for Political Equality",
+        "category": "Latino and professional associations",
+        "pages": 1,
+        "candidates": 1,
+        "verified": 0,
+        "issues": []
+      },
+      {
+        "source": "Lean In Latinas",
+        "category": "Latino and professional associations",
+        "pages": 1,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "No supported role links in public HTML; dynamic or member-only results may be unavailable"
+        ]
+      },
+      {
+        "source": "Built In San Francisco",
+        "category": "Regional technology and startups",
+        "pages": 3,
+        "candidates": 21,
+        "verified": 0,
+        "issues": []
+      },
+      {
+        "source": "Hitmarker",
+        "category": "Games and entertainment",
+        "pages": 3,
+        "candidates": 2,
+        "verified": 0,
+        "issues": []
+      },
+      {
+        "source": "Welcome to the Jungle",
+        "category": "Regional technology and startups",
+        "pages": 4,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "No supported role links in public HTML; dynamic or member-only results may be unavailable"
+        ]
+      },
+      {
+        "source": "Biocom Career Hub",
+        "category": "Life sciences",
+        "pages": 1,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "No supported role links in public HTML; dynamic or member-only results may be unavailable"
+        ]
+      },
+      {
+        "source": "WelbeHealth official careers",
+        "category": "Company careers",
+        "pages": 1,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "No supported role links in public HTML; dynamic or member-only results may be unavailable"
+        ]
+      },
+      {
+        "source": "Branch official careers",
+        "category": "Company careers",
+        "pages": 1,
+        "candidates": 14,
+        "verified": 0,
+        "issues": []
+      },
+      {
+        "source": "thatgamecompany official careers",
+        "category": "Company careers",
+        "pages": 0,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "https://thatgamecompany.com/company/jobs/: Only public HTTPS URLs are allowed"
+        ]
+      },
+      {
+        "source": "Turtle Rock Studios official careers",
+        "category": "Company careers",
+        "pages": 1,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "No supported role links in public HTML; dynamic or member-only results may be unavailable"
+        ]
+      },
+      {
+        "source": "HLPA",
+        "category": "Latino and professional associations",
+        "pages": 0,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "https://jobs.hlpa.com/employment/search.aspx: HTTP Error 406: Not Acceptable"
+        ]
+      },
+      {
+        "source": "SHPE",
+        "category": "Latino and professional associations",
+        "pages": 0,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "https://careercenter.shpe.org/: HTTP Error 403: Forbidden"
+        ]
+      },
+      {
+        "source": "Techqueria",
+        "category": "Latino and professional associations",
+        "pages": 1,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "No supported role links in public HTML; dynamic or member-only results may be unavailable"
+        ]
+      },
+      {
+        "source": "Latinx in Tech Career Center",
+        "category": "Latino and professional associations",
+        "pages": 1,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "No supported role links in public HTML; dynamic or member-only results may be unavailable"
+        ]
+      },
+      {
+        "source": "PowerToFly",
+        "category": "Women and inclusive career networks",
+        "pages": 1,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "No supported role links in public HTML; dynamic or member-only results may be unavailable"
+        ]
+      },
+      {
+        "source": "Women Who Design",
+        "category": "Women and inclusive career networks",
+        "pages": 1,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "No supported role links in public HTML; dynamic or member-only results may be unavailable"
+        ]
+      },
+      {
+        "source": "Women in Games International",
+        "category": "Women and inclusive career networks",
+        "pages": 1,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "No supported role links in public HTML; dynamic or member-only results may be unavailable"
+        ]
+      },
+      {
+        "source": "Started by Women",
+        "category": "Women and inclusive career networks",
+        "pages": 1,
+        "candidates": 1,
+        "verified": 0,
+        "issues": []
+      },
+      {
+        "source": "Wellfound California",
+        "category": "Regional technology and startups",
+        "pages": 1,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "No supported role links in public HTML; dynamic or member-only results may be unavailable"
+        ]
+      },
+      {
+        "source": "Y Combinator California",
+        "category": "Regional technology and startups",
+        "pages": 1,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "No supported role links in public HTML; dynamic or member-only results may be unavailable"
+        ]
+      },
+      {
+        "source": "Games Jobs Direct",
+        "category": "Games and entertainment",
+        "pages": 0,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "https://www.gamesjobsdirect.com/search: HTTP Error 406: Not Acceptable"
+        ]
+      },
+      {
+        "source": "Bloks",
+        "category": "Games and entertainment",
+        "pages": 1,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "No supported role links in public HTML; dynamic or member-only results may be unavailable"
+        ]
+      },
+      {
+        "source": "Gaming Industry Job Tracker",
+        "category": "Games and entertainment",
+        "pages": 1,
+        "candidates": 1,
+        "verified": 0,
+        "issues": []
+      },
+      {
+        "source": "ASGC Games Jobs",
+        "category": "Games and entertainment",
+        "pages": 1,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "No supported role links in public HTML; dynamic or member-only results may be unavailable"
+        ]
+      },
+      {
+        "source": "BioSpace California",
+        "category": "Life sciences",
+        "pages": 0,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "https://jobs.biospace.com/california: HTTP Error 429: Too Many Requests"
+        ]
+      },
+      {
+        "source": "BioTalent",
+        "category": "Life sciences",
+        "pages": 1,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "No supported role links in public HTML; dynamic or member-only results may be unavailable"
+        ]
+      },
+      {
+        "source": "Manfred Spain",
+        "category": "Remote and international",
+        "pages": 1,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "No supported role links in public HTML; dynamic or member-only results may be unavailable"
+        ]
+      },
+      {
+        "source": "Wellfound Remote",
+        "category": "Remote and international",
+        "pages": 1,
+        "candidates": 30,
+        "verified": 0,
+        "issues": []
+      },
+      {
+        "source": "Jobgether",
+        "category": "Remote and international",
+        "pages": 0,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "https://jobgether.com/remote-jobs/program-manager: HTTP Error 403: Forbidden"
+        ]
+      },
+      {
+        "source": "Remotely",
+        "category": "Remote and international",
+        "pages": 1,
+        "candidates": 11,
+        "verified": 0,
+        "issues": []
+      }
+    ],
+    "new_employer_boards": 0,
+    "focus_excluded": 2,
+    "mexico_verified_candidates": 0,
+    "spain_verified_candidates": 0
+  },
+  "jobs": [
+    {
+      "id": "greenhouse:motional:8044945003",
+      "company": "Motional",
+      "title": "Senior Program Manager",
+      "location": "Las Vegas, Nevada, United States; Pittsburgh, Pennsylvania, United States",
+      "salary": "USD 125,000-167,000 (Salary Range)",
+      "official_url": "https://motional.com/open-positions?gh_jid=8044945003",
+      "posted": "2026-10-26T14:59:20-04:00",
+      "date_evidence": "Greenhouse.first_published",
+      "evidence_url": "https://boards-api.greenhouse.io/v1/boards/motional/jobs/8044945003?pay_transparency=true",
+      "description": "<h4><strong>Mission Summary:</strong></h4> <p>As a Senior Program Manager, you will be responsible for the end-to-end delivery of high-complexity programs that are essential to the success of our autonomous vehicle platform. You will sit at the intersection of various technical and business workstreams, identifying gaps in cross-functional commitments and ensuring that engineering designs translate into reliable, high-quality results. In this role, you will be primarily responsible for managing testing activities across multiple modalities, teams, and geographical regions. This is a leadership-heavy role that requires a \"blame-free, action-oriented\" communicator who can influence multiple future quarters of organizational impact.<br><br></p> <h4><strong>Key Responsibilities:</strong></h4> <p><strong>Program Strategy &amp; Execution:</strong></p> <ul> <li><strong>End-to-End Ownership:</strong> Develop and maintain a comprehensive understanding of your product area, including system interdependencies and business dynamics.</li> <li><strong>Test Management &amp; Execution:</strong> Lead projects from initial ideation to efficient execution, ensuring all deliverables meet high standards for reliability and quality. Manage complex testing activities across multiple modalities (e.g., simulation, closed-course, public roads), engineering teams, and geographical regions.</li> <li><strong>Risk &amp; Priority Management:</strong> Proactively identify, highlight, and manage risks and blockers. Evaluate testing risks and adjust project direction as needed across multiple workstreams to ensure alignment with company goals.</li> <li><strong>OKRs &amp; KPIs:</strong> Propose and own goal-level OKRs. Demonstrate a repeated track record of impacting department-wide KPIs that set the stage for future organizational success.</li> </ul> <p><strong>Leadership, Coordination &amp; V&amp;V Integration:</strong></p> <ul> <li><strong>Development &amp; V&amp;V Coordination:</strong> Maintain strict coordination with the core development cycle and the formal Verification and Validation (V&amp;V) cycle to ensure testing schedules align with engineering phase gates.</li> <li><strong>Cross-Functional Scheduling:</strong> Coordinate work across multiple teams, ensuring clear and effective communication to achieve unified results. Actively resolve cross-functional scheduling conflicts to optimize test vehicle availability and resource allocation.</li> <li><strong>Executive Reporting:</strong> Provide routine program updates to the director, VP, and other executive director program managers across the company to ensure alignment on testing progress and release readiness.</li> <li><strong>Alignment &amp; Buy-in:</strong> Build consensus and create alignment across diverse stakeholders. Explain complex trade-offs to peers and executive leadership to drive critical decision-making.</li> </ul> <p><strong>Process &amp; Team Growth:</strong></p> <ul> <li><strong>Process Refinement &amp; Efficiency Driving:</strong> Constantly challenge the status quo by refining internal processes and best practices to improve team efficiency. Advocate for optimal solutions that result in higher product quality, better yields, or lower costs through improved project effectiveness.</li> <li><strong>Mentorship &amp; Knowledge Sharing:</strong> Actively mentor multiple team members, fostering an environment where contributors at all levels feel empowered to participate in team decisions. Teach and guide others through internal documentation, tech talks, or internal blog posts to deepen the team's collective knowledge.</li> <li><strong>Hiring &amp; Growth:</strong> Serve as a sought-after and well-calibrated interviewer, trusted to make reliable hiring recommendations that strengthen the organization.<br><br></li> </ul> <h4><strong>Qualifications:</strong></h4> <ul> <li><strong>Experience:</strong> 5+ years of experience in Program/Project Management, preferably in a fast-paced hardware or software engineering environment (AV, Aerospace, or Tech).</li> <li><strong>Education:</strong> Bachelor’s degree in Business, Management, or a technical field; PMP or Agile certification is a plus.</li> <li><strong>Autonomy:</strong> Proven ability to work independently on defined programs with minimal guidance, driving significant project-level impact.</li> <li><strong>Communication:</strong> Exceptional ability to communicate progress, direction, and technical trade-offs in a clear, blame-free, and action-oriented manner.</li> <li><strong>Analytical Skills:</strong> Strong ability to use technical details to inform business dynamics and project roadmaps.<br><br></li> </ul> <p><strong>Physical Demands &amp; Working Environment:</strong></p> <p>While performing the duties of this job, the employee is frequently required to sit, talk, or hear. The employee is occasionally required to stand and at times for long periods; walk; use hands to finger, handle, or feel; reach with hands and arms. The employee must occasionally lift and move up to 50 pounds.</p> <p>The work environment characteristics described here represent those a team member encounters while performing the essential functions of this job. Reasonable accommodation may be made to enable individuals with disabilities to perform the essential functions.<br><br></p> <p><strong>This role is based in our Pittsburgh or Las Vegas office and requires in-office days each week.</strong></p> <p><span style=\"color: rgb(255, 255, 255);\">#LI-LB1</span></p><div class=\"content-pay-transparency\"><div class=\"pay-input\"><div class=\"description\"><p><span style=\"font-weight: 400;\">The salary range for this role is an estimate based on a wide range of compensation factors including but not limited to specific skills, experience and expertise, role location, certifications, licenses, and business needs. The estimated compensation range listed in this job posting reflects base salary only. This role may include additional forms of compensation such as a bonus or company equity. The recruiter assigned to this role can share more information about the specific compensation and benefit details associated with this role during the hiring process.&nbsp;</span></p> <p><span style=\"font-weight: 400;\">Candidates for certain positions are eligible to participate in Motional’s benefits program. Motional’s benefits include but are not limited to medical, dental, vision, 401k with a company match, health saving accounts, life insurance, pet insurance, and more.</span></p></div><div class=\"title\">Salary Range</div><div class=\"pay-range\"><span>$125,000</span><span class=\"divider\">&mdash;</span><span>$167,000 USD</span></div></div></div><div class=\"content-conclusion\"><p><strong>Motional is a driverless technology company making autonomous vehicles a safe, reliable, and accessible reality. We’re driven by something more.</strong></p> <p><strong>Our journey is always people first.</strong></p> <p>We aren't just developing driverless cars; we're creating safer roadways, more equitable transportation options, and making our communities better places to live, work, and connect. Our team is made up of engineers, researchers, innovators, dreamers and doers, who are creating a technology with the potential to transform the way we move.</p> <p><strong>Higher purpose, greater impact.</strong></p> <p>We’re creating first-of-its-kind technology that will transform transportation. To do so successfully, we must design for everyone in our cities and on our roads. We believe in building a great place to work through a progressive, global culture that is diverse, inclusive, and ensures people feel valued at every level of the organization. Diversity helps us to see the world differently; it’s not only good for our business, it’s the right thing to do.&nbsp;&nbsp;</p> <p><strong>Scale up, not starting up.</strong></p> <p>Our team is behind some of the industry's largest leaps forward, including the first fully-autonomous cross-country drive in the U.S, the launch of the world's first robotaxi pilot, and operation of the world's longest-standing public robotaxi fleet. We’re driven to scale; we’re moving towards commercialization of our technology, and we need team members who are ready to embrace change and challenges.</p> <p>Formed as a joint venture between Hyundai Motor Group and Aptiv, Motional is fundamentally changing how people move through their lives. Headquartered in Boston, Motional has operations in the U.S and Asia. For more information, visit&nbsp; <a href=\"https://c212.net/c/link/?t=0&amp;l=en&amp;o=3300142-1&amp;h=1642745316&amp;u=https%3A%2F%2Fc212.net%2Fc%2Flink%2F%3Ft%3D0%26l%3Den%26o%3D3253528-1%26h%3D3781125006%26u%3Dhttps%253A%252F%252Fc212.net%252Fc%252Flink%252F%253Ft%253D0%2526l%253Den%2526o%253D3089636-1%2526h%253D3468778127%2526u%253Dhttps%25253A%25252F%25252Fc212.net%25252Fc%25252Flink%25252F%25253Ft%25253D0%252526l%25253Den%252526o%25253D2881693-1%252526h%25253D646020682%252526u%25253Dhttps%2525253A%2525252F%2525252Furldefense.com%2525252Fv3%2525252F__http%2525253A%2525252Fwww.motional.com%2525252F__%2525253B!!KT8c38mO!j78LjnhAm2VK7Fu23VO6KlwqDXvVTQFMzmyzieKQqZDQksh2tpWEseK4to8eKzwsEwI%25252524%252526a%25253Dwww.Motional.com%2526a%253Dwww.Motional.com%26a%3Dwww.Motional.com&amp;a=www.Motional.com\">www.Motional.com</a> and follow us on <a href=\"https://twitter.com/motionaldrive\">Twitter</a>, <a href=\"https://www.linkedin.com/company/67123512/\">LinkedIn</a>,&nbsp;<a href=\"https://www.instagram.com/motionaldrive/\">Instagram</a> and <a href=\"https://www.youtube.com/channel/UCr__mGPkBb-KMoYWbSGuA9w\">YouTube</a>.</p> <p><em>Motional AD Inc. is an EOE. We celebrate diversity and are committed to creating an inclusive environment for all employees. To comply with Federal Law, we participate in E-Verify. All newly-hired employees are queried through this electronic system established by the DHS and the SSA to verify their identity and employment eligibility.</em></p></div>",
+      "linkedin_url": "",
+      "focus_matches": [
+        "Agile",
+        "OKRs",
+        "Operations"
+      ],
+      "focus_evidence": {
+        "Agile": "egree in Business, Management, or a technical field; PMP or Agile certification is a plus. Autonomy: Proven ability to work independently on defined programs with mi",
+        "OKRs": "ultiple workstreams to ensure alignment with company goals. OKRs & KPIs: Propose and own goal-level OKRs. Demonstrate a repeated track record of impacting departmen",
+        "Operations": " through their lives. Headquartered in Boston, Motional has operations in the U.S and Asia. For more information, visit www.Motional.com and follow us on Twitter , Linked"
+      },
+      "work_mode": "Not specified",
+      "work_mode_evidence": "The reviewed official source does not confirm the work arrangement for this role.",
+      "match": 85,
+      "matched_skills": [
+        "Agile",
+        "OKRs",
+        "Operations"
+      ]
+    },
+    {
+      "id": "greenhouse:braze:8315083",
+      "company": "Braze",
+      "title": "Program Manager, Partnerships",
+      "location": "New York City",
+      "salary": "Not disclosed",
+      "official_url": "https://job-boards.greenhouse.io/braze/jobs/8315083",
+      "posted": "2026-10-26T10:32:38-04:00",
+      "date_evidence": "Greenhouse.first_published",
+      "evidence_url": "https://boards-api.greenhouse.io/v1/boards/braze/jobs/8315083?pay_transparency=true",
+      "description": "<div class=\"content-intro\"><p>At Braze, we have found our people. We’re a genuinely approachable, exceptionally kind, and intensely passionate crew.</p> <p>We seek to ignite that passion by setting high standards, championing teamwork, and creating work-life harmony as we collectively navigate rapid growth on a global scale while striving for greater equity and opportunity – inside and outside our organization.</p> <p>To flourish here, you must be prepared to set a high bar for yourself and those around you. There is always a way to contribute: Acting with autonomy, having accountability and being open to new perspectives are essential to our continued success.</p> <p>Our deep curiosity to learn and our eagerness to share diverse passions with others gives us balance and injects a one-of-a-kind vibrancy into our culture.</p> <p>If you are driven to solve exhilarating challenges and have a bias toward action in the face of change, you will be empowered to make a real impact here, with a sharp and passionate team at your back. If Braze sounds like a place where you can thrive, we can’t wait to meet you.</p></div><h4>The Role</h4> <p>The Partnerships department operates in a fast-paced environment with a lean team. Key priorities arise from major events like SKO or Forge Partner Day, cross-functional initiatives, and urgent executive inquiries. Top-tier partnership teams require a dedicated program manager to own these priorities, drive execution, and maintain clear visibility into project status, blockers, and ownership.</p> <p>Operating across the entire department rather than within a single partner segment, this role collaborates across every functional pillar. Key responsibilities centre on establishing clear workstream visibility and managing high-priority ad-hoc projects. This includes maintaining an accurate single source of truth for ongoing department initiatives, supporting program management for flagship events such as SKO, Forge Partner Day, and the departmental kick-off, and partnering closely with the AVP, Partner Experience to maintain the departmental operating rhythm—encompassing OKRs, business reviews, strategic narratives, All Hands meetings, and internal communications.</p> <p>Rapid growth has outpaced formal tracking, leaving initiatives reliant on informal ownership and tracking. We need a program manager to establish structure, seamlessly manage diverse workstreams, and build lasting, repeatable processes. Success is defined by delivering high-quality projects on time and maintaining clear, transparent visibility into overall department status.</p> <h4>What You'll Own</h4> <ul> <li><strong>Workstream visibility.</strong> Maintain one view of cross-departmental initiatives: owners, status, dependencies and risks, with Jira as the source of truth. Run regular check-ins that keep it honest, raise concerns before they become surprises, and give leadership a clear picture of what is moving and what is not.</li> <li><strong>Ad-hoc and flagship projects.</strong> Take projects from brief to delivery: agree scope and owners, build the plan, chase the dependencies, manage the timeline and run the follow-up.</li> <li><strong>Company moments such as SKO and Forge Partner Day.</strong> Support the Partnerships contribution to events where the department is on stage. This may include working with leadership on the narrative and theme, briefing speakers, gathering content from pillar leads and coordinating with Marketing and Events.</li> <li><strong>Cross-functional initiatives.</strong> Drive initiatives that cut across teams and need a single owner for delivery, such as moving a process from one team to another or launching a change that touches several pillars. Clarify who does what, keep the work moving and close it out properly.</li> <li><strong>Operating rhythm.</strong> Support the department's OKRs, monthly and quarterly business reviews, quarterly narratives and monthly All Hands. Build the trackers and templates, chase inputs, prepare pre-reads and help run the sessions, so that leaders spend their time on decisions.</li> <li><strong>Communications and PR-FAQs.</strong> Support the cadence of department updates and the PR-FAQ tracker for major launches, so that format, tone and timing stay consistent and status is honest.</li> <li><strong>Planning and engagement.</strong> Support the SVP, Partnerships and Partner Operations team with annual planning, and the follow-up from the employee engagement survey in Culture Amp: tracking actions through to completion and reporting back on what changed.</li> <li><strong>Salesforce alignment.</strong> If the acquisition of Braze by Salesforce completes, help plan and track the work to bring the Braze partner program in line with the broader Salesforce partner program and ecosystem, and keep it visible alongside everything else in flight.</li> </ul> <h4>What This Role Is Really About</h4> <p>A department our size can't hire a specialist for every function, and shouldn't. What it needs is someone who can pick up whatever matters most this month, run it properly and leave something behind that works without them. One month that is the narrative and run of show for Forge Partner Day. The next it is an initiative that three teams each assume another team owns. The through-line is visibility: whatever you are working on, people can see where it stands.</p> <p>You will not own the content or the decisions. Pillar leads own their numbers and their stories, and leadership owns the choices. You own the delivery and the clarity around it. That means asking the question that exposes a gap in a plan, noticing when a deadline will slip a week before it does, and telling a leader that their narrative buries the lead. You do this without formal authority, and you earn trust by making everyone else's job easier.</p> <p>You will also see things that are sensitive: survey results, plans in progress, changes to the organisation. Discretion is part of the job.</p> <h4>How We Show Up</h4> <ul> <li><strong>Drives ownership to completion.</strong> You step in to claim unassigned initiatives, assign clear accountability, and steer them through to successful execution.</li> <li><strong>Communicates with clarity and impact.</strong> You distill complex updates into concise, actionable briefs for leadership and facilitate decisive, productive meetings.</li> <li><strong>Ensures end-to-end transparency.</strong> You maintain clear and dependable tracking of progress, status, and risks, flagging delays early alongside practical solutions.</li> <li><strong>Leads through influence and trust.</strong> You motivate senior leaders to hit deadlines by making collaboration seamless and consistently delivering value.</li> <li><strong>Balances strategy with tactical detail.</strong> You seamlessly transition from managing detailed operational schedules to briefing executives on complex cross-functional dependencies.</li> <li><strong>Upholds strict confidentiality.</strong> You handle sensitive and unreleased information with complete discretion and earn executive trust.</li> </ul> <h4>Who You Are</h4> <ul> <li>5-8 years in program management, project management or strategy and operations roles at a B2B SaaS or technology company, ideally supporting a go-to-market, partnerships or alliances team</li> <li>Has driven cross-functional programs from brief to delivery with several stakeholders and senior people, and has run events or company moments with speakers, content and a tight timeline</li> <li>Has built visibility across a portfolio of workstreams, using trackers, status reporting and tools such as Jira, and knows how to keep them honest without making them a burden</li> <li>A strong writer and storyteller, able to turn updates and numbers into something leaders grasp quickly</li> <li>Skilled at facilitation: you run meetings with senior people, keep them to time, and leave with clear actions and owners</li> <li>Data-driven, comfortable building trackers and spotting when numbers don't add up</li> <li>Highly organised, able to manage many deadlines and very different kinds of work at once without losing detail</li> <li>Happy to build process from nothing, and pragmatic about keeping it light enough to survive a busy quarter</li> <li>Comfortable with the tools that run a department, such as Google Workspace, Slack, Jira and Confluence</li> </ul> <p><span data-sheets-root=\"1\">For candidates based in the United States, the pay range for this position at the start of employment is expected to be between $96,800 and $138,400/year, with an expected On Target Earnings (OTE) between $121,000 and $173,000/year (including bonus or commission). Your exact offer may vary depending on multiple individualized factors, including market location, job-related knowledge, skills, and experience. In addition to cash compensation, this role qualifies for a comprehensive Total Rewards package that includes equity grants of restricted stock (RSUs) so that you will own a piece of our company.</span></p><div class=\"content-conclusion\"><p><strong>WHAT WE OFFER</strong></p> <p><em>Braze benefits vary by location, and we encourage you to review our specific benefits offerings for each country at <a href=\"https://www.braze.com/company/careers/how-we-hire#benefit-section\">here</a>. More details on benefits plans will be provided if you receive an offer of employment.</em></p> <p>From offering comprehensive benefits to fostering hybrid ways of working, we've got you covered so you can prioritize work-life harmony. Braze offers benefits such as:</p> <ul> <li>Competitive compensation that may include equity</li> <li>Retirement and Employee Stock Purchase Plans</li> <li>Flexible paid time off</li> <li>Comprehensive benefit plans covering medical, dental, vision, life, and disability</li> <li>Family services that include fertility benefits and equal paid parental leave</li> <li>Professional development supported by formal career pathing, learning platforms, and a yearly learning stipend</li> <li>A curated in-office employee experience, designed to foster community, team connections, and innovation</li> <li>Opportunities to give back to your community, including an annual company-wide Volunteer Week and donation matching</li> <li>Employee Resource Groups that provide supportive communities within Braze</li> <li>Collaborative, transparent, and fun culture recognized as a Great Place to Work®</li> </ul> <p><strong>ABOUT BRAZE</strong></p> <p>Braze is the leading customer engagement platform that empowers brands to Be Absolutely Engaging™ Braze helps brands deliver great customer experiences that drive value both for consumers and for their businesses. Built on a foundation of composable intelligence, BrazeAI™ allows marketers to combine and activate AI agents, models, and features at every touchpoint throughout the Braze Customer Engagement Platform for smarter, faster, and more meaningful customer engagement. From cross-channel messaging and journey orchestration to Al-powered decisioning and optimization, Braze enables companies to turn action into interaction through autonomous, 1:1 personalized experiences.</p> <p>The company has repeatedly been recognized as a Leader in marketing technology by industry analysts, and was voted a G2 “Best of Marketing and Digital Advertising Software Product” in 2025.</p> <p>Braze was also named a 2025 Best Companies To Work For by U.S. News and World Report, a 2025 America’s Greatest Companies by Newsweek, and a 2025 Fortune Best Workplace in Technology™ by Great Place To Work®, among other accolades. Braze is also proudly certified as a Great Place to Work® in the U.S., the UK, Australia, and Singapore.</p> <p>The company is headquartered in New York with offices in Austin, Berlin, Bucharest, Chicago, Dubai, Jakarta, London, Paris, San Francisco, São Paulo, Singapore, Seoul, Sydney and Tokyo.</p> <p><strong>BRAZE IS AN EQUAL OPPORTUNITY EMPLOYER</strong></p> <p>At Braze, we strive to create equitable growth and opportunities inside and outside the organization.</p> <p>Building meaningful connections is at the heart of everything we do, and that includes our recruiting practices. We're committed to offering all candidates a fair, accessible, and inclusive experience – regardless of age, color, disability, gender identity, marital status, maternity, national origin, pregnancy, race, religion, sex, sexual orientation, or status as a protected veteran. When applying and interviewing with Braze, we want you to feel comfortable showcasing what makes you you.</p> <p>We know that sometimes different circumstances can lead talented people to hesitate to apply for a role unless they meet 100% of the criteria. If this sounds familiar, we encourage you to apply, as we’d love to meet you</p> <p><strong>OUR AI-POWERED BRAZE RECRUITMENT PROCESS</strong></p> <p>At Braze, we’re committed to a fair and transparent candidate experience. To help our recruitment teams focus on what matters most — the person behind each application — we use AI-assisted tools at certain stages of our recruitment process.</p> <p>This includes using AI to analyze the experience, skills and qualifications in your application materials to help with screening and prioritizing candidates. Such screening may amount to a form of solely automated decision-making. We also use AI for administrative support, like scheduling and recording interviews and summarizing interview notes. Our recruiting teams remain responsible for all hiring decisions and are involved throughout the process.</p> <p>Depending on where you are located, you may have certain rights available to you in relation to Braze’s use of AI:</p> <ul> <li>To opt out of AI-assisted review of your application, please click the “Learn More” at the end of the application form below and follow the instructions before submitting your application. Please note, if you apply to multiple roles at Braze, you will need to opt out in relation to each application.</li> <li>To exercise other types of rights, such as rights to request further information about how AI is used in our recruitment process, to request a <strong>retroactive</strong> manual review of any decision made or to contest a decision, please contact us at <a href=\"talentdata.privacy@braze.com\">talentdata.privacy@braze.com</a>.&nbsp;</li> </ul> <p>Please contact us at <a href=\"talentdata.privacy@braze.com\">talentdata.privacy@braze.com</a> with any questions. To find out more about our hiring process, check out <a href=\"https://www.braze.com/company/careers/how-we-hire\">this page</a>.</p> <p><strong>Notice Regarding Automated Employment Decision Tool (NYC Local Law 144)</strong></p> <p>Our use of AI during the application review process may include the use of automated employment decision tools. Pursuant to New York City Local Law 144, for roles based in New York City, or if you reside in New York City, you have the right to request an alternative selection process or a reasonable accommodation instead of AI-assisted review.&nbsp;</p> <p>To opt out of AI-assisted review of your application, please click the “Learn More” button below and follow the instructions before submitting your application. Please note, if you apply to multiple roles at Braze, you will need to opt out in relation to each application. Please submit any other request to our Talent Acquisition team at <a href=\"talentdata.privacy@braze.com\">talentdata.privacy@braze.com</a> promptly after applying. Summaries of the most recent bias audit results for such tools are available <a href=\"https://www.braze.com/company/legal/bias-audit-candidates\">here</a>.</p> <p><em>Please see our</em><a href=\"https://www.braze.com/company/legal/privacy-policy-job-candidates\"> Candidate </a><em><a href=\"https://www.braze.com/company/legal/privacy-policy-job-candidates\">Privacy Policy</a> for more information on how Braze processes your personal information during the recruitment process and, if applicable based on your location, how you can exercise any privacy rights.<br></em></p></div>",
+      "linkedin_url": "",
+      "focus_matches": [
+        "OKRs",
+        "Operations"
+      ],
+      "focus_evidence": {
+        "OKRs": " to maintain the departmental operating rhythm—encompassing OKRs, business reviews, strategic narratives, All Hands meetings, and internal communications. Rapid gro",
+        "Operations": "g and engagement. Support the SVP, Partnerships and Partner Operations team with annual planning, and the follow-up from the employee engagement survey in Culture Amp: tr"
+      },
+      "work_mode": "Not specified",
+      "work_mode_evidence": "The reviewed official source does not confirm the work arrangement for this role.",
+      "match": 70,
+      "matched_skills": [
+        "OKRs",
+        "Operations"
+      ]
+    },
+    {
+      "id": "greenhouse:chaosindustries:5257631007",
+      "company": "CHAOS Industries",
+      "title": "Program Manager",
+      "location": "El Segundo, California, United States",
+      "salary": "Not disclosed",
+      "official_url": "https://job-boards.greenhouse.io/chaosindustries/jobs/5257631007",
+      "posted": "2026-10-26T10:15:02-04:00",
+      "date_evidence": "Greenhouse.first_published",
+      "evidence_url": "https://boards-api.greenhouse.io/v1/boards/chaosindustries/jobs/5257631007?pay_transparency=true",
+      "description": "<p>&nbsp;</p> <p>CHAOS Industries is redefining modern defense with a multi-product portfolio that gives the ultimate advantage—domain dominance. The company's products are powered by Coherent Distributed Networks (CDN™), empowering warfighters, commercial air operators, and border protection teams to act faster, adapt rapidly, and stay ahead of evolving threats.&nbsp;</p> <p>CHAOS Industries was founded in 2022 and has raised a total of $1 billion in funding from leading investors, including 8VC, Accel, and Valor Equity Partners. The company is headquartered in Los Angeles, with offices in Washington, D.C., San Francisco, San Diego, Seattle, and London. For more information, please visit <a href=\"https://www.chaosinc.com\">www.chaosinc.com</a>.</p> <p><strong>Role Overview:</strong>&nbsp;</p> <p>We are seeking a proactive and detail-oriented Program Manager to lead the successful delivery of our radar product line. This role is critical to aligning cross-functional teams, meeting customer requirements, and ensuring on-time delivery within budget. The TPM will collaborate closely with Business Development (BD), Production, Customer, and Engineering teams to oversee program execution, manage budgets, and ensure all technical and contractual objectives are met.&nbsp;</p> <p>The Program Manager will report to the (Acting) Director the Program Execution Office (PEO).&nbsp;</p> <p><strong>Responsibilities:&nbsp;</strong>&nbsp;</p> <ul> <li><strong>Program Lifecycle Ownership</strong> <ul> <li>Lead full program lifecycle to ensure that&nbsp;cost,&nbsp;schedule, and performance goals are met</li> <li>Provide oversight of all technical and operational functions, planning, organization, and control of resources to complete all contract deliverables and services</li> <li>Plan and direct execution of the contractual, technical, multi-disciplinary engineering, programming, maintenance, and administrative support effort</li> <li>In conjunction with technical delivery team, monitor and report progress through regularly scheduled briefings to leadership on program status and milestones</li> <li>Working with technical delivery leads, manage acquisition and employment of project resources</li> <li>Ensure sufficient qualified staffing to achieve timely and successful completion of the efforts described in the contract statement of work (SOW)</li> </ul> </li> <li><strong>Cross-Functional Collaboration</strong> <ul> <li>Coordinate efforts across engineering, supply chain, manufacturing, operations, and BD for integrated execution of the program</li> <li>Lead and coordinate efforts to resolve project-related challenges and blockers</li> </ul> </li> <li><strong>Customer Engagement</strong> <ul> <li>Serve as the primary POC to the customer's COTR/Tech POC for contract, cost, schedule, and performance</li> <li>Coordinate all program management reviews with the customer to discuss contract performance, special topics of interest, and issue resolutions</li> <li>Coordinate with technical delivery team on drafting and finalization of technical quarterly reports, status reports, final reports, and other contract deliverable documentation as required by contract</li> </ul> </li> <li><strong>Budget &amp; Resource Management</strong>: <ul> <li>Manage program budget and resource allocation to meet project requirements efficiently</li> <li>Support financial controls and administrative aspects of the project</li> </ul> </li> <li><strong>Change Management</strong> <ul> <li>Manage and document scope changes, ensuring alignment with project goals&nbsp;</li> </ul> </li> <li>Work 4-5 days onsite out of our office in Los Angeles El Segundo), CA or Washington D.C.&nbsp;</li> <li>Travel up to 30% as needed to support program and customer objectives&nbsp;</li> </ul> <p><strong>Minimum Requirements:</strong>&nbsp;</p> <ul> <li>B.S. in engineering, computer science, business, or other related field, and/or equivalent Program Management experience in&nbsp;a fast-paced, dynamic environment&nbsp;</li> <li>5+ years of Project/Program Management experience managing complex projects of a similar scope and complexity</li> <li>Exceptional communication skills, both written and verbal, with the ability to present complex information clearly and concisely to diverse audiences</li> <li>Project Management Professional (PMP) certification</li> <li>Must be able to work on-site 4-5 days per week in El Segundo CA or Washington D.C.</li> <li>Ability &amp; willingness to travel up to 30% as needed to support program and customer objectives&nbsp;</li> <li>U.S. citizen or lawful permanent resident of the U.S.&nbsp;</li> <li>Ability to obtain and maintain a U.S. security clearance&nbsp;</li> </ul> <p>&nbsp;<strong>Preferred Requirements:</strong>&nbsp;</p> <ul> <li>Experience working in DoD, military, or other Government environment performing in a related subject area (e.g. project management, engineering, computer science, etc.) in a fast-paced, dynamic environment&nbsp;</li> <li>U.S. security clearance&nbsp;</li> <li>Experience with tools like JIRA and Confluence&nbsp;</li> <li>Experience testing and monitoring Key Performance Indicators (KPIs) and/or Technical Performance Measures (TPMs)&nbsp;</li> <li>Prior systems engineering or software integration experience&nbsp;</li> <li>Advanced degree in a technical field&nbsp;&nbsp;&nbsp;</li> </ul> <p><strong><br>Why CHAOS?</strong></p> <ul> <li><strong>Health Benefits: </strong>Medical, dental, and vision benefits 100% paid for by the company</li> <li><strong>Additional benefits</strong>: 401k (+ 50% company match up to 6% of pay), FSA, HSA, life insurance, and more</li> <li><strong>Our Perks: </strong>Free daily lunch, ‘No meeting Fridays’, unlimited PTO, casual dress code</li> <li><strong>Compensation Components:</strong> Competitive base salaries, generous pre-IPO stock option grants, relocation assistance, and (coming soon!) annual bonuses</li> <li><strong>Team Growth: </strong>250 employees and counting across 5 global offices</li> </ul> <div><em><strong>Salary Range: $160,000 - $250,000</strong></em></div> <p><em>The stated compensation range reflects only the targeted base compensation range and excludes additional earnings such as bonus, equity, and benefits. If your compensation requirements fall outside of the range, we still encourage you to apply. The salary range for this role is an estimate based on a range of compensation factors, inclusive of base salary only. Actual salary offer may vary based on (but not limited to) work experience, education and/or training, critical skills, and/or business considerations.&nbsp;</em></p> <p>&nbsp;</p> <hr> <h3>Recruiting Agencies: CHAOS Industries does not accept unsolicited resumes or outreach. Unsolicited submissions will not be reviewed or compensated.</h3> <hr> <p>&nbsp;</p> <p><em>#LI-onsite</em></p> <p>&nbsp;</p>",
+      "linkedin_url": "",
+      "focus_matches": [
+        "Operations"
+      ],
+      "focus_evidence": {
+        "Operations": "te efforts across engineering, supply chain, manufacturing, operations, and BD for integrated execution of the program Lead and coordinate efforts to resolve project-rela"
+      },
+      "work_mode": "Not specified",
+      "work_mode_evidence": "The reviewed official source does not confirm the work arrangement for this role.",
+      "match": 55,
+      "matched_skills": [
+        "Operations"
+      ]
+    },
+    {
+      "id": "greenhouse:chaosindustries:5257632007",
+      "company": "CHAOS Industries",
+      "title": "Program Manager",
+      "location": "Washington, District of Columbia, United States",
+      "salary": "Not disclosed",
+      "official_url": "https://job-boards.greenhouse.io/chaosindustries/jobs/5257632007",
+      "posted": "2026-10-26T10:15:05-04:00",
+      "date_evidence": "Greenhouse.first_published",
+      "evidence_url": "https://boards-api.greenhouse.io/v1/boards/chaosindustries/jobs/5257632007?pay_transparency=true",
+      "description": "<p>CHAOS Industries is redefining modern defense with a multi-product portfolio that gives the ultimate advantage—domain dominance. The company's products are powered by Coherent Distributed Networks (CDN™), empowering warfighters, commercial air operators, and border protection teams to act faster, adapt rapidly, and stay ahead of evolving threats.&nbsp;</p> <p>CHAOS Industries was founded in 2022 and has raised a total of $1 billion in funding from leading investors, including 8VC, Accel, and Valor Equity Partners. The company is headquartered in Los Angeles, with offices in Washington, D.C., San Francisco, San Diego, Seattle, and London. For more information, please visit <a href=\"https://www.chaosinc.com\">www.chaosinc.com</a>.</p> <p><strong>Role Overview:</strong>&nbsp;</p> <p>We are seeking a proactive and detail-oriented Program Manager to lead the successful delivery of our radar product line. This role is critical to aligning cross-functional teams, meeting customer requirements, and ensuring on-time delivery within budget. The TPM will collaborate closely with Business Development (BD), Production, Customer, and Engineering teams to oversee program execution, manage budgets, and ensure all technical and contractual objectives are met.&nbsp;</p> <p>The Program Manager will report to the (Acting) Director the Program Execution Office (PEO).&nbsp;</p> <p><strong>Responsibilities:&nbsp;</strong>&nbsp;</p> <ul> <li><strong>Program Lifecycle Ownership</strong> <ul> <li>Lead full program lifecycle to ensure that&nbsp;cost,&nbsp;schedule, and performance goals are met</li> <li>Provide oversight of all technical and operational functions, planning, organization, and control of resources to complete all contract deliverables and services</li> <li>Plan and direct execution of the contractual, technical, multi-disciplinary engineering, programming, maintenance, and administrative support effort</li> <li>In conjunction with technical delivery team, monitor and report progress through regularly scheduled briefings to leadership on program status and milestones</li> <li>Working with technical delivery leads, manage acquisition and employment of project resources</li> <li>Ensure sufficient qualified staffing to achieve timely and successful completion of the efforts described in the contract statement of work (SOW)</li> </ul> </li> <li><strong>Cross-Functional Collaboration</strong> <ul> <li>Coordinate efforts across engineering, supply chain, manufacturing, operations, and BD for integrated execution of the program</li> <li>Lead and coordinate efforts to resolve project-related challenges and blockers</li> </ul> </li> <li><strong>Customer Engagement</strong> <ul> <li>Serve as the primary POC to the customer's COTR/Tech POC for contract, cost, schedule, and performance</li> <li>Coordinate all program management reviews with the customer to discuss contract performance, special topics of interest, and issue resolutions</li> <li>Coordinate with technical delivery team on drafting and finalization of technical quarterly reports, status reports, final reports, and other contract deliverable documentation as required by contract</li> </ul> </li> <li><strong>Budget &amp; Resource Management</strong>: <ul> <li>Manage program budget and resource allocation to meet project requirements efficiently</li> <li>Support financial controls and administrative aspects of the project</li> </ul> </li> <li><strong>Change Management</strong> <ul> <li>Manage and document scope changes, ensuring alignment with project goals&nbsp;</li> </ul> </li> <li>Work 4-5 days onsite out of our office in Los Angeles El Segundo), CA or Washington D.C.&nbsp;</li> <li>Travel up to 30% as needed to support program and customer objectives&nbsp;</li> </ul> <p><strong>Minimum Requirements:</strong>&nbsp;</p> <ul> <li>B.S. in engineering, computer science, business, or other related field, and/or equivalent Program Management experience in&nbsp;a fast-paced, dynamic environment&nbsp;</li> <li>5+ years of Project/Program Management experience managing complex projects of a similar scope and complexity</li> <li>Exceptional communication skills, both written and verbal, with the ability to present complex information clearly and concisely to diverse audiences</li> <li>Project Management Professional (PMP) certification</li> <li>Must be able to work on-site 4-5 days per week in El Segundo CA or Washington D.C.</li> <li>Ability &amp; willingness to travel up to 30% as needed to support program and customer objectives&nbsp;</li> <li>U.S. citizen or lawful permanent resident of the U.S.&nbsp;</li> <li>Ability to obtain and maintain a U.S. security clearance&nbsp;</li> </ul> <p>&nbsp;<strong>Preferred Requirements:</strong>&nbsp;</p> <ul> <li>Experience working in DoD, military, or other Government environment performing in a related subject area (e.g. project management, engineering, computer science, etc.) in a fast-paced, dynamic environment&nbsp;</li> <li>U.S. security clearance&nbsp;</li> <li>Experience with tools like JIRA and Confluence&nbsp;</li> <li>Experience testing and monitoring Key Performance Indicators (KPIs) and/or Technical Performance Measures (TPMs)&nbsp;</li> <li>Prior systems engineering or software integration experience&nbsp;</li> <li>Advanced degree in a technical field&nbsp;&nbsp;&nbsp;</li> </ul> <p><strong><br>Why CHAOS?</strong></p> <ul> <li><strong>Health Benefits: </strong>Medical, dental, and vision benefits 100% paid for by the company</li> <li><strong>Additional benefits</strong>: 401k (+ 50% company match up to 6% of pay), FSA, HSA, life insurance, and more</li> <li><strong>Our Perks: </strong>Free daily lunch, ‘No meeting Fridays’, unlimited PTO, casual dress code</li> <li><strong>Compensation Components:</strong> Competitive base salaries, generous pre-IPO stock option grants, relocation assistance, and (coming soon!) annual bonuses</li> <li><strong>Team Growth: </strong>250 employees and counting across 5 global offices</li> </ul> <div><em><strong>Salary Range: $160,000 - $250,000</strong></em></div> <p><em>The stated compensation range reflects only the targeted base compensation range and excludes additional earnings such as bonus, equity, and benefits. If your compensation requirements fall outside of the range, we still encourage you to apply. The salary range for this role is an estimate based on a range of compensation factors, inclusive of base salary only. Actual salary offer may vary based on (but not limited to) work experience, education and/or training, critical skills, and/or business considerations.&nbsp;</em></p> <p>&nbsp;</p> <hr> <h3>Recruiting Agencies: CHAOS Industries does not accept unsolicited resumes or outreach. Unsolicited submissions will not be reviewed or compensated.</h3> <hr> <p>&nbsp;</p> <p><em>#LI-onsite</em></p> <p>&nbsp;</p> <p>&nbsp;</p>",
+      "linkedin_url": "",
+      "focus_matches": [
+        "Operations"
+      ],
+      "focus_evidence": {
+        "Operations": "te efforts across engineering, supply chain, manufacturing, operations, and BD for integrated execution of the program Lead and coordinate efforts to resolve project-rela"
+      },
+      "work_mode": "Not specified",
+      "work_mode_evidence": "The reviewed official source does not confirm the work arrangement for this role.",
+      "match": 55,
+      "matched_skills": [
+        "Operations"
+      ]
+    },
+    {
+      "id": "ashby:openai:aaf9aa75-e782-49a0-8820-79b96f343bb0",
+      "company": "OpenAI",
+      "title": "Program Manager, Critical Harm Operations",
+      "location": "Canada",
+      "salary": "Not disclosed",
+      "official_url": "https://jobs.ashbyhq.com/openai/aaf9aa75-e782-49a0-8820-79b96f343bb0",
+      "posted": "2026-10-26",
+      "date_evidence": "JobPosting.datePosted",
+      "evidence_url": "https://jobs.ashbyhq.com/openai/aaf9aa75-e782-49a0-8820-79b96f343bb0",
+      "description": "About the Team Critical Harm Operations sits within User Safety & Risk Operations and builds enforcement systems for Frontier Risk and Material Harm that are accurate, fast, defensible, and built to scale. We turn policy intent into operational readiness, review standards, quality systems, escalation paths, automation guardrails, and durable cross-functional operating models. About the Role We are looking for an exceptional Program Manager to help build durable operating systems and run some of OpenAI’s most complex safety operations. The core need is a high-agency operator who can take an ambiguous problem, create the right structure, align cross-functional partners, and drive the work through execution. This role will move across Critical Harm priorities as needs evolve. You may step into operationalizing national security or violent-activities workflows, support wellbeing and Frontier Risk initiatives, or help scale programs such as Trusted Access. Deep domain expertise is helpful but not required; the strongest candidates will learn quickly, exercise excellent judgment, and make complex programs move. This Toronto-based role is currently remote and is expected to transition to an in-office arrangement by end of year. In this role, you will: Lead strategic operational builds across priority workflows from problem statement to implemented operating model, including scope, owners, milestones, risks, success measures, and execution cadence. Translate policy, safety, technical, legal, and operational constraints into workflows, requirements, playbooks, escalation paths, and decision-making structures that teams can execute. Coordinate with User Ops leadership, Product Policy, Integrity, Safety Systems, i2, Legal, Product, Engineering, Support, vendors, and other partners to resolve dependencies and keep critical work moving. Move in and out of workflows as priorities shift—standing up new programs, stabilizing operations, improving handoffs, and transitioning durable ownership to the right team. Use operational data and frontline signals to identify bottlenecks, quality gaps, capacity needs, ownership failures, and the highest-leverage interventions. Drive high-priority escalations and cross-functional decisions to closure, ensuring the right context, accountable owners, clear next steps, and durable follow-up. Create the mechanisms that make programs run well: roadmaps, decision logs, status updates, risk registers, operating reviews, and crisp executive communication. Identify where AI tools, automation, lightweight systems, or simpler workflows can improve speed, consistency, and scale while preserving appropriate human judgment. You might thrive in this role if you: Have 8+ years of experience in program management, strategy and operations, product operations, technical program management, trust and safety, support operations, risk operations, implementation, or a related field. Experience in cybersecurity, biosecurity, or related risk and safety operations is a plus Have a track record of taking complex, ambiguous work from problem framing through launch and scaled operation. Are unusually organized, sharp, and execution-focused; you can manage many moving pieces without losing the few decisions that matter most. Build trust and drive alignment across teams without direct authority, while keeping ownership, accountability, and escalation paths clear. Are technically and analytically fluent enough to reason about data flows, dashboards, tooling gaps, automation, and failure modes—even if you are not writing production code. Communicate clearly with technical, operational, policy, and executive audiences, especially when tradeoffs are sensitive or evidence is incomplete. Operate calmly and flexibly in a fast-moving environment, learn new domains quickly, and are comfortable handling high-severity or sensitive work. Experience with vendor operations, QA programs, launch readiness, workflow automation, or AI-assisted operations. Nice to have: Experience in customer support or other high-stakes scaled operations. Deep expertise with national security, violence or other severe-harm domains. About OpenAI OpenAI is an AI research and deployment company dedicated to ensuring that general-purpose artificial intelligence benefits all of humanity. We push the boundaries of the capabilities of AI systems and seek to safely deploy them to the world through our products. AI is an extremely powerful tool that must be created with safety and human needs at its core, and to achieve our mission, we must encompass and value the many different perspectives, voices, and experiences that form the full spectrum of humanity. We are an equal opportunity employer, and we do not discriminate on the basis of race, religion, color, national origin, sex, sexual orientation, age, veteran status, disability, genetic information, or other applicable legally protected characteristic. For additional information, please see OpenAI’s Affirmative Action and Equal Employment Opportunity Policy Statement . Background checks for applicants will be administered in accordance with applicable law, and qualified applicants with arrest or conviction records will be considered for employment consistent with those laws, including the San Francisco Fair Chance Ordinance, the Los Angeles County Fair Chance Ordinance for Employers, and the California Fair Chance Act, for US-based candidates. For unincorporated Los Angeles County workers: we reasonably believe that criminal history may have a direct, adverse and negative relationship with the following job duties, potentially resulting in the withdrawal of a conditional offer of employment: protect computer hardware entrusted to you from theft, loss or damage; return all computer hardware in your possession (including the data contained therein) upon termination of employment or end of assignment; and maintain the confidentiality of proprietary, confidential, and non-public information. In addition, job duties require access to secure and protected information technology systems and related data security obligations. To notify OpenAI that you believe this job posting is non-compliant, please submit a report through this form . No response will be provided to inquiries unrelated to job posting compliance. We are committed to providing reasonable accommodations to applicants with disabilities, and requests can be made via this link . OpenAI Global Applicant Privacy Policy At OpenAI, we believe artificial intelligence has the potential to help people solve immense global challenges, and we want the upside of AI to be widely shared. Join us in shaping the future of technology.",
+      "linkedin_url": "",
+      "work_mode": "Not specified",
+      "work_mode_evidence": "The reviewed official source does not confirm the work arrangement for this role.",
+      "focus_matches": [
+        "Operations"
+      ],
+      "focus_evidence": {
+        "Operations": "Program Manager, Critical Harm Operations. About the Team Critical Harm Operations sits within User Safety & Risk Operations and builds enfor"
+      },
+      "match": 55,
+      "matched_skills": [
+        "Operations"
+      ]
+    },
+    {
+      "id": "greenhouse:upstart:8325254",
+      "company": "Upstart",
+      "title": "Website Producer",
+      "location": "United States | Remote",
+      "salary": "USD 109,000-160,000 (United States | Remote -  Anticipated Base Salary Range)",
+      "official_url": "https://careers.upstart.com/jobs/website-producer-burlingame-california-united-states?gh_jid=8325254",
+      "posted": "2026-10-26T15:12:20-04:00",
+      "date_evidence": "Greenhouse.first_published",
+      "evidence_url": "https://boards-api.greenhouse.io/v1/boards/upstart/jobs/8325254?pay_transparency=true",
+      "description": "<div class=\"content-intro\"><p><strong>About Upstart</strong></p> <p>At Upstart, we’re united by a mission that matters: to radically reduce the cost and complexity of borrowing for all Americans. Every day, we bring creativity, experimentation, and advanced AI to reshape access to credit, helping millions move forward financially with clarity and confidence.</p> <p>As the leading AI lending marketplace, we partner with banks and credit unions to expand access to affordable credit through technology that’s both radically intelligent and deeply human. Our platform runs over one million predictions per borrower using more than 3,000 signals, powering smarter, fairer decisions for millions of customers. But the numbers only hint at the impact. Every idea, every voice, and every contribution moves us closer to a world where credit never stands between people and their financial progress.</p> <p>We’re proudly digital-first, giving most Upstarters the flexibility to do their best work from wherever they thrive, alongside teammates across 80+ cities in the US and Canada. Digital-first doesn’t mean distant. We’re intentional about in-person connection through team onsites, planning sessions, and moments that spark creativity and trust. And whether you choose to work primarily from home or collaborate in-person from one of our offices in Columbus, Austin, the Bay Area, or New York City, you’ll have the support to work in the way that works best for you.</p> <p>If you’re energized by tackling meaningful problems, excited to innovate with purpose, and motivated by work that truly matters, we’d love to hear from you.</p></div><p><strong>The Team:&nbsp;</strong></p> <p data-pm-slice=\"1 1 []\">Upstart’s Brand &amp; Creative team shapes how people discover, understand, and experience Upstart. Our web team brings together design, SEO, content, and production to create useful, engaging experiences that support our brand and business goals.</p> <p>As the Senior Web Producer at Upstart, you’ll manage web requests across products and stakeholders, turn priorities into production plans, and build and publish pages in WordPress and Instapage. You’ll partner with our Lead Web Designer, SEO / Web Lead, channel owners, and Engineering to keep work moving and balance business impact within the limitations of team capacity. You’ll also coordinate and execute a quarterly landing page testing roadmap in partnership with channel owners and Analytics, developing hypotheses, launching experiments, and sharing insights that improve web performance.</p> <p><strong>How you’ll make an impact</strong></p> <ul> <li> <p><strong>Manage web intake and prioritization.</strong> Clarify goals and requirements across products and stakeholders. Partner with Design, our SEO / Web Lead, and Engineering to assess impact, scope effort, and negotiate priorities, timelines, and tradeoffs.</p> </li> <li> <p><strong>Build quarterly web production roadmaps.</strong> Translate agreed priorities into actionable plans, coordinate dependencies and approvals, and communicate progress, risks, and changes to stakeholders.</p> </li> <li> <p><strong>Own day-to-day platform operations.</strong> Administer WordPress and Instapage and maintain documentation, naming conventions, and access permissions. Provide first-line issue triage, escalate bugs, surface feature requests to Engineering, and validate fixes.</p> </li> <li> <p><strong>Build and publish web experiences.</strong> Create and maintain pages using approved designs and reusable components. Partner with Design and Engineering to maintain page templates and perform QA across browsers and devices before and after publishing.</p> </li> <li> <p><strong>Own landing page testing execution.</strong> Partner with channel owners to develop and prioritize hypotheses, align on success metrics with Analytics, build in-platform variants, launch tests, monitor performance, and recommend improvements based on results.</p> </li> <li><strong>Turn results into shared learnings.</strong> Analyze test results with relevant partners, communicate findings and recommended next steps, and publish winning experiences. Maintain a record of learnings to inform future tests across products and channels.</li> </ul> <p>&nbsp;</p> <p><strong>Minimum Qualifications&nbsp;</strong></p> <ul data-spread=\"false\" data-pm-slice=\"3 3 []\"> <li> <p>5+ years of experience in web production, website management, or marketing web operations.</p> </li> <li> <p>Hands-on experience building, updating, and publishing pages in WordPress, Instapage, or comparable CMS and self-serve landing page platforms.</p> </li> <li> <p>Experience managing web projects from request intake through launch, including production schedules, cross-functional dependencies, and approvals.</p> </li> <li> <p>Hands-on experience configuring and launching website or landing page A/B tests.</p> </li> <li> <p>Experience using web analytics or experimentation tools to analyze page performance or test results and produce reports.</p> </li> </ul> <p>&nbsp;</p> <p><strong>Preferred Qualifications</strong></p> <ul> <li> <p>Ability to navigate competing stakeholder needs, explain tradeoffs, and negotiate scope and timing diplomatically.</p> </li> <li> <p>Knowledge of conversion optimization and experience translating audience insights, channel goals, or performance data into testable hypotheses.</p> </li> <li> <p>Working knowledge of responsive design, accessibility, SEO fundamentals, and web QA.</p> </li> <li> <p>Familiarity with Figma, basic HTML/CSS, and headless CMS workflows.</p> </li> <li> <p>Experience improving publishing processes, documenting workflows, and managing platform access and governance.</p> </li> </ul> <p>&nbsp;</p> <p><strong>Position location</strong> Remote</p> <p><strong>Time zone requirements</strong> The team operates on the West coast time zones.&nbsp;</p> <p><strong>Travel requirements</strong> As a digital first company, the majority of your work can be accomplished remotely. The majority of our employees can live and work anywhere in the U.S but are encouraged to to still spend high quality time in-person collaborating via regular onsites. The in-person sessions’ cadence varies depending on the team and role; most teams meet once or twice per quarter for 2-4 consecutive days at a time.</p> <p><span style=\"font-weight: 400;\">&nbsp;</span></p> <p><span style=\"font-weight: 400;\">#LI-REMOTE</span></p> <p><span style=\"font-weight: 400;\">#LI-Associate&nbsp;</span></p> <div id=\"te-floating-button-container\"></div><div class=\"content-pay-transparency\"><div class=\"pay-input\"><div class=\"description\"><p><span style=\"font-weight: 400;\">At Upstart, your base pay is one part of your total compensation package.&nbsp; The anticipated base salary for this position is expected to be within the below range. Your actual base pay will depend on your geographic location–with our “digital first” philosophy, Upstart uses compensation regions that vary depending on location. Individual pay is also determined by job-related skills, experience, and relevant education or training. Your recruiter can share more about the specific salary range for your preferred location during the hiring process.</span></p> <p><span style=\"font-weight: 400;\">In addition, Upstart provides employees with target bonuses, equity compensation, and generous benefits packages (including medical, dental, vision, and 401k).</span></p></div><div class=\"title\">United States | Remote - Anticipated Base Salary Range</div><div class=\"pay-range\"><span>$109,000</span><span class=\"divider\">&mdash;</span><span>$160,000 USD</span></div></div></div><div class=\"content-conclusion\"><p><strong>What you'll love</strong></p> <p>At Upstart, our benefits for full-time employees are designed to support your health, financial well-being, family, and personal growth. Here’s what you can expect:</p> <ul> <li>Competitive compensation, including base pay, bonus opportunities, and annual equity grants that vest quarterly&nbsp;</li> <li>Retirement benefits to help you plan for the future, including a 401(k) or Group Retirement Savings Plan with a company match of $2 for every $1 contributed, up to $15,000 annually (USD in the US, CAD in Canada)</li> <li>Employee Stock Purchase Plan (ESPP) with discounted stock purchase options for eligible employees (US only)</li> <li>Comprehensive health coverage designed to support you and your family, including medical, dental, vision, and wellness resources for US and supplemental health coverage for Canada.</li> <li>Health Savings Account contributions from Upstart for eligible plans (US only)</li> <li>Income protection benefits, including life insurance and disability coverage for added financial security</li> <li>Paid time off, sick leave, and company holidays, in line with local requirements</li> <li>Paid family and parental leave to support caregiving and major life moments (duration varies by country)</li> <li>Family-centered benefits to support fertility, parenthood, and caregiving needs</li> <li>Employee Assistance Program (EAP) offering mental health support and life-centered resources</li> <li>Financial wellness resources, including access to financial planning tools and a financial concierge service (US Only)</li> <li>Annual wellness allowance to support your physical and emotional well-being and personal development, based on what matters most to you</li> <li>Annual productivity allowance to invest in relevant tools and resources you need to do your best work, no matter where you work from</li> <li>Connection and community through team events, all-company updates, and employee resource groups (ERGs)</li> <li>Onsite perks, including catered lunches and fully stocked micro-kitchens when working from one of our offices in the Bay Area, Austin, Columbus, and New York City</li> </ul> <p>For roles based in Canada, please note that we are not currently able to hire in Quebec.</p> <p>Upstart is a proud Equal Opportunity Employer. Just as we are dedicated to improving access to affordable credit for all, we are committed to inclusive and fair hiring practices.</p> <p><em>If you require reasonable accommodation in completing an application, interviewing, completing any pre-employment testing, or otherwise participating in the employee selection process, please email candidate_accommodations@upstart.com</em></p> <p><a href=\"https://www.upstart.com/candidate_privacy_policy\">https://www.upstart.com/candidate_privacy_policy</a></p></div>",
+      "linkedin_url": "",
+      "focus_matches": [
+        "Operations"
+      ],
+      "focus_evidence": {
+        "Operations": "risks, and changes to stakeholders. Own day-to-day platform operations. Administer WordPress and Instapage and maintain documentation, naming conventions, and access perm"
+      },
+      "work_mode": "Remote available",
+      "work_mode_evidence": "The official location includes remote work; confirm geographic restrictions and other work arrangements with the employer.",
+      "match": 55,
+      "matched_skills": [
+        "Operations"
+      ]
+    }
+  ]
+}
