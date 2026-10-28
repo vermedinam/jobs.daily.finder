@@ -104,6 +104,41 @@
       "url": "https://job-boards.greenhouse.io/chaosindustries/jobs/5257631007",
       "first_seen": "2026-10-26",
       "last_seen": "2026-10-26"
+    },
+    "greenhouse:twitch:8918711002": {
+      "url": "https://job-boards.greenhouse.io/twitch/jobs/8918711002",
+      "first_seen": "2026-10-27",
+      "last_seen": "2026-10-27"
+    },
+    "greenhouse:twitch:8918684002": {
+      "url": "https://job-boards.greenhouse.io/twitch/jobs/8918684002",
+      "first_seen": "2026-10-27",
+      "last_seen": "2026-10-27"
+    },
+    "greenhouse:twitch:8918709002": {
+      "url": "https://job-boards.greenhouse.io/twitch/jobs/8918709002",
+      "first_seen": "2026-10-27",
+      "last_seen": "2026-10-27"
+    },
+    "smartrecruiters:AECOM2:744000158139247": {
+      "url": "https://jobs.smartrecruiters.com/AECOM2/744000158139247-mining-epcm-delivery-manager",
+      "first_seen": "2026-10-27",
+      "last_seen": "2026-10-27"
+    },
+    "smartrecruiters:AECOM2:744000158134688": {
+      "url": "https://jobs.smartrecruiters.com/AECOM2/744000158134688-express-lanes-and-ramp-signaling-operations-program-manager",
+      "first_seen": "2026-10-27",
+      "last_seen": "2026-10-27"
+    },
+    "smartrecruiters:AECOM2:744000158039549": {
+      "url": "https://jobs.smartrecruiters.com/AECOM2/744000158039549-tenant-relocation-program-manager",
+      "first_seen": "2026-10-27",
+      "last_seen": "2026-10-27"
+    },
+    "smartrecruiters:ServiceNow:744000158084845": {
+      "url": "https://jobs.smartrecruiters.com/ServiceNow/744000158084845-strategic-partnerships-technical-program-manager",
+      "first_seen": "2026-10-27",
+      "last_seen": "2026-10-27"
     }
   }
 }

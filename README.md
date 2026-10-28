@@ -10,107 +10,115 @@ Search area: USA, Canada, Mexico, Spain, LATAM, and eligible remote roles. Resul
 
 <!-- DASHBOARD:START -->
 
-## Dashboard: 2026-10-26
+## Dashboard: 2026-10-27
 
 > Your worth is not measured by an inbox. One thoughtful application at a time is enough for today.
 
-Publication day: 2026-10-26. Verified at: 2026-10-26T17:31:05.720110-07:00 (America/Los_Angeles).
+Publication day: 2026-10-27. Verified at: 2026-10-27T17:40:33.468403-07:00 (America/Los_Angeles).
 
 Up to 30 verified listings from the requested publication day. Coverage is limited to accessible sources.
 
-Reviewed: 60738 | Recommended: 6 | Applied excluded: 0 | Previously seen: 0 | Unverified: 0 | Outside topic focus: 2
+Reviewed: 61303 | Recommended: 7 | Applied excluded: 0 | Previously seen: 0 | Unverified: 0 | Outside topic focus: 4
 
-Accessible sources: 275 | LinkedIn candidates: 89
+Accessible sources: 275 | LinkedIn candidates: 33
 
 LinkedIn: Public access limited (HTTPError); no bypass or login attempted
 
-Regional coverage: Mexico 0 verified candidates | Spain 0 verified candidates. Target: 30; returned: 6.
+Regional coverage: Mexico 0 verified candidates | Spain 0 verified candidates. Target: 30; returned: 7.
 
 ## Top 5
 
 | Estimated match | Company | Role | Location | Work arrangement | Apply |
 |---|---|---|---|---|---|
-| 85% | Motional | Senior Program Manager | Las Vegas, Nevada, United States; Pittsburgh, Pennsylvania, United States | Not specified | [Apply](<https://motional.com/open-positions?gh_jid=8044945003>) |
-| 70% | Braze | Program Manager, Partnerships | New York City | Not specified | [Apply](<https://job-boards.greenhouse.io/braze/jobs/8315083>) |
-| 55% | CHAOS Industries | Program Manager | El Segundo, California, United States | Not specified | [Apply](<https://job-boards.greenhouse.io/chaosindustries/jobs/5257631007>) |
-| 55% | CHAOS Industries | Program Manager | Washington, District of Columbia, United States | Not specified | [Apply](<https://job-boards.greenhouse.io/chaosindustries/jobs/5257632007>) |
-| 55% | OpenAI | Program Manager, Critical Harm Operations | Canada | Not specified | [Apply](<https://jobs.ashbyhq.com/openai/aaf9aa75-e782-49a0-8820-79b96f343bb0>) |
+| 55% | ServiceNow | Strategic Partnerships, Technical Program Manager | Santa Clara, California, us | Not specified | [Apply](<https://jobs.smartrecruiters.com/ServiceNow/744000158084845-strategic-partnerships-technical-program-manager>) |
+| 55% | Twitch | Sr. Program Manager, Accessibility | San Francisco, CA | Not specified | [Apply](<https://job-boards.greenhouse.io/twitch/jobs/8918684002>) |
+| 55% | Twitch | Sr. Program Manager, Accessibility | Los Angeles, CA | Not specified | [Apply](<https://job-boards.greenhouse.io/twitch/jobs/8918709002>) |
+| 55% | AECOM | Express Lanes and Ramp Signaling Operations Program Manager | Miami, FL, us | Not specified | [Apply](<https://jobs.smartrecruiters.com/AECOM2/744000158134688-express-lanes-and-ramp-signaling-operations-program-manager>) |
+| 55% | AECOM | Mining EPCM Delivery Manager | Providencia Santiago, PROVIDENCIA SANTIAGO, cl | Not specified | [Apply](<https://jobs.smartrecruiters.com/AECOM2/744000158139247-mining-epcm-delivery-manager>) |
 
 ## Verified jobs
 
 | Estimated match | Company / role | Location | Work arrangement | Published salary | Official publication date | Apply | LinkedIn |
 |---|---|---|---|---|---|---|---|
-| 85% | Motional / Senior Program Manager | Las Vegas, Nevada, United States; Pittsburgh, Pennsylvania, United States | Not specified | USD 125,000-167,000 (Salary Range) | 2026-10-26T14:59:20-04:00 | [Apply](<https://motional.com/open-positions?gh_jid=8044945003>) | Not available |
-| 70% | Braze / Program Manager, Partnerships | New York City | Not specified | Not disclosed | 2026-10-26T10:32:38-04:00 | [Apply](<https://job-boards.greenhouse.io/braze/jobs/8315083>) | Not available |
-| 55% | CHAOS Industries / Program Manager | El Segundo, California, United States | Not specified | Not disclosed | 2026-10-26T10:15:02-04:00 | [Apply](<https://job-boards.greenhouse.io/chaosindustries/jobs/5257631007>) | Not available |
-| 55% | CHAOS Industries / Program Manager | Washington, District of Columbia, United States | Not specified | Not disclosed | 2026-10-26T10:15:05-04:00 | [Apply](<https://job-boards.greenhouse.io/chaosindustries/jobs/5257632007>) | Not available |
-| 55% | OpenAI / Program Manager, Critical Harm Operations | Canada | Not specified | Not disclosed | 2026-10-26 | [Apply](<https://jobs.ashbyhq.com/openai/aaf9aa75-e782-49a0-8820-79b96f343bb0>) | Not available |
-| 55% | Upstart / Website Producer | United States &#124; Remote | Remote available | USD 109,000-160,000 (United States &#124; Remote - Anticipated Base Salary Range) | 2026-10-26T15:12:20-04:00 | [Apply](<https://careers.upstart.com/jobs/website-producer-burlingame-california-united-states?gh_jid=8325254>) | Not available |
+| 55% | ServiceNow / Strategic Partnerships, Technical Program Manager | Santa Clara, California, us | Not specified | Not disclosed | 2026-10-27T15:55:19.621Z | [Apply](<https://jobs.smartrecruiters.com/ServiceNow/744000158084845-strategic-partnerships-technical-program-manager>) | Not available |
+| 55% | Twitch / Sr. Program Manager, Accessibility | San Francisco, CA | Not specified | USD 129,500-175,100 (US, WA, Seattle - Annually); USD 142,400-192,600 (US, CA, San Francisco - Annually); USD 142,400-192,600 (US, NY, New York - Annually); USD 129,500-175,100 (US, CA, Los Angeles - Annually); USD 129,500-175,100 (US, CA, Irvine - Annually) | 2026-10-27T11:36:48-04:00 | [Apply](<https://job-boards.greenhouse.io/twitch/jobs/8918684002>) | Not available |
+| 55% | Twitch / Sr. Program Manager, Accessibility | Los Angeles, CA | Not specified | USD 129,500-175,100 (US, WA, Seattle - Annually); USD 142,400-192,600 (US, CA, San Francisco - Annually); USD 142,400-192,600 (US, NY, New York - Annually); USD 129,500-175,100 (US, CA, Los Angeles - Annually); USD 129,500-175,100 (US, CA, Irvine - Annually) | 2026-10-27T11:36:46-04:00 | [Apply](<https://job-boards.greenhouse.io/twitch/jobs/8918709002>) | Not available |
+| 55% | AECOM / Express Lanes and Ramp Signaling Operations Program Manager | Miami, FL, us | Not specified | Not disclosed | 2026-10-27T19:24:13.031Z | [Apply](<https://jobs.smartrecruiters.com/AECOM2/744000158134688-express-lanes-and-ramp-signaling-operations-program-manager>) | Not available |
+| 55% | AECOM / Mining EPCM Delivery Manager | Providencia Santiago, PROVIDENCIA SANTIAGO, cl | Not specified | Not disclosed | 2026-10-27T20:05:18.674Z | [Apply](<https://jobs.smartrecruiters.com/AECOM2/744000158139247-mining-epcm-delivery-manager>) | Not available |
+| 55% | AECOM / Tenant Relocation Program Manager | New York, NY, us | Not specified | Not disclosed | 2026-10-27T13:02:27.281Z | [Apply](<https://jobs.smartrecruiters.com/AECOM2/744000158039549-tenant-relocation-program-manager>) | Not available |
+| 55% | Twitch / Sr. Program Manager, Accessibility | New York City | Not specified | USD 129,500-175,100 (US, WA, Seattle - Annually); USD 142,400-192,600 (US, CA, San Francisco - Annually); USD 142,400-192,600 (US, NY, New York - Annually); USD 129,500-175,100 (US, CA, Los Angeles - Annually); USD 129,500-175,100 (US, CA, Irvine - Annually) | 2026-10-27T11:36:42-04:00 | [Apply](<https://job-boards.greenhouse.io/twitch/jobs/8918711002>) | Not available |
 
 ## Evidence and fit
 
 Topic match is a heuristic, not a hiring probability or verified assessment of experience. With topic focus enabled: 40 base points plus 15 per matched theme (Agile, OKRs, Operations, ISO 27001), capped at 100. At least one theme is required. Results are ordered by match; California breaks ties.
 
-### Motional: Senior Program Manager
+### ServiceNow: Strategic Partnerships, Technical Program Manager
 
-- Job ID: greenhouse:motional:8044945003
+- Job ID: smartrecruiters:ServiceNow:744000158084845
 - Application status: Not recorded as applied
 - Work arrangement: Not specified. The reviewed official source does not confirm the work arrangement for this role.
-- Publication date: 2026-10-26T14:59:20-04:00. Zoned timestamps are evaluated in California time.
-- Date evidence: [Greenhouse.first_published](<https://boards-api.greenhouse.io/v1/boards/motional/jobs/8044945003?pay_transparency=true>)
-- Relevant themes: Agile, OKRs, Operations.
-- Theme evidence: the official title or description mentions Agile.
-- Theme evidence: the official title or description mentions OKRs.
-- Theme evidence: the official title or description mentions Operations.
-
-### Braze: Program Manager, Partnerships
-
-- Job ID: greenhouse:braze:8315083
-- Application status: Not recorded as applied
-- Work arrangement: Not specified. The reviewed official source does not confirm the work arrangement for this role.
-- Publication date: 2026-10-26T10:32:38-04:00. Zoned timestamps are evaluated in California time.
-- Date evidence: [Greenhouse.first_published](<https://boards-api.greenhouse.io/v1/boards/braze/jobs/8315083?pay_transparency=true>)
-- Relevant themes: OKRs, Operations.
-- Theme evidence: the official title or description mentions OKRs.
-- Theme evidence: the official title or description mentions Operations.
-
-### CHAOS Industries: Program Manager
-
-- Job ID: greenhouse:chaosindustries:5257631007
-- Application status: Not recorded as applied
-- Work arrangement: Not specified. The reviewed official source does not confirm the work arrangement for this role.
-- Publication date: 2026-10-26T10:15:02-04:00. Zoned timestamps are evaluated in California time.
-- Date evidence: [Greenhouse.first_published](<https://boards-api.greenhouse.io/v1/boards/chaosindustries/jobs/5257631007?pay_transparency=true>)
+- Publication date: 2026-10-27T15:55:19.621Z. Zoned timestamps are evaluated in California time.
+- Date evidence: [SmartRecruiters.releasedDate (release; may be a repost)](<https://api.smartrecruiters.com/v1/companies/ServiceNow/postings/744000158084845>)
 - Relevant themes: Operations.
 - Theme evidence: the official title or description mentions Operations.
 
-### CHAOS Industries: Program Manager
+### Twitch: Sr. Program Manager, Accessibility
 
-- Job ID: greenhouse:chaosindustries:5257632007
+- Job ID: greenhouse:twitch:8918684002
 - Application status: Not recorded as applied
 - Work arrangement: Not specified. The reviewed official source does not confirm the work arrangement for this role.
-- Publication date: 2026-10-26T10:15:05-04:00. Zoned timestamps are evaluated in California time.
-- Date evidence: [Greenhouse.first_published](<https://boards-api.greenhouse.io/v1/boards/chaosindustries/jobs/5257632007?pay_transparency=true>)
+- Publication date: 2026-10-27T11:36:48-04:00. Zoned timestamps are evaluated in California time.
+- Date evidence: [Greenhouse.first_published](<https://boards-api.greenhouse.io/v1/boards/twitch/jobs/8918684002?pay_transparency=true>)
 - Relevant themes: Operations.
 - Theme evidence: the official title or description mentions Operations.
 
-### OpenAI: Program Manager, Critical Harm Operations
+### Twitch: Sr. Program Manager, Accessibility
 
-- Job ID: ashby:openai:aaf9aa75-e782-49a0-8820-79b96f343bb0
+- Job ID: greenhouse:twitch:8918709002
 - Application status: Not recorded as applied
 - Work arrangement: Not specified. The reviewed official source does not confirm the work arrangement for this role.
-- Publication date: 2026-10-26. Zoned timestamps are evaluated in California time.
-- Date evidence: [JobPosting.datePosted](<https://jobs.ashbyhq.com/openai/aaf9aa75-e782-49a0-8820-79b96f343bb0>)
+- Publication date: 2026-10-27T11:36:46-04:00. Zoned timestamps are evaluated in California time.
+- Date evidence: [Greenhouse.first_published](<https://boards-api.greenhouse.io/v1/boards/twitch/jobs/8918709002?pay_transparency=true>)
 - Relevant themes: Operations.
 - Theme evidence: the official title or description mentions Operations.
 
-### Upstart: Website Producer
+### AECOM: Express Lanes and Ramp Signaling Operations Program Manager
 
-- Job ID: greenhouse:upstart:8325254
+- Job ID: smartrecruiters:AECOM2:744000158134688
 - Application status: Not recorded as applied
-- Work arrangement: Remote available. The official location includes remote work; confirm geographic restrictions and other work arrangements with the employer.
-- Publication date: 2026-10-26T15:12:20-04:00. Zoned timestamps are evaluated in California time.
-- Date evidence: [Greenhouse.first_published](<https://boards-api.greenhouse.io/v1/boards/upstart/jobs/8325254?pay_transparency=true>)
+- Work arrangement: Not specified. The reviewed official source does not confirm the work arrangement for this role.
+- Publication date: 2026-10-27T19:24:13.031Z. Zoned timestamps are evaluated in California time.
+- Date evidence: [SmartRecruiters.releasedDate (release; may be a repost)](<https://api.smartrecruiters.com/v1/companies/AECOM2/postings/744000158134688>)
+- Relevant themes: Operations.
+- Theme evidence: the official title or description mentions Operations.
+
+### AECOM: Mining EPCM Delivery Manager
+
+- Job ID: smartrecruiters:AECOM2:744000158139247
+- Application status: Not recorded as applied
+- Work arrangement: Not specified. The reviewed official source does not confirm the work arrangement for this role.
+- Publication date: 2026-10-27T20:05:18.674Z. Zoned timestamps are evaluated in California time.
+- Date evidence: [SmartRecruiters.releasedDate (release; may be a repost)](<https://api.smartrecruiters.com/v1/companies/AECOM2/postings/744000158139247>)
+- Relevant themes: Operations.
+- Theme evidence: the official title or description mentions Operations.
+
+### AECOM: Tenant Relocation Program Manager
+
+- Job ID: smartrecruiters:AECOM2:744000158039549
+- Application status: Not recorded as applied
+- Work arrangement: Not specified. The reviewed official source does not confirm the work arrangement for this role.
+- Publication date: 2026-10-27T13:02:27.281Z. Zoned timestamps are evaluated in California time.
+- Date evidence: [SmartRecruiters.releasedDate (release; may be a repost)](<https://api.smartrecruiters.com/v1/companies/AECOM2/postings/744000158039549>)
+- Relevant themes: Operations.
+- Theme evidence: the official title or description mentions Operations.
+
+### Twitch: Sr. Program Manager, Accessibility
+
+- Job ID: greenhouse:twitch:8918711002
+- Application status: Not recorded as applied
+- Work arrangement: Not specified. The reviewed official source does not confirm the work arrangement for this role.
+- Publication date: 2026-10-27T11:36:42-04:00. Zoned timestamps are evaluated in California time.
+- Date evidence: [Greenhouse.first_published](<https://boards-api.greenhouse.io/v1/boards/twitch/jobs/8918711002?pay_transparency=true>)
 - Relevant themes: Operations.
 - Theme evidence: the official title or description mentions Operations.
 
@@ -124,7 +132,7 @@ New verified employer boards retained for future searches: 0.
 | Latino and professional associations | HOPE - Hispanas Organized for Political Equality | 1 | 1 | 0 | 0 |
 | Latino and professional associations | Lean In Latinas | 1 | 0 | 0 | 1 |
 | Regional technology and startups | Built In San Francisco | 3 | 21 | 0 | 0 |
-| Games and entertainment | Hitmarker | 3 | 2 | 0 | 0 |
+| Games and entertainment | Hitmarker | 3 | 5 | 0 | 0 |
 | Regional technology and startups | Welcome to the Jungle | 4 | 0 | 0 | 1 |
 | Life sciences | Biocom Career Hub | 1 | 0 | 0 | 1 |
 | Company careers | WelbeHealth official careers | 1 | 0 | 0 | 1 |
@@ -139,11 +147,11 @@ New verified employer boards retained for future searches: 0.
 | Women and inclusive career networks | Women Who Design | 1 | 0 | 0 | 1 |
 | Women and inclusive career networks | Women in Games International | 1 | 0 | 0 | 1 |
 | Women and inclusive career networks | Started by Women | 1 | 1 | 0 | 0 |
-| Regional technology and startups | Wellfound California | 1 | 0 | 0 | 1 |
+| Regional technology and startups | Wellfound California | 1 | 1 | 0 | 0 |
 | Regional technology and startups | Y Combinator California | 1 | 0 | 0 | 1 |
 | Games and entertainment | Games Jobs Direct | 0 | 0 | 0 | 1 |
 | Games and entertainment | Bloks | 1 | 0 | 0 | 1 |
-| Games and entertainment | Gaming Industry Job Tracker | 1 | 1 | 0 | 0 |
+| Games and entertainment | Gaming Industry Job Tracker | 1 | 1 | 0 | 1 |
 | Games and entertainment | ASGC Games Jobs | 1 | 0 | 0 | 1 |
 | Life sciences | BioSpace California | 0 | 0 | 0 | 1 |
 | Life sciences | BioTalent | 1 | 0 | 0 | 1 |
@@ -223,10 +231,10 @@ The daily 5 pm run cannot include listings published after it begins. Historical
 - PowerToFly: No supported role links in public HTML; dynamic or member-only results may be unavailable
 - Women Who Design: No supported role links in public HTML; dynamic or member-only results may be unavailable
 - Women in Games International: No supported role links in public HTML; dynamic or member-only results may be unavailable
-- Wellfound California: No supported role links in public HTML; dynamic or member-only results may be unavailable
 - Y Combinator California: No supported role links in public HTML; dynamic or member-only results may be unavailable
 - Games Jobs Direct: https://www.gamesjobsdirect.com/search: HTTP Error 406: Not Acceptable
 - Bloks: No supported role links in public HTML; dynamic or member-only results may be unavailable
+- Gaming Industry Job Tracker: https://jobs.christran.gg/jobs/52649: HTTP Error 410: Gone
 - ASGC Games Jobs: No supported role links in public HTML; dynamic or member-only results may be unavailable
 - BioSpace California: https://jobs.biospace.com/california: HTTP Error 429: Too Many Requests
 - BioTalent: No supported role links in public HTML; dynamic or member-only results may be unavailable

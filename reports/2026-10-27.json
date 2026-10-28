@@ -1,0 +1,570 @@
+{
+  "date": "2026-10-27",
+  "verified_at": "2026-10-27T17:40:33.468403-07:00",
+  "metrics": {
+    "reviewed": 61303,
+    "sources_ok": 275,
+    "unverified": 0,
+    "applied_excluded": 0,
+    "seen_excluded": 0,
+    "linkedin_candidates": 33,
+    "linkedin": "Public access limited (HTTPError); no bypass or login attempted",
+    "errors": [
+      "devot: HTTPError",
+      "wiz: HTTPError",
+      "yelp: HTTPError",
+      "contentsquare: HTTPError",
+      "factorialhr: HTTPError",
+      "factorial: HTTPError",
+      "travelperk: HTTPError",
+      "jobandtalent: HTTPError",
+      "glovo: HTTPError",
+      "bookingcom: HTTPError",
+      "expediagroup: HTTPError",
+      "cimpress: HTTPError",
+      "vistaprint: HTTPError",
+      "softtek: HTTPError",
+      "agileengine: HTTPError",
+      "konfio: HTTPError",
+      "clipmx: HTTPError",
+      "kueski: HTTPError",
+      "klar: HTTPError",
+      "yalo: HTTPError",
+      "nowports: HTTPError",
+      "remitly: HTTPError",
+      "payjoy: HTTPError",
+      "tala: HTTPError",
+      "openpay: HTTPError",
+      "global66: HTTPError",
+      "habi: HTTPError",
+      "truora: HTTPError",
+      "platzi: HTTPError",
+      "clara: HTTPError",
+      "bitso: HTTPError",
+      "stori: HTTPError",
+      "mendel: HTTPError",
+      "factorial: HTTPError",
+      "lodgify: HTTPError",
+      "secretsource: HTTPError",
+      "sastrify: HTTPError",
+      "safetywing: HTTPError",
+      "jobgether: HTTPError",
+      "lemonio: HTTPError",
+      "nearsure: HTTPError",
+      "crunchyroll: HTTPError",
+      "amdocs: HTTPError",
+      "slalom: HTTPError",
+      "slalombuild: HTTPError",
+      "cprime: HTTPError",
+      "avature: HTTPError",
+      "guidewire: HTTPError",
+      "netsuite: HTTPError",
+      "eon: HTTPError",
+      "epamanywhere: HTTPError",
+      "akamai: HTTPError",
+      "thoughtmachine: HTTPError",
+      "checkoutcom: HTTPError",
+      "flywire: HTTPError",
+      "Prospanica: https://jobs.prospanica.org/home/index.cfm: HTTP Error 403: Forbidden",
+      "Lean In Latinas: No supported role links in public HTML; dynamic or member-only results may be unavailable",
+      "Welcome to the Jungle: No supported role links in public HTML; dynamic or member-only results may be unavailable",
+      "Biocom Career Hub: No supported role links in public HTML; dynamic or member-only results may be unavailable",
+      "WelbeHealth official careers: No supported role links in public HTML; dynamic or member-only results may be unavailable",
+      "thatgamecompany official careers: https://thatgamecompany.com/company/jobs/: Only public HTTPS URLs are allowed",
+      "Turtle Rock Studios official careers: No supported role links in public HTML; dynamic or member-only results may be unavailable",
+      "HLPA: https://jobs.hlpa.com/employment/search.aspx: HTTP Error 406: Not Acceptable",
+      "SHPE: https://careercenter.shpe.org/: HTTP Error 403: Forbidden",
+      "Techqueria: No supported role links in public HTML; dynamic or member-only results may be unavailable",
+      "Latinx in Tech Career Center: No supported role links in public HTML; dynamic or member-only results may be unavailable",
+      "PowerToFly: No supported role links in public HTML; dynamic or member-only results may be unavailable",
+      "Women Who Design: No supported role links in public HTML; dynamic or member-only results may be unavailable",
+      "Women in Games International: No supported role links in public HTML; dynamic or member-only results may be unavailable",
+      "Y Combinator California: No supported role links in public HTML; dynamic or member-only results may be unavailable",
+      "Games Jobs Direct: https://www.gamesjobsdirect.com/search: HTTP Error 406: Not Acceptable",
+      "Bloks: No supported role links in public HTML; dynamic or member-only results may be unavailable",
+      "Gaming Industry Job Tracker: https://jobs.christran.gg/jobs/52649: HTTP Error 410: Gone",
+      "ASGC Games Jobs: No supported role links in public HTML; dynamic or member-only results may be unavailable",
+      "BioSpace California: https://jobs.biospace.com/california: HTTP Error 429: Too Many Requests",
+      "BioTalent: No supported role links in public HTML; dynamic or member-only results may be unavailable",
+      "Manfred Spain: No supported role links in public HTML; dynamic or member-only results may be unavailable",
+      "Jobgether: https://jobgether.com/remote-jobs/program-manager: HTTP Error 403: Forbidden"
+    ],
+    "discovery": [
+      {
+        "source": "Prospanica",
+        "category": "Latino and professional associations",
+        "pages": 0,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "https://jobs.prospanica.org/home/index.cfm: HTTP Error 403: Forbidden"
+        ]
+      },
+      {
+        "source": "HOPE - Hispanas Organized for Political Equality",
+        "category": "Latino and professional associations",
+        "pages": 1,
+        "candidates": 1,
+        "verified": 0,
+        "issues": []
+      },
+      {
+        "source": "Lean In Latinas",
+        "category": "Latino and professional associations",
+        "pages": 1,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "No supported role links in public HTML; dynamic or member-only results may be unavailable"
+        ]
+      },
+      {
+        "source": "Built In San Francisco",
+        "category": "Regional technology and startups",
+        "pages": 3,
+        "candidates": 21,
+        "verified": 0,
+        "issues": []
+      },
+      {
+        "source": "Hitmarker",
+        "category": "Games and entertainment",
+        "pages": 3,
+        "candidates": 5,
+        "verified": 0,
+        "issues": []
+      },
+      {
+        "source": "Welcome to the Jungle",
+        "category": "Regional technology and startups",
+        "pages": 4,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "No supported role links in public HTML; dynamic or member-only results may be unavailable"
+        ]
+      },
+      {
+        "source": "Biocom Career Hub",
+        "category": "Life sciences",
+        "pages": 1,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "No supported role links in public HTML; dynamic or member-only results may be unavailable"
+        ]
+      },
+      {
+        "source": "WelbeHealth official careers",
+        "category": "Company careers",
+        "pages": 1,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "No supported role links in public HTML; dynamic or member-only results may be unavailable"
+        ]
+      },
+      {
+        "source": "Branch official careers",
+        "category": "Company careers",
+        "pages": 1,
+        "candidates": 14,
+        "verified": 0,
+        "issues": []
+      },
+      {
+        "source": "thatgamecompany official careers",
+        "category": "Company careers",
+        "pages": 0,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "https://thatgamecompany.com/company/jobs/: Only public HTTPS URLs are allowed"
+        ]
+      },
+      {
+        "source": "Turtle Rock Studios official careers",
+        "category": "Company careers",
+        "pages": 1,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "No supported role links in public HTML; dynamic or member-only results may be unavailable"
+        ]
+      },
+      {
+        "source": "HLPA",
+        "category": "Latino and professional associations",
+        "pages": 0,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "https://jobs.hlpa.com/employment/search.aspx: HTTP Error 406: Not Acceptable"
+        ]
+      },
+      {
+        "source": "SHPE",
+        "category": "Latino and professional associations",
+        "pages": 0,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "https://careercenter.shpe.org/: HTTP Error 403: Forbidden"
+        ]
+      },
+      {
+        "source": "Techqueria",
+        "category": "Latino and professional associations",
+        "pages": 1,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "No supported role links in public HTML; dynamic or member-only results may be unavailable"
+        ]
+      },
+      {
+        "source": "Latinx in Tech Career Center",
+        "category": "Latino and professional associations",
+        "pages": 1,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "No supported role links in public HTML; dynamic or member-only results may be unavailable"
+        ]
+      },
+      {
+        "source": "PowerToFly",
+        "category": "Women and inclusive career networks",
+        "pages": 1,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "No supported role links in public HTML; dynamic or member-only results may be unavailable"
+        ]
+      },
+      {
+        "source": "Women Who Design",
+        "category": "Women and inclusive career networks",
+        "pages": 1,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "No supported role links in public HTML; dynamic or member-only results may be unavailable"
+        ]
+      },
+      {
+        "source": "Women in Games International",
+        "category": "Women and inclusive career networks",
+        "pages": 1,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "No supported role links in public HTML; dynamic or member-only results may be unavailable"
+        ]
+      },
+      {
+        "source": "Started by Women",
+        "category": "Women and inclusive career networks",
+        "pages": 1,
+        "candidates": 1,
+        "verified": 0,
+        "issues": []
+      },
+      {
+        "source": "Wellfound California",
+        "category": "Regional technology and startups",
+        "pages": 1,
+        "candidates": 1,
+        "verified": 0,
+        "issues": []
+      },
+      {
+        "source": "Y Combinator California",
+        "category": "Regional technology and startups",
+        "pages": 1,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "No supported role links in public HTML; dynamic or member-only results may be unavailable"
+        ]
+      },
+      {
+        "source": "Games Jobs Direct",
+        "category": "Games and entertainment",
+        "pages": 0,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "https://www.gamesjobsdirect.com/search: HTTP Error 406: Not Acceptable"
+        ]
+      },
+      {
+        "source": "Bloks",
+        "category": "Games and entertainment",
+        "pages": 1,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "No supported role links in public HTML; dynamic or member-only results may be unavailable"
+        ]
+      },
+      {
+        "source": "Gaming Industry Job Tracker",
+        "category": "Games and entertainment",
+        "pages": 1,
+        "candidates": 1,
+        "verified": 0,
+        "issues": [
+          "https://jobs.christran.gg/jobs/52649: HTTP Error 410: Gone"
+        ]
+      },
+      {
+        "source": "ASGC Games Jobs",
+        "category": "Games and entertainment",
+        "pages": 1,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "No supported role links in public HTML; dynamic or member-only results may be unavailable"
+        ]
+      },
+      {
+        "source": "BioSpace California",
+        "category": "Life sciences",
+        "pages": 0,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "https://jobs.biospace.com/california: HTTP Error 429: Too Many Requests"
+        ]
+      },
+      {
+        "source": "BioTalent",
+        "category": "Life sciences",
+        "pages": 1,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "No supported role links in public HTML; dynamic or member-only results may be unavailable"
+        ]
+      },
+      {
+        "source": "Manfred Spain",
+        "category": "Remote and international",
+        "pages": 1,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "No supported role links in public HTML; dynamic or member-only results may be unavailable"
+        ]
+      },
+      {
+        "source": "Wellfound Remote",
+        "category": "Remote and international",
+        "pages": 1,
+        "candidates": 30,
+        "verified": 0,
+        "issues": []
+      },
+      {
+        "source": "Jobgether",
+        "category": "Remote and international",
+        "pages": 0,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "https://jobgether.com/remote-jobs/program-manager: HTTP Error 403: Forbidden"
+        ]
+      },
+      {
+        "source": "Remotely",
+        "category": "Remote and international",
+        "pages": 1,
+        "candidates": 11,
+        "verified": 0,
+        "issues": []
+      }
+    ],
+    "new_employer_boards": 0,
+    "focus_excluded": 4,
+    "mexico_verified_candidates": 0,
+    "spain_verified_candidates": 0
+  },
+  "jobs": [
+    {
+      "id": "smartrecruiters:ServiceNow:744000158084845",
+      "company": "ServiceNow",
+      "title": "Strategic Partnerships, Technical Program Manager",
+      "location": "Santa Clara, California, us",
+      "salary": "Not disclosed",
+      "official_url": "https://jobs.smartrecruiters.com/ServiceNow/744000158084845-strategic-partnerships-technical-program-manager",
+      "posted": "2026-10-27T15:55:19.621Z",
+      "date_evidence": "SmartRecruiters.releasedDate (release; may be a repost)",
+      "evidence_url": "https://api.smartrecruiters.com/v1/companies/ServiceNow/postings/744000158084845",
+      "description": "It all started when engineer Fred Luddy wrote code that automated a tedious task for his coworker, Phyllis. She cried tears of joy. That moment inspired Fred to build a company that could do that for everyone—freeing people from busywork so they could focus on meaningful work. Today, ServiceNow is the AI control tower for business reinvention. Our ServiceNow AI platform brings together any AI, any data, and any workflow— helping 85% of the Fortune 500® work smarter, faster, and better. We're building an AI-native culture where technology and talent are unstoppable together. And we're just getting started. Join us to put AI to work for people. About the team: This role will support the Strategic Partnerships team within Central Product Management. The Strategic Partnerships team works with the leading technology and AI native companies to define a product led partnership motion, including building high value joint solutions and defining the ideal GTM, with an eye to accelerating customers adopting and getting value from AI. Together, we identify high-value opportunities, accelerate business outcomes, and build reusable AI-native solutions that advance the Now AI Platform. The Strategic partnership team is focused on activating strategic partnerships and driving adoption of the joint solutions. Why This Role Matters: Enterprise leaders aren’t just experimenting with AI—they’re demanding outcomes. The next wave of adoption will be led by those who can move fast, deliver measurable value, and transform 1-off wins into repeatable success. The lines are blurring across platforms, with coopetition being the new normal. The partnerships team sits at the intersection of this coopetition and helps define the better together where applicable. As a Strategic Partnerships Technical Program Manager, you operate on the frontlines of transformation. You will support ServiceNow’s cross-functional Strategic Partnership teams in organizational direction and structure, build partnerships, unblock delivery challenges, and ensure scalability. Your leadership accelerates innovation and drives repeatable success across industries. You shape internal tooling, build internal relationships, manage the customer portfolio, and cultivate a culture of excellence and impact. Who You Are: You are a dynamic and innovative problem-solver who thrives in complex, fast-paced environments. You have a strong analytical mindset while keeping focus on the bigger picture. You have a background managing SDLC processes and a portfolio of projects while keeping a customer-first mentality. You have a passion for AI and scaling innovation. You are curious and knowledgeable on the ecosystem of platforms. You excel at transforming ambiguity into clarity and have hands on experience driving projects/programs end to end. What You’ll Do: Manage the Partner Build Portfolio Manage the portfolio of partner engagements, overseeing phases, delivery timelines, scope, and outcomes for each engagement. Maintain a single source of truth for engagement progress, risks, and outcomes. In partnership with Strategic Partnership Leaders, balance priorities across accounts to ensure resources are allocated effectively. Aggregate engagement learnings to influence and scale go forward engagements. Organize complex, ambiguous problems into prioritized milestones, deliverables, and success criteria for engagements, translating business objectives into execution strategy (tactical and strategic). Help manage risks, dependencies and escalate impediments, as well as releases and navigating AI release requirements. Establish and Maintain Product & Engineering Partnerships + Feedback Loops Serve as central liaison between Strategic Partnerships, Applied AI FDE, Product, Engineering, Experience (UI/UX) and supporting orgs. Define and operationalize a structured model for engaging Strategic partnership team and broader APEX org. Work with Strategic Partnership leaders to translate engagement insights and patterns into actionable product feedback, influencing and tracking engagement to platform innovation progress. Develop standardized intake templates, RACIs, and collaboration playbooks. Drive Build Scale & Repeatability Capture lessons from early engagements (Phase 0 setup through rollout) and codify best practices. Implement tools, dashboards, and automation to streamline delivery and accelerate engagement impact and velocity. Drive process improvements and create documentation to promote best practices using automation to replace repeatable, operational tasks. Create Communication, Visibility & Governance Structure Centralize and manage all Strategic Partnerships documentation, resources, and operational structure. Coordinate cross-functional teams to ensure clarity and execution. Establish consistent reporting cadence for engagement status, metrics, and risks. Create executive-ready dashboards and summaries for leadership visibility. Drive internal storytelling on product adoption, innovation velocity, and customer value. Reinforce transparency, learning, and disciplined scale across the program. Seek to continuously grow by proactively seeking and embracing constructive feedback, as well as provide feedback to colleagues to encourage an open and collaborative culture. Preferred Qualifications: 10+ years of portfolio/program management experience in mid/large-size software development companies. A solid understanding of SDLC and release management practices in cloud-based SaaS product organizations. Prior work delivering AI or intelligent workflow solutions at scale, with proven success in deploying AI solutions that delivered tangible customer impact. Familiarity with AI governance, compliance, and enterprise security practices. Up to 25% travel required (Customer Onsite). Preferred Qualifications: Demonstrated competence in key AI/ML software engineering program management best practices: program planning, schedule construction and management; risk assessment & mitigation, dependency management, change management, and predictive metrics. Outstanding collaboration and communication skills - clearly communicate changes, requests, and deadlines to the teams and risks, status, progress, and decisions to a variety of audiences including executives. Passion for working with people in technical and innovative environments, with the ability to work well with many different types of personalities in various functions. Strong leadership and relationship building skills to influence and motivate without authority - masterful in the art of bringing people together. Strong facilitation skills to lead/drive a variety of build events, with a high regard for quality, drive for continuous improvement across the organization, and ability to keep the big picture in view. Experience deploying AI solutions to production and skilled at identifying waste/delays in AI end-to-end development, deployment, and release processes is a plus. Exceptional team building and team management skills, including interpersonal skills, conflict resolution, and negotiation. Experience in leveraging or critically thinking about how to integrate AI into work processes, decision-making, or problem-solving. For positions in this location, we offer a base pay of $221-200 - $387,100, plus equity (when applicable), variable/incentive compensation and benefits. Sales positions generally offer a competitive On Target Earnings (OTE) incentive compensation structure. Please note that the base pay shown is a guideline, and individual total compensation will vary based on factors such as qualifications, skill level, competencies, and work location. We also offer health plans, including flexible spending accounts, a 401(k) Plan with company match, ESPP, matching donations, a flexible time away plan and family leave programs. Compensation is based on the geographic location in which the role is located and is subject to change based on work location. Work Personas We approach our distributed world of work with flexibility and trust. Work personas (flexible, remote, or required in office) are categories that are assigned to ServiceNow employees depending on the nature of their work and their assigned work location. Learn more here . To determine eligibility for a work persona, ServiceNow may confirm the distance between your primary residence and the closest ServiceNow office using a third-party service. Equal Opportunity Employer ServiceNow is an equal opportunity employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, national origin, age, disability, gender identity, veteran status, or any other category protected by law. In addition, all qualified applicants with arrest or conviction records will be considered for employment in accordance with legal requirements. Accommodations We strive to create an accessible and inclusive experience for all candidates. If you require a reasonable accommodation to complete any part of the application process, or are unable to use this online application and need an alternative method to apply, please contact globaltalentss@servicenow.com for assistance. Export Control Regulations For positions requiring access to controlled technology subject to export control regulations, including the U.S. Export Administration Regulations (EAR), ServiceNow may be required to obtain export control approval from government authorities for certain individuals. All employment is contingent upon ServiceNow obtaining any export license or other approval that may be required by relevant export control authorities. From Fortune. ©2026 Fortune Media IP Limited. All rights reserved. Used under license.",
+      "linkedin_url": "",
+      "focus_matches": [
+        "Operations"
+      ],
+      "focus_evidence": {
+        "Operations": " of build events, with a high regard for quality, drive for continuous improvement across the organization, and ability to keep the big picture in view. Experience deploying AI solut"
+      },
+      "work_mode": "Not specified",
+      "work_mode_evidence": "The reviewed official source does not confirm the work arrangement for this role.",
+      "match": 55,
+      "matched_skills": [
+        "Operations"
+      ]
+    },
+    {
+      "id": "greenhouse:twitch:8918684002",
+      "company": "Twitch",
+      "title": "Sr. Program Manager, Accessibility",
+      "location": "San Francisco, CA",
+      "salary": "USD 129,500-175,100 (US, WA, Seattle - Annually); USD 142,400-192,600 (US, CA, San Francisco - Annually); USD 142,400-192,600 (US, NY, New York - Annually); USD 129,500-175,100 (US, CA, Los Angeles - Annually); USD 129,500-175,100 (US, CA, Irvine - Annually)",
+      "official_url": "https://job-boards.greenhouse.io/twitch/jobs/8918684002",
+      "posted": "2026-10-27T11:36:48-04:00",
+      "date_evidence": "Greenhouse.first_published",
+      "evidence_url": "https://boards-api.greenhouse.io/v1/boards/twitch/jobs/8918684002?pay_transparency=true",
+      "description": "<h3><strong>About Us</strong></h3> <p>Twitch is the world’s biggest live streaming service, with global communities built around gaming, entertainment, music, sports, cooking, and more. It is where thousands of communities come together for whatever, every day.</p> <p>We’re about community, inside and out. You’ll find coworkers who are eager to team up, collaborate, and smash (or elegantly solve) problems together. We’re on a quest to empower live communities, so if this sounds good to you, see what we’re up to on <a class=\"c-link\" href=\"https://link.twitch.tv/TwitchLinkedinJD\" target=\"_blank\" data-stringify-link=\"https://link.twitch.tv/TwitchLinkedinJD\" data-sk=\"tooltip_parent\">LinkedIn</a>&nbsp;and&nbsp;<a class=\"c-link\" href=\"https://link.twitch.tv/TwitchTwitterJD\" target=\"_blank\" data-stringify-link=\"https://link.twitch.tv/TwitchTwitterJD\" data-sk=\"tooltip_parent\">X</a>,&nbsp; and discover the projects we’re solving on our&nbsp;<a class=\"c-link\" href=\"https://link.twitch.tv/TwitchBlogJD\" target=\"_blank\" data-stringify-link=\"https://link.twitch.tv/TwitchBlogJD\" data-sk=\"tooltip_parent\">Blog</a>. Be sure to explore our&nbsp;<a class=\"c-link\" href=\"https://link.twitch.tv/TwitchInterviewingJD\" target=\"_blank\" data-stringify-link=\"https://link.twitch.tv/TwitchInterviewingJD\" data-sk=\"tooltip_parent\">Interviewing Guide</a>&nbsp;to learn how to ace our interview process.</p> <h3><strong>About the Role</strong></h3> <p>As the Senior Program Manager, Accessibility at Twitch, you will have a broad impact across all of Twitch and our Community.&nbsp; Reporting into the VP of UX,&nbsp; you will join our Design team where you will own the program design, education and enablement, and the auditing and testing output. We will look to you to execute the vision of how Twitch will be a welcome home for all regardless of abilities. You will partner with product, design, engineering, and legal to solve accessibility problems at scale and provide strategic solutions.&nbsp;</p> <p>You can work from Twitch’s headquarters in San Francisco, CA; or from one of our hub locations in Seattle, WA; Los Angeles, CA; Irvine, CA; or New York City, NY - with West Coast (PST) working hours.</p> <h3><strong>You Will:</strong></h3> <ul> <li><strong>Strategy &amp; SME:</strong> Serve as the subject-matter expert for global digital accessibility across Twitch - advising product and partner teams, and leading process and tooling integration (including AI where appropriate).</li> <li><strong>Operations &amp; Backlog:</strong> Own intake, backlog, and operational management - partnering with engineering, product, and design leaders to prioritize and drive core accessibility issues, with regular communications and reporting.</li> <li><strong>QA &amp; Testing:</strong> Lead QA execution and manage QA specialists and third-party vendors; partner with engineers to build automated accessibility testing into CI/CD pipelines, shifting testing earlier in the development lifecycle.</li> <li><strong>High-impact programs:</strong> Work with engineers, designers, product managers, and researchers to identify and deliver high-impact changes and programs across all products.</li> <li><strong>Partnerships: </strong>Collaborate with accessibility partners (legal, research, policy, communications) on benchmarking, goal-setting, reporting, and execution.</li> <li><strong>Education &amp; Enablement: </strong>Develop an educational program and deploy guidelines and resources for key collaborators.</li> </ul> <h3><strong>You Have:</strong></h3> <ul> <li>You have 6+ years experience building similar Accessibility programs, QA and other scalable Accessibility Practices.</li> <li>Expertise in accessibility best practices, guidelines, and regulations—specifically WCAG 2.2+ AA and the CVAA; ability to advise the executive team on risk assessment.</li> <li>You have experience creating and leading an accessibility program from ground up including creating, documenting, proactive management and driving deliverables.</li> <li>Experience working with and consulting product, design, engineering, and legal teams to deliver accessibility audits, code reviews and other advisory services.</li> <li>Experience working on consumer product accessibility both on video and communications products and across a variety of devices, such as desktop, smartphone, gaming console, and OTT services.</li> <li>Awareness of assistive technologies available to people with disabilities.</li> <li>Experience with Figma, Jira and similar relevant product development tools.</li> </ul> <h3><strong>Bonus Points</strong></h3> <ul> <li>Understanding of and familiarity with AI tooling and test automations for Accessibility</li> <li>Familiarity with Twitch as a user, streamer, or both!</li> </ul> <h3><strong>Perks</strong></h3> <ul> <li>Medical, Dental, Vision &amp; Disability Insurance</li> <li>401(k)</li> <li>Maternity &amp; Parental Leave</li> <li>Flexible PTO</li> <li>Amazon Employee Discount</li> </ul> <p><em>&nbsp;</em></p> <p><em>Pursuant to the San Francisco Fair Chance Ordinance, we will consider for employment qualified applicants with arrest and conviction records.</em>&nbsp;</p> <p><em>Pursuant to the Los Angeles Fair Chance Ordinance, we will consider for employment qualified applicants with arrest and conviction records.&nbsp;</em></p> <p>Job ID: TW9313</p><div class=\"content-pay-transparency\"><div class=\"pay-input\"><div class=\"description\"><p>The base salary range for this position is listed below. Your Amazon package will include sign-on payments and restricted stock units (RSUs). Final compensation will be determined based on factors including experience, qualifications, and location. Amazon also offers comprehensive benefits including health insurance (medical, dental, vision, prescription, Basic Life &amp; AD&amp;D insurance and option for Supplemental life plans, EAP, Mental Health Support, Medical Advice Line, Flexible Spending Accounts, Adoption and Surrogacy Reimbursement coverage), 401(k) matching, paid time off, and parental leave. Learn more about our benefits at <a href=\"https://amazon.jobs/en/benefits\">https://amazon.jobs/en/benefits</a>.</p></div><div class=\"title\">US, WA, Seattle - Annually</div><div class=\"pay-range\"><span>$129,500</span><span class=\"divider\">&mdash;</span><span>$175,100 USD</span></div></div><div class=\"pay-input\"><div class=\"title\">US, CA, San Francisco - Annually</div><div class=\"pay-range\"><span>$142,400</span><span class=\"divider\">&mdash;</span><span>$192,600 USD</span></div></div><div class=\"pay-input\"><div class=\"title\">US, NY, New York - Annually</div><div class=\"pay-range\"><span>$142,400</span><span class=\"divider\">&mdash;</span><span>$192,600 USD</span></div></div><div class=\"pay-input\"><div class=\"title\">US, CA, Los Angeles - Annually</div><div class=\"pay-range\"><span>$129,500</span><span class=\"divider\">&mdash;</span><span>$175,100 USD</span></div></div><div class=\"pay-input\"><div class=\"title\">US, CA, Irvine - Annually</div><div class=\"pay-range\"><span>$129,500</span><span class=\"divider\">&mdash;</span><span>$175,100 USD</span></div></div></div><div class=\"content-conclusion\"><p><em>Twitch is an equal opportunity employer and does not discriminate on the basis of protected veteran status, disability, or other legally protected status.</em></p> <p><em>Twitch values your privacy. Please consult our <a href=\"https://www.twitch.tv/jobs/en/legal/privacy-notice/\" target=\"_blank\">Candidate Privacy Notice</a>, for information about how we collect, use, and disclose personal information of our candidates.</em></p></div>",
+      "linkedin_url": "",
+      "focus_matches": [
+        "Operations"
+      ],
+      "focus_evidence": {
+        "Operations": "s and tooling integration (including AI where appropriate). Operations & Backlog: Own intake, backlog, and operational management - partnering with engineering, product, "
+      },
+      "work_mode": "Not specified",
+      "work_mode_evidence": "The reviewed official source does not confirm the work arrangement for this role.",
+      "match": 55,
+      "matched_skills": [
+        "Operations"
+      ]
+    },
+    {
+      "id": "greenhouse:twitch:8918709002",
+      "company": "Twitch",
+      "title": "Sr. Program Manager, Accessibility",
+      "location": "Los Angeles, CA",
+      "salary": "USD 129,500-175,100 (US, WA, Seattle - Annually); USD 142,400-192,600 (US, CA, San Francisco - Annually); USD 142,400-192,600 (US, NY, New York - Annually); USD 129,500-175,100 (US, CA, Los Angeles - Annually); USD 129,500-175,100 (US, CA, Irvine - Annually)",
+      "official_url": "https://job-boards.greenhouse.io/twitch/jobs/8918709002",
+      "posted": "2026-10-27T11:36:46-04:00",
+      "date_evidence": "Greenhouse.first_published",
+      "evidence_url": "https://boards-api.greenhouse.io/v1/boards/twitch/jobs/8918709002?pay_transparency=true",
+      "description": "<h3><strong>About Us</strong></h3> <p>Twitch is the world’s biggest live streaming service, with global communities built around gaming, entertainment, music, sports, cooking, and more. It is where thousands of communities come together for whatever, every day.</p> <p>We’re about community, inside and out. You’ll find coworkers who are eager to team up, collaborate, and smash (or elegantly solve) problems together. We’re on a quest to empower live communities, so if this sounds good to you, see what we’re up to on <a class=\"c-link\" href=\"https://link.twitch.tv/TwitchLinkedinJD\" target=\"_blank\" data-stringify-link=\"https://link.twitch.tv/TwitchLinkedinJD\" data-sk=\"tooltip_parent\">LinkedIn</a>&nbsp;and&nbsp;<a class=\"c-link\" href=\"https://link.twitch.tv/TwitchTwitterJD\" target=\"_blank\" data-stringify-link=\"https://link.twitch.tv/TwitchTwitterJD\" data-sk=\"tooltip_parent\">X</a>,&nbsp; and discover the projects we’re solving on our&nbsp;<a class=\"c-link\" href=\"https://link.twitch.tv/TwitchBlogJD\" target=\"_blank\" data-stringify-link=\"https://link.twitch.tv/TwitchBlogJD\" data-sk=\"tooltip_parent\">Blog</a>. Be sure to explore our&nbsp;<a class=\"c-link\" href=\"https://link.twitch.tv/TwitchInterviewingJD\" target=\"_blank\" data-stringify-link=\"https://link.twitch.tv/TwitchInterviewingJD\" data-sk=\"tooltip_parent\">Interviewing Guide</a>&nbsp;to learn how to ace our interview process.</p> <h3><strong>About the Role</strong></h3> <p>As the Senior Program Manager, Accessibility at Twitch, you will have a broad impact across all of Twitch and our Community.&nbsp; Reporting into the VP of UX,&nbsp; you will join our Design team where you will own the program design, education and enablement, and the auditing and testing output. We will look to you to execute the vision of how Twitch will be a welcome home for all regardless of abilities. You will partner with product, design, engineering, and legal to solve accessibility problems at scale and provide strategic solutions.&nbsp;</p> <p>You can work from Twitch’s headquarters in San Francisco, CA; or from one of our hub locations in Seattle, WA; Los Angeles, CA; Irvine, CA; or New York City, NY - with West Coast (PST) working hours.</p> <h3><strong>You Will:</strong></h3> <ul> <li><strong>Strategy &amp; SME:</strong> Serve as the subject-matter expert for global digital accessibility across Twitch - advising product and partner teams, and leading process and tooling integration (including AI where appropriate).</li> <li><strong>Operations &amp; Backlog:</strong> Own intake, backlog, and operational management - partnering with engineering, product, and design leaders to prioritize and drive core accessibility issues, with regular communications and reporting.</li> <li><strong>QA &amp; Testing:</strong> Lead QA execution and manage QA specialists and third-party vendors; partner with engineers to build automated accessibility testing into CI/CD pipelines, shifting testing earlier in the development lifecycle.</li> <li><strong>High-impact programs:</strong> Work with engineers, designers, product managers, and researchers to identify and deliver high-impact changes and programs across all products.</li> <li><strong>Partnerships: </strong>Collaborate with accessibility partners (legal, research, policy, communications) on benchmarking, goal-setting, reporting, and execution.</li> <li><strong>Education &amp; Enablement: </strong>Develop an educational program and deploy guidelines and resources for key collaborators.</li> </ul> <h3><strong>You Have:</strong></h3> <ul> <li>You have 6+ years experience building similar Accessibility programs, QA and other scalable Accessibility Practices.</li> <li>Expertise in accessibility best practices, guidelines, and regulations—specifically WCAG 2.2+ AA and the CVAA; ability to advise the executive team on risk assessment.</li> <li>You have experience creating and leading an accessibility program from ground up including creating, documenting, proactive management and driving deliverables.</li> <li>Experience working with and consulting product, design, engineering, and legal teams to deliver accessibility audits, code reviews and other advisory services.</li> <li>Experience working on consumer product accessibility both on video and communications products and across a variety of devices, such as desktop, smartphone, gaming console, and OTT services.</li> <li>Awareness of assistive technologies available to people with disabilities.</li> <li>Experience with Figma, Jira and similar relevant product development tools.</li> </ul> <h3><strong>Bonus Points</strong></h3> <ul> <li>Understanding of and familiarity with AI tooling and test automations for Accessibility</li> <li>Familiarity with Twitch as a user, streamer, or both!</li> </ul> <h3><strong>Perks</strong></h3> <ul> <li>Medical, Dental, Vision &amp; Disability Insurance</li> <li>401(k)</li> <li>Maternity &amp; Parental Leave</li> <li>Flexible PTO</li> <li>Amazon Employee Discount</li> </ul> <p><em>&nbsp;</em></p> <p><em>Pursuant to the San Francisco Fair Chance Ordinance, we will consider for employment qualified applicants with arrest and conviction records.</em>&nbsp;</p> <p><em>Pursuant to the Los Angeles Fair Chance Ordinance, we will consider for employment qualified applicants with arrest and conviction records.&nbsp;</em></p> <p>Job ID: TW9313</p><div class=\"content-pay-transparency\"><div class=\"pay-input\"><div class=\"description\"><p>The base salary range for this position is listed below. Your Amazon package will include sign-on payments and restricted stock units (RSUs). Final compensation will be determined based on factors including experience, qualifications, and location. Amazon also offers comprehensive benefits including health insurance (medical, dental, vision, prescription, Basic Life &amp; AD&amp;D insurance and option for Supplemental life plans, EAP, Mental Health Support, Medical Advice Line, Flexible Spending Accounts, Adoption and Surrogacy Reimbursement coverage), 401(k) matching, paid time off, and parental leave. Learn more about our benefits at <a href=\"https://amazon.jobs/en/benefits\">https://amazon.jobs/en/benefits</a>.</p></div><div class=\"title\">US, WA, Seattle - Annually</div><div class=\"pay-range\"><span>$129,500</span><span class=\"divider\">&mdash;</span><span>$175,100 USD</span></div></div><div class=\"pay-input\"><div class=\"title\">US, CA, San Francisco - Annually</div><div class=\"pay-range\"><span>$142,400</span><span class=\"divider\">&mdash;</span><span>$192,600 USD</span></div></div><div class=\"pay-input\"><div class=\"title\">US, NY, New York - Annually</div><div class=\"pay-range\"><span>$142,400</span><span class=\"divider\">&mdash;</span><span>$192,600 USD</span></div></div><div class=\"pay-input\"><div class=\"title\">US, CA, Los Angeles - Annually</div><div class=\"pay-range\"><span>$129,500</span><span class=\"divider\">&mdash;</span><span>$175,100 USD</span></div></div><div class=\"pay-input\"><div class=\"title\">US, CA, Irvine - Annually</div><div class=\"pay-range\"><span>$129,500</span><span class=\"divider\">&mdash;</span><span>$175,100 USD</span></div></div></div><div class=\"content-conclusion\"><p><em>Twitch is an equal opportunity employer and does not discriminate on the basis of protected veteran status, disability, or other legally protected status.</em></p> <p><em>Twitch values your privacy. Please consult our <a href=\"https://www.twitch.tv/jobs/en/legal/privacy-notice/\" target=\"_blank\">Candidate Privacy Notice</a>, for information about how we collect, use, and disclose personal information of our candidates.</em></p></div>",
+      "linkedin_url": "",
+      "focus_matches": [
+        "Operations"
+      ],
+      "focus_evidence": {
+        "Operations": "s and tooling integration (including AI where appropriate). Operations & Backlog: Own intake, backlog, and operational management - partnering with engineering, product, "
+      },
+      "work_mode": "Not specified",
+      "work_mode_evidence": "The reviewed official source does not confirm the work arrangement for this role.",
+      "match": 55,
+      "matched_skills": [
+        "Operations"
+      ]
+    },
+    {
+      "id": "smartrecruiters:AECOM2:744000158134688",
+      "company": "AECOM",
+      "title": "Express Lanes and Ramp Signaling Operations Program Manager",
+      "location": "Miami, FL, us",
+      "salary": "Not disclosed",
+      "official_url": "https://jobs.smartrecruiters.com/AECOM2/744000158134688-express-lanes-and-ramp-signaling-operations-program-manager",
+      "posted": "2026-10-27T19:24:13.031Z",
+      "date_evidence": "SmartRecruiters.releasedDate (release; may be a repost)",
+      "evidence_url": "https://api.smartrecruiters.com/v1/companies/AECOM2/postings/744000158134688",
+      "description": "Work with Us. Change the World. At AECOM, we're delivering a better world. Whether improving your commute, keeping the lights on, providing access to clean water, or transforming skylines, our work helps people and communities thrive. We are the world's trusted infrastructure consulting firm, partnering with clients to solve the world’s most complex challenges and build legacies for future generations. There has never been a better time to be at AECOM. With accelerating infrastructure investment worldwide, our services are in great demand. We invite you to bring your bold ideas and big dreams and become part of a global team of over 50,000 planners, designers, engineers, scientists, digital innovators, program and construction managers and other professionals delivering projects that create a positive and tangible impact around the world. We're one global team driven by our common purpose to deliver a better world. Join us. Express Lanes and Ramp Signaling Operations Program Manager AECOM is seeking an Express Lanes and Ramp Signaling Operations Program Manager for the SunGuide Transportation Management Center (TMC) in Miami, Florida. The SunGuide TMC is part of the Transportation Systems Management and Operations (TSM&O) Office at the Florida Department of Transportation (FDOT) District Six. The TSM&O Office is a dynamic, exciting, program within FDOT to operate and maintain the intelligent transportation systems (ITS) infrastructure, utilize its incident management resources, and optimize traffic management strategies. District Six covers Miami-Dade and Monroe Counties. The Express Lanes and Ramp Signaling Operations Program Manager’s responsibilities include overseeing the express lanes and ramp signaling programs. District Six operates and maintains 95 Express, Palmetto Express, and 75 Express. District Six also operates and maintains 22 ramp signals along I-95 and will soon add 19 ramp signals along S.R. 826/Palmetto Expressway. This is a full-time on-site position in Miami, Florida. The Express Lanes and Ramp Signaling Operations Program Manager shall be responsible, but not limited to, the following tasks and duties. Managing and overseeing EL and RS operations. Monitoring EL and RS operational performance to ensure services achieve required objectives and performance outcomes. Evaluating and analyzing EL and RS project related performance metrics and trends. Developing and implementing operational recommendations and corrective actions to prevent or mitigate degradation of EL and RS performance measures. Conducting EL and RS operational analyses, including assessment of system performance and field conditions, as applicable. Providing EL and RS project related data and information to internal and external stakeholders. Coordinating and supporting testing for all EL and RS software, hardware, and firmware upgrades/changes. Reviewing and updating EL and RS operational parameters including but not limited to: Express Lanes Time of Day, Level of Service, and Traffic Density Delta tables. Ramp Signaling Central and Local Time of Day tables. Ramp Signaling minimum and maximum metering rates. Reviewing and commenting on plans submitted to the TSM&O Office by other entities, including but not limited to other FDOT Offices or partner agencies. Attending meetings related to plan reviews. Conducting peer reviews for studies or technical reports developed by other units within FDOT. Representing the Department in meetings, workshops, and presentations (including other Express Lanes deployments as the project lead and technical expert). Supporting EL and RS community outreach and public information activities, as requested by the Department. Minimum: BA/BS degree in a STEM discipline (science, technology, engineering, or mathematics) and six (6) years of experience working in an operations role within a TMC or similar transportation operations facility or demonstrated equivalency of experience and/or education. Experience in team leadership, interpersonal, and organizational skills. Demonstrated experience applying core management concepts, including team supervision, prioritization of competing demands, operational decision-making, and effective execution of business objectives. Experience communicating technical information clearly to both technical and non-technical audiences, verbally and in writing. Experience in Windows-based applications and standard office technology. Expereince preparing technical reports and professional correspondence. Experience prioritizing and coordinating real-time operational activities and competing operational priorities. Experience performing effectively in a fast-paced, rapidly changing operational environment requiring proactive and reactive operational adjustments. Must pass a State and Federal criminal history/security background check. State Law Enforcement Radio System (SLERS) background check is required. Ability to work alternate work schedules and be on-call 24 hours/day. Preferred: PE licensed or on track for licensure Operational knowledge of the South Florida express lanes network. Familiarity with Florida’s Turnpike and FDOT District Four as the express lanes network is coordinated with those agencies. Operational knowledge of TMC Operations. Operational knowledge ramp signaling. Relocation is not an option for this position Sponsorship for US employment authorization is not available now or in the future for this position Ability to work alternate work schedules and be on-call 24 hours/day. At AECOM, we are committed to maintaining a secure and trustworthy recruitment process and take any fraudulent hiring activity seriously. To support this commitment, all newly hired employees are required to attend an in-person Day 1 onboarding at an AECOM office location as a condition of employment. About AECOM AECOM is proud to offer comprehensive benefits to meet the diverse needs of our employees. Depending on your employment status, AECOM benefits may include medical, dental, vision, life, AD&D, disability benefits, paid time off, leaves of absences, voluntary benefits, perks, flexible work options , well-being resources, employee assistance program, business travel insurance, service recognition awards, retirement savings plan, and employee stock purchase plan. AECOM is the global infrastructure leader, committed to delivering a better world. As a trusted professional services firm powered by deep technical abilities, we solve our clients’ complex challenges in water, environment, energy, transportation and buildings. Our teams partner with public- and private-sector clients to create innovative, sustainable and resilient solutions throughout the project lifecycle – from advisory, planning, design and engineering to program and construction management. AECOM is a Fortune 500 firm that had revenue of $16.1 billion in fiscal year 2025. Learn more at aecom.com. What makes AECOM a great place to work You will be part of a global team that champions your growth and career ambitions. Work on groundbreaking projects - both in your local community and on a global scale - that are transforming our industry and shaping the future. With cutting-edge technology and a network of experts, you’ll have the resources to make a real impact. Our award-winning training and development programs are designed to expand your technical expertise and leadership skills, helping you build the career you’ve always envisioned. Here, you’ll find a welcoming workplace built on respect, collaboration and community—where you have the freedom to grow in a world of opportunity. As an Equal Opportunity Employer, we believe in your potential and are here to help you achieve it. All your information will be kept confidential according to EEO guidelines.",
+      "linkedin_url": "",
+      "focus_matches": [
+        "Operations"
+      ],
+      "focus_evidence": {
+        "Operations": "Express Lanes and Ramp Signaling Operations Program Manager. Work with Us. Change the World. At AECOM, we're delivering a better world. Whether"
+      },
+      "work_mode": "Not specified",
+      "work_mode_evidence": "The reviewed official source does not confirm the work arrangement for this role.",
+      "match": 55,
+      "matched_skills": [
+        "Operations"
+      ]
+    },
+    {
+      "id": "smartrecruiters:AECOM2:744000158139247",
+      "company": "AECOM",
+      "title": "Mining EPCM Delivery Manager",
+      "location": "Providencia Santiago, PROVIDENCIA SANTIAGO, cl",
+      "salary": "Not disclosed",
+      "official_url": "https://jobs.smartrecruiters.com/AECOM2/744000158139247-mining-epcm-delivery-manager",
+      "posted": "2026-10-27T20:05:18.674Z",
+      "date_evidence": "SmartRecruiters.releasedDate (release; may be a repost)",
+      "evidence_url": "https://api.smartrecruiters.com/v1/companies/AECOM2/postings/744000158139247",
+      "description": "Work with Us. Change the World. At AECOM, we're delivering a better world. Whether improving your commute, keeping the lights on, providing access to clean water, or transforming skylines, our work helps people and communities thrive. We are the world's trusted infrastructure consulting firm, partnering with clients to solve the world’s most complex challenges and build legacies for future generations. There has never been a better time to be at AECOM. With accelerating infrastructure investment worldwide, our services are in great demand. We invite you to bring your bold ideas and big dreams and become part of a global team of over 50,000 planners, designers, engineers, scientists, digital innovators, program and construction managers and other professionals delivering projects that create a positive and tangible impact around the world. We're one global team driven by our common purpose to deliver a better world. Join us. AECOM is seeking an experienced EPCM Delivery Manager to join us in Santiago de Chile. You will be responsible for integrating AECOM’s multi-disciplinary engineering design teams with client project management units, global equipment vendors, and construction contractors. Acting as the core delivery liaison, you will ensure projects are delivered safely, sustainably, on schedule, and within budget while adhering to AECOM’s world-class quality and safety standards. Key Responsibilities 1. Delivery Leadership & Client Advisory Act as the primary EPCM/EPC delivery contact for major mining clients, ensuring seamless alignment between AECOM’s consulting services and client CapEx goals. Develop and execute project-specific Project Execution Plans (PEP) , contracting strategies, and risk mitigation frameworks tailored to remote mining environments. Lead cross-functional integration across engineering disciplines (civil, structural, mechanical, metallurgical, electrical), global procurement, site construction management, and environmental services. 2. Contract Administration & Package Management Oversee procurement package execution for long-lead mining and processing equipment (e.g., grinding mills, crushers, flotation cells, thickeners, and material handling systems). Drive claims mitigation, scope change logging, and variation management to protect both client and company commercial interests. 3. Field Execution & Construction Oversight Coordinate seamlessly with site-based AECOM or client Construction Managers to maintain alignment between head-office engineering deliverables and field construction schedules. Manage complex interfaces between process plant engineering, site earthworks, tailings management facilities (TMF), and off-site infrastructure (power, water, rail/port roads). 4. Digital Engineering, Project Controls & Handover Leverage AECOM’s digital delivery tools (BIM, digital twins, Aconex, Primavera P6) to monitor critical path progress, earn-value performance, and design interface conflicts. Lead pre-commissioning readiness reviews, cold/hot commissioning interface planning, and operational readiness handovers to client mining operations teams. Prepare high-level executive dashboard reports and board-level project progress updates. Minimum Requirements Bachelor’s Degree in Engineering (Mining, Metallurgical, Civil, Mechanical, or Chemical) or Construction Management from an accredited institution. Minimum of 8+ years of professional experience in project execution, project management, or procurement leadership within the mining sector. Demonstrated experience working on major CapEx mining projects ($100M+ CapEx) under both EPC and EPCM delivery models. English/Spanish proficiency. Preferred Requirements P.Eng, PE, CEng, or PMP/PRINCE2 certification highly preferred. Deep knowledge of mining infrastructure, mineral processing flowsheets, and tailings management safety frameworks (e.g., GISTM standards). Strong commercial acumen and hands-on experience administering FIDIC, NEC, or EPCM client-representative contracts. Experience with global supply chains, international equipment logistics, and site FIFO/DIDO execution. Excellent leadership, negotiation, and executive communication skills with a client-centric mindset. At AECOM, we are committed to maintaining a secure and trustworthy recruitment process and take any fraudulent hiring activity seriously. To support this commitment, all newly hired employees are required to attend an in-person Day 1 onboarding at an AECOM office location as a condition of employment. About AECOM AECOM is proud to offer comprehensive benefits to meet the diverse needs of our employees. Depending on your employment status, AECOM benefits may include medical, dental, vision, life, AD&D, disability benefits, paid time off, leaves of absences, voluntary benefits, perks, flexible work options, well-being resources, employee assistance program, business travel insurance, service recognition awards, retirement savings plan, and employee stock purchase plan. AECOM is the global infrastructure leader, committed to delivering a better world. As a trusted professional services firm powered by deep technical abilities, we solve our clients’ complex challenges in water, environment, energy, transportation and buildings. Our teams partner with public- and private-sector clients to create innovative, sustainable and resilient solutions throughout the project lifecycle – from advisory, planning, design and engineering to program and construction management. AECOM is a Fortune 500 firm that had revenue of $16.1 billion in fiscal year 2025. Learn more at aecom.com. What makes AECOM a great place to work You will be part of a global team that champions your growth and career ambitions. Work on groundbreaking projects - both in your local community and on a global scale - that are transforming our industry and shaping the future. With cutting-edge technology and a network of experts, you’ll have the resources to make a real impact. Our award-winning training and development programs are designed to expand your technical expertise and leadership skills, helping you build the career you’ve always envisioned. Here, you’ll find a welcoming workplace built on respect, collaboration and community - where you have the freedom to grow in a world of opportunity. As an Equal Opportunity Employer, we believe in your potential and are here to help you achieve it. All your information will be kept confidential according to EEO guidelines.",
+      "linkedin_url": "",
+      "focus_matches": [
+        "Operations"
+      ],
+      "focus_evidence": {
+        "Operations": "ess reviews, cold/hot commissioning interface planning, and operational readiness handovers to client mining operations teams. Prepare high-level executive dashboard reports and boa"
+      },
+      "work_mode": "Not specified",
+      "work_mode_evidence": "The reviewed official source does not confirm the work arrangement for this role.",
+      "match": 55,
+      "matched_skills": [
+        "Operations"
+      ]
+    },
+    {
+      "id": "smartrecruiters:AECOM2:744000158039549",
+      "company": "AECOM",
+      "title": "Tenant Relocation Program Manager",
+      "location": "New York, NY, us",
+      "salary": "Not disclosed",
+      "official_url": "https://jobs.smartrecruiters.com/AECOM2/744000158039549-tenant-relocation-program-manager",
+      "posted": "2026-10-27T13:02:27.281Z",
+      "date_evidence": "SmartRecruiters.releasedDate (release; may be a repost)",
+      "evidence_url": "https://api.smartrecruiters.com/v1/companies/AECOM2/postings/744000158039549",
+      "description": "Work with Us. Change the World. At AECOM, we're delivering a better world. Whether improving your commute, keeping the lights on, providing access to clean water, or transforming skylines, our work helps people and communities thrive. We are the world's trusted infrastructure consulting firm, partnering with clients to solve the world’s most complex challenges and build legacies for future generations. There has never been a better time to be at AECOM. With accelerating infrastructure investment worldwide, our services are in great demand. We invite you to bring your bold ideas and big dreams and become part of a global team of over 50,000 planners, designers, engineers, scientists, digital innovators, program and construction managers and other professionals delivering projects that create a positive and tangible impact around the world. We're one global team driven by our common purpose to deliver a better world. Join us. AECOM is seeking a Tenant Relocation Program Manager to support the Program Management Team on the AECOM / New York City Housing Authority (NYCHA) Comprehensive Modernization/ Trust program. The Relocation Manager will manage day-to-day oversight of tenant relocation activities, maintain critical trackers, support compliance with relocation requirements, and ensure alignment between NYCHA, relocation vendors, design-build teams, field staff, and internal AECOM stakeholders. This role is designed for a highly organized program coordinator, strong communicator, and problem-solver with experience in tenant relocation, housing programs, or large public-sector initiatives. This role offers a strong leadership-track opportunity for a mid-career professional. Key Responsibilities: Establish procedures, gather data, develop legal/policy frameworks, and ensure readiness of vacant units. Develop and coordinate procedures for managing relocations, including legal and policy documents (e.g., Temporary Relocation License Agreement, resident notices such as the Notice of Non-displacement). Review and coordinate reviews of resident plans, guides, and notices with COO’s division, ATAD, Legal, Resident Services Department (RSD) and other stakeholders. Review all resident communication materials related to relocation. Forecast and manage inventory of vacant apartments (on-site and off-site). Reviews project scopes to understand the relocation needs and effectively communicate and manage for those needs. Support bi-weekly meetings with Operations to track preparation of vacant units. Establish workflows defining roles/responsibilities for moving residents to temporary housing. Lead line-by-line lease compliance and property management reviews before and after contract award. Oversee the matching process post-award, ensuring collaboration across departments to resolve tenant issues and optimize placements. Coordinate access and facilitate training for design-builder use of NYCHA’s resident management system. Ensure design-builder is using the resident management system as required. Coordinate bi-weekly stakeholder meetings to monitor progress. Collaborate with teams to resolve challenges and streamline relocation processes. Requires regular site visits and attendance of evening and weekend project meetings in all five boroughs of NYC. Minimum Requirements: BA/BS plus four years of relevant experience or demonstrated equivalency of experience and/or education Preferred Requirements: NY/ NJ Agency experience Familiarity with environmental documentation or hazardous materials processes including lead and asbestos removal and disposal. Experienced proactive project manager. Strong written and verbal communication skills as well as interpersonal skills. Highly organized. Ability to coordinate across multiple teams in a fast-paced program environment. Ability to handle sensitive information with discretion. Ability to act independently, work collaboratively, make informed decisions, and manage one’s own time. Sponsorship for US employment authorization is not available now or in the future for this position. Relocation is not available for this position. Regular workday on Monday, Wednesday and Friday, will be at the NYCHA office located at 90 Church Street, New York, NY. Remote workdays will be Tuesday and Thursday. THIS POSTING IS FOR A CURRENT VACANCY, AND AECOM INTENDS TO FILL THIS POSITION NO SOONER THAN AUGUST 29, 2027. At AECOM, we are committed to maintaining a secure and trustworthy recruitment process and take any fraudulent hiring activity seriously. To support this commitment, all newly hired employees are required to attend an in-person Day 1 onboarding at an AECOM office location as a condition of employment. About AECOM AECOM is proud to offer comprehensive benefits to meet the diverse needs of our employees. Depending on your employment status, AECOM benefits may include medical, dental, vision, life, AD&D, disability benefits, paid time off, leaves of absences, voluntary benefits, perks, flexible work options , well-being resources, employee assistance program, business travel insurance, service recognition awards, retirement savings plan, and employee stock purchase plan. AECOM is the global infrastructure leader, committed to delivering a better world. As a trusted professional services firm powered by deep technical abilities, we solve our clients’ complex challenges in water, environment, energy, transportation and buildings. Our teams partner with public- and private-sector clients to create innovative, sustainable and resilient solutions throughout the project lifecycle – from advisory, planning, design and engineering to program and construction management. AECOM is a Fortune 500 firm that had revenue of $16.1 billion in fiscal year 2025. Learn more at aecom.com. What makes AECOM a great place to work You will be part of a global team that champions your growth and career ambitions. Work on groundbreaking projects - both in your local community and on a global scale - that are transforming our industry and shaping the future. With cutting-edge technology and a network of experts, you’ll have the resources to make a real impact. Our award-winning training and development programs are designed to expand your technical expertise and leadership skills, helping you build the career you’ve always envisioned. Here, you’ll find a welcoming workplace built on respect, collaboration and community—where you have the freedom to grow in a world of opportunity. As an Equal Opportunity Employer, we believe in your potential and are here to help you achieve it. All your information will be kept confidential according to EEO guidelines.",
+      "linkedin_url": "",
+      "focus_matches": [
+        "Operations"
+      ],
+      "focus_evidence": {
+        "Operations": "and manage for those needs. Support bi-weekly meetings with Operations to track preparation of vacant units. Establish workflows defining roles/responsibilities for movin"
+      },
+      "work_mode": "Not specified",
+      "work_mode_evidence": "The reviewed official source does not confirm the work arrangement for this role.",
+      "match": 55,
+      "matched_skills": [
+        "Operations"
+      ]
+    },
+    {
+      "id": "greenhouse:twitch:8918711002",
+      "company": "Twitch",
+      "title": "Sr. Program Manager, Accessibility",
+      "location": "New York City",
+      "salary": "USD 129,500-175,100 (US, WA, Seattle - Annually); USD 142,400-192,600 (US, CA, San Francisco - Annually); USD 142,400-192,600 (US, NY, New York - Annually); USD 129,500-175,100 (US, CA, Los Angeles - Annually); USD 129,500-175,100 (US, CA, Irvine - Annually)",
+      "official_url": "https://job-boards.greenhouse.io/twitch/jobs/8918711002",
+      "posted": "2026-10-27T11:36:42-04:00",
+      "date_evidence": "Greenhouse.first_published",
+      "evidence_url": "https://boards-api.greenhouse.io/v1/boards/twitch/jobs/8918711002?pay_transparency=true",
+      "description": "<h3><strong>About Us</strong></h3> <p>Twitch is the world’s biggest live streaming service, with global communities built around gaming, entertainment, music, sports, cooking, and more. It is where thousands of communities come together for whatever, every day.</p> <p>We’re about community, inside and out. You’ll find coworkers who are eager to team up, collaborate, and smash (or elegantly solve) problems together. We’re on a quest to empower live communities, so if this sounds good to you, see what we’re up to on <a class=\"c-link\" href=\"https://link.twitch.tv/TwitchLinkedinJD\" target=\"_blank\" data-stringify-link=\"https://link.twitch.tv/TwitchLinkedinJD\" data-sk=\"tooltip_parent\">LinkedIn</a>&nbsp;and&nbsp;<a class=\"c-link\" href=\"https://link.twitch.tv/TwitchTwitterJD\" target=\"_blank\" data-stringify-link=\"https://link.twitch.tv/TwitchTwitterJD\" data-sk=\"tooltip_parent\">X</a>,&nbsp; and discover the projects we’re solving on our&nbsp;<a class=\"c-link\" href=\"https://link.twitch.tv/TwitchBlogJD\" target=\"_blank\" data-stringify-link=\"https://link.twitch.tv/TwitchBlogJD\" data-sk=\"tooltip_parent\">Blog</a>. Be sure to explore our&nbsp;<a class=\"c-link\" href=\"https://link.twitch.tv/TwitchInterviewingJD\" target=\"_blank\" data-stringify-link=\"https://link.twitch.tv/TwitchInterviewingJD\" data-sk=\"tooltip_parent\">Interviewing Guide</a>&nbsp;to learn how to ace our interview process.</p> <h3><strong>About the Role</strong></h3> <p>As the Senior Program Manager, Accessibility at Twitch, you will have a broad impact across all of Twitch and our Community.&nbsp; Reporting into the VP of UX,&nbsp; you will join our Design team where you will own the program design, education and enablement, and the auditing and testing output. We will look to you to execute the vision of how Twitch will be a welcome home for all regardless of abilities. You will partner with product, design, engineering, and legal to solve accessibility problems at scale and provide strategic solutions.&nbsp;</p> <p>You can work from Twitch’s headquarters in San Francisco, CA; or from one of our hub locations in Seattle, WA; Los Angeles, CA; Irvine, CA; or New York City, NY - with West Coast (PST) working hours.</p> <h3><strong>You Will:</strong></h3> <ul> <li><strong>Strategy &amp; SME:</strong> Serve as the subject-matter expert for global digital accessibility across Twitch - advising product and partner teams, and leading process and tooling integration (including AI where appropriate).</li> <li><strong>Operations &amp; Backlog:</strong> Own intake, backlog, and operational management - partnering with engineering, product, and design leaders to prioritize and drive core accessibility issues, with regular communications and reporting.</li> <li><strong>QA &amp; Testing:</strong> Lead QA execution and manage QA specialists and third-party vendors; partner with engineers to build automated accessibility testing into CI/CD pipelines, shifting testing earlier in the development lifecycle.</li> <li><strong>High-impact programs:</strong> Work with engineers, designers, product managers, and researchers to identify and deliver high-impact changes and programs across all products.</li> <li><strong>Partnerships: </strong>Collaborate with accessibility partners (legal, research, policy, communications) on benchmarking, goal-setting, reporting, and execution.</li> <li><strong>Education &amp; Enablement: </strong>Develop an educational program and deploy guidelines and resources for key collaborators.</li> </ul> <h3><strong>You Have:</strong></h3> <ul> <li>You have 6+ years experience building similar Accessibility programs, QA and other scalable Accessibility Practices.</li> <li>Expertise in accessibility best practices, guidelines, and regulations—specifically WCAG 2.2+ AA and the CVAA; ability to advise the executive team on risk assessment.</li> <li>You have experience creating and leading an accessibility program from ground up including creating, documenting, proactive management and driving deliverables.</li> <li>Experience working with and consulting product, design, engineering, and legal teams to deliver accessibility audits, code reviews and other advisory services.</li> <li>Experience working on consumer product accessibility both on video and communications products and across a variety of devices, such as desktop, smartphone, gaming console, and OTT services.</li> <li>Awareness of assistive technologies available to people with disabilities.</li> <li>Experience with Figma, Jira and similar relevant product development tools.</li> </ul> <h3><strong>Bonus Points</strong></h3> <ul> <li>Understanding of and familiarity with AI tooling and test automations for Accessibility</li> <li>Familiarity with Twitch as a user, streamer, or both!</li> </ul> <h3><strong>Perks</strong></h3> <ul> <li>Medical, Dental, Vision &amp; Disability Insurance</li> <li>401(k)</li> <li>Maternity &amp; Parental Leave</li> <li>Flexible PTO</li> <li>Amazon Employee Discount</li> </ul> <p><em>&nbsp;</em></p> <p><em>Pursuant to the San Francisco Fair Chance Ordinance, we will consider for employment qualified applicants with arrest and conviction records.</em>&nbsp;</p> <p><em>Pursuant to the Los Angeles Fair Chance Ordinance, we will consider for employment qualified applicants with arrest and conviction records.&nbsp;</em></p> <p>Job ID: TW9313</p><div class=\"content-pay-transparency\"><div class=\"pay-input\"><div class=\"description\"><p>The base salary range for this position is listed below. Your Amazon package will include sign-on payments and restricted stock units (RSUs). Final compensation will be determined based on factors including experience, qualifications, and location. Amazon also offers comprehensive benefits including health insurance (medical, dental, vision, prescription, Basic Life &amp; AD&amp;D insurance and option for Supplemental life plans, EAP, Mental Health Support, Medical Advice Line, Flexible Spending Accounts, Adoption and Surrogacy Reimbursement coverage), 401(k) matching, paid time off, and parental leave. Learn more about our benefits at <a href=\"https://amazon.jobs/en/benefits\">https://amazon.jobs/en/benefits</a>.</p></div><div class=\"title\">US, WA, Seattle - Annually</div><div class=\"pay-range\"><span>$129,500</span><span class=\"divider\">&mdash;</span><span>$175,100 USD</span></div></div><div class=\"pay-input\"><div class=\"title\">US, CA, San Francisco - Annually</div><div class=\"pay-range\"><span>$142,400</span><span class=\"divider\">&mdash;</span><span>$192,600 USD</span></div></div><div class=\"pay-input\"><div class=\"title\">US, NY, New York - Annually</div><div class=\"pay-range\"><span>$142,400</span><span class=\"divider\">&mdash;</span><span>$192,600 USD</span></div></div><div class=\"pay-input\"><div class=\"title\">US, CA, Los Angeles - Annually</div><div class=\"pay-range\"><span>$129,500</span><span class=\"divider\">&mdash;</span><span>$175,100 USD</span></div></div><div class=\"pay-input\"><div class=\"title\">US, CA, Irvine - Annually</div><div class=\"pay-range\"><span>$129,500</span><span class=\"divider\">&mdash;</span><span>$175,100 USD</span></div></div></div><div class=\"content-conclusion\"><p><em>Twitch is an equal opportunity employer and does not discriminate on the basis of protected veteran status, disability, or other legally protected status.</em></p> <p><em>Twitch values your privacy. Please consult our <a href=\"https://www.twitch.tv/jobs/en/legal/privacy-notice/\" target=\"_blank\">Candidate Privacy Notice</a>, for information about how we collect, use, and disclose personal information of our candidates.</em></p></div>",
+      "linkedin_url": "",
+      "focus_matches": [
+        "Operations"
+      ],
+      "focus_evidence": {
+        "Operations": "s and tooling integration (including AI where appropriate). Operations & Backlog: Own intake, backlog, and operational management - partnering with engineering, product, "
+      },
+      "work_mode": "Not specified",
+      "work_mode_evidence": "The reviewed official source does not confirm the work arrangement for this role.",
+      "match": 55,
+      "matched_skills": [
+        "Operations"
+      ]
+    }
+  ]
+}
