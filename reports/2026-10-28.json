@@ -1,0 +1,494 @@
+{
+  "date": "2026-10-28",
+  "verified_at": "2026-10-28T17:40:22.792550-07:00",
+  "metrics": {
+    "reviewed": 61195,
+    "sources_ok": 275,
+    "unverified": 0,
+    "applied_excluded": 0,
+    "seen_excluded": 0,
+    "linkedin_candidates": 95,
+    "linkedin": "Public access available: 42 searches; publication dates verified only against official sources",
+    "errors": [
+      "devot: HTTPError",
+      "wiz: HTTPError",
+      "yelp: HTTPError",
+      "contentsquare: HTTPError",
+      "factorialhr: HTTPError",
+      "factorial: HTTPError",
+      "travelperk: HTTPError",
+      "jobandtalent: HTTPError",
+      "glovo: HTTPError",
+      "bookingcom: HTTPError",
+      "expediagroup: HTTPError",
+      "cimpress: HTTPError",
+      "vistaprint: HTTPError",
+      "softtek: HTTPError",
+      "agileengine: HTTPError",
+      "konfio: HTTPError",
+      "clipmx: HTTPError",
+      "kueski: HTTPError",
+      "klar: HTTPError",
+      "yalo: HTTPError",
+      "nowports: HTTPError",
+      "remitly: HTTPError",
+      "payjoy: HTTPError",
+      "tala: HTTPError",
+      "openpay: HTTPError",
+      "global66: HTTPError",
+      "habi: HTTPError",
+      "truora: HTTPError",
+      "platzi: HTTPError",
+      "clara: HTTPError",
+      "bitso: HTTPError",
+      "stori: HTTPError",
+      "mendel: HTTPError",
+      "factorial: HTTPError",
+      "lodgify: HTTPError",
+      "secretsource: HTTPError",
+      "sastrify: HTTPError",
+      "safetywing: HTTPError",
+      "jobgether: HTTPError",
+      "lemonio: HTTPError",
+      "nearsure: HTTPError",
+      "crunchyroll: HTTPError",
+      "amdocs: HTTPError",
+      "slalom: HTTPError",
+      "slalombuild: HTTPError",
+      "cprime: HTTPError",
+      "avature: HTTPError",
+      "guidewire: HTTPError",
+      "netsuite: HTTPError",
+      "eon: HTTPError",
+      "epamanywhere: HTTPError",
+      "akamai: HTTPError",
+      "thoughtmachine: HTTPError",
+      "checkoutcom: HTTPError",
+      "flywire: HTTPError",
+      "Prospanica: https://jobs.prospanica.org/home/index.cfm: HTTP Error 403: Forbidden",
+      "Lean In Latinas: No supported role links in public HTML; dynamic or member-only results may be unavailable",
+      "Welcome to the Jungle: No supported role links in public HTML; dynamic or member-only results may be unavailable",
+      "Biocom Career Hub: No supported role links in public HTML; dynamic or member-only results may be unavailable",
+      "WelbeHealth official careers: No supported role links in public HTML; dynamic or member-only results may be unavailable",
+      "thatgamecompany official careers: https://thatgamecompany.com/company/jobs/: Only public HTTPS URLs are allowed",
+      "HLPA: https://jobs.hlpa.com/employment/search.aspx: HTTP Error 406: Not Acceptable",
+      "SHPE: https://careercenter.shpe.org/: HTTP Error 403: Forbidden",
+      "Techqueria: No supported role links in public HTML; dynamic or member-only results may be unavailable",
+      "Latinx in Tech Career Center: No supported role links in public HTML; dynamic or member-only results may be unavailable",
+      "PowerToFly: No supported role links in public HTML; dynamic or member-only results may be unavailable",
+      "Women Who Design: No supported role links in public HTML; dynamic or member-only results may be unavailable",
+      "Women in Games International: No supported role links in public HTML; dynamic or member-only results may be unavailable",
+      "Y Combinator California: No supported role links in public HTML; dynamic or member-only results may be unavailable",
+      "Games Jobs Direct: https://www.gamesjobsdirect.com/search: HTTP Error 406: Not Acceptable",
+      "Bloks: No supported role links in public HTML; dynamic or member-only results may be unavailable",
+      "ASGC Games Jobs: No supported role links in public HTML; dynamic or member-only results may be unavailable",
+      "BioSpace California: https://jobs.biospace.com/california: HTTP Error 429: Too Many Requests",
+      "BioTalent: No supported role links in public HTML; dynamic or member-only results may be unavailable",
+      "Manfred Spain: No supported role links in public HTML; dynamic or member-only results may be unavailable",
+      "Jobgether: https://jobgether.com/remote-jobs/program-manager: HTTP Error 403: Forbidden"
+    ],
+    "discovery": [
+      {
+        "source": "Prospanica",
+        "category": "Latino and professional associations",
+        "pages": 0,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "https://jobs.prospanica.org/home/index.cfm: HTTP Error 403: Forbidden"
+        ]
+      },
+      {
+        "source": "HOPE - Hispanas Organized for Political Equality",
+        "category": "Latino and professional associations",
+        "pages": 1,
+        "candidates": 1,
+        "verified": 0,
+        "issues": []
+      },
+      {
+        "source": "Lean In Latinas",
+        "category": "Latino and professional associations",
+        "pages": 1,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "No supported role links in public HTML; dynamic or member-only results may be unavailable"
+        ]
+      },
+      {
+        "source": "Built In San Francisco",
+        "category": "Regional technology and startups",
+        "pages": 3,
+        "candidates": 22,
+        "verified": 0,
+        "issues": []
+      },
+      {
+        "source": "Hitmarker",
+        "category": "Games and entertainment",
+        "pages": 3,
+        "candidates": 1,
+        "verified": 0,
+        "issues": []
+      },
+      {
+        "source": "Welcome to the Jungle",
+        "category": "Regional technology and startups",
+        "pages": 4,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "No supported role links in public HTML; dynamic or member-only results may be unavailable"
+        ]
+      },
+      {
+        "source": "Biocom Career Hub",
+        "category": "Life sciences",
+        "pages": 1,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "No supported role links in public HTML; dynamic or member-only results may be unavailable"
+        ]
+      },
+      {
+        "source": "WelbeHealth official careers",
+        "category": "Company careers",
+        "pages": 1,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "No supported role links in public HTML; dynamic or member-only results may be unavailable"
+        ]
+      },
+      {
+        "source": "Branch official careers",
+        "category": "Company careers",
+        "pages": 1,
+        "candidates": 14,
+        "verified": 0,
+        "issues": []
+      },
+      {
+        "source": "thatgamecompany official careers",
+        "category": "Company careers",
+        "pages": 0,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "https://thatgamecompany.com/company/jobs/: Only public HTTPS URLs are allowed"
+        ]
+      },
+      {
+        "source": "Turtle Rock Studios official careers",
+        "category": "Company careers",
+        "pages": 1,
+        "candidates": 1,
+        "verified": 0,
+        "issues": []
+      },
+      {
+        "source": "HLPA",
+        "category": "Latino and professional associations",
+        "pages": 0,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "https://jobs.hlpa.com/employment/search.aspx: HTTP Error 406: Not Acceptable"
+        ]
+      },
+      {
+        "source": "SHPE",
+        "category": "Latino and professional associations",
+        "pages": 0,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "https://careercenter.shpe.org/: HTTP Error 403: Forbidden"
+        ]
+      },
+      {
+        "source": "Techqueria",
+        "category": "Latino and professional associations",
+        "pages": 1,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "No supported role links in public HTML; dynamic or member-only results may be unavailable"
+        ]
+      },
+      {
+        "source": "Latinx in Tech Career Center",
+        "category": "Latino and professional associations",
+        "pages": 1,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "No supported role links in public HTML; dynamic or member-only results may be unavailable"
+        ]
+      },
+      {
+        "source": "PowerToFly",
+        "category": "Women and inclusive career networks",
+        "pages": 1,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "No supported role links in public HTML; dynamic or member-only results may be unavailable"
+        ]
+      },
+      {
+        "source": "Women Who Design",
+        "category": "Women and inclusive career networks",
+        "pages": 1,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "No supported role links in public HTML; dynamic or member-only results may be unavailable"
+        ]
+      },
+      {
+        "source": "Women in Games International",
+        "category": "Women and inclusive career networks",
+        "pages": 1,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "No supported role links in public HTML; dynamic or member-only results may be unavailable"
+        ]
+      },
+      {
+        "source": "Started by Women",
+        "category": "Women and inclusive career networks",
+        "pages": 1,
+        "candidates": 1,
+        "verified": 0,
+        "issues": []
+      },
+      {
+        "source": "Wellfound California",
+        "category": "Regional technology and startups",
+        "pages": 1,
+        "candidates": 1,
+        "verified": 0,
+        "issues": []
+      },
+      {
+        "source": "Y Combinator California",
+        "category": "Regional technology and startups",
+        "pages": 1,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "No supported role links in public HTML; dynamic or member-only results may be unavailable"
+        ]
+      },
+      {
+        "source": "Games Jobs Direct",
+        "category": "Games and entertainment",
+        "pages": 0,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "https://www.gamesjobsdirect.com/search: HTTP Error 406: Not Acceptable"
+        ]
+      },
+      {
+        "source": "Bloks",
+        "category": "Games and entertainment",
+        "pages": 1,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "No supported role links in public HTML; dynamic or member-only results may be unavailable"
+        ]
+      },
+      {
+        "source": "Gaming Industry Job Tracker",
+        "category": "Games and entertainment",
+        "pages": 1,
+        "candidates": 1,
+        "verified": 0,
+        "issues": []
+      },
+      {
+        "source": "ASGC Games Jobs",
+        "category": "Games and entertainment",
+        "pages": 1,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "No supported role links in public HTML; dynamic or member-only results may be unavailable"
+        ]
+      },
+      {
+        "source": "BioSpace California",
+        "category": "Life sciences",
+        "pages": 0,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "https://jobs.biospace.com/california: HTTP Error 429: Too Many Requests"
+        ]
+      },
+      {
+        "source": "BioTalent",
+        "category": "Life sciences",
+        "pages": 1,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "No supported role links in public HTML; dynamic or member-only results may be unavailable"
+        ]
+      },
+      {
+        "source": "Manfred Spain",
+        "category": "Remote and international",
+        "pages": 1,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "No supported role links in public HTML; dynamic or member-only results may be unavailable"
+        ]
+      },
+      {
+        "source": "Wellfound Remote",
+        "category": "Remote and international",
+        "pages": 1,
+        "candidates": 30,
+        "verified": 0,
+        "issues": []
+      },
+      {
+        "source": "Jobgether",
+        "category": "Remote and international",
+        "pages": 0,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "https://jobgether.com/remote-jobs/program-manager: HTTP Error 403: Forbidden"
+        ]
+      },
+      {
+        "source": "Remotely",
+        "category": "Remote and international",
+        "pages": 1,
+        "candidates": 11,
+        "verified": 0,
+        "issues": []
+      }
+    ],
+    "new_employer_boards": 0,
+    "mexico_verified_candidates": 0,
+    "spain_verified_candidates": 0
+  },
+  "jobs": [
+    {
+      "id": "greenhouse:lyft:8921735002",
+      "company": "Lyft",
+      "title": "Senior Technical Program Manager, Central",
+      "location": "San Francisco, CA",
+      "salary": "Not disclosed",
+      "official_url": "https://app.careerpuck.com/job-board/lyft/job/8921735002?gh_jid=8921735002",
+      "posted": "2026-10-28T14:29:55-04:00",
+      "date_evidence": "Greenhouse.first_published",
+      "evidence_url": "https://boards-api.greenhouse.io/v1/boards/lyft/jobs/8921735002?pay_transparency=true",
+      "description": "<p>At Lyft, our purpose is to serve and connect. We aim to achieve this by cultivating a work environment where all team members belong and have the opportunity to thrive.</p> <p>Lyft connects people to transportation to change the way we live and get around our communities. We are looking for Technical Program Managers who bring exceptional technical and analytical skills to drive execution. Come be part of a team at Lyft focused on enabling and empowering engineering teams to deliver at scale.</p> <p>Technical Program Managers at Lyft drive cross-functional initiatives, leveraging strong leadership, planning, communication, and collaboration skills. Our TPMs are technically strong with product and software engineering experience. They are problem solvers who make things happen around them by setting clear goals and inspiring teams to deliver. TPMs at Lyft are both strategic and tactical and do what it takes to successfully deliver top priority programs that have a material impact on the business.</p> <h2><strong>Responsibilities:</strong></h2> <ul> <li>Develop and execute comprehensive integration roadmaps, strategies, and playbooks for core acquisition products.</li> <li>Lead iterative delivery of strategic cross-functional initiatives from concept to ship, through focus, transparency, communication, visibility, and accountability</li> <li>Leverage deep technical expertise with large-scale, distributed 24x7 production systems to build comprehensive plans, to identify risks, and to ensure smooth project launches with a goal of delighting our passengers and drivers</li> <li>Partner with engineering, product, and business leadership to build highly collaborative teams and to enhance communication across teams and stakeholders</li> <li>Identify and resolve systemic issues impacting Lyft engineering and aggressively take action to resolve</li> </ul> <h2><strong>&nbsp;Experience:</strong></h2> <ul> <li>Experience leading cross-functional teams to deliver complex projects iteratively with multiple dependencies and constraints, in a highly dynamic and agile environment</li> <li>Proven ability to operate effectively and autonomously across multiple teams in situations of extreme ambiguity, with only high-level direction</li> <li>Experience building roadmaps, release plans, project plans with a thorough understanding of dependency management</li> <li>Able to communicate highly technical problems and solutions at all levels from engineer to partner to C-level executives</li> <li>Able to influence, negotiate and inspire others in a matrixed environment. Excellent organization, planning skills, and attention to detail</li> <li>Experience delivering projects in large-scale, distributed production systems and 24x7 production operations</li> <li>Experience compiling and presenting business &amp; technology options, backed by data &amp; experimentation, to decision makers</li> <li>5+ years in Technical Program Management or a TPM/PM hybrid role</li> <li>A background in software, data science, or systems engineering; enough to go deep with engineers and product leadership</li> </ul> <h2><strong>Benefits:</strong><strong><br></strong></h2> <ul> <li>Great medical, dental, and vision insurance options with additional programs available when enrolled</li> <li>Mental health benefits</li> <li>Family building benefits</li> <li>Child care and pet benefits</li> <li>401(k) plan with company match to help save for your future</li> <li>In addition to 12 observed holidays, salaried team members have discretionary paid time off, hourly team members have 15 days paid time off</li> <li>18 weeks of paid parental leave. Biological, adoptive, and foster parents are all eligible</li> <li>Subsidized commuter benefits</li> <li>Monthly Lyft credits and complimentary Lyft Pink membership</li> </ul> <p>Lyft is an equal opportunity employer committed to an inclusive workplace that fosters belonging. All qualified applicants will receive consideration for employment without regards to race, color, religion, sex, sexual orientation, gender identity, national origin, disability status, protected veteran status, age, genetic information, or any other basis prohibited by law. We also consider qualified applicants with criminal histories consistent with applicable federal, state and local law.</p> <p>Lyft highly values having employees working in-office to foster a collaborative work environment and company culture. This role will be in-office on a hybrid schedule — Team Members will be expected to work in the office 3 days per week on Mondays, Wednesdays, and Thursdays. Lyft considers working in the office at least 3 days per week to be an essential function of this hybrid role. Your recruiter can share more information about the various in-office perks Lyft offers. Additionally, hybrid roles have the flexibility to work from anywhere for up to 4 weeks per year. #Hybrid</p> <p>The expected base pay range for this position in the San Francisco area is $148,000 - $185,000, not inclusive of potential equity offering, bonus or benefits. Salary ranges are dependent on a variety of factors, including qualifications, experience and geographic location. Your recruiter can share more information about the salary range specific to your working location and other factors during the hiring process.</p>",
+      "linkedin_url": "https://www.linkedin.com/jobs/view/senior-technical-program-manager-central-at-lyft-4484770521?position=6&pageNum=0&refId=El3x2UU4xv8T4w1rL7bXdg%3D%3D&trackingId=oJUPXi%2Fw3dOlla%2BaLzqmzg%3D%3D",
+      "focus_matches": [
+        "Agile",
+        "Operations"
+      ],
+      "focus_evidence": {
+        "Agile": "tiple dependencies and constraints, in a highly dynamic and agile environment Proven ability to operate effectively and autonomously across multiple teams in situati",
+        "Operations": "e-scale, distributed production systems and 24x7 production operations Experience compiling and presenting business & technology options, backed by data & experimentation"
+      },
+      "work_mode": "Hybrid",
+      "work_mode_evidence": "This role will be in-office on a hybrid schedule — Team Members will be expected to work in the office 3 days per week on Mondays, Wednesdays, and Thursdays",
+      "match": 70,
+      "matched_skills": [
+        "Agile",
+        "Operations"
+      ]
+    },
+    {
+      "id": "greenhouse:qualtrics:8316925",
+      "company": "Qualtrics",
+      "title": "Healthcare Program Manager",
+      "location": "Chicago, Illinois, United States",
+      "salary": "USD 122,500-148,500 (Illinois Base Annual Pay Transparency Range)",
+      "official_url": "https://www.qualtrics.com/careers/us/en/job/8316925?gh_jid=8316925",
+      "posted": "2026-10-28T09:18:48-04:00",
+      "date_evidence": "Greenhouse.first_published",
+      "evidence_url": "https://boards-api.greenhouse.io/v1/boards/qualtrics/jobs/8316925?pay_transparency=true",
+      "description": "<div>At Qualtrics, we create software the world’s best brands use to deliver exceptional frontline experiences, build high-performing teams, and design products people love. But we are more than a platform—we are the creators and stewards of the Experience Management category serving over 18K clients globally. Building a category takes grit, determination, and a disdain for convention—but most of all it requires close-knit, high-functioning teams with an unwavering dedication to serving our customers.<br><br>When you join one of our teams, you’ll be part of a nimble group that’s empowered to set aggressive goals and move fast to achieve them. Strategic risks are encouraged and complex problems are solved together, by passing the microphone and iterating until the best solution comes to light. You won’t have to look to find growth opportunities—ready or not, they’ll find you. From retail to government to healthcare, we’re on a mission to bring humanity, connection, and empathy back to business. Join over 5,000 people across the globe who think that’s work worth doing.</div> <p>&nbsp;</p> <p style=\"text-align: center;\"><strong>Healthcare Program Manager</strong></p> <p>&nbsp;</p> <p><strong>Why We Have This Role</strong></p> <p>As a Healthcare Program Manager, you will lead complex, cross-solution implementations for our largest enterprise healthcare clients. You will drive program-level execution across multiple concurrent workstreams, managing risks, issues, and scope boundaries in high-velocity, often ambiguous environments. Reporting to the Director, PMO, you will bring strong organizational discipline and influence internal cross-functional teams—including Delivery, Technical, Support, Advisors, and Growth partners—to ensure seamless, high-quality execution. If you excel at driving clarity out of complexity, leading through influence, and delivering high-stakes healthcare software programs, this role will give you significant impact.&nbsp;</p> <p>&nbsp;</p> <p><strong>How You’ll Find Success</strong></p> <ul> <li><strong>Cross-Functional Influence:</strong> Drives follow-through and accountability across diverse internal teams without direct positional authority.&nbsp;</li> <li><strong>Rigorous Governance &amp; Discipline:</strong> Maintains precise program tracking, RAID logs, and executive reporting across complex, multi-workstream implementations.&nbsp;</li> <li><strong>Proactive Risk &amp; Escalation Management:</strong> Surfaces risks early and leads rapid cross-functional responses during critical escalations until issues stabilize.&nbsp;</li> <li><strong>Executive &amp; Tailored Communication:</strong> Crafts concise, clear updates for executive, operational, and technical audiences, even when dealing with incomplete information.&nbsp;</li> <li><strong>Scope Boundary Discipline:</strong> Firmly enforces delivery scope and implementation criteria while protecting client relationships and partnering with Growth on commercial decisions.&nbsp;</li> </ul> <p><strong>&nbsp;</strong></p> <p><strong>How You’ll Grow</strong></p> <ul> <li>Lead high-visibility, enterprise-scale healthcare SaaS deployments across our largest health system clients.&nbsp;</li> <li>Advance your strategic PMO leadership capabilities by refining program governance, risk methodologies, and continuous process improvements.&nbsp;</li> <li>Build deep relationships across executive, clinical, operational, and technical leadership inside top-tier healthcare organizations.&nbsp;</li> <li>Expand your expertise in leveraging AI and automation tools to synthesize operational data into executive-ready communication.&nbsp;</li> </ul> <p><strong>&nbsp;</strong></p> <p><strong>Things You’ll Do</strong></p> <ul> <li><strong>Own Program Execution:</strong> Manage program-level execution for multi-solution implementations across various business units simultaneously.&nbsp;</li> <li><strong>Establish Program Governance:</strong> Maintain integrated project plans, RAID logs, and governance structures using tools such as Wrike.&nbsp;</li> <li><strong>Lead Issue Resolution &amp; Escalations:</strong> Coordinate cross-functional responses to resolve complex client escalations and stabilize workstreams.&nbsp;</li> <li><strong>Manage Scope &amp; Transition:</strong> Enforce scope criteria to declare implementations \"done\" before transitioning clients smoothly to long-term relationship owners.&nbsp;</li> <li><strong>Leverage Modern PM Tools &amp; AI:</strong> Adapt program templates, synthesize progress data, and utilize AI/automation tools to streamline reporting and communication.&nbsp;</li> </ul> <p><strong>&nbsp;</strong></p> <p><strong>What We’re Looking For On Your Resume</strong></p> <ul> <li><strong>8+ years</strong> of program, project, or client delivery management experience (preferably within healthcare, health tech, or enterprise SaaS environments).&nbsp;</li> <li>Demonstrated track record managing complex, cross-functional programs with competing priorities and multiple workstreams.&nbsp;</li> <li>Strong domain knowledge in the healthcare industry (patient experience, clinical operations, digital health, or quality improvement).&nbsp;</li> <li>Bachelor’s degree required; Master’s (MBA, MHA, MPH) or PMP/PgMP certification is a strong plus.&nbsp;</li> <li>Proven experience utilizing project/program management software (e.g., Wrike) and driving governance structures.&nbsp;</li> </ul> <p><strong>&nbsp;</strong></p> <p><strong>What You Should Know About This Team</strong></p> <ul> <li><strong>Enterprise Delivery Focus:</strong> We manage the most complex and critical multi-solution implementations across enterprise healthcare systems.&nbsp;</li> <li><strong>Culture of Influence &amp; Accountability:</strong> We partner through strong relationships, clear communication, and persistent follow-through rather than top-down authority.&nbsp;</li> <li><strong>Innovation &amp; Efficiency:</strong> We continuously improve our delivery playbooks, templates, and leverage AI to enhance productivity and visibility.&nbsp;</li> <li><strong>Structured &amp; Supportive PMO:</strong> We operate under clear PMO leadership that values proactive risk management, clear boundaries, and team collaboration.&nbsp;</li> </ul> <p><strong>&nbsp;</strong></p> <p><strong>Our Team’s Favorite Perks and Benefits</strong></p> <ul> <li><strong>Comprehensive Health &amp; Wellness Coverage:</strong> Premium medical, dental, and vision packages for employees and dependents.</li> <li><strong>Professional Certification Support:</strong> Sponsorship and support for continuing education, including PMP, PgMP, and agile certifications.&nbsp;</li> <li><strong>Generous Paid Time Off:</strong> Comprehensive paid vacation, sick leave, paid parental leave, and company holidays.</li> <li><strong>401(k) Retirement Plan:</strong> Competitive company matching contributions to support your long-term financial health.</li> </ul> <p>&nbsp;</p> <div><strong>The Qualtrics Hybrid Work Model: </strong>Our hybrid work model is elegantly simple: we all gather in the office three days a week; Mondays and Thursdays, plus one day selected by your organizational leader. These purposeful in-person days in thoughtfully designed offices help us do our best work and harness the power of collaboration and innovation. For the rest of the week, work where you want, owning the integration of work and life<strong>. </strong>#hybrid</div> <div>&nbsp;</div> <div><em>Qualtrics is an equal opportunity employer meaning that all qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, disability, status as a protected veteran, or any other protected characteristic.</em></div> <div>&nbsp;</div> <div><em>​​​​​​​Applicants in the United States of America have rights under Federal Employment Laws:<a href=\"https://www.dol.gov/agencies/whd/posters/fmla\">Family &amp; Medical Leave Act</a>,<a href=\"https://www.eeoc.gov/poster\">Equal Opportunity Employment</a>,<a href=\"https://www.dol.gov/agencies/whd/posters/employee-polygraph-protection-act\">Employee Polygraph Protection Act</a></em></div> <div><em>Qualtrics is committed to the inclusion of all qualified individuals. As part of this commitment, Qualtrics will ensure that persons with disabilities are provided with reasonable accommodations. If reasonable accommodation is needed to participate in the job application or interview process, to perform essential job functions, and/or to receive other benefits and privileges of employment, please let your Qualtrics contact/recruiter know.</em></div> <div>&nbsp;</div> <div><em>Not finding a role that’s the right fit for now? Qualtrics Insiders is the one-stop shop for all things Qualtrics Life. Sign up for exclusive access to content created with you in mind and get the scoop on what we have going on at Qualtrics - upcoming events, behind the scenes stories from the team, interview tips, hot jobs, and more. No spam - we promise! You'll hear from us two times a month max with fresh, totally tailored info - so be sure to stay connected as you explore your best role and company fit.</em></div><div class=\"content-pay-transparency\"><div class=\"pay-input\"><div class=\"description\"><p><em>For full-time positions</em>, this pay range is for base per year; however, base pay offered within this range may vary depending on location, job-related knowledge, education, skills, and experience. A sign-on bonus and restricted stock units may be included in an employment offer. Full-time employees are eligible for medical, dental, vision, life and disability, 401(k) with match, paid time off, a wellness reimbursement, and mental health benefits. For a detailed look at our benefits, visit&nbsp;<a href=\"https://www.qualtrics.com/careers/us/en/us-benefits\" target=\"_blank\" data-saferedirecturl=\"https://www.google.com/url?q=https://www.qualtrics.com/careers/us/en/us-benefits&amp;source=gmail&amp;ust=1755200530444000&amp;usg=AOvVaw1522Gxx7Bd4fPUPsJHFTHD\">Qualtrics US Benefits</a>.</p></div><div class=\"title\">Illinois Base Annual Pay Transparency Range</div><div class=\"pay-range\"><span>$122,500</span><span class=\"divider\">&mdash;</span><span>$148,500 USD</span></div></div></div>",
+      "linkedin_url": "",
+      "focus_matches": [
+        "Agile",
+        "Operations"
+      ],
+      "focus_evidence": {
+        "Agile": " support for continuing education, including PMP, PgMP, and agile certifications. Generous Paid Time Off: Comprehensive paid vacation, sick leave, paid parental leav",
+        "Operations": "ge in the healthcare industry (patient experience, clinical operations, digital health, or quality improvement). Bachelor’s degree required; Master’s (MBA, MHA, MPH) or P"
+      },
+      "work_mode": "Not specified",
+      "work_mode_evidence": "The reviewed official source does not confirm the work arrangement for this role.",
+      "match": 70,
+      "matched_skills": [
+        "Agile",
+        "Operations"
+      ]
+    },
+    {
+      "id": "greenhouse:oscar:8319419",
+      "company": "Oscar Health",
+      "title": "Technical Program Manager, Data",
+      "location": "New York, New York, United States",
+      "salary": "Not disclosed",
+      "official_url": "https://job-boards.greenhouse.io/oscar/jobs/8319419",
+      "posted": "2026-10-28T14:28:58-04:00",
+      "date_evidence": "Greenhouse.first_published",
+      "evidence_url": "https://boards-api.greenhouse.io/v1/boards/oscar/jobs/8319419?pay_transparency=true",
+      "description": "<p>Hi, we're Oscar. We're hiring a Technical Program Manager, Data to join our Technical PMO team.</p> <p>Oscar is the first health insurance company built around a full stack technology platform and a relentless focus on serving our members. We started Oscar in 2012 to create the kind of health insurance company we would want for ourselves—one that behaves like a doctor in the family.</p> <p>&nbsp;</p> <p><strong>About the role:</strong></p> <p>Lead the data transformation at the core of realizing better healthcare for millions of people.</p> <p>Oscar is hiring a Technical Program Manager to join our Tech PMO, dedicated to a major enterprise data transformation. You’ll partner closely with Data leadership to lead migration from planning through delivery, protecting the quality and integrity of the data our teams rely on every day.</p> <p>We’re looking for someone who has experience partnering with Data teams and leading a major enterprise data migration and who brings curiosity, initiative, and sound judgment. You can engage deeply with business partners, data scientists, data engineers, make complex dependencies and tradeoffs clear, and help leaders make timely decisions. You take ownership of execution while building trust with the people who produce and use the data.<br>Your program will include revamping our data transformation and semantic layers, as well as evolving our data governance and data quality capabilities across the entire business. You’ll coordinate Analytics Engineering, Data Engineering, Data Scientists, Analysts, and business owners through migration, validation, adoption, and operational handoff.</p> <p>You’ll have the opportunity to shape how Oscar delivers enterprise data programs and help build a strong TPM team. This is an individual contributor role reporting to the Director of the Tech PMO, partnering closely with Data leadership. You’ll lead technical program execution, with Data Engineering accountable for architecture and implementation.</p> <p>You will report into the Director, Technical Program Management.</p> <p><strong>Work Location: </strong>This position is based in our New York City office, requiring a hybrid work schedule with 3 days of in-office work per week. Thursdays are a required in-office day for team meetings and events, while your other two office days are flexible to suit your schedule. #LI-Hybrid</p> <p><strong>Pay Transparency: </strong>The base pay for this role is: $<span data-sheets-root=\"1\">117,576 -</span> $<span data-sheets-root=\"1\">154,319 </span>per year. You are also eligible for employee benefits, participation in Oscar's unlimited vacation program, and annual performance bonuses.</p> <p>&nbsp;</p> <p><strong>Responsibilities:</strong></p> <ul> <li>Own the integrated enterprise data migration plan from scoping through delivery and operational handoff, with clear owners, migration waves, milestones, dependencies, and acceptance criteria.</li> <li>Turn ambiguity into action across dbt migration, Cube implementation, data governance, and data quality workstreams. Bring the right owners together and resolve gaps in scope, sequencing, and readiness.</li> <li>Partner with Analytics Engineering, Data Engineering, Data Scientists, Analysts, and business owners to map upstream and downstream dependencies, coordinate commitments, and make scope, sequencing, and capacity tradeoffs explicit.</li> <li>Anticipate migration risks and drive timely decisions. Escalate with clear options, recommendations, and impact on data quality, integrity, reporting, and business continuity.</li> <li>Coordinate data reconciliation, testing, cutover and rollback plans, adoption, and operational readiness. Ensure technical and business owners agree on validation evidence, go/no-go criteria, and required security, privacy, and compliance reviews.</li> <li>Support program planning and give Data and executive leaders a clear view of migration progress, readiness, unresolved decisions, and outcomes. Drive business acceptance and clear operational ownership for migrated domains.</li> <li>Help build a strong TPM team: share useful practices, challenge unnecessary processes, support colleagues, and turn lessons from delivery into improvements.</li> <li>Compliance with all applicable laws and regulations.&nbsp;</li> <li>Other duties as assigned.&nbsp;</li> </ul> <p><strong>Requirements:</strong></p> <ul> <li>5+ years of technical program or project management/process-oriented operations work experience.&nbsp;</li> <li>2+ years of experience using coding languages such as SQL to analyze project performance and risks and develop erports for management and business owners.&nbsp;</li> <li>Experience independently leading complex software development programs across multiple teams, from planning through launch and operational handoff.</li> <li>Technical fluency in data pipelines, transformation layers, data models, semantic layers, lineage, and integrations, with the judgment to challenge migration plans, validation approaches, and implementation tradeoffs.</li> <li>Demonstrated ability to structure ambiguous enterprise programs, manage cross-domain dependencies and competing priorities, and coordinate data validation, cutover readiness, and business continuity.</li> <li>A record of building trust and influencing decisions across Analytics Engineering, Data Engineering, Data Scientists, Analysts, and business owners, and executive stakeholders without direct authority.</li> <li>Clear written and verbal communication, including the ability to translate technical migration risks into business impact and recommend a course of action to senior leaders.</li> <li>Strong ownership and follow-through, with examples of moving work forward when plans change or obstacles arise.</li> </ul> <p><strong>Bonus points:</strong></p> <ul> <li>Experience in healthcare, health insurance, or another regulated industry.</li> <li>Experience with dbt and Cube, or comparable transformation and semantic-layer technologies.</li> <li>Experience implementing data governance, data quality controls, lineage, or consistent business metric definitions across domains.</li> <li>Experience coordinating external vendors and helping business and analytics teams adopt new data platforms and ways of working.</li> <li>Experience migrating business-critical analytics or reporting with staged validation, reconciliation, cutover, and rollback practices.</li> </ul> <p>&nbsp;</p><div class=\"content-conclusion\"><p><span style=\"font-weight: 400;\">This is an authentic Oscar Health job opportunity.</span></p> <p><span style=\"font-weight: 400;\">At Oscar, being an Equal Opportunity Employer means more than upholding discrimination-free hiring practices. It means that we cultivate an environment where people can be their most authentic selves and find both belonging and support. We're on a mission to change health care -- an experience made whole by our unique backgrounds and perspectives.</span></p> <p><strong>Pay Transparency:&nbsp; </strong><span style=\"font-weight: 400;\">Final offer amounts, within the base pay set forth above, are determined by factors including your relevant skills, education, and experience. </span><span style=\"font-weight: 400;\">Full-time employees are eligible for benefits including: medical, dental, and vision benefits, 11 paid holidays, paid sick time, paid parental leave, 401(k) plan participation, life and disability insurance, and paid wellness time and reimbursements.</span></p> <p><span style=\"font-weight: 400;\"><strong>Artificial Intelligence (AI): </strong>Our <a href=\"https://oscarhealth.com/careers/ai-guidelines\" target=\"_blank\">AI Guidelines</a> outline the acceptable use of artificial intelligence for candidates and detail how we use AI to support our recruiting efforts.</span></p> <p><strong>Reasonable Accommodation: </strong><span style=\"font-weight: 400;\">Oscar applicants are considered solely based on their qualifications, without regard to applicant’s disability or need for accommodation. Any Oscar applicant who requires reasonable accommodations during the application process should contact the Oscar Benefits Team (accommodations@hioscar.com) to make the need for an accommodation known.</span></p> <p><span style=\"font-weight: 400;\"><strong>California Residents:</strong> For information about our collection, use, and disclosure of applicants’ personal information as well as applicants’ rights over their personal information, please see our <a href=\"https://oscarhealth.com/privacy-policy\" target=\"_blank\">Privacy Policy</a>.</span></p></div>",
+      "linkedin_url": "",
+      "focus_matches": [
+        "Operations"
+      ],
+      "focus_evidence": {
+        "Operations": "liation, testing, cutover and rollback plans, adoption, and operational readiness. Ensure technical and business owners agree on validation evidence, go/no-go criteria, and required"
+      },
+      "work_mode": "Hybrid",
+      "work_mode_evidence": "Work Location: This position is based in our New York City office, requiring a hybrid work schedule with 3 days of in-office work per week",
+      "match": 55,
+      "matched_skills": [
+        "Operations"
+      ]
+    },
+    {
+      "id": "greenhouse:robinhood:8303977",
+      "company": "Robinhood",
+      "title": "Clearing Operations Program Manager",
+      "location": "Chicago, IL; Denver, CO; Lake Mary, FL; New York, NY",
+      "salary": "USD 145,000-170,000 (Zone 1 (Menlo Park, CA; New York, NY; Bellevue, WA; Washington, DC)); USD 128,000-150,000 (Zone 2 (Denver, CO; Westlake, TX; Chicago, IL)); USD 113,000-133,000 (Zone 3 (Lake Mary, FL; Clearwater, FL; Gainesville, FL))",
+      "official_url": "https://job-boards.greenhouse.io/robinhood/jobs/8303977?t=gh_src=&gh_jid=8303977",
+      "posted": "2026-10-28T12:55:36-04:00",
+      "date_evidence": "Greenhouse.first_published",
+      "evidence_url": "https://boards-api.greenhouse.io/v1/boards/robinhood/jobs/8303977?pay_transparency=true",
+      "description": "<div class=\"content-intro\"><h2>Join us in building the future of finance.</h2> <p>Our mission is to democratize finance for all. <a href=\"https://www.cerulli.com/press-releases/cerulli-anticipates-124-trillion-in-wealth-will-transfer-through-2048\" target=\"_blank\">An estimated $124 trillion of assets</a> will be inherited by younger generations in the next two decades. The largest transfer of wealth in human history. If you’re ready to be at the epicenter of this historic cultural and financial shift, keep reading.</p></div><div> <h2>About the team + role</h2> <p class=\"pw\">We are building an elite team, applying frontier technologies to the world's biggest financial problems. We're looking for bold thinkers. Sharp problem-solvers. Builders who are wired to make an impact. Robinhood isn't a place for complacency, it's where ambitious people do the best work of their careers. We're a high-performing, fast-moving team with ethics at the center of everything we do. Expectations are high, and so are the rewards.</p> <p class=\"pw\">We're looking for a motivated self-starter with deep brokerage clearing experience to be a part of our back office operations team. You’ll oversee high-impact projects that support business growth and strategic initiatives across Clearing Operations. You’ll work closely with engineering, product, risk, and compliance to align operational requirements with high velocity execution plans.</p> <p class=\"pw\"><strong>This role is based in our New York, NY, Chicago, IL, Lake Mary, FL, and Denver, CO office(s), with in-person attendance expected at least 3 days per week.</strong></p> <p class=\"pw\">At Robinhood, we believe in the power of in-person work to accelerate progress, spark innovation, and strengthen community. Our office experience is intentional, energizing, and designed to fully support high-performing teams.</p> </div> <div> <h2>What you'll do</h2> <ul class=\"b\"> <li>Act as the main liaison between Clearing Operations and Product/Engineering teams, ensuring Clearing Ops is represented and prepared throughout the product development lifecycle.</li> <li>Develop deep understanding of Robinhood back office operations and build partnerships with the desk leads and SMEs of the various areas to ensure their operational processes are considered for potential product launches</li> <li>Establish a cohesive vision for Clearing Operations-wide initiatives that span multiple teams, keeping compliance, efficiency and operational readiness at the forefront of decision-making.</li> <li>Own launch readiness for new product rollouts and initiatives impacting Clearing Operations — coordinating readiness across people, process, and technology ahead of go-live.</li> <li>Track progress, measure outcomes, and communicate updates to senior stakeholders</li> <li>Use data driven decision making to contribute meaningfully to enhancing operational efficiencies</li> <li>Apply deep working knowledge of clearing operations and regulatory requirements, along with fluency in Artificial Intelligence, to amplify your impact.</li> </ul> </div> <div> <h2>What you bring</h2> <ul class=\"b\"> <li>Excellent program/project management skills with a demonstrated record of delivering results on medium to large scale initiatives.</li> <li>Experience managing multiple projects at once, involving stakeholders across business units.</li> <li>5+ years of experience in Brokerage Operations, ideally with a Clearing Broker-Dealer</li> <li>Strong understanding of clearing operations, with relevant experience in one or more areas of settlements, stock loan, margin/options, account transfers, corporate actions, or trading.</li> <li>Self-motivated, with a bias for action while operating autonomously and driving execution</li> <li>Builds and sustains strong, trust-based relationships across a wide range of cross-functional teams with a high level of responsiveness.</li> <li>FINRA Series 7 required, Series 24 preferred</li> </ul> </div><div class=\"content-pay-transparency\"><div class=\"pay-input\"><div class=\"description\"><p><strong>In addition to the base pay range listed below, this role is also eligible for bonus opportunities + equity + benefits.</strong></p> <p>Base pay for the successful applicant will depend on a variety of job-related factors, which may include education, training, experience, location, business needs, or market demands. The expected base pay range for this role is based on the location where the work will be performed and is aligned to one of 3 compensation zones. For other locations not listed, compensation can be discussed with your recruiter during the interview process.</p> <p><span style=\"text-decoration: underline;\">Base Pay Range:</span></p></div><div class=\"title\">Zone 1 (Menlo Park, CA; New York, NY; Bellevue, WA; Washington, DC)</div><div class=\"pay-range\"><span>$145,000</span><span class=\"divider\">&mdash;</span><span>$170,000 USD</span></div></div><div class=\"pay-input\"><div class=\"title\">Zone 2 (Denver, CO; Westlake, TX; Chicago, IL)</div><div class=\"pay-range\"><span>$128,000</span><span class=\"divider\">&mdash;</span><span>$150,000 USD</span></div></div><div class=\"pay-input\"><div class=\"title\">Zone 3 (Lake Mary, FL; Clearwater, FL; Gainesville, FL)</div><div class=\"pay-range\"><span>$113,000</span><span class=\"divider\">&mdash;</span><span>$133,000 USD</span></div></div></div><div class=\"content-conclusion\"><p>Click <a href=\"https://careers.robinhood.com/benefits\" target=\"_blank\">here</a> to learn more about our Total Rewards, which vary by region and entity.</p> <p>If our mission energizes you and you’re ready to build the future of finance, we look forward to seeing your application.</p> <p><strong>AI Usage Disclosure:</strong> Robinhood uses artificial intelligence (AI) tools to support parts of our recruiting process. These tools enhance the efficiency and consistency of our hiring process; however, all hiring decisions are made by our hiring teams.</p> <p>Robinhood provides equal opportunity for all applicants, offers reasonable accommodations upon request, and complies with applicable equal employment and privacy laws. Inclusion is built into how we hire and work—welcoming different backgrounds, perspectives, and experiences so everyone can do their best. Please review the&nbsp;<a href=\"https://careers.robinhood.com/applicantprivacypolicy\" target=\"_blank\">Privacy Policy</a> for your country of application.</p></div>",
+      "linkedin_url": "",
+      "focus_matches": [
+        "Operations"
+      ],
+      "focus_evidence": {
+        "Operations": "Clearing Operations Program Manager. Join us in building the future of finance. Our mission is to democratize finance f"
+      },
+      "work_mode": "Not specified",
+      "work_mode_evidence": "The reviewed official source does not confirm the work arrangement for this role.",
+      "match": 55,
+      "matched_skills": [
+        "Operations"
+      ]
+    }
+  ]
+}

@@ -10,115 +10,83 @@ Search area: USA, Canada, Mexico, Spain, LATAM, and eligible remote roles. Resul
 
 <!-- DASHBOARD:START -->
 
-## Dashboard: 2026-10-27
+## Dashboard: 2026-10-28
 
 > Your worth is not measured by an inbox. One thoughtful application at a time is enough for today.
 
-Publication day: 2026-10-27. Verified at: 2026-10-27T17:40:33.468403-07:00 (America/Los_Angeles).
+Publication day: 2026-10-28. Verified at: 2026-10-28T17:40:22.792550-07:00 (America/Los_Angeles).
 
 Up to 30 verified listings from the requested publication day. Coverage is limited to accessible sources.
 
-Reviewed: 61303 | Recommended: 7 | Applied excluded: 0 | Previously seen: 0 | Unverified: 0 | Outside topic focus: 4
+Reviewed: 61195 | Recommended: 4 | Applied excluded: 0 | Previously seen: 0 | Unverified: 0 | Outside topic focus: 0
 
-Accessible sources: 275 | LinkedIn candidates: 33
+Accessible sources: 275 | LinkedIn candidates: 95
 
-LinkedIn: Public access limited (HTTPError); no bypass or login attempted
+LinkedIn: Public access available: 42 searches; publication dates verified only against official sources
 
-Regional coverage: Mexico 0 verified candidates | Spain 0 verified candidates. Target: 30; returned: 7.
+Regional coverage: Mexico 0 verified candidates | Spain 0 verified candidates. Target: 30; returned: 4.
 
 ## Top 5
 
 | Estimated match | Company | Role | Location | Work arrangement | Apply |
 |---|---|---|---|---|---|
-| 55% | ServiceNow | Strategic Partnerships, Technical Program Manager | Santa Clara, California, us | Not specified | [Apply](<https://jobs.smartrecruiters.com/ServiceNow/744000158084845-strategic-partnerships-technical-program-manager>) |
-| 55% | Twitch | Sr. Program Manager, Accessibility | San Francisco, CA | Not specified | [Apply](<https://job-boards.greenhouse.io/twitch/jobs/8918684002>) |
-| 55% | Twitch | Sr. Program Manager, Accessibility | Los Angeles, CA | Not specified | [Apply](<https://job-boards.greenhouse.io/twitch/jobs/8918709002>) |
-| 55% | AECOM | Express Lanes and Ramp Signaling Operations Program Manager | Miami, FL, us | Not specified | [Apply](<https://jobs.smartrecruiters.com/AECOM2/744000158134688-express-lanes-and-ramp-signaling-operations-program-manager>) |
-| 55% | AECOM | Mining EPCM Delivery Manager | Providencia Santiago, PROVIDENCIA SANTIAGO, cl | Not specified | [Apply](<https://jobs.smartrecruiters.com/AECOM2/744000158139247-mining-epcm-delivery-manager>) |
+| 70% | Lyft | Senior Technical Program Manager, Central | San Francisco, CA | Hybrid | [Apply](<https://app.careerpuck.com/job-board/lyft/job/8921735002?gh_jid=8921735002>) |
+| 70% | Qualtrics | Healthcare Program Manager | Chicago, Illinois, United States | Not specified | [Apply](<https://www.qualtrics.com/careers/us/en/job/8316925?gh_jid=8316925>) |
+| 55% | Oscar Health | Technical Program Manager, Data | New York, New York, United States | Hybrid | [Apply](<https://job-boards.greenhouse.io/oscar/jobs/8319419>) |
+| 55% | Robinhood | Clearing Operations Program Manager | Chicago, IL; Denver, CO; Lake Mary, FL; New York, NY | Not specified | [Apply](<https://job-boards.greenhouse.io/robinhood/jobs/8303977?t=gh_src=&gh_jid=8303977>) |
 
 ## Verified jobs
 
 | Estimated match | Company / role | Location | Work arrangement | Published salary | Official publication date | Apply | LinkedIn |
 |---|---|---|---|---|---|---|---|
-| 55% | ServiceNow / Strategic Partnerships, Technical Program Manager | Santa Clara, California, us | Not specified | Not disclosed | 2026-10-27T15:55:19.621Z | [Apply](<https://jobs.smartrecruiters.com/ServiceNow/744000158084845-strategic-partnerships-technical-program-manager>) | Not available |
-| 55% | Twitch / Sr. Program Manager, Accessibility | San Francisco, CA | Not specified | USD 129,500-175,100 (US, WA, Seattle - Annually); USD 142,400-192,600 (US, CA, San Francisco - Annually); USD 142,400-192,600 (US, NY, New York - Annually); USD 129,500-175,100 (US, CA, Los Angeles - Annually); USD 129,500-175,100 (US, CA, Irvine - Annually) | 2026-10-27T11:36:48-04:00 | [Apply](<https://job-boards.greenhouse.io/twitch/jobs/8918684002>) | Not available |
-| 55% | Twitch / Sr. Program Manager, Accessibility | Los Angeles, CA | Not specified | USD 129,500-175,100 (US, WA, Seattle - Annually); USD 142,400-192,600 (US, CA, San Francisco - Annually); USD 142,400-192,600 (US, NY, New York - Annually); USD 129,500-175,100 (US, CA, Los Angeles - Annually); USD 129,500-175,100 (US, CA, Irvine - Annually) | 2026-10-27T11:36:46-04:00 | [Apply](<https://job-boards.greenhouse.io/twitch/jobs/8918709002>) | Not available |
-| 55% | AECOM / Express Lanes and Ramp Signaling Operations Program Manager | Miami, FL, us | Not specified | Not disclosed | 2026-10-27T19:24:13.031Z | [Apply](<https://jobs.smartrecruiters.com/AECOM2/744000158134688-express-lanes-and-ramp-signaling-operations-program-manager>) | Not available |
-| 55% | AECOM / Mining EPCM Delivery Manager | Providencia Santiago, PROVIDENCIA SANTIAGO, cl | Not specified | Not disclosed | 2026-10-27T20:05:18.674Z | [Apply](<https://jobs.smartrecruiters.com/AECOM2/744000158139247-mining-epcm-delivery-manager>) | Not available |
-| 55% | AECOM / Tenant Relocation Program Manager | New York, NY, us | Not specified | Not disclosed | 2026-10-27T13:02:27.281Z | [Apply](<https://jobs.smartrecruiters.com/AECOM2/744000158039549-tenant-relocation-program-manager>) | Not available |
-| 55% | Twitch / Sr. Program Manager, Accessibility | New York City | Not specified | USD 129,500-175,100 (US, WA, Seattle - Annually); USD 142,400-192,600 (US, CA, San Francisco - Annually); USD 142,400-192,600 (US, NY, New York - Annually); USD 129,500-175,100 (US, CA, Los Angeles - Annually); USD 129,500-175,100 (US, CA, Irvine - Annually) | 2026-10-27T11:36:42-04:00 | [Apply](<https://job-boards.greenhouse.io/twitch/jobs/8918711002>) | Not available |
+| 70% | Lyft / Senior Technical Program Manager, Central | San Francisco, CA | Hybrid | Not disclosed | 2026-10-28T14:29:55-04:00 | [Apply](<https://app.careerpuck.com/job-board/lyft/job/8921735002?gh_jid=8921735002>) | [LinkedIn](<https://www.linkedin.com/jobs/view/senior-technical-program-manager-central-at-lyft-4484770521?position=6&pageNum=0&refId=El3x2UU4xv8T4w1rL7bXdg%3D%3D&trackingId=oJUPXi%2Fw3dOlla%2BaLzqmzg%3D%3D>) |
+| 70% | Qualtrics / Healthcare Program Manager | Chicago, Illinois, United States | Not specified | USD 122,500-148,500 (Illinois Base Annual Pay Transparency Range) | 2026-10-28T09:18:48-04:00 | [Apply](<https://www.qualtrics.com/careers/us/en/job/8316925?gh_jid=8316925>) | Not available |
+| 55% | Oscar Health / Technical Program Manager, Data | New York, New York, United States | Hybrid | Not disclosed | 2026-10-28T14:28:58-04:00 | [Apply](<https://job-boards.greenhouse.io/oscar/jobs/8319419>) | Not available |
+| 55% | Robinhood / Clearing Operations Program Manager | Chicago, IL; Denver, CO; Lake Mary, FL; New York, NY | Not specified | USD 145,000-170,000 (Zone 1 (Menlo Park, CA; New York, NY; Bellevue, WA; Washington, DC)); USD 128,000-150,000 (Zone 2 (Denver, CO; Westlake, TX; Chicago, IL)); USD 113,000-133,000 (Zone 3 (Lake Mary, FL; Clearwater, FL; Gainesville, FL)) | 2026-10-28T12:55:36-04:00 | [Apply](<https://job-boards.greenhouse.io/robinhood/jobs/8303977?t=gh_src=&gh_jid=8303977>) | Not available |
 
 ## Evidence and fit
 
 Topic match is a heuristic, not a hiring probability or verified assessment of experience. With topic focus enabled: 40 base points plus 15 per matched theme (Agile, OKRs, Operations, ISO 27001), capped at 100. At least one theme is required. Results are ordered by match; California breaks ties.
 
-### ServiceNow: Strategic Partnerships, Technical Program Manager
+### Lyft: Senior Technical Program Manager, Central
 
-- Job ID: smartrecruiters:ServiceNow:744000158084845
+- Job ID: greenhouse:lyft:8921735002
+- Application status: Not recorded as applied
+- Work arrangement: Hybrid. This role will be in-office on a hybrid schedule - Team Members will be expected to work in the office 3 days per week on Mondays, Wednesdays, and Thursdays
+- Publication date: 2026-10-28T14:29:55-04:00. Zoned timestamps are evaluated in California time.
+- Date evidence: [Greenhouse.first_published](<https://boards-api.greenhouse.io/v1/boards/lyft/jobs/8921735002?pay_transparency=true>)
+- Relevant themes: Agile, Operations.
+- Theme evidence: the official title or description mentions Agile.
+- Theme evidence: the official title or description mentions Operations.
+
+### Qualtrics: Healthcare Program Manager
+
+- Job ID: greenhouse:qualtrics:8316925
 - Application status: Not recorded as applied
 - Work arrangement: Not specified. The reviewed official source does not confirm the work arrangement for this role.
-- Publication date: 2026-10-27T15:55:19.621Z. Zoned timestamps are evaluated in California time.
-- Date evidence: [SmartRecruiters.releasedDate (release; may be a repost)](<https://api.smartrecruiters.com/v1/companies/ServiceNow/postings/744000158084845>)
+- Publication date: 2026-10-28T09:18:48-04:00. Zoned timestamps are evaluated in California time.
+- Date evidence: [Greenhouse.first_published](<https://boards-api.greenhouse.io/v1/boards/qualtrics/jobs/8316925?pay_transparency=true>)
+- Relevant themes: Agile, Operations.
+- Theme evidence: the official title or description mentions Agile.
+- Theme evidence: the official title or description mentions Operations.
+
+### Oscar Health: Technical Program Manager, Data
+
+- Job ID: greenhouse:oscar:8319419
+- Application status: Not recorded as applied
+- Work arrangement: Hybrid. Work Location: This position is based in our New York City office, requiring a hybrid work schedule with 3 days of in-office work per week
+- Publication date: 2026-10-28T14:28:58-04:00. Zoned timestamps are evaluated in California time.
+- Date evidence: [Greenhouse.first_published](<https://boards-api.greenhouse.io/v1/boards/oscar/jobs/8319419?pay_transparency=true>)
 - Relevant themes: Operations.
 - Theme evidence: the official title or description mentions Operations.
 
-### Twitch: Sr. Program Manager, Accessibility
+### Robinhood: Clearing Operations Program Manager
 
-- Job ID: greenhouse:twitch:8918684002
+- Job ID: greenhouse:robinhood:8303977
 - Application status: Not recorded as applied
 - Work arrangement: Not specified. The reviewed official source does not confirm the work arrangement for this role.
-- Publication date: 2026-10-27T11:36:48-04:00. Zoned timestamps are evaluated in California time.
-- Date evidence: [Greenhouse.first_published](<https://boards-api.greenhouse.io/v1/boards/twitch/jobs/8918684002?pay_transparency=true>)
-- Relevant themes: Operations.
-- Theme evidence: the official title or description mentions Operations.
-
-### Twitch: Sr. Program Manager, Accessibility
-
-- Job ID: greenhouse:twitch:8918709002
-- Application status: Not recorded as applied
-- Work arrangement: Not specified. The reviewed official source does not confirm the work arrangement for this role.
-- Publication date: 2026-10-27T11:36:46-04:00. Zoned timestamps are evaluated in California time.
-- Date evidence: [Greenhouse.first_published](<https://boards-api.greenhouse.io/v1/boards/twitch/jobs/8918709002?pay_transparency=true>)
-- Relevant themes: Operations.
-- Theme evidence: the official title or description mentions Operations.
-
-### AECOM: Express Lanes and Ramp Signaling Operations Program Manager
-
-- Job ID: smartrecruiters:AECOM2:744000158134688
-- Application status: Not recorded as applied
-- Work arrangement: Not specified. The reviewed official source does not confirm the work arrangement for this role.
-- Publication date: 2026-10-27T19:24:13.031Z. Zoned timestamps are evaluated in California time.
-- Date evidence: [SmartRecruiters.releasedDate (release; may be a repost)](<https://api.smartrecruiters.com/v1/companies/AECOM2/postings/744000158134688>)
-- Relevant themes: Operations.
-- Theme evidence: the official title or description mentions Operations.
-
-### AECOM: Mining EPCM Delivery Manager
-
-- Job ID: smartrecruiters:AECOM2:744000158139247
-- Application status: Not recorded as applied
-- Work arrangement: Not specified. The reviewed official source does not confirm the work arrangement for this role.
-- Publication date: 2026-10-27T20:05:18.674Z. Zoned timestamps are evaluated in California time.
-- Date evidence: [SmartRecruiters.releasedDate (release; may be a repost)](<https://api.smartrecruiters.com/v1/companies/AECOM2/postings/744000158139247>)
-- Relevant themes: Operations.
-- Theme evidence: the official title or description mentions Operations.
-
-### AECOM: Tenant Relocation Program Manager
-
-- Job ID: smartrecruiters:AECOM2:744000158039549
-- Application status: Not recorded as applied
-- Work arrangement: Not specified. The reviewed official source does not confirm the work arrangement for this role.
-- Publication date: 2026-10-27T13:02:27.281Z. Zoned timestamps are evaluated in California time.
-- Date evidence: [SmartRecruiters.releasedDate (release; may be a repost)](<https://api.smartrecruiters.com/v1/companies/AECOM2/postings/744000158039549>)
-- Relevant themes: Operations.
-- Theme evidence: the official title or description mentions Operations.
-
-### Twitch: Sr. Program Manager, Accessibility
-
-- Job ID: greenhouse:twitch:8918711002
-- Application status: Not recorded as applied
-- Work arrangement: Not specified. The reviewed official source does not confirm the work arrangement for this role.
-- Publication date: 2026-10-27T11:36:42-04:00. Zoned timestamps are evaluated in California time.
-- Date evidence: [Greenhouse.first_published](<https://boards-api.greenhouse.io/v1/boards/twitch/jobs/8918711002?pay_transparency=true>)
+- Publication date: 2026-10-28T12:55:36-04:00. Zoned timestamps are evaluated in California time.
+- Date evidence: [Greenhouse.first_published](<https://boards-api.greenhouse.io/v1/boards/robinhood/jobs/8303977?pay_transparency=true>)
 - Relevant themes: Operations.
 - Theme evidence: the official title or description mentions Operations.
 
@@ -131,14 +99,14 @@ New verified employer boards retained for future searches: 0.
 | Latino and professional associations | Prospanica | 0 | 0 | 0 | 1 |
 | Latino and professional associations | HOPE - Hispanas Organized for Political Equality | 1 | 1 | 0 | 0 |
 | Latino and professional associations | Lean In Latinas | 1 | 0 | 0 | 1 |
-| Regional technology and startups | Built In San Francisco | 3 | 21 | 0 | 0 |
-| Games and entertainment | Hitmarker | 3 | 5 | 0 | 0 |
+| Regional technology and startups | Built In San Francisco | 3 | 22 | 0 | 0 |
+| Games and entertainment | Hitmarker | 3 | 1 | 0 | 0 |
 | Regional technology and startups | Welcome to the Jungle | 4 | 0 | 0 | 1 |
 | Life sciences | Biocom Career Hub | 1 | 0 | 0 | 1 |
 | Company careers | WelbeHealth official careers | 1 | 0 | 0 | 1 |
 | Company careers | Branch official careers | 1 | 14 | 0 | 0 |
 | Company careers | thatgamecompany official careers | 0 | 0 | 0 | 1 |
-| Company careers | Turtle Rock Studios official careers | 1 | 0 | 0 | 1 |
+| Company careers | Turtle Rock Studios official careers | 1 | 1 | 0 | 0 |
 | Latino and professional associations | HLPA | 0 | 0 | 0 | 1 |
 | Latino and professional associations | SHPE | 0 | 0 | 0 | 1 |
 | Latino and professional associations | Techqueria | 1 | 0 | 0 | 1 |
@@ -151,7 +119,7 @@ New verified employer boards retained for future searches: 0.
 | Regional technology and startups | Y Combinator California | 1 | 0 | 0 | 1 |
 | Games and entertainment | Games Jobs Direct | 0 | 0 | 0 | 1 |
 | Games and entertainment | Bloks | 1 | 0 | 0 | 1 |
-| Games and entertainment | Gaming Industry Job Tracker | 1 | 1 | 0 | 1 |
+| Games and entertainment | Gaming Industry Job Tracker | 1 | 1 | 0 | 0 |
 | Games and entertainment | ASGC Games Jobs | 1 | 0 | 0 | 1 |
 | Life sciences | BioSpace California | 0 | 0 | 0 | 1 |
 | Life sciences | BioTalent | 1 | 0 | 0 | 1 |
@@ -223,7 +191,6 @@ The daily 5 pm run cannot include listings published after it begins. Historical
 - Biocom Career Hub: No supported role links in public HTML; dynamic or member-only results may be unavailable
 - WelbeHealth official careers: No supported role links in public HTML; dynamic or member-only results may be unavailable
 - thatgamecompany official careers: https://thatgamecompany.com/company/jobs/: Only public HTTPS URLs are allowed
-- Turtle Rock Studios official careers: No supported role links in public HTML; dynamic or member-only results may be unavailable
 - HLPA: https://jobs.hlpa.com/employment/search.aspx: HTTP Error 406: Not Acceptable
 - SHPE: https://careercenter.shpe.org/: HTTP Error 403: Forbidden
 - Techqueria: No supported role links in public HTML; dynamic or member-only results may be unavailable
@@ -234,7 +201,6 @@ The daily 5 pm run cannot include listings published after it begins. Historical
 - Y Combinator California: No supported role links in public HTML; dynamic or member-only results may be unavailable
 - Games Jobs Direct: https://www.gamesjobsdirect.com/search: HTTP Error 406: Not Acceptable
 - Bloks: No supported role links in public HTML; dynamic or member-only results may be unavailable
-- Gaming Industry Job Tracker: https://jobs.christran.gg/jobs/52649: HTTP Error 410: Gone
 - ASGC Games Jobs: No supported role links in public HTML; dynamic or member-only results may be unavailable
 - BioSpace California: https://jobs.biospace.com/california: HTTP Error 429: Too Many Requests
 - BioTalent: No supported role links in public HTML; dynamic or member-only results may be unavailable
