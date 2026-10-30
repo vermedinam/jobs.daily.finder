@@ -10,83 +10,105 @@ Search area: USA, Canada, Mexico, Spain, LATAM, and eligible remote roles. Resul
 
 <!-- DASHBOARD:START -->
 
-## Dashboard: 2026-10-28
+## Dashboard: 2026-10-29
 
 > Your worth is not measured by an inbox. One thoughtful application at a time is enough for today.
 
-Publication day: 2026-10-28. Verified at: 2026-10-28T17:40:22.792550-07:00 (America/Los_Angeles).
+Publication day: 2026-10-29. Verified at: 2026-10-29T17:41:30.941753-07:00 (America/Los_Angeles).
 
 Up to 30 verified listings from the requested publication day. Coverage is limited to accessible sources.
 
-Reviewed: 61195 | Recommended: 4 | Applied excluded: 0 | Previously seen: 0 | Unverified: 0 | Outside topic focus: 0
+Reviewed: 61232 | Recommended: 6 | Applied excluded: 0 | Previously seen: 0 | Unverified: 0 | Outside topic focus: 2
 
-Accessible sources: 275 | LinkedIn candidates: 95
+Accessible sources: 275 | LinkedIn candidates: 84
 
 LinkedIn: Public access available: 42 searches; publication dates verified only against official sources
 
-Regional coverage: Mexico 0 verified candidates | Spain 0 verified candidates. Target: 30; returned: 4.
+Regional coverage: Mexico 0 verified candidates | Spain 0 verified candidates. Target: 30; returned: 6.
 
 ## Top 5
 
 | Estimated match | Company | Role | Location | Work arrangement | Apply |
 |---|---|---|---|---|---|
-| 70% | Lyft | Senior Technical Program Manager, Central | San Francisco, CA | Hybrid | [Apply](<https://app.careerpuck.com/job-board/lyft/job/8921735002?gh_jid=8921735002>) |
-| 70% | Qualtrics | Healthcare Program Manager | Chicago, Illinois, United States | Not specified | [Apply](<https://www.qualtrics.com/careers/us/en/job/8316925?gh_jid=8316925>) |
-| 55% | Oscar Health | Technical Program Manager, Data | New York, New York, United States | Hybrid | [Apply](<https://job-boards.greenhouse.io/oscar/jobs/8319419>) |
-| 55% | Robinhood | Clearing Operations Program Manager | Chicago, IL; Denver, CO; Lake Mary, FL; New York, NY | Not specified | [Apply](<https://job-boards.greenhouse.io/robinhood/jobs/8303977?t=gh_src=&gh_jid=8303977>) |
+| 70% | BeyondTrust | Senior Security Technical Program Manager | Remote Toronto, ON Canada &#124; Remote United States | Remote available | [Apply](<https://job-boards.greenhouse.io/beyondtrust/jobs/8331655>) |
+| 55% | Egis Group | Technical Delivery Manager (PDS) | Sacramento, CA, us | Not specified | [Apply](<https://jobs.smartrecruiters.com/EgisGroup/744000158601600-technical-delivery-manager-pds->) |
+| 55% | OpenAI | Commissioning and Quality Program Manager | San Francisco, California, United States | Not specified | [Apply](<https://jobs.ashbyhq.com/openai/2b4aa186-a90c-4e6c-a544-5f2cc8558525>) |
+| 55% | AECOM | Mining EPCM Delivery Manager | Providencia Santiago, PROVIDENCIA SANTIAGO, cl | Not specified | [Apply](<https://jobs.smartrecruiters.com/AECOM2/744000158579789-mining-epcm-delivery-manager>) |
+| 55% | Bosch Group | Sr. TPM Engineer | Lincolnton, NC, us | Not specified | [Apply](<https://jobs.smartrecruiters.com/BoschGroup/744000158546464-sr-tpm-engineer>) |
 
 ## Verified jobs
 
 | Estimated match | Company / role | Location | Work arrangement | Published salary | Official publication date | Apply | LinkedIn |
 |---|---|---|---|---|---|---|---|
-| 70% | Lyft / Senior Technical Program Manager, Central | San Francisco, CA | Hybrid | Not disclosed | 2026-10-28T14:29:55-04:00 | [Apply](<https://app.careerpuck.com/job-board/lyft/job/8921735002?gh_jid=8921735002>) | [LinkedIn](<https://www.linkedin.com/jobs/view/senior-technical-program-manager-central-at-lyft-4484770521?position=6&pageNum=0&refId=El3x2UU4xv8T4w1rL7bXdg%3D%3D&trackingId=oJUPXi%2Fw3dOlla%2BaLzqmzg%3D%3D>) |
-| 70% | Qualtrics / Healthcare Program Manager | Chicago, Illinois, United States | Not specified | USD 122,500-148,500 (Illinois Base Annual Pay Transparency Range) | 2026-10-28T09:18:48-04:00 | [Apply](<https://www.qualtrics.com/careers/us/en/job/8316925?gh_jid=8316925>) | Not available |
-| 55% | Oscar Health / Technical Program Manager, Data | New York, New York, United States | Hybrid | Not disclosed | 2026-10-28T14:28:58-04:00 | [Apply](<https://job-boards.greenhouse.io/oscar/jobs/8319419>) | Not available |
-| 55% | Robinhood / Clearing Operations Program Manager | Chicago, IL; Denver, CO; Lake Mary, FL; New York, NY | Not specified | USD 145,000-170,000 (Zone 1 (Menlo Park, CA; New York, NY; Bellevue, WA; Washington, DC)); USD 128,000-150,000 (Zone 2 (Denver, CO; Westlake, TX; Chicago, IL)); USD 113,000-133,000 (Zone 3 (Lake Mary, FL; Clearwater, FL; Gainesville, FL)) | 2026-10-28T12:55:36-04:00 | [Apply](<https://job-boards.greenhouse.io/robinhood/jobs/8303977?t=gh_src=&gh_jid=8303977>) | Not available |
+| 70% | BeyondTrust / Senior Security Technical Program Manager | Remote Toronto, ON Canada &#124; Remote United States | Remote available | Not disclosed | 2026-10-29T13:02:16-04:00 | [Apply](<https://job-boards.greenhouse.io/beyondtrust/jobs/8331655>) | Not available |
+| 55% | Egis Group / Technical Delivery Manager (PDS) | Sacramento, CA, us | Not specified | Not disclosed | 2026-10-29T20:38:53.632Z | [Apply](<https://jobs.smartrecruiters.com/EgisGroup/744000158601600-technical-delivery-manager-pds->) | Not available |
+| 55% | OpenAI / Commissioning and Quality Program Manager | San Francisco, California, United States | Not specified | $164K - $285K | 2026-10-29 | [Apply](<https://jobs.ashbyhq.com/openai/2b4aa186-a90c-4e6c-a544-5f2cc8558525>) | Not available |
+| 55% | AECOM / Mining EPCM Delivery Manager | Providencia Santiago, PROVIDENCIA SANTIAGO, cl | Not specified | Not disclosed | 2026-10-29T17:35:26.057Z | [Apply](<https://jobs.smartrecruiters.com/AECOM2/744000158579789-mining-epcm-delivery-manager>) | Not available |
+| 55% | Bosch Group / Sr. TPM Engineer | Lincolnton, NC, us | Not specified | Not disclosed | 2026-10-29T15:21:18.163Z | [Apply](<https://jobs.smartrecruiters.com/BoschGroup/744000158546464-sr-tpm-engineer>) | Not available |
+| 55% | OpenAI / Program Manager, Local Community Impact | New York, New York, United States; Remote: United States | Hybrid | $207K - $230K | 2026-10-29 | [Apply](<https://jobs.ashbyhq.com/openai/6ebd3534-d65b-4d90-ba96-6a54de31409d>) | Not available |
 
 ## Evidence and fit
 
 Topic match is a heuristic, not a hiring probability or verified assessment of experience. With topic focus enabled: 40 base points plus 15 per matched theme (Agile, OKRs, Operations, ISO 27001), capped at 100. At least one theme is required. Results are ordered by match; California breaks ties.
 
-### Lyft: Senior Technical Program Manager, Central
+### BeyondTrust: Senior Security Technical Program Manager
 
-- Job ID: greenhouse:lyft:8921735002
+- Job ID: greenhouse:beyondtrust:8331655
 - Application status: Not recorded as applied
-- Work arrangement: Hybrid. This role will be in-office on a hybrid schedule - Team Members will be expected to work in the office 3 days per week on Mondays, Wednesdays, and Thursdays
-- Publication date: 2026-10-28T14:29:55-04:00. Zoned timestamps are evaluated in California time.
-- Date evidence: [Greenhouse.first_published](<https://boards-api.greenhouse.io/v1/boards/lyft/jobs/8921735002?pay_transparency=true>)
-- Relevant themes: Agile, Operations.
-- Theme evidence: the official title or description mentions Agile.
+- Work arrangement: Remote available. The official location includes remote work; confirm geographic restrictions and other work arrangements with the employer.
+- Publication date: 2026-10-29T13:02:16-04:00. Zoned timestamps are evaluated in California time.
+- Date evidence: [Greenhouse.first_published](<https://boards-api.greenhouse.io/v1/boards/beyondtrust/jobs/8331655?pay_transparency=true>)
+- Relevant themes: Operations, ISO 27001.
 - Theme evidence: the official title or description mentions Operations.
+- Theme evidence: the official title or description mentions ISO 27001.
 
-### Qualtrics: Healthcare Program Manager
+### Egis Group: Technical Delivery Manager (PDS)
 
-- Job ID: greenhouse:qualtrics:8316925
+- Job ID: smartrecruiters:EgisGroup:744000158601600
 - Application status: Not recorded as applied
 - Work arrangement: Not specified. The reviewed official source does not confirm the work arrangement for this role.
-- Publication date: 2026-10-28T09:18:48-04:00. Zoned timestamps are evaluated in California time.
-- Date evidence: [Greenhouse.first_published](<https://boards-api.greenhouse.io/v1/boards/qualtrics/jobs/8316925?pay_transparency=true>)
-- Relevant themes: Agile, Operations.
-- Theme evidence: the official title or description mentions Agile.
-- Theme evidence: the official title or description mentions Operations.
-
-### Oscar Health: Technical Program Manager, Data
-
-- Job ID: greenhouse:oscar:8319419
-- Application status: Not recorded as applied
-- Work arrangement: Hybrid. Work Location: This position is based in our New York City office, requiring a hybrid work schedule with 3 days of in-office work per week
-- Publication date: 2026-10-28T14:28:58-04:00. Zoned timestamps are evaluated in California time.
-- Date evidence: [Greenhouse.first_published](<https://boards-api.greenhouse.io/v1/boards/oscar/jobs/8319419?pay_transparency=true>)
+- Publication date: 2026-10-29T20:38:53.632Z. Zoned timestamps are evaluated in California time.
+- Date evidence: [SmartRecruiters.releasedDate (release; may be a repost)](<https://api.smartrecruiters.com/v1/companies/EgisGroup/postings/744000158601600>)
 - Relevant themes: Operations.
 - Theme evidence: the official title or description mentions Operations.
 
-### Robinhood: Clearing Operations Program Manager
+### OpenAI: Commissioning and Quality Program Manager
 
-- Job ID: greenhouse:robinhood:8303977
+- Job ID: ashby:openai:2b4aa186-a90c-4e6c-a544-5f2cc8558525
 - Application status: Not recorded as applied
 - Work arrangement: Not specified. The reviewed official source does not confirm the work arrangement for this role.
-- Publication date: 2026-10-28T12:55:36-04:00. Zoned timestamps are evaluated in California time.
-- Date evidence: [Greenhouse.first_published](<https://boards-api.greenhouse.io/v1/boards/robinhood/jobs/8303977?pay_transparency=true>)
+- Publication date: 2026-10-29. Zoned timestamps are evaluated in California time.
+- Date evidence: [JobPosting.datePosted](<https://jobs.ashbyhq.com/openai/2b4aa186-a90c-4e6c-a544-5f2cc8558525>)
+- Relevant themes: Operations.
+- Theme evidence: the official title or description mentions Operations.
+
+### AECOM: Mining EPCM Delivery Manager
+
+- Job ID: smartrecruiters:AECOM2:744000158579789
+- Application status: Not recorded as applied
+- Work arrangement: Not specified. The reviewed official source does not confirm the work arrangement for this role.
+- Publication date: 2026-10-29T17:35:26.057Z. Zoned timestamps are evaluated in California time.
+- Date evidence: [SmartRecruiters.releasedDate (release; may be a repost)](<https://api.smartrecruiters.com/v1/companies/AECOM2/postings/744000158579789>)
+- Relevant themes: Operations.
+- Theme evidence: the official title or description mentions Operations.
+
+### Bosch Group: Sr. TPM Engineer
+
+- Job ID: smartrecruiters:BoschGroup:744000158546464
+- Application status: Not recorded as applied
+- Work arrangement: Not specified. The reviewed official source does not confirm the work arrangement for this role.
+- Publication date: 2026-10-29T15:21:18.163Z. Zoned timestamps are evaluated in California time.
+- Date evidence: [SmartRecruiters.releasedDate (release; may be a repost)](<https://api.smartrecruiters.com/v1/companies/BoschGroup/postings/744000158546464>)
+- Relevant themes: Operations.
+- Theme evidence: the official title or description mentions Operations.
+
+### OpenAI: Program Manager, Local Community Impact
+
+- Job ID: ashby:openai:6ebd3534-d65b-4d90-ba96-6a54de31409d
+- Application status: Not recorded as applied
+- Work arrangement: Hybrid. Official workplaceType field: Hybrid
+- Publication date: 2026-10-29. Zoned timestamps are evaluated in California time.
+- Date evidence: [JobPosting.datePosted](<https://jobs.ashbyhq.com/openai/6ebd3534-d65b-4d90-ba96-6a54de31409d>)
 - Relevant themes: Operations.
 - Theme evidence: the official title or description mentions Operations.
 
@@ -99,12 +121,12 @@ New verified employer boards retained for future searches: 0.
 | Latino and professional associations | Prospanica | 0 | 0 | 0 | 1 |
 | Latino and professional associations | HOPE - Hispanas Organized for Political Equality | 1 | 1 | 0 | 0 |
 | Latino and professional associations | Lean In Latinas | 1 | 0 | 0 | 1 |
-| Regional technology and startups | Built In San Francisco | 3 | 22 | 0 | 0 |
+| Regional technology and startups | Built In San Francisco | 3 | 24 | 0 | 0 |
 | Games and entertainment | Hitmarker | 3 | 1 | 0 | 0 |
 | Regional technology and startups | Welcome to the Jungle | 4 | 0 | 0 | 1 |
 | Life sciences | Biocom Career Hub | 1 | 0 | 0 | 1 |
 | Company careers | WelbeHealth official careers | 1 | 0 | 0 | 1 |
-| Company careers | Branch official careers | 1 | 14 | 0 | 0 |
+| Company careers | Branch official careers | 1 | 13 | 0 | 0 |
 | Company careers | thatgamecompany official careers | 0 | 0 | 0 | 1 |
 | Company careers | Turtle Rock Studios official careers | 1 | 1 | 0 | 0 |
 | Latino and professional associations | HLPA | 0 | 0 | 0 | 1 |
@@ -113,18 +135,18 @@ New verified employer boards retained for future searches: 0.
 | Latino and professional associations | Latinx in Tech Career Center | 1 | 0 | 0 | 1 |
 | Women and inclusive career networks | PowerToFly | 1 | 0 | 0 | 1 |
 | Women and inclusive career networks | Women Who Design | 1 | 0 | 0 | 1 |
-| Women and inclusive career networks | Women in Games International | 1 | 0 | 0 | 1 |
+| Women and inclusive career networks | Women in Games International | 1 | 1 | 0 | 0 |
 | Women and inclusive career networks | Started by Women | 1 | 1 | 0 | 0 |
-| Regional technology and startups | Wellfound California | 1 | 1 | 0 | 0 |
+| Regional technology and startups | Wellfound California | 1 | 0 | 0 | 1 |
 | Regional technology and startups | Y Combinator California | 1 | 0 | 0 | 1 |
 | Games and entertainment | Games Jobs Direct | 0 | 0 | 0 | 1 |
 | Games and entertainment | Bloks | 1 | 0 | 0 | 1 |
-| Games and entertainment | Gaming Industry Job Tracker | 1 | 1 | 0 | 0 |
+| Games and entertainment | Gaming Industry Job Tracker | 1 | 1 | 0 | 1 |
 | Games and entertainment | ASGC Games Jobs | 1 | 0 | 0 | 1 |
 | Life sciences | BioSpace California | 0 | 0 | 0 | 1 |
 | Life sciences | BioTalent | 1 | 0 | 0 | 1 |
 | Remote and international | Manfred Spain | 1 | 0 | 0 | 1 |
-| Remote and international | Wellfound Remote | 1 | 30 | 0 | 0 |
+| Remote and international | Wellfound Remote | 1 | 29 | 0 | 0 |
 | Remote and international | Jobgether | 0 | 0 | 0 | 1 |
 | Remote and international | Remotely | 1 | 11 | 0 | 0 |
 ## Coverage and source issues
@@ -197,10 +219,11 @@ The daily 5 pm run cannot include listings published after it begins. Historical
 - Latinx in Tech Career Center: No supported role links in public HTML; dynamic or member-only results may be unavailable
 - PowerToFly: No supported role links in public HTML; dynamic or member-only results may be unavailable
 - Women Who Design: No supported role links in public HTML; dynamic or member-only results may be unavailable
-- Women in Games International: No supported role links in public HTML; dynamic or member-only results may be unavailable
+- Wellfound California: No supported role links in public HTML; dynamic or member-only results may be unavailable
 - Y Combinator California: No supported role links in public HTML; dynamic or member-only results may be unavailable
 - Games Jobs Direct: https://www.gamesjobsdirect.com/search: HTTP Error 406: Not Acceptable
 - Bloks: No supported role links in public HTML; dynamic or member-only results may be unavailable
+- Gaming Industry Job Tracker: https://jobs.christran.gg/jobs/53670: HTTP Error 410: Gone
 - ASGC Games Jobs: No supported role links in public HTML; dynamic or member-only results may be unavailable
 - BioSpace California: https://jobs.biospace.com/california: HTTP Error 429: Too Many Requests
 - BioTalent: No supported role links in public HTML; dynamic or member-only results may be unavailable

@@ -1,0 +1,545 @@
+{
+  "date": "2026-10-29",
+  "verified_at": "2026-10-29T17:41:30.941753-07:00",
+  "metrics": {
+    "reviewed": 61232,
+    "sources_ok": 275,
+    "unverified": 0,
+    "applied_excluded": 0,
+    "seen_excluded": 0,
+    "linkedin_candidates": 84,
+    "linkedin": "Public access available: 42 searches; publication dates verified only against official sources",
+    "errors": [
+      "devot: HTTPError",
+      "wiz: HTTPError",
+      "yelp: HTTPError",
+      "contentsquare: HTTPError",
+      "factorialhr: HTTPError",
+      "factorial: HTTPError",
+      "travelperk: HTTPError",
+      "jobandtalent: HTTPError",
+      "glovo: HTTPError",
+      "bookingcom: HTTPError",
+      "expediagroup: HTTPError",
+      "cimpress: HTTPError",
+      "vistaprint: HTTPError",
+      "softtek: HTTPError",
+      "agileengine: HTTPError",
+      "konfio: HTTPError",
+      "clipmx: HTTPError",
+      "kueski: HTTPError",
+      "klar: HTTPError",
+      "yalo: HTTPError",
+      "nowports: HTTPError",
+      "remitly: HTTPError",
+      "payjoy: HTTPError",
+      "tala: HTTPError",
+      "openpay: HTTPError",
+      "global66: HTTPError",
+      "habi: HTTPError",
+      "truora: HTTPError",
+      "platzi: HTTPError",
+      "clara: HTTPError",
+      "bitso: HTTPError",
+      "stori: HTTPError",
+      "mendel: HTTPError",
+      "factorial: HTTPError",
+      "lodgify: HTTPError",
+      "secretsource: HTTPError",
+      "sastrify: HTTPError",
+      "safetywing: HTTPError",
+      "jobgether: HTTPError",
+      "lemonio: HTTPError",
+      "nearsure: HTTPError",
+      "crunchyroll: HTTPError",
+      "amdocs: HTTPError",
+      "slalom: HTTPError",
+      "slalombuild: HTTPError",
+      "cprime: HTTPError",
+      "avature: HTTPError",
+      "guidewire: HTTPError",
+      "netsuite: HTTPError",
+      "eon: HTTPError",
+      "epamanywhere: HTTPError",
+      "akamai: HTTPError",
+      "thoughtmachine: HTTPError",
+      "checkoutcom: HTTPError",
+      "flywire: HTTPError",
+      "Prospanica: https://jobs.prospanica.org/home/index.cfm: HTTP Error 403: Forbidden",
+      "Lean In Latinas: No supported role links in public HTML; dynamic or member-only results may be unavailable",
+      "Welcome to the Jungle: No supported role links in public HTML; dynamic or member-only results may be unavailable",
+      "Biocom Career Hub: No supported role links in public HTML; dynamic or member-only results may be unavailable",
+      "WelbeHealth official careers: No supported role links in public HTML; dynamic or member-only results may be unavailable",
+      "thatgamecompany official careers: https://thatgamecompany.com/company/jobs/: Only public HTTPS URLs are allowed",
+      "HLPA: https://jobs.hlpa.com/employment/search.aspx: HTTP Error 406: Not Acceptable",
+      "SHPE: https://careercenter.shpe.org/: HTTP Error 403: Forbidden",
+      "Techqueria: No supported role links in public HTML; dynamic or member-only results may be unavailable",
+      "Latinx in Tech Career Center: No supported role links in public HTML; dynamic or member-only results may be unavailable",
+      "PowerToFly: No supported role links in public HTML; dynamic or member-only results may be unavailable",
+      "Women Who Design: No supported role links in public HTML; dynamic or member-only results may be unavailable",
+      "Wellfound California: No supported role links in public HTML; dynamic or member-only results may be unavailable",
+      "Y Combinator California: No supported role links in public HTML; dynamic or member-only results may be unavailable",
+      "Games Jobs Direct: https://www.gamesjobsdirect.com/search: HTTP Error 406: Not Acceptable",
+      "Bloks: No supported role links in public HTML; dynamic or member-only results may be unavailable",
+      "Gaming Industry Job Tracker: https://jobs.christran.gg/jobs/53670: HTTP Error 410: Gone",
+      "ASGC Games Jobs: No supported role links in public HTML; dynamic or member-only results may be unavailable",
+      "BioSpace California: https://jobs.biospace.com/california: HTTP Error 429: Too Many Requests",
+      "BioTalent: No supported role links in public HTML; dynamic or member-only results may be unavailable",
+      "Manfred Spain: No supported role links in public HTML; dynamic or member-only results may be unavailable",
+      "Jobgether: https://jobgether.com/remote-jobs/program-manager: HTTP Error 403: Forbidden"
+    ],
+    "discovery": [
+      {
+        "source": "Prospanica",
+        "category": "Latino and professional associations",
+        "pages": 0,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "https://jobs.prospanica.org/home/index.cfm: HTTP Error 403: Forbidden"
+        ]
+      },
+      {
+        "source": "HOPE - Hispanas Organized for Political Equality",
+        "category": "Latino and professional associations",
+        "pages": 1,
+        "candidates": 1,
+        "verified": 0,
+        "issues": []
+      },
+      {
+        "source": "Lean In Latinas",
+        "category": "Latino and professional associations",
+        "pages": 1,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "No supported role links in public HTML; dynamic or member-only results may be unavailable"
+        ]
+      },
+      {
+        "source": "Built In San Francisco",
+        "category": "Regional technology and startups",
+        "pages": 3,
+        "candidates": 24,
+        "verified": 0,
+        "issues": []
+      },
+      {
+        "source": "Hitmarker",
+        "category": "Games and entertainment",
+        "pages": 3,
+        "candidates": 1,
+        "verified": 0,
+        "issues": []
+      },
+      {
+        "source": "Welcome to the Jungle",
+        "category": "Regional technology and startups",
+        "pages": 4,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "No supported role links in public HTML; dynamic or member-only results may be unavailable"
+        ]
+      },
+      {
+        "source": "Biocom Career Hub",
+        "category": "Life sciences",
+        "pages": 1,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "No supported role links in public HTML; dynamic or member-only results may be unavailable"
+        ]
+      },
+      {
+        "source": "WelbeHealth official careers",
+        "category": "Company careers",
+        "pages": 1,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "No supported role links in public HTML; dynamic or member-only results may be unavailable"
+        ]
+      },
+      {
+        "source": "Branch official careers",
+        "category": "Company careers",
+        "pages": 1,
+        "candidates": 13,
+        "verified": 0,
+        "issues": []
+      },
+      {
+        "source": "thatgamecompany official careers",
+        "category": "Company careers",
+        "pages": 0,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "https://thatgamecompany.com/company/jobs/: Only public HTTPS URLs are allowed"
+        ]
+      },
+      {
+        "source": "Turtle Rock Studios official careers",
+        "category": "Company careers",
+        "pages": 1,
+        "candidates": 1,
+        "verified": 0,
+        "issues": []
+      },
+      {
+        "source": "HLPA",
+        "category": "Latino and professional associations",
+        "pages": 0,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "https://jobs.hlpa.com/employment/search.aspx: HTTP Error 406: Not Acceptable"
+        ]
+      },
+      {
+        "source": "SHPE",
+        "category": "Latino and professional associations",
+        "pages": 0,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "https://careercenter.shpe.org/: HTTP Error 403: Forbidden"
+        ]
+      },
+      {
+        "source": "Techqueria",
+        "category": "Latino and professional associations",
+        "pages": 1,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "No supported role links in public HTML; dynamic or member-only results may be unavailable"
+        ]
+      },
+      {
+        "source": "Latinx in Tech Career Center",
+        "category": "Latino and professional associations",
+        "pages": 1,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "No supported role links in public HTML; dynamic or member-only results may be unavailable"
+        ]
+      },
+      {
+        "source": "PowerToFly",
+        "category": "Women and inclusive career networks",
+        "pages": 1,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "No supported role links in public HTML; dynamic or member-only results may be unavailable"
+        ]
+      },
+      {
+        "source": "Women Who Design",
+        "category": "Women and inclusive career networks",
+        "pages": 1,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "No supported role links in public HTML; dynamic or member-only results may be unavailable"
+        ]
+      },
+      {
+        "source": "Women in Games International",
+        "category": "Women and inclusive career networks",
+        "pages": 1,
+        "candidates": 1,
+        "verified": 0,
+        "issues": []
+      },
+      {
+        "source": "Started by Women",
+        "category": "Women and inclusive career networks",
+        "pages": 1,
+        "candidates": 1,
+        "verified": 0,
+        "issues": []
+      },
+      {
+        "source": "Wellfound California",
+        "category": "Regional technology and startups",
+        "pages": 1,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "No supported role links in public HTML; dynamic or member-only results may be unavailable"
+        ]
+      },
+      {
+        "source": "Y Combinator California",
+        "category": "Regional technology and startups",
+        "pages": 1,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "No supported role links in public HTML; dynamic or member-only results may be unavailable"
+        ]
+      },
+      {
+        "source": "Games Jobs Direct",
+        "category": "Games and entertainment",
+        "pages": 0,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "https://www.gamesjobsdirect.com/search: HTTP Error 406: Not Acceptable"
+        ]
+      },
+      {
+        "source": "Bloks",
+        "category": "Games and entertainment",
+        "pages": 1,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "No supported role links in public HTML; dynamic or member-only results may be unavailable"
+        ]
+      },
+      {
+        "source": "Gaming Industry Job Tracker",
+        "category": "Games and entertainment",
+        "pages": 1,
+        "candidates": 1,
+        "verified": 0,
+        "issues": [
+          "https://jobs.christran.gg/jobs/53670: HTTP Error 410: Gone"
+        ]
+      },
+      {
+        "source": "ASGC Games Jobs",
+        "category": "Games and entertainment",
+        "pages": 1,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "No supported role links in public HTML; dynamic or member-only results may be unavailable"
+        ]
+      },
+      {
+        "source": "BioSpace California",
+        "category": "Life sciences",
+        "pages": 0,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "https://jobs.biospace.com/california: HTTP Error 429: Too Many Requests"
+        ]
+      },
+      {
+        "source": "BioTalent",
+        "category": "Life sciences",
+        "pages": 1,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "No supported role links in public HTML; dynamic or member-only results may be unavailable"
+        ]
+      },
+      {
+        "source": "Manfred Spain",
+        "category": "Remote and international",
+        "pages": 1,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "No supported role links in public HTML; dynamic or member-only results may be unavailable"
+        ]
+      },
+      {
+        "source": "Wellfound Remote",
+        "category": "Remote and international",
+        "pages": 1,
+        "candidates": 29,
+        "verified": 0,
+        "issues": []
+      },
+      {
+        "source": "Jobgether",
+        "category": "Remote and international",
+        "pages": 0,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "https://jobgether.com/remote-jobs/program-manager: HTTP Error 403: Forbidden"
+        ]
+      },
+      {
+        "source": "Remotely",
+        "category": "Remote and international",
+        "pages": 1,
+        "candidates": 11,
+        "verified": 0,
+        "issues": []
+      }
+    ],
+    "new_employer_boards": 0,
+    "focus_excluded": 2,
+    "mexico_verified_candidates": 0,
+    "spain_verified_candidates": 0
+  },
+  "jobs": [
+    {
+      "id": "greenhouse:beyondtrust:8331655",
+      "company": "BeyondTrust",
+      "title": "Senior Security Technical Program Manager",
+      "location": "Remote Toronto, ON Canada | Remote United States",
+      "salary": "Not disclosed",
+      "official_url": "https://job-boards.greenhouse.io/beyondtrust/jobs/8331655",
+      "posted": "2026-10-29T13:02:16-04:00",
+      "date_evidence": "Greenhouse.first_published",
+      "evidence_url": "https://boards-api.greenhouse.io/v1/boards/beyondtrust/jobs/8331655?pay_transparency=true",
+      "description": "<p>BeyondTrust is a place where you can bring your purpose to life through the work that you do, creating a safer world through our cybersecurity SaaS portfolio.</p> <p>Our culture of flexibility, trust, and continual learning means you will be recognized for your growth and for the impact you make on our success. You will be surrounded by people who challenge, support, and inspire you to be the best version of yourself.</p> <p><u>The Role</u></p> <p>As a Senior Security Technical Program Manager at BeyondTrust, you will use your technical expertise, business acumen and security domain knowledge to manage and streamline critical CISO Office operations and programs. In this role, you will be an advocate for building seamless and metrics-driven operational frameworks. You will be responsible for working collaboratively with CISO Office teams and business stakeholders to identify operational gaps, document requirements and needs, metrics visualization, and execute programs to streamline the way BeyondTrust build and retains customer trust.</p> <p><u>What You’ll Do</u></p> <ul> <li>Oversee, plan, and manage security initiatives for all security pillars.</li> <li>Serve as the Security TPM for the security issues management program, running the end-to-end lifecycle on the security issues management Jira board from identification and triage through handoff, validation, closure, and reporting.</li> <li>Triage every new issues against the priority rubric (exploitability, blast radius, data sensitivity, regulatory or audit linkage, and compensating controls), confirm or adjust the Reporter’s initial priority, and set a due date at triage, hand off to Assignee as identified.</li> <li>Own Critical and High issues day to day, including executive notification, direct engagement with the Assignee, unblocking dependencies, and fast-tracking validation. Monitor additional issues through the recurring security issues management review and step in when an escalation trigger fires.</li> <li>Enforce the analysis gate before handoff, approving a ticket as handoff-ready only when root cause, a specific recommended remediation, named impacted systems and teams, and verifiable acceptance criteria are documented.</li> <li>Identify the correct accountable Assignee by role, run a single structured handoff meeting, and drive formal acceptance in Jira within the agreed window.</li> <li>Confirm Assignee remediation plans meet the acceptance criteria without redesigning them, and help surface cross-team dependencies such as budget, tooling, or other teams.</li> <li>Run the recurring cross-functional security issues review, require an updated due date and logged reason for any slippage, and act as decision-maker on priority and acceptance-criteria disputes, escalating unresolved disagreements to the Sponsor.</li> <li>Formally close security issues only after independent Security validation passes, and reopen failed validations to the Assignee with the specific gap noted.</li> <li>Maintain security issues management board hygiene, including identifying duplicate or overlapping tickets, consolidation opportunities, and tickets missing descriptions, due dates, or owners.</li> <li>Lead the Cloud Governance program to convert eligible cloud-scoped remediations into enforceable Kion guardrails.</li> <li>Create detailed project plans to support each initiative while defining and supporting metric visualization for all of BT.&nbsp;</li> <li>Provide a steady stream of ideas and solutions during security initiatives to introduce innovation and improve operational efficiency.&nbsp;</li> <li>Implement relevant metrics to measure security specific program success, including the security issues management program health (open and closed volume by priority tier, overdue tickets, tickets not yet accepted, and due-date slippage).</li> <li>Develop reports to communicate program progress, including the monthly rollup and the quarterly Sponsor program review, to leadership and cross-functional stakeholders.&nbsp;</li> <li>Collaborate with other cross-functional teams.&nbsp;</li> <li>Identify cross-team dependencies to incorporate them into the program planning process.&nbsp;</li> <li>Ensure root cause analysis is completed for technical issues and security findings, and shepherd the implementation of solutions through accountable owners.&nbsp;</li> <li>Make necessary recommendations for adjustments to security processes based on performance metrics.&nbsp;</li> <li>Influence strategic decisions about security direction.</li> <li>Participates in building and managing of AI processes to create operational efficiency.</li> <li>Ensure complete compliance according to industry standards by documenting all the processes and adjusting them, when necessary.&nbsp;</li> <li>Manage project escalations and help assemble project teams to tackle critical items, including executing the security issues management program’s defined escalation triggers (non-acceptance, unlogged slippage, and overdue or Critical findings) to the Assignee’s Manager, Trust &amp; Assurance Leadership, or the ELT Sponsor.</li> </ul> <p><u>What You’ll Bring<br></u></p> <ul> <li>Bachelor's degree in technology, Business Administration, Computer Science, or related field</li> <li>5-7 years of relevant professional experience in security, project management, or technology</li> <li>Proficient level of understanding security domains</li> <li>Experience in communicating technical concepts to non-technical audiences and vice versa.</li> <li>Experience with creative problem solving in a fast-paced and ever-changing environment.</li> <li>Experience in Security or Cloud software solutions</li> <li>Ability to recognize, evaluate and reduce program risks</li> <li>Excellent stakeholder management skills</li> <li>Demonstrated experience running a security findings, vulnerability management, or audit remediation program across multiple engineering and business teams, from intake and prioritization through verified closure</li> <li>Experience applying structured risk-scoring methods (e.g., CVSS or a weighted rubric) consistently and defending prioritization decisions with stakeholders</li> <li>Proven ability to drive accountability with owners outside your reporting line, including formal handoffs, acceptance, and escalation to senior leadership</li> <li>Hands-on experience with Jira workflows, JQL, and dashboards for program tracking and reporting</li> <li>Working knowledge of compliance frameworks and audit evidence (e.g., SOC 2, ISO 27001)</li> </ul> <p><u>Nice To Have<br></u></p> <ul> <li>Security certification, e.g. CISA, CISSP; program management certification, e.g. PMP</li> <li>Strong business acumen</li> <li>Big picture thinker and self-starter</li> <li>Excellent time management and organizational skills</li> <li>Experience working for a fast paced, SaaS company</li> <li>Strong spoken and written communication skills</li> <li>Experience with cloud security posture management or policy-as-code guardrails in AWS, Azure, or GCP (e.g., Kion)</li> <li>Experience using automation or AI to streamline finding triage, validation, or program reporting</li> </ul> <p><u>Better Together</u></p> <p>Diversity. Inclusion. They’re more than just words for us. They are the guiding values of how we build our teams, cultivate leaders, and create a culture where people feel connected.</p> <p>We take care of our employees so they can take care of our customers. Customers who come from all walks of life just like us. We hire incredible people from diverse backgrounds because when we are different together, we are stronger together.</p> <p><u>About Us</u></p> <p>BeyondTrust is the global identity security leader protecting Paths to Privilege™. Our identity-centric approach goes beyond securing privileges and access, empowering organizations with the most effective solution to manage the entire identity attack surface and neutralize threats, whether from external attacks or insiders.<br><br>BeyondTrust is leading the charge in transforming identity security to prevent breaches and limit the blast radius of attacks, while creating a superior customer experience and operational efficiencies. We are trusted by 20,000 customers, including 75 of the Fortune 100, and our global ecosystem of partners.<br><br>Learn more at <a href=\"https://www.beyondtrust.com\">www.beyondtrust.com</a>.</p> <p>#LI-DF1</p>",
+      "linkedin_url": "",
+      "focus_matches": [
+        "Operations",
+        "ISO 27001"
+      ],
+      "focus_evidence": {
+        "Operations": "ain knowledge to manage and streamline critical CISO Office operations and programs. In this role, you will be an advocate for building seamless and metrics-driven operat",
+        "ISO 27001": "e of compliance frameworks and audit evidence (e.g., SOC 2, ISO 27001) Nice To Have Security certification, e.g. CISA, CISSP; program management certification, e.g. PMP "
+      },
+      "work_mode": "Remote available",
+      "work_mode_evidence": "The official location includes remote work; confirm geographic restrictions and other work arrangements with the employer.",
+      "match": 70,
+      "matched_skills": [
+        "Operations",
+        "ISO 27001"
+      ]
+    },
+    {
+      "id": "smartrecruiters:EgisGroup:744000158601600",
+      "company": "Egis Group",
+      "title": "Technical Delivery Manager (PDS)",
+      "location": "Sacramento, CA, us",
+      "salary": "Not disclosed",
+      "official_url": "https://jobs.smartrecruiters.com/EgisGroup/744000158601600-technical-delivery-manager-pds-",
+      "posted": "2026-10-29T20:38:53.632Z",
+      "date_evidence": "SmartRecruiters.releasedDate (release; may be a repost)",
+      "evidence_url": "https://api.smartrecruiters.com/v1/companies/EgisGroup/postings/744000158601600",
+      "description": "Lochner and Egis are entering an exciting new chapter as one organization. We have combined decades of trusted U.S. engineering expertise with the global reach, technical excellence, and career opportunities of a leading international engineering, consulting, and infrastructure firm. While our name has changed, our commitment to our people, clients, and communities is stronger than ever. At Egis, every project is an opportunity to create lasting impact. We collaborate with public and private clients to design and deliver innovative transportation, aviation, rail, transit, water, structural, environmental, and infrastructure solutions that connect communities and improve everyday life. Join a team where innovation is encouraged, collaboration is valued, and your work helps build a more sustainable future. We are looking for a Technical Delivery Manager in our Sacramento, CA office. Reporting to the Director of Engineering Services, this individual helps drive project delivery strategy and execution across all phases of the high-speed rail program, from engineering and environmental review through procurement. The role provides senior-level leadership and oversight of consultant teams delivering preliminary engineering, environmental documentation, and major civil infrastructure projects. Position Responsibilities Support the Director of Engineering Services in the development of the overall framework for program delivery. This activity includes project planning, and determining key delivery strategies, procurement and phasing from initial conception through to preconstruction Establishment of an integrated strategy for delivery of projects through engineering, environmental and preconstruction procurement phases Oversight and management of the Consultant teams responsible for delivery of preliminary engineering and environmental documents, and the development of civil infrastructure projects across the high-speed rail program Advises Authority executives on strategic matters to ensure timely and effective decisions making in relation to permitting and construction compliance matters Coordinate with other CAHSR offices, branches and Engineering Services sections and integrate their input for the engineering, environmental and preconstruction procurement phases. These include the other Network Integration & Assurance, Rail System Engineering and Civil Infrastructure Engineering sections of the Engineering Services Branch, the Planning & Sustainability Branch and the Environmental Services Branch. Coordination with other offices includes the Program and System Safety and Security, Rail Operations, Real Property Construction, Project Controls and Contracting offices. Bachelor of science in civil engineering or in a relevant discipline and at least 15 years of experience managing the delivery of infrastructure projects of similar size, scope, and complexity, which shall include high speed rail projects Experience of senior engineering and project development management roles in major high-speed rail projects or programs Proficient in high-speed rail principles, performance, technologies, design criteria and operations and maintenance requirements Ability to analyze and inspire innovative solutions to complex challenges Why You'll Thrive at Egis At Egis, you'll do more than build your career—you'll help shape the future of infrastructure. As we continue to expand across the United States, we're looking for curious, collaborative professionals who are passionate about solving complex challenges and delivering projects that improve communities and create lasting impact. Whether you're launching your career or bringing years of experience, you'll have the opportunity to work alongside industry-leading experts, collaborate across disciplines and borders, and contribute to projects that transform the way people live, move, and connect. Here, you'll be empowered to take on meaningful work, develop new skills, and grow your career with the support of a global engineering leader. What Sets Egis Apart Meaningful Projects – Contribute to complex infrastructure projects that strengthen communities and improve quality of life. Global Expertise, Local Impact – Collaborate with technical specialists across North America and around the world while delivering solutions that make a difference locally. Career Growth – Expand your skills through mentorship, professional development, technical training, and leadership opportunities. A Culture of Collaboration – Thrive in an inclusive environment where diverse perspectives are valued, innovation is encouraged, and teamwork drives success. Opportunity to Grow with Us – Join a rapidly expanding organization where your ideas, contributions, and career can grow alongside the business. Total Rewards That Support You We believe great work starts with supporting our people. That's why Egis offers a comprehensive Total Rewards program designed to promote your health, well-being, financial security, and professional growth, including: Competitive medical, dental, and vision coverage 401(k) retirement plan with company match Paid time off and flexible holiday program Flexible work arrangements, including hybrid and remote opportunities where business needs allow Life insurance and disability coverage, including maternity leave Health Savings Account (HSA) with employer contributions Flexible Spending Accounts (FSA) for healthcare and dependent care expenses Paid family leave Wellness programs supporting physical and mental well-being Education assistance, professional development, and continuing learning opportunities Employee Assistance Program (EAP) Employee discount programs Compensation & Pay Transparency At Egis, we believe transparency helps candidates make informed career decisions. As part of our commitment to an open and equitable hiring process, we've included the anticipated base salary range for this position below. Anticipated Base Salary Range: $160,000 – $200,000 annually. At Egis, we're committed to creating an environment where talented people can do their best work, continue to grow professionally, and build rewarding, long-term careers. We're committed to making competitive offers that recognize the unique experience, expertise, and value each candidate brings to our team. In addition to base salary, this position may be eligible for incentive compensation, where applicable, as well as professional development opportunities, and other employee programs. Equal Employer Egis is proudly committed to recruiting and retaining a diverse and inclusive workforce. Egis provides equal employment opportunities to all employees and applicants for employment and prohibits discrimination and harassment of any type without regard to race, color, religion, age, sex, national origin, disability status, genetics, protected veteran status, sexual orientation, gender identity or expression, or any other characteristic protected by federal, state, or local laws. All positions at Egis require an applicant who has accepted an employment offer to undergo pre-employment screening. Background checks include SSN/SIN validation, motor vehicle verification, education verification, employment verification, a criminal check, search against global sanctions and government watch lists, and drug tests. All employment offers are contingent upon successful results of the pre-employment screening.",
+      "linkedin_url": "",
+      "focus_matches": [
+        "Operations"
+      ],
+      "focus_evidence": {
+        "Operations": "s includes the Program and System Safety and Security, Rail Operations, Real Property Construction, Project Controls and Contracting offices. Bachelor of science in civil"
+      },
+      "work_mode": "Not specified",
+      "work_mode_evidence": "The reviewed official source does not confirm the work arrangement for this role.",
+      "match": 55,
+      "matched_skills": [
+        "Operations"
+      ]
+    },
+    {
+      "id": "ashby:openai:2b4aa186-a90c-4e6c-a544-5f2cc8558525",
+      "company": "OpenAI",
+      "title": "Commissioning and Quality Program Manager",
+      "location": "San Francisco, California, United States",
+      "salary": "$164K - $285K",
+      "official_url": "https://jobs.ashbyhq.com/openai/2b4aa186-a90c-4e6c-a544-5f2cc8558525",
+      "posted": "2026-10-29",
+      "date_evidence": "JobPosting.datePosted",
+      "evidence_url": "https://jobs.ashbyhq.com/openai/2b4aa186-a90c-4e6c-a544-5f2cc8558525",
+      "description": "About the Team OpenAI, in close collaboration with our capital partners, is building the world’s most advanced AI infrastructure ecosystem. The Compute team sets core infrastructure strategy and executes at global scale—spanning site selection through full buildout, in close partnership with internal and external stakeholders. About the Role We’re hiring a Commissioning and Quality Program Manager to oversee quality assurance, quality control and commissioning across all phases of our global hyperscale data center program. You will oversee the delivery quality for a massive portfolio of projects across several campuses. You’ll ensure work meets or exceeds OpenAI’s design standards, performance requirements, and reliability expectations—from early construction through commissioning and turnover to operations. You’ll own development and enforcement of QA/QC standards, inspection protocols, commissioning scope, and acceptance criteria, working closely with contractors, design teams, and commissioning partners to embed a quality-first culture. Travel: Up to 50% Key Responsibilities Develop and maintain the portfolio-level QA/QC program for hyperscale data center construction (standards, checklists, acceptance protocols). Review and approve developer QA/QC and commissioning plans for alignment with project specs and industry best practices. Oversee site inspections across civil, structural, architectural, mechanical, and electrical scopes. Validate installation quality against drawings, specifications, and manufacturer requirements. Monitor and track punch list items, NCRs, and corrective actions with the developer and contractors, including critical Method of Procedure (MOP) work. Partner with the developer’s commissioning teams to ensure QA/QC documentation supports readiness for both functional and integrated testing. Validate functional and integrated systems testing completion in preparation for OAI acceptance. Maintain real-time quality tracking and reporting dashboards for program leadership. Train and guide site teams on quality expectations, inspections, and documentation standards. Drive continuous improvement by capturing lessons learned and updating standards for future sites. Qualifications Have 10+ years managing quality and commissioning for mission-critical, hyperscale, or complex commercial developments. Have deep technical knowledge of construction means/methods and quality standards across major trades. Can interpret design documents, specs, and submittals to verify field compliance. Have experience developing and implementing quality management systems at program or portfolio scale. Communicate effectively with executives, contractors, and site teams—translating findings into actionable recommendations. Proactively identify quality risks before they impact cost or schedule. Thrive in fast-paced, complex environments and can drive accountability across stakeholders. Preferred Skills This role is central to ensuring every system is delivered to spec, on time, and built to last—supporting OpenAI’s reliability expectations across a global hyperscale build program Experience delivering QA/QC and commissioning programs for hyperscale data centers (e.g., >50MW campuses) across multiple regions. Familiarity with industry commissioning standards and frameworks (e.g., ASHRAE, Uptime Institute, CSA, BICSI). Deep expertise in mission-critical MEP systems, including power (MV/LV), cooling (chilled water, DX), controls, and redundancy architectures (N, N+1, 2N). Experience working with JDM/ODM or developer-led delivery models, including navigating multi-party accountability structures. Proven track record managing third-party commissioning agents (CxA) and integrating their work into broader program QA/QC frameworks. Strong understanding of digital QA/QC and commissioning tools (e.g., Procore, BIM 360, PlanGrid, CxAlloy, Bluebeam, or similar platforms). Experience building and scaling portfolio-level quality dashboards and reporting systems for executive visibility. Ability to operate effectively in global environments, including managing cultural, regulatory, and contractor differences across regions. Background in failure analysis, root cause investigation, and reliability engineering for mission-critical infrastructure. Bachelor’s degree in Engineering, Construction Management, or related field (advanced degree or professional certifications such as PE, PMP, CxA, LEED are a plus) About OpenAI OpenAI is an AI research and deployment company dedicated to ensuring that general-purpose artificial intelligence benefits all of humanity. We push the boundaries of the capabilities of AI systems and seek to safely deploy them to the world through our products. AI is an extremely powerful tool that must be created with safety and human needs at its core, and to achieve our mission, we must encompass and value the many different perspectives, voices, and experiences that form the full spectrum of humanity. We are an equal opportunity employer, and we do not discriminate on the basis of race, religion, color, national origin, sex, sexual orientation, age, veteran status, disability, genetic information, or other applicable legally protected characteristic. For additional information, please see OpenAI’s Affirmative Action and Equal Employment Opportunity Policy Statement . Background checks for applicants will be administered in accordance with applicable law, and qualified applicants with arrest or conviction records will be considered for employment consistent with those laws, including the San Francisco Fair Chance Ordinance, the Los Angeles County Fair Chance Ordinance for Employers, and the California Fair Chance Act, for US-based candidates. For unincorporated Los Angeles County workers: we reasonably believe that criminal history may have a direct, adverse and negative relationship with the following job duties, potentially resulting in the withdrawal of a conditional offer of employment: protect computer hardware entrusted to you from theft, loss or damage; return all computer hardware in your possession (including the data contained therein) upon termination of employment or end of assignment; and maintain the confidentiality of proprietary, confidential, and non-public information. In addition, job duties require access to secure and protected information technology systems and related data security obligations. To notify OpenAI that you believe this job posting is non-compliant, please submit a report through this form . No response will be provided to inquiries unrelated to job posting compliance. We are committed to providing reasonable accommodations to applicants with disabilities, and requests can be made via this link . OpenAI Global Applicant Privacy Policy At OpenAI, we believe artificial intelligence has the potential to help people solve immense global challenges, and we want the upside of AI to be widely shared. Join us in shaping the future of technology.",
+      "linkedin_url": "",
+      "work_mode": "Not specified",
+      "work_mode_evidence": "The reviewed official source does not confirm the work arrangement for this role.",
+      "focus_matches": [
+        "Operations"
+      ],
+      "focus_evidence": {
+        "Operations": "om early construction through commissioning and turnover to operations. You’ll own development and enforcement of QA/QC standards, inspection protocols, commissioning sco"
+      },
+      "match": 55,
+      "matched_skills": [
+        "Operations"
+      ]
+    },
+    {
+      "id": "smartrecruiters:AECOM2:744000158579789",
+      "company": "AECOM",
+      "title": "Mining EPCM Delivery Manager",
+      "location": "Providencia Santiago, PROVIDENCIA SANTIAGO, cl",
+      "salary": "Not disclosed",
+      "official_url": "https://jobs.smartrecruiters.com/AECOM2/744000158579789-mining-epcm-delivery-manager",
+      "posted": "2026-10-29T17:35:26.057Z",
+      "date_evidence": "SmartRecruiters.releasedDate (release; may be a repost)",
+      "evidence_url": "https://api.smartrecruiters.com/v1/companies/AECOM2/postings/744000158579789",
+      "description": "Work with Us. Change the World. At AECOM, we're delivering a better world. Whether improving your commute, keeping the lights on, providing access to clean water, or transforming skylines, our work helps people and communities thrive. We are the world's trusted infrastructure consulting firm, partnering with clients to solve the world’s most complex challenges and build legacies for future generations. There has never been a better time to be at AECOM. With accelerating infrastructure investment worldwide, our services are in great demand. We invite you to bring your bold ideas and big dreams and become part of a global team of over 50,000 planners, designers, engineers, scientists, digital innovators, program and construction managers and other professionals delivering projects that create a positive and tangible impact around the world. We're one global team driven by our common purpose to deliver a better world. Join us. AECOM is seeking an experienced EPCM Delivery Manager to join us in Santiago de Chile. You will be responsible for integrating AECOM’s multi-disciplinary engineering design teams with client project management units, global equipment vendors, and construction contractors. Acting as the core delivery liaison, you will ensure projects are delivered safely, sustainably, on schedule, and within budget while adhering to AECOM’s world-class quality and safety standards. Key Responsibilities 1. Delivery Leadership & Client Advisory Act as the primary EPCM/EPC delivery contact for major mining clients, ensuring seamless alignment between AECOM’s consulting services and client CapEx goals. Develop and execute project-specific Project Execution Plans (PEP) , contracting strategies, and risk mitigation frameworks tailored to remote mining environments. Lead cross-functional integration across engineering disciplines (civil, structural, mechanical, metallurgical, electrical), global procurement, site construction management, and environmental services. 2. Contract Administration & Package Management Oversee procurement package execution for long-lead mining and processing equipment (e.g., grinding mills, crushers, flotation cells, thickeners, and material handling systems). Drive claims mitigation, scope change logging, and variation management to protect both client and company commercial interests. 3. Field Execution & Construction Oversight Coordinate seamlessly with site-based AECOM or client Construction Managers to maintain alignment between head-office engineering deliverables and field construction schedules. Manage complex interfaces between process plant engineering, site earthworks, tailings management facilities (TMF), and off-site infrastructure (power, water, rail/port roads). 4. Digital Engineering, Project Controls & Handover Leverage AECOM’s digital delivery tools (BIM, digital twins, Aconex, Primavera P6) to monitor critical path progress, earn-value performance, and design interface conflicts. Lead pre-commissioning readiness reviews, cold/hot commissioning interface planning, and operational readiness handovers to client mining operations teams. Prepare high-level executive dashboard reports and board-level project progress updates. Minimum Requirements Bachelor’s Degree in Engineering (Mining, Metallurgical, Civil, Mechanical, or Chemical) or Construction Management from an accredited institution. Minimum of 8+ years of professional experience in project execution, project management, or procurement leadership within the mining sector. Demonstrated experience working on major CapEx mining projects ($100M+ CapEx) under both EPC and EPCM delivery models. English/Spanish proficiency. Preferred Requirements P.Eng, PE, CEng, or PMP/PRINCE2 certification highly preferred. Deep knowledge of mining infrastructure, mineral processing flowsheets, and tailings management safety frameworks (e.g., GISTM standards). Strong commercial acumen and hands-on experience administering FIDIC, NEC, or EPCM client-representative contracts. Experience with global supply chains, international equipment logistics, and site FIFO/DIDO execution. Excellent leadership, negotiation, and executive communication skills with a client-centric mindset. At AECOM, we are committed to maintaining a secure and trustworthy recruitment process and take any fraudulent hiring activity seriously. To support this commitment, all newly hired employees are required to attend an in-person Day 1 onboarding at an AECOM office location as a condition of employment. About AECOM AECOM is proud to offer comprehensive benefits to meet the diverse needs of our employees. Depending on your employment status, AECOM benefits may include medical, dental, vision, life, AD&D, disability benefits, paid time off, leaves of absences, voluntary benefits, perks, flexible work options, well-being resources, employee assistance program, business travel insurance, service recognition awards, retirement savings plan, and employee stock purchase plan. AECOM is the global infrastructure leader, committed to delivering a better world. As a trusted professional services firm powered by deep technical abilities, we solve our clients’ complex challenges in water, environment, energy, transportation and buildings. Our teams partner with public- and private-sector clients to create innovative, sustainable and resilient solutions throughout the project lifecycle – from advisory, planning, design and engineering to program and construction management. AECOM is a Fortune 500 firm that had revenue of $16.1 billion in fiscal year 2025. Learn more at aecom.com. What makes AECOM a great place to work You will be part of a global team that champions your growth and career ambitions. Work on groundbreaking projects - both in your local community and on a global scale - that are transforming our industry and shaping the future. With cutting-edge technology and a network of experts, you’ll have the resources to make a real impact. Our award-winning training and development programs are designed to expand your technical expertise and leadership skills, helping you build the career you’ve always envisioned. Here, you’ll find a welcoming workplace built on respect, collaboration and community - where you have the freedom to grow in a world of opportunity. As an Equal Opportunity Employer, we believe in your potential and are here to help you achieve it. All your information will be kept confidential according to EEO guidelines.",
+      "linkedin_url": "",
+      "focus_matches": [
+        "Operations"
+      ],
+      "focus_evidence": {
+        "Operations": "ess reviews, cold/hot commissioning interface planning, and operational readiness handovers to client mining operations teams. Prepare high-level executive dashboard reports and boa"
+      },
+      "work_mode": "Not specified",
+      "work_mode_evidence": "The reviewed official source does not confirm the work arrangement for this role.",
+      "match": 55,
+      "matched_skills": [
+        "Operations"
+      ]
+    },
+    {
+      "id": "smartrecruiters:BoschGroup:744000158546464",
+      "company": "Bosch Group",
+      "title": "Sr. TPM Engineer",
+      "location": "Lincolnton, NC, us",
+      "salary": "Not disclosed",
+      "official_url": "https://jobs.smartrecruiters.com/BoschGroup/744000158546464-sr-tpm-engineer",
+      "posted": "2026-10-29T15:21:18.163Z",
+      "date_evidence": "SmartRecruiters.releasedDate (release; may be a repost)",
+      "evidence_url": "https://api.smartrecruiters.com/v1/companies/BoschGroup/postings/744000158546464",
+      "description": "Robert Bosch Tool Corporation is an outstanding company with excellent benefits. We are growing rapidly and need top-notch technicians to work on state-of-the-art equipment and controls. We are building a world-class team of technicians to be the best maintenance crew in this area. We believe in training and promoting from within as much as possible. We want motivated, energetic people who have a passion for excellence to join our team and grow to the limits of their capabilities. If this is you, come and impress us, and be a part of a winning team. The Sr. TPM Engineer is responsible for defining, developing, coordinating, and sustaining the processes, systems, standards, and governance required to deploy the TEF3 maintenance and TPM strategy. This role serves as a key partner to the TEF3 Leader, driving structured improvement, Electrical Safety (Lo-ES) coordination, and cross-functional alignment to ensure consistent implementation and continuous advancement of maintenance excellence across both plants. Primary Duties and Accountabilities TPM Strategy Deployment & Maturity Development • Translates the TEF3 maintenance strategy into a structured TPM roadmap, priorities, and implementation plans across Lct101 and Lct102. • Coordinates TPM pillar activities, maturity assessments, gap closure plans, and cross-functional improvement initiatives with Maintenance and Production. • Tracks TPM deployment progress and ensures actions are systematically implemented, sustained, and escalated when required. Maintenance Process & System Design • Maps, designs, and continuously improves maintenance processes, workflows, roles, and interfaces required to support maintenance excellence. • Defines functional requirements and governance for maintenance systems including SAP PM, MAE, MAZE, dashboards, and related digital tools. • Identifies process and system gaps and coordinates corrective actions with Maintenance, Reliability Engineering, TEF2, and other supporting functions. Maintenance Standards & Governance • Develops and maintains standardized maintenance processes, routines, procedures, and governance across Lct101 and Lct102. • Establishes compliance mechanisms, process audits, and management routines to ensure consistent execution of defined standards. • Coordinates corrective actions and standardization activities based on audit findings, process deviations, and lessons learned. Electrical Safety (LO-ES) Coordination & Governance • Serves as plant coordinator for Electrical Safety (Lo-ES) standards and requirements. • Coordinates implementation, assessments, and corrective actions across applicable functions. • Ensures compliance, documentation, qualification requirements, and sustained implementation of electrical safety standards. Maintenance Data, KPI & Performance Governance • Defines and governs maintenance KPI structures, reporting logic, and data requirements to enable consistent, data-driven decision making. • Ensures transparency and integrity of maintenance performance information through collaboration with TEF2 and maintenance system stakeholders. • Identifies performance and process trends requiring structured improvement and coordinates follow-up with the responsible TEF3 functions. Maintenance Competence & Knowledge Management • Defines competence and qualification requirements required to support TPM, maintenance processes, and technical standards. • Identifies systemic competence gaps and coordinates development actions with Maintenance Leadership, SMEs, and Production. • Ensures technical standards, lessons learned, and best practices are incorporated into applicable qualification and knowledge-transfer structures. Strategic Coordination & Improvement Projects • Supports the TEF3 Leader in structuring, coordinating, and tracking strategic maintenance excellence initiatives across both plants. • Leads cross-functional improvement projects involving processes, systems, standards, governance, and organizational interfaces. • Provides structured progress transparency, identifies implementation barriers, and coordinates escalation and corrective actions. Total Productive Maintenance (TPM) Principles & Deployment Advanced Maintenance Process & System Design Maintenance Standards, Governance & Continuous Improvement SAP Plant Maintenance (PM) Maintenance KPI Analytics & Data-Driven Improvement Lean Manufacturing / Lo-ES Principles Cross-Functional Project & Program Coordination Process Mapping & Standardization Microsoft Excel / Power BI / Data Analysis Tools Required - Bachelor’s Degree X Engineering, Industrial Technology, or related field (or equivalent practical experience). 5 Years experience in Lieu of Special License/Certifications Special License/Certification X TPM, Lean Manufacturing, Maintenance Management, SAP PM, or equivalent certification/training in maintenance systems and continuous improvement. All your information will be kept confidential according to EEO guidelines.",
+      "linkedin_url": "",
+      "focus_matches": [
+        "Operations"
+      ],
+      "focus_evidence": {
+        "Operations": "Process & System Design Maintenance Standards, Governance & Continuous Improvement SAP Plant Maintenance (PM) Maintenance KPI Analytics & Data-Driven Improvement Lean Manufacturing /"
+      },
+      "work_mode": "Not specified",
+      "work_mode_evidence": "The reviewed official source does not confirm the work arrangement for this role.",
+      "match": 55,
+      "matched_skills": [
+        "Operations"
+      ]
+    },
+    {
+      "id": "ashby:openai:6ebd3534-d65b-4d90-ba96-6a54de31409d",
+      "company": "OpenAI",
+      "title": "Program Manager, Local Community Impact",
+      "location": "New York, New York, United States; Remote: United States",
+      "salary": "$207K - $230K",
+      "official_url": "https://jobs.ashbyhq.com/openai/6ebd3534-d65b-4d90-ba96-6a54de31409d",
+      "posted": "2026-10-29",
+      "date_evidence": "JobPosting.datePosted",
+      "evidence_url": "https://jobs.ashbyhq.com/openai/6ebd3534-d65b-4d90-ba96-6a54de31409d",
+      "description": "About the team Our Community team builds direct relationships with people who use OpenAI’s technology, helps others learn from their experiences, and brings their insights back to product and research teams. Our programs connect communities with trusted partners who help organizations adopt AI effectively. About the role We’re hiring a Program Manager to build and run our partner network. You will turn an early program into a reliable operation: recruit and onboard partners, coordinate agreements and payments, manage external service providers, support local events and marketing, review service quality, and improve the program as we learn. This partner network will be on the ground in communities helping people–from small businesses, non-profits, and community organizations–experience concrete benefits from our technology. They will set up useful workflows, learn OpenAI tools and become more confident, independent users. You should be as comfortable helping a partner resolve an onboarding issue as you are designing the systems that prevent it from happening again. You will work with local operators and internal teams to make sure commitments are clear, work gets done, and the people we serve receive useful, high-quality support. What you will do Build the partner operating model, from sourcing and selection of partners through onboarding, ongoing support, renewal and exit. Establish clear expectations, owners, timelines and escalation paths. Create a scalable operating model that supports program growth and evolving partner needs. Run partner onboarding with Legal, Finance and Procurement: track agreements, required information, vendor setup, readiness and start dates so partners can begin work and receive payments through approved processes. Manage partner payments, reporting and related operational processes. Plan and support local workshops, deployments and events with partners. Coordinate audiences, venues, budgets, materials, staffing and follow-up while preserving local ownership. Coordinate program marketing and communications with Community, Marketing and content partners. Develop clear partner guidance, route brand and messaging approvals, and help useful stories and practices reach the right audiences. Build trusted relationships with local operators and the organizations they serve. Coach partners, answer questions, address service-quality concerns and set clear boundaries around access, funding and program participation. Create practical systems for the partner community: intake, a shared knowledge base, service logs, regular check-ins and reusable playbooks that reduce manual work without sacrificing quality. Develop and operate partner review processes with the hiring manager and relevant teams. Combine verified service delivery, beneficiary feedback and sustained product use to understand performance and improve support. Collaborate with analytics and product teams to assess program impact using appropriate data and feedback. Manage budgets, vendors, risks and dependencies across the program. Keep stakeholders informed, surface decisions early and bring recurring partner feedback into program and product improvements. You might thrive in this role if you 8+ years owning a complex partner, community or operational program from early design through execution at scale, with clear examples of what you personally built and improved. Bring strong operational judgment and follow-through across onboarding, financial workflows, events and multiple stakeholder groups. Can earn trust with small-business owners, local technical operators and community leaders, explain expectations plainly and have difficult conversations when needed. Have practical familiarity with ChatGPT, Codex and AI-enabled workflows, and can work credibly with technical specialists while explaining tools to people with less technical experience. Use data and qualitative feedback to distinguish meaningful outcomes from activity counts, and can improve a process without making it unnecessarily bureaucratic. Write clearly, communicate risks early, work independently through ambiguity and collaborate effectively across teams. Have experience creating playbooks, support systems or automation that lets a high-touch program scale. Nice to Have Operating a local-services, small-business, nonprofit, fellowship, ambassador or distributed partner program. Coordinating vendor onboarding, invoices, budgets or grant-like payment workflows with Finance and Legal. Running hands-on workshops or community events and translating successful local practices into reusable resources. Working across marketing, product, analytics and public-policy or regional teams. About OpenAI OpenAI is an AI research and deployment company dedicated to ensuring that general-purpose artificial intelligence benefits all of humanity. We push the boundaries of the capabilities of AI systems and seek to safely deploy them to the world through our products. AI is an extremely powerful tool that must be created with safety and human needs at its core, and to achieve our mission, we must encompass and value the many different perspectives, voices, and experiences that form the full spectrum of humanity. We are an equal opportunity employer, and we do not discriminate on the basis of race, religion, color, national origin, sex, sexual orientation, age, veteran status, disability, genetic information, or other applicable legally protected characteristic. For additional information, please see OpenAI’s Affirmative Action and Equal Employment Opportunity Policy Statement . Background checks for applicants will be administered in accordance with applicable law, and qualified applicants with arrest or conviction records will be considered for employment consistent with those laws, including the San Francisco Fair Chance Ordinance, the Los Angeles County Fair Chance Ordinance for Employers, and the California Fair Chance Act, for US-based candidates. For unincorporated Los Angeles County workers: we reasonably believe that criminal history may have a direct, adverse and negative relationship with the following job duties, potentially resulting in the withdrawal of a conditional offer of employment: protect computer hardware entrusted to you from theft, loss or damage; return all computer hardware in your possession (including the data contained therein) upon termination of employment or end of assignment; and maintain the confidentiality of proprietary, confidential, and non-public information. In addition, job duties require access to secure and protected information technology systems and related data security obligations. To notify OpenAI that you believe this job posting is non-compliant, please submit a report through this form . No response will be provided to inquiries unrelated to job posting compliance. We are committed to providing reasonable accommodations to applicants with disabilities, and requests can be made via this link . OpenAI Global Applicant Privacy Policy At OpenAI, we believe artificial intelligence has the potential to help people solve immense global challenges, and we want the upside of AI to be widely shared. Join us in shaping the future of technology.",
+      "linkedin_url": "",
+      "work_mode": "Hybrid",
+      "work_mode_evidence": "Official workplaceType field: Hybrid",
+      "focus_matches": [
+        "Operations"
+      ],
+      "focus_evidence": {
+        "Operations": "l, high-quality support. What you will do Build the partner operating model, from sourcing and selection of partners through onboarding, ongoing support, renewal and exit. Est"
+      },
+      "match": 55,
+      "matched_skills": [
+        "Operations"
+      ]
+    }
+  ]
+}
