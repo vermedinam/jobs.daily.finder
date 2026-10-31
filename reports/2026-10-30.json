@@ -1,0 +1,543 @@
+{
+  "date": "2026-10-30",
+  "verified_at": "2026-10-30T17:47:20.380621-07:00",
+  "metrics": {
+    "reviewed": 61412,
+    "sources_ok": 275,
+    "unverified": 1,
+    "applied_excluded": 0,
+    "seen_excluded": 0,
+    "linkedin_candidates": 93,
+    "linkedin": "Public access available: 42 searches; publication dates verified only against official sources",
+    "errors": [
+      "devot: HTTPError",
+      "instacart / 8337981: ValueError",
+      "wiz: HTTPError",
+      "yelp: HTTPError",
+      "contentsquare: HTTPError",
+      "factorialhr: HTTPError",
+      "factorial: HTTPError",
+      "travelperk: HTTPError",
+      "jobandtalent: HTTPError",
+      "glovo: HTTPError",
+      "bookingcom: HTTPError",
+      "expediagroup: HTTPError",
+      "cimpress: HTTPError",
+      "vistaprint: HTTPError",
+      "softtek: HTTPError",
+      "agileengine: HTTPError",
+      "konfio: HTTPError",
+      "clipmx: HTTPError",
+      "kueski: HTTPError",
+      "klar: HTTPError",
+      "yalo: HTTPError",
+      "nowports: HTTPError",
+      "remitly: HTTPError",
+      "payjoy: HTTPError",
+      "tala: HTTPError",
+      "openpay: HTTPError",
+      "global66: HTTPError",
+      "habi: HTTPError",
+      "truora: HTTPError",
+      "platzi: HTTPError",
+      "clara: HTTPError",
+      "bitso: HTTPError",
+      "stori: HTTPError",
+      "mendel: HTTPError",
+      "factorial: HTTPError",
+      "lodgify: HTTPError",
+      "secretsource: HTTPError",
+      "sastrify: HTTPError",
+      "safetywing: HTTPError",
+      "jobgether: HTTPError",
+      "lemonio: HTTPError",
+      "nearsure: HTTPError",
+      "crunchyroll: HTTPError",
+      "amdocs: HTTPError",
+      "slalom: HTTPError",
+      "slalombuild: HTTPError",
+      "cprime: HTTPError",
+      "avature: HTTPError",
+      "guidewire: HTTPError",
+      "netsuite: HTTPError",
+      "eon: HTTPError",
+      "epamanywhere: HTTPError",
+      "akamai: HTTPError",
+      "thoughtmachine: HTTPError",
+      "checkoutcom: HTTPError",
+      "flywire: HTTPError",
+      "Prospanica: https://jobs.prospanica.org/home/index.cfm: HTTP Error 403: Forbidden",
+      "Lean In Latinas: No supported role links in public HTML; dynamic or member-only results may be unavailable",
+      "Welcome to the Jungle: No supported role links in public HTML; dynamic or member-only results may be unavailable",
+      "Biocom Career Hub: No supported role links in public HTML; dynamic or member-only results may be unavailable",
+      "WelbeHealth official careers: No supported role links in public HTML; dynamic or member-only results may be unavailable",
+      "thatgamecompany official careers: https://thatgamecompany.com/company/jobs/: Only public HTTPS URLs are allowed",
+      "HLPA: https://jobs.hlpa.com/employment/search.aspx: HTTP Error 406: Not Acceptable",
+      "SHPE: https://careercenter.shpe.org/: HTTP Error 403: Forbidden",
+      "Techqueria: No supported role links in public HTML; dynamic or member-only results may be unavailable",
+      "Latinx in Tech Career Center: No supported role links in public HTML; dynamic or member-only results may be unavailable",
+      "PowerToFly: No supported role links in public HTML; dynamic or member-only results may be unavailable",
+      "Women Who Design: No supported role links in public HTML; dynamic or member-only results may be unavailable",
+      "Started by Women: No supported role links in public HTML; dynamic or member-only results may be unavailable",
+      "Wellfound California: No supported role links in public HTML; dynamic or member-only results may be unavailable",
+      "Y Combinator California: No supported role links in public HTML; dynamic or member-only results may be unavailable",
+      "Games Jobs Direct: https://www.gamesjobsdirect.com/search: HTTP Error 406: Not Acceptable",
+      "Bloks: No supported role links in public HTML; dynamic or member-only results may be unavailable",
+      "ASGC Games Jobs: No supported role links in public HTML; dynamic or member-only results may be unavailable",
+      "BioSpace California: https://jobs.biospace.com/california: HTTP Error 429: Too Many Requests",
+      "BioTalent: No supported role links in public HTML; dynamic or member-only results may be unavailable",
+      "Manfred Spain: No supported role links in public HTML; dynamic or member-only results may be unavailable",
+      "Jobgether: https://jobgether.com/remote-jobs/program-manager: HTTP Error 403: Forbidden"
+    ],
+    "discovery": [
+      {
+        "source": "Prospanica",
+        "category": "Latino and professional associations",
+        "pages": 0,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "https://jobs.prospanica.org/home/index.cfm: HTTP Error 403: Forbidden"
+        ]
+      },
+      {
+        "source": "HOPE - Hispanas Organized for Political Equality",
+        "category": "Latino and professional associations",
+        "pages": 1,
+        "candidates": 1,
+        "verified": 0,
+        "issues": []
+      },
+      {
+        "source": "Lean In Latinas",
+        "category": "Latino and professional associations",
+        "pages": 1,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "No supported role links in public HTML; dynamic or member-only results may be unavailable"
+        ]
+      },
+      {
+        "source": "Built In San Francisco",
+        "category": "Regional technology and startups",
+        "pages": 3,
+        "candidates": 24,
+        "verified": 0,
+        "issues": []
+      },
+      {
+        "source": "Hitmarker",
+        "category": "Games and entertainment",
+        "pages": 3,
+        "candidates": 3,
+        "verified": 0,
+        "issues": []
+      },
+      {
+        "source": "Welcome to the Jungle",
+        "category": "Regional technology and startups",
+        "pages": 4,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "No supported role links in public HTML; dynamic or member-only results may be unavailable"
+        ]
+      },
+      {
+        "source": "Biocom Career Hub",
+        "category": "Life sciences",
+        "pages": 1,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "No supported role links in public HTML; dynamic or member-only results may be unavailable"
+        ]
+      },
+      {
+        "source": "WelbeHealth official careers",
+        "category": "Company careers",
+        "pages": 1,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "No supported role links in public HTML; dynamic or member-only results may be unavailable"
+        ]
+      },
+      {
+        "source": "Branch official careers",
+        "category": "Company careers",
+        "pages": 1,
+        "candidates": 13,
+        "verified": 0,
+        "issues": []
+      },
+      {
+        "source": "thatgamecompany official careers",
+        "category": "Company careers",
+        "pages": 0,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "https://thatgamecompany.com/company/jobs/: Only public HTTPS URLs are allowed"
+        ]
+      },
+      {
+        "source": "Turtle Rock Studios official careers",
+        "category": "Company careers",
+        "pages": 1,
+        "candidates": 1,
+        "verified": 0,
+        "issues": []
+      },
+      {
+        "source": "HLPA",
+        "category": "Latino and professional associations",
+        "pages": 0,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "https://jobs.hlpa.com/employment/search.aspx: HTTP Error 406: Not Acceptable"
+        ]
+      },
+      {
+        "source": "SHPE",
+        "category": "Latino and professional associations",
+        "pages": 0,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "https://careercenter.shpe.org/: HTTP Error 403: Forbidden"
+        ]
+      },
+      {
+        "source": "Techqueria",
+        "category": "Latino and professional associations",
+        "pages": 1,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "No supported role links in public HTML; dynamic or member-only results may be unavailable"
+        ]
+      },
+      {
+        "source": "Latinx in Tech Career Center",
+        "category": "Latino and professional associations",
+        "pages": 1,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "No supported role links in public HTML; dynamic or member-only results may be unavailable"
+        ]
+      },
+      {
+        "source": "PowerToFly",
+        "category": "Women and inclusive career networks",
+        "pages": 1,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "No supported role links in public HTML; dynamic or member-only results may be unavailable"
+        ]
+      },
+      {
+        "source": "Women Who Design",
+        "category": "Women and inclusive career networks",
+        "pages": 1,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "No supported role links in public HTML; dynamic or member-only results may be unavailable"
+        ]
+      },
+      {
+        "source": "Women in Games International",
+        "category": "Women and inclusive career networks",
+        "pages": 1,
+        "candidates": 1,
+        "verified": 0,
+        "issues": []
+      },
+      {
+        "source": "Started by Women",
+        "category": "Women and inclusive career networks",
+        "pages": 1,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "No supported role links in public HTML; dynamic or member-only results may be unavailable"
+        ]
+      },
+      {
+        "source": "Wellfound California",
+        "category": "Regional technology and startups",
+        "pages": 1,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "No supported role links in public HTML; dynamic or member-only results may be unavailable"
+        ]
+      },
+      {
+        "source": "Y Combinator California",
+        "category": "Regional technology and startups",
+        "pages": 1,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "No supported role links in public HTML; dynamic or member-only results may be unavailable"
+        ]
+      },
+      {
+        "source": "Games Jobs Direct",
+        "category": "Games and entertainment",
+        "pages": 0,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "https://www.gamesjobsdirect.com/search: HTTP Error 406: Not Acceptable"
+        ]
+      },
+      {
+        "source": "Bloks",
+        "category": "Games and entertainment",
+        "pages": 1,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "No supported role links in public HTML; dynamic or member-only results may be unavailable"
+        ]
+      },
+      {
+        "source": "Gaming Industry Job Tracker",
+        "category": "Games and entertainment",
+        "pages": 1,
+        "candidates": 1,
+        "verified": 0,
+        "issues": []
+      },
+      {
+        "source": "ASGC Games Jobs",
+        "category": "Games and entertainment",
+        "pages": 1,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "No supported role links in public HTML; dynamic or member-only results may be unavailable"
+        ]
+      },
+      {
+        "source": "BioSpace California",
+        "category": "Life sciences",
+        "pages": 0,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "https://jobs.biospace.com/california: HTTP Error 429: Too Many Requests"
+        ]
+      },
+      {
+        "source": "BioTalent",
+        "category": "Life sciences",
+        "pages": 1,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "No supported role links in public HTML; dynamic or member-only results may be unavailable"
+        ]
+      },
+      {
+        "source": "Manfred Spain",
+        "category": "Remote and international",
+        "pages": 1,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "No supported role links in public HTML; dynamic or member-only results may be unavailable"
+        ]
+      },
+      {
+        "source": "Wellfound Remote",
+        "category": "Remote and international",
+        "pages": 1,
+        "candidates": 29,
+        "verified": 0,
+        "issues": []
+      },
+      {
+        "source": "Jobgether",
+        "category": "Remote and international",
+        "pages": 0,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "https://jobgether.com/remote-jobs/program-manager: HTTP Error 403: Forbidden"
+        ]
+      },
+      {
+        "source": "Remotely",
+        "category": "Remote and international",
+        "pages": 1,
+        "candidates": 11,
+        "verified": 0,
+        "issues": []
+      }
+    ],
+    "new_employer_boards": 0,
+    "focus_excluded": 3,
+    "mexico_verified_candidates": 0,
+    "spain_verified_candidates": 0
+  },
+  "jobs": [
+    {
+      "id": "smartrecruiters:AbbVie:3743990016537526",
+      "company": "AbbVie",
+      "title": "Program Manager, MES ",
+      "location": "Irvine, CA, us",
+      "salary": "Not disclosed",
+      "official_url": "https://jobs.smartrecruiters.com/AbbVie/3743990016537526-program-manager-mes-",
+      "posted": "2026-10-30T20:06:16.401Z",
+      "date_evidence": "SmartRecruiters.releasedDate (release; may be a repost)",
+      "evidence_url": "https://api.smartrecruiters.com/v1/companies/AbbVie/postings/3743990016537526",
+      "description": "About AbbVie AbbVie's mission is to discover and deliver innovative medicines and solutions that solve serious health issues today and address the medical challenges of tomorrow. We strive to have a remarkable impact on people's lives across several key therapeutic areas including immunology, oncology and neuroscience - and products and services in our Allergan Aesthetics portfolio. For more information about AbbVie, please visit us at www.abbvie.com . Follow @abbvie on LinkedIn, Facebook , Instagram , X and YouTube. Purpose: The Program Manager, MES will organize and lead high-performing cross-functional teams in the planning and execution of programs associated with assembly, labeling and packaging of drug delivery devices and combination products. This individual provides leadership and coordinated project management for all manufacturing and/or technical activities needed to ensure successful tech transfer and commercialization of the assigned products by integrating the efforts of R&D, S&T, Quality, Supply Chain, Regulatory. After product launch, this individual is responsible for managing the capacity strategy for the product, assurance of supply programs and cost reduction initiatives across the network. Responsibilities: •Assemble and lead matrixed cross-functional teams comprised of scientist and engineers responsible for all operational aspects of process development, manufacturing, quality assurance and quality control spanning multiple sites •Implement site transfers, new indications, new presentations and lifecycle projects for on market programs on time and within budget •Proactively identify and drive technical and project plan related issues to closure by working with all relevant functional lines and effectively troubleshooting and driving decisions •Manage multiple projects concurrently, operating with minimal supervision •Understand project drivers, requirements, scenarios and options. Proactively drive development of contingency and/or risk mitigation plans. •Manage competing timelines and make difficult decisions regarding priorities among projects. •Effectively communicate and present project status to Operations senior management and stakeholders •Accountable for setting program and project plans, including timelines and expenses, that meet business and organizational objectives and ensuring those plans are achieved. •Define budget requirements and report monthly actuals, LBE, and Plan/LRP schedules per financial schedule #LI-AL1 •Bachelor’s Degree in Engineering, science, or closely related discipline, or equivalent technical experience plus demonstrated competence •10+ years of combined experience in positions related to process development, project management, engineering/process support and manufacturing •Must have strong knowledge of GMP Manufacturing, Supply Chain, Validation, Engineering, CMC technical development and pharmaceutical regulations •Must have demonstrated organizational and planning skills, excellent verbal and written communication skills •Must have demonstrated strong project management skills with successful delivery of projects •Must be able to effectively facilitate the resolution of complex scientific, technical, analytical and business issues across functional lines •Plant experience a must •PMP certification a plus •Proficiency in multiple languages a plus Applicable only to applicants applying to a position in any location with pay disclosure requirements under state or local law: ​ The compensation range described below is the range of possible base pay compensation that the Company believes in good faith it will pay for this role at the time of thisposting based on the job grade for this position. Individual compensation paid within this range will depend on many factors including geographic location,and we may ultimately pay more or less than the posted range. This range may be modified in the future. ​ We offer a comprehensive package of benefits including paid time off (vacation, holidays, sick), medical/dental/vision insurance and 401(k) to eligible employees.​ This job is eligible to participate in our long-term incentive programs. ​ Note: No amount of pay is considered to be wages or compensation until such amount is earned, vested, and determinable. The amount and availability of any bonus, commission,incentive, benefits, or any other form of compensation and benefits that are allocable to a particular employee remains in the Company's sole and absolute discretion unless anduntil paid and may be modified at the Company’s sole and absolute discretion, consistent with applicable law.​ AbbVie is an equal opportunity employer and is committed to operating with integrity, driving innovation, transforming lives and serving our community. Equal Opportunity Employer/Veterans/Disabled. US & Puerto Rico only - to learn more, visit https://www.abbvie.com/join-us/equal-employment-opportunity-employer.html US & Puerto Rico applicants seeking a reasonable accommodation, click here to learn more: https://www.abbvie.com/join-us/reasonable-accommodations.html",
+      "linkedin_url": "",
+      "focus_matches": [
+        "Operations"
+      ],
+      "focus_evidence": {
+        "Operations": "cts. •Effectively communicate and present project status to Operations senior management and stakeholders •Accountable for setting program and project plans, including ti"
+      },
+      "work_mode": "Not specified",
+      "work_mode_evidence": "The reviewed official source does not confirm the work arrangement for this role.",
+      "match": 55,
+      "matched_skills": [
+        "Operations"
+      ]
+    },
+    {
+      "id": "smartrecruiters:AbbVie:3743990016537406",
+      "company": "AbbVie",
+      "title": "Program Manager, MES",
+      "location": "Worcester, MA, us",
+      "salary": "Not disclosed",
+      "official_url": "https://jobs.smartrecruiters.com/AbbVie/3743990016537406-program-manager-mes",
+      "posted": "2026-10-30T20:05:04.361Z",
+      "date_evidence": "SmartRecruiters.releasedDate (release; may be a repost)",
+      "evidence_url": "https://api.smartrecruiters.com/v1/companies/AbbVie/postings/3743990016537406",
+      "description": "About AbbVie AbbVie's mission is to discover and deliver innovative medicines and solutions that solve serious health issues today and address the medical challenges of tomorrow. We strive to have a remarkable impact on people's lives across several key therapeutic areas including immunology, oncology and neuroscience - and products and services in our Allergan Aesthetics portfolio. For more information about AbbVie, please visit us at www.abbvie.com . Follow @abbvie on LinkedIn, Facebook , Instagram , X and YouTube. Purpose: The Program Manager, MES will organize and lead high-performing cross-functional teams in the planning and execution of programs associated with assembly, labeling and packaging of drug delivery devices and combination products. This individual provides leadership and coordinated project management for all manufacturing and/or technical activities needed to ensure successful tech transfer and commercialization of the assigned products by integrating the efforts of R&D, S&T, Quality, Supply Chain, Regulatory. After product launch, this individual is responsible for managing the capacity strategy for the product, assurance of supply programs and cost reduction initiatives across the network. Responsibilities: •Assemble and lead matrixed cross-functional teams comprised of scientist and engineers responsible for all operational aspects of process development, manufacturing, quality assurance and quality control spanning multiple sites •Implement site transfers, new indications, new presentations and lifecycle projects for on market programs on time and within budget •Proactively identify and drive technical and project plan related issues to closure by working with all relevant functional lines and effectively troubleshooting and driving decisions •Manage multiple projects concurrently, operating with minimal supervision •Understand project drivers, requirements, scenarios and options. Proactively drive development of contingency and/or risk mitigation plans. •Manage competing timelines and make difficult decisions regarding priorities among projects. •Effectively communicate and present project status to Operations senior management and stakeholders •Accountable for setting program and project plans, including timelines and expenses, that meet business and organizational objectives and ensuring those plans are achieved. •Define budget requirements and report monthly actuals, LBE, and Plan/LRP schedules per financial schedule #LI-AL1 •Bachelor’s Degree in Engineering, science, or closely related discipline, or equivalent technical experience plus demonstrated competence •10+ years of combined experience in positions related to process development, project management, engineering/process support and manufacturing •Must have strong knowledge of GMP Manufacturing, Supply Chain, Validation, Engineering, CMC technical development and pharmaceutical regulations •Must have demonstrated organizational and planning skills, excellent verbal and written communication skills •Must have demonstrated strong project management skills with successful delivery of projects •Must be able to effectively facilitate the resolution of complex scientific, technical, analytical and business issues across functional lines •Plant experience a must •PMP certification a plus •Proficiency in multiple languages a plus Applicable only to applicants applying to a position in any location with pay disclosure requirements under state or local law: ​ The compensation range described below is the range of possible base pay compensation that the Company believes in good faith it will pay for this role at the time of thisposting based on the job grade for this position. Individual compensation paid within this range will depend on many factors including geographic location,and we may ultimately pay more or less than the posted range. This range may be modified in the future. ​ We offer a comprehensive package of benefits including paid time off (vacation, holidays, sick), medical/dental/vision insurance and 401(k) to eligible employees.​ This job is eligible to participate in our long-term incentive programs. ​ Note: No amount of pay is considered to be wages or compensation until such amount is earned, vested, and determinable. The amount and availability of any bonus, commission,incentive, benefits, or any other form of compensation and benefits that are allocable to a particular employee remains in the Company's sole and absolute discretion unless anduntil paid and may be modified at the Company’s sole and absolute discretion, consistent with applicable law.​ AbbVie is an equal opportunity employer and is committed to operating with integrity, driving innovation, transforming lives and serving our community. Equal Opportunity Employer/Veterans/Disabled. US & Puerto Rico only - to learn more, visit https://www.abbvie.com/join-us/equal-employment-opportunity-employer.html US & Puerto Rico applicants seeking a reasonable accommodation, click here to learn more: https://www.abbvie.com/join-us/reasonable-accommodations.html",
+      "linkedin_url": "",
+      "focus_matches": [
+        "Operations"
+      ],
+      "focus_evidence": {
+        "Operations": "cts. •Effectively communicate and present project status to Operations senior management and stakeholders •Accountable for setting program and project plans, including ti"
+      },
+      "work_mode": "Not specified",
+      "work_mode_evidence": "The reviewed official source does not confirm the work arrangement for this role.",
+      "match": 55,
+      "matched_skills": [
+        "Operations"
+      ]
+    },
+    {
+      "id": "smartrecruiters:AbbVie:3743990016537646",
+      "company": "AbbVie",
+      "title": "Program Manager, MES ",
+      "location": "Barceloneta, Barceloneta, pr",
+      "salary": "Not disclosed",
+      "official_url": "https://jobs.smartrecruiters.com/AbbVie/3743990016537646-program-manager-mes-",
+      "posted": "2026-10-30T20:06:52.338Z",
+      "date_evidence": "SmartRecruiters.releasedDate (release; may be a repost)",
+      "evidence_url": "https://api.smartrecruiters.com/v1/companies/AbbVie/postings/3743990016537646",
+      "description": "About AbbVie AbbVie's mission is to discover and deliver innovative medicines and solutions that solve serious health issues today and address the medical challenges of tomorrow. We strive to have a remarkable impact on people's lives across several key therapeutic areas including immunology, oncology and neuroscience - and products and services in our Allergan Aesthetics portfolio. For more information about AbbVie, please visit us at www.abbvie.com . Follow @abbvie on LinkedIn, Facebook , Instagram , X and YouTube. Purpose: The Program Manager, MES will organize and lead high-performing cross-functional teams in the planning and execution of programs associated with assembly, labeling and packaging of drug delivery devices and combination products. This individual provides leadership and coordinated project management for all manufacturing and/or technical activities needed to ensure successful tech transfer and commercialization of the assigned products by integrating the efforts of R&D, S&T, Quality, Supply Chain, Regulatory. After product launch, this individual is responsible for managing the capacity strategy for the product, assurance of supply programs and cost reduction initiatives across the network. Responsibilities: •Assemble and lead matrixed cross-functional teams comprised of scientist and engineers responsible for all operational aspects of process development, manufacturing, quality assurance and quality control spanning multiple sites •Implement site transfers, new indications, new presentations and lifecycle projects for on market programs on time and within budget •Proactively identify and drive technical and project plan related issues to closure by working with all relevant functional lines and effectively troubleshooting and driving decisions •Manage multiple projects concurrently, operating with minimal supervision •Understand project drivers, requirements, scenarios and options. Proactively drive development of contingency and/or risk mitigation plans. •Manage competing timelines and make difficult decisions regarding priorities among projects. •Effectively communicate and present project status to Operations senior management and stakeholders •Accountable for setting program and project plans, including timelines and expenses, that meet business and organizational objectives and ensuring those plans are achieved. •Define budget requirements and report monthly actuals, LBE, and Plan/LRP schedules per financial schedule #LI-AL1 •Bachelor’s Degree in Engineering, science, or closely related discipline, or equivalent technical experience plus demonstrated competence •10+ years of combined experience in positions related to process development, project management, engineering/process support and manufacturing •Must have strong knowledge of GMP Manufacturing, Supply Chain, Validation, Engineering, CMC technical development and pharmaceutical regulations •Must have demonstrated organizational and planning skills, excellent verbal and written communication skills •Must have demonstrated strong project management skills with successful delivery of projects •Must be able to effectively facilitate the resolution of complex scientific, technical, analytical and business issues across functional lines •Plant experience a must •PMP certification a plus •Proficiency in multiple languages a plus Applicable only to applicants applying to a position in any location with pay disclosure requirements under state or local law: ​ The compensation range described below is the range of possible base pay compensation that the Company believes in good faith it will pay for this role at the time of thisposting based on the job grade for this position. Individual compensation paid within this range will depend on many factors including geographic location,and we may ultimately pay more or less than the posted range. This range may be modified in the future. ​ We offer a comprehensive package of benefits including paid time off (vacation, holidays, sick), medical/dental/vision insurance and 401(k) to eligible employees.​ This job is eligible to participate in our long-term incentive programs. ​ Note: No amount of pay is considered to be wages or compensation until such amount is earned, vested, and determinable. The amount and availability of any bonus, commission,incentive, benefits, or any other form of compensation and benefits that are allocable to a particular employee remains in the Company's sole and absolute discretion unless anduntil paid and may be modified at the Company’s sole and absolute discretion, consistent with applicable law.​ AbbVie is an equal opportunity employer and is committed to operating with integrity, driving innovation, transforming lives and serving our community. Equal Opportunity Employer/Veterans/Disabled. US & Puerto Rico only - to learn more, visit https://www.abbvie.com/join-us/equal-employment-opportunity-employer.html US & Puerto Rico applicants seeking a reasonable accommodation, click here to learn more: https://www.abbvie.com/join-us/reasonable-accommodations.html",
+      "linkedin_url": "",
+      "focus_matches": [
+        "Operations"
+      ],
+      "focus_evidence": {
+        "Operations": "cts. •Effectively communicate and present project status to Operations senior management and stakeholders •Accountable for setting program and project plans, including ti"
+      },
+      "work_mode": "Not specified",
+      "work_mode_evidence": "The reviewed official source does not confirm the work arrangement for this role.",
+      "match": 55,
+      "matched_skills": [
+        "Operations"
+      ]
+    },
+    {
+      "id": "smartrecruiters:AveryDennison:744000158742719",
+      "company": "Avery Dennison",
+      "title": "Channel Program Manager",
+      "location": "Mentor, OH, us",
+      "salary": "Not disclosed",
+      "official_url": "https://jobs.smartrecruiters.com/AveryDennison/744000158742719-channel-program-manager",
+      "posted": "2026-10-30T13:21:12.382Z",
+      "date_evidence": "SmartRecruiters.releasedDate (release; may be a repost)",
+      "evidence_url": "https://api.smartrecruiters.com/v1/companies/AveryDennison/postings/744000158742719",
+      "description": "Why join Avery Dennison We are a global materials science and digital identification solutions company with locations in over 50 countries, and approximately 35,000 employees worldwide. As a science and innovation company, we believe that diverse teams are stronger teams. We are committed to fostering a culture of curiosity and courage, where you can grow your career with a company that has innovation in its DNA. Founded on creating real-world impact to enable a better future, we strive to provide an open, collaborative culture where diversity of thought is encouraged and respected. Hear from our employees about what it's like working at Avery Dennison. Learn more at www.averydennison.com . Benefits At Avery Dennison, some of the great benefits we provide are: Inclusive Care Program: Anthem Inclusive Care is a no-cost program that helps you find doctors who will treat you with dignity and respect and who are experienced in providing compassionate, high-quality LGBTQ+ healthcare. Retirement Savings: Avery Dennison supports your retirement readiness financially through company contributions to the 401(k) Plan. You receive an automatic contribution of 3% of eligible pay (even if you contribute $0) plus a matching contribution of 50% on the first 7% of eligible pay you contribute. Medical Insurance: Avery Dennison offers medical insurance plan options to best meet your needs and shares your plan costs with you. However, the larger portion is paid by the Company, and some of the benefits are at no cost to you. Paid Time Off: We offer a generous vacation program that varies based upon your experience and position within Avery Dennison. About the role The Channel Program Manager is accountable for driving profitable growth in the channel by collaborating and aligning with Product Management (PM), Sales, and Marketing Communication to lead the implementation of the channel strategy and channel programs. They will maximize profitable growth with channel partners, in line with strategies of the LPM business and own the execution of the strategies related to our channel IL activation. Key Responsibilities This position is based on-site/hybrid in Mentor, Ohio. Drive results and performance by building and executing short and long-term strategies for the ADLink partner program, including customer onboarding and membership expansion. Assist in negotiating, managing, and implementing distribution agreements, rebate contracts, pricing programs, and optimum product positioning within target accounts. Lead MDF and co-marketing decisions with channel partners, managing MDF spend and developing detailed annual budgets linked to revenue growth and customer loyalty. Plan, implement, and track channel marketing strategies and communications in close cooperation with sales, product management, and marketing communications teams. Manage and convert intelligent label (IL) opportunities into sales resources, launch/manage the PRM tool, and incorporate channel partner insights to refine commercialization. Qualifications Bachelor's degree required; Master's degree with specialization in Marketing preferred. 7 to 10+ years of experience in marketing-related roles with knowledge of multi-stakeholder selling cycles. Deep experience engaging with sales forces, interfacing across business functions, and influencing decision-making with key stakeholders. Strong analytical thinking, organizational, and project management skills with an established track record of achieving challenging goals. Excellent oral and written communication skills with the ability to convey complex ideas, active listening skills, and willingness to travel 25%+ within the region. Pay Transparency The salary range for this position is $129,000 - $192,976/ year. The hiring base salary range above represents what Avery Dennison reasonably expects to pay for this position as of the date of this posting. Actual salaries will vary within the range, and in some circumstances may be above or below the range, based on various factors including but not limited to a candidate’s relevant skills, experience, education and training, and location, as well as the job scope and complexity, responsibilities, and regular and/or necessary travel required for the position, which may change depending on the candidate pool. Avery Dennison reserves the right to modify this information at any time, subject to applicable law. Equal Opportunity Employer Avery Dennison is an equal opportunity employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, national origin, sexual orientation, gender identity, disability, protected veteran status, or any other protected status. Reasonable Accommodations Notice If you require accommodations to view or apply for a job, alternative methods are available to submit an application. Please contact (440) 534-6000 or NA.TA.Operations@averydennison.com to discuss reasonable accommodations. Identity Verification Notice To maintain the integrity of our hiring process and protect our candidates from identity fraud, we require video and/or in-person interviews. As part of this verification, we may also ask you to take a brief photo. This image is used exclusively to ensure identity consistency and will be permanently deleted once the hiring process concludes. Pre-employment Screening Notice As part of our commitment to maintaining a safe and productive work environment, Avery Dennison requires all final candidates to successfully complete a comprehensive background check and a drug screening. These checks are conducted post-offer and are a condition of employment. All results will be considered in accordance with applicable local, state, and federal laws.",
+      "linkedin_url": "",
+      "focus_matches": [
+        "Operations"
+      ],
+      "focus_evidence": {
+        "Operations": "bmit an application. Please contact (440) 534-6000 or NA.TA.Operations@averydennison.com to discuss reasonable accommodations. Identity Verification Notice To maintain th"
+      },
+      "work_mode": "Hybrid",
+      "work_mode_evidence": "Key Responsibilities This position is based on-site/hybrid in Mentor, Ohio",
+      "match": 55,
+      "matched_skills": [
+        "Operations"
+      ]
+    },
+    {
+      "id": "smartrecruiters:NBCUniversal3:744000158845959",
+      "company": "NBCUniversal",
+      "title": "Producer",
+      "location": "Dallas, TEXAS, us (Remote)",
+      "salary": "Not disclosed",
+      "official_url": "https://jobs.smartrecruiters.com/NBCUniversal3/744000158845959-producer",
+      "posted": "2026-10-30T21:35:31.879Z",
+      "date_evidence": "SmartRecruiters.releasedDate (release; may be a repost)",
+      "evidence_url": "https://api.smartrecruiters.com/v1/companies/NBCUniversal3/postings/744000158845959",
+      "description": "NBCUniversal is one of the world's leading media and entertainment companies. We create world-class content, which we distribute across our portfolio of film, television, and streaming, and bring to life through our global theme park destinations, consumer products, and experiences. We own and operate leading entertainment and news brands, including NBC, NBC News, NBC Sports, Telemundo, NBC Local Stations, Bravo, and Peacock, our premium ad-supported streaming service. We produce and distribute premier filmed entertainment and programming through our powerhouse film and television studios, including Universal Pictures, DreamWorks Animation, and Focus Features, and the four global television studios under the Universal Studio Group banner, and operate industry-leading theme parks and experiences around the world through Universal Destinations & Experiences, including Universal Orlando Resort, home to Universal Epic Universe, and Universal Studios Hollywood. NBCUniversal is a subsidiary of Comcast Corporation. Visit www.nbcuniversal.com for more information. Our impact is rooted in improving the communities where our employees, customers, and audiences live and work. We have a rich tradition of giving back and ensuring our employees have the opportunity to serve their communities. We champion an inclusive culture and strive to attract and develop a talented workforce to create and deliver a wide range of content reflecting our world. NBC News is seeking a seasoned, driven Producer to support newsgathering, storytelling, and live production across all platforms. This role will work closely with a Correspondent and production teams to pitch, develop, report, and execute compelling journalism—from breaking news to in-depth features, investigative reporting to national coverage. The ideal candidate is a creative journalist with sharp editorial judgment, strong writing and research skills, and the confidence to thrive under pressure. This producer should be equally at home in the field, on location, or in the control room, and adept at delivering both live and taped segments that meet NBC’s highest editorial standards. The ideal candidate is a news junkie who can’t wait to get out the door and, on the road, to cover that next story. This producer should also enjoy storytelling for morning television, an evening newscast and everything in between. The ability to shoot and edit is a plus, along with a sense of what does well on social media or in vertical video formats. This role is right for you if you’re a versatile storyteller who thrives on urgency and impact. You move seamlessly between producing, reporting, and writing, and you’re as comfortable leading coverage during breaking news as you are crafting enterprise stories. You’re highly organized, competitive, and relentless about accuracy and detail—yet collaborative, adaptable, and energized by working with correspondents and teams under tight deadlines. Most importantly, you’re passionate about journalism that informs, engages, and makes a difference. Responsibilities: Partner with Correspondent and show teams to develop, report, and deliver strong, visually compelling stories with clear narratives and well-researched journalism. Pitch, field produce, write, and fact-check stories across NBC News linear and streaming platforms, including daily news, longform pieces, and cross-platform content. Conduct original reporting, deep research, and source interviews. Secure guest bookings in a competitive environment; conduct pre-interviews and prepare talking points. Ability to travel at a moment’s notice to cover a story and commit to staying on the road as long as the story takes. Collaborate with control rooms, senior producers, and editorial teams to build rundowns, write intros, and produce live and taped segments. Oversee field operations, including live shots, remote anchor setups, and breaking news coverage. Track and manage correspondent’s schedule when working with them closely. Work closely with editors to ensure high-quality video packages, graphics, and sound. Partner with Standards & Legal to ensure all content adheres to editorial and corporate guidelines. Maintain strong communication between the Correspondent, senior leadership, assignment desk and production teams. Contribute ideas for a wide range of content including news-of-day, lifestyle features, celebrity interviews, and human-interest stories. Basic Requirements: Bachelor’s degree in journalism, communications, or a related field, or equivalent work experience. Minimum 5 years’ experience in network news, cable, or talk show production, including live and taped segments. Strong journalistic writing, research, and editorial judgment skills. Demonstrated knowledge of U.S. politics, current events, pop culture, and lifestyle trends. Experience shooting (DSLR or iPhone) and editing (Avid and/or Adobe Premiere). Strong ability to navigate newsroom tools and technology (Slack, NCX, Latakoo, etc.) Proven ability to work in fast-paced environments under tight deadlines. Must be willing to work nights, weekends, holidays, and overtime with short notice. Must be able to travel frequently, domestically and internationally. Ability to handle sensitive and confidential information with discretion. Excellent written, verbal, and interpersonal communication skills; ability to collaborate across teams. Desired Characteristics: Strong storytelling ability with creativity in pitching original ideas. Experience working with live programming. Cool under pressure and comfortable managing breaking news situations. A self-starter with strong organizational and multitasking skills. Knowledge of NBC News Policies, Guidelines, and Practices. Additional Requirements: Fully Remote: This position has been designated as fully remote, based in Dallas, TX, meaning that the position is expected to contribute from a non-NBCUniversal worksite, most commonly an employee’s residence. This role will report to Miami bureau leadership. This position is eligible for company-sponsored benefits, including medical, dental and vision insurance, 401(k), paid leave, tuition reimbursement, and a variety of other discounts and perks. Learn more about the benefits offered by NBCUniversal by visiting the Benefits page of the Careers website. Salary range: 95,000 - 135,000 As part of our selection process, external candidates may be required to attend an in-person interview with an NBCUniversal employee at one of our locations prior to a hiring decision. NBCUniversal's policy is to provide equal employment opportunities to all applicants and employees without regard to race, color, religion, creed, gender, gender identity or expression, age, national origin or ancestry, citizenship, disability, sexual orientation, marital status, pregnancy, veteran status, membership in the uniformed services, genetic information, or any other basis protected by applicable law. If you are a qualified individual with a disability or a disabled veteran, you have the right to request a reasonable accommodation if you are unable or limited in your ability to use or access nbcunicareers.com as a result of your disability. You can request reasonable accommodations by emailing AccessibilitySupport@nbcuni.com. For LA County and City Residents Only: NBCUniversal will consider for employment qualified applicants with criminal histories, or arrest or conviction records, in a manner consistent with relevant legal requirements, including the City of Los Angeles' Fair Chance Initiative For Hiring Ordinance, the Los Angeles County Fair Chance Ordinance for Employers, and the California Fair Chance Act, where applicable.",
+      "linkedin_url": "",
+      "focus_matches": [
+        "Operations"
+      ],
+      "focus_evidence": {
+        "Operations": " intros, and produce live and taped segments. Oversee field operations, including live shots, remote anchor setups, and breaking news coverage. Track and manage correspon"
+      },
+      "work_mode": "Remote",
+      "work_mode_evidence": "Additional Requirements: Fully Remote: This position has been designated as fully remote, based in Dallas, TX, meaning that the position is expected to contribute from a non-NBCUniversal worksite, most commonly an employee’s residence",
+      "match": 55,
+      "matched_skills": [
+        "Operations"
+      ]
+    },
+    {
+      "id": "greenhouse:stripe:8283786",
+      "company": "Stripe",
+      "title": "Marketing Operations Program Manager",
+      "location": "US Remote",
+      "salary": "Not disclosed",
+      "official_url": "https://stripe.com/careers/listing/marketing-operations-program-manager/8283786?gh_jid=8283786",
+      "posted": "2026-10-30T05:19:03-04:00",
+      "date_evidence": "Greenhouse.first_published",
+      "evidence_url": "https://boards-api.greenhouse.io/v1/boards/stripe/jobs/8283786?pay_transparency=true",
+      "description": "<h2><strong>Who we are </strong></h2> <h3><strong>About Stripe</strong></h3> <p><span style=\"font-weight: 400;\">Stripe is a financial infrastructure platform for businesses. Millions of companies - from the world’s largest enterprises to the most ambitious startups - use Stripe to accept payments, grow their revenue, and accelerate new business opportunities. Our mission is to increase the GDP of the internet, and we have a staggering amount of work ahead. That means you have an unprecedented opportunity to put the global economy within everyone's reach while doing the most important work of your career.</span></p> <h3>About the team</h3> <p>The Marketing Operations team is responsible for the systems, processes, and data infrastructure that power Stripe's global marketing engine. We partner closely with Growth, Demand Generation, Regional Marketing, Lifecycle, Sales Development, and Marketing Technology teams to ensure campaigns are executed with precision, prospect data is accurate and actionable, and our marketing technology stack operates at scale.</p> <p>We are systems thinkers and operational leaders focused on improving the workflows, tooling, data quality, and processes that enable marketing and sales teams to move faster and more effectively. Our work spans campaign operations, marketing automation, prospect data management, and cross-functional program delivery.</p> <h2>What you'll do</h2> <p>We're looking for a Program Manager to lead cross-functional programs that grow Stripe's reach to new businesses in direct support of Stripe’s mission. This role sits at the intersection of technology, data, and program management, and it requires someone who can move fluidly between strategic planning and hands-on execution via deep partnerships with engineering.</p> <p>You will serve as a process owner for key marketing and sales development operations work streams, partnering with stakeholders in marketing, sales development, product, and engineering to deliver scalable solutions that improve efficiency, data quality, and pipeline impact.</p> <h3>Responsibilities</h3> <ul> <li>Responsibilities can include the following and will vary by area of coverage</li> <li>Create and lead programs to build an agentic acquisition program for how Stripe engages with prospects</li> <li>Own end-to-end program delivery for initiatives; maintain program communications, track milestones, lead cross-functional workstreams, and provide regular updates on roadmap progress</li> <li>Lead programs to address recurring sales development and/or marketing operational challenges; define objectives, success metrics, and build repeatable processes that scale</li> <li>Partner with marketing, product and engineering teams to scope business requirements, coordinate discovery, and translate operational needs into product requirements for internal tooling</li> <li>Coordinate review cycles, pilots, and feedback collection during program execution; summarize required changes, identify launch-blocking issues, and escalate risks as needed</li> <li>Drive ongoing operations improvements through process innovation, automation, and the adoption of AI-powered tools to increase productivity and transform workflows</li> <li>Maintain scalable documentation and support coordination with offshore production teams and cross-functional partners across time zones</li> </ul> <h2>Who you are</h2> <p>We're looking for someone who meets the minimum requirements to be considered for the role. If you meet these requirements, you are encouraged to apply. The preferred qualifications are a bonus, not a requirement.</p> <h3>Minimum requirements</h3> <ul> <li>6+ years of experience in B2B marketing/sales/revenue operations or a related program management role in a high-growth technology environment</li> <li>3+ years of experience working day-to-day with marketing automation platforms, CRM platforms, prospect data, and lead management</li> <li>3+ years of experience in end-to-end program management of cross-functional marketing, sales, and engineering initiatives</li> <li>Experience building AI agents, including examples of agents you have deployed and examples of ways you are using AI on a daily basis beyond chat</li> <li>3+ years of experience doing your own analysis using queries, dashboards, and AI and partnering with analysts and data scientists for more complex analytics needs</li> <li>3+ years of experience defining your own scope and goals and collaborating with a distributed, global team to deliver on them</li> <li>Excellent written and verbal communication skills, including the ability to convey complex operational concepts to diverse stakeholders across marketing, sales, and engineering</li> </ul> <h3>Preferred qualifications</h3> <ul> <li>3+ years of experience with Salesforce or Marketo, including lead and contact management, campaign attribution, and marketing-to-sales data flows</li> <li>Experience implementing AI tools to improve marketing operations workflows and productivity</li> <li>Experience working with global teams on a day-to-day basis</li> <li>Experience in the financial services, payments, or B2B software industries</li> </ul>",
+      "linkedin_url": "",
+      "focus_matches": [
+        "Operations"
+      ],
+      "focus_evidence": {
+        "Operations": "Marketing Operations Program Manager. Who we are About Stripe Stripe is a financial infrastructure platform for business"
+      },
+      "work_mode": "Remote available",
+      "work_mode_evidence": "The official location includes remote work; confirm geographic restrictions and other work arrangements with the employer.",
+      "match": 55,
+      "matched_skills": [
+        "Operations"
+      ]
+    }
+  ]
+}
