@@ -10,106 +10,36 @@ Search area: USA, Canada, Mexico, Spain, LATAM, and eligible remote roles. Resul
 
 <!-- DASHBOARD:START -->
 
-## Dashboard: 2026-10-30
+## Dashboard: 2026-10-31
 
 > Your worth is not measured by an inbox. One thoughtful application at a time is enough for today.
 
-Publication day: 2026-10-30. Verified at: 2026-10-30T17:47:20.380621-07:00 (America/Los_Angeles).
+Publication day: 2026-10-31. Verified at: 2026-10-31T17:47:00.854186-07:00 (America/Los_Angeles).
 
 Up to 30 verified listings from the requested publication day. Coverage is limited to accessible sources.
 
-Reviewed: 61412 | Recommended: 6 | Applied excluded: 0 | Previously seen: 0 | Unverified: 1 | Outside topic focus: 3
+Reviewed: 61249 | Recommended: 0 | Applied excluded: 0 | Previously seen: 0 | Unverified: 0 | Outside topic focus: 0
 
 Accessible sources: 275 | LinkedIn candidates: 93
 
 LinkedIn: Public access available: 42 searches; publication dates verified only against official sources
 
-Regional coverage: Mexico 0 verified candidates | Spain 0 verified candidates. Target: 30; returned: 6.
+Regional coverage: Mexico 0 verified candidates | Spain 0 verified candidates. Target: 30; returned: 0.
 
 ## Top 5
 
 | Estimated match | Company | Role | Location | Work arrangement | Apply |
 |---|---|---|---|---|---|
-| 55% | AbbVie | Program Manager, MES | Irvine, CA, us | Not specified | [Apply](<https://jobs.smartrecruiters.com/AbbVie/3743990016537526-program-manager-mes->) |
-| 55% | AbbVie | Program Manager, MES | Worcester, MA, us | Not specified | [Apply](<https://jobs.smartrecruiters.com/AbbVie/3743990016537406-program-manager-mes>) |
-| 55% | AbbVie | Program Manager, MES | Barceloneta, Barceloneta, pr | Not specified | [Apply](<https://jobs.smartrecruiters.com/AbbVie/3743990016537646-program-manager-mes->) |
-| 55% | Avery Dennison | Channel Program Manager | Mentor, OH, us | Hybrid | [Apply](<https://jobs.smartrecruiters.com/AveryDennison/744000158742719-channel-program-manager>) |
-| 55% | NBCUniversal | Producer | Dallas, TEXAS, us (Remote) | Remote | [Apply](<https://jobs.smartrecruiters.com/NBCUniversal3/744000158845959-producer>) |
+No verified listings met all filters in the accessible sources.
 
 ## Verified jobs
 
 | Estimated match | Company / role | Location | Work arrangement | Published salary | Official publication date | Apply | LinkedIn |
 |---|---|---|---|---|---|---|---|
-| 55% | AbbVie / Program Manager, MES | Irvine, CA, us | Not specified | Not disclosed | 2026-10-30T20:06:16.401Z | [Apply](<https://jobs.smartrecruiters.com/AbbVie/3743990016537526-program-manager-mes->) | Not available |
-| 55% | AbbVie / Program Manager, MES | Worcester, MA, us | Not specified | Not disclosed | 2026-10-30T20:05:04.361Z | [Apply](<https://jobs.smartrecruiters.com/AbbVie/3743990016537406-program-manager-mes>) | Not available |
-| 55% | AbbVie / Program Manager, MES | Barceloneta, Barceloneta, pr | Not specified | Not disclosed | 2026-10-30T20:06:52.338Z | [Apply](<https://jobs.smartrecruiters.com/AbbVie/3743990016537646-program-manager-mes->) | Not available |
-| 55% | Avery Dennison / Channel Program Manager | Mentor, OH, us | Hybrid | Not disclosed | 2026-10-30T13:21:12.382Z | [Apply](<https://jobs.smartrecruiters.com/AveryDennison/744000158742719-channel-program-manager>) | Not available |
-| 55% | NBCUniversal / Producer | Dallas, TEXAS, us (Remote) | Remote | Not disclosed | 2026-10-30T21:35:31.879Z | [Apply](<https://jobs.smartrecruiters.com/NBCUniversal3/744000158845959-producer>) | Not available |
-| 55% | Stripe / Marketing Operations Program Manager | US Remote | Remote available | Not disclosed | 2026-10-30T05:19:03-04:00 | [Apply](<https://stripe.com/careers/listing/marketing-operations-program-manager/8283786?gh_jid=8283786>) | Not available |
 
 ## Evidence and fit
 
 Topic match is a heuristic, not a hiring probability or verified assessment of experience. With topic focus enabled: 40 base points plus 15 per matched theme (Agile, OKRs, Operations, ISO 27001), capped at 100. At least one theme is required. Results are ordered by match; California breaks ties.
-
-### AbbVie: Program Manager, MES
-
-- Job ID: smartrecruiters:AbbVie:3743990016537526
-- Application status: Not recorded as applied
-- Work arrangement: Not specified. The reviewed official source does not confirm the work arrangement for this role.
-- Publication date: 2026-10-30T20:06:16.401Z. Zoned timestamps are evaluated in California time.
-- Date evidence: [SmartRecruiters.releasedDate (release; may be a repost)](<https://api.smartrecruiters.com/v1/companies/AbbVie/postings/3743990016537526>)
-- Relevant themes: Operations.
-- Theme evidence: the official title or description mentions Operations.
-
-### AbbVie: Program Manager, MES
-
-- Job ID: smartrecruiters:AbbVie:3743990016537406
-- Application status: Not recorded as applied
-- Work arrangement: Not specified. The reviewed official source does not confirm the work arrangement for this role.
-- Publication date: 2026-10-30T20:05:04.361Z. Zoned timestamps are evaluated in California time.
-- Date evidence: [SmartRecruiters.releasedDate (release; may be a repost)](<https://api.smartrecruiters.com/v1/companies/AbbVie/postings/3743990016537406>)
-- Relevant themes: Operations.
-- Theme evidence: the official title or description mentions Operations.
-
-### AbbVie: Program Manager, MES
-
-- Job ID: smartrecruiters:AbbVie:3743990016537646
-- Application status: Not recorded as applied
-- Work arrangement: Not specified. The reviewed official source does not confirm the work arrangement for this role.
-- Publication date: 2026-10-30T20:06:52.338Z. Zoned timestamps are evaluated in California time.
-- Date evidence: [SmartRecruiters.releasedDate (release; may be a repost)](<https://api.smartrecruiters.com/v1/companies/AbbVie/postings/3743990016537646>)
-- Relevant themes: Operations.
-- Theme evidence: the official title or description mentions Operations.
-
-### Avery Dennison: Channel Program Manager
-
-- Job ID: smartrecruiters:AveryDennison:744000158742719
-- Application status: Not recorded as applied
-- Work arrangement: Hybrid. Key Responsibilities This position is based on-site/hybrid in Mentor, Ohio
-- Publication date: 2026-10-30T13:21:12.382Z. Zoned timestamps are evaluated in California time.
-- Date evidence: [SmartRecruiters.releasedDate (release; may be a repost)](<https://api.smartrecruiters.com/v1/companies/AveryDennison/postings/744000158742719>)
-- Relevant themes: Operations.
-- Theme evidence: the official title or description mentions Operations.
-
-### NBCUniversal: Producer
-
-- Job ID: smartrecruiters:NBCUniversal3:744000158845959
-- Application status: Not recorded as applied
-- Work arrangement: Remote. Additional Requirements: Fully Remote: This position has been designated as fully remote, based in Dallas, TX, meaning that the position is expected to contribute from a non-NBCUniversal worksite, most commonly an employee’s residence
-- Publication date: 2026-10-30T21:35:31.879Z. Zoned timestamps are evaluated in California time.
-- Date evidence: [SmartRecruiters.releasedDate (release; may be a repost)](<https://api.smartrecruiters.com/v1/companies/NBCUniversal3/postings/744000158845959>)
-- Relevant themes: Operations.
-- Theme evidence: the official title or description mentions Operations.
-
-### Stripe: Marketing Operations Program Manager
-
-- Job ID: greenhouse:stripe:8283786
-- Application status: Not recorded as applied
-- Work arrangement: Remote available. The official location includes remote work; confirm geographic restrictions and other work arrangements with the employer.
-- Publication date: 2026-10-30T05:19:03-04:00. Zoned timestamps are evaluated in California time.
-- Date evidence: [Greenhouse.first_published](<https://boards-api.greenhouse.io/v1/boards/stripe/jobs/8283786?pay_transparency=true>)
-- Relevant themes: Operations.
-- Theme evidence: the official title or description mentions Operations.
 
 ## Additional discovery sources
 
@@ -120,8 +50,8 @@ New verified employer boards retained for future searches: 0.
 | Latino and professional associations | Prospanica | 0 | 0 | 0 | 1 |
 | Latino and professional associations | HOPE - Hispanas Organized for Political Equality | 1 | 1 | 0 | 0 |
 | Latino and professional associations | Lean In Latinas | 1 | 0 | 0 | 1 |
-| Regional technology and startups | Built In San Francisco | 3 | 24 | 0 | 0 |
-| Games and entertainment | Hitmarker | 3 | 3 | 0 | 0 |
+| Regional technology and startups | Built In San Francisco | 3 | 23 | 0 | 0 |
+| Games and entertainment | Hitmarker | 3 | 1 | 0 | 0 |
 | Regional technology and startups | Welcome to the Jungle | 4 | 0 | 0 | 1 |
 | Life sciences | Biocom Career Hub | 1 | 0 | 0 | 1 |
 | Company careers | WelbeHealth official careers | 1 | 0 | 0 | 1 |
@@ -152,7 +82,6 @@ New verified employer boards retained for future searches: 0.
 
 The daily 5 pm run cannot include listings published after it begins. Historical searches include postings still accessible when checked. First-seen dates are never substituted for publication dates. SmartRecruiters release dates may refer to reposts. Work arrangements are not inferred from a city or an onboarding event. Additional discovery boards are checked through accessible public HTML with robots.txt respected. Member-only and JavaScript-only results may be unavailable. Third-party publication dates never replace official date evidence.
 - devot: HTTPError
-- instacart / 8337981: ValueError
 - wiz: HTTPError
 - yelp: HTTPError
 - contentsquare: HTTPError
