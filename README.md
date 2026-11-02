@@ -10,36 +10,47 @@ Search area: USA, Canada, Mexico, Spain, LATAM, and eligible remote roles. Resul
 
 <!-- DASHBOARD:START -->
 
-## Dashboard: 2026-10-31
+## Dashboard: 2026-11-01
 
 > Your worth is not measured by an inbox. One thoughtful application at a time is enough for today.
 
-Publication day: 2026-10-31. Verified at: 2026-10-31T17:47:00.854186-07:00 (America/Los_Angeles).
+Publication day: 2026-11-01. Verified at: 2026-11-01T17:56:06.523388-08:00 (America/Los_Angeles).
 
 Up to 30 verified listings from the requested publication day. Coverage is limited to accessible sources.
 
-Reviewed: 61249 | Recommended: 0 | Applied excluded: 0 | Previously seen: 0 | Unverified: 0 | Outside topic focus: 0
+Reviewed: 61212 | Recommended: 1 | Applied excluded: 0 | Previously seen: 0 | Unverified: 8 | Outside topic focus: 0
 
-Accessible sources: 275 | LinkedIn candidates: 93
+Accessible sources: 275 | LinkedIn candidates: 41
 
-LinkedIn: Public access available: 42 searches; publication dates verified only against official sources
+LinkedIn: Public access limited (HTTPError); no bypass or login attempted
 
-Regional coverage: Mexico 0 verified candidates | Spain 0 verified candidates. Target: 30; returned: 0.
+Regional coverage: Mexico 0 verified candidates | Spain 0 verified candidates. Target: 30; returned: 1.
 
 ## Top 5
 
 | Estimated match | Company | Role | Location | Work arrangement | Apply |
 |---|---|---|---|---|---|
-No verified listings met all filters in the accessible sources.
+| 55% | AbbVie | Program Manager, MES | Tempe, AZ, us | Not specified | [Apply](<https://jobs.smartrecruiters.com/AbbVie/3743990016544876-program-manager-mes>) |
 
 ## Verified jobs
 
 | Estimated match | Company / role | Location | Work arrangement | Published salary | Official publication date | Apply | LinkedIn |
 |---|---|---|---|---|---|---|---|
+| 55% | AbbVie / Program Manager, MES | Tempe, AZ, us | Not specified | Not disclosed | 2026-11-01T13:50:01.655Z | [Apply](<https://jobs.smartrecruiters.com/AbbVie/3743990016544876-program-manager-mes>) | Not available |
 
 ## Evidence and fit
 
 Topic match is a heuristic, not a hiring probability or verified assessment of experience. With topic focus enabled: 40 base points plus 15 per matched theme (Agile, OKRs, Operations, ISO 27001), capped at 100. At least one theme is required. Results are ordered by match; California breaks ties.
+
+### AbbVie: Program Manager, MES
+
+- Job ID: smartrecruiters:AbbVie:3743990016544876
+- Application status: Not recorded as applied
+- Work arrangement: Not specified. The reviewed official source does not confirm the work arrangement for this role.
+- Publication date: 2026-11-01T13:50:01.655Z. Zoned timestamps are evaluated in California time.
+- Date evidence: [SmartRecruiters.releasedDate (release; may be a repost)](<https://api.smartrecruiters.com/v1/companies/AbbVie/postings/3743990016544876>)
+- Relevant themes: Operations.
+- Theme evidence: the official title or description mentions Operations.
 
 ## Additional discovery sources
 
@@ -62,7 +73,7 @@ New verified employer boards retained for future searches: 0.
 | Latino and professional associations | SHPE | 0 | 0 | 0 | 1 |
 | Latino and professional associations | Techqueria | 1 | 0 | 0 | 1 |
 | Latino and professional associations | Latinx in Tech Career Center | 1 | 0 | 0 | 1 |
-| Women and inclusive career networks | PowerToFly | 1 | 0 | 0 | 1 |
+| Women and inclusive career networks | PowerToFly | 1 | 1 | 0 | 0 |
 | Women and inclusive career networks | Women Who Design | 1 | 0 | 0 | 1 |
 | Women and inclusive career networks | Women in Games International | 1 | 1 | 0 | 0 |
 | Women and inclusive career networks | Started by Women | 1 | 0 | 0 | 1 |
@@ -146,7 +157,6 @@ The daily 5 pm run cannot include listings published after it begins. Historical
 - SHPE: https://careercenter.shpe.org/: HTTP Error 403: Forbidden
 - Techqueria: No supported role links in public HTML; dynamic or member-only results may be unavailable
 - Latinx in Tech Career Center: No supported role links in public HTML; dynamic or member-only results may be unavailable
-- PowerToFly: No supported role links in public HTML; dynamic or member-only results may be unavailable
 - Women Who Design: No supported role links in public HTML; dynamic or member-only results may be unavailable
 - Started by Women: No supported role links in public HTML; dynamic or member-only results may be unavailable
 - Wellfound California: No supported role links in public HTML; dynamic or member-only results may be unavailable
