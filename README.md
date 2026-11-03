@@ -10,45 +10,70 @@ Search area: USA, Canada, Mexico, Spain, LATAM, and eligible remote roles. Resul
 
 <!-- DASHBOARD:START -->
 
-## Dashboard: 2026-11-01
+## Dashboard: 2026-11-02
 
 > Your worth is not measured by an inbox. One thoughtful application at a time is enough for today.
 
-Publication day: 2026-11-01. Verified at: 2026-11-01T17:56:06.523388-08:00 (America/Los_Angeles).
+Publication day: 2026-11-02. Verified at: 2026-11-02T17:54:54.476528-08:00 (America/Los_Angeles).
 
 Up to 30 verified listings from the requested publication day. Coverage is limited to accessible sources.
 
-Reviewed: 61212 | Recommended: 1 | Applied excluded: 0 | Previously seen: 0 | Unverified: 8 | Outside topic focus: 0
+Reviewed: 61239 | Recommended: 3 | Applied excluded: 0 | Previously seen: 0 | Unverified: 1 | Outside topic focus: 2
 
-Accessible sources: 275 | LinkedIn candidates: 41
+Accessible sources: 275 | LinkedIn candidates: 95
 
-LinkedIn: Public access limited (HTTPError); no bypass or login attempted
+LinkedIn: Public access available: 42 searches; publication dates verified only against official sources
 
-Regional coverage: Mexico 0 verified candidates | Spain 0 verified candidates. Target: 30; returned: 1.
+Regional coverage: Mexico 0 verified candidates | Spain 0 verified candidates. Target: 30; returned: 3.
 
 ## Top 5
 
 | Estimated match | Company | Role | Location | Work arrangement | Apply |
 |---|---|---|---|---|---|
-| 55% | AbbVie | Program Manager, MES | Tempe, AZ, us | Not specified | [Apply](<https://jobs.smartrecruiters.com/AbbVie/3743990016544876-program-manager-mes>) |
+| 70% | Riot Games | Senior Technical Producer - Central Technology, Infrastructure Platform | Los Angeles, USA | Not specified | [Apply](<https://www.riotgames.com/en/work-with-us/job/8338268?gh_jid=8338268>) |
+| 55% | AbbVie | Program Manager | Durham, NC, us | Not specified | [Apply](<https://jobs.smartrecruiters.com/AbbVie/3743990016562522-program-manager>) |
+| 55% | AbbVie | Program Manager | Durham, NC, us | Not specified | [Apply](<https://jobs.smartrecruiters.com/AbbVie/3743990016562696-program-manager>) |
 
 ## Verified jobs
 
 | Estimated match | Company / role | Location | Work arrangement | Published salary | Official publication date | Apply | LinkedIn |
 |---|---|---|---|---|---|---|---|
-| 55% | AbbVie / Program Manager, MES | Tempe, AZ, us | Not specified | Not disclosed | 2026-11-01T13:50:01.655Z | [Apply](<https://jobs.smartrecruiters.com/AbbVie/3743990016544876-program-manager-mes>) | Not available |
+| 70% | Riot Games / Senior Technical Producer - Central Technology, Infrastructure Platform | Los Angeles, USA | Not specified | Not disclosed | 2026-11-02T17:30:35-05:00 | [Apply](<https://www.riotgames.com/en/work-with-us/job/8338268?gh_jid=8338268>) | Not available |
+| 55% | AbbVie / Program Manager | Durham, NC, us | Not specified | Not disclosed | 2026-11-02T18:32:26.686Z | [Apply](<https://jobs.smartrecruiters.com/AbbVie/3743990016562522-program-manager>) | Not available |
+| 55% | AbbVie / Program Manager | Durham, NC, us | Not specified | Not disclosed | 2026-11-02T18:29:58.250Z | [Apply](<https://jobs.smartrecruiters.com/AbbVie/3743990016562696-program-manager>) | Not available |
 
 ## Evidence and fit
 
 Topic match is a heuristic, not a hiring probability or verified assessment of experience. With topic focus enabled: 40 base points plus 15 per matched theme (Agile, OKRs, Operations, ISO 27001), capped at 100. At least one theme is required. Results are ordered by match; California breaks ties.
 
-### AbbVie: Program Manager, MES
+### Riot Games: Senior Technical Producer - Central Technology, Infrastructure Platform
 
-- Job ID: smartrecruiters:AbbVie:3743990016544876
+- Job ID: greenhouse:riotgames:8338268
 - Application status: Not recorded as applied
 - Work arrangement: Not specified. The reviewed official source does not confirm the work arrangement for this role.
-- Publication date: 2026-11-01T13:50:01.655Z. Zoned timestamps are evaluated in California time.
-- Date evidence: [SmartRecruiters.releasedDate (release; may be a repost)](<https://api.smartrecruiters.com/v1/companies/AbbVie/postings/3743990016544876>)
+- Publication date: 2026-11-02T17:30:35-05:00. Zoned timestamps are evaluated in California time.
+- Date evidence: [Greenhouse.first_published](<https://boards-api.greenhouse.io/v1/boards/riotgames/jobs/8338268?pay_transparency=true>)
+- Relevant themes: Agile, Operations.
+- Theme evidence: the official title or description mentions Agile.
+- Theme evidence: the official title or description mentions Operations.
+
+### AbbVie: Program Manager
+
+- Job ID: smartrecruiters:AbbVie:3743990016562522
+- Application status: Not recorded as applied
+- Work arrangement: Not specified. The reviewed official source does not confirm the work arrangement for this role.
+- Publication date: 2026-11-02T18:32:26.686Z. Zoned timestamps are evaluated in California time.
+- Date evidence: [SmartRecruiters.releasedDate (release; may be a repost)](<https://api.smartrecruiters.com/v1/companies/AbbVie/postings/3743990016562522>)
+- Relevant themes: Operations.
+- Theme evidence: the official title or description mentions Operations.
+
+### AbbVie: Program Manager
+
+- Job ID: smartrecruiters:AbbVie:3743990016562696
+- Application status: Not recorded as applied
+- Work arrangement: Not specified. The reviewed official source does not confirm the work arrangement for this role.
+- Publication date: 2026-11-02T18:29:58.250Z. Zoned timestamps are evaluated in California time.
+- Date evidence: [SmartRecruiters.releasedDate (release; may be a repost)](<https://api.smartrecruiters.com/v1/companies/AbbVie/postings/3743990016562696>)
 - Relevant themes: Operations.
 - Theme evidence: the official title or description mentions Operations.
 
@@ -60,9 +85,9 @@ New verified employer boards retained for future searches: 0.
 |---|---|---|---|---|---|
 | Latino and professional associations | Prospanica | 0 | 0 | 0 | 1 |
 | Latino and professional associations | HOPE - Hispanas Organized for Political Equality | 1 | 1 | 0 | 0 |
-| Latino and professional associations | Lean In Latinas | 1 | 0 | 0 | 1 |
+| Latino and professional associations | Lean In Latinas | 0 | 0 | 0 | 1 |
 | Regional technology and startups | Built In San Francisco | 3 | 23 | 0 | 0 |
-| Games and entertainment | Hitmarker | 3 | 1 | 0 | 0 |
+| Games and entertainment | Hitmarker | 3 | 5 | 0 | 0 |
 | Regional technology and startups | Welcome to the Jungle | 4 | 0 | 0 | 1 |
 | Life sciences | Biocom Career Hub | 1 | 0 | 0 | 1 |
 | Company careers | WelbeHealth official careers | 1 | 0 | 0 | 1 |
@@ -73,7 +98,7 @@ New verified employer boards retained for future searches: 0.
 | Latino and professional associations | SHPE | 0 | 0 | 0 | 1 |
 | Latino and professional associations | Techqueria | 1 | 0 | 0 | 1 |
 | Latino and professional associations | Latinx in Tech Career Center | 1 | 0 | 0 | 1 |
-| Women and inclusive career networks | PowerToFly | 1 | 1 | 0 | 0 |
+| Women and inclusive career networks | PowerToFly | 1 | 0 | 0 | 1 |
 | Women and inclusive career networks | Women Who Design | 1 | 0 | 0 | 1 |
 | Women and inclusive career networks | Women in Games International | 1 | 1 | 0 | 0 |
 | Women and inclusive career networks | Started by Women | 1 | 0 | 0 | 1 |
@@ -92,6 +117,7 @@ New verified employer boards retained for future searches: 0.
 ## Coverage and source issues
 
 The daily 5 pm run cannot include listings published after it begins. Historical searches include postings still accessible when checked. First-seen dates are never substituted for publication dates. SmartRecruiters release dates may refer to reposts. Work arrangements are not inferred from a city or an onboarding event. Additional discovery boards are checked through accessible public HTML with robots.txt respected. Member-only and JavaScript-only results may be unavailable. Third-party publication dates never replace official date evidence.
+- block / 5440719008: ValueError
 - devot: HTTPError
 - wiz: HTTPError
 - yelp: HTTPError
@@ -148,7 +174,7 @@ The daily 5 pm run cannot include listings published after it begins. Historical
 - checkoutcom: HTTPError
 - flywire: HTTPError
 - Prospanica: https://jobs.prospanica.org/home/index.cfm: HTTP Error 403: Forbidden
-- Lean In Latinas: No supported role links in public HTML; dynamic or member-only results may be unavailable
+- Lean In Latinas: https://leaninlatinas.org/resources/:
 - Welcome to the Jungle: No supported role links in public HTML; dynamic or member-only results may be unavailable
 - Biocom Career Hub: No supported role links in public HTML; dynamic or member-only results may be unavailable
 - WelbeHealth official careers: No supported role links in public HTML; dynamic or member-only results may be unavailable
@@ -157,6 +183,7 @@ The daily 5 pm run cannot include listings published after it begins. Historical
 - SHPE: https://careercenter.shpe.org/: HTTP Error 403: Forbidden
 - Techqueria: No supported role links in public HTML; dynamic or member-only results may be unavailable
 - Latinx in Tech Career Center: No supported role links in public HTML; dynamic or member-only results may be unavailable
+- PowerToFly: No supported role links in public HTML; dynamic or member-only results may be unavailable
 - Women Who Design: No supported role links in public HTML; dynamic or member-only results may be unavailable
 - Started by Women: No supported role links in public HTML; dynamic or member-only results may be unavailable
 - Wellfound California: No supported role links in public HTML; dynamic or member-only results may be unavailable

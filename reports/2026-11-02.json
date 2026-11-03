@@ -1,0 +1,471 @@
+{
+  "date": "2026-11-02",
+  "verified_at": "2026-11-02T17:54:54.476528-08:00",
+  "metrics": {
+    "reviewed": 61239,
+    "sources_ok": 275,
+    "unverified": 1,
+    "applied_excluded": 0,
+    "seen_excluded": 0,
+    "linkedin_candidates": 95,
+    "linkedin": "Public access available: 42 searches; publication dates verified only against official sources",
+    "errors": [
+      "block / 5440719008: ValueError",
+      "devot: HTTPError",
+      "wiz: HTTPError",
+      "yelp: HTTPError",
+      "contentsquare: HTTPError",
+      "factorialhr: HTTPError",
+      "factorial: HTTPError",
+      "travelperk: HTTPError",
+      "jobandtalent: HTTPError",
+      "glovo: HTTPError",
+      "bookingcom: HTTPError",
+      "expediagroup: HTTPError",
+      "cimpress: HTTPError",
+      "vistaprint: HTTPError",
+      "softtek: HTTPError",
+      "agileengine: HTTPError",
+      "konfio: HTTPError",
+      "clipmx: HTTPError",
+      "kueski: HTTPError",
+      "klar: HTTPError",
+      "yalo: HTTPError",
+      "nowports: HTTPError",
+      "remitly: HTTPError",
+      "payjoy: HTTPError",
+      "tala: HTTPError",
+      "openpay: HTTPError",
+      "global66: HTTPError",
+      "habi: HTTPError",
+      "truora: HTTPError",
+      "platzi: HTTPError",
+      "clara: HTTPError",
+      "bitso: HTTPError",
+      "stori: HTTPError",
+      "mendel: HTTPError",
+      "factorial: HTTPError",
+      "lodgify: HTTPError",
+      "secretsource: HTTPError",
+      "sastrify: HTTPError",
+      "safetywing: HTTPError",
+      "jobgether: HTTPError",
+      "lemonio: HTTPError",
+      "nearsure: HTTPError",
+      "crunchyroll: HTTPError",
+      "amdocs: HTTPError",
+      "slalom: HTTPError",
+      "slalombuild: HTTPError",
+      "cprime: HTTPError",
+      "avature: HTTPError",
+      "guidewire: HTTPError",
+      "netsuite: HTTPError",
+      "eon: HTTPError",
+      "epamanywhere: HTTPError",
+      "akamai: HTTPError",
+      "thoughtmachine: HTTPError",
+      "checkoutcom: HTTPError",
+      "flywire: HTTPError",
+      "Prospanica: https://jobs.prospanica.org/home/index.cfm: HTTP Error 403: Forbidden",
+      "Lean In Latinas: https://leaninlatinas.org/resources/: <urlopen error [Errno 101] Network is unreachable>",
+      "Welcome to the Jungle: No supported role links in public HTML; dynamic or member-only results may be unavailable",
+      "Biocom Career Hub: No supported role links in public HTML; dynamic or member-only results may be unavailable",
+      "WelbeHealth official careers: No supported role links in public HTML; dynamic or member-only results may be unavailable",
+      "thatgamecompany official careers: https://thatgamecompany.com/company/jobs/: Only public HTTPS URLs are allowed",
+      "HLPA: https://jobs.hlpa.com/employment/search.aspx: HTTP Error 406: Not Acceptable",
+      "SHPE: https://careercenter.shpe.org/: HTTP Error 403: Forbidden",
+      "Techqueria: No supported role links in public HTML; dynamic or member-only results may be unavailable",
+      "Latinx in Tech Career Center: No supported role links in public HTML; dynamic or member-only results may be unavailable",
+      "PowerToFly: No supported role links in public HTML; dynamic or member-only results may be unavailable",
+      "Women Who Design: No supported role links in public HTML; dynamic or member-only results may be unavailable",
+      "Started by Women: No supported role links in public HTML; dynamic or member-only results may be unavailable",
+      "Wellfound California: No supported role links in public HTML; dynamic or member-only results may be unavailable",
+      "Y Combinator California: No supported role links in public HTML; dynamic or member-only results may be unavailable",
+      "Games Jobs Direct: https://www.gamesjobsdirect.com/search: HTTP Error 406: Not Acceptable",
+      "Bloks: No supported role links in public HTML; dynamic or member-only results may be unavailable",
+      "ASGC Games Jobs: No supported role links in public HTML; dynamic or member-only results may be unavailable",
+      "BioSpace California: https://jobs.biospace.com/california: HTTP Error 429: Too Many Requests",
+      "BioTalent: No supported role links in public HTML; dynamic or member-only results may be unavailable",
+      "Manfred Spain: No supported role links in public HTML; dynamic or member-only results may be unavailable",
+      "Jobgether: https://jobgether.com/remote-jobs/program-manager: HTTP Error 403: Forbidden"
+    ],
+    "discovery": [
+      {
+        "source": "Prospanica",
+        "category": "Latino and professional associations",
+        "pages": 0,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "https://jobs.prospanica.org/home/index.cfm: HTTP Error 403: Forbidden"
+        ]
+      },
+      {
+        "source": "HOPE - Hispanas Organized for Political Equality",
+        "category": "Latino and professional associations",
+        "pages": 1,
+        "candidates": 1,
+        "verified": 0,
+        "issues": []
+      },
+      {
+        "source": "Lean In Latinas",
+        "category": "Latino and professional associations",
+        "pages": 0,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "https://leaninlatinas.org/resources/: <urlopen error [Errno 101] Network is unreachable>"
+        ]
+      },
+      {
+        "source": "Built In San Francisco",
+        "category": "Regional technology and startups",
+        "pages": 3,
+        "candidates": 23,
+        "verified": 0,
+        "issues": []
+      },
+      {
+        "source": "Hitmarker",
+        "category": "Games and entertainment",
+        "pages": 3,
+        "candidates": 5,
+        "verified": 0,
+        "issues": []
+      },
+      {
+        "source": "Welcome to the Jungle",
+        "category": "Regional technology and startups",
+        "pages": 4,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "No supported role links in public HTML; dynamic or member-only results may be unavailable"
+        ]
+      },
+      {
+        "source": "Biocom Career Hub",
+        "category": "Life sciences",
+        "pages": 1,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "No supported role links in public HTML; dynamic or member-only results may be unavailable"
+        ]
+      },
+      {
+        "source": "WelbeHealth official careers",
+        "category": "Company careers",
+        "pages": 1,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "No supported role links in public HTML; dynamic or member-only results may be unavailable"
+        ]
+      },
+      {
+        "source": "Branch official careers",
+        "category": "Company careers",
+        "pages": 1,
+        "candidates": 13,
+        "verified": 0,
+        "issues": []
+      },
+      {
+        "source": "thatgamecompany official careers",
+        "category": "Company careers",
+        "pages": 0,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "https://thatgamecompany.com/company/jobs/: Only public HTTPS URLs are allowed"
+        ]
+      },
+      {
+        "source": "Turtle Rock Studios official careers",
+        "category": "Company careers",
+        "pages": 1,
+        "candidates": 1,
+        "verified": 0,
+        "issues": []
+      },
+      {
+        "source": "HLPA",
+        "category": "Latino and professional associations",
+        "pages": 0,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "https://jobs.hlpa.com/employment/search.aspx: HTTP Error 406: Not Acceptable"
+        ]
+      },
+      {
+        "source": "SHPE",
+        "category": "Latino and professional associations",
+        "pages": 0,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "https://careercenter.shpe.org/: HTTP Error 403: Forbidden"
+        ]
+      },
+      {
+        "source": "Techqueria",
+        "category": "Latino and professional associations",
+        "pages": 1,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "No supported role links in public HTML; dynamic or member-only results may be unavailable"
+        ]
+      },
+      {
+        "source": "Latinx in Tech Career Center",
+        "category": "Latino and professional associations",
+        "pages": 1,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "No supported role links in public HTML; dynamic or member-only results may be unavailable"
+        ]
+      },
+      {
+        "source": "PowerToFly",
+        "category": "Women and inclusive career networks",
+        "pages": 1,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "No supported role links in public HTML; dynamic or member-only results may be unavailable"
+        ]
+      },
+      {
+        "source": "Women Who Design",
+        "category": "Women and inclusive career networks",
+        "pages": 1,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "No supported role links in public HTML; dynamic or member-only results may be unavailable"
+        ]
+      },
+      {
+        "source": "Women in Games International",
+        "category": "Women and inclusive career networks",
+        "pages": 1,
+        "candidates": 1,
+        "verified": 0,
+        "issues": []
+      },
+      {
+        "source": "Started by Women",
+        "category": "Women and inclusive career networks",
+        "pages": 1,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "No supported role links in public HTML; dynamic or member-only results may be unavailable"
+        ]
+      },
+      {
+        "source": "Wellfound California",
+        "category": "Regional technology and startups",
+        "pages": 1,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "No supported role links in public HTML; dynamic or member-only results may be unavailable"
+        ]
+      },
+      {
+        "source": "Y Combinator California",
+        "category": "Regional technology and startups",
+        "pages": 1,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "No supported role links in public HTML; dynamic or member-only results may be unavailable"
+        ]
+      },
+      {
+        "source": "Games Jobs Direct",
+        "category": "Games and entertainment",
+        "pages": 0,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "https://www.gamesjobsdirect.com/search: HTTP Error 406: Not Acceptable"
+        ]
+      },
+      {
+        "source": "Bloks",
+        "category": "Games and entertainment",
+        "pages": 1,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "No supported role links in public HTML; dynamic or member-only results may be unavailable"
+        ]
+      },
+      {
+        "source": "Gaming Industry Job Tracker",
+        "category": "Games and entertainment",
+        "pages": 1,
+        "candidates": 1,
+        "verified": 0,
+        "issues": []
+      },
+      {
+        "source": "ASGC Games Jobs",
+        "category": "Games and entertainment",
+        "pages": 1,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "No supported role links in public HTML; dynamic or member-only results may be unavailable"
+        ]
+      },
+      {
+        "source": "BioSpace California",
+        "category": "Life sciences",
+        "pages": 0,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "https://jobs.biospace.com/california: HTTP Error 429: Too Many Requests"
+        ]
+      },
+      {
+        "source": "BioTalent",
+        "category": "Life sciences",
+        "pages": 1,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "No supported role links in public HTML; dynamic or member-only results may be unavailable"
+        ]
+      },
+      {
+        "source": "Manfred Spain",
+        "category": "Remote and international",
+        "pages": 1,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "No supported role links in public HTML; dynamic or member-only results may be unavailable"
+        ]
+      },
+      {
+        "source": "Wellfound Remote",
+        "category": "Remote and international",
+        "pages": 1,
+        "candidates": 29,
+        "verified": 0,
+        "issues": []
+      },
+      {
+        "source": "Jobgether",
+        "category": "Remote and international",
+        "pages": 0,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "https://jobgether.com/remote-jobs/program-manager: HTTP Error 403: Forbidden"
+        ]
+      },
+      {
+        "source": "Remotely",
+        "category": "Remote and international",
+        "pages": 1,
+        "candidates": 11,
+        "verified": 0,
+        "issues": []
+      }
+    ],
+    "new_employer_boards": 0,
+    "focus_excluded": 2,
+    "mexico_verified_candidates": 0,
+    "spain_verified_candidates": 0
+  },
+  "jobs": [
+    {
+      "id": "greenhouse:riotgames:8338268",
+      "company": "Riot Games",
+      "title": "Senior Technical Producer - Central Technology, Infrastructure Platform",
+      "location": "Los Angeles, USA",
+      "salary": "Not disclosed",
+      "official_url": "https://www.riotgames.com/en/work-with-us/job/8338268?gh_jid=8338268",
+      "posted": "2026-11-02T17:30:35-05:00",
+      "date_evidence": "Greenhouse.first_published",
+      "evidence_url": "https://boards-api.greenhouse.io/v1/boards/riotgames/jobs/8338268?pay_transparency=true",
+      "description": "<p>As Technical Producers at Riot, we lead passionate technical teams to create products and experiences that achieve maximum developer, operator, and player value. We guide development, clear blockers, and push projects across the finish line while ensuring our teams are sustainable and foster a collaborative environment.</p> <p>As a <strong>Senior Technical Producer</strong> on the Infrastructure Platform team, you'll drive direction and delivery across the platforms the rest of Riot ships on: live game services in every region, internal tools Rioters build to do their jobs, and a fast-growing set of workloads. Much of the work ahead is extending those platforms to support emergent or underserved use cases, and you'll help decide what that should look like. You'll partner closely with engineering leads across Infrastructure and the teams across Riot who depend on what we deliver.</p> <h2>Responsibilities:</h2> <ul> <li>Partner with engineering managers and technical leads to develop the technical product vision, strategy, and roadmap for your area&nbsp;</li> <li>Own product requirements for your area, defining what to build, what success looks like, and how it will be measured.</li> <li>Partner with engineering to evaluate designs against user needs, assess trade-offs, and pressure-test implementations</li> <li>Manage delivery plans, risks, blockers, dependencies, tradeoffs; maintain clear stakeholder communication</li> <li>Lead the breakdown and execution of multi-month work efforts spanning multiple teams within an initiative</li> <li>Partner with teams to improve work systems, practices, delivery rituals, and goal setting; strengthen product feedback loops to clarify decisions, strengthen delivery predictability, and create a more consistent customer experience</li> <li>Coordinate or facilitate day-to-day team rituals where needed within assigned scope</li> <li>Assess team health, composition, and capacity to ensure the team is set up for success</li> <li>Drive difficult technical tradeoffs with technical leaders, and articulate and advocate those tradeoffs to non-technical stakeholders</li> <li>Serve as a key point of contact for customers in your assigned scope; engage them to understand needs and coordinate new-work intake</li> <li>Prioritize customer requests in partnership with relevant engineering and technical leads for your assigned scope&nbsp;</li> <li>Own an integrated view of delivery status across your assigned scope, tracking progress against goals and milestones, and contribute to consolidated reporting for relevant stakeholders, adapting updates to the audience and reporting needs</li> <li>Use customer feedback, product signals, test results, and operational data to validate problems and drive priorities</li> <li>Monitor product and service health, including user experience, cost, usage, performance, and operational effort, and help turn signals into improvements</li> <li>Mentor other producers and contribute ideas beyond your immediate ownership across teams</li> </ul> <h2>Required Qualifications:&nbsp;</h2> <ul> <li>6+ years of experience as a Technical Producer, Technical Product Manager, Development Manager, or a relevant role on medium to large technical teams&nbsp;</li> <li>Bachelor's degree in computer science, engineering, or equivalent practical experience</li> <li>Experience applying Agile and Lean development processes at scale, and contextually adapting a broad set of development processes</li> <li>Experience independently leading complex technical programs/projects with multiple teams, diverse stakeholders, or dependencies</li> <li>Broad understanding of technical systems across multiple related areas, with the ability to identify and articulate multiple solutions and their tradeoffs</li> <li>Experience defining product strategy, success metrics, and roadmap priorities for technical platforms, internal tools, or operational capabilities</li> <li>Ability to understand technical requirements and how technical choices affect reliability, operations, and developer and player experience</li> <li>Strong understanding of product management and the ability to find balanced solutions across technical, developer, and delivery constraints</li> <li>Ability to set product and technical requirements within a defined space and evaluate designs or architecture against those requirements</li> <li>Experience owning a roadmap, product plan, or execution plan through more than one stage of the product lifecycle, including launch and post-launch improvement</li> <li>Ability to communicate complex topics clearly to audiences with little or no context</li> <li>Proficiency with Jira</li> </ul> <h2>Desired Qualifications:</h2> <ul> <li>Familiarity with Atlassian tools, including Jira Product Discovery and Jira Plans&nbsp;</li> <li>Experience building business cases and funding asks for technical investment</li> <li>Experience with infrastructure, cloud, developer tooling, or live-service products</li> <li>Experience improving developer productivity, operational quality, or self-service for a central platform</li> <li>Experience applying data, experimentation, automation, or AI-enabled workflows to deliver customer value or improve efficiency</li> <li>Experience working across infrastructure and game teams in a globally distributed, high-scale, or live-service environment</li> </ul> <p><em>For this role, you'll find success through craft expertise, a collaborative spirit, and decision-making that prioritizes your fellow Rioters, who are the customers of your work. Being a dedicated fan of games is not necessary for this position!</em></p> <h2><strong>Our Perks:</strong></h2> <p>Riot focuses on work/life balance, shown by our open paid time off policy and other perks such as flexible work schedules. We offer medical, dental, and life insurance, parental leave for you, your spouse/domestic partner, and children, and a 401k with company match. Check out our <a href=\"https://www.riotgames.com/en/work-with-us/overview\"><strong>benefits pages</strong></a> for more information.</p> <p>At Riot Games, we&nbsp;<a class=\"c-link\" href=\"https://www.riotgames.com/en/who-we-are/values\" target=\"_blank\" data-stringify-link=\"https://www.riotgames.com/en/who-we-are/values\" data-sk=\"tooltip_parent\">put players first</a>. That mission drives every decision in our quest to create games and experiences that make it better to be a player. Whether you’re working directly on a new player-facing experience or you’re supporting the company as a whole, everyone at Riot is part of our mission. And just like in our games, we’re better when we work together. Our goal is to create collaborative teams where you are empowered to bring your unique perspective everyday. If that sounds like the kind of place you want to work, we’re looking forward to your application.</p> <p>&nbsp;</p> <p><em>It’s our policy to provide equal employment opportunity for all applicants and members of Riot Games, Inc. Riot Games makes reasonable accommodations for handicapped and disabled Rioters and does not unlawfully discriminate on the basis of race, color, religion, sex, sexual orientation, gender identity or expression, national origin, age, handicap, veteran status, marital status, criminal history, or any other category protected by applicable federal and state law. We consider for employment all qualified applicants, including those with criminal histories, in a manner consistent with applicable federal, state and local law, including the California Fair Chance Act, the City of Los Angeles Fair Chance Initiative for Hiring Ordinance, the Los Angeles County Fair Chance Ordinance for Employers, the San&nbsp;Francisco Fair Chance Ordinance, and the Washington Fair Chance Act.</em></p> <p><em>Per the Los Angeles County Fair Chance Ordinance, the following core duties may create a basis for disqualifying candidates with relevant criminal histories:</em></p> <ul> <li><em>Safeguarding confidential and sensitive Company data </em></li> <li><em>Communication with others, including Rioters and third parties such as vendors, and/or players, including minors</em></li> <li><em>Accessing Company assets, secure digital systems, and networks</em></li> <li><em>Ensuring a safe interactive environment for players and other Rioters</em></li> </ul> <p><em>These duties are directly related to essential operations, safety, trust, and compliance obligations within our organization. Please note that job duties may evolve based on business needs and additional responsibilities may be assigned as necessary to maintain operational efficiency and security.&nbsp;</em></p>",
+      "linkedin_url": "",
+      "focus_matches": [
+        "Agile",
+        "Operations"
+      ],
+      "focus_evidence": {
+        "Agile": "ing, or equivalent practical experience Experience applying Agile and Lean development processes at scale, and contextually adapting a broad set of development proce",
+        "Operations": " requirements and how technical choices affect reliability, operations, and developer and player experience Strong understanding of product management and the ability to "
+      },
+      "work_mode": "Not specified",
+      "work_mode_evidence": "The reviewed official source does not confirm the work arrangement for this role.",
+      "match": 70,
+      "matched_skills": [
+        "Agile",
+        "Operations"
+      ]
+    },
+    {
+      "id": "smartrecruiters:AbbVie:3743990016562522",
+      "company": "AbbVie",
+      "title": "Program Manager",
+      "location": "Durham, NC, us",
+      "salary": "Not disclosed",
+      "official_url": "https://jobs.smartrecruiters.com/AbbVie/3743990016562522-program-manager",
+      "posted": "2026-11-02T18:32:26.686Z",
+      "date_evidence": "SmartRecruiters.releasedDate (release; may be a repost)",
+      "evidence_url": "https://api.smartrecruiters.com/v1/companies/AbbVie/postings/3743990016562522",
+      "description": "About AbbVie AbbVie's mission is to discover and deliver innovative medicines and solutions that solve serious health issues today and address the medical challenges of tomorrow. We strive to have a remarkable impact on people's lives across several key therapeutic areas including immunology, oncology and neuroscience - and products and services in our Allergan Aesthetics portfolio. For more information about AbbVie, please visit us at www.abbvie.com . Follow @abbvie on LinkedIn, Facebook , Instagram , X and YouTube. New to North Carolina. Known for pursuing breakthroughs in medicine. Ready to join our team? At AbbVie, we bring together talented people and innovative science to develop medicines that help patients. Now, we’re bringing that commitment to Durham, North Carolina, with a new manufacturing campus that will expand our ability to produce medicines and create opportunities in the Research Triangle. The campus will integrate advanced manufacturing, laboratory technologies and AI to support the production of immunology, oncology and neuroscience medicines. The first phase will include manufacturing facilities, next-generation laboratories, a warehouse, administrative offices and employee wellness facilities. To learn more about this investment, please visit https://www.abbvie.com/abbvie-north-carolina-manufacturing.html We are now recruiting our Program Manager. ROLE DESCRIPTION Leads complex, enterprise-wide project governance and commercial strategy initiatives, applying advanced professional expertise to deliver measurable outcomes across global programs, transformation portfolios, and project finance environments. The role manages work through cross-functional teams and partners, without direct people-management responsibility. Owns end-to-end delivery of strategic programs and workstreams, establishing governance, financial discipline, commercial alignment, and delivery transparency. Integrates plans, dependencies, resources, risks, and stakeholder expectations to enable timely decisions and sustainable business results. KEY RESPONSIBILITIES Global Program & Transformation Delivery Integrated Planning, Dependencies & Resources Procurement, Contracts & Commercial Strategy Risk, Issue & Root-Cause Resolution Stakeholder Engagement & Executive Reporting Methods, Documentation & Continuous Improvement 1. Portfolio Governance & Project Finance — Design and operate project finance portfolio governance that supports investment discipline, prioritization, and executive decision-making. Establish consistent financial controls, business-case standards, and performance measures across the portfolio. Translate portfolio insights into clear recommendations on funding, value realization, and corrective actions. 2. Global Program & Transformation Delivery — Lead end-to-end delivery of complex global programs and transformation workstreams from initiation through closeout. Define integrated plans, milestones, deliverables, and acceptance criteria aligned to strategic objectives. Coordinate cross-functional teams to sustain momentum and deliver committed outcomes. 3. Integrated Planning, Dependencies & Resources — Sequence work across interdependent initiatives, identifying critical paths, handoffs, and resource constraints. Align capacity, priorities, and delivery timelines with functional leaders and program sponsors. Anticipate dependency impacts and adjust plans to protect enterprise commitments. 4. Procurement, Contracts & Commercial Strategy — Shape commercial strategies that balance value, risk, cost, supplier capability, and delivery requirements. Partner with procurement, legal, finance, and business stakeholders on sourcing, contracting, and vendor governance. Monitor commercial commitments and escalate material contractual, financial, or delivery exposures. 5. Risk, Issue & Root-Cause Resolution — Identify, assess, and manage program risks, issues, assumptions, and decisions using disciplined governance practices. Lead structured root-cause analysis and coordinate practical recovery plans for complex delivery challenges. Escalate significant matters with clear options, impacts, and recommended actions. 6. Stakeholder Engagement & Executive Reporting — Build productive relationships with senior stakeholders, sponsors, functional leaders, and external partners. Deliver concise reporting on milestones, risks, financial performance, dependencies, and deliverables. Facilitate governance forums that enable timely decisions, accountability, and alignment. 7. Methods, Documentation & Continuous Improvement — Apply and strengthen program and project management methods, tools, controls, and documentation standards. Improve governance processes, reporting quality, and delivery practices through lessons learned and data-driven insights. Promote repeatable ways of working that improve transparency, efficiency, and execution quality. EDUCATION AND EXPERIENCE Bachelor’s degree in engineering or science required; master’s degree or MBA preferred. 8–10 years of progressive experience in program/project management, portfolio governance, transformation, project finance, commercial strategy, or related disciplines. Demonstrated success delivering complex, cross-functional programs or workstreams in a matrixed, global, or enterprise environment. Strong negotiation and communication skills are required. Strong proficiency in setting up of WBS, SAP finance, legal agreements for equipment and services, digital and AI literacy. Experience in planning software such as Primavera is an advantage. CORE SKILLS AND CAPABILITIES Advanced program and project management expertise, including planning, governance, dependency management, and delivery controls. Strong financial, commercial, procurement, and contract-management acumen. Ability to analyze complex information, resolve issues at root cause, and translate findings into clear actions. Excellent executive communication, stakeholder engagement, facilitation, and influencing skills. Proficiency with project and portfolio management methods, reporting tools, and governance documentation. Applicable only to applicants applying to a position in any location with pay disclosure requirements under state or local law: ​ The compensation range described below is the range of possible base pay compensation that the Company believes in good faith it will pay for this role at the time of this posting based on the job grade for this position. Individual compensation paid within this range will depend on many factors including geographic location, and we may ultimately pay more or less than the posted range. This range may be modified in the future. ​ We offer a comprehensive package of benefits including paid time off (vacation, holidays, sick), medical/dental/vision insurance and 401(k) to eligible employees.​ This job is eligible to participate in our long-term incentive programs. Note: No amount of pay is considered to be wages or compensation until such amount is earned, vested, and determinable. The amount and availability of any bonus, commission, incentive, benefits, or any other form of compensation and benefits that are allocable to a particular employee remains in the Company's sole and absolute discretion unless and until paid and may be modified at the Company’s sole and absolute discretion, consistent with applicable law.​ AbbVie is an equal opportunity employer and is committed to operating with integrity, driving innovation, transforming lives and serving our community. Equal Opportunity Employer/Veterans/Disabled. US & Puerto Rico only - to learn more, visit https://www.abbvie.com/join-us/equal-employment-opportunity-employer.html US & Puerto Rico applicants seeking a reasonable accommodation, click here to learn more: https://www.abbvie.com/join-us/reasonable-accommodations.html",
+      "linkedin_url": "",
+      "focus_matches": [
+        "Operations"
+      ],
+      "focus_evidence": {
+        "Operations": "r Engagement & Executive Reporting Methods, Documentation & Continuous Improvement 1. Portfolio Governance & Project Finance — Design and operate project finance portfolio governance"
+      },
+      "work_mode": "Not specified",
+      "work_mode_evidence": "The reviewed official source does not confirm the work arrangement for this role.",
+      "match": 55,
+      "matched_skills": [
+        "Operations"
+      ]
+    },
+    {
+      "id": "smartrecruiters:AbbVie:3743990016562696",
+      "company": "AbbVie",
+      "title": "Program Manager",
+      "location": "Durham, NC, us",
+      "salary": "Not disclosed",
+      "official_url": "https://jobs.smartrecruiters.com/AbbVie/3743990016562696-program-manager",
+      "posted": "2026-11-02T18:29:58.250Z",
+      "date_evidence": "SmartRecruiters.releasedDate (release; may be a repost)",
+      "evidence_url": "https://api.smartrecruiters.com/v1/companies/AbbVie/postings/3743990016562696",
+      "description": "About AbbVie AbbVie's mission is to discover and deliver innovative medicines and solutions that solve serious health issues today and address the medical challenges of tomorrow. We strive to have a remarkable impact on people's lives across several key therapeutic areas including immunology, oncology and neuroscience - and products and services in our Allergan Aesthetics portfolio. For more information about AbbVie, please visit us at www.abbvie.com . Follow @abbvie on LinkedIn, Facebook , Instagram , X and YouTube. New to North Carolina. Known for pursuing breakthroughs in medicine. Ready to join our team? At AbbVie, we bring together talented people and innovative science to develop medicines that help patients. Now, we’re bringing that commitment to Durham, North Carolina, with a new manufacturing campus that will expand our ability to produce medicines and create opportunities in the Research Triangle. The campus will integrate advanced manufacturing, laboratory technologies and AI to support the production of immunology, oncology and neuroscience medicines. The first phase will include manufacturing facilities, next-generation laboratories, a warehouse, administrative offices and employee wellness facilities. To learn more about this investment, please visit https://www.abbvie.com/abbvie-north-carolina-manufacturing.html We are now recruiting our Program Manager. ROLE DESCRIPTION Leads complex, enterprise-wide project governance and commercial strategy initiatives, applying advanced professional expertise to deliver measurable outcomes across global programs, transformation portfolios, and project finance environments. The role manages work through cross-functional teams and partners, without direct people-management responsibility. Owns end-to-end delivery of strategic programs and workstreams, establishing governance, financial discipline, commercial alignment, and delivery transparency. Integrates plans, dependencies, resources, risks, and stakeholder expectations to enable timely decisions and sustainable business results. KEY RESPONSIBILITIES Global Program & Transformation Delivery Integrated Planning, Dependencies & Resources Procurement, Contracts & Commercial Strategy Risk, Issue & Root-Cause Resolution Stakeholder Engagement & Executive Reporting Methods, Documentation & Continuous Improvement 1. Portfolio Governance & Project Finance — Design and operate project finance portfolio governance that supports investment discipline, prioritization, and executive decision-making. Establish consistent financial controls, business-case standards, and performance measures across the portfolio. Translate portfolio insights into clear recommendations on funding, value realization, and corrective actions. 2. Global Program & Transformation Delivery — Lead end-to-end delivery of complex global programs and transformation workstreams from initiation through closeout. Define integrated plans, milestones, deliverables, and acceptance criteria aligned to strategic objectives. Coordinate cross-functional teams to sustain momentum and deliver committed outcomes. 3. Integrated Planning, Dependencies & Resources — Sequence work across interdependent initiatives, identifying critical paths, handoffs, and resource constraints. Align capacity, priorities, and delivery timelines with functional leaders and program sponsors. Anticipate dependency impacts and adjust plans to protect enterprise commitments. 4. Procurement, Contracts & Commercial Strategy — Shape commercial strategies that balance value, risk, cost, supplier capability, and delivery requirements. Partner with procurement, legal, finance, and business stakeholders on sourcing, contracting, and vendor governance. Monitor commercial commitments and escalate material contractual, financial, or delivery exposures. 5. Risk, Issue & Root-Cause Resolution — Identify, assess, and manage program risks, issues, assumptions, and decisions using disciplined governance practices. Lead structured root-cause analysis and coordinate practical recovery plans for complex delivery challenges. Escalate significant matters with clear options, impacts, and recommended actions. 6. Stakeholder Engagement & Executive Reporting — Build productive relationships with senior stakeholders, sponsors, functional leaders, and external partners. Deliver concise reporting on milestones, risks, financial performance, dependencies, and deliverables. Facilitate governance forums that enable timely decisions, accountability, and alignment. 7. Methods, Documentation & Continuous Improvement — Apply and strengthen program and project management methods, tools, controls, and documentation standards. Improve governance processes, reporting quality, and delivery practices through lessons learned and data-driven insights. Promote repeatable ways of working that improve transparency, efficiency, and execution quality. EDUCATION AND EXPERIENCE Bachelor’s degree in engineering or science required; master’s degree or MBA preferred. 8–10 years of progressive experience in program/project management, portfolio governance, transformation, project finance, commercial strategy, or related disciplines. Demonstrated success delivering complex, cross-functional programs or workstreams in a matrixed, global, or enterprise environment. Strong negotiation and communication skills are required. Strong proficiency in setting up of WBS, SAP finance, legal agreements for equipment and services, digital and AI literacy. Experience in planning software such as Primavera is an advantage. CORE SKILLS AND CAPABILITIES Advanced program and project management expertise, including planning, governance, dependency management, and delivery controls. Strong financial, commercial, procurement, and contract-management acumen. Ability to analyze complex information, resolve issues at root cause, and translate findings into clear actions. Excellent executive communication, stakeholder engagement, facilitation, and influencing skills. Proficiency with project and portfolio management methods, reporting tools, and governance documentation. Applicable only to applicants applying to a position in any location with pay disclosure requirements under state or local law: ​ The compensation range described below is the range of possible base pay compensation that the Company believes in good faith it will pay for this role at the time of this posting based on the job grade for this position. Individual compensation paid within this range will depend on many factors including geographic location, and we may ultimately pay more or less than the posted range. This range may be modified in the future. ​ We offer a comprehensive package of benefits including paid time off (vacation, holidays, sick), medical/dental/vision insurance and 401(k) to eligible employees.​ This job is eligible to participate in our long-term incentive programs. Note: No amount of pay is considered to be wages or compensation until such amount is earned, vested, and determinable. The amount and availability of any bonus, commission, incentive, benefits, or any other form of compensation and benefits that are allocable to a particular employee remains in the Company's sole and absolute discretion unless and until paid and may be modified at the Company’s sole and absolute discretion, consistent with applicable law.​ AbbVie is an equal opportunity employer and is committed to operating with integrity, driving innovation, transforming lives and serving our community. Equal Opportunity Employer/Veterans/Disabled. US & Puerto Rico only - to learn more, visit https://www.abbvie.com/join-us/equal-employment-opportunity-employer.html US & Puerto Rico applicants seeking a reasonable accommodation, click here to learn more: https://www.abbvie.com/join-us/reasonable-accommodations.html",
+      "linkedin_url": "",
+      "focus_matches": [
+        "Operations"
+      ],
+      "focus_evidence": {
+        "Operations": "r Engagement & Executive Reporting Methods, Documentation & Continuous Improvement 1. Portfolio Governance & Project Finance — Design and operate project finance portfolio governance"
+      },
+      "work_mode": "Not specified",
+      "work_mode_evidence": "The reviewed official source does not confirm the work arrangement for this role.",
+      "match": 55,
+      "matched_skills": [
+        "Operations"
+      ]
+    }
+  ]
+}
