@@ -10,70 +10,116 @@ Search area: USA, Canada, Mexico, Spain, LATAM, and eligible remote roles. Resul
 
 <!-- DASHBOARD:START -->
 
-## Dashboard: 2026-11-02
+## Dashboard: 2026-11-03
 
 > Your worth is not measured by an inbox. One thoughtful application at a time is enough for today.
 
-Publication day: 2026-11-02. Verified at: 2026-11-02T17:54:54.476528-08:00 (America/Los_Angeles).
+Publication day: 2026-11-03. Verified at: 2026-11-03T17:52:48.318061-08:00 (America/Los_Angeles).
 
 Up to 30 verified listings from the requested publication day. Coverage is limited to accessible sources.
 
-Reviewed: 61239 | Recommended: 3 | Applied excluded: 0 | Previously seen: 0 | Unverified: 1 | Outside topic focus: 2
+Reviewed: 61308 | Recommended: 7 | Applied excluded: 0 | Previously seen: 0 | Unverified: 0 | Outside topic focus: 4
 
-Accessible sources: 275 | LinkedIn candidates: 95
+Accessible sources: 275 | LinkedIn candidates: 94
 
 LinkedIn: Public access available: 42 searches; publication dates verified only against official sources
 
-Regional coverage: Mexico 0 verified candidates | Spain 0 verified candidates. Target: 30; returned: 3.
+Regional coverage: Mexico 0 verified candidates | Spain 0 verified candidates. Target: 30; returned: 7.
 
 ## Top 5
 
 | Estimated match | Company | Role | Location | Work arrangement | Apply |
 |---|---|---|---|---|---|
-| 70% | Riot Games | Senior Technical Producer - Central Technology, Infrastructure Platform | Los Angeles, USA | Not specified | [Apply](<https://www.riotgames.com/en/work-with-us/job/8338268?gh_jid=8338268>) |
-| 55% | AbbVie | Program Manager | Durham, NC, us | Not specified | [Apply](<https://jobs.smartrecruiters.com/AbbVie/3743990016562522-program-manager>) |
-| 55% | AbbVie | Program Manager | Durham, NC, us | Not specified | [Apply](<https://jobs.smartrecruiters.com/AbbVie/3743990016562696-program-manager>) |
+| 70% | Riot Games | Playtest Operations Producer - Global Research Operations | Los Angeles, USA | Not specified | [Apply](<https://www.riotgames.com/en/work-with-us/job/8338311?gh_jid=8338311>) |
+| 55% | Scale AI | Growth Program Manager | San Francisco, CA; New York, NY | Not specified | [Apply](<https://job-boards.greenhouse.io/scaleai/jobs/4749989005>) |
+| 55% | Stripe | Technical Program Manager, Terminal | San Francisco, CA | Not specified | [Apply](<https://stripe.com/careers/listing/technical-program-manager-terminal/8304858?gh_jid=8304858>) |
+| 55% | WelbeHealth | People Program Manager, Payroll | Remote, CA, USA | Remote available | [Apply](<https://job-boards.greenhouse.io/welbehealth/jobs/8907180002>) |
+| 55% | AECOM | Mining Study Program Manager | Murray, UT, us (Remote) | Remote available | [Apply](<https://jobs.smartrecruiters.com/AECOM2/744000159458700-mining-study-program-manager>) |
 
 ## Verified jobs
 
 | Estimated match | Company / role | Location | Work arrangement | Published salary | Official publication date | Apply | LinkedIn |
 |---|---|---|---|---|---|---|---|
-| 70% | Riot Games / Senior Technical Producer - Central Technology, Infrastructure Platform | Los Angeles, USA | Not specified | Not disclosed | 2026-11-02T17:30:35-05:00 | [Apply](<https://www.riotgames.com/en/work-with-us/job/8338268?gh_jid=8338268>) | Not available |
-| 55% | AbbVie / Program Manager | Durham, NC, us | Not specified | Not disclosed | 2026-11-02T18:32:26.686Z | [Apply](<https://jobs.smartrecruiters.com/AbbVie/3743990016562522-program-manager>) | Not available |
-| 55% | AbbVie / Program Manager | Durham, NC, us | Not specified | Not disclosed | 2026-11-02T18:29:58.250Z | [Apply](<https://jobs.smartrecruiters.com/AbbVie/3743990016562696-program-manager>) | Not available |
+| 70% | Riot Games / Playtest Operations Producer - Global Research Operations | Los Angeles, USA | Not specified | Not disclosed | 2026-11-03T16:35:00-05:00 | [Apply](<https://www.riotgames.com/en/work-with-us/job/8338311?gh_jid=8338311>) | Not available |
+| 55% | Scale AI / Growth Program Manager | San Francisco, CA; New York, NY | Not specified | USD 180,800-226,000 (Please reference the job posting's subtitle for where this position will be located. For pay transparency purposes, the base salary range for this full-time position in the locations of San Francisco, New York, Seattle is:) | 2026-11-03T14:42:58-05:00 | [Apply](<https://job-boards.greenhouse.io/scaleai/jobs/4749989005>) | Not available |
+| 55% | Stripe / Technical Program Manager, Terminal | San Francisco, CA | Not specified | Not disclosed | 2026-11-03T16:02:53-05:00 | [Apply](<https://stripe.com/careers/listing/technical-program-manager-terminal/8304858?gh_jid=8304858>) | Not available |
+| 55% | WelbeHealth / People Program Manager, Payroll | Remote, CA, USA | Remote available | USD 109,241-144,198 (Compensation Offering) | 2026-11-03T17:14:16-05:00 | [Apply](<https://job-boards.greenhouse.io/welbehealth/jobs/8907180002>) | Not available |
+| 55% | AECOM / Mining Study Program Manager | Murray, UT, us (Remote) | Remote available | Not disclosed | 2026-11-03T17:33:32.128Z | [Apply](<https://jobs.smartrecruiters.com/AECOM2/744000159458700-mining-study-program-manager>) | Not available |
+| 55% | AbbVie / Program Manager, CMC Portfolio Management | North Chicago, IL, us | Not specified | Not disclosed | 2026-11-03T15:28:57.554Z | [Apply](<https://jobs.smartrecruiters.com/AbbVie/3743990016585446-program-manager-cmc-portfolio-management>) | Not available |
+| 55% | ServiceNow / Senior Ethics &amp; Compliance Strategic Program Manager | Boston, Massachusetts, us (Remote) | Remote available | Not disclosed | 2026-11-03T19:08:30.997Z | [Apply](<https://jobs.smartrecruiters.com/ServiceNow/744000159476799-senior-ethics-compliance-strategic-program-manager->) | Not available |
 
 ## Evidence and fit
 
 Topic match is a heuristic, not a hiring probability or verified assessment of experience. With topic focus enabled: 40 base points plus 15 per matched theme (Agile, OKRs, Operations, ISO 27001), capped at 100. At least one theme is required. Results are ordered by match; California breaks ties.
 
-### Riot Games: Senior Technical Producer - Central Technology, Infrastructure Platform
+### Riot Games: Playtest Operations Producer - Global Research Operations
 
-- Job ID: greenhouse:riotgames:8338268
+- Job ID: greenhouse:riotgames:8338311
 - Application status: Not recorded as applied
 - Work arrangement: Not specified. The reviewed official source does not confirm the work arrangement for this role.
-- Publication date: 2026-11-02T17:30:35-05:00. Zoned timestamps are evaluated in California time.
-- Date evidence: [Greenhouse.first_published](<https://boards-api.greenhouse.io/v1/boards/riotgames/jobs/8338268?pay_transparency=true>)
+- Publication date: 2026-11-03T16:35:00-05:00. Zoned timestamps are evaluated in California time.
+- Date evidence: [Greenhouse.first_published](<https://boards-api.greenhouse.io/v1/boards/riotgames/jobs/8338311?pay_transparency=true>)
 - Relevant themes: Agile, Operations.
 - Theme evidence: the official title or description mentions Agile.
 - Theme evidence: the official title or description mentions Operations.
 
-### AbbVie: Program Manager
+### Scale AI: Growth Program Manager
 
-- Job ID: smartrecruiters:AbbVie:3743990016562522
+- Job ID: greenhouse:scaleai:4749989005
 - Application status: Not recorded as applied
 - Work arrangement: Not specified. The reviewed official source does not confirm the work arrangement for this role.
-- Publication date: 2026-11-02T18:32:26.686Z. Zoned timestamps are evaluated in California time.
-- Date evidence: [SmartRecruiters.releasedDate (release; may be a repost)](<https://api.smartrecruiters.com/v1/companies/AbbVie/postings/3743990016562522>)
+- Publication date: 2026-11-03T14:42:58-05:00. Zoned timestamps are evaluated in California time.
+- Date evidence: [Greenhouse.first_published](<https://boards-api.greenhouse.io/v1/boards/scaleai/jobs/4749989005?pay_transparency=true>)
 - Relevant themes: Operations.
 - Theme evidence: the official title or description mentions Operations.
 
-### AbbVie: Program Manager
+### Stripe: Technical Program Manager, Terminal
 
-- Job ID: smartrecruiters:AbbVie:3743990016562696
+- Job ID: greenhouse:stripe:8304858
 - Application status: Not recorded as applied
 - Work arrangement: Not specified. The reviewed official source does not confirm the work arrangement for this role.
-- Publication date: 2026-11-02T18:29:58.250Z. Zoned timestamps are evaluated in California time.
-- Date evidence: [SmartRecruiters.releasedDate (release; may be a repost)](<https://api.smartrecruiters.com/v1/companies/AbbVie/postings/3743990016562696>)
+- Publication date: 2026-11-03T16:02:53-05:00. Zoned timestamps are evaluated in California time.
+- Date evidence: [Greenhouse.first_published](<https://boards-api.greenhouse.io/v1/boards/stripe/jobs/8304858?pay_transparency=true>)
+- Relevant themes: Operations.
+- Theme evidence: the official title or description mentions Operations.
+
+### WelbeHealth: People Program Manager, Payroll
+
+- Job ID: greenhouse:welbehealth:8907180002
+- Application status: Not recorded as applied
+- Work arrangement: Remote available. The official location includes remote work; confirm geographic restrictions and other work arrangements with the employer.
+- Publication date: 2026-11-03T17:14:16-05:00. Zoned timestamps are evaluated in California time.
+- Date evidence: [Greenhouse.first_published](<https://boards-api.greenhouse.io/v1/boards/welbehealth/jobs/8907180002?pay_transparency=true>)
+- Relevant themes: Operations.
+- Theme evidence: the official title or description mentions Operations.
+
+### AECOM: Mining Study Program Manager
+
+- Job ID: smartrecruiters:AECOM2:744000159458700
+- Application status: Not recorded as applied
+- Work arrangement: Remote available. The official location includes remote work; confirm geographic restrictions and other work arrangements with the employer.
+- Publication date: 2026-11-03T17:33:32.128Z. Zoned timestamps are evaluated in California time.
+- Date evidence: [SmartRecruiters.releasedDate (release; may be a repost)](<https://api.smartrecruiters.com/v1/companies/AECOM2/postings/744000159458700>)
+- Relevant themes: Operations.
+- Theme evidence: the official title or description mentions Operations.
+
+### AbbVie: Program Manager, CMC Portfolio Management
+
+- Job ID: smartrecruiters:AbbVie:3743990016585446
+- Application status: Not recorded as applied
+- Work arrangement: Not specified. The reviewed official source does not confirm the work arrangement for this role.
+- Publication date: 2026-11-03T15:28:57.554Z. Zoned timestamps are evaluated in California time.
+- Date evidence: [SmartRecruiters.releasedDate (release; may be a repost)](<https://api.smartrecruiters.com/v1/companies/AbbVie/postings/3743990016585446>)
+- Relevant themes: Operations.
+- Theme evidence: the official title or description mentions Operations.
+
+### ServiceNow: Senior Ethics &amp; Compliance Strategic Program Manager
+
+- Job ID: smartrecruiters:ServiceNow:744000159476799
+- Application status: Not recorded as applied
+- Work arrangement: Remote available. The official location includes remote work; confirm geographic restrictions and other work arrangements with the employer.
+- Publication date: 2026-11-03T19:08:30.997Z. Zoned timestamps are evaluated in California time.
+- Date evidence: [SmartRecruiters.releasedDate (release; may be a repost)](<https://api.smartrecruiters.com/v1/companies/ServiceNow/postings/744000159476799>)
 - Relevant themes: Operations.
 - Theme evidence: the official title or description mentions Operations.
 
@@ -85,9 +131,9 @@ New verified employer boards retained for future searches: 0.
 |---|---|---|---|---|---|
 | Latino and professional associations | Prospanica | 0 | 0 | 0 | 1 |
 | Latino and professional associations | HOPE - Hispanas Organized for Political Equality | 1 | 1 | 0 | 0 |
-| Latino and professional associations | Lean In Latinas | 0 | 0 | 0 | 1 |
+| Latino and professional associations | Lean In Latinas | 1 | 0 | 0 | 1 |
 | Regional technology and startups | Built In San Francisco | 3 | 23 | 0 | 0 |
-| Games and entertainment | Hitmarker | 3 | 5 | 0 | 0 |
+| Games and entertainment | Hitmarker | 3 | 2 | 0 | 0 |
 | Regional technology and startups | Welcome to the Jungle | 4 | 0 | 0 | 1 |
 | Life sciences | Biocom Career Hub | 1 | 0 | 0 | 1 |
 | Company careers | WelbeHealth official careers | 1 | 0 | 0 | 1 |
@@ -113,11 +159,10 @@ New verified employer boards retained for future searches: 0.
 | Remote and international | Manfred Spain | 1 | 0 | 0 | 1 |
 | Remote and international | Wellfound Remote | 1 | 29 | 0 | 0 |
 | Remote and international | Jobgether | 0 | 0 | 0 | 1 |
-| Remote and international | Remotely | 1 | 11 | 0 | 0 |
+| Remote and international | Remotely | 1 | 10 | 0 | 0 |
 ## Coverage and source issues
 
 The daily 5 pm run cannot include listings published after it begins. Historical searches include postings still accessible when checked. First-seen dates are never substituted for publication dates. SmartRecruiters release dates may refer to reposts. Work arrangements are not inferred from a city or an onboarding event. Additional discovery boards are checked through accessible public HTML with robots.txt respected. Member-only and JavaScript-only results may be unavailable. Third-party publication dates never replace official date evidence.
-- block / 5440719008: ValueError
 - devot: HTTPError
 - wiz: HTTPError
 - yelp: HTTPError
@@ -174,7 +219,7 @@ The daily 5 pm run cannot include listings published after it begins. Historical
 - checkoutcom: HTTPError
 - flywire: HTTPError
 - Prospanica: https://jobs.prospanica.org/home/index.cfm: HTTP Error 403: Forbidden
-- Lean In Latinas: https://leaninlatinas.org/resources/:
+- Lean In Latinas: No supported role links in public HTML; dynamic or member-only results may be unavailable
 - Welcome to the Jungle: No supported role links in public HTML; dynamic or member-only results may be unavailable
 - Biocom Career Hub: No supported role links in public HTML; dynamic or member-only results may be unavailable
 - WelbeHealth official careers: No supported role links in public HTML; dynamic or member-only results may be unavailable

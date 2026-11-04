@@ -1,0 +1,570 @@
+{
+  "date": "2026-11-03",
+  "verified_at": "2026-11-03T17:52:48.318061-08:00",
+  "metrics": {
+    "reviewed": 61308,
+    "sources_ok": 275,
+    "unverified": 0,
+    "applied_excluded": 0,
+    "seen_excluded": 0,
+    "linkedin_candidates": 94,
+    "linkedin": "Public access available: 42 searches; publication dates verified only against official sources",
+    "errors": [
+      "devot: HTTPError",
+      "wiz: HTTPError",
+      "yelp: HTTPError",
+      "contentsquare: HTTPError",
+      "factorialhr: HTTPError",
+      "factorial: HTTPError",
+      "travelperk: HTTPError",
+      "jobandtalent: HTTPError",
+      "glovo: HTTPError",
+      "bookingcom: HTTPError",
+      "expediagroup: HTTPError",
+      "cimpress: HTTPError",
+      "vistaprint: HTTPError",
+      "softtek: HTTPError",
+      "agileengine: HTTPError",
+      "konfio: HTTPError",
+      "clipmx: HTTPError",
+      "kueski: HTTPError",
+      "klar: HTTPError",
+      "yalo: HTTPError",
+      "nowports: HTTPError",
+      "remitly: HTTPError",
+      "payjoy: HTTPError",
+      "tala: HTTPError",
+      "openpay: HTTPError",
+      "global66: HTTPError",
+      "habi: HTTPError",
+      "truora: HTTPError",
+      "platzi: HTTPError",
+      "clara: HTTPError",
+      "bitso: HTTPError",
+      "stori: HTTPError",
+      "mendel: HTTPError",
+      "factorial: HTTPError",
+      "lodgify: HTTPError",
+      "secretsource: HTTPError",
+      "sastrify: HTTPError",
+      "safetywing: HTTPError",
+      "jobgether: HTTPError",
+      "lemonio: HTTPError",
+      "nearsure: HTTPError",
+      "crunchyroll: HTTPError",
+      "amdocs: HTTPError",
+      "slalom: HTTPError",
+      "slalombuild: HTTPError",
+      "cprime: HTTPError",
+      "avature: HTTPError",
+      "guidewire: HTTPError",
+      "netsuite: HTTPError",
+      "eon: HTTPError",
+      "epamanywhere: HTTPError",
+      "akamai: HTTPError",
+      "thoughtmachine: HTTPError",
+      "checkoutcom: HTTPError",
+      "flywire: HTTPError",
+      "Prospanica: https://jobs.prospanica.org/home/index.cfm: HTTP Error 403: Forbidden",
+      "Lean In Latinas: No supported role links in public HTML; dynamic or member-only results may be unavailable",
+      "Welcome to the Jungle: No supported role links in public HTML; dynamic or member-only results may be unavailable",
+      "Biocom Career Hub: No supported role links in public HTML; dynamic or member-only results may be unavailable",
+      "WelbeHealth official careers: No supported role links in public HTML; dynamic or member-only results may be unavailable",
+      "thatgamecompany official careers: https://thatgamecompany.com/company/jobs/: Only public HTTPS URLs are allowed",
+      "HLPA: https://jobs.hlpa.com/employment/search.aspx: HTTP Error 406: Not Acceptable",
+      "SHPE: https://careercenter.shpe.org/: HTTP Error 403: Forbidden",
+      "Techqueria: No supported role links in public HTML; dynamic or member-only results may be unavailable",
+      "Latinx in Tech Career Center: No supported role links in public HTML; dynamic or member-only results may be unavailable",
+      "PowerToFly: No supported role links in public HTML; dynamic or member-only results may be unavailable",
+      "Women Who Design: No supported role links in public HTML; dynamic or member-only results may be unavailable",
+      "Started by Women: No supported role links in public HTML; dynamic or member-only results may be unavailable",
+      "Wellfound California: No supported role links in public HTML; dynamic or member-only results may be unavailable",
+      "Y Combinator California: No supported role links in public HTML; dynamic or member-only results may be unavailable",
+      "Games Jobs Direct: https://www.gamesjobsdirect.com/search: HTTP Error 406: Not Acceptable",
+      "Bloks: No supported role links in public HTML; dynamic or member-only results may be unavailable",
+      "ASGC Games Jobs: No supported role links in public HTML; dynamic or member-only results may be unavailable",
+      "BioSpace California: https://jobs.biospace.com/california: HTTP Error 429: Too Many Requests",
+      "BioTalent: No supported role links in public HTML; dynamic or member-only results may be unavailable",
+      "Manfred Spain: No supported role links in public HTML; dynamic or member-only results may be unavailable",
+      "Jobgether: https://jobgether.com/remote-jobs/program-manager: HTTP Error 403: Forbidden"
+    ],
+    "discovery": [
+      {
+        "source": "Prospanica",
+        "category": "Latino and professional associations",
+        "pages": 0,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "https://jobs.prospanica.org/home/index.cfm: HTTP Error 403: Forbidden"
+        ]
+      },
+      {
+        "source": "HOPE - Hispanas Organized for Political Equality",
+        "category": "Latino and professional associations",
+        "pages": 1,
+        "candidates": 1,
+        "verified": 0,
+        "issues": []
+      },
+      {
+        "source": "Lean In Latinas",
+        "category": "Latino and professional associations",
+        "pages": 1,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "No supported role links in public HTML; dynamic or member-only results may be unavailable"
+        ]
+      },
+      {
+        "source": "Built In San Francisco",
+        "category": "Regional technology and startups",
+        "pages": 3,
+        "candidates": 23,
+        "verified": 0,
+        "issues": []
+      },
+      {
+        "source": "Hitmarker",
+        "category": "Games and entertainment",
+        "pages": 3,
+        "candidates": 2,
+        "verified": 0,
+        "issues": []
+      },
+      {
+        "source": "Welcome to the Jungle",
+        "category": "Regional technology and startups",
+        "pages": 4,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "No supported role links in public HTML; dynamic or member-only results may be unavailable"
+        ]
+      },
+      {
+        "source": "Biocom Career Hub",
+        "category": "Life sciences",
+        "pages": 1,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "No supported role links in public HTML; dynamic or member-only results may be unavailable"
+        ]
+      },
+      {
+        "source": "WelbeHealth official careers",
+        "category": "Company careers",
+        "pages": 1,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "No supported role links in public HTML; dynamic or member-only results may be unavailable"
+        ]
+      },
+      {
+        "source": "Branch official careers",
+        "category": "Company careers",
+        "pages": 1,
+        "candidates": 13,
+        "verified": 0,
+        "issues": []
+      },
+      {
+        "source": "thatgamecompany official careers",
+        "category": "Company careers",
+        "pages": 0,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "https://thatgamecompany.com/company/jobs/: Only public HTTPS URLs are allowed"
+        ]
+      },
+      {
+        "source": "Turtle Rock Studios official careers",
+        "category": "Company careers",
+        "pages": 1,
+        "candidates": 1,
+        "verified": 0,
+        "issues": []
+      },
+      {
+        "source": "HLPA",
+        "category": "Latino and professional associations",
+        "pages": 0,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "https://jobs.hlpa.com/employment/search.aspx: HTTP Error 406: Not Acceptable"
+        ]
+      },
+      {
+        "source": "SHPE",
+        "category": "Latino and professional associations",
+        "pages": 0,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "https://careercenter.shpe.org/: HTTP Error 403: Forbidden"
+        ]
+      },
+      {
+        "source": "Techqueria",
+        "category": "Latino and professional associations",
+        "pages": 1,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "No supported role links in public HTML; dynamic or member-only results may be unavailable"
+        ]
+      },
+      {
+        "source": "Latinx in Tech Career Center",
+        "category": "Latino and professional associations",
+        "pages": 1,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "No supported role links in public HTML; dynamic or member-only results may be unavailable"
+        ]
+      },
+      {
+        "source": "PowerToFly",
+        "category": "Women and inclusive career networks",
+        "pages": 1,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "No supported role links in public HTML; dynamic or member-only results may be unavailable"
+        ]
+      },
+      {
+        "source": "Women Who Design",
+        "category": "Women and inclusive career networks",
+        "pages": 1,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "No supported role links in public HTML; dynamic or member-only results may be unavailable"
+        ]
+      },
+      {
+        "source": "Women in Games International",
+        "category": "Women and inclusive career networks",
+        "pages": 1,
+        "candidates": 1,
+        "verified": 0,
+        "issues": []
+      },
+      {
+        "source": "Started by Women",
+        "category": "Women and inclusive career networks",
+        "pages": 1,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "No supported role links in public HTML; dynamic or member-only results may be unavailable"
+        ]
+      },
+      {
+        "source": "Wellfound California",
+        "category": "Regional technology and startups",
+        "pages": 1,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "No supported role links in public HTML; dynamic or member-only results may be unavailable"
+        ]
+      },
+      {
+        "source": "Y Combinator California",
+        "category": "Regional technology and startups",
+        "pages": 1,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "No supported role links in public HTML; dynamic or member-only results may be unavailable"
+        ]
+      },
+      {
+        "source": "Games Jobs Direct",
+        "category": "Games and entertainment",
+        "pages": 0,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "https://www.gamesjobsdirect.com/search: HTTP Error 406: Not Acceptable"
+        ]
+      },
+      {
+        "source": "Bloks",
+        "category": "Games and entertainment",
+        "pages": 1,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "No supported role links in public HTML; dynamic or member-only results may be unavailable"
+        ]
+      },
+      {
+        "source": "Gaming Industry Job Tracker",
+        "category": "Games and entertainment",
+        "pages": 1,
+        "candidates": 1,
+        "verified": 0,
+        "issues": []
+      },
+      {
+        "source": "ASGC Games Jobs",
+        "category": "Games and entertainment",
+        "pages": 1,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "No supported role links in public HTML; dynamic or member-only results may be unavailable"
+        ]
+      },
+      {
+        "source": "BioSpace California",
+        "category": "Life sciences",
+        "pages": 0,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "https://jobs.biospace.com/california: HTTP Error 429: Too Many Requests"
+        ]
+      },
+      {
+        "source": "BioTalent",
+        "category": "Life sciences",
+        "pages": 1,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "No supported role links in public HTML; dynamic or member-only results may be unavailable"
+        ]
+      },
+      {
+        "source": "Manfred Spain",
+        "category": "Remote and international",
+        "pages": 1,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "No supported role links in public HTML; dynamic or member-only results may be unavailable"
+        ]
+      },
+      {
+        "source": "Wellfound Remote",
+        "category": "Remote and international",
+        "pages": 1,
+        "candidates": 29,
+        "verified": 0,
+        "issues": []
+      },
+      {
+        "source": "Jobgether",
+        "category": "Remote and international",
+        "pages": 0,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "https://jobgether.com/remote-jobs/program-manager: HTTP Error 403: Forbidden"
+        ]
+      },
+      {
+        "source": "Remotely",
+        "category": "Remote and international",
+        "pages": 1,
+        "candidates": 10,
+        "verified": 0,
+        "issues": []
+      }
+    ],
+    "new_employer_boards": 0,
+    "focus_excluded": 4,
+    "mexico_verified_candidates": 0,
+    "spain_verified_candidates": 0
+  },
+  "jobs": [
+    {
+      "id": "greenhouse:riotgames:8338311",
+      "company": "Riot Games",
+      "title": "Playtest Operations Producer - Global Research Operations",
+      "location": "Los Angeles, USA",
+      "salary": "Not disclosed",
+      "official_url": "https://www.riotgames.com/en/work-with-us/job/8338311?gh_jid=8338311",
+      "posted": "2026-11-03T16:35:00-05:00",
+      "date_evidence": "Greenhouse.first_published",
+      "evidence_url": "https://boards-api.greenhouse.io/v1/boards/riotgames/jobs/8338311?pay_transparency=true",
+      "description": "<p>As a <strong>Playtest Operations Producer </strong>on the Global Research Operations team, you'll embody a producer mindset – owning the outcome of each playtest, resolving unowned issues, and coordinating across lanes to remove blockers before they impact research. If ownership is unclear, you’ll take initiative to drive resolution until proper delegation is established. This role values proactive decision-making, structured coordination, and a bias toward accountability. You will also work across our portfolio of live and new products, supporting researchers by driving coordination and facilitation of playtesting labs and research studies, and ensuring that players have a voice in our products. You will interact directly with players by recruiting, screening, scheduling, and paying honorariums. In the playtest lab, you will help by checking players in, setting up, configuring playtest devices, and operating the recording equipment. Additionally, you’ll proactively identify and pursue new opportunities that increase the efficiency and effectiveness of user research operations. Through direct collaboration with playtesters and researchers, you will contribute significantly to enhancing Riot’s ability to listen to and serve players around the world. This role would be an excellent fit for someone interested in deepening their understanding of user research and research operations, while actively engaging in meaningful and practical contributions. You will report into the Manager of Game Production on the team.</p> <p><strong>Note: This is a hybrid role requiring on-site presence at the Los Angeles campus several days a week, with the potential for on-site evening and/or weekend work.</strong></p> <h2>Responsibilities:</h2> <ul> <li>Serve as the primary producer for assigned playtests, ensuring operational execution, coordination, and accountability</li> <li>Demonstrate a strong ownership mentality – coordinate across partners, anticipate risks, and resolve unowned blockers before they escalate</li> <li>Recruit, screen, and engage players via email, phone, or vendor relationships for a variety of local and international research studies and playtests</li> <li>Facilitate playtest labs effectively, operating and troubleshooting playtest lab equipment (PCs, mobile devices, recording equipment, networking, streaming) to ensure data is collected efficiently and effectively</li> <li>Manage deployment of shared team resources across multiple research and playtest studies and improvement initiatives within the Global Research Operations team, while prioritizing lab schedules to maximize lab utilization across product and game teams</li> <li>Identify and resolve potential issues or obstacles, and advocate for continuous process improvement of various inter-team and cross-functional workflows</li> <li>Understand the bigger goals of the organization and translate how you and your team can contribute to achieving them through effective prioritization and alignment</li> <li>Support the team by facilitating and participating in decision-making, removing roadblocks, managing distractions, and maintaining documentation for scope and processes</li> <li>Autonomously work toward goals and lead yourself or a small team to complete straightforward projects and objectives, ensuring clear focus and execution</li> <li>Drive forward progress on research, playtest, and project sprint commitments via work and capacity planning, estimations, velocity tracking, and proactive backlog refinement</li> <li>Organize and run productive meetings; facilitate quality note-taking and ensure action items are driven to resolution</li> <li>Work alongside researchers to ensure best practices are protected and integrated continuously into research, playtests, and improvement projects</li> <li>Keep stakeholders consulted and informed on progress and bought into discussions as needed to ensure research and playtest success</li> <li>Proactively identify and resolve simple conflicts between individuals to ensure smooth collaboration and alignment among stakeholders</li> <li>Encourage collaboration between the team, researchers, developers, and other internal stakeholders and partners</li> <li>Provide important research and playtest feedback and insight to the team, leadership, stakeholders, and partners</li> <li>Champion best practices around sustainable research and playtest operations practices to cultivate and nurture team health</li> </ul> <h2>Required Qualifications:&nbsp;</h2> <ul> <li>2+ years of professional experience in a research operations or project management role</li> <li>Working knowledge of computer lab or complex audio/video setups</li> <li>Excellent written and verbal communication skill for technical and non-technical audiences</li> <li>Ability to juggle multiple information streams in a fast-paced environment and communicate effectively across all mediums</li> <li>Experience building roadmaps and schedules to track progress and delivery</li> <li>Experience with various project management frameworks like Scrum and Agile</li> <li>Experience with project management and productivity tools like Jira, Miro, and Notion</li> </ul> <h2>Desired Qualifications:</h2> <ul> <li>Experience in research operations</li> <li>Experience with audience definitions, incidence rates, and recruitment principles</li> <li>Experience with survey sampling and other quantitative market research or social science techniques</li> <li>Experience with the Salesforce CRM platform and working with HTML email templates</li> <li>Experience with IT support or help desk troubleshooting</li> <li>Experience with audio and video editing</li> <li>Bachelor’s degree in a related field</li> </ul> <p><em>For this role, you'll find success through craft expertise, a collaborative spirit, and decision-making that prioritizes the delight of players. We will be looking at your past studies, experience, and your personal relationship with games. If you embody player empathy and care about players' experiences, this could be your role!</em></p> <h2><strong>Our Perks:</strong></h2> <p>Riot focuses on work/life balance, shown by our open paid time off policy and other perks such as flexible work schedules. We offer medical, dental, and life insurance, parental leave for you, your spouse/domestic partner, and children, and a 401k with company match. Check out our <a href=\"https://www.riotgames.com/en/work-with-us/overview\"><strong>benefits pages</strong></a> for more information.</p> <p>At Riot Games, we&nbsp;<a class=\"c-link\" href=\"https://www.riotgames.com/en/who-we-are/values\" target=\"_blank\" data-stringify-link=\"https://www.riotgames.com/en/who-we-are/values\" data-sk=\"tooltip_parent\">put players first</a>. That mission drives every decision in our quest to create games and experiences that make it better to be a player. Whether you’re working directly on a new player-facing experience or you’re supporting the company as a whole, everyone at Riot is part of our mission. And just like in our games, we’re better when we work together. Our goal is to create collaborative teams where you are empowered to bring your unique perspective everyday. If that sounds like the kind of place you want to work, we’re looking forward to your application.</p> <p>&nbsp;</p> <p><em>It’s our policy to provide equal employment opportunity for all applicants and members of Riot Games, Inc. Riot Games makes reasonable accommodations for handicapped and disabled Rioters and does not unlawfully discriminate on the basis of race, color, religion, sex, sexual orientation, gender identity or expression, national origin, age, handicap, veteran status, marital status, criminal history, or any other category protected by applicable federal and state law. We consider for employment all qualified applicants, including those with criminal histories, in a manner consistent with applicable federal, state and local law, including the California Fair Chance Act, the City of Los Angeles Fair Chance Initiative for Hiring Ordinance, the Los Angeles County Fair Chance Ordinance for Employers, the San&nbsp;Francisco Fair Chance Ordinance, and the Washington Fair Chance Act.</em></p> <p><em>Per the Los Angeles County Fair Chance Ordinance, the following core duties may create a basis for disqualifying candidates with relevant criminal histories:</em></p> <ul> <li><em>Safeguarding confidential and sensitive Company data </em></li> <li><em>Communication with others, including Rioters and third parties such as vendors, and/or players, including minors</em></li> <li><em>Accessing Company assets, secure digital systems, and networks</em></li> <li><em>Ensuring a safe interactive environment for players and other Rioters</em></li> </ul> <p><em>These duties are directly related to essential operations, safety, trust, and compliance obligations within our organization. Please note that job duties may evolve based on business needs and additional responsibilities may be assigned as necessary to maintain operational efficiency and security.&nbsp;</em></p>",
+      "linkedin_url": "",
+      "focus_matches": [
+        "Agile",
+        "Operations"
+      ],
+      "focus_evidence": {
+        "Agile": "n Drive forward progress on research, playtest, and project sprint commitments via work and capacity planning, estimations, velocity tracking, and proactive backlog r",
+        "Operations": "Playtest Operations Producer - Global Research Operations. As a Playtest Operations Producer on the Global Research Ope"
+      },
+      "work_mode": "Not specified",
+      "work_mode_evidence": "The reviewed official source does not confirm the work arrangement for this role.",
+      "match": 70,
+      "matched_skills": [
+        "Agile",
+        "Operations"
+      ]
+    },
+    {
+      "id": "greenhouse:scaleai:4749989005",
+      "company": "Scale AI",
+      "title": "Growth Program Manager ",
+      "location": "San Francisco, CA; New York, NY",
+      "salary": "USD 180,800-226,000 (Please reference the job posting's subtitle for where this position will be located. For pay transparency purposes, the base salary range for this full-time position in the locations of San Francisco, New York, Seattle is:)",
+      "official_url": "https://job-boards.greenhouse.io/scaleai/jobs/4749989005",
+      "posted": "2026-11-03T14:42:58-05:00",
+      "date_evidence": "Greenhouse.first_published",
+      "evidence_url": "https://boards-api.greenhouse.io/v1/boards/scaleai/jobs/4749989005?pay_transparency=true",
+      "description": "<p><strong>About the role</strong></p> <p>Our Growth team finds, engages, and onboards the engineers, finance professionals, scientists, and other domain specialists whose judgment teaches AI systems how to reason in their field. We're looking for a Growth Program Manager to own the programs that make that happen.</p> <p>This role is strategy and execution. You'll decide what to build and why, then build it. You'll take new initiatives from early and messy to scaled and repeatable, then move on to the next highest-impact problem. The programs you'll own are still being built, and you'll run them at a volume that surfaces problems nobody has seen yet. You'll use AI and automation to keep them from breaking as they scale.</p> <p>We're looking for real ownership. You treat the program as your own, hold yourself accountable for the results, and don't wait for permission to fix what's broken.</p> <p><strong>What you'll do</strong></p> <ul> <li>Set the strategy for your programs: define goals, identify the biggest levers, and decide where to invest</li> <li>Own execution end to end and be accountable for outcomes like pipeline, conversion, time-to-productive, and retention</li> <li>Build and lead the teams that run your programs, including hiring leads who own their areas and setting clear expectations and performance standards</li> <li>Build sustainable expert pipelines through targeted outreach, new channels, and creative approaches</li> <li>Build AI workflows and automations that replace manual work in sourcing, outreach, screening, onboarding, and reporting, such as LLM-drafted outreach, lead enrichment, triage agents, QA checks, and self-updating dashboards</li> <li>Stand up reporting that shows how each program is performing, where the gaps are, and what to do about them</li> <li>Run a steady cadence of experiments on targeting, messaging, channels, process, and tooling, then turn what works into playbooks that people and agents can run</li> <li>Partner closely with growth leads, operations, project teams, and vendors to align on priorities and keep work unblocked</li> <li>Once a program is in steady state, hand it off cleanly and take on the next one</li> </ul> <p><strong>Who we're looking for</strong></p> <ul> <li>4+ years of experience in program operations, growth, recruiting or workforce operations, strategy and operations, or a similar role</li> <li>You've owned a program end to end, from setting the strategy to executing it. You were the person accountable when something broke, and the person who fixed it.</li> <li>You move comfortably between big-picture thinking and details, and you're as happy building a plan as you are working through a spreadsheet</li> <li>Experience building and managing teams, ideally distributed or contractor-based</li> <li>Strong judgment about prioritization when there's more work than time, and you know when to escalate and when to resolve on your own</li> <li>Data-driven: comfortable defining metrics, digging into funnels, and making decisions from imperfect data. You can run your own analysis in SQL or Python.</li> <li>High agency and ownership. Ambiguity doesn't slow you down, and you thrive when given room to build something from nothing.</li> <li>You've built things with AI. You use tools like Claude, ChatGPT, Cursor, Claude Code, n8n, Zapier, Make, Retool, or Apps Script as a core part of how you work, and you have at least one workflow, automation, or tool you built that people actually used. We want to hear about what you've built.</li> <li>Clear, concise writer and communicator. Much of this job happens over Slack and email, and clarity compounds across hundreds of interactions.</li> </ul> <p><strong>Strong candidates may also have</strong></p> <ul> <li>Experience scaling a program through rapid growth</li> <li>A background in recruiting at scale, talent sourcing, growth marketing, or community building</li> <li>Experience in marketplace, gig, or external workforce businesses</li> </ul> <p>&nbsp;</p><div class=\"content-pay-transparency\"><div class=\"pay-input\"><div class=\"description\"><p><em>Compensation packages at Scale for eligible roles include base salary, equity, and benefits. The range displayed on each job posting reflects the minimum and maximum target for new hire salaries for the position and may be inclusive of several career levels at Scale; it will be determined during the interview process based on work location and additional factors, including job-related skills, experience, qualifications, interview performance, and relevant education or training. Scale employees in eligible roles are also granted equity based compensation, subject to Board of Director approval. Your recruiter can share more about the specific salary range for your preferred location during the hiring process, and confirm whether the hired role will be eligible for equity grant. You'll also receive benefits including, but not limited to: comprehensive health, dental and vision coverage, retirement benefits, a learning and development stipend, and generous PTO. Additionally, this role may be eligible for additional benefits such as a commuter stipend.</em></p></div><div class=\"title\">Please reference the job posting's subtitle for where this position will be located. For pay transparency purposes, the base salary range for this full-time position in the locations of San Francisco, New York, Seattle is:</div><div class=\"pay-range\"><span>$180,800</span><span class=\"divider\">&mdash;</span><span>$226,000 USD</span></div></div></div><div class=\"content-conclusion\"><p><strong><em>PLEASE NOTE:&nbsp;</em></strong><em>Our policy requires a 90-day waiting period before reconsidering candidates for the same role. This allows us to ensure a fair and thorough evaluation of all applicants.</em></p> <p><strong>About Us:</strong></p> <p><em>At Scale, our mission is to develop reliable AI systems for the world's most important decisions. Our products provide the high-quality data and full-stack technologies that power the world's leading models, and help enterprises and governments build, deploy, and oversee AI applications that deliver real impact. We work closely with industry leaders like Meta, </em><em>Ernst</em><em> </em><em>&amp;</em><em> Young, Mayo Clinic, Time Inc., the Government of Qatar, and U.S. government agencies including the Army and Air Force. We are expanding our team to accelerate the development of AI applications.</em></p> <p><em>We believe that everyone should be able to bring their whole selves to work, which is why we are proud to be an inclusive and equal opportunity workplace. We are committed to equal employment opportunity regardless of race, color, ancestry, religion, sex, national origin, sexual orientation, age, citizenship, marital status, disability status, gender identity or Veteran status.&nbsp;</em></p> <p><em>We are committed to working with and providing reasonable accommodations to applicants with physical and mental disabilities. If you need assistance and/or a reasonable accommodation in the application or recruiting process due to a disability, please contact us at accommodations@scale.com. Please see the United States Department of Labor's </em><a href=\"https://www.eeoc.gov/sites/default/files/2023-06/22-088_EEOC_KnowYourRights6.12ScreenRdr.pdf\"><em>Know Your Rights poster</em></a><em> for additional information.</em></p> <p><em>We comply with the United States Department of Labor's </em><em>Pay Transparency provision</em><em>.&nbsp;</em></p> <p><em><strong>PLEASE NOTE: </strong>We collect, retain and use personal data for our professional business purposes, including notifying you of job opportunities that may be of interest and sharing with our affiliates. We limit the personal data we collect to that which we believe is appropriate and necessary to manage applicants’ needs, provide our services, and comply with applicable laws. Any information we collect in connection with your application will be treated in accordance with our internal policies and programs designed to protect personal data. Please see our <a href=\"https://scale.com/legal/privacy\" target=\"_blank\">privacy policy</a> for additional information.</em></p></div>",
+      "linkedin_url": "",
+      "focus_matches": [
+        "Operations"
+      ],
+      "focus_evidence": {
+        "Operations": "eople and agents can run Partner closely with growth leads, operations, project teams, and vendors to align on priorities and keep work unblocked Once a program is in ste"
+      },
+      "work_mode": "Not specified",
+      "work_mode_evidence": "The reviewed official source does not confirm the work arrangement for this role.",
+      "match": 55,
+      "matched_skills": [
+        "Operations"
+      ]
+    },
+    {
+      "id": "greenhouse:stripe:8304858",
+      "company": "Stripe",
+      "title": "Technical Program Manager, Terminal",
+      "location": "San Francisco, CA",
+      "salary": "Not disclosed",
+      "official_url": "https://stripe.com/careers/listing/technical-program-manager-terminal/8304858?gh_jid=8304858",
+      "posted": "2026-11-03T16:02:53-05:00",
+      "date_evidence": "Greenhouse.first_published",
+      "evidence_url": "https://boards-api.greenhouse.io/v1/boards/stripe/jobs/8304858?pay_transparency=true",
+      "description": "<h2>Who we are</h2> <h3>About Stripe</h3> <p><span style=\"font-weight: 400;\">Stripe is a financial infrastructure platform for businesses. Millions of companies—from the world’s largest enterprises to the most ambitious startups—use Stripe to accept payments, grow their revenue, and accelerate new business opportunities. Our mission is to increase the GDP of the internet, and we have a staggering amount of work ahead. That means you have an unprecedented opportunity to put the global economy within everyone’s reach while doing the most important work of your career.</span></p> <h3>About the team</h3> <p>Stripe Terminal helps businesses extend their online presence into the physical world. Our mission is to make it as easy for businesses to accept in-person payments as Stripe has made it to accept payments online. We’re realizing the vision of unified commerce.<br>Terminal provides an integrated in-person payments platform spanning software, payment processing, device fleet management, and hardware. Our hardware portfolio includes Stripe-designed readers and accessories as well as devices from third-party hardware partners. Together, these products enable businesses to build reliable, differentiated in-person payment experiences across a broad range of use cases, countries, and operating environments.</p> <h2>What you’ll do</h2> <p>As a Terminal TPM, you will become an expert on all things related to in-person payments. You’ll work with teams across Stripe to build, ship, and iterate on first-party as well as third-party hardware products in addition to advancing our work on Tap-to-Pay and beyond. You will partner closely with hardware engineering, firmware and software engineering, design, operations, logistics, partnerships, sales, finance, legal, and regional teams. Your work will require you to be in lock-step with Payments teams as well as card networks and Local Payment Method schemes, bringing unified commerce to life across our suite of devices. This is a highly cross-functional role for someone who can connect customer needs, technical constraints, business strategy, and execution across user experience, device capabilities, cost, quality, reliability, supply, and time to market.</p> <h3>Responsibilities</h3> <ul> <li style=\"font-weight: 400;\"><span style=\"font-weight: 400;\">&nbsp;Independently define programs across Terminal including scoping, setting objectives, defining success criteria, and influencing resource allocation to deliver outcomes</span></li> <li style=\"font-weight: 400;\"><span style=\"font-weight: 400;\">Apply consistent prioritization and decision-making frameworks across your programs, driving high-velocity yet durable decisions that move the team forward without creating downstream debt</span></li> <li style=\"font-weight: 400;\"><span style=\"font-weight: 400;\">Identify obstacles and risks across Terminal’s cross-functional workstreams, proactively communicate them to stakeholders, and develop plans to address and prevent their recurrence</span></li> <li style=\"font-weight: 400;\"><span style=\"font-weight: 400;\">Represent the voice of Terminal’s consumers and merchants to all stakeholders, translating user needs into clear program objectives and ensuring engineering and product decisions remain grounded in solving real problems</span></li> <li style=\"font-weight: 400;\"><span style=\"font-weight: 400;\">Drive clarity across all stakeholders on goals, problems, and intended outcomes, serving as the connective tissue across Terminal sub-teams and their upstream and downstream dependencies. Operate similarly across Stripe, representing the Terminal org to collaborators in peer organizations.</span></li> <li style=\"font-weight: 400;\"><span style=\"font-weight: 400;\">Develop a strong point of view on Terminal’s product development strategy and use it to define programs with measurable outcomes, adapting them as the product and user needs evolve</span></li> <li style=\"font-weight: 400;\"><span style=\"font-weight: 400;\">Understand the technical challenges across Terminal’s systems, payment flows, identity infrastructure, fraud and risk models, money movement, and partner closely with engineering leads to define the most effective path to delivery<br></span></li> </ul> <h2><strong>Who you are</strong></h2> <p><span style=\"font-weight: 400;\">We’re looking for someone who meets the minimum requirements to be considered for the role. If you meet these requirements, you are encouraged to apply. The preferred qualifications are a bonus, not a requirement.</span></p> <h3>Minimum requirements</h3> <ul> <li>10+ years of product management or technical program management experience, including managing programs across all phases of software development</li> <li>Proven track record of defining and executing complex programs across multiple functions in consumer-facing or payments products</li> <li>Excellent written and verbal communication skills, with the ability to establish strong relationships with stakeholders and senior leaders</li> <li>Proven ability to navigate ambiguity, bring rapid clarity to multi-stakeholder problems, and drive teams toward effective solutions</li> <li>Working knowledge of API design and high-level system architecture, sufficient to partner with engineering teams on program delivery</li> </ul> <h3><strong>Preferred qualifications</strong></h3> <ul> <li>Experience in payments, commerce platforms, point-of-sale systems, or in-person payments.</li> <li>Experience with Card and Local Payment Method networks and schemes</li> <li>Experience managing a portfolio that includes both first-party products and third-party partner products.</li> <li>Experience with sourcing, supply-chain risk, device pricing, unit economics, and global distribution.</li> <li>Experience with payment-device certifications, local payment methods, accessibility requirements, connectivity, or regulated hardware environments.</li> <li>Experience launching products internationally or a technical background in electrical engineering, computer science, or a related field.</li> </ul>",
+      "linkedin_url": "",
+      "focus_matches": [
+        "Operations"
+      ],
+      "focus_evidence": {
+        "Operations": "are engineering, firmware and software engineering, design, operations, logistics, partnerships, sales, finance, legal, and regional teams. Your work will require you to "
+      },
+      "work_mode": "Not specified",
+      "work_mode_evidence": "The reviewed official source does not confirm the work arrangement for this role.",
+      "match": 55,
+      "matched_skills": [
+        "Operations"
+      ]
+    },
+    {
+      "id": "greenhouse:welbehealth:8907180002",
+      "company": "WelbeHealth",
+      "title": "People Program Manager, Payroll",
+      "location": "Remote, CA, USA",
+      "salary": "USD 109,241-144,198 (Compensation Offering)",
+      "official_url": "https://job-boards.greenhouse.io/welbehealth/jobs/8907180002",
+      "posted": "2026-11-03T17:14:16-05:00",
+      "date_evidence": "Greenhouse.first_published",
+      "evidence_url": "https://boards-api.greenhouse.io/v1/boards/welbehealth/jobs/8907180002?pay_transparency=true",
+      "description": "<p>At WelbeHealth, we serve our communities’ most vulnerable seniors through shared intention, pioneering spirit, and the courage to love. These core values and our participant-focus lead the way no matter what.&nbsp;</p> <p>The People Program Manager leads strategic and operational initiatives that support workforce growth, organizational effectiveness, team member experience, and People service delivery. Partnering with People leadership, cross-functional stakeholders, and external vendors, this role drives program execution, process improvement, and alignment across People functions. The position also serves as a key Workday Payroll and Absence Management resource, supporting system optimization, configuration, compliance, troubleshooting, and payroll process enhancements. Reporting to a People Director or senior leader, the People Program Manager advances departmental strategy, monitors program performance and metrics, fosters collaboration across WelbeHealth, and may supervise team members, consultants, or project resources supporting program delivery.&nbsp;</p> <p><strong>This role is different because the People Program Manager, Payroll at WelbeHealth:</strong>&nbsp;</p> <ul> <li>Serves as a key subject matter expert in Workday Payroll, Absence Management, and Time Tracking, driving system optimization, multi-state payroll compliance, and process enhancements to support accurate and efficient payroll operations.</li> <li>Leads strategic payroll initiatives and continuous improvement efforts, partnering across People, Finance, Accounting, and operational teams to strengthen payroll controls, develop team capabilities, and deliver scalable solutions that enhance the team member experience.</li> </ul> <p><strong>We care about our team members. That’s why we offer: (<em>You do not need to edit)</em></strong>&nbsp;</p> <ul> <li>Medical insurance coverage (Medical, Dental, Vision)&nbsp;</li> <li>Work/life balance - We mean it! 17 days of personal time off (PTO), 12 holidays observed annually, and 6 sick days&nbsp;</li> <li>401K savings + match&nbsp;</li> <li>Comprehensive compensation package including base pay and bonus&nbsp;</li> <li>And additional benefits!&nbsp;</li> </ul> <p><strong>On the day-to-day, you will:</strong>&nbsp;</p> <ul> <li>Payroll Operations &amp; Compliance&nbsp;</li> </ul> <ul> <li> <ul> <li>Maintain Workday Payroll and Absence configurations to support compliance and business requirements.&nbsp;</li> <li>Monitor federal, state, and local payroll regulations and assist with compliance activities.&nbsp;</li> <li>Conduct payroll audits and reconciliations to ensure data integrity and accurate processing.&nbsp;</li> <li>Maintain payroll tax configurations for a multi-state workforce&nbsp;</li> <li>Serve as a resource for payroll compliance, SOX controls, and regulatory requirements.&nbsp;</li> <li>Maintain strict confidentiality of payroll and team member information.&nbsp;</li> </ul> </li> </ul> <ul> <li>Workday Payroll Administration&nbsp;</li> </ul> <ul> <li> <ul> <li>Configure, test, and support Workday Payroll and Absence functionality.&nbsp;</li> <li>Identify and implement system enhancements, updates, and process improvements.&nbsp;</li> <li>Lead bi-annual Workday Payroll and Absence release testing and documentation.&nbsp;</li> <li>Troubleshoot complex system issues and coordinate resolutions with vendors and internal stakeholders.&nbsp;</li> <li>Develop and maintain payroll process documentation and training materials.&nbsp;</li> </ul> </li> </ul> <ul> <li>Payroll Operations &amp; Analysis&nbsp;</li> </ul> <ul> <li> <ul> <li>Investigate and resolve complex payroll processing, tax, and system-related issues.&nbsp;</li> <li>Assist with payroll tax reconciliations and quarterly and annual filing activities.&nbsp;</li> <li>Support year-end payroll processing, adjustments, and statement preparation.&nbsp;</li> <li>Mentor, train, and develop Payroll Specialists to build Workday Payroll, Absence, Time Tracking (PATT), and compliance expertise.&nbsp;</li> <li>Serve as a backup for payroll processing and other payroll operations as needed.&nbsp;</li> </ul> </li> </ul> <ul> <li>Vendor &amp; Stakeholder Engagement&nbsp;</li> </ul> <ul> <li> <ul> <li>Partner with payroll vendors to support system configuration, issue resolution, and process improvements.&nbsp;</li> <li>Collaborate with HR, Accounting, Finance, and operational leaders on payroll initiatives and inquiries.&nbsp;</li> <li>Communicate payroll impacts, updates, and recommendations to stakeholders.&nbsp;</li> <li>Support cross-functional projects involving payroll, absence management, and compliance requirements.&nbsp;</li> <li>Manage direct reports including hiring, training, supervising, and mentoring&nbsp;</li> </ul> </li> </ul> <ul> <li>Program and Continuous Improvement&nbsp;</li> </ul> <ul> <li> <ul> <li>Lead payroll-related projects and initiatives from planning through implementation.&nbsp;</li> <li>Monitor performance metrics and recommend improvements to payroll processes and controls.&nbsp;</li> <li>Identify risks and develop solutions that improve compliance, accuracy, and service delivery.&nbsp;</li> <li>Support organizational change efforts related to payroll programs, systems, and processes.&nbsp;</li> </ul> </li> </ul> <p><strong>Job requirements include:</strong>&nbsp;</p> <ul> <li>Bachelor’s degree in business administration, Organizational Development, People Operations, or a related field required. Professional experience may be substituted in lieu of the degree;&nbsp;&nbsp;</li> <li>Healthcare experience preferred; SHRM‑CP or SHRM‑SCP, PHR, SPHR or PMP experience is preferred.&nbsp;</li> <li>Minimum of five (5) years of progressive Payroll experience working within HR/People departments, including advising leaders and supporting multi-site or complex operating environments.&nbsp;</li> <li>Minimum of three (3) years of progressive experience leading people programs, projects, or operational initiatives&nbsp;</li> <li>In-depth knowledge of payroll regulations, and compliance with multi-state and local payroll processing;&nbsp;Experience in Workday components such as Payroll, Absence Management, Time Tracking and OneSource Virtual (OSV Atmosphere).&nbsp;</li> <li>Skilled at managing small projects independently, and identifying opportunities for improvement, driving the continuous enhancement of the payroll and absence processes.&nbsp;</li> <li>Proven ability to work effectively and build relationships with various teams, departments, and stakeholders;&nbsp;Demonstrated ability to handle change and manage multiple tasks effectively by prioritizing requests and meeting tight deadlines.&nbsp;</li> <li>Excellent communication, organizational, and problem-solving skills with strong attention to detail;&nbsp;Strong working knowledge of MS Office Suite (Excel, Word, PowerPoint) mid-level Excel skills.</li> </ul> <p>We’re seeking a strategic, detail-oriented payroll leader who is passionate about leveraging technology, strengthening compliance, and creating efficient, scalable People operations. If you’re ready to make an impact while supporting a growing, mission-driven organization, we’d love to hear from you!</p><div class=\"content-pay-transparency\"><div class=\"pay-input\"><div class=\"description\"><p>Compensation consists of base salary plus bonus. WelbeHealth offers a competitive total rewards package that includes a 401(k) match, comprehensive healthcare coverage, and a broad range of additional benefits. Actual compensation will be determined based on experience and relevant qualifications.</p></div><div class=\"title\">Compensation Offering</div><div class=\"pay-range\"><span>$109,240.54</span><span class=\"divider\">&mdash;</span><span>$144,197.50 USD</span></div></div></div><div class=\"content-conclusion\"><p><strong>COVID-19 Vaccination Policy</strong></p> <p>At WelbeHealth, our mission is to unlock the full potential of our vulnerable seniors. In this spirit, please note that we have a vaccination policy for all our employees and proof of vaccination, or a vaccine declination form will be required prior to employment. WelbeHealth maintains required infection control and PPE standards and has requirements relevant to all team members regarding vaccinations.</p> <p>&nbsp;</p> <p><strong>Our Commitment to Diversity, Equity and Inclusion</strong></p> <p>At WelbeHealth, we embrace and cherish the diversity of our team members, and we're committed to building a culture of inclusion and belonging. We're proud to be an equal opportunity employer. People seeking employment at WelbeHealth are considered without regard to race, color, religion, sex, gender, gender identity, gender expression, sexual orientation, marital or veteran status, age, national origin, ancestry, citizenship, physical or mental disability, medical condition, genetic information or characteristics (or those of a family member), pregnancy or other status protected by applicable law.</p> <p>&nbsp;</p> <p><strong>Beware of Scams</strong></p> <p class=\"xmsonormal\">Please ensure your application is being submitted through a WelbeHealth sponsored site only. Our emails will come from @welbehealth.com email addresses. You will never be asked to purchase your own employment equipment. You can report suspected scam activity to <a href=\"mailto:fraud.report@welbehealth.com\">fraud.report@welbehealth.com</a></p></div>",
+      "linkedin_url": "",
+      "focus_matches": [
+        "Operations"
+      ],
+      "focus_evidence": {
+        "Operations": ", and external vendors, this role drives program execution, process improvement, and alignment across People functions. The position also serves as a key Workday Payroll and Absen"
+      },
+      "work_mode": "Remote available",
+      "work_mode_evidence": "The official location includes remote work; confirm geographic restrictions and other work arrangements with the employer.",
+      "match": 55,
+      "matched_skills": [
+        "Operations"
+      ]
+    },
+    {
+      "id": "smartrecruiters:AECOM2:744000159458700",
+      "company": "AECOM",
+      "title": "Mining Study Program Manager",
+      "location": "Murray, UT, us (Remote)",
+      "salary": "Not disclosed",
+      "official_url": "https://jobs.smartrecruiters.com/AECOM2/744000159458700-mining-study-program-manager",
+      "posted": "2026-11-03T17:33:32.128Z",
+      "date_evidence": "SmartRecruiters.releasedDate (release; may be a repost)",
+      "evidence_url": "https://api.smartrecruiters.com/v1/companies/AECOM2/postings/744000159458700",
+      "description": "Work with Us. Change the World. At AECOM, we're delivering a better world. Whether improving your commute, keeping the lights on, providing access to clean water, or transforming skylines, our work helps people and communities thrive. We are the world's trusted infrastructure consulting firm, partnering with clients to solve the world’s most complex challenges and build legacies for future generations. There has never been a better time to be at AECOM. With accelerating infrastructure investment worldwide, our services are in great demand. We invite you to bring your bold ideas and big dreams and become part of a global team of over 50,000 planners, designers, engineers, scientists, digital innovators, program and construction managers and other professionals delivering projects that create a positive and tangible impact around the world. We're one global team driven by our common purpose to deliver a better world. Join us. AECOM is seeking a motivated and technically strong Mining Study Program Manager to join our growing Mining team supporting projects across North America and Globally. The successful candidate will manage mining projects from early-stage studies through detailed engineering and construction support while working as part of multidisciplinary project teams. This individual will collaborate with project managers, and engineering discipline leads to develop practical and innovative engineering solutions for mining clients. The role requires solid technical knowledge of the mining industry and involves managing strategic and operations aspects of programs to provide alignment with client objectives and study requirements. The role includes the ability to establish and maintain rapport with the client while managing several studies simultaneously. Key Responsibilities Serve as the single point of contact for clients, ensuring alignment with their goals and objectives. Act as the primary liaison between clients, internal teams, and external stakeholders. Business development activities to promote AECOM’s growing presence in Mining Facilitate communication and collaboration to address client concerns and achieve project milestones. Oversee planning, scheduling, communication, and coordination of program activities. Manage program staffing, subcontractor relationships, and resource allocation to ensure cost-effective solutions. Develop and implement project plans, including scope, schedule, budget, and quality control measures. Utilize advanced project management tools like Microsoft Project, Primavera, and AECOM’s proprietary systems for tracking progress and managing resources. Ensure compliance with health, safety, and environmental standards. Identify and mitigate risks through proactive planning and monitoring. Prepare progress reports, work plans, and financial summaries for internal and client review. Maintain accurate records of project activities, budgets, and schedules. Travel approximately 20% domestically and internationally, including occasional extended assignments. Enforce quality assurance and quality control (QA/QC) procedures to meet project standards. Minimum Qualifications BS in Mining Engineering or a related engineering discipline and 10+ years of relevant experience or demonstrated equivalency of experience and/or education. Preferred Qualifications 15+ years of progressive experience in studies and/or project management pertaining to the mining industry. Proven track record in mining industry program and project management. Proficiency in project management software (e.g., Microsoft Project, Primavera). Certification in project management (e.g., PMP) or completion of AECOM’s internal project management certification program. Experience managing international mining projects or programs. Knowledge of geological exploration/ modeling, mining engineering, mineral processing, environmental permitting, geotechnical investigations, and hydrogeological modeling Strong leadership, communication, and problem-solving abilities. Ability to work collaboratively with diverse teams and stakeholders. No sponsorship will be offered for this role now or in the future No relocation will be offered for this role. THIS POSTING IS FOR A CURRENT VACANCY, AND AECOM INTENDS TO FILL THIS POSITION BY FEBRUARY 8, 2027 At AECOM, we are committed to maintaining a secure and trustworthy recruitment process and take any fraudulent hiring activity seriously. To support this commitment, all newly hired employees are required to attend an in-person Day 1 onboarding at an AECOM office location as a condition of employment. About AECOM AECOM is proud to offer comprehensive benefits to meet the diverse needs of our employees. Depending on your employment status, AECOM benefits may include medical, dental, vision, life, AD&D, disability benefits, paid time off, leaves of absences, voluntary benefits, perks, flexible work options , well-being resources, employee assistance program, business travel insurance, service recognition awards, retirement savings plan, and employee stock purchase plan. AECOM is the global infrastructure leader, committed to delivering a better world. As a trusted professional services firm powered by deep technical abilities, we solve our clients’ complex challenges in water, environment, energy, transportation and buildings. Our teams partner with public- and private-sector clients to create innovative, sustainable and resilient solutions throughout the project lifecycle – from advisory, planning, design and engineering to program and construction management. AECOM is a Fortune 500 firm that had revenue of $16.1 billion in fiscal year 2025. Learn more at aecom.com. What makes AECOM a great place to work You will be part of a global team that champions your growth and career ambitions. Work on groundbreaking projects - both in your local community and on a global scale - that are transforming our industry and shaping the future. With cutting-edge technology and a network of experts, you’ll have the resources to make a real impact. Our award-winning training and development programs are designed to expand your technical expertise and leadership skills, helping you build the career you’ve always envisioned. Here, you’ll find a welcoming workplace built on respect, collaboration and community—where you have the freedom to grow in a world of opportunity. As an Equal Opportunity Employer, we believe in your potential and are here to help you achieve it. All your information will be kept confidential according to EEO guidelines.",
+      "linkedin_url": "",
+      "focus_matches": [
+        "Operations"
+      ],
+      "focus_evidence": {
+        "Operations": " of the mining industry and involves managing strategic and operations aspects of programs to provide alignment with client objectives and study requirements. The role in"
+      },
+      "work_mode": "Remote available",
+      "work_mode_evidence": "The official location includes remote work; confirm geographic restrictions and other work arrangements with the employer.",
+      "match": 55,
+      "matched_skills": [
+        "Operations"
+      ]
+    },
+    {
+      "id": "smartrecruiters:AbbVie:3743990016585446",
+      "company": "AbbVie",
+      "title": "Program Manager, CMC Portfolio Management",
+      "location": "North Chicago, IL, us",
+      "salary": "Not disclosed",
+      "official_url": "https://jobs.smartrecruiters.com/AbbVie/3743990016585446-program-manager-cmc-portfolio-management",
+      "posted": "2026-11-03T15:28:57.554Z",
+      "date_evidence": "SmartRecruiters.releasedDate (release; may be a repost)",
+      "evidence_url": "https://api.smartrecruiters.com/v1/companies/AbbVie/postings/3743990016585446",
+      "description": "About AbbVie AbbVie's mission is to discover and deliver innovative medicines and solutions that solve serious health issues today and address the medical challenges of tomorrow. We strive to have a remarkable impact on people's lives across several key therapeutic areas including immunology, oncology and neuroscience - and products and services in our Allergan Aesthetics portfolio. For more information about AbbVie, please visit us at www.abbvie.com . Follow @abbvie on LinkedIn, Facebook , Instagram , X and YouTube. The Program Manager, CMC Portfolio Management leads the development and maintenance of Chemistry, Manufacturing, and Controls (CMC) project plans for Product Presentation & Device Strategy Teams (PPDST) using standardized project management tools and processes. These CMC plans are used for decision making on drug development teams and across the R&D portfolio. Responsibilities include maintaining accurate PPDST rosters, generation of timeline swim lanes, and scenario planning interacting with Program Development Directors and key external stakeholders within R&D/Ops/Commercial. Responsibilities: Independently provide advanced project management support to low/standard complexity (e.g. early-late stage) drug development and on-market LCM projects, including creation and maintenance of CMC technical plans in Asset Management Platform (AMP), PPDST roster management, and timeline swimlanes for relevant program reviews. Leads the PPDST Team meetings, including setting agenda topics, capturing action items, and driving discussions with PPDST members. Drives PPDST team accountability to meet project deliverables. Develops multiple project planning scenarios in collaboration with PPDST team members; identifies, monitors, and analyzes business risks. Recognizes when corrective action and planning are necessary and conducts root cause analyses (escalating recommendations to PPDST Team). Manage activities to ensure functions have the right tools, reports, & data for accurate resource estimates. Supports organization/communication of knowledge management materials (e.g. SharePoint/Team sites, etc.) for PPDST teams. Independently identifies opportunities for improvement of departmental work processes and manages a single large or several small cross-functional process improvement projects. Converts goals to tasks and coordinates activities to meet goals. Estimates and manages requirements to achieve defined objectives. Execute against defined objectives and keep management informed of progress and achieved project milestones. Apply project management principles and techniques to the coordination and completion of assigned goals and tasks. Prioritize tasks with effective use of time. Support and advise peer Project Managers/PPDST Co-Chairs on monthly project plan issues and timelines for maintenance and information reporting. Provide data entry for change requests. Provide general training support, administration and guidance regarding project management practices and systems. Establish and maintain strong network within department and external stakeholders. Interacts with all levels of employees in support of project coordination. Assesses performance against plans, processes, and practices to determine effectiveness and recommend areas for process improvement to Manager/Director within the CMC Portfolio Management group. Bachelors degree required in a technical or scientific related discipline and 6+ years professional work experience in the pharmaceutical or biotech industry; or Masters degree with 4+ years of work experience; or Doctorate degree in same disciplines. Note: Higher education may compensate for years of experience; years of experience may compensate for education Accreditation in a project management or process improvement discipline preferred (e.g. Project Management Professional, LEAN Six Sigma, etc.). Must be self-directed and work well in a team environment, be able to work on multiple projects concurrently and meet commitments, possess excellent oral and written communication skills, be process-oriented, convert goals to tasks and define estimates on time and requirements to achieve goal objectives, and demonstrate initiative. The incumbent must be able to discern the difference between general vs. confidential/sensitive reporting information and act accordingly. Experience/Awareness in the tools and techniques of Project Management and /or Business Excellence desired. Proficient technology skills (e.g., MS Office software, MS Project, Qlikview, Spotfire, etc.) required. CMC experience preferred. Applicable only to applicants applying to a position in any location with pay disclosure requirements under state or local law: ​ The compensation range described below is the range of possible base pay compensation that the Company believes in good faith it will pay for this role at the time of this posting based on the job grade for this position. Individual compensation paid within this range will depend on many factors including geographic location, and we may ultimately pay more or less than the posted range. This range may be modified in the future. ​ We offer a comprehensive package of benefits including paid time off (vacation, holidays, sick), medical/dental/vision insurance and 401(k) to eligible employees.​ This job is eligible to participate in our long-term incentive programs. Note: No amount of pay is considered to be wages or compensation until such amount is earned, vested, and determinable. The amount and availability of any bonus, commission, incentive, benefits, or any other form of compensation and benefits that are allocable to a particular employee remains in the Company's sole and absolute discretion unless and until paid and may be modified at the Company’s sole and absolute discretion, consistent with applicable law.​ AbbVie is an equal opportunity employer and is committed to operating with integrity, driving innovation, transforming lives and serving our community. Equal Opportunity Employer/Veterans/Disabled. US & Puerto Rico only - to learn more, visit https://www.abbvie.com/join-us/equal-employment-opportunity-employer.html US & Puerto Rico applicants seeking a reasonable accommodation, click here to learn more: https://www.abbvie.com/join-us/reasonable-accommodations.html",
+      "linkedin_url": "",
+      "focus_matches": [
+        "Operations"
+      ],
+      "focus_evidence": {
+        "Operations": "nd manages a single large or several small cross-functional process improvement projects. Converts goals to tasks and coordinates activities to meet goals. Estimates and manages r"
+      },
+      "work_mode": "Not specified",
+      "work_mode_evidence": "The reviewed official source does not confirm the work arrangement for this role.",
+      "match": 55,
+      "matched_skills": [
+        "Operations"
+      ]
+    },
+    {
+      "id": "smartrecruiters:ServiceNow:744000159476799",
+      "company": "ServiceNow",
+      "title": "Senior Ethics & Compliance Strategic Program Manager ",
+      "location": "Boston, Massachusetts, us (Remote)",
+      "salary": "Not disclosed",
+      "official_url": "https://jobs.smartrecruiters.com/ServiceNow/744000159476799-senior-ethics-compliance-strategic-program-manager-",
+      "posted": "2026-11-03T19:08:30.997Z",
+      "date_evidence": "SmartRecruiters.releasedDate (release; may be a repost)",
+      "evidence_url": "https://api.smartrecruiters.com/v1/companies/ServiceNow/postings/744000159476799",
+      "description": "It all started when engineer Fred Luddy wrote code that automated a tedious task for his coworker, Phyllis. She cried tears of joy. That moment inspired Fred to build a company that could do that for everyone—freeing people from busywork so they could focus on meaningful work. Today, ServiceNow is the AI control tower for business reinvention. Our ServiceNow AI platform brings together any AI, any data, and any workflow— helping 85% of the Fortune 500® work smarter, faster, and better. We're building an AI-native culture where technology and talent are unstoppable together. And we're just getting started. Join us to put AI to work for people. Role Summary We seek a strategic and detail-oriented Senior Ethics & Compliance Programs Manager to lead the design, development, and implementation of innovative compliance processes across our Ethics & Compliance function. This role is pivotal in transforming key compliance controls, with a strong focus on ABAC & Export Compliance, through process optimization, technology enablement, and cross-functional collaboration. You will work with E & C subject matter experts to architect comprehensive compliance solutions that leverage ServiceNow and AI capabilities to build a state-of-the-art compliance controls and processes. Key Responsibilities Design and develop core Ethics & Compliance program processes, translating compliance requirements into scalable, user-friendly workflows that enhance organizational risk management Collaborate with E & C SMEs across multiple domains to understand compliance challenges and opportunities, serving as a connector between technical teams and business stakeholders Lead the automation and digitalization of compliance processes using ServiceNow tools, AI functionality, and other enterprise platforms to increase efficiency, reduce manual effort, and improve compliance visibility Develop and execute multi-year compliance program roadmaps aligned with organizational strategy and regulatory evolution Identify and facilitate integration opportunities between compliance processes and business operations, connecting SMEs with relevant teams to drive adoption and sustainable implementation Manage end-to-end program initiatives from concept through deployment, ensuring timelines, scope, and quality standards are met Support the continuous improvement of compliance processes through monitoring, feedback collection, and iterative enhancements Communicate program status, milestones, and recommendations to E & C leadership and cross-functional stakeholders To be successful in this role you have: 7+ years of project management experience, with demonstrated success managing complex, cross-functional initiatives Working foundational knowledge of Code of Ethics and Compliance topics such as conflicts of interest, gifts and hospitality, anti-corruption/FCPA, Trade Compliance, data privacy, and related compliance domains Proven ability to partner effectively across organizations, building consensus among diverse stakeholder groups Experience with process design, business process optimization, or workflow automation Demonstrated capability to translate compliance and business requirements into technical solutions Strong written and verbal communication skills, with ability to explain complex compliance concepts to technical and non-technical audiences Project management proficiency and familiarity with PM tools and methodologies Preferred Qualifications Experience with ServiceNow platform configuration and administration, or other enterprise compliance/workflow tools Familiarity with AI applications in business process automation or compliance functions Background in compliance, ethics, legal operations, or related field Project Management Professional (PMP) or similar certification Experience implementing enterprise-wide compliance programs or initiatives Knowledge of compliance frameworks and standards (SOX, ISO, industry-specific requirements) Core Competencies Strategic thinking and long-term planning capability Problem-solving and analytical skills Change management and stakeholder engagement Technical acumen without necessarily being a technologist Attention to detail coupled with big-picture perspective Leadership and influence without direct authority For positions in this location, we offer a base pay of $114,200 - $199,900 , plus equity (when applicable), variable/incentive compensation and benefits. Sales positions generally offer a competitive On Target Earnings (OTE) incentive compensation structure. Please note that the base pay shown is a guideline, and individual total compensation will vary based on factors such as qualifications, skill level, competencies, and work location. We also offer health plans, including flexible spending accounts, a 401(k) Plan with company match, ESPP, matching donations, a flexible time away plan and family leave programs. Compensation is based on the geographic location in which the role is located and is subject to change based on work location. Work Personas We approach our distributed world of work with flexibility and trust. Work personas (flexible, remote, or required in office) are categories that are assigned to ServiceNow employees depending on the nature of their work and their assigned work location. Learn more here . To determine eligibility for a work persona, ServiceNow may confirm the distance between your primary residence and the closest ServiceNow office using a third-party service. Equal Opportunity Employer ServiceNow is an equal opportunity employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, national origin, age, disability, gender identity, veteran status, or any other category protected by law. In addition, all qualified applicants with arrest or conviction records will be considered for employment in accordance with legal requirements. Accommodations We strive to create an accessible and inclusive experience for all candidates. If you require a reasonable accommodation to complete any part of the application process, or are unable to use this online application and need an alternative method to apply, please contact globaltalentss@servicenow.com for assistance. Export Control Regulations For positions requiring access to controlled technology subject to export control regulations, including the U.S. Export Administration Regulations (EAR), ServiceNow may be required to obtain export control approval from government authorities for certain individuals. All employment is contingent upon ServiceNow obtaining any export license or other approval that may be required by relevant export control authorities. From Fortune. ©2026 Fortune Media IP Limited. All rights reserved. Used under license.",
+      "linkedin_url": "",
+      "focus_matches": [
+        "Operations"
+      ],
+      "focus_evidence": {
+        "Operations": "ion opportunities between compliance processes and business operations, connecting SMEs with relevant teams to drive adoption and sustainable implementation Manage end-to"
+      },
+      "work_mode": "Remote available",
+      "work_mode_evidence": "The official location includes remote work; confirm geographic restrictions and other work arrangements with the employer.",
+      "match": 55,
+      "matched_skills": [
+        "Operations"
+      ]
+    }
+  ]
+}
