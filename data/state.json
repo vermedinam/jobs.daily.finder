@@ -279,6 +279,31 @@
       "url": "https://job-boards.greenhouse.io/welbehealth/jobs/8907180002",
       "first_seen": "2026-11-03",
       "last_seen": "2026-11-03"
+    },
+    "ashby:openai:87ef8476-e930-47ed-abc2-a1bedcc074fb": {
+      "url": "https://jobs.ashbyhq.com/openai/87ef8476-e930-47ed-abc2-a1bedcc074fb",
+      "first_seen": "2026-11-04",
+      "last_seen": "2026-11-04"
+    },
+    "ashby:openai:73a111f9-e83d-4cce-9148-2a32ccf1d251": {
+      "url": "https://jobs.ashbyhq.com/openai/73a111f9-e83d-4cce-9148-2a32ccf1d251",
+      "first_seen": "2026-11-04",
+      "last_seen": "2026-11-04"
+    },
+    "smartrecruiters:WesternDigital:744000159716477": {
+      "url": "https://jobs.smartrecruiters.com/WesternDigital/744000159716477-supply-chain-program-manager",
+      "first_seen": "2026-11-04",
+      "last_seen": "2026-11-04"
+    },
+    "greenhouse:qualtrics:8328278": {
+      "url": "https://www.qualtrics.com/careers/us/en/job/8328278?gh_jid=8328278",
+      "first_seen": "2026-11-04",
+      "last_seen": "2026-11-04"
+    },
+    "greenhouse:qualtrics:8351671": {
+      "url": "https://www.qualtrics.com/careers/us/en/job/8351671?gh_jid=8351671",
+      "first_seen": "2026-11-04",
+      "last_seen": "2026-11-04"
     }
   }
 }

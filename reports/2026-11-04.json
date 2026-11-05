@@ -1,0 +1,520 @@
+{
+  "date": "2026-11-04",
+  "verified_at": "2026-11-04T18:01:26.029328-08:00",
+  "metrics": {
+    "reviewed": 61378,
+    "sources_ok": 275,
+    "unverified": 0,
+    "applied_excluded": 0,
+    "seen_excluded": 0,
+    "linkedin_candidates": 99,
+    "linkedin": "Public access available: 42 searches; publication dates verified only against official sources",
+    "errors": [
+      "devot: HTTPError",
+      "wiz: HTTPError",
+      "yelp: HTTPError",
+      "contentsquare: HTTPError",
+      "factorialhr: HTTPError",
+      "factorial: HTTPError",
+      "travelperk: HTTPError",
+      "jobandtalent: HTTPError",
+      "glovo: HTTPError",
+      "bookingcom: HTTPError",
+      "expediagroup: HTTPError",
+      "cimpress: HTTPError",
+      "vistaprint: HTTPError",
+      "softtek: HTTPError",
+      "agileengine: HTTPError",
+      "konfio: HTTPError",
+      "clipmx: HTTPError",
+      "kueski: HTTPError",
+      "klar: HTTPError",
+      "yalo: HTTPError",
+      "nowports: HTTPError",
+      "remitly: HTTPError",
+      "payjoy: HTTPError",
+      "tala: HTTPError",
+      "openpay: HTTPError",
+      "global66: HTTPError",
+      "habi: HTTPError",
+      "truora: HTTPError",
+      "platzi: HTTPError",
+      "clara: HTTPError",
+      "bitso: HTTPError",
+      "stori: HTTPError",
+      "mendel: HTTPError",
+      "factorial: HTTPError",
+      "lodgify: HTTPError",
+      "secretsource: HTTPError",
+      "sastrify: HTTPError",
+      "safetywing: HTTPError",
+      "jobgether: HTTPError",
+      "lemonio: HTTPError",
+      "nearsure: HTTPError",
+      "crunchyroll: HTTPError",
+      "amdocs: HTTPError",
+      "slalom: HTTPError",
+      "slalombuild: HTTPError",
+      "cprime: HTTPError",
+      "avature: HTTPError",
+      "guidewire: HTTPError",
+      "netsuite: HTTPError",
+      "eon: HTTPError",
+      "epamanywhere: HTTPError",
+      "akamai: HTTPError",
+      "thoughtmachine: HTTPError",
+      "checkoutcom: HTTPError",
+      "flywire: HTTPError",
+      "Prospanica: https://jobs.prospanica.org/home/index.cfm: HTTP Error 403: Forbidden",
+      "Lean In Latinas: No supported role links in public HTML; dynamic or member-only results may be unavailable",
+      "Welcome to the Jungle: No supported role links in public HTML; dynamic or member-only results may be unavailable",
+      "Biocom Career Hub: No supported role links in public HTML; dynamic or member-only results may be unavailable",
+      "WelbeHealth official careers: No supported role links in public HTML; dynamic or member-only results may be unavailable",
+      "thatgamecompany official careers: https://thatgamecompany.com/company/jobs/: Only public HTTPS URLs are allowed",
+      "HLPA: https://jobs.hlpa.com/employment/search.aspx: HTTP Error 406: Not Acceptable",
+      "SHPE: https://careercenter.shpe.org/: HTTP Error 403: Forbidden",
+      "Techqueria: No supported role links in public HTML; dynamic or member-only results may be unavailable",
+      "Latinx in Tech Career Center: No supported role links in public HTML; dynamic or member-only results may be unavailable",
+      "PowerToFly: No supported role links in public HTML; dynamic or member-only results may be unavailable",
+      "Women Who Design: No supported role links in public HTML; dynamic or member-only results may be unavailable",
+      "Started by Women: No supported role links in public HTML; dynamic or member-only results may be unavailable",
+      "Wellfound California: No supported role links in public HTML; dynamic or member-only results may be unavailable",
+      "Y Combinator California: No supported role links in public HTML; dynamic or member-only results may be unavailable",
+      "Games Jobs Direct: https://www.gamesjobsdirect.com/search: HTTP Error 406: Not Acceptable",
+      "Bloks: No supported role links in public HTML; dynamic or member-only results may be unavailable",
+      "ASGC Games Jobs: No supported role links in public HTML; dynamic or member-only results may be unavailable",
+      "BioSpace California: https://jobs.biospace.com/california: HTTP Error 429: Too Many Requests",
+      "BioTalent: No supported role links in public HTML; dynamic or member-only results may be unavailable",
+      "Manfred Spain: No supported role links in public HTML; dynamic or member-only results may be unavailable",
+      "Jobgether: https://jobgether.com/remote-jobs/program-manager: HTTP Error 403: Forbidden"
+    ],
+    "discovery": [
+      {
+        "source": "Prospanica",
+        "category": "Latino and professional associations",
+        "pages": 0,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "https://jobs.prospanica.org/home/index.cfm: HTTP Error 403: Forbidden"
+        ]
+      },
+      {
+        "source": "HOPE - Hispanas Organized for Political Equality",
+        "category": "Latino and professional associations",
+        "pages": 1,
+        "candidates": 1,
+        "verified": 0,
+        "issues": []
+      },
+      {
+        "source": "Lean In Latinas",
+        "category": "Latino and professional associations",
+        "pages": 1,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "No supported role links in public HTML; dynamic or member-only results may be unavailable"
+        ]
+      },
+      {
+        "source": "Built In San Francisco",
+        "category": "Regional technology and startups",
+        "pages": 3,
+        "candidates": 22,
+        "verified": 0,
+        "issues": []
+      },
+      {
+        "source": "Hitmarker",
+        "category": "Games and entertainment",
+        "pages": 3,
+        "candidates": 2,
+        "verified": 0,
+        "issues": []
+      },
+      {
+        "source": "Welcome to the Jungle",
+        "category": "Regional technology and startups",
+        "pages": 4,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "No supported role links in public HTML; dynamic or member-only results may be unavailable"
+        ]
+      },
+      {
+        "source": "Biocom Career Hub",
+        "category": "Life sciences",
+        "pages": 1,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "No supported role links in public HTML; dynamic or member-only results may be unavailable"
+        ]
+      },
+      {
+        "source": "WelbeHealth official careers",
+        "category": "Company careers",
+        "pages": 1,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "No supported role links in public HTML; dynamic or member-only results may be unavailable"
+        ]
+      },
+      {
+        "source": "Branch official careers",
+        "category": "Company careers",
+        "pages": 1,
+        "candidates": 13,
+        "verified": 0,
+        "issues": []
+      },
+      {
+        "source": "thatgamecompany official careers",
+        "category": "Company careers",
+        "pages": 0,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "https://thatgamecompany.com/company/jobs/: Only public HTTPS URLs are allowed"
+        ]
+      },
+      {
+        "source": "Turtle Rock Studios official careers",
+        "category": "Company careers",
+        "pages": 1,
+        "candidates": 1,
+        "verified": 0,
+        "issues": []
+      },
+      {
+        "source": "HLPA",
+        "category": "Latino and professional associations",
+        "pages": 0,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "https://jobs.hlpa.com/employment/search.aspx: HTTP Error 406: Not Acceptable"
+        ]
+      },
+      {
+        "source": "SHPE",
+        "category": "Latino and professional associations",
+        "pages": 0,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "https://careercenter.shpe.org/: HTTP Error 403: Forbidden"
+        ]
+      },
+      {
+        "source": "Techqueria",
+        "category": "Latino and professional associations",
+        "pages": 1,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "No supported role links in public HTML; dynamic or member-only results may be unavailable"
+        ]
+      },
+      {
+        "source": "Latinx in Tech Career Center",
+        "category": "Latino and professional associations",
+        "pages": 1,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "No supported role links in public HTML; dynamic or member-only results may be unavailable"
+        ]
+      },
+      {
+        "source": "PowerToFly",
+        "category": "Women and inclusive career networks",
+        "pages": 1,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "No supported role links in public HTML; dynamic or member-only results may be unavailable"
+        ]
+      },
+      {
+        "source": "Women Who Design",
+        "category": "Women and inclusive career networks",
+        "pages": 1,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "No supported role links in public HTML; dynamic or member-only results may be unavailable"
+        ]
+      },
+      {
+        "source": "Women in Games International",
+        "category": "Women and inclusive career networks",
+        "pages": 1,
+        "candidates": 1,
+        "verified": 0,
+        "issues": []
+      },
+      {
+        "source": "Started by Women",
+        "category": "Women and inclusive career networks",
+        "pages": 1,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "No supported role links in public HTML; dynamic or member-only results may be unavailable"
+        ]
+      },
+      {
+        "source": "Wellfound California",
+        "category": "Regional technology and startups",
+        "pages": 1,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "No supported role links in public HTML; dynamic or member-only results may be unavailable"
+        ]
+      },
+      {
+        "source": "Y Combinator California",
+        "category": "Regional technology and startups",
+        "pages": 1,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "No supported role links in public HTML; dynamic or member-only results may be unavailable"
+        ]
+      },
+      {
+        "source": "Games Jobs Direct",
+        "category": "Games and entertainment",
+        "pages": 0,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "https://www.gamesjobsdirect.com/search: HTTP Error 406: Not Acceptable"
+        ]
+      },
+      {
+        "source": "Bloks",
+        "category": "Games and entertainment",
+        "pages": 1,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "No supported role links in public HTML; dynamic or member-only results may be unavailable"
+        ]
+      },
+      {
+        "source": "Gaming Industry Job Tracker",
+        "category": "Games and entertainment",
+        "pages": 1,
+        "candidates": 1,
+        "verified": 0,
+        "issues": []
+      },
+      {
+        "source": "ASGC Games Jobs",
+        "category": "Games and entertainment",
+        "pages": 1,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "No supported role links in public HTML; dynamic or member-only results may be unavailable"
+        ]
+      },
+      {
+        "source": "BioSpace California",
+        "category": "Life sciences",
+        "pages": 0,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "https://jobs.biospace.com/california: HTTP Error 429: Too Many Requests"
+        ]
+      },
+      {
+        "source": "BioTalent",
+        "category": "Life sciences",
+        "pages": 1,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "No supported role links in public HTML; dynamic or member-only results may be unavailable"
+        ]
+      },
+      {
+        "source": "Manfred Spain",
+        "category": "Remote and international",
+        "pages": 1,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "No supported role links in public HTML; dynamic or member-only results may be unavailable"
+        ]
+      },
+      {
+        "source": "Wellfound Remote",
+        "category": "Remote and international",
+        "pages": 1,
+        "candidates": 29,
+        "verified": 0,
+        "issues": []
+      },
+      {
+        "source": "Jobgether",
+        "category": "Remote and international",
+        "pages": 0,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "https://jobgether.com/remote-jobs/program-manager: HTTP Error 403: Forbidden"
+        ]
+      },
+      {
+        "source": "Remotely",
+        "category": "Remote and international",
+        "pages": 1,
+        "candidates": 9,
+        "verified": 0,
+        "issues": []
+      }
+    ],
+    "new_employer_boards": 0,
+    "focus_excluded": 3,
+    "mexico_verified_candidates": 0,
+    "spain_verified_candidates": 0
+  },
+  "jobs": [
+    {
+      "id": "greenhouse:qualtrics:8328278",
+      "company": "Qualtrics",
+      "title": "Senior IT Program Manager",
+      "location": "Seattle, Washington,  United States",
+      "salary": "USD 145,500-176,500 (Washington State Base Annual Pay Transparency Range)",
+      "official_url": "https://www.qualtrics.com/careers/us/en/job/8328278?gh_jid=8328278",
+      "posted": "2026-11-04T14:55:09-05:00",
+      "date_evidence": "Greenhouse.first_published",
+      "evidence_url": "https://boards-api.greenhouse.io/v1/boards/qualtrics/jobs/8328278?pay_transparency=true",
+      "description": "<div>At Qualtrics, we create software the world’s best brands use to deliver exceptional frontline experiences, build high-performing teams, and design products people love. But we are more than a platform—we are the creators and stewards of the Experience Management category serving over 18K clients globally. Building a category takes grit, determination, and a disdain for convention—but most of all it requires close-knit, high-functioning teams with an unwavering dedication to serving our customers. <br><br>When you join one of our teams, you’ll be part of a nimble group that’s empowered to set aggressive goals and move fast to achieve them. Strategic risks are encouraged and complex problems are solved together, by passing the mic and iterating until the best solution comes to light. You won’t have to look to find growth opportunities—ready or not, they’ll find you. From retail to government to healthcare, we’re on a mission to bring humanity, connection, and empathy back to business. Join over 5,000 people across the globe who think that’s work worth doing.</div> <div>&nbsp;</div> <div style=\"text-align: center;\"><strong>Senior IT Program Manager</strong></div> <p><strong>Why We Have This Role</strong></p> <div> <p>We are looking for an experienced Senior IT Program Manager to play a critical role in driving the successful delivery of programs that align business priorities with technology strategy. This role ensures we deliver value to the business while managing dependencies, risks, and communications across teams. You’ll be instrumental in creating structure and accountability in our IT delivery process.&nbsp;</p> </div> <p><strong>How You’ll Find Success</strong></p> <ul> <li>Program Execution: Lead large-scale, cross-functional programs and keep delivery aligned to business outcomes.</li> <li>Stakeholder Partnership: Proactively build trust quickly with stakeholders across IT, business, and external vendors.</li> <li>Change Navigation - Anticipate blockers and manage ambiguity with composure and clarity.</li> <li>Clear Communication - Translate technical and delivery details into compelling updates tailored to your audience. Keep everyone - from engineers to executives - informed with crisp, clear updates.</li> <li>Delivery Accountability - Define success metrics up front, track them throughout the program, and report on outcomes.</li> </ul> <p><strong>How You’ll Grow</strong></p> <ul> <li>Enterprise Exposure - Gain exposure to enterprise-level program governance and cross-org planning process.</li> <li>Cross-Functional Collaboration - Build partnerships with IT strategy, enterprise architecture, and executive sponsors.</li> <li>Delivery&nbsp; Frameworks - Contribute to maturing our program management practices through playbooks, frameworks and mentoring.</li> <li>Expand your impact by shaping repeatable delivery models for future transformation initiatives.</li> </ul> <p><strong>Things You’ll Do</strong></p> <ul> <li>End-to-End Program Management - Lead complex IT programs, from initiation through execution, risk management, and delivery.</li> <li>Requirement Analysis: Evaluate business processes, anticipate requirements, and uncover areas for improvement.</li> <li>Lead customer service transformation programs, from process redesign and platform implementation through adoption and measurable improvement in customer outcomes.</li> <li>Collaborate with stakeholders to define scope, success metrics, and delivery milestones.</li> <li>Manage multiple project teams across business units, IT, and vendors, ensuring aligned timelines and outcomes.</li> <li>Partner with ServiceNow platform owners, architects, and implementation partners to plan releases, manage configuration and integration dependencies, and prioritize the roadmap.</li> <li>Track program health using appropriate tools and metrics, ensuring issues are surfaced and addressed.</li> <li>Conduct steering meetings, retrospectives, and decision forums with executive and operational stakeholders.</li> </ul> <p><strong>What We’re Looking For On Your Resume</strong></p> <ul> <li>5+ years of experience leading IT programs with multiple workstreams, external vendors, and executive-level reporting, ideally in a complex, enterprise environment.</li> <li>Proven success delivering programs with cross-functional teams, external vendors, and multiple stakeholders.</li> <li>Experience leading customer service or support transformation initiatives (e.g., support operations redesign, case management modernization, self-service/knowledge enablement, or service-level improvements).</li> <li>Hands-on experience delivering programs on the ServiceNow platform (e.g., CSM, ITSM, or related modules).</li> <li>Strong command of program/project management tools and methodologies (Agile, Waterfall, Jira, Smartsheet, etc.)</li> <li>Experience managing risk, scope, and dependencies across teams with competing priorities.</li> <li>Exceptional communication and stakeholder engagement skills, including executive level reporting.</li> <li>Ability to lead without authority, influence outcomes, and foster collaboration across organizational boundaries.</li> <li>Bachelors’ degree in Business, Technology or related field.</li> <li>Project Management Professional or PRINCE certification</li> </ul> <p><strong>What You Should Know About This Team</strong></p> <div> <ul> <li>Supportive environment with opportunities to work both autonomously and collaboratively</li> <li>Fun, inviting, and inclusive team made up of passionate, kind, and smart people who exemplify what it means to be Customer Obsessed</li> <li>Continuous Improvement guides our path forward</li> </ul> </div> <p><strong>Our Team’s Favorite Perks and Benefits</strong></p> <ul> <li>Competitive salary, performance bonuses, generous 401(k) Match</li> <li>Wellness Reimbursement for $300 per quarter for wellness activities including gym memberships, spa massages, workout equipment, meditation apps, and much more.</li> <li>Unlimited Sick Days</li> <li>Amazing QGroup Communities; MOSAIQ, Green Team, Qualtrics Pride, Q&amp;Able, Qualtrics Salute, and Women’s Leadership Development, which exist as places for support, allyship, and advocacy.</li> </ul> <div><strong>The Qualtrics Hybrid Work Model</strong>: Our hybrid work model is elegantly simple: we all gather in the office three days a week; Mondays and Thursdays, plus one day selected by your organizational leader. These purposeful in-person days in thoughtfully designed offices help us do our best work and harness the power of collaboration and innovation. For the rest of the week, work where you want, owning the integration of work and life. #hybrid</div> <div>&nbsp;</div> <div><em>Qualtrics is an equal opportunity employer meaning that all qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, disability, status as a protected veteran, or any other protected characteristic.</em></div> <div>&nbsp;</div> <div><em>​​​​​​​Applicants in the United States of America have rights under Federal Employment Laws:<a href=\"https://www.dol.gov/agencies/whd/posters/fmla\">Family &amp; Medical Leave Act</a>, <a href=\"https://www.eeoc.gov/poster\">Equal Opportunity Employment</a>, <a href=\"https://www.dol.gov/agencies/whd/posters/employee-polygraph-protection-act\">Employee Polygraph Protection Act</a></em></div> <div>&nbsp;</div> <div><em>Qualtrics is committed to the inclusion of all qualified individuals. As part of this commitment, Qualtrics will ensure that persons with disabilities are provided with reasonable accommodations. If reasonable accommodation is needed to participate in the job application or interview process, to perform essential job functions, and/or to receive other benefits and privileges of employment, please let your Qualtrics contact/recruiter know.</em></div> <div>&nbsp;</div> <div><em>Not finding a role that’s the right fit for now? Qualtrics Insiders is the one-stop shop for all things Qualtrics Life. Sign up for exclusive access to content created with you in mind and get the scoop on what we have going on at Qualtrics - upcoming events, behind the scenes stories from the team, interview tips, hot jobs, and more. No spam - we promise! You'll hear from us two times a month max with fresh, totally tailored info - so be sure to stay connected as you explore your best role and company fit.</em></div><div class=\"content-pay-transparency\"><div class=\"pay-input\"><div class=\"description\"><p><em>For full-time positions</em>, this pay range is for base per year; however, base pay offered within this range may vary depending on location, job-related knowledge, education, skills, and experience. A sign-on bonus and restricted stock units may be included in an employment offer. Full-time employees are eligible for medical, dental, vision, life and disability, 401(k) with match, paid time off, a wellness reimbursement, and mental health benefits. For a detailed look at our benefits, visit&nbsp;<a href=\"https://www.qualtrics.com/careers/us/en/us-benefits\" target=\"_blank\" data-saferedirecturl=\"https://www.google.com/url?q=https://www.qualtrics.com/careers/us/en/us-benefits&amp;source=gmail&amp;ust=1755200530444000&amp;usg=AOvVaw1522Gxx7Bd4fPUPsJHFTHD\">Qualtrics US Benefits</a>.</p></div><div class=\"title\">Washington State Base Annual Pay Transparency Range</div><div class=\"pay-range\"><span>$145,500</span><span class=\"divider\">&mdash;</span><span>$176,500 USD</span></div></div></div>",
+      "linkedin_url": "",
+      "focus_matches": [
+        "Agile",
+        "Operations"
+      ],
+      "focus_evidence": {
+        "Agile": "mand of program/project management tools and methodologies (Agile, Waterfall, Jira, Smartsheet, etc.) Experience managing risk, scope, and dependencies across teams ",
+        "Operations": "ervice or support transformation initiatives (e.g., support operations redesign, case management modernization, self-service/knowledge enablement, or service-level improv"
+      },
+      "work_mode": "Not specified",
+      "work_mode_evidence": "The reviewed official source does not confirm the work arrangement for this role.",
+      "match": 70,
+      "matched_skills": [
+        "Agile",
+        "Operations"
+      ]
+    },
+    {
+      "id": "ashby:openai:73a111f9-e83d-4cce-9148-2a32ccf1d251",
+      "company": "OpenAI",
+      "title": "Legal Discovery Program Manager",
+      "location": "San Francisco, California, United States",
+      "salary": "$216K - $240K",
+      "official_url": "https://jobs.ashbyhq.com/openai/73a111f9-e83d-4cce-9148-2a32ccf1d251",
+      "posted": "2026-11-04",
+      "date_evidence": "JobPosting.datePosted",
+      "evidence_url": "https://jobs.ashbyhq.com/openai/73a111f9-e83d-4cce-9148-2a32ccf1d251",
+      "description": "About the Team OpenAI’s Legal team helps advance our mission by navigating novel and foundational legal issues in AI. Our Litigation and Regulatory team works on complex, high-stakes matters and partners across the company to build the systems and practices that support them. Our discovery function brings together legal expertise, technology, and operational judgment to meet today’s needs and prepare for continued growth. About the Role We’re seeking an experienced Senior Legal Discovery Program Manager to help shape and scale the discovery capabilities supporting OpenAI’s growing litigation, regulatory, and investigations docket. You’ll drive strategic initiatives across discovery operations and strategy, vendor management, and information governance. You’ll partner closely with our litigation and regulatory teams, other legal teams, technical partners, outside counsel, and vendors to turn complex challenges into practical solutions. Your primary focus will be program building and improvement, along with providing support and guidance on complex legal matters. You’ll also shape how OpenAI approaches discovery and bring AI-enabled ways of working into practice. This role is based in San Francisco or New York. We use a hybrid work model of 3 days in the office per week and offer relocation assistance to new employees. In this role, you’ll: Build and advance OpenAI’s discovery program including scalable operations, core processes and standards, external vendor management and strategy, information governance programs, and other discovery initiatives across the company. Partner with Legal, Engineering, IT, Security, Privacy and other teams to translate legal requirements into practical solutions, tooling, integrations, and preservation workflows. Drive AI and agentic discovery initiatives, from identifying use cases through evaluation, piloting, and adoption, with clear measures of quality, reliability, and impact. Provide guidance on complex discovery matters and escalations, partnering with case teams, external counsel, and other partners on execution. Track program outcomes and communicate priorities, risks, resource needs, and recommendations to stakeholders and leadership to continuously improve the program. To be successful in this role, you should have: 10+ years of relevant experience in discovery, litigation support, legal operations, or related work, including significant ownership of complex discovery programs. Experience leading projects and programs at a fast-paced technology company, with a track record of building and launching programs from the ground up. Deep understanding of the discovery lifecycle, from preservation and collection through review and production, and the practical needs of litigation, regulatory matters, and investigations. Strong working knowledge of eDiscovery platforms, enterprise data systems, and information governance; the ability to work with technical teams on requirements, integrations, and troubleshooting. Experience managing discovery vendors and outside counsel, assessing service quality and costs, and driving improvements when delivery falls short. Excellent program management and analytical skills: you can prioritize competing needs, manage dependencies, establish milestones, and turn data into decisions. Clear written and verbal communication, sound judgment, and the ability to build trust and influence partners without direct authority. A strong sense of ownership, comfort with ambiguity, and a practical, resourceful approach to solving problems. You are excited to learn and apply AI to legal work. About OpenAI OpenAI is an AI research and deployment company dedicated to ensuring that general-purpose artificial intelligence benefits all of humanity. We push the boundaries of the capabilities of AI systems and seek to safely deploy them to the world through our products. AI is an extremely powerful tool that must be created with safety and human needs at its core, and to achieve our mission, we must encompass and value the many different perspectives, voices, and experiences that form the full spectrum of humanity. We are an equal opportunity employer, and we do not discriminate on the basis of race, religion, color, national origin, sex, sexual orientation, age, veteran status, disability, genetic information, or other applicable legally protected characteristic. For additional information, please see OpenAI’s Affirmative Action and Equal Employment Opportunity Policy Statement . Background checks for applicants will be administered in accordance with applicable law, and qualified applicants with arrest or conviction records will be considered for employment consistent with those laws, including the San Francisco Fair Chance Ordinance, the Los Angeles County Fair Chance Ordinance for Employers, and the California Fair Chance Act, for US-based candidates. For unincorporated Los Angeles County workers: we reasonably believe that criminal history may have a direct, adverse and negative relationship with the following job duties, potentially resulting in the withdrawal of a conditional offer of employment: protect computer hardware entrusted to you from theft, loss or damage; return all computer hardware in your possession (including the data contained therein) upon termination of employment or end of assignment; and maintain the confidentiality of proprietary, confidential, and non-public information. In addition, job duties require access to secure and protected information technology systems and related data security obligations. To notify OpenAI that you believe this job posting is non-compliant, please submit a report through this form . No response will be provided to inquiries unrelated to job posting compliance. We are committed to providing reasonable accommodations to applicants with disabilities, and requests can be made via this link . OpenAI Global Applicant Privacy Policy At OpenAI, we believe artificial intelligence has the potential to help people solve immense global challenges, and we want the upside of AI to be widely shared. Join us in shaping the future of technology.",
+      "linkedin_url": "",
+      "work_mode": "Hybrid",
+      "work_mode_evidence": "This role is based in San Francisco or New York. We use a hybrid work model of 3 days in the office per week and offer relocation assistance to new employees",
+      "focus_matches": [
+        "Operations"
+      ],
+      "focus_evidence": {
+        "Operations": "docket. You’ll drive strategic initiatives across discovery operations and strategy, vendor management, and information governance. You’ll partner closely with our litiga"
+      },
+      "match": 55,
+      "matched_skills": [
+        "Operations"
+      ]
+    },
+    {
+      "id": "ashby:openai:87ef8476-e930-47ed-abc2-a1bedcc074fb",
+      "company": "OpenAI",
+      "title": "Technical Program Manager, People Innovation Labs",
+      "location": "San Francisco, California, United States; Remote: United States",
+      "salary": "$257K - $335K",
+      "official_url": "https://jobs.ashbyhq.com/openai/87ef8476-e930-47ed-abc2-a1bedcc074fb",
+      "posted": "2026-11-04",
+      "date_evidence": "JobPosting.datePosted",
+      "evidence_url": "https://jobs.ashbyhq.com/openai/87ef8476-e930-47ed-abc2-a1bedcc074fb",
+      "description": "About the Team People Innovation Labs is a product, design, and engineering team embedded in the People organization. We build AI-powered products that improve how OpenAI finds and supports exceptional talent and helps employees do their best work. Our work spans recruiting, HR, learning, performance, culture, and company-wide knowledge. We build new products from the ground up and work closely with teams across OpenAI to rethink existing workflows using our latest models. About the Role We’re looking for an experienced Technical Program Manager to lead execution across a portfolio of complex, cross-functional initiatives. You’ll partner closely with product managers, designers, engineers, and teams across the People organization to turn product strategy into clear, coordinated execution. You’ll establish the plans and operating structures needed to move work forward, align technical and operational teams, drive decisions, manage dependencies and risks, and ensure stakeholders are prepared for launches. Because we build new products from the ground up, the work does not end when a product launches. You’ll own ongoing engagement with users, including onboarding, training, hands-on support, and creating clear ways for people to share feedback. You’ll develop a deep understanding of how our products fit into users’ day-to-day work, what is working, and where they are struggling. You’ll bring those insights back to product, design, and engineering so the team can iterate quickly toward product-market fit. You’ll also help keep the team aligned with its broader objectives. You’ll maintain a clear view of priorities, progress, dependencies, risks, and outcomes across the portfolio and provide clear updates and recommendations to team and company leadership. In this role, you will: Independently lead complex, high-priority technical programs from early planning through launch, adoption, and ongoing iteration. Partner with product and engineering leadership to translate strategy and team objectives into clear, executable plans. Establish program structures, decision-making forums, operating cadences, and accountability across multiple teams. Align product, design, engineering, data, operations, and other stakeholders around priorities, responsibilities, and delivery plans. Partner closely with engineering leads to manage technical dependencies, sequencing, delivery risks, and launch readiness. Identify gaps in strategy or execution, develop recommendations, and drive the decisions needed to move work forward. Anticipate risks and blockers, clarify tradeoffs, resolve disagreements, and escalate decisions when needed. Own communication, enablement, change management, and rollout strategies for new products and workflows. Lead post-launch user engagement through onboarding, training, office hours, hands-on support, and other programs that drive adoption. Build trusted relationships with users and create an environment where they provide frequent, candid feedback. Observe how products fit into real workflows and identify points of confusion, friction, or unmet need. Combine user feedback, usage data, and operational signals to understand what is working and what needs to change. Translate user insights into clear themes and actionable recommendations for product, design, and engineering. Create tight feedback loops that help the team test assumptions, learn quickly, and iterate toward product-market fit. Define and track program health, adoption, user sentiment, and operational outcomes. Maintain visibility into priorities, progress, dependencies, and risks across the team’s portfolio. Prepare clear, decision-oriented updates and recommendations for senior leadership. Improve the team’s planning and execution practices while keeping processes lightweight. You might thrive in this role if you: Have 7+ years of experience in technical program management, product operations, or a similar role leading complex software initiatives. Have independently led multiple high-impact programs involving several technical and business teams. Have helped take new software products from early planning through launch, adoption, and rapid iteration toward product-market fit. Are energized by working directly with users and willing to provide hands-on support while a product is still new. Know how to build trust with users, ask good questions, and get candid feedback about what is and is not working. Can identify patterns across qualitative feedback, usage data, and operational signals and turn them into actionable recommendations. Have strong technical fluency and can partner with engineers on architecture, integrations, data dependencies, security, reliability, and delivery tradeoffs. Have led significant operational or organizational change alongside technical product delivery. Can influence senior leaders, drive difficult decisions, and build alignment across teams with competing priorities. Identify and address strategic or execution gaps without waiting for detailed direction. Communicate clearly and directly across technical teams, operational partners, users, and executives. Can move comfortably between organizational strategy and detailed, hands-on execution Bring structure to fast-moving work without adding unnecessary process. Are curious about how AI can change the way organizations operate and how people work. About OpenAI OpenAI is an AI research and deployment company dedicated to ensuring that general-purpose artificial intelligence benefits all of humanity. We push the boundaries of the capabilities of AI systems and seek to safely deploy them to the world through our products. AI is an extremely powerful tool that must be created with safety and human needs at its core, and to achieve our mission, we must encompass and value the many different perspectives, voices, and experiences that form the full spectrum of humanity. We are an equal opportunity employer, and we do not discriminate on the basis of race, religion, color, national origin, sex, sexual orientation, age, veteran status, disability, genetic information, or other applicable legally protected characteristic. For additional information, please see OpenAI’s Affirmative Action and Equal Employment Opportunity Policy Statement . Background checks for applicants will be administered in accordance with applicable law, and qualified applicants with arrest or conviction records will be considered for employment consistent with those laws, including the San Francisco Fair Chance Ordinance, the Los Angeles County Fair Chance Ordinance for Employers, and the California Fair Chance Act, for US-based candidates. For unincorporated Los Angeles County workers: we reasonably believe that criminal history may have a direct, adverse and negative relationship with the following job duties, potentially resulting in the withdrawal of a conditional offer of employment: protect computer hardware entrusted to you from theft, loss or damage; return all computer hardware in your possession (including the data contained therein) upon termination of employment or end of assignment; and maintain the confidentiality of proprietary, confidential, and non-public information. In addition, job duties require access to secure and protected information technology systems and related data security obligations. To notify OpenAI that you believe this job posting is non-compliant, please submit a report through this form . No response will be provided to inquiries unrelated to job posting compliance. We are committed to providing reasonable accommodations to applicants with disabilities, and requests can be made via this link . OpenAI Global Applicant Privacy Policy At OpenAI, we believe artificial intelligence has the potential to help people solve immense global challenges, and we want the upside of AI to be widely shared. Join us in shaping the future of technology.",
+      "linkedin_url": "",
+      "work_mode": "Hybrid",
+      "work_mode_evidence": "Official workplaceType field: Hybrid",
+      "focus_matches": [
+        "Operations"
+      ],
+      "focus_evidence": {
+        "Operations": "s multiple teams. Align product, design, engineering, data, operations, and other stakeholders around priorities, responsibilities, and delivery plans. Partner closely wi"
+      },
+      "match": 55,
+      "matched_skills": [
+        "Operations"
+      ]
+    },
+    {
+      "id": "smartrecruiters:WesternDigital:744000159716477",
+      "company": "Western Digital",
+      "title": "Supply Chain Program Manager",
+      "location": "San Jose, CA, us",
+      "salary": "Not disclosed",
+      "official_url": "https://jobs.smartrecruiters.com/WesternDigital/744000159716477-supply-chain-program-manager",
+      "posted": "2026-11-04T19:52:24.267Z",
+      "date_evidence": "SmartRecruiters.releasedDate (release; may be a repost)",
+      "evidence_url": "https://api.smartrecruiters.com/v1/companies/WesternDigital/postings/744000159716477",
+      "description": "WD is building the infrastructure behind the AI-driven data economy. As AI scales, so does data. Every interaction, every model, every system generates data that must be stored, managed, and made accessible over time. That’s where we come in. We combine deep engineering expertise with global-scale manufacturing to deliver the storage systems that make AI possible, powering hyperscale data centers, cloud platforms, and enterprise infrastructure worldwide. This isn’t theoretical work. It’s real systems, at real scale, people solving some of the hardest challenges in technology today. We’re looking for people who want to build, solve, and operate at that level. Join us and let’s shape the future of data. As a Supply Chain Program Manager in the Supply Chain Center of Excellence, you will work alongside some of the most experienced and accomplished minds across Western Digital's Supply Chain functions, while engaging with the newest and most cutting-edge ideas in the field. Your role is to bring the two together, combining proven expertise with emerging thinking so that they work in harmony and deliver results. You will be awarded opportunities across the full spectrum of Supply Chain functions, engaging with established leaders in Logistics, Direct Procurement, Indirect Procurement, Planning, Risk and Resiliency, Operations and beyond. Rather than relying on authority, you will build consensus through influence and persuasion, grounded in both hard facts and qualitative insight. Success depends on strong dependency management, stakeholder alignment and clear communication across functions that may have other priorities. How we Operate These are the behaviors expected every day. They map to the WD Leadership Expectations and define the standard that this position role models for the wider team. Own the outcome, not the tracker. The plan is an instrument. The measure is whether the ramp landed on time, at cost and at quality. Champion clear decisions. Most Program delay is undecided, not unknown. Frame the choice, name the decider, get it made and record it. Manage the seams. Functions are usually competent inside their own boundary. Programs fail between them, which is where the Program Manager works. Escalate early with a recommendation. Raise it when there is still room to act, and bring the option you would choose. Be direct and transparent about status. Green that turns red without warning destroys credibility permanently. Report what is, not what is hoped. Influence without direct line authority. Nobody on the Program reports to you. Credibility, preparation and reliability are the only levers — build them deliberately. Close the loop. A Program that ends without lessons captured has spent the organization’s learning and kept none of it Key Responsibilities Strong Program Management Skills Integrated planning and governance. Own the master plan, milestones, dependencies, owners, RAID log and steering committee cadence across all workstreams, with an independent view of status. Scope, schedule and budget control. Protect the baseline, manage change through a disciplined process, and keep the program on time and on budget. Risk and decision management. Surface risks early, frame decisions with options and a recommendation, and record outcomes so they are not relitigated. Run the Program cadence at the right rhythm for the phase Maintain a single source of truth for Program status Define and enforce entry and exit criteria at each gate Program Portfolio Leadership and Team Development Own a portfolio of supply chain Programs, including major ramps and transitions of high complexity Lead, coach and develop the Program Managers running them, building advanced proficiency across the Program management toolkit Set the Program management standard for the function: plans, cadence, gates, reporting and post-Program review Frame executive decisions, manage complex risk and drive cross-functional alignment without authority Stakeholder Alignment Cross-functional alignment. Bring together Legal, Direct Materials, Indirect Procurement, Logistics, Sales, Finance and IT, each with different contract types, risk tolerances and priorities. Balancing competing priorities. Reconcile Legal’s risk posture, Procurement’s efficiency goals and the business’s need for speed into decisions all parties can support. Composure with difficult stakeholders. Remain calm, respectful and fact-based when challenged; depersonalize conflict and keep the focus on outcomes. Earned trust and sponsorship. Involve skeptics early, give them a real voice in design, and use executive sponsors and escalation paths deliberately. Cross-Functional Dependency Management Map dependencies across Sourcing, Engineering, Quality, Operations, Planning and suppliers Track dependency status and drive owners to their commitments Resolve cross-functional conflicts at the working level where possible Escalate blocked dependencies with the decision required clearly stated Risk and Decision Management Maintain a live Program risk register with owners, mitigations and trigger points Run scenario analysis on the risks that could move the Program Frame decisions clearly: the choice, the options, the trade-offs, the recommendation, the decider Track decisions and their rationale so they are not relitigated Delivery and Adoption Discipline Fit to standard. Champion out-of-the-box capability and challenge customization that adds cost and risk without clear value. Testing and cutover. Lead system integration and user acceptance testing, data migration validation and a well-rehearsed go-live. Adoption and value. Drive training, change champions and adoption metrics such as contract cycle time, and confirm the business case is realized. Measure adoption and sustainment, and reinforce new behaviors until they become the way Western Digital works Change management Lead organizational change that turns new processes, tools and ways of working into lasting habits across the enterprise Build a compelling case for change and inspire stakeholders at every level, from executive sponsors to frontline teams Design adoption roadmaps with clear communication, training and engagement plans that bring people along, not just systems Identify and empower change champions who carry new practices into their own functions and regions Anticipate resistance early and turn skeptics into advocates through listening, evidence and quick wins Executive Communication and Decision Framing Report Program status honestly, concisely and consistently Frame executive decisions with the choice, options, trade-offs and a recommendation Run executive forums that produce decisions rather than updates Manage expectations early rather than explaining misses afterwards Executive communication. Deliver concise, candid status that lets sponsors act quickly and with confidence. Governance. Run a structured governance process to include daily, weekly, biweekly, monthly core team and steering Committee meetings Collateral development. Create update templates and work individually and with team members to create executive communication collateral Program Analytics and Reporting Build and maintain readiness and status dashboards Use data rather than narrative to drive Program conversations Track leading indicators, not just milestone completion Adopt tooling, automation, and AI that reduce reporting effort Post-Program Learning Run honest post-Program reviews covering what worked and what did not Convert lessons into process change with the relevant process owner Share learning across the Program community Improve templates, gates and standards based on what was learned Business Process Transformation Champion innovation by challenging how work is done today and envisioning how it should be done tomorrow Identify opportunities to simplify, standardize and digitize end-to-end business processes across supply chain functions Oversee transformation projects from concept through delivery, ensuring they meet scope, schedule and value commitments Partner with IT and business owners to align process redesign with enabling systems, data and AI capabilities Measure the impact of each transformation and feed the lessons into the next wave of improvement What would success look like Big bets that land. Bold programs and transformations delivered on time, on budget and at the quality customers expect. Problems solved before they surface. Risks and gaps spotted early and closed well ahead of the moment they could hurt the business. A supply chain ready for what's next. Capacity, capability and technology in place before demand arrives, not after. Change without chaos. New processes, tools and transitions rolled out smoothly, with no disruption to customers and no value left on the table. A voice leaders trust. Reporting so candid and reliable that there are never surprises, and status always reflects reality. Decisions made in the room. Choices framed so clearly that leaders can act on the spot and keep momentum high. A legacy that compounds. Every lesson turned into a lasting standard, so each program makes the next one faster, smarter and better. Required Bachelor’s degree in supply chain management, Engineering, Business or a related field 10+ years of experience in supply chain, operations or program management, including leading product ramps, technology transitions or supplier readiness in a high-tech, semiconductor or electronics manufacturing environment A track record of leading process improvement or transformation work with measurable results Hands-on familiarity with AI and automation, including generative AI tools, and the curiosity to apply them to real supply chain problems Organizational change management experience Experience leading and developing Program Managers or cross-functional teams Demonstrated ability to frame executive decisions and influence senior stakeholders without direct authority Strong working knowledge of supplier capacity, qualification, engineering change and end-of-life management Proficiency with program analytics and dashboarding tools Preferred Master's degree or MBA PMP, PgMP or ASCM (APICS) certification Experience in data storage or hard disk drive supply chains Delivering AI and machine learning use cases, such as predictive supplier risk, demand sensing and generative AI assistants Experience with control towers, digital twins and supplier risk platforms Setting up or maturing a Program Management Office, which ties to the next-generation PMO in the opening Leading scenario planning, tabletop exercises or business continuity programs A background in consulting, transformation offices or a center of excellence Familiarity with sustainability, ESG and trade-compliance requirements Working with global teams and Asia-based supplier networks Change management certification (e.g., Prosci) or a record of leading large-scale adoption programs Programs are where every part of the supply chain organization has to work as one. This role holds limited authority and all of the accountability, which makes credibility the entire currency of the role. Earn it by being prepared, being honest about status, and forcing the decisions nobody else wants to call. In summary, the Program Manager is encouraged to bring innovation and creativity to every challenge, and fresh thinking about where the supply chain should go next will always be welcome. You will not be starting from a blank page: Western Digital is already pursuing a number of cutting-edge initiatives, and you will have the opportunity to shape, accelerate and expand them. WD is committed to providing equal opportunities to all applicants and employees and will not discriminate against any applicant or employee based on their race, color, ancestry, religion (including religious dress and grooming standards), sex (including pregnancy, childbirth or related medical conditions, breastfeeding or related medical conditions), gender (including a person’s gender identity, gender expression, and gender-related appearance and behavior, whether or not stereotypically associated with the person’s assigned sex at birth), age, national origin, sexual orientation, medical condition, marital status (including domestic partnership status), physical disability, mental disability, medical condition, genetic information, protected medical and family care leave, Civil Air Patrol status, military and veteran status, or other legally protected characteristics. We also prohibit harassment of any individual on any of the characteristics listed above. Our non-discrimination policy applies to all aspects of employment. We comply with the laws and regulations set forth in the \" Know Your Rights: Workplace Discrimination is Illegal ” poster. Our pay transparency policy is available here . WD thrives on the power and potential of diversity. As a global company, we believe the most effective way to embrace the diversity of our customers and communities is to mirror it from within. We believe the fusion of various perspectives results in the best outcomes for our employees, our company, our customers, and the world around us. We are committed to an inclusive environment where every individual can thrive through a sense of belonging, respect and contribution. WD is committed to offering opportunities to applicants with disabilities and ensuring all candidates can successfully navigate our careers website and our hiring process. Please contact us at jobs.accommodations@wdc.com to advise us of your accommodation request. In your email, please include a description of the specific accommodation you are requesting as well as the job title and requisition number of the position for which you are applying. Based on our experience, we anticipate that the application deadline will be 1/6/2027 (3 months from posting), although we reserve the right to close the application process sooner if we hire an applicant for this position before the application deadline. If we are not able to hire someone from this role before the application deadline, we will update this posting with a new anticipated application deadline. Compensation & Benefits Details An employee’s pay position within the salary range may be based on several factors including but not limited to (1) relevant education; qualifications; certifications; and experience; (2) skills, ability, knowledge of the job; (3) performance, contribution and results; (4) geographic location; (5) shift; (6) internal and external equity; and (7) business and organizational needs. The salary range is what we believe to be the range of possible compensation for this role at the time of this posting. We may ultimately pay more or less than the posted range and this range is only applicable for jobs to be performed in California, Colorado, New York or remote jobs that can be performed in California, Colorado and New York. This range may be modified in the future. If your position is non-exempt, you are eligible for overtime pay pursuant to company policy and applicable laws. You may also be eligible for shift differential pay, depending on the shift to which you are assigned. You will be eligible to be considered for bonuses under either WD’s Short Term Incentive Plan (“STI Plan”) or the Sales Incentive Plan (“SIP”) which provides incentive awards based on Company and individual performance, depending on your role and your performance. You may be eligible to participate in our annual Long-Term Incentive (LTI) program, which consists of restricted stock units (RSUs) or cash equivalents, pursuant to the terms of the LTI plan. Please note that not all roles are eligible to participate in the LTI program, and not all roles are eligible for equity under the LTI plan. RSU awards are also available to eligible new hires, subject to WD's Standard Terms and Conditions for Restricted Stock Unit Awards. We offer a comprehensive package of benefits including paid vacation time; paid sick leave; medical/dental/vision insurance; life, accident and disability insurance; tax-advantaged flexible spending and health savings accounts; employee assistance program; other voluntary benefit programs such as supplemental life and AD&D, legal plan, pet insurance, critical illness, accident and hospital indemnity; tuition reimbursement; transit; the Applause Program; employee stock purchase plan; and the WD Savings 401(k) Plan. Note: No amount of pay is considered to be wages or compensation until such amount is earned, vested, and determinable. The amount and availability of any bonus, commission, benefits, or any other form of compensation and benefits that are allocable to a particular employee remains in the Company's sole discretion unless and until paid and may be modified at the Company’s sole discretion, consistent with the law. Notice To Candidates: Please be aware that WD and its subsidiaries will never request payment as a condition for applying for a position or receiving an offer of employment. Should you encounter any such requests, please report it immediately to WD Ethics Helpline or email compliance@wdc.com .",
+      "linkedin_url": "",
+      "focus_matches": [
+        "Operations"
+      ],
+      "focus_evidence": {
+        "Operations": "ement, Indirect Procurement, Planning, Risk and Resiliency, Operations and beyond. Rather than relying on authority, you will build consensus through influence and persua"
+      },
+      "work_mode": "Not specified",
+      "work_mode_evidence": "The reviewed official source does not confirm the work arrangement for this role.",
+      "match": 55,
+      "matched_skills": [
+        "Operations"
+      ]
+    },
+    {
+      "id": "greenhouse:qualtrics:8351671",
+      "company": "Qualtrics",
+      "title": "Technical Program Manager - Public Sector",
+      "location": "Washington, District of Columbia, United States",
+      "salary": "USD 98,000-119,000 (Washington, DC Base Annual Pay Transparency Range)",
+      "official_url": "https://www.qualtrics.com/careers/us/en/job/8351671?gh_jid=8351671",
+      "posted": "2026-11-04T18:26:24-05:00",
+      "date_evidence": "Greenhouse.first_published",
+      "evidence_url": "https://boards-api.greenhouse.io/v1/boards/qualtrics/jobs/8351671?pay_transparency=true",
+      "description": "<div>At Qualtrics, we create software the world’s best brands use to deliver exceptional frontline experiences, build high-performing teams, and design products people love. But we are more than a platform—we are the creators and stewards of the Experience Management category serving over 18K clients globally. Building a category takes grit, determination, and a disdain for convention—but most of all it requires close-knit, high-functioning teams with an unwavering dedication to serving our customers.<br><br>When you join one of our teams, you’ll be part of a nimble group that’s empowered to set aggressive goals and move fast to achieve them. Strategic risks are encouraged and complex problems are solved together, by passing the mic and iterating until the best solution comes to light. You won’t have to look to find growth opportunities—ready or not, they’ll find you. From retail to government to healthcare, we’re on a mission to bring humanity, connection, and empathy back to business. Join over 5,000 people across the globe who think that’s work worth doing.</div> <p>&nbsp;</p> <p style=\"text-align: center;\"><strong>Technical Program Manager - Public Sector</strong></p> <p><strong>&nbsp;</strong></p> <p><strong>Why We Have This Role</strong></p> <p>The Technical Program Manager plays a pivotal part in Qualtrics' success by leading the design, delivery and ongoing success of customer’s experience programs, focused on driving measurable business impact. In this role, you will partner with customers throughout their lifecycle - from program delivery and onboarding to ongoing optimization, adoption and value realization.&nbsp; You will act as the primary technology trusted advisor for your portfolio, leading medium and large-scale software implementations and optimizing our technology to address individual challenges, ultimately building our customers into lifelong Qualtrics champions.</p> <p><strong>&nbsp;</strong></p> <p><strong>How You'll Find Success</strong></p> <p>You will find success by blending exceptional customer and project management skills with a focus on technical platform adoption, renewals, and expansion. You will lead project teams to deliver complex programs within our specific Industry Verticals and Region, ensuring your customers deepen and broaden their usage of the platform. By influencing customers to shape their feedback programs and being resourceful when facing challenges, you will drive leading indicators of success, value realization, and Net ARR growth.<strong><br></strong></p> <p>&nbsp;</p> <p><strong>How You’ll Grow</strong></p> <p><strong>Key Responsibilities</strong></p> <p><strong>Help Customers Grow</strong></p> <ul> <li>Build and maintain strong customer stakeholder relationships to deeply understand the context, ambition and strategic business goals for the customers within your portfolio</li> <li>Define and execute your strategy for retaining, maturing and expanding customer accounts; including assessing customer usage and implementing new capabilities to enhance their programs</li> <li>Develop success plans aligned with customer business goals and technology roadmaps</li> <li>Monitor customer health, platform utilization and adoption metrics to identify opportunities for increased value&nbsp;</li> <li>Contribute to a culture of accountability, collaboration and continuous improvement to drive high quality customer outcomes</li> </ul> <p><strong>Provide Technical &amp; Execution Expertise</strong></p> <ul> <li>Develop and maintain technical competence on the Qualtrics platform, ensuring a deep understanding of the leading indicators of customer adoption, ACV retention and value realization</li> <li>Utilize experience and best practices in order to understand the customer and communicate effectively how the Qualtrics platform will support the delivery of value driving outcomes and enhance their program</li> <li>Lead specific project implementations for new customers to your portfolio and existing customers; including cross functional / cross team project teams consisting of Technical Services Consultants and XM Advisors, with the objective to deliver on project goals and objectives</li> <li>Conduct regular risk planning, monitoring, mitigation and reporting to stakeholders both during project delivery and account lifecycle</li> </ul> <p><strong>Demonstrate Operational Rigor</strong></p> <ul> <li>Execute implementation and account management activities in accordance with global standard practices, ensuring rigorous account and project tracking and proactive risk and issue management</li> <li>Ensure all project and account documentation and artifacts are developed, maintained&nbsp;&nbsp;</li> <li>Stay current with product and strategic customer journey enhancements&nbsp;</li> </ul> <p><strong>Key Success Measures</strong></p> <p>For customer accounts within your portfolio over a 12 month period:</p> <p><strong>Customer Value</strong></p> <ul> <li>Net ARR&nbsp;</li> <li>Customer adoption and maturity of customer account</li> <li>Customer satisfaction and advocacy</li> </ul> <p><strong>Successful Execution</strong></p> <ul> <li>Billable Utilization attainment</li> <li>Time to Value for customers following delivery of new capabilities (measured by level of consumption 60 days following go-live milestone)</li> <li>Time to Deliver new capabilities for customers in your portfolio</li> <li>Rigorous scope management measured by level of Variance on Completion (VAC) of specific project deliverables&nbsp;</li> </ul> <p><strong><br><br></strong></p> <p><strong>Things You'll Do</strong></p> <ul> <li><strong>Portfolio Leadership: </strong>Own the success of a portfolio of customer accounts, serving as the primary technology advisor throughout the customer lifecycle</li> <li><strong>Portfolio Performance: </strong>Monitor portfolio performance using customer health, adoption, maturity and value realisation to proactively manage risk and identify growth opportunities</li> <li><strong>Account Growth &amp; Maturity:</strong> Define strategy to expand program adoption and maturity across our customer accounts, driving Net ARR and portfolio performance</li> <li><strong>Strategic Project Management:</strong> Partner with customers to provide expertise leading to the alignment of project goals and timely execution</li> <li><strong>Risk &amp; Quality Management:</strong> Plan, monitor, and mitigate project risks while developing quality management plans aligned with business requirements</li> <li><strong>Cross-functional Collaboration:</strong> Collaborate with internal teams to support your customer’s experience and maintain account health</li> </ul> <p><strong>&nbsp;</strong></p> <p><strong>What We're Looking For On Your Resume</strong></p> <p>The ideal candidate combines technical expertise, consulting skills and a passion for helping customers transform their business through technology.&nbsp;</p> <ul> <li><strong>3+ years of experience: </strong>Successfully working with large, complex organizations to execute and advise on customer facing programs that deliver sustainable business outcomes&nbsp;</li> <li><strong>Technical Aptitude:</strong> High interest in learning the Qualtrics platform and new technologies and deployment of technical expertise with customers at scale</li> <li><strong>Consulting &amp; Program Management:</strong> Proven ability to plan and execute multiple concurrent projects on time and budget, with a blend of consulting and internal-customer experience.&nbsp; Collaborating with project managers, consultants, architects and product teams to support delivery of specific outcomes</li> <li><strong>Customer Engagement:</strong> Ability to lead workshops, knowledge transfer sessions, utilize data and metrics to communicate understanding and produce high quality customer facing documentation&nbsp;</li> <li><strong>Stakeholder Influence:</strong> Ability to build relationships with senior customer program owners and decision makers</li> <li><strong>Industry Experience: </strong>Good understanding of significant industry shifts taking place in experience management in one or more specific industries.&nbsp;&nbsp;</li> <li><strong>Entrepreneurial spirit:</strong> High tolerance for ambiguity and complexity. Ability to be efficient with limited resources, to understand business needs and to communicate and present to Senior Management effectively.</li> <li><strong>Education:</strong> Bachelor’s degree in science, technology, engineering, or business-related field.</li> <li><strong>Willingness to Travel</strong>: Able to travel up to 25% to engage with clients and teams.</li> </ul> <p><strong><br><br></strong></p> <p><strong>What You Should Know About This Team&nbsp;</strong></p> <ul> <li>End-to-End Strategic Advisors: The team serves as the primary technical advisors for public sector clients across their entire lifecycle—from onboarding and technical delivery to ongoing optimization, adoption, and value realization.</li> <li>Cross-Functional Implementation Leaders: Team members orchestrate medium- and large-scale software implementations, directing cross-functional groups of Technical Services Consultants and XM Advisors to deliver complex, multi-stakeholder programs on time and within scope.</li> <li>Driven by Commercial &amp; Customer Outcomes: Success on this team is tied directly to measurable business impact, including Net ARR growth, ACV retention, time-to-value, billable utilization, and client maturity.</li> <li>High-Rigor, Consultative Culture: The team operates with an entrepreneurial mindset, blending technical platform expertise with operational discipline, proactive risk mitigation, and executive-level stakeholder management.</li> </ul> <p>&nbsp;</p> <p><strong>Our Team’s Favorite Perks and Benefits</strong></p> <ul> <li>Comprehensive Health &amp; Wellness: Robust medical, dental, and vision insurance packages for you and your dependents.</li> <li>Professional Growth &amp; Mentorship: Structured onboarding, product training, and clear pathways for career advancement.&nbsp;</li> <li>Paid Time Off &amp; Holidays: Generous paid vacation, sick leave, and paid company holidays.</li> <li>401(k) Retirement Plan: Competitive matching company contributions to help secure your financial future.</li> </ul> <p>&nbsp;</p> <div><strong>The Qualtrics Hybrid Work Model:</strong> Our hybrid work model is elegantly simple: we all gather in the office three days a week; Mondays and Thursdays, plus one day selected by your organizational leader. These purposeful in-person days in thoughtfully designed offices help us do our best work and harness the power of collaboration and innovation. For the rest of the week, work where you want, owning the integration of work and life. <em>#hybrid</em></div> <div>&nbsp;</div> <div><em>Qualtrics is an equal opportunity employer meaning that all qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, disability, status as a protected veteran, or any other protected characteristic.</em></div> <div>&nbsp;</div> <div><em>​​​​​​​Applicants in the United States of America have rights under Federal Employment Laws:<a href=\"https://www.dol.gov/agencies/whd/posters/fmla\">Family &amp; Medical Leave Act</a>,<a href=\"https://www.eeoc.gov/poster\">Equal Opportunity Employment</a>,<a href=\"https://www.dol.gov/agencies/whd/posters/employee-polygraph-protection-act\">Employee Polygraph Protection Act</a></em></div> <div>&nbsp;</div> <div><em>Qualtrics is committed to the inclusion of all qualified individuals. As part of this commitment, Qualtrics will ensure that persons with disabilities are provided with reasonable accommodations. If reasonable accommodation is needed to participate in the job application or interview process, to perform essential job functions, and/or to receive other benefits and privileges of employment, please let your Qualtrics contact/recruiter know.</em></div> <div>&nbsp;</div> <div><em>Not finding a role that’s the right fit for now? Qualtrics Insiders is the one-stop shop for all things Qualtrics Life. Sign up for exclusive access to content created with you in mind and get the scoop on what we have going on at Qualtrics - upcoming events, behind the scenes stories from the team, interview tips, hot jobs, and more. No spam - we promise! You'll hear from us two times a month max with fresh, totally tailored info - so be sure to stay connected as you explore your best role and company fit.</em></div> <div>&nbsp;</div> <p>&nbsp;</p><div class=\"content-pay-transparency\"><div class=\"pay-input\"><div class=\"description\"><p><em>For full-time positions</em>, this pay range is for base per year; however, base pay offered within this range may vary depending on location, job-related knowledge, education, skills, and experience. A sign-on bonus and restricted stock units may be included in an employment offer. Full-time employees are eligible for medical, dental, vision, life and disability, 401(k) with match, paid time off, a wellness reimbursement, and mental health benefits. For a detailed look at our benefits, visit&nbsp;<a href=\"https://www.qualtrics.com/careers/us/en/us-benefits\" target=\"_blank\" data-saferedirecturl=\"https://www.google.com/url?q=https://www.qualtrics.com/careers/us/en/us-benefits&amp;source=gmail&amp;ust=1755200530444000&amp;usg=AOvVaw1522Gxx7Bd4fPUPsJHFTHD\">Qualtrics US Benefits</a>.</p></div><div class=\"title\">Washington, DC Base Annual Pay Transparency Range</div><div class=\"pay-range\"><span>$98,000</span><span class=\"divider\">&mdash;</span><span>$119,000 USD</span></div></div></div>",
+      "linkedin_url": "",
+      "focus_matches": [
+        "Operations"
+      ],
+      "focus_evidence": {
+        "Operations": "ontribute to a culture of accountability, collaboration and continuous improvement to drive high quality customer outcomes Provide Technical & Execution Expertise Develop and maintai"
+      },
+      "work_mode": "Not specified",
+      "work_mode_evidence": "The reviewed official source does not confirm the work arrangement for this role.",
+      "match": 55,
+      "matched_skills": [
+        "Operations"
+      ]
+    }
+  ]
+}

@@ -10,116 +10,94 @@ Search area: USA, Canada, Mexico, Spain, LATAM, and eligible remote roles. Resul
 
 <!-- DASHBOARD:START -->
 
-## Dashboard: 2026-11-03
+## Dashboard: 2026-11-04
 
 > Your worth is not measured by an inbox. One thoughtful application at a time is enough for today.
 
-Publication day: 2026-11-03. Verified at: 2026-11-03T17:52:48.318061-08:00 (America/Los_Angeles).
+Publication day: 2026-11-04. Verified at: 2026-11-04T18:01:26.029328-08:00 (America/Los_Angeles).
 
 Up to 30 verified listings from the requested publication day. Coverage is limited to accessible sources.
 
-Reviewed: 61308 | Recommended: 7 | Applied excluded: 0 | Previously seen: 0 | Unverified: 0 | Outside topic focus: 4
+Reviewed: 61378 | Recommended: 5 | Applied excluded: 0 | Previously seen: 0 | Unverified: 0 | Outside topic focus: 3
 
-Accessible sources: 275 | LinkedIn candidates: 94
+Accessible sources: 275 | LinkedIn candidates: 99
 
 LinkedIn: Public access available: 42 searches; publication dates verified only against official sources
 
-Regional coverage: Mexico 0 verified candidates | Spain 0 verified candidates. Target: 30; returned: 7.
+Regional coverage: Mexico 0 verified candidates | Spain 0 verified candidates. Target: 30; returned: 5.
 
 ## Top 5
 
 | Estimated match | Company | Role | Location | Work arrangement | Apply |
 |---|---|---|---|---|---|
-| 70% | Riot Games | Playtest Operations Producer - Global Research Operations | Los Angeles, USA | Not specified | [Apply](<https://www.riotgames.com/en/work-with-us/job/8338311?gh_jid=8338311>) |
-| 55% | Scale AI | Growth Program Manager | San Francisco, CA; New York, NY | Not specified | [Apply](<https://job-boards.greenhouse.io/scaleai/jobs/4749989005>) |
-| 55% | Stripe | Technical Program Manager, Terminal | San Francisco, CA | Not specified | [Apply](<https://stripe.com/careers/listing/technical-program-manager-terminal/8304858?gh_jid=8304858>) |
-| 55% | WelbeHealth | People Program Manager, Payroll | Remote, CA, USA | Remote available | [Apply](<https://job-boards.greenhouse.io/welbehealth/jobs/8907180002>) |
-| 55% | AECOM | Mining Study Program Manager | Murray, UT, us (Remote) | Remote available | [Apply](<https://jobs.smartrecruiters.com/AECOM2/744000159458700-mining-study-program-manager>) |
+| 70% | Qualtrics | Senior IT Program Manager | Seattle, Washington, United States | Not specified | [Apply](<https://www.qualtrics.com/careers/us/en/job/8328278?gh_jid=8328278>) |
+| 55% | OpenAI | Legal Discovery Program Manager | San Francisco, California, United States | Hybrid | [Apply](<https://jobs.ashbyhq.com/openai/73a111f9-e83d-4cce-9148-2a32ccf1d251>) |
+| 55% | OpenAI | Technical Program Manager, People Innovation Labs | San Francisco, California, United States; Remote: United States | Hybrid | [Apply](<https://jobs.ashbyhq.com/openai/87ef8476-e930-47ed-abc2-a1bedcc074fb>) |
+| 55% | Western Digital | Supply Chain Program Manager | San Jose, CA, us | Not specified | [Apply](<https://jobs.smartrecruiters.com/WesternDigital/744000159716477-supply-chain-program-manager>) |
+| 55% | Qualtrics | Technical Program Manager - Public Sector | Washington, District of Columbia, United States | Not specified | [Apply](<https://www.qualtrics.com/careers/us/en/job/8351671?gh_jid=8351671>) |
 
 ## Verified jobs
 
 | Estimated match | Company / role | Location | Work arrangement | Published salary | Official publication date | Apply | LinkedIn |
 |---|---|---|---|---|---|---|---|
-| 70% | Riot Games / Playtest Operations Producer - Global Research Operations | Los Angeles, USA | Not specified | Not disclosed | 2026-11-03T16:35:00-05:00 | [Apply](<https://www.riotgames.com/en/work-with-us/job/8338311?gh_jid=8338311>) | Not available |
-| 55% | Scale AI / Growth Program Manager | San Francisco, CA; New York, NY | Not specified | USD 180,800-226,000 (Please reference the job posting's subtitle for where this position will be located. For pay transparency purposes, the base salary range for this full-time position in the locations of San Francisco, New York, Seattle is:) | 2026-11-03T14:42:58-05:00 | [Apply](<https://job-boards.greenhouse.io/scaleai/jobs/4749989005>) | Not available |
-| 55% | Stripe / Technical Program Manager, Terminal | San Francisco, CA | Not specified | Not disclosed | 2026-11-03T16:02:53-05:00 | [Apply](<https://stripe.com/careers/listing/technical-program-manager-terminal/8304858?gh_jid=8304858>) | Not available |
-| 55% | WelbeHealth / People Program Manager, Payroll | Remote, CA, USA | Remote available | USD 109,241-144,198 (Compensation Offering) | 2026-11-03T17:14:16-05:00 | [Apply](<https://job-boards.greenhouse.io/welbehealth/jobs/8907180002>) | Not available |
-| 55% | AECOM / Mining Study Program Manager | Murray, UT, us (Remote) | Remote available | Not disclosed | 2026-11-03T17:33:32.128Z | [Apply](<https://jobs.smartrecruiters.com/AECOM2/744000159458700-mining-study-program-manager>) | Not available |
-| 55% | AbbVie / Program Manager, CMC Portfolio Management | North Chicago, IL, us | Not specified | Not disclosed | 2026-11-03T15:28:57.554Z | [Apply](<https://jobs.smartrecruiters.com/AbbVie/3743990016585446-program-manager-cmc-portfolio-management>) | Not available |
-| 55% | ServiceNow / Senior Ethics &amp; Compliance Strategic Program Manager | Boston, Massachusetts, us (Remote) | Remote available | Not disclosed | 2026-11-03T19:08:30.997Z | [Apply](<https://jobs.smartrecruiters.com/ServiceNow/744000159476799-senior-ethics-compliance-strategic-program-manager->) | Not available |
+| 70% | Qualtrics / Senior IT Program Manager | Seattle, Washington, United States | Not specified | USD 145,500-176,500 (Washington State Base Annual Pay Transparency Range) | 2026-11-04T14:55:09-05:00 | [Apply](<https://www.qualtrics.com/careers/us/en/job/8328278?gh_jid=8328278>) | Not available |
+| 55% | OpenAI / Legal Discovery Program Manager | San Francisco, California, United States | Hybrid | $216K - $240K | 2026-11-04 | [Apply](<https://jobs.ashbyhq.com/openai/73a111f9-e83d-4cce-9148-2a32ccf1d251>) | Not available |
+| 55% | OpenAI / Technical Program Manager, People Innovation Labs | San Francisco, California, United States; Remote: United States | Hybrid | $257K - $335K | 2026-11-04 | [Apply](<https://jobs.ashbyhq.com/openai/87ef8476-e930-47ed-abc2-a1bedcc074fb>) | Not available |
+| 55% | Western Digital / Supply Chain Program Manager | San Jose, CA, us | Not specified | Not disclosed | 2026-11-04T19:52:24.267Z | [Apply](<https://jobs.smartrecruiters.com/WesternDigital/744000159716477-supply-chain-program-manager>) | Not available |
+| 55% | Qualtrics / Technical Program Manager - Public Sector | Washington, District of Columbia, United States | Not specified | USD 98,000-119,000 (Washington, DC Base Annual Pay Transparency Range) | 2026-11-04T18:26:24-05:00 | [Apply](<https://www.qualtrics.com/careers/us/en/job/8351671?gh_jid=8351671>) | Not available |
 
 ## Evidence and fit
 
 Topic match is a heuristic, not a hiring probability or verified assessment of experience. With topic focus enabled: 40 base points plus 15 per matched theme (Agile, OKRs, Operations, ISO 27001), capped at 100. At least one theme is required. Results are ordered by match; California breaks ties.
 
-### Riot Games: Playtest Operations Producer - Global Research Operations
+### Qualtrics: Senior IT Program Manager
 
-- Job ID: greenhouse:riotgames:8338311
+- Job ID: greenhouse:qualtrics:8328278
 - Application status: Not recorded as applied
 - Work arrangement: Not specified. The reviewed official source does not confirm the work arrangement for this role.
-- Publication date: 2026-11-03T16:35:00-05:00. Zoned timestamps are evaluated in California time.
-- Date evidence: [Greenhouse.first_published](<https://boards-api.greenhouse.io/v1/boards/riotgames/jobs/8338311?pay_transparency=true>)
+- Publication date: 2026-11-04T14:55:09-05:00. Zoned timestamps are evaluated in California time.
+- Date evidence: [Greenhouse.first_published](<https://boards-api.greenhouse.io/v1/boards/qualtrics/jobs/8328278?pay_transparency=true>)
 - Relevant themes: Agile, Operations.
 - Theme evidence: the official title or description mentions Agile.
 - Theme evidence: the official title or description mentions Operations.
 
-### Scale AI: Growth Program Manager
+### OpenAI: Legal Discovery Program Manager
 
-- Job ID: greenhouse:scaleai:4749989005
+- Job ID: ashby:openai:73a111f9-e83d-4cce-9148-2a32ccf1d251
+- Application status: Not recorded as applied
+- Work arrangement: Hybrid. This role is based in San Francisco or New York. We use a hybrid work model of 3 days in the office per week and offer relocation assistance to new employees
+- Publication date: 2026-11-04. Zoned timestamps are evaluated in California time.
+- Date evidence: [JobPosting.datePosted](<https://jobs.ashbyhq.com/openai/73a111f9-e83d-4cce-9148-2a32ccf1d251>)
+- Relevant themes: Operations.
+- Theme evidence: the official title or description mentions Operations.
+
+### OpenAI: Technical Program Manager, People Innovation Labs
+
+- Job ID: ashby:openai:87ef8476-e930-47ed-abc2-a1bedcc074fb
+- Application status: Not recorded as applied
+- Work arrangement: Hybrid. Official workplaceType field: Hybrid
+- Publication date: 2026-11-04. Zoned timestamps are evaluated in California time.
+- Date evidence: [JobPosting.datePosted](<https://jobs.ashbyhq.com/openai/87ef8476-e930-47ed-abc2-a1bedcc074fb>)
+- Relevant themes: Operations.
+- Theme evidence: the official title or description mentions Operations.
+
+### Western Digital: Supply Chain Program Manager
+
+- Job ID: smartrecruiters:WesternDigital:744000159716477
 - Application status: Not recorded as applied
 - Work arrangement: Not specified. The reviewed official source does not confirm the work arrangement for this role.
-- Publication date: 2026-11-03T14:42:58-05:00. Zoned timestamps are evaluated in California time.
-- Date evidence: [Greenhouse.first_published](<https://boards-api.greenhouse.io/v1/boards/scaleai/jobs/4749989005?pay_transparency=true>)
+- Publication date: 2026-11-04T19:52:24.267Z. Zoned timestamps are evaluated in California time.
+- Date evidence: [SmartRecruiters.releasedDate (release; may be a repost)](<https://api.smartrecruiters.com/v1/companies/WesternDigital/postings/744000159716477>)
 - Relevant themes: Operations.
 - Theme evidence: the official title or description mentions Operations.
 
-### Stripe: Technical Program Manager, Terminal
+### Qualtrics: Technical Program Manager - Public Sector
 
-- Job ID: greenhouse:stripe:8304858
+- Job ID: greenhouse:qualtrics:8351671
 - Application status: Not recorded as applied
 - Work arrangement: Not specified. The reviewed official source does not confirm the work arrangement for this role.
-- Publication date: 2026-11-03T16:02:53-05:00. Zoned timestamps are evaluated in California time.
-- Date evidence: [Greenhouse.first_published](<https://boards-api.greenhouse.io/v1/boards/stripe/jobs/8304858?pay_transparency=true>)
-- Relevant themes: Operations.
-- Theme evidence: the official title or description mentions Operations.
-
-### WelbeHealth: People Program Manager, Payroll
-
-- Job ID: greenhouse:welbehealth:8907180002
-- Application status: Not recorded as applied
-- Work arrangement: Remote available. The official location includes remote work; confirm geographic restrictions and other work arrangements with the employer.
-- Publication date: 2026-11-03T17:14:16-05:00. Zoned timestamps are evaluated in California time.
-- Date evidence: [Greenhouse.first_published](<https://boards-api.greenhouse.io/v1/boards/welbehealth/jobs/8907180002?pay_transparency=true>)
-- Relevant themes: Operations.
-- Theme evidence: the official title or description mentions Operations.
-
-### AECOM: Mining Study Program Manager
-
-- Job ID: smartrecruiters:AECOM2:744000159458700
-- Application status: Not recorded as applied
-- Work arrangement: Remote available. The official location includes remote work; confirm geographic restrictions and other work arrangements with the employer.
-- Publication date: 2026-11-03T17:33:32.128Z. Zoned timestamps are evaluated in California time.
-- Date evidence: [SmartRecruiters.releasedDate (release; may be a repost)](<https://api.smartrecruiters.com/v1/companies/AECOM2/postings/744000159458700>)
-- Relevant themes: Operations.
-- Theme evidence: the official title or description mentions Operations.
-
-### AbbVie: Program Manager, CMC Portfolio Management
-
-- Job ID: smartrecruiters:AbbVie:3743990016585446
-- Application status: Not recorded as applied
-- Work arrangement: Not specified. The reviewed official source does not confirm the work arrangement for this role.
-- Publication date: 2026-11-03T15:28:57.554Z. Zoned timestamps are evaluated in California time.
-- Date evidence: [SmartRecruiters.releasedDate (release; may be a repost)](<https://api.smartrecruiters.com/v1/companies/AbbVie/postings/3743990016585446>)
-- Relevant themes: Operations.
-- Theme evidence: the official title or description mentions Operations.
-
-### ServiceNow: Senior Ethics &amp; Compliance Strategic Program Manager
-
-- Job ID: smartrecruiters:ServiceNow:744000159476799
-- Application status: Not recorded as applied
-- Work arrangement: Remote available. The official location includes remote work; confirm geographic restrictions and other work arrangements with the employer.
-- Publication date: 2026-11-03T19:08:30.997Z. Zoned timestamps are evaluated in California time.
-- Date evidence: [SmartRecruiters.releasedDate (release; may be a repost)](<https://api.smartrecruiters.com/v1/companies/ServiceNow/postings/744000159476799>)
+- Publication date: 2026-11-04T18:26:24-05:00. Zoned timestamps are evaluated in California time.
+- Date evidence: [Greenhouse.first_published](<https://boards-api.greenhouse.io/v1/boards/qualtrics/jobs/8351671?pay_transparency=true>)
 - Relevant themes: Operations.
 - Theme evidence: the official title or description mentions Operations.
 
@@ -132,7 +110,7 @@ New verified employer boards retained for future searches: 0.
 | Latino and professional associations | Prospanica | 0 | 0 | 0 | 1 |
 | Latino and professional associations | HOPE - Hispanas Organized for Political Equality | 1 | 1 | 0 | 0 |
 | Latino and professional associations | Lean In Latinas | 1 | 0 | 0 | 1 |
-| Regional technology and startups | Built In San Francisco | 3 | 23 | 0 | 0 |
+| Regional technology and startups | Built In San Francisco | 3 | 22 | 0 | 0 |
 | Games and entertainment | Hitmarker | 3 | 2 | 0 | 0 |
 | Regional technology and startups | Welcome to the Jungle | 4 | 0 | 0 | 1 |
 | Life sciences | Biocom Career Hub | 1 | 0 | 0 | 1 |
@@ -159,7 +137,7 @@ New verified employer boards retained for future searches: 0.
 | Remote and international | Manfred Spain | 1 | 0 | 0 | 1 |
 | Remote and international | Wellfound Remote | 1 | 29 | 0 | 0 |
 | Remote and international | Jobgether | 0 | 0 | 0 | 1 |
-| Remote and international | Remotely | 1 | 10 | 0 | 0 |
+| Remote and international | Remotely | 1 | 9 | 0 | 0 |
 ## Coverage and source issues
 
 The daily 5 pm run cannot include listings published after it begins. Historical searches include postings still accessible when checked. First-seen dates are never substituted for publication dates. SmartRecruiters release dates may refer to reposts. Work arrangements are not inferred from a city or an onboarding event. Additional discovery boards are checked through accessible public HTML with robots.txt respected. Member-only and JavaScript-only results may be unavailable. Third-party publication dates never replace official date evidence.
