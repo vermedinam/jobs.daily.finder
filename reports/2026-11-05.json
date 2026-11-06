@@ -1,0 +1,595 @@
+{
+  "date": "2026-11-05",
+  "verified_at": "2026-11-05T23:46:17.735950-08:00",
+  "metrics": {
+    "reviewed": 61417,
+    "sources_ok": 275,
+    "unverified": 1,
+    "applied_excluded": 0,
+    "seen_excluded": 0,
+    "linkedin_candidates": 100,
+    "linkedin": "Public access available: 42 searches; publication dates verified only against official sources",
+    "errors": [
+      "devot: HTTPError",
+      "nuro / 8357144: ValueError",
+      "wiz: HTTPError",
+      "yelp: HTTPError",
+      "contentsquare: HTTPError",
+      "factorialhr: HTTPError",
+      "factorial: HTTPError",
+      "travelperk: HTTPError",
+      "jobandtalent: HTTPError",
+      "glovo: HTTPError",
+      "bookingcom: HTTPError",
+      "expediagroup: HTTPError",
+      "cimpress: HTTPError",
+      "vistaprint: HTTPError",
+      "softtek: HTTPError",
+      "agileengine: HTTPError",
+      "konfio: HTTPError",
+      "clipmx: HTTPError",
+      "kueski: HTTPError",
+      "klar: HTTPError",
+      "yalo: HTTPError",
+      "nowports: HTTPError",
+      "remitly: HTTPError",
+      "payjoy: HTTPError",
+      "tala: HTTPError",
+      "openpay: HTTPError",
+      "global66: HTTPError",
+      "habi: HTTPError",
+      "truora: HTTPError",
+      "platzi: HTTPError",
+      "clara: HTTPError",
+      "bitso: HTTPError",
+      "stori: HTTPError",
+      "mendel: HTTPError",
+      "factorial: HTTPError",
+      "lodgify: HTTPError",
+      "secretsource: HTTPError",
+      "sastrify: HTTPError",
+      "safetywing: HTTPError",
+      "jobgether: HTTPError",
+      "lemonio: HTTPError",
+      "nearsure: HTTPError",
+      "crunchyroll: HTTPError",
+      "amdocs: HTTPError",
+      "slalom: HTTPError",
+      "slalombuild: HTTPError",
+      "cprime: HTTPError",
+      "avature: HTTPError",
+      "guidewire: HTTPError",
+      "netsuite: HTTPError",
+      "eon: HTTPError",
+      "epamanywhere: HTTPError",
+      "akamai: HTTPError",
+      "thoughtmachine: HTTPError",
+      "checkoutcom: HTTPError",
+      "flywire: HTTPError",
+      "Prospanica: https://jobs.prospanica.org/home/index.cfm: HTTP Error 403: Forbidden",
+      "Lean In Latinas: No supported role links in public HTML; dynamic or member-only results may be unavailable",
+      "Welcome to the Jungle: No supported role links in public HTML; dynamic or member-only results may be unavailable",
+      "Biocom Career Hub: No supported role links in public HTML; dynamic or member-only results may be unavailable",
+      "WelbeHealth official careers: No supported role links in public HTML; dynamic or member-only results may be unavailable",
+      "thatgamecompany official careers: https://thatgamecompany.com/company/jobs/: Only public HTTPS URLs are allowed",
+      "HLPA: https://jobs.hlpa.com/employment/search.aspx: HTTP Error 406: Not Acceptable",
+      "SHPE: https://careercenter.shpe.org/: HTTP Error 403: Forbidden",
+      "Techqueria: No supported role links in public HTML; dynamic or member-only results may be unavailable",
+      "Latinx in Tech Career Center: No supported role links in public HTML; dynamic or member-only results may be unavailable",
+      "PowerToFly: No supported role links in public HTML; dynamic or member-only results may be unavailable",
+      "Women Who Design: No supported role links in public HTML; dynamic or member-only results may be unavailable",
+      "Wellfound California: No supported role links in public HTML; dynamic or member-only results may be unavailable",
+      "Y Combinator California: No supported role links in public HTML; dynamic or member-only results may be unavailable",
+      "Games Jobs Direct: https://www.gamesjobsdirect.com/search: HTTP Error 406: Not Acceptable",
+      "Bloks: https://bloks.gg/: Host is not explicitly allowlisted",
+      "ASGC Games Jobs: No supported role links in public HTML; dynamic or member-only results may be unavailable",
+      "BioSpace California: https://jobs.biospace.com/california: HTTP Error 429: Too Many Requests",
+      "BioTalent: No supported role links in public HTML; dynamic or member-only results may be unavailable",
+      "Manfred Spain: No supported role links in public HTML; dynamic or member-only results may be unavailable",
+      "Jobgether: https://jobgether.com/remote-jobs/program-manager: HTTP Error 403: Forbidden"
+    ],
+    "discovery": [
+      {
+        "source": "Prospanica",
+        "category": "Latino and professional associations",
+        "pages": 0,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "https://jobs.prospanica.org/home/index.cfm: HTTP Error 403: Forbidden"
+        ]
+      },
+      {
+        "source": "HOPE - Hispanas Organized for Political Equality",
+        "category": "Latino and professional associations",
+        "pages": 1,
+        "candidates": 1,
+        "verified": 0,
+        "issues": []
+      },
+      {
+        "source": "Lean In Latinas",
+        "category": "Latino and professional associations",
+        "pages": 1,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "No supported role links in public HTML; dynamic or member-only results may be unavailable"
+        ]
+      },
+      {
+        "source": "Built In San Francisco",
+        "category": "Regional technology and startups",
+        "pages": 3,
+        "candidates": 23,
+        "verified": 0,
+        "issues": []
+      },
+      {
+        "source": "Hitmarker",
+        "category": "Games and entertainment",
+        "pages": 3,
+        "candidates": 3,
+        "verified": 0,
+        "issues": []
+      },
+      {
+        "source": "Welcome to the Jungle",
+        "category": "Regional technology and startups",
+        "pages": 4,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "No supported role links in public HTML; dynamic or member-only results may be unavailable"
+        ]
+      },
+      {
+        "source": "Biocom Career Hub",
+        "category": "Life sciences",
+        "pages": 1,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "No supported role links in public HTML; dynamic or member-only results may be unavailable"
+        ]
+      },
+      {
+        "source": "WelbeHealth official careers",
+        "category": "Company careers",
+        "pages": 1,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "No supported role links in public HTML; dynamic or member-only results may be unavailable"
+        ]
+      },
+      {
+        "source": "Branch official careers",
+        "category": "Company careers",
+        "pages": 1,
+        "candidates": 12,
+        "verified": 0,
+        "issues": []
+      },
+      {
+        "source": "thatgamecompany official careers",
+        "category": "Company careers",
+        "pages": 0,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "https://thatgamecompany.com/company/jobs/: Only public HTTPS URLs are allowed"
+        ]
+      },
+      {
+        "source": "Turtle Rock Studios official careers",
+        "category": "Company careers",
+        "pages": 1,
+        "candidates": 1,
+        "verified": 0,
+        "issues": []
+      },
+      {
+        "source": "HLPA",
+        "category": "Latino and professional associations",
+        "pages": 0,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "https://jobs.hlpa.com/employment/search.aspx: HTTP Error 406: Not Acceptable"
+        ]
+      },
+      {
+        "source": "SHPE",
+        "category": "Latino and professional associations",
+        "pages": 0,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "https://careercenter.shpe.org/: HTTP Error 403: Forbidden"
+        ]
+      },
+      {
+        "source": "Techqueria",
+        "category": "Latino and professional associations",
+        "pages": 1,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "No supported role links in public HTML; dynamic or member-only results may be unavailable"
+        ]
+      },
+      {
+        "source": "Latinx in Tech Career Center",
+        "category": "Latino and professional associations",
+        "pages": 1,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "No supported role links in public HTML; dynamic or member-only results may be unavailable"
+        ]
+      },
+      {
+        "source": "PowerToFly",
+        "category": "Women and inclusive career networks",
+        "pages": 1,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "No supported role links in public HTML; dynamic or member-only results may be unavailable"
+        ]
+      },
+      {
+        "source": "Women Who Design",
+        "category": "Women and inclusive career networks",
+        "pages": 1,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "No supported role links in public HTML; dynamic or member-only results may be unavailable"
+        ]
+      },
+      {
+        "source": "Women in Games International",
+        "category": "Women and inclusive career networks",
+        "pages": 1,
+        "candidates": 1,
+        "verified": 0,
+        "issues": []
+      },
+      {
+        "source": "Started by Women",
+        "category": "Women and inclusive career networks",
+        "pages": 1,
+        "candidates": 2,
+        "verified": 0,
+        "issues": []
+      },
+      {
+        "source": "Wellfound California",
+        "category": "Regional technology and startups",
+        "pages": 1,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "No supported role links in public HTML; dynamic or member-only results may be unavailable"
+        ]
+      },
+      {
+        "source": "Y Combinator California",
+        "category": "Regional technology and startups",
+        "pages": 1,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "No supported role links in public HTML; dynamic or member-only results may be unavailable"
+        ]
+      },
+      {
+        "source": "Games Jobs Direct",
+        "category": "Games and entertainment",
+        "pages": 0,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "https://www.gamesjobsdirect.com/search: HTTP Error 406: Not Acceptable"
+        ]
+      },
+      {
+        "source": "Bloks",
+        "category": "Games and entertainment",
+        "pages": 0,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "https://bloks.gg/: Host is not explicitly allowlisted"
+        ]
+      },
+      {
+        "source": "Gaming Industry Job Tracker",
+        "category": "Games and entertainment",
+        "pages": 1,
+        "candidates": 1,
+        "verified": 0,
+        "issues": []
+      },
+      {
+        "source": "ASGC Games Jobs",
+        "category": "Games and entertainment",
+        "pages": 1,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "No supported role links in public HTML; dynamic or member-only results may be unavailable"
+        ]
+      },
+      {
+        "source": "BioSpace California",
+        "category": "Life sciences",
+        "pages": 0,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "https://jobs.biospace.com/california: HTTP Error 429: Too Many Requests"
+        ]
+      },
+      {
+        "source": "BioTalent",
+        "category": "Life sciences",
+        "pages": 1,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "No supported role links in public HTML; dynamic or member-only results may be unavailable"
+        ]
+      },
+      {
+        "source": "Manfred Spain",
+        "category": "Remote and international",
+        "pages": 1,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "No supported role links in public HTML; dynamic or member-only results may be unavailable"
+        ]
+      },
+      {
+        "source": "Wellfound Remote",
+        "category": "Remote and international",
+        "pages": 1,
+        "candidates": 29,
+        "verified": 0,
+        "issues": []
+      },
+      {
+        "source": "Jobgether",
+        "category": "Remote and international",
+        "pages": 0,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "https://jobgether.com/remote-jobs/program-manager: HTTP Error 403: Forbidden"
+        ]
+      },
+      {
+        "source": "Remotely",
+        "category": "Remote and international",
+        "pages": 1,
+        "candidates": 9,
+        "verified": 0,
+        "issues": []
+      }
+    ],
+    "new_employer_boards": 0,
+    "mexico_verified_candidates": 0,
+    "spain_verified_candidates": 0
+  },
+  "jobs": [
+    {
+      "id": "smartrecruiters:Experian:744000159989859",
+      "company": "Experian",
+      "title": "Senior Program Manager, Client Operations",
+      "location": "Austin, TX, us",
+      "salary": "Not disclosed",
+      "official_url": "https://jobs.smartrecruiters.com/Experian/744000159989859-senior-program-manager-client-operations",
+      "posted": "2026-11-05T23:12:25.313Z",
+      "date_evidence": "SmartRecruiters.releasedDate (release; may be a repost)",
+      "evidence_url": "https://api.smartrecruiters.com/v1/companies/Experian/postings/744000159989859",
+      "description": "Experian is a global data and technology company, powering opportunities for people and businesses around the world. We operate across a range of markets, from financial services to healthcare, automotive, agribusiness, insurance, and many more. Experian invests in people and new advanced technologies to unlock the power of data. We have an amazing team of 25,200 people in 32 countries. As the Senior Program Manager, Client Operations, for FSD, you will guide multiple complex client implementations and important strategic programs. You will partner with banks, credit unions, fintechs, and telecommunications companies—to provide impactful solutions and ensure successful outcomes. At Experian, we believe great work happens when people come together. We're focused on attracting talent in and around our designated hub locations who are open to collaborating with colleagues in person. Aligning employees to these talent markets helps foster collaboration, strengthen team connections, and support long-term career growth within Experian. You will report to FSD, and reside in or near one of our collaboration hubs: You'll have opportunity to: Lead multiple complex client implementations across our product suite from launch to completion alongside project teams spanning teams Create and maintain project documentation including project plans, deliverables, ownership, communication plans, and risks Provide direction to project teams by tracking deliverables, identifying risks, and managing escalations to ensure successful outcomes Communicate program status, important milestones, and risks to all partners Partner to deliver an outstanding client experience, while identifying opportunities for innovation and process improvement Collaborate with Sales, Customer Success, Delivery and Technical Project Managers, Product and other teams to enhance operational efficiency, transparency, and agreement BA or BS degree required PMP or PgMP Certification preferred 10+ years' experience client-facing program management, or project management 5+ years' experience Agile methodologies, integrations, API's, transactional systems, and architecture is strongly preferred Proficiency with AI tools such as Copilot, Claude and Enterprise ChatGPT Experience with financial services and credit industry is beneficialExperience with software implementations is beneficial Reside in, or near the designated Collaboration Hub(s) for this role. Our uniqueness is that we celebrate yours. Experian's people first, inclusive and purpose driven culture is multi award-winning; World's Best Workplaces™ 2025 (Fortune Global Top 25), Great Place To Work™ in 26 countries to name a few. Check out Experian Life on social or explore our Careers Site to understand why. Our compensation reflects the cost of labor across several U.S. geographic markets. The base pay range for this position is listed above. Within this range, individual pay is determined by work location and additional factors such as job-related skills, experience, and education. You will be also eligible for a variable pay opportunity. Experian is proud to be an Equal Opportunity Employer for all groups protected under applicable federal, state and local law, including protected veterans and individuals with disabilities. If you have a disability or special need that requires accommodation, please let us know at the earliest opportunity. Benefits/Perks: Great compensation package and bonus plan Core benefits including medical, dental, vision, and matching 401K Flexible work environment, ability to work remote, hybrid or in-office Flexible time off including volunteer time off, vacation, sick and 12-paid holidays Explore all our exciting benefits here: https://myexperianbenefits.com/ Recruitment Fraud Awareness - Experian's recruitment process is conducted only through authorised channels. Recruitment communications will only be sent from an @ experian.com email address. Experian will never ask candidates to make any payment as part of an application, interview, assessment, onboarding, or recruitment process. To apply for roles or verify opportunities, please visit experian.com/careers . #LI-Hybrid",
+      "linkedin_url": "",
+      "focus_matches": [
+        "Agile",
+        "Operations"
+      ],
+      "focus_evidence": {
+        "Agile": "gram management, or project management 5+ years' experience Agile methodologies, integrations, API's, transactional systems, and architecture is strongly preferred P",
+        "Operations": "Senior Program Manager, Client Operations. Experian is a global data and technology company, powering opportunities for people and businesses"
+      },
+      "work_mode": "Hybrid",
+      "work_mode_evidence": "To apply for roles or verify opportunities, please visit experian.com/careers . #LI-Hybrid",
+      "match": 70,
+      "matched_skills": [
+        "Agile",
+        "Operations"
+      ]
+    },
+    {
+      "id": "smartrecruiters:Experian:744000159988739",
+      "company": "Experian",
+      "title": "Senior Program Manager, Client Operations",
+      "location": "Schaumburg, IL, us",
+      "salary": "Not disclosed",
+      "official_url": "https://jobs.smartrecruiters.com/Experian/744000159988739-senior-program-manager-client-operations",
+      "posted": "2026-11-05T23:03:43.307Z",
+      "date_evidence": "SmartRecruiters.releasedDate (release; may be a repost)",
+      "evidence_url": "https://api.smartrecruiters.com/v1/companies/Experian/postings/744000159988739",
+      "description": "Experian is a global data and technology company, powering opportunities for people and businesses around the world. We operate across a range of markets, from financial services to healthcare, automotive, agribusiness, insurance, and many more. Experian invests in people and new advanced technologies to unlock the power of data. We have an amazing team of 25,200 people in 32 countries. As the Senior Program Manager, Client Operations, for FSD, you will guide multiple complex client implementations and important strategic programs. You will partner with banks, credit unions, fintechs, and telecommunications companies—to provide impactful solutions and ensure successful outcomes. At Experian, we believe great work happens when people come together. We're focused on attracting talent in and around our designated hub locations who are open to collaborating with colleagues in person. Aligning employees to these talent markets helps foster collaboration, strengthen team connections, and support long-term career growth within Experian. You will report to FSD, and reside in or near one of our collaboration hubs: You'll have opportunity to: Lead multiple complex client implementations across our product suite from launch to completion alongside project teams spanning teams Create and maintain project documentation including project plans, deliverables, ownership, communication plans, and risks Provide direction to project teams by tracking deliverables, identifying risks, and managing escalations to ensure successful outcomes Communicate program status, important milestones, and risks to all partners Partner to deliver an outstanding client experience, while identifying opportunities for innovation and process improvement Collaborate with Sales, Customer Success, Delivery and Technical Project Managers, Product and other teams to enhance operational efficiency, transparency, and agreement BA or BS degree required PMP or PgMP Certification preferred 10+ years' experience client-facing program management, or project management 5+ years' experience Agile methodologies, integrations, API's, transactional systems, and architecture is strongly preferred Proficiency with AI tools such as Copilot, Claude and Enterprise ChatGPT Experience with financial services and credit industry is beneficialExperience with software implementations is beneficial Reside in, or near the designated Collaboration Hub(s) for this role. Our uniqueness is that we celebrate yours. Experian's people first, inclusive and purpose driven culture is multi award-winning; World's Best Workplaces™ 2025 (Fortune Global Top 25), Great Place To Work™ in 26 countries to name a few. Check out Experian Life on social or explore our Careers Site to understand why. Our compensation reflects the cost of labor across several U.S. geographic markets. The base pay range for this position is listed above. Within this range, individual pay is determined by work location and additional factors such as job-related skills, experience, and education. You will be also eligible for a variable pay opportunity. Experian is proud to be an Equal Opportunity Employer for all groups protected under applicable federal, state and local law, including protected veterans and individuals with disabilities. If you have a disability or special need that requires accommodation, please let us know at the earliest opportunity. Benefits/Perks: Great compensation package and bonus plan Core benefits including medical, dental, vision, and matching 401K Flexible work environment, ability to work remote, hybrid or in-office Flexible time off including volunteer time off, vacation, sick and 12-paid holidays Explore all our exciting benefits here: https://myexperianbenefits.com/ Recruitment Fraud Awareness - Experian's recruitment process is conducted only through authorised channels. Recruitment communications will only be sent from an @ experian.com email address. Experian will never ask candidates to make any payment as part of an application, interview, assessment, onboarding, or recruitment process. To apply for roles or verify opportunities, please visit experian.com/careers . #LI-Hybrid",
+      "linkedin_url": "",
+      "focus_matches": [
+        "Agile",
+        "Operations"
+      ],
+      "focus_evidence": {
+        "Agile": "gram management, or project management 5+ years' experience Agile methodologies, integrations, API's, transactional systems, and architecture is strongly preferred P",
+        "Operations": "Senior Program Manager, Client Operations. Experian is a global data and technology company, powering opportunities for people and businesses"
+      },
+      "work_mode": "Hybrid",
+      "work_mode_evidence": "To apply for roles or verify opportunities, please visit experian.com/careers . #LI-Hybrid",
+      "match": 70,
+      "matched_skills": [
+        "Agile",
+        "Operations"
+      ]
+    },
+    {
+      "id": "smartrecruiters:AECOM2:744000159895749",
+      "company": "AECOM",
+      "title": "Benefits Program Manager - Retirement & ESPP (Hybrid)",
+      "location": "Los Angeles, CA, us",
+      "salary": "Not disclosed",
+      "official_url": "https://jobs.smartrecruiters.com/AECOM2/744000159895749-benefits-program-manager-retirement-espp-hybrid-",
+      "posted": "2026-11-05T15:16:02.292Z",
+      "date_evidence": "SmartRecruiters.releasedDate (release; may be a repost)",
+      "evidence_url": "https://api.smartrecruiters.com/v1/companies/AECOM2/postings/744000159895749",
+      "description": "Work with Us. Change the World. At AECOM, we're delivering a better world. Whether improving your commute, keeping the lights on, providing access to clean water, or transforming skylines, our work helps people and communities thrive. We are the world's trusted infrastructure consulting firm, partnering with clients to solve the world’s most complex challenges and build legacies for future generations. There has never been a better time to be at AECOM. With accelerating infrastructure investment worldwide, our services are in great demand. We invite you to bring your bold ideas and big dreams and become part of a global team of over 50,000 planners, designers, engineers, scientists, digital innovators, program and construction managers and other professionals delivering projects that create a positive and tangible impact around the world. We're one global team driven by our common purpose to deliver a better world. Join us. AECOM has an opening for a Benefits Program Manager - Retirement Plans to join our Global Benefits & Well-being team in our Dallas office or a hybrid work location. The role provides professional level support to the ongoing administration of AECOM’s retirement benefits program. The qualified candidate should have diverse exposure to various forms of retirement/financial plans such as stock programs (employee stock purchase plans ESPP). defined contribution, defined benefit plans, and non-qualified deferred compensation arrangements. This position will offer some flexibility for hybrid work schedules to include both in-office presence and telecommute/virtual work, and can be based from anywhere in the US where AECOM has an office location. Responsibilities include: Serve as the primary ESPP subject matter expert, owning plan administration, design recommendations, and participant experience. Oversee ESPP operations across enrollment, purchase periods, payroll deductions, refunds, qualified dispositions, and data file maintenance. Maintain ESPP benefits records, manage vendors and ensure accurate data exchange and reconciliations. Support ESPP communications, including educational materials explaining plan design and employee value. Ensure compliance with IRC Section 423, global tax regulations, and securities laws. Collaborate with Total Rewards, Compensation, and Equity teams to ensure alignment across benefit programs. Partner with Legal, Finance, Tax, Payroll, and Equity Administration teams to align operations with financial reporting and payroll processes. Support plan governance activities, including committee meetings, fiduciary documentation, audits, and RFPs. Research ESPP expansion globally Identify opportunities, including the use of AI to improve operational efficiency, automate processes, and enhance the employee experience. Act as a trusted advisor to HR leadership to research, analyze and resolve issues timely. Monitor industry trends, regulatory developments, and best practices in retirement and stock programs. Serve as back-up for Qualified and Non-Qualified plan administration. Minimum Requirements: Bachelor’s Degree, in Finance, Business Administration, or related field, plus at least 6 years of relevant experience, or demonstrated equivalency of experience and/or education. Significant hands-on ESPP experience. Demonstrated knowledge of Section 423 ESPP, SEC regulations, ERISA, DOL,, and IRS requirements. Prior experience managing global ESPP programs for publicly traded company stock programs. Strong project management and problem-solving skills Preferred Qualifications: Experience with both defined contribution savings and defined benefit pension plans is preferred HRIS/Payroll/Benefit systems, such as Workday, ADP and ORACLE experience is preferred Sponsorship for US work authorization is not available for this position, now or in the future Relocation assistance is not available for this position. At AECOM, we are committed to maintaining a secure and trustworthy recruitment process and take any fraudulent hiring activity seriously. To support this commitment, all newly hired employees are required to attend an in-person Day 1 onboarding at an AECOM office location as a condition of employment. About AECOM AECOM is proud to offer comprehensive benefits to meet the diverse needs of our employees. Depending on your employment status, AECOM benefits may include medical, dental, vision, life, AD&D, disability benefits, paid time off, leaves of absences, voluntary benefits, perks, flexible work options , well-being resources, employee assistance program, business travel insurance, service recognition awards, retirement savings plan, and employee stock purchase plan. AECOM is the global infrastructure leader, committed to delivering a better world. As a trusted professional services firm powered by deep technical abilities, we solve our clients’ complex challenges in water, environment, energy, transportation and buildings. Our teams partner with public- and private-sector clients to create innovative, sustainable and resilient solutions throughout the project lifecycle – from advisory, planning, design and engineering to program and construction management. AECOM is a Fortune 500 firm that had revenue of $16.1 billion in fiscal year 2025. Learn more at aecom.com. What makes AECOM a great place to work You will be part of a global team that champions your growth and career ambitions. Work on groundbreaking projects - both in your local community and on a global scale - that are transforming our industry and shaping the future. With cutting-edge technology and a network of experts, you’ll have the resources to make a real impact. Our award-winning training and development programs are designed to expand your technical expertise and leadership skills, helping you build the career you’ve always envisioned. Here, you’ll find a welcoming workplace built on respect, collaboration and community—where you have the freedom to grow in a world of opportunity. As an Equal Opportunity Employer, we believe in your potential and are here to help you achieve it. All your information will be kept confidential according to EEO guidelines.",
+      "linkedin_url": "",
+      "focus_matches": [
+        "Operations"
+      ],
+      "focus_evidence": {
+        "Operations": "n recommendations, and participant experience. Oversee ESPP operations across enrollment, purchase periods, payroll deductions, refunds, qualified dispositions, and data "
+      },
+      "work_mode": "Hybrid",
+      "work_mode_evidence": "This position will offer some flexibility for hybrid work schedules to include both in-office presence and telecommute/virtual work, and can be based from anywhere in the US where AECOM has an office location",
+      "match": 55,
+      "matched_skills": [
+        "Operations"
+      ]
+    },
+    {
+      "id": "greenhouse:okta:8347758",
+      "company": "Okta",
+      "title": "Partner Services Senior Program Manager",
+      "location": "San Francisco, California",
+      "salary": "USD 184,000-230,000 (The OTE range for this position for candidates located in the San Francisco Bay area is between:)",
+      "official_url": "https://www.okta.com/company/careers/business-development/partner-services-senior-program-manager-8347758/",
+      "posted": "2026-11-05T11:25:12-05:00",
+      "date_evidence": "Greenhouse.first_published",
+      "evidence_url": "https://boards-api.greenhouse.io/v1/boards/okta/jobs/8347758?pay_transparency=true",
+      "description": "<div class=\"content-intro\"><p><strong>Secure Every Identity, from AI to Human<br><br></strong>Identity is the key to unlocking the potential of AI. Okta secures AI by building the trusted, neutral infrastructure that enables organizations to safely embrace this new era. This work requires a relentless drive to solve complex challenges with real-world stakes. We are looking for builders and owners who operate with speed and urgency and execute with excellence.<br><br>This is an opportunity to do career-defining work. We're all in on this mission. If you are too, let's talk.</p></div><p><strong>Partner Services Senior Program Manager</strong></p> <p>Okta is seeking a senior leader to define, build, and operate the global strategy and program framework for our Services Partner ecosystem.</p> <p>Services Partners including global and regional systems integrators, consultancies, implementation partners, and managed service providers—play a critical role in helping customers realize value from Okta. They extend our ability to advise customers, design identity architectures, deploy and integrate Okta, drive adoption, and deliver ongoing managed services.</p> <p>This role will own the strategy, architecture, and operating model for the Services Partner program. This leader will build the programs, standards, partner journeys, enablement frameworks, governance, measurement systems, and cross-functional mechanisms that help the right partners build differentiated Okta practices and deliver consistently strong customer outcomes.</p> <p>This is a senior builder role. You will set the strategic direction for how Okta develops and scales its Services Partner ecosystem, while also doing the hands-on work required to make that strategy operational: defining partner tiers and requirements, launching specializations, building program processes, creating partner-facing materials, setting success metrics, and continuously improving the experience.</p> <p>The ideal candidate is equally credible in an executive strategy discussion and a working session on program design. They have strong judgment about services partner ecosystems and SaaS business models, a demonstrated history of building global services programs.</p> <p><strong>What you will do:</strong></p> <ul> <li>Define the Services Partner program strategy and roadmap. Set the strategic direction for Okta’s global Services Partner ecosystem, including the role of systems integrators, consultancies, implementation partners, and managed service providers. Translate company priorities, customer needs, market trends, and ecosystem gaps into a clear program vision, operating model, and phased roadmap.</li> <li>Design and launch a new, differentiated Services Partner track within the overall Okta Partner program. Build the program architecture including partner segmentation, lifecycle journeys, tiers, requirements, benefits, specializations, progression criteria, governance, and partner-facing value proposition. Create a program that rewards demonstrated capability and customer outcomes.</li> <li>Create the mechanisms that build partner capability and quality. Define what partner readiness, practice maturity, delivery excellence, and managed-services capability mean at Okta. In partnership with Professional Services, Customer Success, and Enablement, establish scalable pathways for onboarding, accreditation, certification, specialization, quality standards, and continuous improvement.</li> <li>Drive cross-functional execution on an accelerated timeline. Lead the work from strategy through launch, coordinating senior stakeholders across Partnerships, Professional Services, Customer Success, Enablement, Marketing, Sales, Product, Operations, Finance, and Legal. Set clear milestones, ownership, decision points, risks, and launch criteria; resolve ambiguity and maintain momentum through a high-visibility transformation.</li> </ul> <p><strong>Requirements:</strong></p> <ul> <li>10+ years of experience in partner programs, channel or ecosystem strategy, alliances, professional services programs, business operations, and go-to-market strategy within enterprise SaaS, cloud, cybersecurity, identity, or a similarly complex technology environment.</li> <li>Proven experience building or significantly redesigning a services partner program from strategy through launch and ongoing operations—including program structure, partner segmentation, value proposition, tiers, requirements, benefits, lifecycle journeys, and governance.</li> <li>Deep experience working with Services Partners—such as systems integrators, consulting firms, implementation partners, advisory firms, or managed service providers—and a practical understanding of how they build profitable practices and delivery capabilities.</li> <li>Demonstrated ability to lead complex, cross-functional program launches on tight timelines, aligning stakeholders across Partnerships, Professional Services, Customer Success, Enablement, Marketing, Sales, Product, Operations, Finance, and Legal without direct authority.</li> </ul> <p><strong>Education</strong></p> <ul> <li>Bachelor’s degree or equivalent practical experience in Business, Marketing, Communications, Strategy, Operations, Technology, or a related field.</li> <li>MBA or advanced degree is preferred, particularly for candidates with experience in strategy, business operations, or global partner ecosystems, but is not required.</li> </ul> <p><strong>Location</strong></p> <ul> <li>SF Bay Area - must be able to be in office 2x/week</li> </ul> <p>#LI-Hybrid</p> <p>P26300</p><div class=\"content-pay-transparency\"><div class=\"pay-input\"><div class=\"description\"><p>Below is the annual On Target Compensation (OTE) range for candidates located in San Francisco Bay Area. Your actual OTE, which is inclusive of base salary and incentive compensation, will depend on factors such as your skills, qualifications, experience, and work location. In addition, Okta offers equity (where applicable) and benefits, including health, dental and vision insurance, 401(k), flexible spending account, and paid leave (including PTO and parental leave) in accordance with our applicable plans and policies. To learn more about our Total Rewards program please visit:<a href=\"https://rewards.okta.com/us\"> https://rewards.okta.com/us</a>.&nbsp;</p></div><div class=\"title\">The OTE range for this position for candidates located in the San Francisco Bay area is between:</div><div class=\"pay-range\"><span>$184,000</span><span class=\"divider\">&mdash;</span><span>$230,000 USD</span></div></div></div><div class=\"content-conclusion\"><p><strong>The Okta Experience</strong></p> <ul> <li><a href=\"http://rewards.okta.com\">Supporting Your Well-Being</a>&nbsp;</li> <li><a href=\"https://www.okta.com/company/okta-for-good/\">Driving Social Impact&nbsp;</a></li> <li><a href=\"https://www.okta.com/company/talent-connection-community/\">Developing Talent and Fostering Connection + Community</a></li> </ul> <p>We are intentional about connection. Our global community, spanning over 20 offices worldwide, is united by a drive to innovate. Your journey begins with an immersive, in-person onboarding experience designed to accelerate your impact and connect you to our mission and team from day one.<br><br>Okta is an Equal Opportunity Employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, ancestry, marital status, age, physical or mental disability, or status as a protected veteran. We also consider for employment qualified applicants with arrest and convictions records, consistent with applicable laws.<br><br>If reasonable accommodation is needed to complete any part of the job application, interview process, or onboarding please&nbsp;<a href=\"https://docs.google.com/forms/d/1EfiEYZrIyhA2X4Fijk0R3RKYOzNoS3wtvyM4nhbZnXE/edit\">use this Form</a> to request an accommodation.<br><br>Notice for New York City Applicants &amp; Employees: Okta may use Automated Employment Decision Tools (AEDT), as defined by New York City Local Law 144, that use artificial intelligence, machine learning, or other automated processes to assist in our recruitment and hiring process. In accordance with NYC Local Law 144, if you are an applicant or employee residing in New York City, please&nbsp;<a href=\"https://talent.okta.com/new-york-city-aedt-notice.html\">click here</a> to view our full NYC AEDT Notice.</p></div>",
+      "linkedin_url": "",
+      "focus_matches": [
+        "Operations"
+      ],
+      "focus_evidence": {
+        "Operations": "ervices. This role will own the strategy, architecture, and operating model for the Services Partner program. This leader will build the programs, standards, partner journeys,"
+      },
+      "work_mode": "Not specified",
+      "work_mode_evidence": "The reviewed official source does not confirm the work arrangement for this role.",
+      "match": 55,
+      "matched_skills": [
+        "Operations"
+      ]
+    },
+    {
+      "id": "smartrecruiters:AECOM2:744000159968279",
+      "company": "AECOM",
+      "title": "Benefits Program Manager - Retirement & ESPP (Hybrid)",
+      "location": "Chicago, IL, us",
+      "salary": "Not disclosed",
+      "official_url": "https://jobs.smartrecruiters.com/AECOM2/744000159968279-benefits-program-manager-retirement-espp-hybrid-",
+      "posted": "2026-11-05T20:56:24.855Z",
+      "date_evidence": "SmartRecruiters.releasedDate (release; may be a repost)",
+      "evidence_url": "https://api.smartrecruiters.com/v1/companies/AECOM2/postings/744000159968279",
+      "description": "Work with Us. Change the World. At AECOM, we're delivering a better world. Whether improving your commute, keeping the lights on, providing access to clean water, or transforming skylines, our work helps people and communities thrive. We are the world's trusted infrastructure consulting firm, partnering with clients to solve the world’s most complex challenges and build legacies for future generations. There has never been a better time to be at AECOM. With accelerating infrastructure investment worldwide, our services are in great demand. We invite you to bring your bold ideas and big dreams and become part of a global team of over 50,000 planners, designers, engineers, scientists, digital innovators, program and construction managers and other professionals delivering projects that create a positive and tangible impact around the world. We're one global team driven by our common purpose to deliver a better world. Join us. AECOM has an opening for a Benefits Program Manager - Retirement Plans to join our Global Benefits & Well-being team in our Dallas office or a hybrid work location. The role provides professional level support to the ongoing administration of AECOM’s retirement benefits program. The qualified candidate should have diverse exposure to various forms of retirement/financial plans such as stock programs (employee stock purchase plans ESPP). defined contribution, defined benefit plans, and non-qualified deferred compensation arrangements. This position will offer some flexibility for hybrid work schedules to include both in-office presence and telecommute/virtual work, and can be based from anywhere in the US where AECOM has an office location. Responsibilities include: Serve as the primary ESPP subject matter expert, owning plan administration, design recommendations, and participant experience. Oversee ESPP operations across enrollment, purchase periods, payroll deductions, refunds, qualified dispositions, and data file maintenance. Maintain ESPP benefits records, manage vendors and ensure accurate data exchange and reconciliations. Support ESPP communications, including educational materials explaining plan design and employee value. Ensure compliance with IRC Section 423, global tax regulations, and securities laws. Collaborate with Total Rewards, Compensation, and Equity teams to ensure alignment across benefit programs. Partner with Legal, Finance, Tax, Payroll, and Equity Administration teams to align operations with financial reporting and payroll processes. Support plan governance activities, including committee meetings, fiduciary documentation, audits, and RFPs. Research ESPP expansion globally Identify opportunities, including the use of AI to improve operational efficiency, automate processes, and enhance the employee experience. Act as a trusted advisor to HR leadership to research, analyze and resolve issues timely. Monitor industry trends, regulatory developments, and best practices in retirement and stock programs. Serve as back-up for Qualified and Non-Qualified plan administration. Minimum Requirements: Bachelor’s Degree, in Finance, Business Administration, or related field, plus at least 6 years of relevant experience, or demonstrated equivalency of experience and/or education. Significant hands-on ESPP experience. Demonstrated knowledge of Section 423 ESPP, SEC regulations, ERISA, DOL,, and IRS requirements. Prior experience managing global ESPP programs for publicly traded company stock programs. Strong project management and problem-solving skills Preferred Qualifications: Experience with both defined contribution savings and defined benefit pension plans is preferred HRIS/Payroll/Benefit systems, such as Workday, ADP and ORACLE experience is preferred Sponsorship for US work authorization is not available for this position, now or in the future Relocation assistance is not available for this position. At AECOM, we are committed to maintaining a secure and trustworthy recruitment process and take any fraudulent hiring activity seriously. To support this commitment, all newly hired employees are required to attend an in-person Day 1 onboarding at an AECOM office location as a condition of employment. About AECOM AECOM is proud to offer comprehensive benefits to meet the diverse needs of our employees. Depending on your employment status, AECOM benefits may include medical, dental, vision, life, AD&D, disability benefits, paid time off, leaves of absences, voluntary benefits, perks, flexible work options , well-being resources, employee assistance program, business travel insurance, service recognition awards, retirement savings plan, and employee stock purchase plan. AECOM is the global infrastructure leader, committed to delivering a better world. As a trusted professional services firm powered by deep technical abilities, we solve our clients’ complex challenges in water, environment, energy, transportation and buildings. Our teams partner with public- and private-sector clients to create innovative, sustainable and resilient solutions throughout the project lifecycle – from advisory, planning, design and engineering to program and construction management. AECOM is a Fortune 500 firm that had revenue of $16.1 billion in fiscal year 2025. Learn more at aecom.com. What makes AECOM a great place to work You will be part of a global team that champions your growth and career ambitions. Work on groundbreaking projects - both in your local community and on a global scale - that are transforming our industry and shaping the future. With cutting-edge technology and a network of experts, you’ll have the resources to make a real impact. Our award-winning training and development programs are designed to expand your technical expertise and leadership skills, helping you build the career you’ve always envisioned. Here, you’ll find a welcoming workplace built on respect, collaboration and community—where you have the freedom to grow in a world of opportunity. As an Equal Opportunity Employer, we believe in your potential and are here to help you achieve it. All your information will be kept confidential according to EEO guidelines.",
+      "linkedin_url": "",
+      "focus_matches": [
+        "Operations"
+      ],
+      "focus_evidence": {
+        "Operations": "n recommendations, and participant experience. Oversee ESPP operations across enrollment, purchase periods, payroll deductions, refunds, qualified dispositions, and data "
+      },
+      "work_mode": "Hybrid",
+      "work_mode_evidence": "This position will offer some flexibility for hybrid work schedules to include both in-office presence and telecommute/virtual work, and can be based from anywhere in the US where AECOM has an office location",
+      "match": 55,
+      "matched_skills": [
+        "Operations"
+      ]
+    },
+    {
+      "id": "smartrecruiters:AECOM2:744000159968129",
+      "company": "AECOM",
+      "title": "Benefits Program Manager - Retirement & ESPP (Hybrid)",
+      "location": "Houston, TX, us",
+      "salary": "Not disclosed",
+      "official_url": "https://jobs.smartrecruiters.com/AECOM2/744000159968129-benefits-program-manager-retirement-espp-hybrid-",
+      "posted": "2026-11-05T20:55:38.320Z",
+      "date_evidence": "SmartRecruiters.releasedDate (release; may be a repost)",
+      "evidence_url": "https://api.smartrecruiters.com/v1/companies/AECOM2/postings/744000159968129",
+      "description": "Work with Us. Change the World. At AECOM, we're delivering a better world. Whether improving your commute, keeping the lights on, providing access to clean water, or transforming skylines, our work helps people and communities thrive. We are the world's trusted infrastructure consulting firm, partnering with clients to solve the world’s most complex challenges and build legacies for future generations. There has never been a better time to be at AECOM. With accelerating infrastructure investment worldwide, our services are in great demand. We invite you to bring your bold ideas and big dreams and become part of a global team of over 50,000 planners, designers, engineers, scientists, digital innovators, program and construction managers and other professionals delivering projects that create a positive and tangible impact around the world. We're one global team driven by our common purpose to deliver a better world. Join us. AECOM has an opening for a Benefits Program Manager - Retirement Plans to join our Global Benefits & Well-being team in our Dallas office or a hybrid work location. The role provides professional level support to the ongoing administration of AECOM’s retirement benefits program. The qualified candidate should have diverse exposure to various forms of retirement/financial plans such as stock programs (employee stock purchase plans ESPP). defined contribution, defined benefit plans, and non-qualified deferred compensation arrangements. This position will offer some flexibility for hybrid work schedules to include both in-office presence and telecommute/virtual work, and can be based from anywhere in the US where AECOM has an office location. Responsibilities include: Serve as the primary ESPP subject matter expert, owning plan administration, design recommendations, and participant experience. Oversee ESPP operations across enrollment, purchase periods, payroll deductions, refunds, qualified dispositions, and data file maintenance. Maintain ESPP benefits records, manage vendors and ensure accurate data exchange and reconciliations. Support ESPP communications, including educational materials explaining plan design and employee value. Ensure compliance with IRC Section 423, global tax regulations, and securities laws. Collaborate with Total Rewards, Compensation, and Equity teams to ensure alignment across benefit programs. Partner with Legal, Finance, Tax, Payroll, and Equity Administration teams to align operations with financial reporting and payroll processes. Support plan governance activities, including committee meetings, fiduciary documentation, audits, and RFPs. Research ESPP expansion globally Identify opportunities, including the use of AI to improve operational efficiency, automate processes, and enhance the employee experience. Act as a trusted advisor to HR leadership to research, analyze and resolve issues timely. Monitor industry trends, regulatory developments, and best practices in retirement and stock programs. Serve as back-up for Qualified and Non-Qualified plan administration. Minimum Requirements: Bachelor’s Degree, in Finance, Business Administration, or related field, plus at least 6 years of relevant experience, or demonstrated equivalency of experience and/or education. Significant hands-on ESPP experience. Demonstrated knowledge of Section 423 ESPP, SEC regulations, ERISA, DOL,, and IRS requirements. Prior experience managing global ESPP programs for publicly traded company stock programs. Strong project management and problem-solving skills Preferred Qualifications: Experience with both defined contribution savings and defined benefit pension plans is preferred HRIS/Payroll/Benefit systems, such as Workday, ADP and ORACLE experience is preferred Sponsorship for US work authorization is not available for this position, now or in the future Relocation assistance is not available for this position. At AECOM, we are committed to maintaining a secure and trustworthy recruitment process and take any fraudulent hiring activity seriously. To support this commitment, all newly hired employees are required to attend an in-person Day 1 onboarding at an AECOM office location as a condition of employment. About AECOM AECOM is proud to offer comprehensive benefits to meet the diverse needs of our employees. Depending on your employment status, AECOM benefits may include medical, dental, vision, life, AD&D, disability benefits, paid time off, leaves of absences, voluntary benefits, perks, flexible work options , well-being resources, employee assistance program, business travel insurance, service recognition awards, retirement savings plan, and employee stock purchase plan. AECOM is the global infrastructure leader, committed to delivering a better world. As a trusted professional services firm powered by deep technical abilities, we solve our clients’ complex challenges in water, environment, energy, transportation and buildings. Our teams partner with public- and private-sector clients to create innovative, sustainable and resilient solutions throughout the project lifecycle – from advisory, planning, design and engineering to program and construction management. AECOM is a Fortune 500 firm that had revenue of $16.1 billion in fiscal year 2025. Learn more at aecom.com. What makes AECOM a great place to work You will be part of a global team that champions your growth and career ambitions. Work on groundbreaking projects - both in your local community and on a global scale - that are transforming our industry and shaping the future. With cutting-edge technology and a network of experts, you’ll have the resources to make a real impact. Our award-winning training and development programs are designed to expand your technical expertise and leadership skills, helping you build the career you’ve always envisioned. Here, you’ll find a welcoming workplace built on respect, collaboration and community—where you have the freedom to grow in a world of opportunity. As an Equal Opportunity Employer, we believe in your potential and are here to help you achieve it. All your information will be kept confidential according to EEO guidelines.",
+      "linkedin_url": "",
+      "focus_matches": [
+        "Operations"
+      ],
+      "focus_evidence": {
+        "Operations": "n recommendations, and participant experience. Oversee ESPP operations across enrollment, purchase periods, payroll deductions, refunds, qualified dispositions, and data "
+      },
+      "work_mode": "Hybrid",
+      "work_mode_evidence": "This position will offer some flexibility for hybrid work schedules to include both in-office presence and telecommute/virtual work, and can be based from anywhere in the US where AECOM has an office location",
+      "match": 55,
+      "matched_skills": [
+        "Operations"
+      ]
+    },
+    {
+      "id": "greenhouse:datadog:8335262",
+      "company": "Datadog",
+      "title": "Delivery Manager, Web",
+      "location": "New York, New York, USA",
+      "salary": "USD 153,000-204,000 (The reasonably estimated yearly salary for this role at Datadog is:)",
+      "official_url": "https://careers.datadoghq.com/detail/8335262/?gh_jid=8335262",
+      "posted": "2026-11-05T13:56:03-05:00",
+      "date_evidence": "Greenhouse.first_published",
+      "evidence_url": "https://boards-api.greenhouse.io/v1/boards/datadog/jobs/8335262?pay_transparency=true",
+      "description": "<p>As a Delivery Manager for the Web Experience (WebEx) team, you'll own how work is requested, prioritized, planned, and delivered across our web experience. You'll build the processes that help our Web Experience and Engineering teams focus on the highest-impact initiatives while balancing ongoing business needs. Partnering closely with Growth Marketing, Product Marketing, Events, Content, Brand, WebEx, and Web Engineering, you'll turn complex requests into clear requirements, actionable roadmaps, and predictable delivery. As a senior individual contributor, you'll have the opportunity to shape how teams collaborate, improve operational efficiency, and increase the impact of our web initiatives.</p> <p class=\"p1\"><em>At Datadog, we place value in our office culture - the relationships and collaboration it builds and the creativity it brings to the table. We operate as a hybrid workplace to ensure our Datadogs can create a work-life harmony that best fits them.</em></p> <p><strong>What You’ll Do:</strong></p> <ul> <li>Own and continuously improve a centralized intake, planning, and scoping process for incoming Web team requests, creating clarity and consistency across stakeholders.</li> <li>Lead sprint planning and prioritization based on business value, impact, and team capacity, balancing new initiatives with ongoing operational needs.</li> <li>Translate cross-functional requests into actionable requirements, briefs, and project scopes that enable designers, content creators, and engineers to execute effectively.</li> <li>Develop and maintain a two-quarter roadmap, refreshed each sprint, that provides visibility into priorities, dependencies, and delivery timelines.</li> <li>Establish structured stakeholder review and approval workflows that streamline feedback, reduce rework, and keep projects moving forward.</li> <li>Drive day-to-day delivery by monitoring throughput, identifying and resolving blockers, reducing dependencies, and incorporating AI-assisted workflows to improve team productivity.</li> </ul> <p><strong>Who You Are:</strong></p> <ul> <li>You have 10+ years of professional experience, including 6+ years in product, delivery, or program management, with significant experience supporting creative, web, or digital teams.</li> <li>You have demonstrated experience building and scaling intake, prioritization, and delivery processes that drive adoption across cross-functional teams.</li> <li>You can translate complex or ambiguous business needs into clear, actionable requirements and briefs that enable designers, content creators, and engineers to execute independently.</li> <li>You communicate effectively with senior stakeholders, navigate competing priorities, and articulate tradeoffs using business value and impact.</li> <li>You have hands-on experience with agile sprint planning and delivery tools such as Jira, Figma, and content management systems, and have applied AI-assisted workflows to improve efficiency.</li> <li>You bring strong attention to detail, a data-driven approach to decision-making, and a commitment to accurate measurement, tracking, and reporting.</li> </ul> <p class=\"p1\"><em>Datadog values people from all walks of life. We understand not everyone will meet all the above qualifications on day one. That's okay. If you’re passionate about technology and want to grow your skills, we encourage you to apply.</em></p> <p class=\"p1\"><strong>Benefits &amp; Growth:</strong></p> <ul class=\"ul1\"> <li class=\"li1\">Generous and competitive benefits package</li> <li class=\"li1\">New hire stock equity (RSUs) and employee stock purchase plan</li> <li class=\"li1\">Continuous career development and pathing opportunities</li> <li class=\"li1\">Employee-focused best in class onboarding</li> <li class=\"li1\">Internal mentor and cross-departmental buddy program</li> <li class=\"li1\">Friendly and inclusive workplace culture</li> </ul> <p class=\"p1\"><em>Benefits and Growth listed above may vary based on the country of your employment and the nature of your employment with Datadog.</em></p> <p style=\"color: white;\">#LI-Hybrid</p><div class=\"content-pay-transparency\"><div class=\"pay-input\"><div class=\"description\"><p>Datadog offers a competitive salary and equity package, and may include variable compensation. Actual compensation is based on factors such as the candidate's skills, qualifications, and experience. In addition, Datadog offers a wide range of best in class, comprehensive and inclusive employee benefits for this role including healthcare, dental, parental planning, and mental health benefits, a 401(k) plan and match, paid time off, fitness reimbursements, and a discounted employee stock purchase plan.</p></div><div class=\"title\">The reasonably estimated yearly salary for this role at Datadog is:</div><div class=\"pay-range\"><span>$153,000</span><span class=\"divider\">&mdash;</span><span>$204,000 USD</span></div></div></div><div class=\"content-conclusion\"><hr> <p><strong>About Datadog:&nbsp;</strong></p> <p>Datadog is the leading observability and security platform for the AI era, providing businesses with unified visibility across the technology stack to manage complexity at scale. It brings applications, infrastructure, data, models, and security into one place, using AI to detect and resolve issues before they impact customers. Trusted globally by Fortune 500 companies and high-growth AI leaders, Datadog enables businesses to move faster with clarity and confidence. Learn more about #DatadogLife on <a href=\"https://www.instagram.com/datadoghq/?hl=en\" target=\"_blank\">Instagram</a>, <a href=\"https://www.linkedin.com/company/datadog\" target=\"_blank\">LinkedIn,</a> and <a href=\"https://learn.datadoghq.com/\" target=\"_blank\">Datadog Learning Center. </a></p> <hr> <p data-renderer-start-pos=\"215\"><strong data-renderer-mark=\"true\">Equal Opportunity at Datadog:</strong></p> <p>Datadog is proud to offer <a href=\"https://www.eeoc.gov/sites/default/files/2023-06/22-088_EEOC_KnowYourRights6.12ScreenRdr.pdf\" target=\"_blank\">equal employment opportunity</a> to everyone regardless of race, color, ancestry, religion, sex, national origin, sexual orientation, age, citizenship, marital status, disability, gender identity, veteran status, and other characteristics protected by law. We also consider qualified applicants regardless of criminal histories, consistent with legal requirements. Here are our <a href=\"https://www.datadoghq.com/legal/candidate-legal-notices/\" target=\"_blank\">Candidate Legal Notices</a> for your reference.&nbsp;</p> <p>Datadog endeavors to make our Careers Page accessible to all users. If you would like to contact us regarding the accessibility of our website or need assistance completing the application process, please complete <a href=\"https://docs.google.com/forms/d/e/1FAIpQLSeoJeduEZ2NdZF_65uZmWUrCM-zee7yADXX1s6Xr9zAGq8iKA/viewform\" target=\"_blank\">this form</a>. This form is for accommodation requests only and cannot be used to inquire about the status of applications.&nbsp;</p> <p data-renderer-start-pos=\"662\"><strong data-renderer-mark=\"true\">Privacy and AI Guidelines:</strong></p> <p data-renderer-start-pos=\"662\">Any information you submit to Datadog as part of your application will be processed in accordance with Datadog’s&nbsp;<a class=\"c-link\" href=\"https://www.datadoghq.com/legal/applicant-candidate-privacy/\" target=\"_blank\" data-stringify-link=\"https://www.datadoghq.com/legal/applicant-candidate-privacy/\" data-sk=\"tooltip_parent\">Applicant and Candidate Privacy Notice</a>. For information on our AI policy, please visit <a href=\"https://www.datadoghq.com/legal/interviewing-at-datadog-ai-guidelines/\" target=\"_blank\">Interviewing at Datadog AI Guidelines</a>.</p></div>",
+      "linkedin_url": "",
+      "focus_matches": [
+        "Agile"
+      ],
+      "focus_evidence": {
+        "Agile": " creating clarity and consistency across stakeholders. Lead sprint planning and prioritization based on business value, impact, and team capacity, balancing new initi"
+      },
+      "work_mode": "Not specified",
+      "work_mode_evidence": "The reviewed official source does not confirm the work arrangement for this role.",
+      "match": 55,
+      "matched_skills": [
+        "Agile"
+      ]
+    },
+    {
+      "id": "greenhouse:gitlab:8928711002",
+      "company": "GitLab",
+      "title": "Senior Security Technical Program Manager, Fraud & Abuse ",
+      "location": "Remote, Canada; Remote, United States",
+      "salary": "USD 139,200-190,000 (United States Salary Range)",
+      "official_url": "https://job-boards.greenhouse.io/gitlab/jobs/8928711002",
+      "posted": "2026-11-05T16:30:43-05:00",
+      "date_evidence": "Greenhouse.first_published",
+      "evidence_url": "https://boards-api.greenhouse.io/v1/boards/gitlab/jobs/8928711002?pay_transparency=true",
+      "description": "<div class=\"content-intro\"><p>GitLab is the intelligent orchestration platform for DevSecOps. GitLab enables organizations to increase developer productivity, improve operational efficiency, reduce security and compliance risk, and accelerate digital transformation. More than 50 million registered users and more than 50% of the Fortune 100* trust GitLab to ship better, more secure software faster.</p> <p>The same principles built into our products are reflected in how our team works: we embrace AI as a core productivity multiplier, with all team members expected to incorporate AI into their daily workflows to drive efficiency, innovation, and impact. GitLab is where careers accelerate, innovation flourishes, and every voice is valued. Our high-performance culture is driven by our values&nbsp;and continuous knowledge exchange, enabling our team members to reach their full potential while collaborating with industry leaders to solve complex problems. <a href=\"https://www.youtube.com/watch?v=OuZIb5zszQI\">Co-create the future with us</a> as we build technology that transforms how the world develops software.</p> <p>*<em>Fortune 500® is a registered trademark of Fortune Media IP Limited, used under license. Claim based on GitLab data. Fortune 100 refers to the top 20% ranked companies in the 2025 Fortune 500 list, published in June 2025. Fortune and Fortune Media IP Limited are not affiliated with, and do not endorse products or services of GitLab.</em></p></div><p><strong>An overview of this role</strong></p> <p>You will join the Trust and Safety team, within the security division at GitLab. Your role will be coordinating and owning cross functional fraud and abuse prevention workstreams for trust and safety. This role will focus on coordinating with T&amp;S engineers to understand fraud and abuse trends and work cross functionally with Engineering, Product and other peer teams to improve defenses. A successful person in this role is able to understand technical requirements and problems and convert them into business requirements and coordinate with engineering and product teams to implement improved defenses.&nbsp;</p> <p><strong>What you’ll do</strong>&nbsp;&nbsp;</p> <ul> <li>Be the connection between T&amp;S, Engineering, Product, Legal, Finance and other teams to build, track, and drive cross functional fraud and abuse mitigation through to completion.&nbsp;</li> <li>Turn abuse and fraud trends into proposed defense measures and work with stakeholders to gain buy-in, and drive projects to completion through cross functional leadership.&nbsp;</li> <li>Have an ownership mindset and bias for action to keep GitLab secure.</li> <li>Turn abuse trends into prioritized, cost-quantified requirements and business cases that product teams can act on.&nbsp;</li> <li>Leverage AI to build early identification and triage of fraud and abuse risks across GitLab.&nbsp;</li> <li>Partner with Finance and Billing on fraud prevention controls, including payment fraud, chargebacks, and account verification.</li> <li>Define metrics for abuse and fraud exposure, and report program status, costs, and outcomes to security and business leadership.</li> <li>Identify, triage and prioritize Safety &amp; Trust abuse campaigns and operational work and ensure high-impact incidents are escalated</li> </ul> <p><strong>What you’ll bring&nbsp;</strong></p> <ul> <li>5+ years in technical program management, security program management, or trust &amp; safety, fraud, or risk operations, including hands-on experience with fraud or abuse at a SaaS, platform, marketplace, or payments company.</li> <li>A track record of driving cross-functional fixes to completion without direct authority over the teams doing the work.</li> <li>Working knowledge of common fraud and abuse patterns, such as account takeover, free-tier and trial abuse, payment fraud and card testing, bot signups, and spam and phishing.</li> <li>Technical fluency with web applications, APIs, identity and authentication, and billing or subscription systems, enough to discuss implementation tradeoffs with engineers.</li> <li>Clear, concise written communication suited to an all-remote, asynchronous environment.</li> <li>Sound judgment balancing fraud and abuse risk against friction for legitimate users and customers.</li> </ul> <p><strong>About the team</strong></p> <p>Trust and Safety is the team tasked with preventing, preventing and responding to abuse across GitLab SaaS platforms. T&amp;S builds and maintains systems designed to detect and prevent fraud and abuse with the goal of keeping the cost of abuse low across GitLab SaaS platforms. T&amp;S works closely with peer teams within Security Operations as well as teams across engineering and product to identify, build defenses, remediate and respond to abuse.&nbsp;</p><div class=\"content-pay-transparency\"><div class=\"pay-input\"><div class=\"description\"><p><em>The base salary range for this role’s listed level is currently for residents of the&nbsp;United States only. This range is intended to reflect the role's base salary rate in locations throughout the US.&nbsp;Grade level and salary ranges are determined through interviews and a review of education, experience, knowledge, skills, abilities of the applicant, equity with other team members, alignment with market data,&nbsp;and geographic location.&nbsp;The base salary range does not include any bonuses, equity, or benefits. See more information on our <a class=\"waffle-rich-text-link\" href=\"https://about.gitlab.com/handbook/total-rewards/benefits/general-and-entity-benefits/\" data-sheets-formula-bar-text-link=\"https://bit.ly/GLBeneUS\" data-sheets-formula-bar-text-style=\"font-size:12px;color:#1155cc;font-weight:normal;text-decoration:underline;font-family:''Arial'';font-style:normal;text-decoration-skip-ink:none;\">benefits</a><span data-sheets-formula-bar-text-style=\"font-size:12px;color:#000000;font-weight:normal;text-decoration:none;font-family:'Arial';font-style:normal;text-decoration-skip-ink:none;\"> and </span><a class=\"waffle-rich-text-link\" href=\"https://about.gitlab.com/handbook/stock-options/\" data-sheets-formula-bar-text-link=\"https://bit.ly/GLequity\" data-sheets-formula-bar-text-style=\"font-size:12px;color:#1155cc;font-weight:normal;text-decoration:underline;font-family:''Arial'';font-style:normal;text-decoration-skip-ink:none;\">equity</a>. Sales roles are also eligible for incentive pay targeted at up to 100% of the offered base salary.</em></p></div><div class=\"title\">United States Salary Range</div><div class=\"pay-range\"><span>$139,200</span><span class=\"divider\">&mdash;</span><span>$190,000 USD</span></div></div></div><div class=\"content-conclusion\"><h4><strong>How GitLab Supports Full-Time Employees</strong></h4> <ul> <li><a href=\"https://about.gitlab.com/handbook/total-rewards/benefits/general-and-entity-benefits/\">Benefits to support your health, finances, and well-being</a></li> <li><a href=\"https://handbook.gitlab.com/handbook/people-group/time-off-and-absence/time-off-types/#flexible-paid-time-off-pto\">Flexible Paid Time Off&nbsp;</a></li> <li><a href=\"https://handbook.gitlab.com/handbook/company/culture/inclusion/tmrg-tmag/\">Team Member Resource Groups</a></li> <li><a href=\"https://handbook.gitlab.com/handbook/total-rewards/stock-options/\">Equity Compensation &amp; Employee Stock Purchase Plan</a></li> <li><a href=\"https://handbook.gitlab.com/handbook/people-group/learning-and-development/growth-and-development/\">Growth and Development Fund</a></li> <li><a href=\"https://about.gitlab.com/handbook/total-rewards/benefits/general-and-entity-benefits/#parental-leave\">Parental Leave</a>&nbsp;</li> </ul> <p>Please note that we welcome interest from candidates with varying levels of experience; many successful candidates do not meet every single requirement. Additionally, studies have shown that people from <a href=\"https://about.gitlab.com/company/culture/inclusion/#examples-of-select-underrepresented-groups\">underrepresented groups</a> are less likely to apply to a job unless they meet every single qualification. If you're excited about this role, please apply and allow our recruiters to assess your application.</p> <hr> <p><strong>Country Hiring Guidelines: </strong>GitLab hires new team members in countries around the world. All of our roles are remote, however some roles may carry specific location-based eligibility requirements. Our Talent Acquisition team can help answer any questions about location after starting the recruiting process.&nbsp;&nbsp;</p> <p><strong>Privacy Policy: </strong>Please review our <a href=\"https://handbook.gitlab.com/handbook/hiring/candidate-faq/recruitment-privacy-policy/\" target=\"_blank\">Recruitment Privacy Policy.</a> Your privacy is important to us.</p> <p>GitLab is proud to be an equal opportunity workplace and is an affirmative action employer. GitLab’s policies and practices relating to recruitment, employment, career development and advancement, promotion, and retirement are based solely on merit, regardless of race, color, religion, ancestry, sex (including pregnancy, lactation, sexual orientation, gender identity, or gender expression), national origin, age, citizenship, marital status, mental or physical disability, genetic information (including family medical history), discharge status from the military, protected veteran status (which includes disabled veterans, recently separated veterans, active duty wartime or campaign badge veterans, and Armed Forces service medal veterans), or any other basis protected by law. GitLab will not tolerate discrimination or harassment based on any of these characteristics. See also&nbsp;<a href=\"https://about.gitlab.com/handbook/people-policies/inc-usa/#equal-employment-opportunity-policy\" target=\"_blank\">GitLab’s EEO Policy</a>&nbsp;and&nbsp;<a href=\"https://about.gitlab.com/handbook/labor-and-employment-notices/#eeoc-us-equal-employment-opportunity-commission-notices\" target=\"_blank\">EEO is the Law</a>. If you have a disability or special need that requires&nbsp;<a href=\"https://about.gitlab.com/handbook/people-policies/inc-usa/#reasonable-accommodation\" target=\"_blank\">accommodation</a>, please let us know during the&nbsp;<a href=\"https://about.gitlab.com/handbook/hiring/interviewing/#adjustments-to-our-interview-process\" target=\"_blank\">recruiting process</a>.</p></div>",
+      "linkedin_url": "",
+      "focus_matches": [
+        "Operations"
+      ],
+      "focus_evidence": {
+        "Operations": "urity program management, or trust & safety, fraud, or risk operations, including hands-on experience with fraud or abuse at a SaaS, platform, marketplace, or payments co"
+      },
+      "work_mode": "Remote available",
+      "work_mode_evidence": "The official location includes remote work; confirm geographic restrictions and other work arrangements with the employer.",
+      "match": 55,
+      "matched_skills": [
+        "Operations"
+      ]
+    }
+  ]
+}
