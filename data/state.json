@@ -384,6 +384,36 @@
       "url": "https://jobs.smartrecruiters.com/Experian/744000159988739-senior-program-manager-client-operations",
       "first_seen": "2026-11-05",
       "last_seen": "2026-11-05"
+    },
+    "ashby:notion:73b0e05e-317f-4f84-8fb2-58dc8c3790a6": {
+      "url": "https://jobs.ashbyhq.com/notion/73b0e05e-317f-4f84-8fb2-58dc8c3790a6",
+      "first_seen": "2026-11-06",
+      "last_seen": "2026-11-06"
+    },
+    "greenhouse:2k:8046878003": {
+      "url": "https://job-boards.greenhouse.io/2k/jobs/8046878003",
+      "first_seen": "2026-11-06",
+      "last_seen": "2026-11-06"
+    },
+    "greenhouse:adyen:8360175": {
+      "url": "https://job-boards.greenhouse.io/adyen/jobs/8360175",
+      "first_seen": "2026-11-06",
+      "last_seen": "2026-11-06"
+    },
+    "greenhouse:gitlab:8929468002": {
+      "url": "https://job-boards.greenhouse.io/gitlab/jobs/8929468002",
+      "first_seen": "2026-11-06",
+      "last_seen": "2026-11-06"
+    },
+    "smartrecruiters:NBCUniversal3:744000160291330": {
+      "url": "https://jobs.smartrecruiters.com/NBCUniversal3/744000160291330-producer-editor-telemundo-al-rojo-vivo",
+      "first_seen": "2026-11-06",
+      "last_seen": "2026-11-06"
+    },
+    "smartrecruiters:Intuitive:744000160302620": {
+      "url": "https://jobs.smartrecruiters.com/Intuitive/744000160302620-technical-program-manager",
+      "first_seen": "2026-11-06",
+      "last_seen": "2026-11-06"
     }
   }
 }

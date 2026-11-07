@@ -1,0 +1,552 @@
+{
+  "date": "2026-11-06",
+  "verified_at": "2026-11-06T22:53:44.709216-08:00",
+  "metrics": {
+    "reviewed": 61642,
+    "sources_ok": 275,
+    "unverified": 0,
+    "applied_excluded": 0,
+    "seen_excluded": 0,
+    "linkedin_candidates": 99,
+    "linkedin": "Public access available: 42 searches; publication dates verified only against official sources",
+    "errors": [
+      "devot: HTTPError",
+      "wiz: HTTPError",
+      "yelp: HTTPError",
+      "contentsquare: HTTPError",
+      "factorialhr: HTTPError",
+      "factorial: HTTPError",
+      "travelperk: HTTPError",
+      "jobandtalent: HTTPError",
+      "glovo: HTTPError",
+      "bookingcom: HTTPError",
+      "expediagroup: HTTPError",
+      "cimpress: HTTPError",
+      "vistaprint: HTTPError",
+      "softtek: HTTPError",
+      "agileengine: HTTPError",
+      "konfio: HTTPError",
+      "clipmx: HTTPError",
+      "kueski: HTTPError",
+      "klar: HTTPError",
+      "yalo: HTTPError",
+      "nowports: HTTPError",
+      "remitly: HTTPError",
+      "payjoy: HTTPError",
+      "tala: HTTPError",
+      "openpay: HTTPError",
+      "global66: HTTPError",
+      "habi: HTTPError",
+      "truora: HTTPError",
+      "platzi: HTTPError",
+      "clara: HTTPError",
+      "bitso: HTTPError",
+      "stori: HTTPError",
+      "mendel: HTTPError",
+      "factorial: HTTPError",
+      "lodgify: HTTPError",
+      "secretsource: HTTPError",
+      "sastrify: HTTPError",
+      "safetywing: HTTPError",
+      "jobgether: HTTPError",
+      "lemonio: HTTPError",
+      "nearsure: HTTPError",
+      "crunchyroll: HTTPError",
+      "amdocs: HTTPError",
+      "slalom: HTTPError",
+      "slalombuild: HTTPError",
+      "cprime: HTTPError",
+      "avature: HTTPError",
+      "guidewire: HTTPError",
+      "netsuite: HTTPError",
+      "eon: HTTPError",
+      "epamanywhere: HTTPError",
+      "akamai: HTTPError",
+      "thoughtmachine: HTTPError",
+      "checkoutcom: HTTPError",
+      "flywire: HTTPError",
+      "Prospanica: https://jobs.prospanica.org/home/index.cfm: HTTP Error 403: Forbidden",
+      "Lean In Latinas: No supported role links in public HTML; dynamic or member-only results may be unavailable",
+      "Welcome to the Jungle: https://www.welcometothejungle.com/en/companies/datadome/jobs/senior-partner-marketing-program-manager_los-angeles: HTTP Error 403: Forbidden",
+      "Biocom Career Hub: No supported role links in public HTML; dynamic or member-only results may be unavailable",
+      "WelbeHealth official careers: No supported role links in public HTML; dynamic or member-only results may be unavailable",
+      "thatgamecompany official careers: https://thatgamecompany.com/company/jobs/: Only public HTTPS URLs are allowed",
+      "HLPA: https://jobs.hlpa.com/employment/search.aspx: HTTP Error 406: Not Acceptable",
+      "SHPE: https://careercenter.shpe.org/: HTTP Error 403: Forbidden",
+      "Techqueria: No supported role links in public HTML; dynamic or member-only results may be unavailable",
+      "Latinx in Tech Career Center: No supported role links in public HTML; dynamic or member-only results may be unavailable",
+      "PowerToFly: No supported role links in public HTML; dynamic or member-only results may be unavailable",
+      "Women Who Design: No supported role links in public HTML; dynamic or member-only results may be unavailable",
+      "Wellfound California: No supported role links in public HTML; dynamic or member-only results may be unavailable",
+      "Y Combinator California: No supported role links in public HTML; dynamic or member-only results may be unavailable",
+      "Games Jobs Direct: https://www.gamesjobsdirect.com/search: HTTP Error 406: Not Acceptable",
+      "Bloks: https://bloks.gg/: Host is not explicitly allowlisted",
+      "ASGC Games Jobs: No supported role links in public HTML; dynamic or member-only results may be unavailable",
+      "BioSpace California: https://jobs.biospace.com/california: HTTP Error 429: Too Many Requests",
+      "BioTalent: No supported role links in public HTML; dynamic or member-only results may be unavailable",
+      "Manfred Spain: No supported role links in public HTML; dynamic or member-only results may be unavailable",
+      "Wellfound Remote: https://wellfound.com/jobs/4779181-program-manager: HTTP Error 410: Gone",
+      "Wellfound Remote: https://wellfound.com/jobs/4735292-technical-program-manager: HTTP Error 410: Gone",
+      "Jobgether: https://jobgether.com/remote-jobs/program-manager: HTTP Error 403: Forbidden"
+    ],
+    "discovery": [
+      {
+        "source": "Prospanica",
+        "category": "Latino and professional associations",
+        "pages": 0,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "https://jobs.prospanica.org/home/index.cfm: HTTP Error 403: Forbidden"
+        ]
+      },
+      {
+        "source": "HOPE - Hispanas Organized for Political Equality",
+        "category": "Latino and professional associations",
+        "pages": 1,
+        "candidates": 1,
+        "verified": 0,
+        "issues": []
+      },
+      {
+        "source": "Lean In Latinas",
+        "category": "Latino and professional associations",
+        "pages": 1,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "No supported role links in public HTML; dynamic or member-only results may be unavailable"
+        ]
+      },
+      {
+        "source": "Built In San Francisco",
+        "category": "Regional technology and startups",
+        "pages": 3,
+        "candidates": 23,
+        "verified": 0,
+        "issues": []
+      },
+      {
+        "source": "Hitmarker",
+        "category": "Games and entertainment",
+        "pages": 3,
+        "candidates": 3,
+        "verified": 0,
+        "issues": []
+      },
+      {
+        "source": "Welcome to the Jungle",
+        "category": "Regional technology and startups",
+        "pages": 4,
+        "candidates": 1,
+        "verified": 0,
+        "issues": [
+          "https://www.welcometothejungle.com/en/companies/datadome/jobs/senior-partner-marketing-program-manager_los-angeles: HTTP Error 403: Forbidden"
+        ]
+      },
+      {
+        "source": "Biocom Career Hub",
+        "category": "Life sciences",
+        "pages": 1,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "No supported role links in public HTML; dynamic or member-only results may be unavailable"
+        ]
+      },
+      {
+        "source": "WelbeHealth official careers",
+        "category": "Company careers",
+        "pages": 1,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "No supported role links in public HTML; dynamic or member-only results may be unavailable"
+        ]
+      },
+      {
+        "source": "Branch official careers",
+        "category": "Company careers",
+        "pages": 1,
+        "candidates": 12,
+        "verified": 0,
+        "issues": []
+      },
+      {
+        "source": "thatgamecompany official careers",
+        "category": "Company careers",
+        "pages": 0,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "https://thatgamecompany.com/company/jobs/: Only public HTTPS URLs are allowed"
+        ]
+      },
+      {
+        "source": "Turtle Rock Studios official careers",
+        "category": "Company careers",
+        "pages": 1,
+        "candidates": 1,
+        "verified": 0,
+        "issues": []
+      },
+      {
+        "source": "HLPA",
+        "category": "Latino and professional associations",
+        "pages": 0,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "https://jobs.hlpa.com/employment/search.aspx: HTTP Error 406: Not Acceptable"
+        ]
+      },
+      {
+        "source": "SHPE",
+        "category": "Latino and professional associations",
+        "pages": 0,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "https://careercenter.shpe.org/: HTTP Error 403: Forbidden"
+        ]
+      },
+      {
+        "source": "Techqueria",
+        "category": "Latino and professional associations",
+        "pages": 1,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "No supported role links in public HTML; dynamic or member-only results may be unavailable"
+        ]
+      },
+      {
+        "source": "Latinx in Tech Career Center",
+        "category": "Latino and professional associations",
+        "pages": 1,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "No supported role links in public HTML; dynamic or member-only results may be unavailable"
+        ]
+      },
+      {
+        "source": "PowerToFly",
+        "category": "Women and inclusive career networks",
+        "pages": 1,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "No supported role links in public HTML; dynamic or member-only results may be unavailable"
+        ]
+      },
+      {
+        "source": "Women Who Design",
+        "category": "Women and inclusive career networks",
+        "pages": 1,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "No supported role links in public HTML; dynamic or member-only results may be unavailable"
+        ]
+      },
+      {
+        "source": "Women in Games International",
+        "category": "Women and inclusive career networks",
+        "pages": 1,
+        "candidates": 1,
+        "verified": 0,
+        "issues": []
+      },
+      {
+        "source": "Started by Women",
+        "category": "Women and inclusive career networks",
+        "pages": 1,
+        "candidates": 2,
+        "verified": 0,
+        "issues": []
+      },
+      {
+        "source": "Wellfound California",
+        "category": "Regional technology and startups",
+        "pages": 1,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "No supported role links in public HTML; dynamic or member-only results may be unavailable"
+        ]
+      },
+      {
+        "source": "Y Combinator California",
+        "category": "Regional technology and startups",
+        "pages": 1,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "No supported role links in public HTML; dynamic or member-only results may be unavailable"
+        ]
+      },
+      {
+        "source": "Games Jobs Direct",
+        "category": "Games and entertainment",
+        "pages": 0,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "https://www.gamesjobsdirect.com/search: HTTP Error 406: Not Acceptable"
+        ]
+      },
+      {
+        "source": "Bloks",
+        "category": "Games and entertainment",
+        "pages": 0,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "https://bloks.gg/: Host is not explicitly allowlisted"
+        ]
+      },
+      {
+        "source": "Gaming Industry Job Tracker",
+        "category": "Games and entertainment",
+        "pages": 1,
+        "candidates": 1,
+        "verified": 0,
+        "issues": []
+      },
+      {
+        "source": "ASGC Games Jobs",
+        "category": "Games and entertainment",
+        "pages": 1,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "No supported role links in public HTML; dynamic or member-only results may be unavailable"
+        ]
+      },
+      {
+        "source": "BioSpace California",
+        "category": "Life sciences",
+        "pages": 0,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "https://jobs.biospace.com/california: HTTP Error 429: Too Many Requests"
+        ]
+      },
+      {
+        "source": "BioTalent",
+        "category": "Life sciences",
+        "pages": 1,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "No supported role links in public HTML; dynamic or member-only results may be unavailable"
+        ]
+      },
+      {
+        "source": "Manfred Spain",
+        "category": "Remote and international",
+        "pages": 1,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "No supported role links in public HTML; dynamic or member-only results may be unavailable"
+        ]
+      },
+      {
+        "source": "Wellfound Remote",
+        "category": "Remote and international",
+        "pages": 1,
+        "candidates": 29,
+        "verified": 0,
+        "issues": [
+          "https://wellfound.com/jobs/4779181-program-manager: HTTP Error 410: Gone",
+          "https://wellfound.com/jobs/4735292-technical-program-manager: HTTP Error 410: Gone"
+        ]
+      },
+      {
+        "source": "Jobgether",
+        "category": "Remote and international",
+        "pages": 0,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "https://jobgether.com/remote-jobs/program-manager: HTTP Error 403: Forbidden"
+        ]
+      },
+      {
+        "source": "Remotely",
+        "category": "Remote and international",
+        "pages": 1,
+        "candidates": 9,
+        "verified": 0,
+        "issues": []
+      }
+    ],
+    "new_employer_boards": 0,
+    "mexico_verified_candidates": 0,
+    "spain_verified_candidates": 0
+  },
+  "jobs": [
+    {
+      "id": "smartrecruiters:Intuitive:744000160302620",
+      "company": "Intuitive",
+      "title": "Technical Program Manager",
+      "location": "Sunnyvale, CA, us",
+      "salary": "Not disclosed",
+      "official_url": "https://jobs.smartrecruiters.com/Intuitive/744000160302620-technical-program-manager",
+      "posted": "2026-11-06T21:34:56.427Z",
+      "date_evidence": "SmartRecruiters.releasedDate (release; may be a repost)",
+      "evidence_url": "https://api.smartrecruiters.com/v1/companies/Intuitive/postings/744000160302620",
+      "description": "It started with a simple idea: what if surgery could be less invasive and recovery less painful? Nearly 30 years later, that question still fuels everything we do at Intuitive . As a global leader in robotic-assisted surgery and minimally invasive care , our technologies—like the da Vinci surgical system and Ion —have transformed how care is delivered for millions of patients worldwide. We’re a team of engineers, clinicians, and innovators united by one purpose: to make surgery smarter, safer, and more human. Every day, our work helps care teams perform with greater precision and patients recover faster, improving outcomes around the world. The problems we solve demand creativity, rigor, and collaboration. The work is challenging, but deeply meaningful—because every improvement we make has the potential to change a life. If you’re ready to contribute to something bigger than yourself and help transform the future of healthcare , you’ll find your purpose here. Primary function of position The Technical Program Manager for Country-Specific Labeling (CSL) owns end-to-end delivery and long-term support of Intuitive’s custom CSL system, from architecture and design through implementation and at sites throughout the world and manage continuous improvements and feature enhancements. You will translate multi-country Regulatory Affairs requirements into scalable system requirements, labeling schemas, and templates, and drive integration with SAP and warehouse management systems. You will lead cross-functional execution across IT, Quality, Regulatory, warehouse logistics, and label suppliers, including UAT planning and go-live readiness, to ensure compliant and efficient labeling. This role sits within Technical Services, reporting to the Product Labeling & Packaging Operations Manager. Roles and responsibilities Essential duties Own the end-to-end CSL program , serving as the primary driver for planning, execution, delivery, and stakeholder alignment across RA, IT, Quality, Operations, suppliers, and logistics sites. Lead Country-Specific Labeling requirements management, partnering with Regulatory Affairs (RA/RSAs) to interpret country regulatory assessments and convert them into clear, testable requirements. Drive schema development with IT/engineering teams by defining requirements, acceptance criteria, traceability, and change impacts; ensure schemas are scalable and aligned to enterprise standards. Lead integration delivery for labeling capabilities with SAP and warehouse management systems, coordinating dependencies, interface readiness, and cutover planning. Coordinate with warehouse logistics teams and external partners to implement labeling workflows, including label printing/handling, verification steps, exception management, and training/readiness. Facilitate label template design discussions to ensure templates work as expected across countries, products, printer constraints, and warehouse execution. Manage workstreams related to supplier-printed labels, including specifications alignment, readiness tracking, issue triage, and operational deployment coordination. Define and structure User Acceptance Testing (UAT) for labeling (test strategy, test cases, traceability, execution coordination, defect management, and sign-off). Partner with Quality to manage labeling-related non-conformances (NCs) and CAPAs, supporting investigation coordination, corrective action execution, and effectiveness checks. Establish and maintain program documentation (program plans, RAID logs, requirements traceability, SOP/work instructions impacts, release notes) and drive standardization of CSL delivery processes. Drive continuous improvement initiatives to reduce labeling errors, shorten cycle times, improve audit readiness, and strengthen operational controls. Education, experience, skills and training Education and experience Minimum of bachelor’s degree in engineering or a related field. Minimum of 8+ years of experience working in labeling, hardware, system production, or test environment primarily in healthcare industry. Technical skills Lead technical, cross-functional programs end-to-end (requirements → build/config → testing → deployment) in a regulated and/or operationally complex environment. Strong ability to translate regulatory labeling requirements into system requirements, schemas, templates, and warehouse-operational processes. Demonstrated ability to coordinate across RA, IT/engineering, Quality, warehouse operations/logistics, suppliers, and external partners (3PLs). Hands-on experience running UAT (planning, traceability, execution coordination, defect triage, and release readiness). Experience building and maintaining enterprise program artifacts: requirements traceability, release governance, cutover plans, training/readiness, and stakeholder reporting. Other skills and abilities Able to learn and apply established procedures in a reliable and consistent manner. Strong communication skills (written and verbal) with the ability to drive alignment, decisions, and execution across multiple stakeholders. Ability to lead and deliver in a matrix environment. Strong problem-solving skills and ability to be self-managed in a fast-paced environment utilizing agile/sprint methodologies. Quick learner with ability to understand complex products and processes. Ability to work in a team environment. High level of attention to technical details and accuracy. Ability to work independently and with minimal supervision Ability to multitask, and handle tasks with competing priorities effectively Proficient with MS Office applications Due to the nature of our business and the role, please note that Intuitive and/or your customer(s) may require that you show current proof of vaccination against certain diseases including COVID-19. Details can vary by role. Intuitive is an Equal Opportunity Employer. We provide equal employment opportunities to all qualified applicants and employees, and prohibit discrimination and harassment of any type, without regard to race, sex, pregnancy, sexual orientation, gender identity, national origin, color, age, religion, protected veteran or disability status, genetic information or any other status protected under federal, state, or local applicable laws. Mandatory Notices U.S. Export Controls Disclaimer: In accordance with the U.S. Export Administration Regulations (15 CFR §743.13(b)), some roles at Intuitive Surgical may be subject to U.S. export controls for prospective employees who are nationals from countries currently on embargo or sanctions status. Certain information you provide as part of the application will be used for purposes of determining whether Intuitive Surgical will need to (i) obtain an export license from the U.S. Government on your behalf (note: the government’s licensing process can take 3 to 6+ months) or (ii) implement a Technology Control Plan (“TCP”) (note: typically adds 2 weeks to the hiring process). For any Intuitive role subject to export controls, final offers are contingent upon obtaining an approved export license and/or an executed TCP prior to the prospective employee’s start date, which may or may not be flexible, and within a timeframe that does not unreasonably impede the hiring need. If applicable, candidates will be notified and instructed on any requirements for these purposes. We will consider for employment qualified applicants with arrest and conviction records in accordance with fair chance laws. Preference will be given to qualified candidates who do not reside, or plan to reside, in Alabama, Arkansas, Delaware, Florida, Indiana, Iowa, Louisiana, Maryland, Mississippi, Missouri, Oklahoma, Pennsylvania, South Carolina, or Tennessee. This position may be filled at a different job level than listed here depending on business need and/or on the selected candidate’s experience, knowledge and skills. Compensation will be based primarily on the job level at which the role is filled and the candidate’s qualifications, consistent with applicable law. Accommodation & Accessibility Notice: Intuitive is committed to providing reasonable accommodations to qualified individuals with disabilities. If you require assistance or an accommodation during any part of the application or interview process, please contact People Services at HRHelpNow@intusurg.com. We provide market-competitive compensation packages, inclusive of base pay, incentives, benefits, and equity. It would not be typical for someone to be hired at the top end of range for the role, as actual pay will be determined based on several factors, including experience, skills, and qualifications. The target compensation ranges are listed.",
+      "linkedin_url": "",
+      "focus_matches": [
+        "Agile",
+        "Operations"
+      ],
+      "focus_evidence": {
+        "Agile": "ty to be self-managed in a fast-paced environment utilizing agile/sprint methodologies. Quick learner with ability to understand complex products and processes. Abil",
+        "Operations": "cal Services, reporting to the Product Labeling & Packaging Operations Manager. Roles and responsibilities Essential duties Own the end-to-end CSL program , serving as th"
+      },
+      "work_mode": "Not specified",
+      "work_mode_evidence": "The reviewed official source does not confirm the work arrangement for this role.",
+      "match": 70,
+      "matched_skills": [
+        "Agile",
+        "Operations"
+      ]
+    },
+    {
+      "id": "greenhouse:adyen:8360175",
+      "company": "Adyen",
+      "title": "Strategy and Program Manager",
+      "location": "New York",
+      "salary": "Not disclosed",
+      "official_url": "https://job-boards.greenhouse.io/adyen/jobs/8360175",
+      "posted": "2026-11-06T16:24:30-05:00",
+      "date_evidence": "Greenhouse.first_published",
+      "evidence_url": "https://boards-api.greenhouse.io/v1/boards/adyen/jobs/8360175?pay_transparency=true",
+      "description": "<p><strong>This is Adyen</strong></p> <p><span style=\"font-weight: 400;\">Adyen provides payments, data, and financial products in a single solution for customers like Meta, Uber, H&amp;M, and Microsoft - making us the financial technology platform of choice. At Adyen, everything we do is engineered for ambition.&nbsp;</span></p> <p><span style=\"font-weight: 400;\">For our teams, we create an environment with opportunities for our people to succeed, backed by the culture and support to ensure they are enabled to truly own their careers. We are motivated individuals who tackle unique technical challenges at scale and solve them as a team. Together, we deliver innovative and ethical solutions that help businesses achieve their ambitions faster.</span></p> <p><strong>The Role</strong></p> <p>We’re looking for a Strategy &amp; Program Manager to help shape the future of Adyen’s Global Operations. You’ll sit within the Strategy &amp; Execution team and work across our core operational domains: Support, Professional Services, and Merchant Operations.</p> <p>This role is for a strategic operator who connects commercial ambition, technical innovation, and operational delivery. You won’t be tracking tasks. You’ll be taking on the hardest, least-defined problems in the organization and turning them into structures that work at scale. Your focus will shift as priorities shift, so expect a broad scope and an environment that keeps changing. Your mission is to make sure that as Adyen grows, our operational engine becomes more powerful, effective, and agile.</p> <p><strong>What you’ll do</strong></p> <ul> <li><strong>Solve high-complexity, systemic challenges:</strong> Take on high-stakes, ambiguous projects where no playbook exists. You’ll create the structure, define the “why,” and drive the “how,” taking undefined concepts from zero to scalable reality.</li> <li><strong>Design for the end-to-end customer lifecycle:</strong> Make sure a commercial idea translates into seamless Merchant Ops onboarding, a smooth Professional Services implementation, and world-class Support. You design for the customer experience and for the effectiveness of our internal teams.</li> <li><strong>Unblock the organization:</strong> Identify process debt and technical roadblocks that slow us down, and replace them with scalable, automated, or simplified workflows.</li> <li><strong>Connect global pillars:</strong> Act as the link between Adyen’s global product pillars and our operational domains, so our operations are ready before new products launch.</li> <li><strong>Steer with data:</strong> Use performance metrics as a roadmap for action. Spot friction early and use data-led diagnostics to guide the organization toward better ways of working.</li> <li><strong>Build AI into how we work:</strong> Go beyond adopting third-party tools. Re-engineer our processes, tooling, and ways of working so we scale through intelligence rather than complexity.</li> </ul> <p><strong>Who you are</strong></p> <ul> <li><strong>A strategic operator</strong> with 5+ years of experience in strategy consulting, tech strategy, business operations, program management, or operations in a high-growth environment. You’ve taken complex, messy programs from concept to delivery without letting the ball drop.</li> <li><strong>A systems thinker</strong> who looks beyond the immediate task to platform dependencies and technical trade-offs, and who sees how a decision in one area ripples across the customer journey.</li> <li><strong>A problem solver</strong> who doesn’t rely on “how it’s always been done.” You break problems down to their fundamentals and build solutions that are tech-driven, friction-free, and customer-centric.</li> <li><strong>A strategic influencer</strong> who can navigate high-stakes discussions with senior stakeholders, bring clarity to ambiguity, and drive alignment across teams and regions.</li> <li><strong>Technically fluent</strong>, comfortable in a tech-first environment, and able to talk with engineers and commercial leads alike.</li> <li><strong>Agile and resilient:</strong> You’re comfortable in the unknown, adapt quickly when priorities change, and keep up your execution power when there’s no playbook.</li> </ul> <p><strong>What success looks like:</strong></p> <ul> <li><strong>Complexity is simplified:</strong> You’ve replaced manual workarounds and technical roadblocks with simple and scalable workflows.</li> <li><strong>Operational agility:</strong> The organization can absorb new products, commercial growth and technical shifts seamlessly because the operational groundwork was laid months in advance.</li> <li><strong>Impact over activity:</strong> You are recognized as the person who unblocks the biggest hurdles, allowing our global teams to be more powerful and effective in their core roles.</li> </ul> <h3>Total rewards &amp; compensation</h3> <p>The annual base salary range for this role is $145,000 - $180,000. Compensation is based on factors including qualifications, experience, and location. Total compensation package includes equity (RSUs), 401(k), health, dental, vision, and more.</p> <h3>In-office expectations</h3> <p>This role will either be based in our New York or San Francisco office. We're an office-first company and expect employees to work in-office at least 3 days a week on average. This approach helps strike a balance between bringing people together for in-person collaboration and learning from each other, while also supporting flexibility.</p> <h3>Diversity, Equity, and Inclusion at Adyen</h3> <p>We actively seek different perspectives to sharpen our ideas. Our unique culture is a product of our diverse backgrounds and experiences. No matter who you are or where you’re from, you’re welcome to be your true self at Adyen.&nbsp;</p> <p><em>If you need accommodations or support during the recruitment process to perform at your best, you’ll have the opportunity to let our team know in your application. We encourage people from all backgrounds and abilities to apply.</em></p> <h3>What’s next?</h3> <p>Ensuring a smooth and enjoyable candidate experience is critical for us. We aim to get back to you regarding your application within 5 business days. Our <a href=\"https://careers.adyen.com/faqs\">interview process</a> tends to take about 4 weeks to complete, but may fluctuate depending on the role. If you have specific time constraints, please communicate them with your recruiter, and we’ll do our best to accommodate them where possible.</p> <h3>EEO statement</h3> <p><em>Adyen is an equal opportunity employer. We do not discriminate based on race, color, ethnicity, ancestry, national origin, religion, sex, gender, gender identity, gender expression, sexual orientation, age, disability, veteran status, genetic information, marital status or any legally protected status. All your information will be kept confidential according to EEO guidelines.</em></p> <h3>Work Eligibility</h3> <p>You must be work authorized in the United States without the need for new visa sponsorship. The company can support visa transfers but will not sponsor individuals for H-1B CAP applications.</p> <p>&nbsp;</p>",
+      "linkedin_url": "",
+      "focus_matches": [
+        "Agile",
+        "Operations"
+      ],
+      "focus_evidence": {
+        "Agile": "ur operational engine becomes more powerful, effective, and agile. What you’ll do Solve high-complexity, systemic challenges: Take on high-stakes, ambiguous projects",
+        "Operations": " Program Manager to help shape the future of Adyen’s Global Operations. You’ll sit within the Strategy & Execution team and work across our core operational domains: Supp"
+      },
+      "work_mode": "Not specified",
+      "work_mode_evidence": "The reviewed official source does not confirm the work arrangement for this role.",
+      "match": 70,
+      "matched_skills": [
+        "Agile",
+        "Operations"
+      ]
+    },
+    {
+      "id": "greenhouse:gitlab:8929468002",
+      "company": "GitLab",
+      "title": "Professional Services, Program Manager",
+      "location": "Remote, Canada; Remote, United States",
+      "salary": "Not disclosed",
+      "official_url": "https://job-boards.greenhouse.io/gitlab/jobs/8929468002",
+      "posted": "2026-11-06T16:28:11-05:00",
+      "date_evidence": "Greenhouse.first_published",
+      "evidence_url": "https://boards-api.greenhouse.io/v1/boards/gitlab/jobs/8929468002?pay_transparency=true",
+      "description": "<div class=\"content-intro\"><p>GitLab is the intelligent orchestration platform for DevSecOps. GitLab enables organizations to increase developer productivity, improve operational efficiency, reduce security and compliance risk, and accelerate digital transformation. More than 50 million registered users and more than 50% of the Fortune 100* trust GitLab to ship better, more secure software faster.</p> <p>The same principles built into our products are reflected in how our team works: we embrace AI as a core productivity multiplier, with all team members expected to incorporate AI into their daily workflows to drive efficiency, innovation, and impact. GitLab is where careers accelerate, innovation flourishes, and every voice is valued. Our high-performance culture is driven by our values&nbsp;and continuous knowledge exchange, enabling our team members to reach their full potential while collaborating with industry leaders to solve complex problems. <a href=\"https://www.youtube.com/watch?v=OuZIb5zszQI\">Co-create the future with us</a> as we build technology that transforms how the world develops software.</p> <p>*<em>Fortune 500® is a registered trademark of Fortune Media IP Limited, used under license. Claim based on GitLab data. Fortune 100 refers to the top 20% ranked companies in the 2025 Fortune 500 list, published in June 2025. Fortune and Fortune Media IP Limited are not affiliated with, and do not endorse products or services of GitLab.</em></p></div><h2>An overview of this role</h2> <p>As a Professional Services Program Manager at GitLab, you will lead the delivery of complex, multi-workstream services engagements for some of our largest and most strategic customers. You will help customers turn transformation goals into clear execution plans by bringing structure, visibility, and accountability across interconnected projects. Working closely with customer stakeholders and GitLab team members, you will guide programs from planning through delivery while building trusted relationships across executive, technical, and delivery teams. In this role, you will define and apply a strong delivery methodology grounded in agile and project management best practices, communicate that approach clearly, and keep teams aligned on milestones, dependencies, and outcomes. This is a strong opportunity to shape how customers adopt GitLab at scale and help them realize meaningful business value through effective program leadership.</p> <h2>What you'll do</h2> <ul> <li value=\"1\">Lead delivery of multi-workstream professional services engagements for large and strategic customers</li> <li value=\"2\">Build strong relationships with customer stakeholders, including executive leaders, program and project managers, engineering, development, and security teams</li> <li value=\"3\">Develop and apply a delivery methodology that uses agile and project management best practices, and communicate how the methodology will be used throughout the program</li> <li value=\"4\">Create and continuously communicate program roadmaps, dependencies, milestones, and deliverables across connected projects</li> <li value=\"5\">Manage stakeholder expectations and secure approval on major milestones, decisions, and delivery plans</li> <li value=\"6\">Define program strategy, including business justification, expected benefits, in-scope and out-of-scope work, timelines, schedules, resources, stakeholders, and success criteria</li> <li value=\"7\">Establish core program structures such as RACI charts, work breakdown structures, communication plans, and escalation paths</li> <li value=\"8\">Work closely with Engagement Managers and Regional Delivery Managers to support program scoping, review delivery assumptions, and help improve project management processes through quarterly objectives and key results (OKRs)</li> </ul> <h2>What you'll bring</h2> <ul> <li value=\"1\">Experience leading <strong><strong class=\"textBold\">complex programs</strong></strong> with multiple interdependent projects, stakeholders, and timelines</li> <li value=\"2\">Strong skill in program planning, forecasting, reporting, and communicating delivery metrics clearly to internal and external stakeholders</li> <li value=\"3\">Ability to organize, monitor, and manage long-term project budgets, schedules, risks, and dependencies</li> <li value=\"4\">Proven ability to build collaborative relationships with customers and partner effectively with Engagement Managers, Architects, and delivery teams</li> <li value=\"5\">Working knowledge of agile and other project management approaches, with the judgment to apply the right structure to different customer needs</li> <li value=\"6\">Ability to develop long-term plans that support customer adoption, transformation, and successful delivery outcomes</li> <li value=\"7\">Comfort leading program-level meetings and driving progress across multiple workstreams</li> <li value=\"8\">Willingness to complete <strong><strong class=\"textBold\">GitLab Project Management certification</strong></strong> within 2 months of starting in the role</li> </ul> <h2>About the team</h2> <p>On our Professional Services team, we help customers adopt GitLab effectively by turning strategy into structured delivery. As Program Managers on our team, we bring clarity to large, complex engagements by coordinating people, plans, and processes across multiple workstreams. We work closely with customers, Engagement Managers, Architects, and delivery leaders to create practical plans, manage risk, and keep programs moving toward agreed outcomes. Because we operate in an all-remote, asynchronous environment, we value clear communication, strong documentation, and ownership. This role is well suited for you if you enjoy building order in complex environments, guiding stakeholders through change, and helping customers make progress on meaningful transformation efforts.</p><div class=\"content-conclusion\"><h4><strong>How GitLab Supports Full-Time Employees</strong></h4> <ul> <li><a href=\"https://about.gitlab.com/handbook/total-rewards/benefits/general-and-entity-benefits/\">Benefits to support your health, finances, and well-being</a></li> <li><a href=\"https://handbook.gitlab.com/handbook/people-group/time-off-and-absence/time-off-types/#flexible-paid-time-off-pto\">Flexible Paid Time Off&nbsp;</a></li> <li><a href=\"https://handbook.gitlab.com/handbook/company/culture/inclusion/tmrg-tmag/\">Team Member Resource Groups</a></li> <li><a href=\"https://handbook.gitlab.com/handbook/total-rewards/stock-options/\">Equity Compensation &amp; Employee Stock Purchase Plan</a></li> <li><a href=\"https://handbook.gitlab.com/handbook/people-group/learning-and-development/growth-and-development/\">Growth and Development Fund</a></li> <li><a href=\"https://about.gitlab.com/handbook/total-rewards/benefits/general-and-entity-benefits/#parental-leave\">Parental Leave</a>&nbsp;</li> </ul> <p>Please note that we welcome interest from candidates with varying levels of experience; many successful candidates do not meet every single requirement. Additionally, studies have shown that people from <a href=\"https://about.gitlab.com/company/culture/inclusion/#examples-of-select-underrepresented-groups\">underrepresented groups</a> are less likely to apply to a job unless they meet every single qualification. If you're excited about this role, please apply and allow our recruiters to assess your application.</p> <hr> <p><strong>Country Hiring Guidelines: </strong>GitLab hires new team members in countries around the world. All of our roles are remote, however some roles may carry specific location-based eligibility requirements. Our Talent Acquisition team can help answer any questions about location after starting the recruiting process.&nbsp;&nbsp;</p> <p><strong>Privacy Policy: </strong>Please review our <a href=\"https://handbook.gitlab.com/handbook/hiring/candidate-faq/recruitment-privacy-policy/\" target=\"_blank\">Recruitment Privacy Policy.</a> Your privacy is important to us.</p> <p>GitLab is proud to be an equal opportunity workplace and is an affirmative action employer. GitLab’s policies and practices relating to recruitment, employment, career development and advancement, promotion, and retirement are based solely on merit, regardless of race, color, religion, ancestry, sex (including pregnancy, lactation, sexual orientation, gender identity, or gender expression), national origin, age, citizenship, marital status, mental or physical disability, genetic information (including family medical history), discharge status from the military, protected veteran status (which includes disabled veterans, recently separated veterans, active duty wartime or campaign badge veterans, and Armed Forces service medal veterans), or any other basis protected by law. GitLab will not tolerate discrimination or harassment based on any of these characteristics. See also&nbsp;<a href=\"https://about.gitlab.com/handbook/people-policies/inc-usa/#equal-employment-opportunity-policy\" target=\"_blank\">GitLab’s EEO Policy</a>&nbsp;and&nbsp;<a href=\"https://about.gitlab.com/handbook/labor-and-employment-notices/#eeoc-us-equal-employment-opportunity-commission-notices\" target=\"_blank\">EEO is the Law</a>. If you have a disability or special need that requires&nbsp;<a href=\"https://about.gitlab.com/handbook/people-policies/inc-usa/#reasonable-accommodation\" target=\"_blank\">accommodation</a>, please let us know during the&nbsp;<a href=\"https://about.gitlab.com/handbook/hiring/interviewing/#adjustments-to-our-interview-process\" target=\"_blank\">recruiting process</a>.</p></div>",
+      "linkedin_url": "",
+      "focus_matches": [
+        "Agile",
+        "OKRs"
+      ],
+      "focus_evidence": {
+        "Agile": " define and apply a strong delivery methodology grounded in agile and project management best practices, communicate that approach clearly, and keep teams aligned on",
+        "OKRs": "help improve project management processes through quarterly objectives and key results (OKRs) What you'll bring Experience leading complex programs with multiple interdependent projects,"
+      },
+      "work_mode": "Remote available",
+      "work_mode_evidence": "The official location includes remote work; confirm geographic restrictions and other work arrangements with the employer.",
+      "match": 70,
+      "matched_skills": [
+        "Agile",
+        "OKRs"
+      ]
+    },
+    {
+      "id": "greenhouse:2k:8046878003",
+      "company": "2K",
+      "title": "Publishing Producer",
+      "location": "Novato, California, United States",
+      "salary": "Not disclosed",
+      "official_url": "https://job-boards.greenhouse.io/2k/jobs/8046878003",
+      "posted": "2026-11-06T15:54:13-05:00",
+      "date_evidence": "Greenhouse.first_published",
+      "evidence_url": "https://boards-api.greenhouse.io/v1/boards/2k/jobs/8046878003?pay_transparency=true",
+      "description": "<h4><strong>Who We Are</strong></h4> <p>At 2K, we create some of the most iconic and culture-shaping video games in entertainment, including <em><strong>NBA® 2K</strong></em>, one of the top-selling franchises in the world, and legendary titles like <em><strong>BioShock®, Borderlands®, Mafia, Sid Meier’s Civilization®, and XCOM®</strong></em>, as well as fan favorites <em><strong>WWE® 2K, TopSpin®, and PGA TOUR® 2K</strong></em>. We build unforgettable experiences by pushing the boundaries of creativity, authenticity and innovation across every genre.<br><br>Our portfolio is brought to life by some of the most influential game development studios in the world. <strong>Visual Concepts, Firaxis Games, Hangar 13, Cat Daddy Games, 31st Union, Cloud Chamber, Gearbox, HB Studios,</strong> and <strong>2K SportsLab</strong> create world-class experiences across platforms.</p> <p>But what truly powers 2K is our people.</p> <p>We believe the best ideas come from teams that feel empowered, supported, and inspired. As an equal opportunity employer, we are committed to fostering a diverse, inclusive workplace where people are encouraged to <strong>come as they are</strong> and do their best work.</p> <p><strong>What We Need</strong></p> <p>The Sports Business Unit at 2K is looking for a Publishing Producer to join our team. This is a critical role that will further develop the foundations of our next blockbuster sports IP, offering a rare opportunity to impact the future of the sports video game category. The role requires strong production fundamentals, a highly organized approach to complex pipelines, and the ability to effectively bridge development and publishing teams from concept to release.</p> <p>We are seeking a proactive, experienced professional with 4-5+ years of game development experience—ideally in AAA or live-service environments—to lead critical publishing operations and end-to-end delivery pipelines. In this role, you will act as a “mission control” for publishing activity, tech integrations, and budget areas, leveraging your deep expertise to take a title from inception to ship, while serving as a strategic bridge of alignment between development teams and cross-functional publishing units.</p> <p><strong>What You Will Do</strong></p> <p>Responsibilities in this role could include the following:</p> <ul> <li>Act as best-in-class production support to our development teams - deeply understanding their needs, supporting them in building publishing-dependant development pipelines and developing a strong publisher-developer relationship</li> <li>Develop production pipelines for designing, creating and approving in-game content, ensuring we have adequate process in place to track progress, resolve blockers and have enough quality content to satisfy our player needs</li> <li>Contribute to milestone reviews of internal game builds and design documentation, using your lived experience of game development to provide valuable feedback to our development teams and help them realize their vision</li> <li>Drive the overall integration of backend / core tech services into an in-development title, processing both game team and central technology requirements and ensuring timely delivery of features around our release schedules</li> <li>Design and run processes for internal game evaluation, incorporating inputs from Publishing and QA to ensure we’re delivering consistent and timely feedback to our development teams</li> <li>Lead the overall game submission process for a AAA game from pre-certification to post-launch, triaging effectively between the development team, QA and Release Management to ensure we ship on time and at quality</li> <li>Confidently coordinate playtests and build launches, driving internal alignment and clarity across game teams and publishing units, and closing out tactical responses to live issues</li> <li>Convert your deep knowledge of our products into easily-understandable business requirements, ensuring marketing, commercial, and licensing partners understand in-development features and can operate in their roles effectively</li> <li>Manage designated portions of a AAA game budget, such as tracking external development spend or third party porting costs</li> <li>Support Publishing Production leadership with preparing material for executive-facing presentations</li> </ul> <p><strong>What Will Make You a Great Fit</strong></p> <ul> <li>4-5+ years experience in internal or external game development, ideally on AAA and/or Live Service games</li> <li>Lived experience of the difference between Publishing and Development Production, either as part of a publishing production team already, or as part of an internal development team with external publisher backing</li> <li>Strong previous experience in project management and production, with a proven ability to take full games (or major features) from inception to ship and support them post-launch</li> <li>Deep understanding of the game development lifecycle - you know instinctively where games should be at major milestones and can critically assess the strengths and weaknesses of in-development projects</li> <li>Excellent communication skills - you seamlessly adapt your communication style based on your audience, and are comfortable leading everything from 1-1s to group presentations.</li> <li>Strong relationship-building skills - you actively maintain a clear map of internal and external teams, sharing knowledge effectively and instilling confidence in our partners</li> <li>Strong problem solving skills - you are calm and curious under pressure, handling ambiguous development challenges with a structured approach</li> <li>Financially competent - you have experience managing budgets for small games or bespoke areas of large games, and are diligent about resolving budget risks</li> <li>Passion for the gaming market - you can discuss current industry trends with ease and actively apply those learnings to our own games</li> <li>Passion for sports - a genuine passion for sports in some form; whether that’s playing in real life, obsessively following your local team, playing sports video games with your friends, or having sports be a key part of your local community and social life</li> </ul> <p><strong>What Tools You’ll Have Experience With</strong></p> <ul> <li>Must-Have - Google Suite, especially Sheets, Slides and Docs</li> <li>Should-Have - Jira, Asana</li> </ul> <p><strong>Bonus Points</strong></p> <ul> <li>Familiarity with establishing new IP - experience building something brand new from a ‘blank page’, understanding how to channel creative ambition into something that’s actually possible to ship</li> </ul> <p><br>The pay range for this position in California at the start of employment is expected to be between $112,700 and $166,820 per Year. <span class=\"citation-1549 citation-1550\">However, base pay offered is based on market location, and may vary further depending on individualized factors for job candidates, such as job related knowledge skills, experience and other objective business considerations.&nbsp;</span><span class=\"citation-1549 citation-1550\">Subject to those same consid</span><span class=\"citation-1546 citation-1547 citation-1548 citation-1549 citation-1550 citation-end-1550\">erations, the total compensation packag</span><span class=\"citation-1546 citation-1547 citation-1548 citation-1549 citation-end-1549\">e for this position may also </span><span class=\"citation-1546 citation-1547 citation-1548 citation-end-1548\">include other elements, including a bonus and/or equity awards and eligibility to participate in our 401(K) plan and Employee Stock Purchase Program.</span></p> <p>&nbsp;</p> <p id=\"p-rc_b338e4e8d5e44403-49\" data-path-to-node=\"9\"><span class=\"citation-1543 citation-1544 citation-1545 citation-end-1545\">Regular, full-time employees are also</span><span class=\"citation-1543 citation-1544 citation-end-1544\"> eligible for a range of benefits at the Company, including: medical, dental, vision, and basic life insurance co</span><span class=\"citation-1543 citation-end-1543\">verage; 14 paid holidays per calendar year; paid vacation time per calendar year (ranging from 15 to 25</span> days) or eligibility to participate in the Company’s discretionary time off program; up to 10 paid sick days per calendar year; paid parental and compassionate leave; wellbeing programs for mental health and other wellness support; family planning support through Maven; commuter benefits; and reimbursements for fitness-related expenses.</p> <p id=\"p-rc_b338e4e8d5e44403-50\" data-path-to-node=\"10\">If hired, employee will be in an \"at-will position\" and the company reserves the right to modify base salary (as well as any other discretionary paym<span class=\"citation-1542 citation-end-1542\">ent or compensation or benefit program) at any time, including for reasons related to individual performance, company or individual department/team performance, and market factors.</span></p> <p id=\"p-rc_b338e4e8d5e44403-23\" data-path-to-node=\"11\"><span class=\"\" data-path-to-node=\"11,0\"><span class=\"citation-1541\">As an equal opportunity employer, we are comm</span><span class=\"citation-1539 citation-1540 citation-1541 citation-end-1541\">itted</span><span class=\"citation-1539 citation-1540 citation-end-1540\"> to ensuring that qualified individuals with disabilities are provided reasonable accommodation to participate in the job application or interview process, to perform their essential job functions, and to receive other benefits and privileges of </span><span class=\"citation-1539 citation-end-1539\">employment</span></span><span class=\"\" data-path-to-node=\"11,2\"><span class=\"citation-1538 citation-end-1538\">. Please contact us if you need reasonable accommodation</span></span><span class=\"\" data-path-to-node=\"11,4\"><span class=\"citation-1537 citation-end-1537\">.</span></span></p> <p id=\"p-rc_b338e4e8d5e44403-24\" data-path-to-node=\"12\"><span class=\"\" data-path-to-node=\"12,0\"><span class=\"citation-1536 citation-end-1536\">Please note that 2K Games and its studios never uses instant messaging ap</span>ps or personal email accounts to contact prospective employees or conduct interviews and when emailing, only use 2K.com accounts</span><span data-path-to-node=\"12,2\">.</span></p> <p data-path-to-node=\"13\">Please note that 2K Publishing is unable to provide visa sponsorship or assistance for this position. All candidates must be legally authorized to work in United States without requiring current or future employer sponsorship.</p> <p id=\"p-rc_b338e4e8d5e44403-25\" data-path-to-node=\"14\"><span data-path-to-node=\"14,0\">#LI-Hybrid</span></p> <p>&nbsp;</p>",
+      "linkedin_url": "https://www.linkedin.com/jobs/view/publishing-producer-at-2k-4488446789?position=8&pageNum=0&refId=wotG5681hxlpOF99nj3%2FgA%3D%3D&trackingId=VkqAZeqhyIXdwWqYQD5sQQ%3D%3D",
+      "focus_matches": [
+        "Operations"
+      ],
+      "focus_evidence": {
+        "Operations": "AA or live-service environments—to lead critical publishing operations and end-to-end delivery pipelines. In this role, you will act as a “mission control” for publishing"
+      },
+      "work_mode": "Not specified",
+      "work_mode_evidence": "The reviewed official source does not confirm the work arrangement for this role.",
+      "match": 55,
+      "matched_skills": [
+        "Operations"
+      ]
+    },
+    {
+      "id": "smartrecruiters:NBCUniversal3:744000160291330",
+      "company": "NBCUniversal",
+      "title": "Producer/Editor, Telemundo Al Rojo Vivo",
+      "location": "Universal City, CALIFORNIA, us",
+      "salary": "Not disclosed",
+      "official_url": "https://jobs.smartrecruiters.com/NBCUniversal3/744000160291330-producer-editor-telemundo-al-rojo-vivo",
+      "posted": "2026-11-06T20:03:39.009Z",
+      "date_evidence": "SmartRecruiters.releasedDate (release; may be a repost)",
+      "evidence_url": "https://api.smartrecruiters.com/v1/companies/NBCUniversal3/postings/744000160291330",
+      "description": "NBCUniversal is one of the world's leading media and entertainment companies. We create world-class content, which we distribute across our portfolio of film, television, and streaming, and bring to life through our global theme park destinations, consumer products, and experiences. We own and operate leading entertainment and news brands, including NBC, NBC News, NBC Sports, Telemundo, NBC Local Stations, Bravo, and Peacock, our premium ad-supported streaming service. We produce and distribute premier filmed entertainment and programming through our powerhouse film and television studios, including Universal Pictures, DreamWorks Animation, and Focus Features, and the four global television studios under the Universal Studio Group banner, and operate industry-leading theme parks and experiences around the world through Universal Destinations & Experiences, including Universal Orlando Resort, home to Universal Epic Universe, and Universal Studios Hollywood. NBCUniversal is a subsidiary of Comcast Corporation. Visit www.nbcuniversal.com for more information. Our impact is rooted in improving the communities where our employees, customers, and audiences live and work. We have a rich tradition of giving back and ensuring our employees have the opportunity to serve their communities. We champion an inclusive culture and strive to attract and develop a talented workforce to create and deliver a wide range of content reflecting our world. The Producer will field, produce, edit and present packages for assigned segments in Al Rojo Vivo. This can include producing packages and segments on news/entertainment RESPONSIBILITIES Responsible for working independently with guidance from the Line producer and/or General Producer Researching segments, and writing scripts Writes compelling copy and teases Secures elements such as sound bites and video to support segments Partners with other departments as needed (such as Graphics, Tech Ops, and Satellite Operations) to place and follow-up on requests Assists Line Producer with production of the show during and after tapings Reports (research, write, produce, present) fair and accurate stories as assigned daily to air on Al Rojo Vivo Develops and produces live guest segments Manages and arranges any necessary travel logistics for guests Gathers and verifies news and features information for presentation on air, online and mobile Actively participates in daily meetings with story pitches of interest to our viewers Collaborates with producers, managers, and photographers to conceptualize, write, and produce stories Incorporates social media Stays informed regarding current events on a national, international, and regional level Completes and submits all release forms as and permits as needed Works under the direct supervision of the General Producer and is responsible for completing any other tasks as assigned by supervisor ordinating graphics, library, and video. In addition, they will oversee editorial aspects of the show. Basic Qualifications Fluency in Spanish and English, with exceptional written and verbal communication skills in both languages. Minimum 5 years of experience in Television Production or an equivalent combination of education and experience Bachelor’s Degree in Communications, Journalism, or related field Knowledge of iNews and Media Central Eligibility Requirements Must have unrestricted work authorization to work in the United States. Must be 18 years or greater. Candidates must submit a resume/CV via www.nbcunicareers.com to be considered. Must be willing to work in Los Angeles, CA Must be able to perform job at locations in and outside work environment with varying weather conditions Desired Characteristics Passionate about news/entertainment Energetic, and creative team player Creative, highly organized and detail oriented Strong interpersonal & Leadership skills Proactive thinker/self-starter Demonstrated ability to meet deadlines and successfully manage multiple assignments Additional Requirements Required On-Site: This position is required to be performed full-time from an NBCUniversal-designated worksite in Los Angeles, CA. This position is eligible for company sponsored benefits, including medical, dental and vision insurance, 401(k), paid leave, tuition reimbursement, and a variety of other discounts and perks. Learn more about the benefits offered by NBCUniversal by visiting the Benefits page of the Careers website. Salary range: $95,000-$100,000 As part of our selection process, external candidates may be required to attend an in-person interview with an NBCUniversal employee at one of our locations prior to a hiring decision. NBCUniversal's policy is to provide equal employment opportunities to all applicants and employees without regard to race, color, religion, creed, gender, gender identity or expression, age, national origin or ancestry, citizenship, disability, sexual orientation, marital status, pregnancy, veteran status, membership in the uniformed services, genetic information, or any other basis protected by applicable law. NBCUniversal will consider for employment qualified applicants with criminal histories, or arrest or conviction records, in a manner consistent with relevant legal requirements, including the City of Los Angeles' Fair Chance Initiative For Hiring Ordinance, the Los Angeles County Fair Chance Ordinance for Employers, and the California Fair Chance Act, where applicable. If you are a qualified individual with a disability or a disabled veteran and require support throughout the application and/or recruitment process as a result of your disability, you have the right to request a reasonable accommodation. You can submit your request to AccessibilitySupport@nbcuni.com.",
+      "linkedin_url": "https://www.linkedin.com/jobs/view/producer-editor-telemundo-al-rojo-vivo-at-nbcuniversal-4488415741?position=3&pageNum=0&refId=wotG5681hxlpOF99nj3%2FgA%3D%3D&trackingId=Pitbds5qQSa4EHdSxjfGBw%3D%3D",
+      "focus_matches": [
+        "Operations"
+      ],
+      "focus_evidence": {
+        "Operations": "tments as needed (such as Graphics, Tech Ops, and Satellite Operations) to place and follow-up on requests Assists Line Producer with production of the show during and af"
+      },
+      "work_mode": "On-site",
+      "work_mode_evidence": "and successfully manage multiple assignments Additional Requirements Required On-Site: This position is required to be performed full-time from an NBCUniversal-designated worksite in Los Angeles, CA",
+      "match": 55,
+      "matched_skills": [
+        "Operations"
+      ]
+    },
+    {
+      "id": "ashby:notion:73b0e05e-317f-4f84-8fb2-58dc8c3790a6",
+      "company": "Notion",
+      "title": "Technical Program Manager, EPD",
+      "location": "San Francisco, California, United States; Remote: United States",
+      "salary": "Not disclosed",
+      "official_url": "https://jobs.ashbyhq.com/notion/73b0e05e-317f-4f84-8fb2-58dc8c3790a6",
+      "posted": "2026-11-06",
+      "date_evidence": "JobPosting.datePosted",
+      "evidence_url": "https://jobs.ashbyhq.com/notion/73b0e05e-317f-4f84-8fb2-58dc8c3790a6",
+      "description": "Who We Are Notion is the collaborative AI workspace where teams and agents think together . We're building one place where your knowledge, projects, meetings, and AI tools live side by side, so work is faster, clearer, and less fragmented. Millions of individuals, small teams, and large companies run their work on Notion. Notinos (our employees) are customer zero in bringing this future of work to life. We care about craft, building things that last, and the belief that great work is still fundamentally human. Our goal isn’t to ship the next feature. Each and every team of Notinos is working to set the standard for how humans work together in the AI era. From building a business’s system of record to making and managing AI agents to automating away the busy work, we care deeply about giving our customers more time for their life’s work. About the Role: This is an opportunity to join Notion's TPM organization as a key partner to our Engineering, Product, and Design (EPD) leadership. You'll work hand-in-hand with the most senior engineering, product, and design leaders at Notion to help run the programs and operating rhythms that keep EPD focused, aligned, and shipping. You'll own a portfolio of programs that spans internal engineering initiatives as well as cross-functional, externally facing efforts with partners across Go-to-Market, Marketing, Support, and beyond, ensuring that we meet the ever-growing expectations of our global user base. This role can be based in either San Francisco or New York City. We work from our offices on Mondays, Tuesdays and Thursdays (our Anchor Days) because we do our best thinking and building together in person. We’re looking for someone who’s excited to work alongside the team during those days. What You'll Achieve: Work closely with senior EPD leaders to drive multiple concurrent programs, from internal engineering initiatives (platform, infrastructure, quality, and developer productivity) to external, cross-functional programs such as major launches and customer-facing commitments Combine long-term vision with near-term execution: be accountable for overall delivery, including prioritization, success criteria, and program communications in coordination with your partners Help design and run EPD's operating cadence, including planning cycles, goal-setting, roadmap reviews, leadership syncs, and business reviews Act as a connector across EPD and the broader company, bringing the right people together, driving decisions to closure, and making sure follow-through happens Prepare clear, concise materials for leadership, including status updates, decision docs, and executive summaries that turn complexity into clarity Monitor program status, proactively identify and communicate issues / risks, and unblock work wherever possible Take on high-priority, ambiguous special projects for EPD leadership and drive them from problem definition to outcome Forge strong partnerships with technical and business leaders across the company, ensuring that team resource investments align with company priorities Skills You'll Need to Bring: 8+ years of technical program management experience at a technology company, or in an equivalent technical or operational capacity, delivering clear and impactful results Proven track record of running multiple complex, cross-functional programs at once, from inception to delivery Enjoy solving hard problems and can turn incomplete, conflicting, or ambiguous inputs into action plans and drive them to impact Strong technical fluency: you can go deep with engineers on systems and tradeoffs, and translate them for non-technical audiences Excellent written and verbal communication, with experience creating executive-ready updates, narratives, and decision docs Strategic thinking and sound judgment: you can see the big picture, prioritize ruthlessly, and know when to escalate Experience designing and running operating rhythms, such as planning, OKRs, leadership meetings, and reviews, for a growing organization Builder mentality and an automation-first instinct: you'd rather script, automate, or build a lightweight tool than run the same process by hand twice, and you bring that bias to every program and operating rhythm you own Notion is committed to providing highly competitive cash compensation, equity, and benefits. The compensation offered for this role will be based on multiple factors such as location, the role’s scope and complexity, and the candidate’s experience and expertise, and may vary from the range provided below. For roles based in San Francisco or New York City, the estimated base salary range for this role is $200,000 - $270,000 per year. By clicking “Submit Application”, I understand and agree that Notion and its affiliates and subsidiaries will collect and process my information in accordance with Notion’s Global Recruiting Privacy Policy and NYLL 144 . #LI-Onsite A Note on AI You don’t need deep AI expertise for every role, but we do expect every Notino to be intellectually curious, drawn to tinkering and discovery, and excited to use AI as a real collaborator in their work. For some roles, AI fluency is a core requirement — when that’s the case, we'll say so explicitly in the qualifications. People who thrive here don’t treat AI as a novelty. They use it to think better, and make their work easier for others to build on. Equal Opportunity & Accommodations We hire talented people from a wide range of backgrounds. If you’re excited about this role but don’t meet every bullet, we still encourage you to apply. Notion is an equal opportunity employer and does not discriminate on the basis of any legally protected characteristic. Consistent with applicable law, we will consider for employment qualified applicants with arrest and conviction records. Notion provides reasonable accommodations during the application process; if you need one, please let your recruiter know. Notion is proud to be an equal opportunity employer. We do not discriminate in hiring or any employment decision based on race, color, religion, national origin, age, sex (including pregnancy, childbirth, or related medical conditions), marital status, ancestry, physical or mental disability, genetic information, veteran status, gender identity or expression, sexual orientation, or other applicable legally protected characteristic. Notion considers qualified applicants with criminal histories, consistent with applicable federal, state and local law. Notion is also committed to providing reasonable accommodations for qualified individuals with disabilities and disabled veterans in our job application procedures. If you need assistance or an accommodation due to a disability, please let your recruiter know.",
+      "linkedin_url": "",
+      "work_mode": "Hybrid",
+      "work_mode_evidence": "Official workplaceType field: Hybrid",
+      "focus_matches": [
+        "OKRs"
+      ],
+      "focus_evidence": {
+        "OKRs": " designing and running operating rhythms, such as planning, OKRs, leadership meetings, and reviews, for a growing organization Builder mentality and an automation-f"
+      },
+      "match": 55,
+      "matched_skills": [
+        "OKRs"
+      ]
+    }
+  ]
+}
