@@ -10,109 +10,36 @@ Search area: USA, Canada, Mexico, Spain, LATAM, and eligible remote roles. Resul
 
 <!-- DASHBOARD:START -->
 
-## Dashboard: 2026-11-06
+## Dashboard: 2026-11-07
 
 > Your worth is not measured by an inbox. One thoughtful application at a time is enough for today.
 
-Publication day: 2026-11-06. Verified at: 2026-11-06T22:53:44.709216-08:00 (America/Los_Angeles).
+Publication day: 2026-11-07. Verified at: 2026-11-07T22:59:49.248546-08:00 (America/Los_Angeles).
 
 Up to 30 verified listings from the requested publication day. Coverage is limited to accessible sources.
 
-Reviewed: 61642 | Recommended: 6 | Applied excluded: 0 | Previously seen: 0 | Unverified: 0 | Outside topic focus: 0
+Reviewed: 61617 | Recommended: 0 | Applied excluded: 0 | Previously seen: 0 | Unverified: 0 | Outside topic focus: 0
 
-Accessible sources: 275 | LinkedIn candidates: 99
+Accessible sources: 275 | LinkedIn candidates: 0
 
-LinkedIn: Public access available: 42 searches; publication dates verified only against official sources
+LinkedIn: Public access limited (HTTPError); no bypass or login attempted
 
-Regional coverage: Mexico 0 verified candidates | Spain 0 verified candidates. Target: 30; returned: 6.
+Regional coverage: Mexico 0 verified candidates | Spain 0 verified candidates. Target: 30; returned: 0.
 
 ## Top 5
 
 | Estimated match | Company | Role | Location | Work arrangement | Apply |
 |---|---|---|---|---|---|
-| 70% | Intuitive | Technical Program Manager | Sunnyvale, CA, us | Not specified | [Apply](<https://jobs.smartrecruiters.com/Intuitive/744000160302620-technical-program-manager>) |
-| 70% | Adyen | Strategy and Program Manager | New York | Not specified | [Apply](<https://job-boards.greenhouse.io/adyen/jobs/8360175>) |
-| 70% | GitLab | Professional Services, Program Manager | Remote, Canada; Remote, United States | Remote available | [Apply](<https://job-boards.greenhouse.io/gitlab/jobs/8929468002>) |
-| 55% | 2K | Publishing Producer | Novato, California, United States | Not specified | [Apply](<https://job-boards.greenhouse.io/2k/jobs/8046878003>) |
-| 55% | NBCUniversal | Producer/Editor, Telemundo Al Rojo Vivo | Universal City, CALIFORNIA, us | On-site | [Apply](<https://jobs.smartrecruiters.com/NBCUniversal3/744000160291330-producer-editor-telemundo-al-rojo-vivo>) |
+No verified listings met all filters in the accessible sources.
 
 ## Verified jobs
 
 | Estimated match | Company / role | Location | Work arrangement | Published salary | Official publication date | Apply | LinkedIn |
 |---|---|---|---|---|---|---|---|
-| 70% | Intuitive / Technical Program Manager | Sunnyvale, CA, us | Not specified | Not disclosed | 2026-11-06T21:34:56.427Z | [Apply](<https://jobs.smartrecruiters.com/Intuitive/744000160302620-technical-program-manager>) | Not available |
-| 70% | Adyen / Strategy and Program Manager | New York | Not specified | Not disclosed | 2026-11-06T16:24:30-05:00 | [Apply](<https://job-boards.greenhouse.io/adyen/jobs/8360175>) | Not available |
-| 70% | GitLab / Professional Services, Program Manager | Remote, Canada; Remote, United States | Remote available | Not disclosed | 2026-11-06T16:28:11-05:00 | [Apply](<https://job-boards.greenhouse.io/gitlab/jobs/8929468002>) | Not available |
-| 55% | 2K / Publishing Producer | Novato, California, United States | Not specified | Not disclosed | 2026-11-06T15:54:13-05:00 | [Apply](<https://job-boards.greenhouse.io/2k/jobs/8046878003>) | [LinkedIn](<https://www.linkedin.com/jobs/view/publishing-producer-at-2k-4488446789?position=8&pageNum=0&refId=wotG5681hxlpOF99nj3%2FgA%3D%3D&trackingId=VkqAZeqhyIXdwWqYQD5sQQ%3D%3D>) |
-| 55% | NBCUniversal / Producer/Editor, Telemundo Al Rojo Vivo | Universal City, CALIFORNIA, us | On-site | Not disclosed | 2026-11-06T20:03:39.009Z | [Apply](<https://jobs.smartrecruiters.com/NBCUniversal3/744000160291330-producer-editor-telemundo-al-rojo-vivo>) | [LinkedIn](<https://www.linkedin.com/jobs/view/producer-editor-telemundo-al-rojo-vivo-at-nbcuniversal-4488415741?position=3&pageNum=0&refId=wotG5681hxlpOF99nj3%2FgA%3D%3D&trackingId=Pitbds5qQSa4EHdSxjfGBw%3D%3D>) |
-| 55% | Notion / Technical Program Manager, EPD | San Francisco, California, United States; Remote: United States | Hybrid | Not disclosed | 2026-11-06 | [Apply](<https://jobs.ashbyhq.com/notion/73b0e05e-317f-4f84-8fb2-58dc8c3790a6>) | Not available |
 
 ## Evidence and fit
 
 Topic match is a heuristic, not a hiring probability or verified assessment of experience. With topic focus enabled: 40 base points plus 15 per matched theme (Agile, OKRs, Operations, ISO 27001), capped at 100. At least one theme is required. Results are ordered by match; California breaks ties.
-
-### Intuitive: Technical Program Manager
-
-- Job ID: smartrecruiters:Intuitive:744000160302620
-- Application status: Not recorded as applied
-- Work arrangement: Not specified. The reviewed official source does not confirm the work arrangement for this role.
-- Publication date: 2026-11-06T21:34:56.427Z. Zoned timestamps are evaluated in California time.
-- Date evidence: [SmartRecruiters.releasedDate (release; may be a repost)](<https://api.smartrecruiters.com/v1/companies/Intuitive/postings/744000160302620>)
-- Relevant themes: Agile, Operations.
-- Theme evidence: the official title or description mentions Agile.
-- Theme evidence: the official title or description mentions Operations.
-
-### Adyen: Strategy and Program Manager
-
-- Job ID: greenhouse:adyen:8360175
-- Application status: Not recorded as applied
-- Work arrangement: Not specified. The reviewed official source does not confirm the work arrangement for this role.
-- Publication date: 2026-11-06T16:24:30-05:00. Zoned timestamps are evaluated in California time.
-- Date evidence: [Greenhouse.first_published](<https://boards-api.greenhouse.io/v1/boards/adyen/jobs/8360175?pay_transparency=true>)
-- Relevant themes: Agile, Operations.
-- Theme evidence: the official title or description mentions Agile.
-- Theme evidence: the official title or description mentions Operations.
-
-### GitLab: Professional Services, Program Manager
-
-- Job ID: greenhouse:gitlab:8929468002
-- Application status: Not recorded as applied
-- Work arrangement: Remote available. The official location includes remote work; confirm geographic restrictions and other work arrangements with the employer.
-- Publication date: 2026-11-06T16:28:11-05:00. Zoned timestamps are evaluated in California time.
-- Date evidence: [Greenhouse.first_published](<https://boards-api.greenhouse.io/v1/boards/gitlab/jobs/8929468002?pay_transparency=true>)
-- Relevant themes: Agile, OKRs.
-- Theme evidence: the official title or description mentions Agile.
-- Theme evidence: the official title or description mentions OKRs.
-
-### 2K: Publishing Producer
-
-- Job ID: greenhouse:2k:8046878003
-- Application status: Not recorded as applied
-- Work arrangement: Not specified. The reviewed official source does not confirm the work arrangement for this role.
-- Publication date: 2026-11-06T15:54:13-05:00. Zoned timestamps are evaluated in California time.
-- Date evidence: [Greenhouse.first_published](<https://boards-api.greenhouse.io/v1/boards/2k/jobs/8046878003?pay_transparency=true>)
-- Relevant themes: Operations.
-- Theme evidence: the official title or description mentions Operations.
-
-### NBCUniversal: Producer/Editor, Telemundo Al Rojo Vivo
-
-- Job ID: smartrecruiters:NBCUniversal3:744000160291330
-- Application status: Not recorded as applied
-- Work arrangement: On-site. and successfully manage multiple assignments Additional Requirements Required On-Site: This position is required to be performed full-time from an NBCUniversal-designated worksite in Los Angeles, CA
-- Publication date: 2026-11-06T20:03:39.009Z. Zoned timestamps are evaluated in California time.
-- Date evidence: [SmartRecruiters.releasedDate (release; may be a repost)](<https://api.smartrecruiters.com/v1/companies/NBCUniversal3/postings/744000160291330>)
-- Relevant themes: Operations.
-- Theme evidence: the official title or description mentions Operations.
-
-### Notion: Technical Program Manager, EPD
-
-- Job ID: ashby:notion:73b0e05e-317f-4f84-8fb2-58dc8c3790a6
-- Application status: Not recorded as applied
-- Work arrangement: Hybrid. Official workplaceType field: Hybrid
-- Publication date: 2026-11-06. Zoned timestamps are evaluated in California time.
-- Date evidence: [JobPosting.datePosted](<https://jobs.ashbyhq.com/notion/73b0e05e-317f-4f84-8fb2-58dc8c3790a6>)
-- Relevant themes: OKRs.
-- Theme evidence: the official title or description mentions OKRs.
 
 ## Additional discovery sources
 
@@ -124,7 +51,7 @@ New verified employer boards retained for future searches: 0.
 | Latino and professional associations | HOPE - Hispanas Organized for Political Equality | 1 | 1 | 0 | 0 |
 | Latino and professional associations | Lean In Latinas | 1 | 0 | 0 | 1 |
 | Regional technology and startups | Built In San Francisco | 3 | 23 | 0 | 0 |
-| Games and entertainment | Hitmarker | 3 | 3 | 0 | 0 |
+| Games and entertainment | Hitmarker | 3 | 2 | 0 | 0 |
 | Regional technology and startups | Welcome to the Jungle | 4 | 1 | 0 | 1 |
 | Life sciences | Biocom Career Hub | 1 | 0 | 0 | 1 |
 | Company careers | WelbeHealth official careers | 1 | 0 | 0 | 1 |
@@ -143,12 +70,12 @@ New verified employer boards retained for future searches: 0.
 | Regional technology and startups | Y Combinator California | 1 | 0 | 0 | 1 |
 | Games and entertainment | Games Jobs Direct | 0 | 0 | 0 | 1 |
 | Games and entertainment | Bloks | 0 | 0 | 0 | 1 |
-| Games and entertainment | Gaming Industry Job Tracker | 1 | 1 | 0 | 0 |
+| Games and entertainment | Gaming Industry Job Tracker | 1 | 1 | 0 | 1 |
 | Games and entertainment | ASGC Games Jobs | 1 | 0 | 0 | 1 |
 | Life sciences | BioSpace California | 0 | 0 | 0 | 1 |
 | Life sciences | BioTalent | 1 | 0 | 0 | 1 |
 | Remote and international | Manfred Spain | 1 | 0 | 0 | 1 |
-| Remote and international | Wellfound Remote | 1 | 29 | 0 | 2 |
+| Remote and international | Wellfound Remote | 1 | 28 | 0 | 0 |
 | Remote and international | Jobgether | 0 | 0 | 0 | 1 |
 | Remote and international | Remotely | 1 | 9 | 0 | 0 |
 ## Coverage and source issues
@@ -225,12 +152,11 @@ The daily 5 pm run cannot include listings published after it begins. Historical
 - Y Combinator California: No supported role links in public HTML; dynamic or member-only results may be unavailable
 - Games Jobs Direct: https://www.gamesjobsdirect.com/search: HTTP Error 406: Not Acceptable
 - Bloks: https://bloks.gg/: Host is not explicitly allowlisted
+- Gaming Industry Job Tracker: https://jobs.christran.gg/jobs/58003: HTTP Error 410: Gone
 - ASGC Games Jobs: No supported role links in public HTML; dynamic or member-only results may be unavailable
 - BioSpace California: https://jobs.biospace.com/california: HTTP Error 429: Too Many Requests
 - BioTalent: No supported role links in public HTML; dynamic or member-only results may be unavailable
 - Manfred Spain: No supported role links in public HTML; dynamic or member-only results may be unavailable
-- Wellfound Remote: https://wellfound.com/jobs/4779181-program-manager: HTTP Error 410: Gone
-- Wellfound Remote: https://wellfound.com/jobs/4735292-technical-program-manager: HTTP Error 410: Gone
 - Jobgether: https://jobgether.com/remote-jobs/program-manager: HTTP Error 403: Forbidden
 
 <!-- DASHBOARD:END -->
