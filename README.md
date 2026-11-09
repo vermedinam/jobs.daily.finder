@@ -10,36 +10,47 @@ Search area: USA, Canada, Mexico, Spain, LATAM, and eligible remote roles. Resul
 
 <!-- DASHBOARD:START -->
 
-## Dashboard: 2026-11-07
+## Dashboard: 2026-11-08
 
 > Your worth is not measured by an inbox. One thoughtful application at a time is enough for today.
 
-Publication day: 2026-11-07. Verified at: 2026-11-07T22:59:49.248546-08:00 (America/Los_Angeles).
+Publication day: 2026-11-08. Verified at: 2026-11-08T23:43:35.126782-08:00 (America/Los_Angeles).
 
 Up to 30 verified listings from the requested publication day. Coverage is limited to accessible sources.
 
-Reviewed: 61617 | Recommended: 0 | Applied excluded: 0 | Previously seen: 0 | Unverified: 0 | Outside topic focus: 0
+Reviewed: 61595 | Recommended: 1 | Applied excluded: 0 | Previously seen: 0 | Unverified: 0 | Outside topic focus: 0
 
-Accessible sources: 275 | LinkedIn candidates: 0
+Accessible sources: 275 | LinkedIn candidates: 81
 
-LinkedIn: Public access limited (HTTPError); no bypass or login attempted
+LinkedIn: Public access available: 42 searches; publication dates verified only against official sources
 
-Regional coverage: Mexico 0 verified candidates | Spain 0 verified candidates. Target: 30; returned: 0.
+Regional coverage: Mexico 0 verified candidates | Spain 0 verified candidates. Target: 30; returned: 1.
 
 ## Top 5
 
 | Estimated match | Company | Role | Location | Work arrangement | Apply |
 |---|---|---|---|---|---|
-No verified listings met all filters in the accessible sources.
+| 55% | Waymo | Security Operations Technical Program Manager | Tempe, AZ, USA | Not specified | [Apply](<https://careers.withwaymo.com/jobs/security-operations-technical-program-manager-tempe-arizona-united-states?gh_jid=8346963>) |
 
 ## Verified jobs
 
 | Estimated match | Company / role | Location | Work arrangement | Published salary | Official publication date | Apply | LinkedIn |
 |---|---|---|---|---|---|---|---|
+| 55% | Waymo / Security Operations Technical Program Manager | Tempe, AZ, USA | Not specified | USD 152,000-187,000 (Salary Range) | 2026-11-08T21:29:51-05:00 | [Apply](<https://careers.withwaymo.com/jobs/security-operations-technical-program-manager-tempe-arizona-united-states?gh_jid=8346963>) | Not available |
 
 ## Evidence and fit
 
 Topic match is a heuristic, not a hiring probability or verified assessment of experience. With topic focus enabled: 40 base points plus 15 per matched theme (Agile, OKRs, Operations, ISO 27001), capped at 100. At least one theme is required. Results are ordered by match; California breaks ties.
+
+### Waymo: Security Operations Technical Program Manager
+
+- Job ID: greenhouse:waymo:8346963
+- Application status: Not recorded as applied
+- Work arrangement: Not specified. The reviewed official source does not confirm the work arrangement for this role.
+- Publication date: 2026-11-08T21:29:51-05:00. Zoned timestamps are evaluated in California time.
+- Date evidence: [Greenhouse.first_published](<https://boards-api.greenhouse.io/v1/boards/waymo/jobs/8346963?pay_transparency=true>)
+- Relevant themes: Operations.
+- Theme evidence: the official title or description mentions Operations.
 
 ## Additional discovery sources
 
@@ -70,7 +81,7 @@ New verified employer boards retained for future searches: 0.
 | Regional technology and startups | Y Combinator California | 1 | 0 | 0 | 1 |
 | Games and entertainment | Games Jobs Direct | 0 | 0 | 0 | 1 |
 | Games and entertainment | Bloks | 0 | 0 | 0 | 1 |
-| Games and entertainment | Gaming Industry Job Tracker | 1 | 1 | 0 | 1 |
+| Games and entertainment | Gaming Industry Job Tracker | 1 | 1 | 0 | 0 |
 | Games and entertainment | ASGC Games Jobs | 1 | 0 | 0 | 1 |
 | Life sciences | BioSpace California | 0 | 0 | 0 | 1 |
 | Life sciences | BioTalent | 1 | 0 | 0 | 1 |
@@ -152,7 +163,6 @@ The daily 5 pm run cannot include listings published after it begins. Historical
 - Y Combinator California: No supported role links in public HTML; dynamic or member-only results may be unavailable
 - Games Jobs Direct: https://www.gamesjobsdirect.com/search: HTTP Error 406: Not Acceptable
 - Bloks: https://bloks.gg/: Host is not explicitly allowlisted
-- Gaming Industry Job Tracker: https://jobs.christran.gg/jobs/58003: HTTP Error 410: Gone
 - ASGC Games Jobs: No supported role links in public HTML; dynamic or member-only results may be unavailable
 - BioSpace California: https://jobs.biospace.com/california: HTTP Error 429: Too Many Requests
 - BioTalent: No supported role links in public HTML; dynamic or member-only results may be unavailable
