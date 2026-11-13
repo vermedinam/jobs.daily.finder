@@ -14,32 +14,67 @@ Search area: USA, Canada, Mexico, Spain, LATAM, and eligible remote roles. Resul
 
 > Your worth is not measured by an inbox. One thoughtful application at a time is enough for today.
 
-Publication day: 2026-11-12. Verified at: 2026-11-12T00:02:20.966588-08:00 (America/Los_Angeles).
+Publication day: 2026-11-12. Verified at: 2026-11-12T23:40:35.961894-08:00 (America/Los_Angeles).
 
 Up to 30 verified listings from the requested publication day. Coverage is limited to accessible sources.
 
-Reviewed: 61886 | Recommended: 0 | Applied excluded: 0 | Previously seen: 0 | Unverified: 0 | Outside topic focus: 0
+Reviewed: 61956 | Recommended: 3 | Applied excluded: 0 | Previously seen: 0 | Unverified: 0 | Outside topic focus: 3
 
-Accessible sources: 275 | LinkedIn candidates: 96
+Accessible sources: 275 | LinkedIn candidates: 109
 
 LinkedIn: Public access available: 42 searches; publication dates verified only against official sources
 
-Regional coverage: Mexico 0 verified candidates | Spain 0 verified candidates. Target: 30; returned: 0.
+Regional coverage: Mexico 0 verified candidates | Spain 0 verified candidates. Target: 30; returned: 3.
 
 ## Top 5
 
 | Estimated match | Company | Role | Location | Work arrangement | Apply |
 |---|---|---|---|---|---|
-No verified listings met all filters in the accessible sources.
+| 55% | OpenAI | Global Sales Program Manager (SMB Sales) | San Francisco, California, United States; Remote: United States | Hybrid | [Apply](<https://jobs.ashbyhq.com/openai/680833a1-01e4-4689-917c-71a4f00ff86c>) |
+| 55% | AECOM | Sr. Program Manager - Aviation | Las Vegas, NV, us | Not specified | [Apply](<https://jobs.smartrecruiters.com/AECOM2/744000161356979-sr-program-manager-aviation>) |
+| 55% | Zscaler | Senior Technical Program Manager-Corporate Applications | Escazu, CRI; Remote - Costa Rica | Remote available | [Apply](<https://job-boards.greenhouse.io/zscaler/jobs/5282350007>) |
 
 ## Verified jobs
 
 | Estimated match | Company / role | Location | Work arrangement | Published salary | Official publication date | Apply | LinkedIn |
 |---|---|---|---|---|---|---|---|
+| 55% | OpenAI / Global Sales Program Manager (SMB Sales) | San Francisco, California, United States; Remote: United States | Hybrid | $198K - $220K | 2026-11-12 | [Apply](<https://jobs.ashbyhq.com/openai/680833a1-01e4-4689-917c-71a4f00ff86c>) | Not available |
+| 55% | AECOM / Sr. Program Manager - Aviation | Las Vegas, NV, us | Not specified | Not disclosed | 2026-11-12T17:40:20.617Z | [Apply](<https://jobs.smartrecruiters.com/AECOM2/744000161356979-sr-program-manager-aviation>) | Not available |
+| 55% | Zscaler / Senior Technical Program Manager-Corporate Applications | Escazu, CRI; Remote - Costa Rica | Remote available | Not disclosed | 2026-11-12T16:03:07-05:00 | [Apply](<https://job-boards.greenhouse.io/zscaler/jobs/5282350007>) | Not available |
 
 ## Evidence and fit
 
 Topic match is a heuristic, not a hiring probability or verified assessment of experience. With topic focus enabled: 40 base points plus 15 per matched theme (Agile, OKRs, Operations, ISO 27001), capped at 100. At least one theme is required. Results are ordered by match; California breaks ties.
+
+### OpenAI: Global Sales Program Manager (SMB Sales)
+
+- Job ID: ashby:openai:680833a1-01e4-4689-917c-71a4f00ff86c
+- Application status: Not recorded as applied
+- Work arrangement: Hybrid. Official workplaceType field: Hybrid
+- Publication date: 2026-11-12. Zoned timestamps are evaluated in California time.
+- Date evidence: [JobPosting.datePosted](<https://jobs.ashbyhq.com/openai/680833a1-01e4-4689-917c-71a4f00ff86c>)
+- Relevant themes: Operations.
+- Theme evidence: the official title or description mentions Operations.
+
+### AECOM: Sr. Program Manager - Aviation
+
+- Job ID: smartrecruiters:AECOM2:744000161356979
+- Application status: Not recorded as applied
+- Work arrangement: Not specified. The reviewed official source does not confirm the work arrangement for this role.
+- Publication date: 2026-11-12T17:40:20.617Z. Zoned timestamps are evaluated in California time.
+- Date evidence: [SmartRecruiters.releasedDate (release; may be a repost)](<https://api.smartrecruiters.com/v1/companies/AECOM2/postings/744000161356979>)
+- Relevant themes: Operations.
+- Theme evidence: the official title or description mentions Operations.
+
+### Zscaler: Senior Technical Program Manager-Corporate Applications
+
+- Job ID: greenhouse:zscaler:5282350007
+- Application status: Not recorded as applied
+- Work arrangement: Remote available. The official location includes remote work; confirm geographic restrictions and other work arrangements with the employer.
+- Publication date: 2026-11-12T16:03:07-05:00. Zoned timestamps are evaluated in California time.
+- Date evidence: [Greenhouse.first_published](<https://boards-api.greenhouse.io/v1/boards/zscaler/jobs/5282350007?pay_transparency=true>)
+- Relevant themes: Agile.
+- Theme evidence: the official title or description mentions Agile.
 
 ## Additional discovery sources
 
@@ -50,8 +85,8 @@ New verified employer boards retained for future searches: 0.
 | Latino and professional associations | Prospanica | 0 | 0 | 0 | 1 |
 | Latino and professional associations | HOPE - Hispanas Organized for Political Equality | 1 | 1 | 0 | 0 |
 | Latino and professional associations | Lean In Latinas | 1 | 0 | 0 | 1 |
-| Regional technology and startups | Built In San Francisco | 3 | 24 | 0 | 0 |
-| Games and entertainment | Hitmarker | 3 | 2 | 0 | 0 |
+| Regional technology and startups | Built In San Francisco | 3 | 25 | 0 | 0 |
+| Games and entertainment | Hitmarker | 3 | 1 | 0 | 0 |
 | Regional technology and startups | Welcome to the Jungle | 4 | 1 | 0 | 1 |
 | Life sciences | Biocom Career Hub | 1 | 0 | 0 | 1 |
 | Company careers | WelbeHealth official careers | 1 | 0 | 0 | 1 |

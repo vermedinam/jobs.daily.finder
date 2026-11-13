@@ -454,6 +454,21 @@
       "url": "https://jobs.smartrecruiters.com/WesternDigital/744000160924629-supply-chain-transformation-program-manager",
       "first_seen": "2026-11-10",
       "last_seen": "2026-11-10"
+    },
+    "ashby:openai:680833a1-01e4-4689-917c-71a4f00ff86c": {
+      "url": "https://jobs.ashbyhq.com/openai/680833a1-01e4-4689-917c-71a4f00ff86c",
+      "first_seen": "2026-11-12",
+      "last_seen": "2026-11-12"
+    },
+    "greenhouse:zscaler:5282350007": {
+      "url": "https://job-boards.greenhouse.io/zscaler/jobs/5282350007",
+      "first_seen": "2026-11-12",
+      "last_seen": "2026-11-12"
+    },
+    "smartrecruiters:AECOM2:744000161356979": {
+      "url": "https://jobs.smartrecruiters.com/AECOM2/744000161356979-sr-program-manager-aviation",
+      "first_seen": "2026-11-12",
+      "last_seen": "2026-11-12"
     }
   }
 }
