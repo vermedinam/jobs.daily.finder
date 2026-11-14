@@ -469,6 +469,71 @@
       "url": "https://jobs.smartrecruiters.com/AECOM2/744000161356979-sr-program-manager-aviation",
       "first_seen": "2026-11-12",
       "last_seen": "2026-11-12"
+    },
+    "ashby:openai:4444d839-3f58-4369-a241-985acbbbf2f9": {
+      "url": "https://jobs.ashbyhq.com/openai/4444d839-3f58-4369-a241-985acbbbf2f9",
+      "first_seen": "2026-11-13",
+      "last_seen": "2026-11-13"
+    },
+    "greenhouse:anthropic:5481980008": {
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5481980008",
+      "first_seen": "2026-11-13",
+      "last_seen": "2026-11-13"
+    },
+    "greenhouse:coreweave:4729321006": {
+      "url": "https://coreweave.com/careers/job?board=coreweave&gh_jid=4729321006",
+      "first_seen": "2026-11-13",
+      "last_seen": "2026-11-13"
+    },
+    "smartrecruiters:AECOM2:744000161582689": {
+      "url": "https://jobs.smartrecruiters.com/AECOM2/744000161582689-senior-program-manager",
+      "first_seen": "2026-11-13",
+      "last_seen": "2026-11-13"
+    },
+    "smartrecruiters:AECOM2:744000161582362": {
+      "url": "https://jobs.smartrecruiters.com/AECOM2/744000161582362-remediation-program-manager",
+      "first_seen": "2026-11-13",
+      "last_seen": "2026-11-13"
+    },
+    "smartrecruiters:AECOM2:744000161581644": {
+      "url": "https://jobs.smartrecruiters.com/AECOM2/744000161581644-remediation-program-manager",
+      "first_seen": "2026-11-13",
+      "last_seen": "2026-11-13"
+    },
+    "smartrecruiters:AECOM2:744000161581730": {
+      "url": "https://jobs.smartrecruiters.com/AECOM2/744000161581730-remediation-program-manager",
+      "first_seen": "2026-11-13",
+      "last_seen": "2026-11-13"
+    },
+    "smartrecruiters:AECOM2:744000161473539": {
+      "url": "https://jobs.smartrecruiters.com/AECOM2/744000161473539-express-lanes-and-ramp-signaling-operations-program-manager",
+      "first_seen": "2026-11-13",
+      "last_seen": "2026-11-13"
+    },
+    "smartrecruiters:NBCUniversal3:744000161625997": {
+      "url": "https://jobs.smartrecruiters.com/NBCUniversal3/744000161625997-senior-producer-ecosystems-producteur-senior-ecosystemes",
+      "first_seen": "2026-11-13",
+      "last_seen": "2026-11-13"
+    },
+    "smartrecruiters:NBCUniversal3:744000161549529": {
+      "url": "https://jobs.smartrecruiters.com/NBCUniversal3/744000161549529-senior-producer-nbc-news-specials-prime-",
+      "first_seen": "2026-11-13",
+      "last_seen": "2026-11-13"
+    },
+    "smartrecruiters:NBCUniversal3:744000161517418": {
+      "url": "https://jobs.smartrecruiters.com/NBCUniversal3/744000161517418-live-producer-nbc-news-specials-prime-",
+      "first_seen": "2026-11-13",
+      "last_seen": "2026-11-13"
+    },
+    "smartrecruiters:NBCUniversal3:744000161512179": {
+      "url": "https://jobs.smartrecruiters.com/NBCUniversal3/744000161512179-supervising-producer-dateline",
+      "first_seen": "2026-11-13",
+      "last_seen": "2026-11-13"
+    },
+    "smartrecruiters:Eurofins:744000161522785": {
+      "url": "https://jobs.smartrecruiters.com/Eurofins/744000161522785-program-manager-discoveryone",
+      "first_seen": "2026-11-13",
+      "last_seen": "2026-11-13"
     }
   }
 }

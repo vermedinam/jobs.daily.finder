@@ -1,0 +1,642 @@
+{
+  "date": "2026-11-13",
+  "verified_at": "2026-11-13T23:27:31.166817-08:00",
+  "metrics": {
+    "reviewed": 61930,
+    "sources_ok": 275,
+    "unverified": 0,
+    "applied_excluded": 0,
+    "seen_excluded": 0,
+    "linkedin_candidates": 101,
+    "linkedin": "Public access available: 42 searches; publication dates verified only against official sources",
+    "errors": [
+      "devot: HTTPError",
+      "wiz: HTTPError",
+      "yelp: HTTPError",
+      "contentsquare: HTTPError",
+      "factorialhr: HTTPError",
+      "factorial: HTTPError",
+      "travelperk: HTTPError",
+      "jobandtalent: HTTPError",
+      "glovo: HTTPError",
+      "bookingcom: HTTPError",
+      "expediagroup: HTTPError",
+      "cimpress: HTTPError",
+      "vistaprint: HTTPError",
+      "softtek: HTTPError",
+      "agileengine: HTTPError",
+      "konfio: HTTPError",
+      "clipmx: HTTPError",
+      "kueski: HTTPError",
+      "klar: HTTPError",
+      "yalo: HTTPError",
+      "nowports: HTTPError",
+      "remitly: HTTPError",
+      "payjoy: HTTPError",
+      "tala: HTTPError",
+      "openpay: HTTPError",
+      "global66: HTTPError",
+      "habi: HTTPError",
+      "truora: HTTPError",
+      "platzi: HTTPError",
+      "clara: HTTPError",
+      "bitso: HTTPError",
+      "stori: HTTPError",
+      "mendel: HTTPError",
+      "factorial: HTTPError",
+      "lodgify: HTTPError",
+      "secretsource: HTTPError",
+      "sastrify: HTTPError",
+      "safetywing: HTTPError",
+      "jobgether: HTTPError",
+      "lemonio: HTTPError",
+      "nearsure: HTTPError",
+      "crunchyroll: HTTPError",
+      "amdocs: HTTPError",
+      "slalom: HTTPError",
+      "slalombuild: HTTPError",
+      "cprime: HTTPError",
+      "avature: HTTPError",
+      "guidewire: HTTPError",
+      "netsuite: HTTPError",
+      "eon: HTTPError",
+      "epamanywhere: HTTPError",
+      "akamai: HTTPError",
+      "thoughtmachine: HTTPError",
+      "checkoutcom: HTTPError",
+      "flywire: HTTPError",
+      "Prospanica: https://jobs.prospanica.org/home/index.cfm: HTTP Error 403: Forbidden",
+      "Lean In Latinas: No supported role links in public HTML; dynamic or member-only results may be unavailable",
+      "Welcome to the Jungle: https://www.welcometothejungle.com/en/companies/datadome/jobs/senior-partner-marketing-program-manager_los-angeles: HTTP Error 403: Forbidden",
+      "Biocom Career Hub: No supported role links in public HTML; dynamic or member-only results may be unavailable",
+      "WelbeHealth official careers: No supported role links in public HTML; dynamic or member-only results may be unavailable",
+      "thatgamecompany official careers: https://thatgamecompany.com/company/jobs/: Only public HTTPS URLs are allowed",
+      "HLPA: https://jobs.hlpa.com/employment/search.aspx: HTTP Error 406: Not Acceptable",
+      "SHPE: https://careercenter.shpe.org/: HTTP Error 403: Forbidden",
+      "Techqueria: No supported role links in public HTML; dynamic or member-only results may be unavailable",
+      "Latinx in Tech Career Center: No supported role links in public HTML; dynamic or member-only results may be unavailable",
+      "PowerToFly: No supported role links in public HTML; dynamic or member-only results may be unavailable",
+      "Women Who Design: No supported role links in public HTML; dynamic or member-only results may be unavailable",
+      "Started by Women: No supported role links in public HTML; dynamic or member-only results may be unavailable",
+      "Wellfound California: No supported role links in public HTML; dynamic or member-only results may be unavailable",
+      "Y Combinator California: No supported role links in public HTML; dynamic or member-only results may be unavailable",
+      "Games Jobs Direct: https://www.gamesjobsdirect.com/search: HTTP Error 406: Not Acceptable",
+      "Bloks: https://bloks.gg/: Host is not explicitly allowlisted",
+      "ASGC Games Jobs: No supported role links in public HTML; dynamic or member-only results may be unavailable",
+      "BioSpace California: https://jobs.biospace.com/california: HTTP Error 429: Too Many Requests",
+      "BioTalent: No supported role links in public HTML; dynamic or member-only results may be unavailable",
+      "Manfred Spain: No supported role links in public HTML; dynamic or member-only results may be unavailable",
+      "Jobgether: https://jobgether.com/remote-jobs/program-manager: HTTP Error 403: Forbidden"
+    ],
+    "discovery": [
+      {
+        "source": "Prospanica",
+        "category": "Latino and professional associations",
+        "pages": 0,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "https://jobs.prospanica.org/home/index.cfm: HTTP Error 403: Forbidden"
+        ]
+      },
+      {
+        "source": "HOPE - Hispanas Organized for Political Equality",
+        "category": "Latino and professional associations",
+        "pages": 1,
+        "candidates": 1,
+        "verified": 0,
+        "issues": []
+      },
+      {
+        "source": "Lean In Latinas",
+        "category": "Latino and professional associations",
+        "pages": 1,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "No supported role links in public HTML; dynamic or member-only results may be unavailable"
+        ]
+      },
+      {
+        "source": "Built In San Francisco",
+        "category": "Regional technology and startups",
+        "pages": 3,
+        "candidates": 25,
+        "verified": 0,
+        "issues": []
+      },
+      {
+        "source": "Hitmarker",
+        "category": "Games and entertainment",
+        "pages": 3,
+        "candidates": 1,
+        "verified": 0,
+        "issues": []
+      },
+      {
+        "source": "Welcome to the Jungle",
+        "category": "Regional technology and startups",
+        "pages": 4,
+        "candidates": 1,
+        "verified": 0,
+        "issues": [
+          "https://www.welcometothejungle.com/en/companies/datadome/jobs/senior-partner-marketing-program-manager_los-angeles: HTTP Error 403: Forbidden"
+        ]
+      },
+      {
+        "source": "Biocom Career Hub",
+        "category": "Life sciences",
+        "pages": 1,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "No supported role links in public HTML; dynamic or member-only results may be unavailable"
+        ]
+      },
+      {
+        "source": "WelbeHealth official careers",
+        "category": "Company careers",
+        "pages": 1,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "No supported role links in public HTML; dynamic or member-only results may be unavailable"
+        ]
+      },
+      {
+        "source": "Branch official careers",
+        "category": "Company careers",
+        "pages": 1,
+        "candidates": 11,
+        "verified": 0,
+        "issues": []
+      },
+      {
+        "source": "thatgamecompany official careers",
+        "category": "Company careers",
+        "pages": 0,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "https://thatgamecompany.com/company/jobs/: Only public HTTPS URLs are allowed"
+        ]
+      },
+      {
+        "source": "Turtle Rock Studios official careers",
+        "category": "Company careers",
+        "pages": 1,
+        "candidates": 3,
+        "verified": 0,
+        "issues": []
+      },
+      {
+        "source": "HLPA",
+        "category": "Latino and professional associations",
+        "pages": 0,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "https://jobs.hlpa.com/employment/search.aspx: HTTP Error 406: Not Acceptable"
+        ]
+      },
+      {
+        "source": "SHPE",
+        "category": "Latino and professional associations",
+        "pages": 0,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "https://careercenter.shpe.org/: HTTP Error 403: Forbidden"
+        ]
+      },
+      {
+        "source": "Techqueria",
+        "category": "Latino and professional associations",
+        "pages": 1,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "No supported role links in public HTML; dynamic or member-only results may be unavailable"
+        ]
+      },
+      {
+        "source": "Latinx in Tech Career Center",
+        "category": "Latino and professional associations",
+        "pages": 1,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "No supported role links in public HTML; dynamic or member-only results may be unavailable"
+        ]
+      },
+      {
+        "source": "PowerToFly",
+        "category": "Women and inclusive career networks",
+        "pages": 1,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "No supported role links in public HTML; dynamic or member-only results may be unavailable"
+        ]
+      },
+      {
+        "source": "Women Who Design",
+        "category": "Women and inclusive career networks",
+        "pages": 1,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "No supported role links in public HTML; dynamic or member-only results may be unavailable"
+        ]
+      },
+      {
+        "source": "Women in Games International",
+        "category": "Women and inclusive career networks",
+        "pages": 1,
+        "candidates": 1,
+        "verified": 0,
+        "issues": []
+      },
+      {
+        "source": "Started by Women",
+        "category": "Women and inclusive career networks",
+        "pages": 1,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "No supported role links in public HTML; dynamic or member-only results may be unavailable"
+        ]
+      },
+      {
+        "source": "Wellfound California",
+        "category": "Regional technology and startups",
+        "pages": 1,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "No supported role links in public HTML; dynamic or member-only results may be unavailable"
+        ]
+      },
+      {
+        "source": "Y Combinator California",
+        "category": "Regional technology and startups",
+        "pages": 1,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "No supported role links in public HTML; dynamic or member-only results may be unavailable"
+        ]
+      },
+      {
+        "source": "Games Jobs Direct",
+        "category": "Games and entertainment",
+        "pages": 0,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "https://www.gamesjobsdirect.com/search: HTTP Error 406: Not Acceptable"
+        ]
+      },
+      {
+        "source": "Bloks",
+        "category": "Games and entertainment",
+        "pages": 0,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "https://bloks.gg/: Host is not explicitly allowlisted"
+        ]
+      },
+      {
+        "source": "Gaming Industry Job Tracker",
+        "category": "Games and entertainment",
+        "pages": 1,
+        "candidates": 1,
+        "verified": 0,
+        "issues": []
+      },
+      {
+        "source": "ASGC Games Jobs",
+        "category": "Games and entertainment",
+        "pages": 1,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "No supported role links in public HTML; dynamic or member-only results may be unavailable"
+        ]
+      },
+      {
+        "source": "BioSpace California",
+        "category": "Life sciences",
+        "pages": 0,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "https://jobs.biospace.com/california: HTTP Error 429: Too Many Requests"
+        ]
+      },
+      {
+        "source": "BioTalent",
+        "category": "Life sciences",
+        "pages": 1,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "No supported role links in public HTML; dynamic or member-only results may be unavailable"
+        ]
+      },
+      {
+        "source": "Manfred Spain",
+        "category": "Remote and international",
+        "pages": 1,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "No supported role links in public HTML; dynamic or member-only results may be unavailable"
+        ]
+      },
+      {
+        "source": "Wellfound Remote",
+        "category": "Remote and international",
+        "pages": 1,
+        "candidates": 28,
+        "verified": 0,
+        "issues": []
+      },
+      {
+        "source": "Jobgether",
+        "category": "Remote and international",
+        "pages": 0,
+        "candidates": 0,
+        "verified": 0,
+        "issues": [
+          "https://jobgether.com/remote-jobs/program-manager: HTTP Error 403: Forbidden"
+        ]
+      },
+      {
+        "source": "Remotely",
+        "category": "Remote and international",
+        "pages": 1,
+        "candidates": 10,
+        "verified": 0,
+        "issues": []
+      }
+    ],
+    "new_employer_boards": 0,
+    "focus_excluded": 9,
+    "mexico_verified_candidates": 0,
+    "spain_verified_candidates": 0
+  },
+  "jobs": [
+    {
+      "id": "greenhouse:anthropic:5481980008",
+      "company": "Anthropic",
+      "title": "Technical Program Manager, Life Sciences Research (Genetic Medicine)",
+      "location": "Boston, MA; San Francisco, CA | New York City, NY | Seattle, WA",
+      "salary": "USD 290,000-365,000 (Annual Salary:)",
+      "official_url": "https://job-boards.greenhouse.io/anthropic/jobs/5481980008",
+      "posted": "2026-11-13T16:57:59-05:00",
+      "date_evidence": "Greenhouse.first_published",
+      "evidence_url": "https://boards-api.greenhouse.io/v1/boards/anthropic/jobs/5481980008?pay_transparency=true",
+      "description": "<div class=\"content-intro\"><h2><strong>About Anthropic</strong></h2> <p>Anthropic’s mission is to create reliable, interpretable, and steerable AI systems. We want AI to be safe and beneficial for our users and for society as a whole. Our team is a quickly growing group of committed researchers, engineers, policy experts, and business leaders working together to build beneficial AI systems.</p></div><h2><strong>About the role</strong></h2> <p>Thousands of rare genetic diseases have a known cause but no approved treatment. Advances in gene editing and oligonucleotide medicines have made it possible to design therapies for very small populations, sometimes for a single patient, but developing them remains slow and costly. Anthropic’s Life Sciences team is exploring how frontier AI, combined with deep drug development expertise and strong external partnerships, can help change that.</p> <p>We’re hiring a Technical Program Manager to bring structure and momentum to this work. You’ll coordinate across programs that support the development of individualized genetic medicines, advance research into new therapeutic approaches, and help patient organizations, non-profits, and researchers use Claude in their own rare disease work. You’ll partner closely with scientists, engineers, clinicians, and external collaborators to keep complex efforts moving toward shared milestones.</p> <p>Much of this work remains in early stages, so this is a foundational role on a small team. You’ll help define how the team operates, build the plans and processes that allow it to grow, and work with our researchers and engineers to find where Claude can be most useful.</p> <p>If you’ve run complex programs in drug development or clinical research and want to help advance treatments for rare disease, we’d love to hear from you.</p> <h2><strong>Key responsibilities</strong></h2> <ul> <li>Build and own an integrated program plan, including milestones, dependencies, risks, budgets, and key decisions</li> <li>Coordinate with clinical, manufacturing, and research partners on programs that span preclinical development, manufacturing, regulatory review, and clinical care</li> <li>Run the operating cadence with external partners, tracking progress and raising risks early</li> <li>Work with Legal, Finance, and Partnerships to turn agreements into clear operating plans and track commitments</li> <li>Coordinate research across internal scientists, academic collaborators, companies, and contract research organizations, helping to scope projects, sequence work, and support timely decisions</li> <li>Help ensure that data is shared responsibly and in a usable form, with appropriate consent, privacy protections, and data-sharing agreements in place</li> <li>Lead programs that support non-profits, patient organizations, and academic and independent researchers, from onboarding through ongoing support and feedback</li> <li>Help connect genetic diagnosis efforts with therapeutic research and development</li> <li>Share insights from partners and programs with Anthropic’s research and product teams to help improve Claude for scientific and medical research</li> <li>Write clear status updates, risk assessments, and decision memos, and build processes that scale with the team</li> </ul> <h2><strong>Minimum qualifications</strong></h2> <ul> <li>Experience as a technical program manager or program lead on complex drug development, clinical research, or translational science programs involving multiple external organizations, such as manufacturers, contract research organizations, or clinical sites</li> <li>Working knowledge of how a therapy moves from preclinical development into the clinic, including manufacturing, regulatory filings, and clinical operations, and how a delay in one stage affects the others</li> <li>Scientific fluency in molecular biology or genetics, sufficient to follow experimental plans, review data with scientists, and understand tradeoffs</li> <li>Strong program management skills, including project planning, milestones, risk registers, budget tracking, and dependency management across many concurrent workstreams</li> <li>A track record of driving work to completion across organizations without formal authority</li> <li>Clear written and verbal communication, including the ability to make complex scientific and operational issues easy to understand and act on</li> <li>Comfort working with ambiguity and building process where none exists</li> <li>Excitement about Anthropic’s mission to build safe and beneficial AI</li> </ul> <h2><strong>Preferred qualifications</strong></h2> <ul> <li>An advanced degree in a life science, engineering, or related field</li> <li>Experience with gene therapy, gene editing, or oligonucleotide programs, especially individualized (N-of-1) or ultra-rare disease programs</li> <li>Clinical operations experience, such as multi-site trials, master protocols, IRB submissions, or site activation</li> <li>Experience managing sponsored research agreements, grants, or philanthropic funding with academic institutions</li> <li>Experience working with patient advocacy groups, rare disease foundations, or other non-profits</li> <li>Familiarity with clinical genomics and genetic diagnosis</li> <li>Experience with patient data governance, including consent, HIPAA, and data-sharing agreements</li> <li>Experience in a role that bridges software or AI and the life sciences</li> <li>Experience as an early hire on a new team, helping define how it operates</li> <li>Hands-on experience using LLM tools like Claude in your day-to-day work</li> </ul><div class=\"content-pay-transparency\"><div class=\"pay-input\"><div class=\"description\"><p>The annual compensation range for this role is listed below.&nbsp;</p> <p>For sales roles, the range provided is the role’s On Target Earnings (\"OTE\") range, meaning that the range includes both the sales commissions/sales bonuses target and annual base salary for the role.</p></div><div class=\"title\">Annual Salary:</div><div class=\"pay-range\"><span>$290,000</span><span class=\"divider\">&mdash;</span><span>$365,000 USD</span></div></div></div><div class=\"content-conclusion\"><h2><strong>Logistics</strong></h2> <p><strong>Minimum education: </strong>Bachelor’s degree or an equivalent combination of education, training, and/or experience</p> <p><strong>Required field of study:&nbsp;</strong>A field relevant to the role as demonstrated through coursework, training, or professional experience</p> <p><strong>Minimum years of experience: </strong>Years of experience required will correlate with the internal job level requirements for the position</p> <p><strong>Location-based hybrid policy:</strong> Currently, we expect all staff to be in one of our offices at least 25% of the time. However, some roles may require more time in our offices.</p> <p><strong data-stringify-type=\"bold\">Visa sponsorship:</strong>&nbsp;We do sponsor visas! However, we aren't able to successfully sponsor visas for every role and every candidate. But if we make you an offer, we will make every reasonable effort to get you a visa, and we retain an immigration lawyer to help with this.</p> <p><strong>For roles performing work in California: </strong>We will consider for employment all qualified applicants, including those with arrest or conviction records or criminal histories, in a manner consistent with the requirements of applicable state and local laws, including the San Francisco Fair Chance Ordinance, the City of Los Angeles’ Fair Chance Initiative for Hiring Ordinance, the Los Angeles County Fair Chance Ordinance for Employers, and the California Fair Chance Act.</p> <p><strong>We encourage you to apply even if you do not believe you meet every single qualification.</strong> Not all strong candidates will meet every single qualification as listed.&nbsp; Research shows that people who identify as being from underrepresented groups are more prone to experiencing imposter syndrome and doubting the strength of their candidacy, so we urge you not to exclude yourself prematurely and to submit an application if you're interested in this work. We think AI systems like the ones we're building have enormous social and ethical implications. We think this makes representation even more important, and we strive to include a range of diverse perspectives on our team.<br><br><strong data-stringify-type=\"bold\">Your safety matters to us.</strong> To protect yourself from potential scams, remember that Anthropic recruiters only contact you from&nbsp;@anthropic.com&nbsp;email addresses. In some cases, we may partner with vetted recruiting agencies who will identify themselves as working on behalf of Anthropic. Be cautious of emails from other domains. Legitimate Anthropic recruiters will never ask for money, fees, or banking information before your first day. If you're ever unsure about a communication, don't click any links—visit&nbsp;<u data-stringify-type=\"underline\"><a class=\"c-link c-link--underline\" href=\"http://anthropic.com/careers\" target=\"_blank\" data-stringify-link=\"http://anthropic.com/careers\" data-sk=\"tooltip_parent\" data-remove-tab-index=\"true\">anthropic.com/careers</a></u>&nbsp;directly for confirmed position openings.</p> <h2><strong>How we're different</strong></h2> <p>We believe that the highest-impact AI research will be big science. At Anthropic we work as a single cohesive team on just a few large-scale research efforts. And we value impact — advancing our long-term goals of steerable, trustworthy AI — rather than work on smaller and more specific puzzles. We view AI research as an empirical science, which has as much in common with physics and biology as with traditional efforts in computer science. We're an extremely collaborative group, and we host frequent research discussions to ensure that we are pursuing the highest-impact work at any given time. As such, we greatly value communication skills.</p> <p>The easiest way to understand our research directions is to read our recent research. This research continues many of the directions our team worked on prior to Anthropic, including: GPT-3, Circuit-Based Interpretability, Multimodal Neurons, Scaling Laws, AI &amp; Compute, Concrete Problems in AI Safety, and Learning from Human Preferences.</p> <h2><strong>Come work with us!</strong></h2> <p>Anthropic is a public benefit corporation headquartered in San Francisco. We offer competitive compensation and benefits, optional equity donation matching, generous vacation and parental leave, flexible working hours, and a lovely office space in which to collaborate with colleagues. <strong data-stringify-type=\"bold\">Guidance on Candidates' AI Usage:</strong>&nbsp;Learn about&nbsp;<a class=\"c-link\" href=\"https://www.anthropic.com/candidate-ai-guidance\" target=\"_blank\" data-stringify-link=\"https://www.anthropic.com/candidate-ai-guidance\" data-sk=\"tooltip_parent\">our policy</a> for using AI in our application process.</p></div>",
+      "linkedin_url": "",
+      "focus_matches": [
+        "Operations"
+      ],
+      "focus_evidence": {
+        "Operations": ", including manufacturing, regulatory filings, and clinical operations, and how a delay in one stage affects the others Scientific fluency in molecular biology or genetic"
+      },
+      "work_mode": "Hybrid",
+      "work_mode_evidence": "ience: Years of experience required will correlate with the internal job level requirements for the position Location-based hybrid policy: Currently, we expect all staff to be in one of our offices at least 25% of the time",
+      "match": 55,
+      "matched_skills": [
+        "Operations"
+      ]
+    },
+    {
+      "id": "greenhouse:coreweave:4729321006",
+      "company": "CoreWeave",
+      "title": "Technical Program Manager, Engineering Excellence",
+      "location": "Livingston, NJ / New York, NY / Sunnyvale, CA / Bellevue, WA",
+      "salary": "Not disclosed",
+      "official_url": "https://coreweave.com/careers/job?4729321006&board=coreweave&gh_jid=4729321006",
+      "posted": "2026-11-13T10:18:11-05:00",
+      "date_evidence": "Greenhouse.first_published",
+      "evidence_url": "https://boards-api.greenhouse.io/v1/boards/coreweave/jobs/4729321006?pay_transparency=true",
+      "description": "<div class=\"content-intro\"><div> <div> <div class=\"gmail_quote\"> <div> <div><span id=\"m_1770241969069985273m_-2746164444908759431gmail-docs-internal-guid-131e4fb0-7fff-b4e9-ff50-e8cf32449b1b\">CoreWeave is The Essential Cloud for AI™. Built for pioneers by pioneers, CoreWeave delivers a platform of technology, tools, and teams that enables innovators to build and scale AI with confidence. Trusted by leading AI labs, startups, and global enterprises, CoreWeave combines superior infrastructure performance with deep technical expertise to accelerate breakthroughs and turn compute into capability. Founded in 2017, CoreWeave became a publicly traded company (Nasdaq: CRWV) in March 2025. Learn more at&nbsp;<a href=\"http://www.coreweave.com/\" target=\"_blank\" data-saferedirecturl=\"https://www.google.com/url?q=http://www.coreweave.com&amp;source=gmail&amp;ust=1762613132717000&amp;usg=AOvVaw3D-UOhNaqEvF5BEWxjYyAU\">www.coreweave.com</a>.</span></div> </div> </div> </div> </div></div><p><strong>About the role:</strong></p> <p>CoreWeave is seeking a Technical Program Manager to lead programs that level up engineering excellence across our developer teams. In this role, you will own engineering programs that ensure our engineering team can ship fast, without compromising reliability, security or compliance. You will look at the whole software development life cycle (SDLC), get a deep understanding of how our engineers work and what goods look like.&nbsp; This position is ideal for someone who has run large scale programs across many engineering teams, understands every step of the SDLC&nbsp; and can keep multi-team execution moving without direct authority.</p> <p>In this role, TPM will</p> <ul> <li>Work closely with our internal developer platform teams to understand the paved path and define engineering excellence.</li> <li>Meet your internal customers, the CoreWeave engineering teams, where they are, understand their priorities and drive their migration onto the paved path. .,&nbsp;</li> <li>Lead rollout of engineering and security standards across all engineering organizations, including acquired entities, sequencing overlapping changes and managing exceptions.</li> <li>Drive programs that make releases and operations safer, such as change guardrails, progressive rollout, rollback readiness and validation of controls.</li> <li>Partner with platform, infrastructure, security, reliability and observability teams to reduce deployment related incidents and regressions.</li> <li>Create clear visibility into program status, ownership, dependencies, risks, decisions needed and progress against commitments for engineers, product managers and leadership.</li> <li>Work closely with the internal product managers to understand priorities and make outcomes measurable.</li> </ul> <p>Minimum Qualifications</p> <ul> <li>7+ years of experience in technical program management, infrastructure program management or a similar role in a complex technical environment.</li> <li>Have led complex technical programs spanning developer infrastructure, CI/CD, build and test systems, artifact management, release engineering or distributed systems.</li> <li>Have run large scale migrations or platform adoption programs across many engineering teams, including inventory, wave planning, exception handling and legacy decommission.</li> <li>Can engage deeply with engineers on workflow architecture, deployment systems, rollout risk, observability and operational tradeoffs.</li> <li>Have delivered measurable improvements in developer velocity, deployment throughput, release reliability or engineering efficiency.</li> <li>Know how to turn fragmented ownership and recurring manual work into durable mechanisms, standards and tooling with strong adoption.</li> <li>Use data and qualitative evidence to prioritize work, define useful metrics and distinguish real productivity gains from local optimization.</li> <li>Lead effectively across platform and product teams, resolve ambiguity and keep multi-team execution moving without direct authority.</li> <li>Are Customer obsessed - Treat engineering teams and partners as customers.</li> <li>Communicate with precision and move comfortably between technical detail, operational execution and executive level decisions.</li> <li>Proficiency in JIRA, Confluence and other program management and collaboration tools.</li> </ul> <p>Preferred Qualifications</p> <ul> <li>Master's or advanced technical degree.</li> <li>Experience with software supply chain security programs such as artifact governance, dependency management, source control hardening or credential and secrets management.</li> <li>Experience integrating acquired companies onto shared engineering platforms and security standards.</li> <li>Experience driving security or compliance driven programs with fixed deadlines across many engineering teams.</li> <li>Experience at a cloud provider, AI infrastructure company, hyperscaler or other high scale technical environment.</li> <li>Comfortable working in a fast moving environment and flexible working with a variety of leadership.</li> </ul> <p><strong>Why CoreWeave</strong></p> <p>At CoreWeave, we work hard, have fun, and move fast!&nbsp; We’re in an exciting stage of growth, scaling at an unprecedented speed. We are frequently challenging the norm, exploring new technologies and advancing the potential for hyperscale. We’re not afraid of a little chaos, and we’re constantly learning. Our team cares deeply about how we build our products and how we work together, which is represented through our core values:</p> <ul> <li>Be Curious at Your Core</li> <li>Act Like an Owner</li> <li>Empower Employees</li> <li>Deliver Best-in-Class Client Experiences</li> <li>Achieve More Together</li> </ul> <p>We support and encourage an entrepreneurial outlook and independent thinking. We foster an environment that encourages collaboration and provides the opportunity to develop innovative solutions to complex problems. As we continue to grow, opportunities within the organization are evolving and expanding. You will be surrounded by some of the best talent in the industry, who will want to learn from you, too. If this resonates with you, come join us!</p> <p>The base salary range for this role is $157,000 to $210,000. The starting salary will be determined based on job-related knowledge, skills, experience, and market location. We strive for both market alignment and internal equity when determining compensation. In addition to base salary, our total rewards package includes a discretionary bonus, equity awards, and a comprehensive benefits program (all based on eligibility).&nbsp;</p><div class=\"content-conclusion\"><p><strong>What We Offer</strong></p> <p>In addition to a competitive salary, we offer a variety of benefits to support your needs. The benefits below reflect our US-based offerings for full-time employees; for roles in other locations, benefits vary and are shared during the hiring process. These include:</p> <ul> <li>Medical, dental, and vision insurance - 100% paid for by CoreWeave</li> <li>Company-paid Life Insurance&nbsp;</li> <li>Voluntary supplemental life insurance&nbsp;</li> <li>Short and long-term disability insurance&nbsp;</li> <li>Flexible Spending Account</li> <li>Health Savings Account</li> <li>Tuition Reimbursement&nbsp;</li> <li>Ability to Participate in Employee Stock Purchase Program (ESPP)</li> <li>Mental Wellness Benefits through Spring Health&nbsp;</li> <li>Family-Forming support provided by Carrot</li> <li>Paid Parental Leave&nbsp;</li> <li>Flexible, full-service childcare support with Kinside</li> <li>401(k) with a generous employer match</li> <li>Flexible PTO</li> <li>Catered lunch each day in our office and data center locations</li> <li>A casual work environment</li> <li>A work culture focused on innovative disruption</li> </ul> <p><strong>California Applicants</strong></p> <p><a href=\"https://drive.google.com/file/d/1gPBRBhUNAMBmj7Yn4_M-hCugm7ZJD4hr/view?usp=sharing\" target=\"_blank\">California Consumer Privacy Act&nbsp;</a></p> <p><strong>Equal Opportunity &amp; Accommodations</strong></p> <p><em>CoreWeave is an equal opportunity employer, committed to fostering an inclusive and supportive workplace. All qualified applicants and candidates will receive consideration for employment without regard to race, color, religion, sex, disability, age, sexual orientation, gender identity, national origin, veteran status, or genetic information.</em></p> <p><em>As part of this commitment and consistent with the </em><a href=\"https://www.eeoc.gov/laws/guidance/fact-sheet-disability-discrimination\" target=\"_blank\"><em>Americans with Disabilities Act (ADA)</em></a><em>, CoreWeave will ensure that qualified applicants and candidates with disabilities are provided reasonable accommodations for the hiring process, unless such accommodation would cause an undue hardship. If reasonable accommodation is needed, please contact: <a href=\"mailto:careers@coreweave.com\">careers@coreweave.com</a>.</em></p> <p><strong>Export Control Compliance</strong></p> <p><em>This position requires access to technology and/or source code subject to U.S. export control laws. Any such access will be provided only in compliance with applicable U.S. export control requirements. As part of the recruitment process, CoreWeave may request limited information reasonably necessary to assess applicable export-control requirements.</em></p></div>",
+      "linkedin_url": "",
+      "focus_matches": [
+        "Operations"
+      ],
+      "focus_evidence": {
+        "Operations": " managing exceptions. Drive programs that make releases and operations safer, such as change guardrails, progressive rollout, rollback readiness and validation of control"
+      },
+      "work_mode": "Not specified",
+      "work_mode_evidence": "The reviewed official source does not confirm the work arrangement for this role.",
+      "match": 55,
+      "matched_skills": [
+        "Operations"
+      ]
+    },
+    {
+      "id": "smartrecruiters:NBCUniversal3:744000161625997",
+      "company": "NBCUniversal",
+      "title": "Senior Producer - Ecosystems | Producteur senior - Écosystèmes",
+      "location": "Montreal, QUEBEC, ca",
+      "salary": "Not disclosed",
+      "official_url": "https://jobs.smartrecruiters.com/NBCUniversal3/744000161625997-senior-producer-ecosystems-producteur-senior-ecosystemes",
+      "posted": "2026-11-14T01:59:55.385Z",
+      "date_evidence": "SmartRecruiters.releasedDate (release; may be a repost)",
+      "evidence_url": "https://api.smartrecruiters.com/v1/companies/NBCUniversal3/postings/744000161625997",
+      "description": "NBCUniversal is one of the world's leading media and entertainment companies. We create world-class content, which we distribute across our portfolio of film, television, and streaming, and bring to life through our global theme park destinations, consumer products, and experiences. We own and operate leading entertainment and news brands, including NBC, NBC News, NBC Sports, Telemundo, NBC Local Stations, Bravo, and Peacock, our premium ad-supported streaming service. We produce and distribute premier filmed entertainment and programming through our powerhouse film and television studios, including Universal Pictures, DreamWorks Animation, and Focus Features, and the four global television studios under the Universal Studio Group banner, and operate industry-leading theme parks and experiences around the world through Universal Destinations & Experiences, including Universal Orlando Resort, home to Universal Epic Universe, and Universal Studios Hollywood. NBCUniversal is a subsidiary of Comcast Corporation. Visit www.nbcuniversal.com for more information. Our impact is rooted in improving the communities where our employees, customers, and audiences live and work. We have a rich tradition of giving back and ensuring our employees have the opportunity to serve their communities. We champion an inclusive culture and strive to attract and develop a talented workforce to create and deliver a wide range of content reflecting our world. NBCUniversal est l’une des plus importantes entreprises de médias et de divertissement au monde. Nous créons du contenu de calibre mondial que nous diffusons par l’intermédiaire de notre portefeuille de films, de chaînes de télévision et de services de diffusion en continu, et auquel nous donnons vie grâce à nos destinations de parcs thématiques à l’échelle mondiale, à nos produits de consommation et à nos expériences. Nous possédons et exploitons des marques de premier plan dans les secteurs du divertissement et de l’information, notamment NBC, NBC News, NBC Sports, Telemundo, NBC Local Stations, Bravo et Peacock, notre service de diffusion en continu haut de gamme financé par la publicité. Nous produisons et distribuons des films et des émissions de premier plan par l’intermédiaire de nos puissants studios de cinéma et de télévision, notamment Universal Pictures, DreamWorks Animation et Focus Features, ainsi que des quatre studios de télévision mondiaux regroupés sous la bannière Universal Studio Group. Nous exploitons également des parcs thématiques et des expériences de premier plan partout dans le monde par l’intermédiaire d’Universal Destinations & Experiences, notamment Universal Orlando Resort, où se trouve Universal Epic Universe, et Universal Studios Hollywood. NBCUniversal est une filiale de Comcast Corporation. Visitez www.nbcuniversal.com pour en savoir plus. Notre impact repose sur l’amélioration des communautés où notre personnel, notre clientèle et nos publics vivent et travaillent. Nous avons une longue tradition d’engagement communautaire et veillons à ce que les membres de notre personnel aient l’occasion de contribuer à leurs communautés. Nous favorisons une culture inclusive et nous nous efforçons d’attirer et de développer une main-d’œuvre talentueuse afin de créer et de proposer une vaste gamme de contenus qui reflètent notre monde. NBCUniversal is looking for a seasoned Senior Producer with experience in external development and publishing to help manage a portfolio of external teams for an ambitious new interactive entertainment initiative. RESPONSIBILITIES Lead production across multiple external development teams, establishing clear plans, milestones, budgets, review gates, and delivery expectations. Serve as the primary production partner for external teams, ensuring strong communication, alignment, and accountability throughout development. Own production workflows from onboarding and development through submission, review, approval, publishing, and post-launch support. Partner with creative, product, engineering, business development, legal, and other teams to ensure external developers have what they need to succeed. Manage multiple concurrent projects while maintaining visibility into schedules, risks, dependencies, budgets, and portfolio health. Establish and continuously improve processes for external development, submissions, publishing, and release management. Identify and resolve issues affecting external teams, escalating cross-functional dependencies and critical decisions when necessary. Incorporate feedback from external developers and creators into improvements to tools, workflows, and processes. Help scale production operations to support a growing portfolio of external developers and creators. RÉSUMÉ DU POSTE NBCUniversal est à la recherche d’une personne chevronnée au poste de Producteur senior , possédant de l’expérience en développement externe et en publication, afin de contribuer à la gestion d’un portefeuille d’équipes externes dans le cadre d’une nouvelle initiative ambitieuse en divertissement interactif. RESPONSABILITÉS Diriger la production auprès de plusieurs équipes de développement externes, en établissant des plans, des jalons, des budgets, des étapes de révision et des attentes claires en matière de livraison. Agir à titre de principal partenaire de production auprès des équipes externes, en assurant une communication efficace, un bon alignement et une responsabilisation continue tout au long du développement. Prendre en charge les flux de production, de l’intégration et du développement jusqu’à la soumission, la révision, l’approbation, la publication et le soutien après le lancement. Collaborer avec les équipes de création, de produit, d’ingénierie, de développement des affaires, des affaires juridiques et d’autres équipes afin de veiller à ce que les équipes de développement externes disposent de tout ce dont elles ont besoin pour réussir. Gérer plusieurs projets simultanément tout en maintenant une visibilité sur les échéanciers, les risques, les dépendances, les budgets et l’état global du portefeuille. Établir et améliorer continuellement les processus de développement externe, de soumission, de publication et de gestion des mises en production. Cerner et résoudre les problèmes touchant les équipes externes, et faire remonter, au besoin, les dépendances interfonctionnelles et les décisions critiques. Intégrer la rétroaction des équipes de développement externes et des personnes créatrices afin d’améliorer les outils, les flux de travail et les processus. Contribuer à faire évoluer les opérations de production afin de soutenir un portefeuille croissant d’équipes de développement externes et de personnes créatrices. Basic Requirements: 15+ years of production experience in video games or interactive entertainment. Experience with UGC platforms, creator ecosystems, modding communities, or games with significant user-created content. Significant experience managing external development, co-development, or outsourced game-development teams. Experience taking games or interactive content from development through approval, publishing, launch, and post-launch operations. Strong production-management and communication skills, with experience managing multiple teams, schedules, budgets, risks, and cross-functional dependencies. Exigences de base 15 ans ou plus d’expérience en production dans le domaine des jeux vidéos ou du divertissement interactif. Expérience avec des plateformes de contenu généré par les utilisateurs (UGC), des écosystèmes de créateurs, des communautés de modding ou des jeux comportant une part importante de contenu créé par les utilisateurs. Expérience significative dans la gestion d’équipes de développement externes, de codéveloppement ou de développement de jeux en sous-traitance. Expérience dans l’accompagnement de jeux ou de contenu interactif, du développement jusqu’à l’approbation, la publication, le lancement et les opérations après le lancement. Solides compétences en gestion de production et en communication, avec de l’expérience dans la gestion de plusieurs équipes, échéanciers, budgets, risques et dépendances interfonctionnelles. Desired Characteristics: Experience designing or operating submission, review, approval, publishing, or certification workflows. Experience with live-service games or platforms supporting an evolving portfolio of content. Familiarity with Unreal Engine or other modern game-development environments. Experience building new external-development or publishing processes in a fast-moving environment. A passion for helping external developers and creators deliver high-quality interactive experiences. Great communication, collaboration, and presentation skills. Caractéristiques souhaitées: Expérience dans la conception ou l’exploitation de flux de travail liés à la soumission, à la révision, à l’approbation, à la publication ou à la certification. Expérience avec des jeux en service continu (live service) ou des plateformes prenant en charge un portefeuille de contenu en constante évolution. Familiarité avec Unreal Engine ou d’autres environnements modernes de développement de jeux. Expérience dans la mise en place de nouveaux processus de développement externe ou de publication dans un environnement évoluant rapidement. Passion pour l’accompagnement des équipes de développement externes et des personnes créatrices afin de leur permettre d’offrir des expériences interactives de grande qualité. Excellentes aptitudes en communication, en collaboration et en présentation. Eligibility Requirements: Interested candidates must apply to be considered. Must be willing to work in our Montreal office a minimum of 4 days a week. Must be willing to work overtime when required, in accordance with Quebec labor standards. Must be legally authorized to work in Canada. Must be willing to travel for work related business, if necessary Conditions d’admissibilité : Les personnes intéressées doivent soumettre leur candidature afin d’être prises en considération. La personne retenue doit être disposée à travailler à notre bureau de Montréal au moins 4 jours par semaine. La personne retenue doit être disposée à faire des heures supplémentaires lorsque requis, conformément aux normes du travail du Québec. La personne retenue doit être légalement autorisée à travailler au Canada. La personne retenue doit être disposée à voyager pour des raisons professionnelles, au besoin. As part of our selection process, external candidates may be required to attend an in-person interview with an NBCUniversal employee at one of our locations prior to a hiring decision. NBCUniversal's policy is to provide equal employment opportunities to all applicants and employees without regard to race, color, religion, creed, gender, gender identity or expression, age, national origin or ancestry, citizenship, disability, sexual orientation, marital status, pregnancy, veteran status, membership in the uniformed services, genetic information, or any other basis protected by applicable law. If you are a qualified individual with a disability or a disabled veteran and require support throughout the application and/or recruitment process as a result of your disability, you have the right to request a reasonable accommodation. You can submit your request to AccessibilitySupport@nbcuni.com.",
+      "linkedin_url": "",
+      "focus_matches": [
+        "Operations"
+      ],
+      "focus_evidence": {
+        "Operations": "s to tools, workflows, and processes. Help scale production operations to support a growing portfolio of external developers and creators. RÉSUMÉ DU POSTE NBCUniversal es"
+      },
+      "work_mode": "Not specified",
+      "work_mode_evidence": "The reviewed official source does not confirm the work arrangement for this role.",
+      "match": 55,
+      "matched_skills": [
+        "Operations"
+      ]
+    },
+    {
+      "id": "ashby:openai:4444d839-3f58-4369-a241-985acbbbf2f9",
+      "company": "OpenAI",
+      "title": "Model Safety Program Manager, User Safety & Risk Operations",
+      "location": "San Francisco, California, United States; Remote: United States",
+      "salary": "$252K - $280K",
+      "official_url": "https://jobs.ashbyhq.com/openai/4444d839-3f58-4369-a241-985acbbbf2f9",
+      "posted": "2026-11-13",
+      "date_evidence": "JobPosting.datePosted",
+      "evidence_url": "https://jobs.ashbyhq.com/openai/4444d839-3f58-4369-a241-985acbbbf2f9",
+      "description": "About the Team At OpenAI, our User Safety & Risk Operations (USRO) team helps protect our products and users from abuse, fraud, safety risks, and other forms of misuse. We translate real-world user and operational signals into timely decisions, practical interventions, and improvements to our products and systems. This role works across USRO and partners with Safety, Research, Product, and Engineering to build sustainable operational programs for emerging model safety risks. About the Role You’ll build and run operational programs for emerging model safety risks. You’ll work with Safety, Research, Product, Engineering, and Operations to define what a program needs to detect, when it should escalate, and how to tell if it’s working. This is a senior individual contributor role based in San Francisco. You will create clarity around scope, decision rights, dependencies, and success measures, then lead pilots through evidence-based rollout decisions and ongoing ownership. Location / work model: San Francisco, CA; work model to confirm. Please note: This role may involve exposure to sensitive or concerning content. Strong discretion, good judgment, and resilience are essential. In This Role, You Will Turn ambiguous safety priorities into programs with clear owners, milestones, operating procedures, and measurable outcomes. Lead pilots for proactive detection and response, set launch and escalation criteria, and use evidence to decide what to expand or change. Bring cross-functional partners together to resolve ownership and dependencies and keep decisions moving. Build reporting and feedback loops that turn operational findings into actionable input for Safety, Research, and Product partners. Establish documentation, training, quality checks, and a sustainable plan for ongoing ownership. You Might Thrive in This Role If You Experience leading complex cross-functional programs from an unclear starting point through launch and ongoing operation. Sound judgment in high-stakes or sensitive work, including how to communicate uncertainty and escalate urgent issues. Experience defining success measures and using data to make decisions, with enough technical fluency to partner on detection, evaluation, or tooling. Clear writing and a track record of securing decisions and follow-through across teams you don’t manage. Nice to Have Experience in trust and safety, incident response, or another high-stakes risk domain. Experience transferring prototypes or new workflows into reliable, scaled operations. About OpenAI OpenAI is an AI research and deployment company dedicated to ensuring that general-purpose artificial intelligence benefits all of humanity. We push the boundaries of the capabilities of AI systems and seek to safely deploy them to the world through our products. AI is an extremely powerful tool that must be created with safety and human needs at its core, and to achieve our mission, we must encompass and value the many different perspectives, voices, and experiences that form the full spectrum of humanity. We are an equal opportunity employer, and we do not discriminate on the basis of race, religion, color, national origin, sex, sexual orientation, age, veteran status, disability, genetic information, or other applicable legally protected characteristic. For additional information, please see OpenAI’s Affirmative Action and Equal Employment Opportunity Policy Statement . Background checks for applicants will be administered in accordance with applicable law, and qualified applicants with arrest or conviction records will be considered for employment consistent with those laws, including the San Francisco Fair Chance Ordinance, the Los Angeles County Fair Chance Ordinance for Employers, and the California Fair Chance Act, for US-based candidates. For unincorporated Los Angeles County workers: we reasonably believe that criminal history may have a direct, adverse and negative relationship with the following job duties, potentially resulting in the withdrawal of a conditional offer of employment: protect computer hardware entrusted to you from theft, loss or damage; return all computer hardware in your possession (including the data contained therein) upon termination of employment or end of assignment; and maintain the confidentiality of proprietary, confidential, and non-public information. In addition, job duties require access to secure and protected information technology systems and related data security obligations. To notify OpenAI that you believe this job posting is non-compliant, please submit a report through this form . No response will be provided to inquiries unrelated to job posting compliance. We are committed to providing reasonable accommodations to applicants with disabilities, and requests can be made via this link . OpenAI Global Applicant Privacy Policy At OpenAI, we believe artificial intelligence has the potential to help people solve immense global challenges, and we want the upside of AI to be widely shared. Join us in shaping the future of technology.",
+      "linkedin_url": "",
+      "work_mode": "Hybrid",
+      "work_mode_evidence": "Official workplaceType field: Hybrid",
+      "focus_matches": [
+        "Operations"
+      ],
+      "focus_evidence": {
+        "Operations": "Model Safety Program Manager, User Safety & Risk Operations. About the Team At OpenAI, our User Safety & Risk Operations (USRO) team helps protect our products"
+      },
+      "match": 55,
+      "matched_skills": [
+        "Operations"
+      ]
+    },
+    {
+      "id": "smartrecruiters:AECOM2:744000161473539",
+      "company": "AECOM",
+      "title": "Express Lanes and Ramp Signaling Operations Program Manager",
+      "location": "Miami, FL, us",
+      "salary": "Not disclosed",
+      "official_url": "https://jobs.smartrecruiters.com/AECOM2/744000161473539-express-lanes-and-ramp-signaling-operations-program-manager",
+      "posted": "2026-11-13T12:23:15.832Z",
+      "date_evidence": "SmartRecruiters.releasedDate (release; may be a repost)",
+      "evidence_url": "https://api.smartrecruiters.com/v1/companies/AECOM2/postings/744000161473539",
+      "description": "Work with Us. Change the World. At AECOM, we're delivering a better world. Whether improving your commute, keeping the lights on, providing access to clean water, or transforming skylines, our work helps people and communities thrive. We are the world's trusted infrastructure consulting firm, partnering with clients to solve the world’s most complex challenges and build legacies for future generations. There has never been a better time to be at AECOM. With accelerating infrastructure investment worldwide, our services are in great demand. We invite you to bring your bold ideas and big dreams and become part of a global team of over 50,000 planners, designers, engineers, scientists, digital innovators, program and construction managers and other professionals delivering projects that create a positive and tangible impact around the world. We're one global team driven by our common purpose to deliver a better world. Join us. Express Lanes and Ramp Signaling Operations Program Manager AECOM is seeking an Express Lanes and Ramp Signaling Operations Program Manager for the SunGuide Transportation Management Center (TMC) in Miami, Florida. The SunGuide TMC is part of the Transportation Systems Management and Operations (TSM&O) Office at the Florida Department of Transportation (FDOT) District Six. The TSM&O Office is a dynamic, exciting, program within FDOT to operate and maintain the intelligent transportation systems (ITS) infrastructure, utilize its incident management resources, and optimize traffic management strategies. District Six covers Miami-Dade and Monroe Counties. The Express Lanes and Ramp Signaling Operations Program Manager’s responsibilities include overseeing the express lanes and ramp signaling programs. District Six operates and maintains 95 Express, Palmetto Express, and 75 Express. District Six also operates and maintains 22 ramp signals along I-95 and will soon add 19 ramp signals along S.R. 826/Palmetto Expressway. This is a full-time on-site position in Miami, Florida. The Express Lanes and Ramp Signaling Operations Program Manager shall be responsible, but not limited to, the following tasks and duties. Managing and overseeing EL and RS operations. Monitoring EL and RS operational performance to ensure services achieve required objectives and performance outcomes. Evaluating and analyzing EL and RS project related performance metrics and trends. Developing and implementing operational recommendations and corrective actions to prevent or mitigate degradation of EL and RS performance measures. Conducting EL and RS operational analyses, including assessment of system performance and field conditions, as applicable. Providing EL and RS project related data and information to internal and external stakeholders. Coordinating and supporting testing for all EL and RS software, hardware, and firmware upgrades/changes. Reviewing and updating EL and RS operational parameters including but not limited to: Express Lanes Time of Day, Level of Service, and Traffic Density Delta tables. Ramp Signaling Central and Local Time of Day tables. Ramp Signaling minimum and maximum metering rates. Reviewing and commenting on plans submitted to the TSM&O Office by other entities, including but not limited to other FDOT Offices or partner agencies. Attending meetings related to plan reviews. Conducting peer reviews for studies or technical reports developed by other units within FDOT. Representing the Department in meetings, workshops, and presentations (including other Express Lanes deployments as the project lead and technical expert). Supporting EL and RS community outreach and public information activities, as requested by the Department. Minimum: BA/BS degree in a STEM discipline (science, technology, engineering, or mathematics) and six (6) years of experience working in an operations role within a TMC or similar transportation operations facility or demonstrated equivalency of experience and/or education. Experience in team leadership, interpersonal, and organizational skills. Demonstrated experience applying core management concepts, including team supervision, prioritization of competing demands, operational decision-making, and effective execution of business objectives. Experience communicating technical information clearly to both technical and non-technical audiences, verbally and in writing. Experience in Windows-based applications and standard office technology. Expereince preparing technical reports and professional correspondence. Experience prioritizing and coordinating real-time operational activities and competing operational priorities. Experience performing effectively in a fast-paced, rapidly changing operational environment requiring proactive and reactive operational adjustments. Must pass a State and Federal criminal history/security background check. State Law Enforcement Radio System (SLERS) background check is required. Ability to work alternate work schedules and be on-call 24 hours/day. Preferred: PE licensed or on track for licensure Operational knowledge of the South Florida express lanes network. Familiarity with Florida’s Turnpike and FDOT District Four as the express lanes network is coordinated with those agencies. Operational knowledge of TMC Operations. Operational knowledge ramp signaling. Relocation is not an option for this position Sponsorship for US employment authorization is not available now or in the future for this position Ability to work alternate work schedules and be on-call 24 hours/day. At AECOM, we are committed to maintaining a secure and trustworthy recruitment process and take any fraudulent hiring activity seriously. To support this commitment, all newly hired employees are required to attend an in-person Day 1 onboarding at an AECOM office location as a condition of employment. About AECOM AECOM is proud to offer comprehensive benefits to meet the diverse needs of our employees. Depending on your employment status, AECOM benefits may include medical, dental, vision, life, AD&D, disability benefits, paid time off, leaves of absences, voluntary benefits, perks, flexible work options , well-being resources, employee assistance program, business travel insurance, service recognition awards, retirement savings plan, and employee stock purchase plan. AECOM is the global infrastructure leader, committed to delivering a better world. As a trusted professional services firm powered by deep technical abilities, we solve our clients’ complex challenges in water, environment, energy, transportation and buildings. Our teams partner with public- and private-sector clients to create innovative, sustainable and resilient solutions throughout the project lifecycle – from advisory, planning, design and engineering to program and construction management. AECOM is a Fortune 500 firm that had revenue of $16.1 billion in fiscal year 2025. Learn more at aecom.com. What makes AECOM a great place to work You will be part of a global team that champions your growth and career ambitions. Work on groundbreaking projects - both in your local community and on a global scale - that are transforming our industry and shaping the future. With cutting-edge technology and a network of experts, you’ll have the resources to make a real impact. Our award-winning training and development programs are designed to expand your technical expertise and leadership skills, helping you build the career you’ve always envisioned. Here, you’ll find a welcoming workplace built on respect, collaboration and community—where you have the freedom to grow in a world of opportunity. As an Equal Opportunity Employer, we believe in your potential and are here to help you achieve it. All your information will be kept confidential according to EEO guidelines.",
+      "linkedin_url": "",
+      "focus_matches": [
+        "Operations"
+      ],
+      "focus_evidence": {
+        "Operations": "Express Lanes and Ramp Signaling Operations Program Manager. Work with Us. Change the World. At AECOM, we're delivering a better world. Whether"
+      },
+      "work_mode": "Not specified",
+      "work_mode_evidence": "The reviewed official source does not confirm the work arrangement for this role.",
+      "match": 55,
+      "matched_skills": [
+        "Operations"
+      ]
+    },
+    {
+      "id": "smartrecruiters:AECOM2:744000161582362",
+      "company": "AECOM",
+      "title": "Remediation Program Manager",
+      "location": "Fort Collins, CO, us",
+      "salary": "Not disclosed",
+      "official_url": "https://jobs.smartrecruiters.com/AECOM2/744000161582362-remediation-program-manager",
+      "posted": "2026-11-13T21:53:01.085Z",
+      "date_evidence": "SmartRecruiters.releasedDate (release; may be a repost)",
+      "evidence_url": "https://api.smartrecruiters.com/v1/companies/AECOM2/postings/744000161582362",
+      "description": "Work with Us. Change the World. At AECOM, we're delivering a better world. Whether improving your commute, keeping the lights on, providing access to clean water, or transforming skylines, our work helps people and communities thrive. We are the world's trusted infrastructure consulting firm, partnering with clients to solve the world’s most complex challenges and build legacies for future generations. There has never been a better time to be at AECOM. With accelerating infrastructure investment worldwide, our services are in great demand. We invite you to bring your bold ideas and big dreams and become part of a global team of over 50,000 planners, designers, engineers, scientists, digital innovators, program and construction managers and other professionals delivering projects that create a positive and tangible impact around the world. We're one global team driven by our common purpose to deliver a better world. Join us. Lead Complex Remediation Programs. Develop High-Performing Teams. Shape the Future of Environmental Program Delivery. AECOM is seeking a senior remediation leader to oversee one of our largest environmental remediation portfolios supporting Oil & Gas clients across the western United States. This is a strategic leadership role responsible for delivering a portfolio of approximately $30M-$50M annually , while leading a team of 3-5 Program Managers and multidisciplinary project delivery teams . You will play a critical role in ensuring safe, compliant, profitable, and high-quality project execution while partnering closely with clients to solve complex environmental challenges. The successful candidate will be a proven leader with remediation experience, strong business acumen, and a demonstrated ability to build high-performing teams, strengthen client relationships, and drive operational excellence. The Opportunity As the Remediation Program Manager, you will serve as the senior delivery leader for a major Oil & Gas remediation program. You will be accountable for portfolio performance, resource planning, risk management, client satisfaction, and financial success, while coaching and developing the next generation of Program Managers. You will work closely with business line leadership, technical experts, client account teams, and operations leaders to drive execution certainty and support future growth. Key Responsibilities Portfolio Leadership and Delivery Lead the successful delivery of a $30M-$50M remediation portfolio across multiple programs and projects. Provide leadership and oversight to a team of Program Managers and project delivery professionals. Ensure projects are delivered safely, on schedule, within budget, and in accordance with contractual commitments. Drive portfolio performance against key operational, financial, safety, and client satisfaction metrics. Serve as the primary escalation point for complex delivery, commercial, and client issues. Lead portfolio-level risk identification, mitigation, and contingency planning. Champion execution certainty through proactive project reviews and performance management. Advance the adoption of digital tools, data-driven decision making, and operational efficiencies. Client Leadership Develop and maintain trusted relationships with key client stakeholders. Act as a strategic advisor to clients, helping them navigate complex environmental and remediation challenges. Ensure delivery excellence while identifying opportunities to expand services and strengthen partnerships. Collaborate with Client Account Managers to support account growth and client retention. People Leadership Directly lead and mentor Program Managers and senior project professionals. Foster a culture of accountability, safety, collaboration, and continuous improvement. Support workforce planning, succession planning, recruitment, and talent development. Develop future remediation leaders through coaching and structured career development. Business Growth Partner with Environmental Business Line leadership to grow profitable backlog and expand client relationships. Support strategic pursuit planning and major opportunity capture efforts. Contribute to annual business planning, forecasting, and portfolio management activities. Help shape the future direction of AECOM's remediation practice and technical capabilities. Minimum Qualifications Bachelor's degree in Environmental Science, Environmental Engineering, Geology, or a related discipline and 10+ years of relevant environmental consulting, remediation, or program management experience. or demonstrated equivalency of experience and/or education, including 2 years of leadership. A valid driver’s license is required, along with the ability to pass a Motor Vehicle Records (MVR) check in accordance with company polic Ability to meet applicable background screening requirements. U.S. Citizenship or Permanent Residency required. Preferred Qualifications Master's degree in Environmental Engineering, Geoscience, or related discipline. Professional registration such as P.E. or P.G. 15+ years of environmental consulting and remediation experience. Demonstrated experience leading large, complex remediation portfolios and multidisciplinary teams. Experience managing Program Managers or other senior project leaders. Strong understanding of environmental remediation programs supporting the Oil & Gas sector. Experience operating within state and federal regulatory frameworks, including Colorado, Texas, California, or similar jurisdictions. Proven success managing client relationships, financial performance, and business growth. Exceptional communication, leadership, and stakeholder engagement skills. Sponsorship for this role now and in the future will not be available. Why This Role? This position offers the opportunity to: Lead one of AECOM's large Oil and Gas remediation portfolios. Manage and mentor a team of Program Managers. Influence strategic decisions impacting clients, operations, and growth. Drive meaningful environmental outcomes across complex remediation programs. Work with industry-leading technical experts and delivery teams. Shape the future of remediation delivery within a global organization. At AECOM, we are committed to maintaining a secure and trustworthy recruitment process and take any fraudulent hiring activity seriously. To support this commitment, all newly hired employees are required to attend an in-person Day 1 onboarding at an AECOM office location as a condition of employment. About AECOM AECOM is proud to offer comprehensive benefits to meet the diverse needs of our employees. Depending on your employment status, AECOM benefits may include medical, dental, vision, life, AD&D, disability benefits, paid time off, leaves of absences, voluntary benefits, perks, flexible work options , well-being resources, employee assistance program, business travel insurance, service recognition awards, retirement savings plan, and employee stock purchase plan. AECOM is the global infrastructure leader, committed to delivering a better world. As a trusted professional services firm powered by deep technical abilities, we solve our clients’ complex challenges in water, environment, energy, transportation and buildings. Our teams partner with public- and private-sector clients to create innovative, sustainable and resilient solutions throughout the project lifecycle – from advisory, planning, design and engineering to program and construction management. AECOM is a Fortune 500 firm that had revenue of $16.1 billion in fiscal year 2025. Learn more at aecom.com. What makes AECOM a great place to work You will be part of a global team that champions your growth and career ambitions. Work on groundbreaking projects - both in your local community and on a global scale - that are transforming our industry and shaping the future. With cutting-edge technology and a network of experts, you’ll have the resources to make a real impact. Our award-winning training and development programs are designed to expand your technical expertise and leadership skills, helping you build the career you’ve always envisioned. Here, you’ll find a welcoming workplace built on respect, collaboration and community—where you have the freedom to grow in a world of opportunity. As an Equal Opportunity Employer, we believe in your potential and are here to help you achieve it. All your information will be kept confidential according to EEO guidelines.",
+      "linkedin_url": "",
+      "focus_matches": [
+        "Operations"
+      ],
+      "focus_evidence": {
+        "Operations": "erforming teams, strengthen client relationships, and drive operational excellence. The Opportunity As the Remediation Program Manager, you will serve as the senior delivery leader f"
+      },
+      "work_mode": "Not specified",
+      "work_mode_evidence": "The reviewed official source does not confirm the work arrangement for this role.",
+      "match": 55,
+      "matched_skills": [
+        "Operations"
+      ]
+    },
+    {
+      "id": "smartrecruiters:AECOM2:744000161581644",
+      "company": "AECOM",
+      "title": "Remediation Program Manager",
+      "location": "Boulder, CO, us",
+      "salary": "Not disclosed",
+      "official_url": "https://jobs.smartrecruiters.com/AECOM2/744000161581644-remediation-program-manager",
+      "posted": "2026-11-13T21:52:00.795Z",
+      "date_evidence": "SmartRecruiters.releasedDate (release; may be a repost)",
+      "evidence_url": "https://api.smartrecruiters.com/v1/companies/AECOM2/postings/744000161581644",
+      "description": "Work with Us. Change the World. At AECOM, we're delivering a better world. Whether improving your commute, keeping the lights on, providing access to clean water, or transforming skylines, our work helps people and communities thrive. We are the world's trusted infrastructure consulting firm, partnering with clients to solve the world’s most complex challenges and build legacies for future generations. There has never been a better time to be at AECOM. With accelerating infrastructure investment worldwide, our services are in great demand. We invite you to bring your bold ideas and big dreams and become part of a global team of over 50,000 planners, designers, engineers, scientists, digital innovators, program and construction managers and other professionals delivering projects that create a positive and tangible impact around the world. We're one global team driven by our common purpose to deliver a better world. Join us. Lead Complex Remediation Programs. Develop High-Performing Teams. Shape the Future of Environmental Program Delivery. AECOM is seeking a senior remediation leader to oversee one of our largest environmental remediation portfolios supporting Oil & Gas clients across the western United States. This is a strategic leadership role responsible for delivering a portfolio of approximately $30M-$50M annually , while leading a team of 3-5 Program Managers and multidisciplinary project delivery teams . You will play a critical role in ensuring safe, compliant, profitable, and high-quality project execution while partnering closely with clients to solve complex environmental challenges. The successful candidate will be a proven leader with remediation experience, strong business acumen, and a demonstrated ability to build high-performing teams, strengthen client relationships, and drive operational excellence. The Opportunity As the Remediation Program Manager, you will serve as the senior delivery leader for a major Oil & Gas remediation program. You will be accountable for portfolio performance, resource planning, risk management, client satisfaction, and financial success, while coaching and developing the next generation of Program Managers. You will work closely with business line leadership, technical experts, client account teams, and operations leaders to drive execution certainty and support future growth. Key Responsibilities Portfolio Leadership and Delivery Lead the successful delivery of a $30M-$50M remediation portfolio across multiple programs and projects. Provide leadership and oversight to a team of Program Managers and project delivery professionals. Ensure projects are delivered safely, on schedule, within budget, and in accordance with contractual commitments. Drive portfolio performance against key operational, financial, safety, and client satisfaction metrics. Serve as the primary escalation point for complex delivery, commercial, and client issues. Lead portfolio-level risk identification, mitigation, and contingency planning. Champion execution certainty through proactive project reviews and performance management. Advance the adoption of digital tools, data-driven decision making, and operational efficiencies. Client Leadership Develop and maintain trusted relationships with key client stakeholders. Act as a strategic advisor to clients, helping them navigate complex environmental and remediation challenges. Ensure delivery excellence while identifying opportunities to expand services and strengthen partnerships. Collaborate with Client Account Managers to support account growth and client retention. People Leadership Directly lead and mentor Program Managers and senior project professionals. Foster a culture of accountability, safety, collaboration, and continuous improvement. Support workforce planning, succession planning, recruitment, and talent development. Develop future remediation leaders through coaching and structured career development. Business Growth Partner with Environmental Business Line leadership to grow profitable backlog and expand client relationships. Support strategic pursuit planning and major opportunity capture efforts. Contribute to annual business planning, forecasting, and portfolio management activities. Help shape the future direction of AECOM's remediation practice and technical capabilities. Minimum Qualifications Bachelor's degree in Environmental Science, Environmental Engineering, Geology, or a related discipline and 10+ years of relevant environmental consulting, remediation, or program management experience. or demonstrated equivalency of experience and/or education, including 2 years of leadership. A valid driver’s license is required, along with the ability to pass a Motor Vehicle Records (MVR) check in accordance with company polic Ability to meet applicable background screening requirements. U.S. Citizenship or Permanent Residency required. Preferred Qualifications Master's degree in Environmental Engineering, Geoscience, or related discipline. Professional registration such as P.E. or P.G. 15+ years of environmental consulting and remediation experience. Demonstrated experience leading large, complex remediation portfolios and multidisciplinary teams. Experience managing Program Managers or other senior project leaders. Strong understanding of environmental remediation programs supporting the Oil & Gas sector. Experience operating within state and federal regulatory frameworks, including Colorado, Texas, California, or similar jurisdictions. Proven success managing client relationships, financial performance, and business growth. Exceptional communication, leadership, and stakeholder engagement skills. Sponsorship for this role now and in the future will not be available. Why This Role? This position offers the opportunity to: Lead one of AECOM's large Oil and Gas remediation portfolios. Manage and mentor a team of Program Managers. Influence strategic decisions impacting clients, operations, and growth. Drive meaningful environmental outcomes across complex remediation programs. Work with industry-leading technical experts and delivery teams. Shape the future of remediation delivery within a global organization. At AECOM, we are committed to maintaining a secure and trustworthy recruitment process and take any fraudulent hiring activity seriously. To support this commitment, all newly hired employees are required to attend an in-person Day 1 onboarding at an AECOM office location as a condition of employment. About AECOM AECOM is proud to offer comprehensive benefits to meet the diverse needs of our employees. Depending on your employment status, AECOM benefits may include medical, dental, vision, life, AD&D, disability benefits, paid time off, leaves of absences, voluntary benefits, perks, flexible work options , well-being resources, employee assistance program, business travel insurance, service recognition awards, retirement savings plan, and employee stock purchase plan. AECOM is the global infrastructure leader, committed to delivering a better world. As a trusted professional services firm powered by deep technical abilities, we solve our clients’ complex challenges in water, environment, energy, transportation and buildings. Our teams partner with public- and private-sector clients to create innovative, sustainable and resilient solutions throughout the project lifecycle – from advisory, planning, design and engineering to program and construction management. AECOM is a Fortune 500 firm that had revenue of $16.1 billion in fiscal year 2025. Learn more at aecom.com. What makes AECOM a great place to work You will be part of a global team that champions your growth and career ambitions. Work on groundbreaking projects - both in your local community and on a global scale - that are transforming our industry and shaping the future. With cutting-edge technology and a network of experts, you’ll have the resources to make a real impact. Our award-winning training and development programs are designed to expand your technical expertise and leadership skills, helping you build the career you’ve always envisioned. Here, you’ll find a welcoming workplace built on respect, collaboration and community—where you have the freedom to grow in a world of opportunity. As an Equal Opportunity Employer, we believe in your potential and are here to help you achieve it. All your information will be kept confidential according to EEO guidelines.",
+      "linkedin_url": "",
+      "focus_matches": [
+        "Operations"
+      ],
+      "focus_evidence": {
+        "Operations": "erforming teams, strengthen client relationships, and drive operational excellence. The Opportunity As the Remediation Program Manager, you will serve as the senior delivery leader f"
+      },
+      "work_mode": "Not specified",
+      "work_mode_evidence": "The reviewed official source does not confirm the work arrangement for this role.",
+      "match": 55,
+      "matched_skills": [
+        "Operations"
+      ]
+    },
+    {
+      "id": "smartrecruiters:Eurofins:744000161522785",
+      "company": "Eurofins",
+      "title": "Program Manager - DiscoveryOne",
+      "location": "Saint Charles, MO, us (Remote)",
+      "salary": "Not disclosed",
+      "official_url": "https://jobs.smartrecruiters.com/Eurofins/744000161522785-program-manager-discoveryone",
+      "posted": "2026-11-13T15:54:25.470Z",
+      "date_evidence": "SmartRecruiters.releasedDate (release; may be a repost)",
+      "evidence_url": "https://api.smartrecruiters.com/v1/companies/Eurofins/postings/744000161522785",
+      "description": "Eurofins Scientific is an international life sciences company, providing a unique range of analytical testing services to clients across multiple industries, to make life and our environment safer, healthier and more sustainable. From the food you eat, to the water you drink, to the medicines you rely on, Eurofins laboratories work with the biggest companies in the world to ensure the products they supply are safe, their ingredients are authentic and labelling is accurate. The Eurofins network of companies is the global leader in food, environment, pharmaceutical and cosmetic product testing and in agroscience Contract Research Organization services. It is one of the market leaders in certain testing and laboratory services for genomics, discovery pharmacology, forensics, advanced material sciences and in the support of clinical studies, as well as having an emerging global presence in Contract Development and Manufacturing Organizations. It also has a rapidly developing presence in highly specialized and molecular clinical diagnostic testing and in-vitro diagnostic products. In over 30 years, Eurofins has grown from one laboratory in Nantes, France to 58,000 staff across a decentralized and entrepreneurial network of 900 laboratories in over 54 countries. Eurofins companies offer a portfolio of over 200,000 analytical methods to evaluate the safety, identity, composition, authenticity, origin, traceability and purity of biological substances and products. In 2024, Eurofins generated total revenues of EUR € 6,515 billion, and has been among the best performing stocks in Europe over the past 20 years. The Program Manager supports the successful execution of integrated drug discovery programs by providing project planning, coordination, governance, and operational leadership. Working closely with Scientific Project Leaders and cross-functional scientific teams, the Program Manager ensures that program activities remain aligned to agreed timelines, budgets, milestones, and client expectations. The role is responsible for maintaining integrated project plans, facilitating communication across teams and sites, monitoring risks and dependencies, tracking budgets and deliverables, and supporting effective decision-making through clear reporting and governance. The Program Manager serves as a key operational partner to Scientific Project Leaders, enabling efficient program execution and a high-quality client experience. Here's what you'll do: Develop and maintain integrated project plans, timelines, milestones, and action trackers. Coordinate program activities across multidisciplinary scientific teams. Facilitate project meetings and document decisions, actions, risks, and dependencies. Monitor program performance against scope, timelines, budget, and deliverables. Support financial tracking, forecasting, and change management activities. Prepare program reports and dashboards for clients and internal stakeholders. Work closely with Scientific Project Leaders to align operational plans with scientific priorities. Identify and escalate risks, issues, and schedule impacts. Support proposal development, project start-up, and program expansion activities. Contribute to continuous improvement of program management processes and tools. The ideal candidate: Bachelor's degree in Life Sciences, Chemistry, Biology, Biotechnology, Pharmacy, or a related scientific discipline. A Master's degree is preferred. Typically 1-3 years of project or program management experience in a CRO, biotechnology, pharmaceutical, or related drug discovery environment. Experience supporting or managing cross-functional programs involving multiple studies, stakeholders, timelines, budgets, and interdependent deliverables. Working knowledge of integrated drug discovery and the relationship between chemistry, biology, ADME/DMPK, pharmacology, safety, and toxicology activities. Strong program planning and execution skills, including work breakdown, critical-path management, milestone tracking, prioritization, and delivery recovery. Ability to lead cross-functional, matrixed teams through influence, establish clear accountability, and drive timely decisions. Strong financial and commercial acumen, including budget management, forecasting, revenue and margin awareness, invoicing visibility, and scope control. Working knowledge of risk and issue management, dependency management, change control, governance, and escalation practices. Strong client-facing communication, facilitation, negotiation, stakeholder-management, and presentation skills. Proficiency with Microsoft Office and project-management, collaboration, reporting, and data-visualization tools; experience with Smartsheet, Microsoft Project, SharePoint, CRM, or ERP/AX is desirable. The position is full-time, Monday-Friday, 8 a.m.- 5 p.m., with overtime as needed. What we offer: Excellent full time benefits including comprehensive medical coverage, dental, and vision options Life and disability insurance 401(k) with company match Paid vacation and holidays Eurofins USA Discovery Services is a Disabled and Veteran Equal Employment Opportunity employer.",
+      "linkedin_url": "",
+      "focus_matches": [
+        "Operations"
+      ],
+      "focus_evidence": {
+        "Operations": "t start-up, and program expansion activities. Contribute to continuous improvement of program management processes and tools. The ideal candidate: Bachelor's degree in Life Sciences,"
+      },
+      "work_mode": "Remote available",
+      "work_mode_evidence": "The official location includes remote work; confirm geographic restrictions and other work arrangements with the employer.",
+      "match": 55,
+      "matched_skills": [
+        "Operations"
+      ]
+    },
+    {
+      "id": "smartrecruiters:NBCUniversal3:744000161517418",
+      "company": "NBCUniversal",
+      "title": "Live Producer, NBC News Specials (Prime)",
+      "location": "New York, NEW YORK, us",
+      "salary": "Not disclosed",
+      "official_url": "https://jobs.smartrecruiters.com/NBCUniversal3/744000161517418-live-producer-nbc-news-specials-prime-",
+      "posted": "2026-11-13T15:32:19.342Z",
+      "date_evidence": "SmartRecruiters.releasedDate (release; may be a repost)",
+      "evidence_url": "https://api.smartrecruiters.com/v1/companies/NBCUniversal3/postings/744000161517418",
+      "description": "NBCUniversal is one of the world's leading media and entertainment companies. We create world-class content, which we distribute across our portfolio of film, television, and streaming, and bring to life through our global theme park destinations, consumer products, and experiences. We own and operate leading entertainment and news brands, including NBC, NBC News, NBC Sports, Telemundo, NBC Local Stations, Bravo, and Peacock, our premium ad-supported streaming service. We produce and distribute premier filmed entertainment and programming through our powerhouse film and television studios, including Universal Pictures, DreamWorks Animation, and Focus Features, and the four global television studios under the Universal Studio Group banner, and operate industry-leading theme parks and experiences around the world through Universal Destinations & Experiences, including Universal Orlando Resort, home to Universal Epic Universe, and Universal Studios Hollywood. NBCUniversal is a subsidiary of Comcast Corporation. Visit www.nbcuniversal.com for more information. Our impact is rooted in improving the communities where our employees, customers, and audiences live and work. We have a rich tradition of giving back and ensuring our employees have the opportunity to serve their communities. We champion an inclusive culture and strive to attract and develop a talented workforce to create and deliver a wide range of content reflecting our world. The NBC News Breaking News Specials team is seeking a skilled Live Producer to help lead the control room during breaking news coverage and support special coverage. You’ll work closely with the Senior Producer to ensure all production elements are in place for seamless live broadcasts during planned and unplanned major news events. Responsibilities: Build and manage rundowns, ensuring all segments, graphics, and video elements are ready for air Help coordinate field teams/reporters, bookings and live remotes during major breaking news Collaborate with Senior Producers and the Specials team to anticipate resources needed for planned major event coverage Troubleshoot technical or logistical issues in real time to minimize on-air disruptions Partner with technical, graphics, audio, and talent departments to maintain top-tier production quality Produce live breaking cut-ins, special segments/programs, and additional content as needed Must be willing to backfill Overnight team approx. 4-6 weeks a year, as lead editorial watch for breaking news between Nightly and Today 3+ years of line producing or coordinating live broadcast news programming Bachelor’s degree or equivalent experience Strong organizational skills and the ability to manage multiple moving parts under tight deadlines Excellent communication skills for collaborating with across editorial, technical, and talent teams under tight deadline Expertise in control-room operations from rundown creation through final sign-off Excellent editorial judgment with knowledge of NBC News Standards Proficiency with automated control-room systems and rundown tools—or clear aptitude to learn them quickly Flexibility for overnight and weekend schedules, including holidays with on-call availability for unplanned breaking news shifts Must be willing and able to work five days a week in person at 30 Rock, Monday-Friday 3pmET-11pmET Desired Characteristics: Highly organized and detail-oriented, with a proven ability to manage complex logistics in a live-news environment Resourceful problem-solver who stays calm under pressure Strong communicator who can coordinate across diverse production units Collaborative team player dedicated to supporting editorial excellence Additional Requirements: Required On-Site: This position is required to be performed full-time from an NBCUniversal-designated worksite. This position is eligible for company sponsored benefits, including medical, dental and vision insurance, 401(k), paid leave, tuition reimbursement, and a variety of other discounts and perks. Learn more about the benefits offered by NBCUniversal by visiting the Benefits page of the Careers website. Salary range: $110,000 - $125,000 As part of our selection process, external candidates may be required to attend an in-person interview with an NBCUniversal employee at one of our locations prior to a hiring decision. NBCUniversal's policy is to provide equal employment opportunities to all applicants and employees without regard to race, color, religion, creed, gender, gender identity or expression, age, national origin or ancestry, citizenship, disability, sexual orientation, marital status, pregnancy, veteran status, membership in the uniformed services, genetic information, or any other basis protected by applicable law. If you are a qualified individual with a disability or a disabled veteran and require support throughout the application and/or recruitment process as a result of your disability, you have the right to request a reasonable accommodation. You can submit your request to AccessibilitySupport@nbcuni.com.",
+      "linkedin_url": "",
+      "focus_matches": [
+        "Operations"
+      ],
+      "focus_evidence": {
+        "Operations": "talent teams under tight deadline Expertise in control-room operations from rundown creation through final sign-off Excellent editorial judgment with knowledge of NBC New"
+      },
+      "work_mode": "On-site",
+      "work_mode_evidence": "dedicated to supporting editorial excellence Additional Requirements: Required On-Site: This position is required to be performed full-time from an NBCUniversal-designated worksite",
+      "match": 55,
+      "matched_skills": [
+        "Operations"
+      ]
+    },
+    {
+      "id": "smartrecruiters:NBCUniversal3:744000161549529",
+      "company": "NBCUniversal",
+      "title": "Senior Producer, NBC News Specials (Prime)",
+      "location": "New York, NEW YORK, us",
+      "salary": "Not disclosed",
+      "official_url": "https://jobs.smartrecruiters.com/NBCUniversal3/744000161549529-senior-producer-nbc-news-specials-prime-",
+      "posted": "2026-11-13T18:01:14.001Z",
+      "date_evidence": "SmartRecruiters.releasedDate (release; may be a repost)",
+      "evidence_url": "https://api.smartrecruiters.com/v1/companies/NBCUniversal3/postings/744000161549529",
+      "description": "NBCUniversal is one of the world's leading media and entertainment companies. We create world-class content, which we distribute across our portfolio of film, television, and streaming, and bring to life through our global theme park destinations, consumer products, and experiences. We own and operate leading entertainment and news brands, including NBC, NBC News, NBC Sports, Telemundo, NBC Local Stations, Bravo, and Peacock, our premium ad-supported streaming service. We produce and distribute premier filmed entertainment and programming through our powerhouse film and television studios, including Universal Pictures, DreamWorks Animation, and Focus Features, and the four global television studios under the Universal Studio Group banner, and operate industry-leading theme parks and experiences around the world through Universal Destinations & Experiences, including Universal Orlando Resort, home to Universal Epic Universe, and Universal Studios Hollywood. NBCUniversal is a subsidiary of Comcast Corporation. Visit www.nbcuniversal.com for more information. Our impact is rooted in improving the communities where our employees, customers, and audiences live and work. We have a rich tradition of giving back and ensuring our employees have the opportunity to serve their communities. We champion an inclusive culture and strive to attract and develop a talented workforce to create and deliver a wide range of content reflecting our world. The NBC News Breaking News Specials team seeks a seasoned Senior Producer to drive our primetime breaking news coverage and lead seamless live broadcasts during planned and unplanned major news events. You will lead editorial and operational execution when news breaks, ensuring broadcasts are fast, accurate, and compelling and work alongside the Specials team on a variety of news broadcasts and projects. Responsibilities: Lead live breaking-news coverage during major events Coordinate with control-room staff, on-air talent, and field reporters Make split-second editorial decisions that uphold accuracy and clarity Serve as the primary editorial lead for weeknight coverage Mentor and guide the editorial team Collaborate with the Specials team on event planning and execution Partner with technical, graphics, audio, and talent departments to maintain top-tier production quality Produce live cut-ins, special programs, and additional content as needed for NBC Network and NBC News Now Backfill Overnight team approx. 4-6 weeks a year, as lead editorial watch for breaking news between Nightly and Today Minimum of 8 years in broadcast or cable news production, including 3 years on breaking news or live event teams Bachelor’s degree or equivalent newsroom experience Proven track record of rapid, accurate editorial judgment under deadline pressure Expertise in control room operations from rundown creation through final sign-off Proficiency with automated control room systems and rundown tools –– or clear aptitude to learn them quickly Flexibility to work overnights, weekends, and be on call for urgent breaking events Willingness and ability to work in person at 30 Rock five nights a week Monday-Friday 3pmET-11pmET Desired Characteristics: Steady under pressure: A composed and decisive leader who excels in fast-paced, high-stakes breaking news situations Editorial excellence: Brings sharp editorial judgment and can guide a team through fast-moving, unpredictable live events Clear communicator: Articulates direction with clarity and confidence –– both in writing and during live broadcasts Collaborative mentor: Invested in nurturing emerging talent and fostering a culture of growth and teamwork Additional Requirements: Required On-Site: This position is required to be performed full-time from an NBCUniversal-designated worksite. This position is eligible for company sponsored benefits, including medical, dental and vision insurance, 401(k), paid leave, tuition reimbursement, and a variety of other discounts and perks. Learn more about the benefits offered by NBCUniversal by visiting the Benefits page of the Careers website. Salary range: $125,000 - $170,000 (bonus eligible) As part of our selection process, external candidates may be required to attend an in-person interview with an NBCUniversal employee at one of our locations prior to a hiring decision. NBCUniversal's policy is to provide equal employment opportunities to all applicants and employees without regard to race, color, religion, creed, gender, gender identity or expression, age, national origin or ancestry, citizenship, disability, sexual orientation, marital status, pregnancy, veteran status, membership in the uniformed services, genetic information, or any other basis protected by applicable law. If you are a qualified individual with a disability or a disabled veteran and require support throughout the application and/or recruitment process as a result of your disability, you have the right to request a reasonable accommodation. You can submit your request to AccessibilitySupport@nbcuni.com.",
+      "linkedin_url": "https://www.linkedin.com/jobs/view/senior-producer-nbc-news-specials-prime-at-nbcuniversal-4490755820?position=4&pageNum=0&refId=Krnfcm7v6YJMkL0DWj7abQ%3D%3D&trackingId=Tp4kHUo1oHqlTdgBmueTtw%3D%3D",
+      "focus_matches": [
+        "Operations"
+      ],
+      "focus_evidence": {
+        "Operations": " judgment under deadline pressure Expertise in control room operations from rundown creation through final sign-off Proficiency with automated control room systems and ru"
+      },
+      "work_mode": "On-site",
+      "work_mode_evidence": "d fostering a culture of growth and teamwork Additional Requirements: Required On-Site: This position is required to be performed full-time from an NBCUniversal-designated worksite",
+      "match": 55,
+      "matched_skills": [
+        "Operations"
+      ]
+    }
+  ]
+}
