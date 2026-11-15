@@ -10,150 +10,36 @@ Search area: USA, Canada, Mexico, Spain, LATAM, and eligible remote roles. Resul
 
 <!-- DASHBOARD:START -->
 
-## Dashboard: 2026-11-13
+## Dashboard: 2026-11-14
 
 > Your worth is not measured by an inbox. One thoughtful application at a time is enough for today.
 
-Publication day: 2026-11-13. Verified at: 2026-11-13T23:27:31.166817-08:00 (America/Los_Angeles).
+Publication day: 2026-11-14. Verified at: 2026-11-14T23:39:14.384822-08:00 (America/Los_Angeles).
 
 Up to 30 verified listings from the requested publication day. Coverage is limited to accessible sources.
 
-Reviewed: 61930 | Recommended: 10 | Applied excluded: 0 | Previously seen: 0 | Unverified: 0 | Outside topic focus: 9
+Reviewed: 61904 | Recommended: 0 | Applied excluded: 0 | Previously seen: 0 | Unverified: 0 | Outside topic focus: 0
 
-Accessible sources: 275 | LinkedIn candidates: 101
+Accessible sources: 275 | LinkedIn candidates: 74
 
 LinkedIn: Public access available: 42 searches; publication dates verified only against official sources
 
-Regional coverage: Mexico 0 verified candidates | Spain 0 verified candidates. Target: 30; returned: 10.
+Regional coverage: Mexico 0 verified candidates | Spain 0 verified candidates. Target: 30; returned: 0.
 
 ## Top 5
 
 | Estimated match | Company | Role | Location | Work arrangement | Apply |
 |---|---|---|---|---|---|
-| 55% | Anthropic | Technical Program Manager, Life Sciences Research (Genetic Medicine) | Boston, MA; San Francisco, CA &#124; New York City, NY &#124; Seattle, WA | Hybrid | [Apply](<https://job-boards.greenhouse.io/anthropic/jobs/5481980008>) |
-| 55% | CoreWeave | Technical Program Manager, Engineering Excellence | Livingston, NJ / New York, NY / Sunnyvale, CA / Bellevue, WA | Not specified | [Apply](<https://coreweave.com/careers/job?4729321006&board=coreweave&gh_jid=4729321006>) |
-| 55% | NBCUniversal | Senior Producer - Ecosystems &#124; Producteur senior - Écosystèmes | Montreal, QUEBEC, ca | Not specified | [Apply](<https://jobs.smartrecruiters.com/NBCUniversal3/744000161625997-senior-producer-ecosystems-producteur-senior-ecosystemes>) |
-| 55% | OpenAI | Model Safety Program Manager, User Safety &amp; Risk Operations | San Francisco, California, United States; Remote: United States | Hybrid | [Apply](<https://jobs.ashbyhq.com/openai/4444d839-3f58-4369-a241-985acbbbf2f9>) |
-| 55% | AECOM | Express Lanes and Ramp Signaling Operations Program Manager | Miami, FL, us | Not specified | [Apply](<https://jobs.smartrecruiters.com/AECOM2/744000161473539-express-lanes-and-ramp-signaling-operations-program-manager>) |
+No verified listings met all filters in the accessible sources.
 
 ## Verified jobs
 
 | Estimated match | Company / role | Location | Work arrangement | Published salary | Official publication date | Apply | LinkedIn |
 |---|---|---|---|---|---|---|---|
-| 55% | Anthropic / Technical Program Manager, Life Sciences Research (Genetic Medicine) | Boston, MA; San Francisco, CA &#124; New York City, NY &#124; Seattle, WA | Hybrid | USD 290,000-365,000 (Annual Salary:) | 2026-11-13T16:57:59-05:00 | [Apply](<https://job-boards.greenhouse.io/anthropic/jobs/5481980008>) | Not available |
-| 55% | CoreWeave / Technical Program Manager, Engineering Excellence | Livingston, NJ / New York, NY / Sunnyvale, CA / Bellevue, WA | Not specified | Not disclosed | 2026-11-13T10:18:11-05:00 | [Apply](<https://coreweave.com/careers/job?4729321006&board=coreweave&gh_jid=4729321006>) | Not available |
-| 55% | NBCUniversal / Senior Producer - Ecosystems &#124; Producteur senior - Écosystèmes | Montreal, QUEBEC, ca | Not specified | Not disclosed | 2026-11-14T01:59:55.385Z | [Apply](<https://jobs.smartrecruiters.com/NBCUniversal3/744000161625997-senior-producer-ecosystems-producteur-senior-ecosystemes>) | Not available |
-| 55% | OpenAI / Model Safety Program Manager, User Safety &amp; Risk Operations | San Francisco, California, United States; Remote: United States | Hybrid | $252K - $280K | 2026-11-13 | [Apply](<https://jobs.ashbyhq.com/openai/4444d839-3f58-4369-a241-985acbbbf2f9>) | Not available |
-| 55% | AECOM / Express Lanes and Ramp Signaling Operations Program Manager | Miami, FL, us | Not specified | Not disclosed | 2026-11-13T12:23:15.832Z | [Apply](<https://jobs.smartrecruiters.com/AECOM2/744000161473539-express-lanes-and-ramp-signaling-operations-program-manager>) | Not available |
-| 55% | AECOM / Remediation Program Manager | Fort Collins, CO, us | Not specified | Not disclosed | 2026-11-13T21:53:01.085Z | [Apply](<https://jobs.smartrecruiters.com/AECOM2/744000161582362-remediation-program-manager>) | Not available |
-| 55% | AECOM / Remediation Program Manager | Boulder, CO, us | Not specified | Not disclosed | 2026-11-13T21:52:00.795Z | [Apply](<https://jobs.smartrecruiters.com/AECOM2/744000161581644-remediation-program-manager>) | Not available |
-| 55% | Eurofins / Program Manager - DiscoveryOne | Saint Charles, MO, us (Remote) | Remote available | Not disclosed | 2026-11-13T15:54:25.470Z | [Apply](<https://jobs.smartrecruiters.com/Eurofins/744000161522785-program-manager-discoveryone>) | Not available |
-| 55% | NBCUniversal / Live Producer, NBC News Specials (Prime) | New York, NEW YORK, us | On-site | Not disclosed | 2026-11-13T15:32:19.342Z | [Apply](<https://jobs.smartrecruiters.com/NBCUniversal3/744000161517418-live-producer-nbc-news-specials-prime->) | Not available |
-| 55% | NBCUniversal / Senior Producer, NBC News Specials (Prime) | New York, NEW YORK, us | On-site | Not disclosed | 2026-11-13T18:01:14.001Z | [Apply](<https://jobs.smartrecruiters.com/NBCUniversal3/744000161549529-senior-producer-nbc-news-specials-prime->) | [LinkedIn](<https://www.linkedin.com/jobs/view/senior-producer-nbc-news-specials-prime-at-nbcuniversal-4490755820?position=4&pageNum=0&refId=Krnfcm7v6YJMkL0DWj7abQ%3D%3D&trackingId=Tp4kHUo1oHqlTdgBmueTtw%3D%3D>) |
 
 ## Evidence and fit
 
 Topic match is a heuristic, not a hiring probability or verified assessment of experience. With topic focus enabled: 40 base points plus 15 per matched theme (Agile, OKRs, Operations, ISO 27001), capped at 100. At least one theme is required. Results are ordered by match; California breaks ties.
-
-### Anthropic: Technical Program Manager, Life Sciences Research (Genetic Medicine)
-
-- Job ID: greenhouse:anthropic:5481980008
-- Application status: Not recorded as applied
-- Work arrangement: Hybrid. ience: Years of experience required will correlate with the internal job level requirements for the position Location-based hybrid policy: Currently, we expect all staff to be in one of our offices at least 25% of the time
-- Publication date: 2026-11-13T16:57:59-05:00. Zoned timestamps are evaluated in California time.
-- Date evidence: [Greenhouse.first_published](<https://boards-api.greenhouse.io/v1/boards/anthropic/jobs/5481980008?pay_transparency=true>)
-- Relevant themes: Operations.
-- Theme evidence: the official title or description mentions Operations.
-
-### CoreWeave: Technical Program Manager, Engineering Excellence
-
-- Job ID: greenhouse:coreweave:4729321006
-- Application status: Not recorded as applied
-- Work arrangement: Not specified. The reviewed official source does not confirm the work arrangement for this role.
-- Publication date: 2026-11-13T10:18:11-05:00. Zoned timestamps are evaluated in California time.
-- Date evidence: [Greenhouse.first_published](<https://boards-api.greenhouse.io/v1/boards/coreweave/jobs/4729321006?pay_transparency=true>)
-- Relevant themes: Operations.
-- Theme evidence: the official title or description mentions Operations.
-
-### NBCUniversal: Senior Producer - Ecosystems &#124; Producteur senior - Écosystèmes
-
-- Job ID: smartrecruiters:NBCUniversal3:744000161625997
-- Application status: Not recorded as applied
-- Work arrangement: Not specified. The reviewed official source does not confirm the work arrangement for this role.
-- Publication date: 2026-11-14T01:59:55.385Z. Zoned timestamps are evaluated in California time.
-- Date evidence: [SmartRecruiters.releasedDate (release; may be a repost)](<https://api.smartrecruiters.com/v1/companies/NBCUniversal3/postings/744000161625997>)
-- Relevant themes: Operations.
-- Theme evidence: the official title or description mentions Operations.
-
-### OpenAI: Model Safety Program Manager, User Safety &amp; Risk Operations
-
-- Job ID: ashby:openai:4444d839-3f58-4369-a241-985acbbbf2f9
-- Application status: Not recorded as applied
-- Work arrangement: Hybrid. Official workplaceType field: Hybrid
-- Publication date: 2026-11-13. Zoned timestamps are evaluated in California time.
-- Date evidence: [JobPosting.datePosted](<https://jobs.ashbyhq.com/openai/4444d839-3f58-4369-a241-985acbbbf2f9>)
-- Relevant themes: Operations.
-- Theme evidence: the official title or description mentions Operations.
-
-### AECOM: Express Lanes and Ramp Signaling Operations Program Manager
-
-- Job ID: smartrecruiters:AECOM2:744000161473539
-- Application status: Not recorded as applied
-- Work arrangement: Not specified. The reviewed official source does not confirm the work arrangement for this role.
-- Publication date: 2026-11-13T12:23:15.832Z. Zoned timestamps are evaluated in California time.
-- Date evidence: [SmartRecruiters.releasedDate (release; may be a repost)](<https://api.smartrecruiters.com/v1/companies/AECOM2/postings/744000161473539>)
-- Relevant themes: Operations.
-- Theme evidence: the official title or description mentions Operations.
-
-### AECOM: Remediation Program Manager
-
-- Job ID: smartrecruiters:AECOM2:744000161582362
-- Application status: Not recorded as applied
-- Work arrangement: Not specified. The reviewed official source does not confirm the work arrangement for this role.
-- Publication date: 2026-11-13T21:53:01.085Z. Zoned timestamps are evaluated in California time.
-- Date evidence: [SmartRecruiters.releasedDate (release; may be a repost)](<https://api.smartrecruiters.com/v1/companies/AECOM2/postings/744000161582362>)
-- Relevant themes: Operations.
-- Theme evidence: the official title or description mentions Operations.
-
-### AECOM: Remediation Program Manager
-
-- Job ID: smartrecruiters:AECOM2:744000161581644
-- Application status: Not recorded as applied
-- Work arrangement: Not specified. The reviewed official source does not confirm the work arrangement for this role.
-- Publication date: 2026-11-13T21:52:00.795Z. Zoned timestamps are evaluated in California time.
-- Date evidence: [SmartRecruiters.releasedDate (release; may be a repost)](<https://api.smartrecruiters.com/v1/companies/AECOM2/postings/744000161581644>)
-- Relevant themes: Operations.
-- Theme evidence: the official title or description mentions Operations.
-
-### Eurofins: Program Manager - DiscoveryOne
-
-- Job ID: smartrecruiters:Eurofins:744000161522785
-- Application status: Not recorded as applied
-- Work arrangement: Remote available. The official location includes remote work; confirm geographic restrictions and other work arrangements with the employer.
-- Publication date: 2026-11-13T15:54:25.470Z. Zoned timestamps are evaluated in California time.
-- Date evidence: [SmartRecruiters.releasedDate (release; may be a repost)](<https://api.smartrecruiters.com/v1/companies/Eurofins/postings/744000161522785>)
-- Relevant themes: Operations.
-- Theme evidence: the official title or description mentions Operations.
-
-### NBCUniversal: Live Producer, NBC News Specials (Prime)
-
-- Job ID: smartrecruiters:NBCUniversal3:744000161517418
-- Application status: Not recorded as applied
-- Work arrangement: On-site. dedicated to supporting editorial excellence Additional Requirements: Required On-Site: This position is required to be performed full-time from an NBCUniversal-designated worksite
-- Publication date: 2026-11-13T15:32:19.342Z. Zoned timestamps are evaluated in California time.
-- Date evidence: [SmartRecruiters.releasedDate (release; may be a repost)](<https://api.smartrecruiters.com/v1/companies/NBCUniversal3/postings/744000161517418>)
-- Relevant themes: Operations.
-- Theme evidence: the official title or description mentions Operations.
-
-### NBCUniversal: Senior Producer, NBC News Specials (Prime)
-
-- Job ID: smartrecruiters:NBCUniversal3:744000161549529
-- Application status: Not recorded as applied
-- Work arrangement: On-site. d fostering a culture of growth and teamwork Additional Requirements: Required On-Site: This position is required to be performed full-time from an NBCUniversal-designated worksite
-- Publication date: 2026-11-13T18:01:14.001Z. Zoned timestamps are evaluated in California time.
-- Date evidence: [SmartRecruiters.releasedDate (release; may be a repost)](<https://api.smartrecruiters.com/v1/companies/NBCUniversal3/postings/744000161549529>)
-- Relevant themes: Operations.
-- Theme evidence: the official title or description mentions Operations.
 
 ## Additional discovery sources
 
@@ -164,7 +50,7 @@ New verified employer boards retained for future searches: 0.
 | Latino and professional associations | Prospanica | 0 | 0 | 0 | 1 |
 | Latino and professional associations | HOPE - Hispanas Organized for Political Equality | 1 | 1 | 0 | 0 |
 | Latino and professional associations | Lean In Latinas | 1 | 0 | 0 | 1 |
-| Regional technology and startups | Built In San Francisco | 3 | 25 | 0 | 0 |
+| Regional technology and startups | Built In San Francisco | 3 | 26 | 0 | 0 |
 | Games and entertainment | Hitmarker | 3 | 1 | 0 | 0 |
 | Regional technology and startups | Welcome to the Jungle | 4 | 1 | 0 | 1 |
 | Life sciences | Biocom Career Hub | 1 | 0 | 0 | 1 |
@@ -178,7 +64,7 @@ New verified employer boards retained for future searches: 0.
 | Latino and professional associations | Latinx in Tech Career Center | 1 | 0 | 0 | 1 |
 | Women and inclusive career networks | PowerToFly | 1 | 0 | 0 | 1 |
 | Women and inclusive career networks | Women Who Design | 1 | 0 | 0 | 1 |
-| Women and inclusive career networks | Women in Games International | 1 | 1 | 0 | 0 |
+| Women and inclusive career networks | Women in Games International | 1 | 0 | 0 | 1 |
 | Women and inclusive career networks | Started by Women | 1 | 0 | 0 | 1 |
 | Regional technology and startups | Wellfound California | 1 | 0 | 0 | 1 |
 | Regional technology and startups | Y Combinator California | 1 | 0 | 0 | 1 |
@@ -262,6 +148,7 @@ The daily 5 pm run cannot include listings published after it begins. Historical
 - Latinx in Tech Career Center: No supported role links in public HTML; dynamic or member-only results may be unavailable
 - PowerToFly: No supported role links in public HTML; dynamic or member-only results may be unavailable
 - Women Who Design: No supported role links in public HTML; dynamic or member-only results may be unavailable
+- Women in Games International: No supported role links in public HTML; dynamic or member-only results may be unavailable
 - Started by Women: No supported role links in public HTML; dynamic or member-only results may be unavailable
 - Wellfound California: No supported role links in public HTML; dynamic or member-only results may be unavailable
 - Y Combinator California: No supported role links in public HTML; dynamic or member-only results may be unavailable
