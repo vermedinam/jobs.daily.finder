@@ -10,17 +10,17 @@ Search area: USA, Canada, Mexico, Spain, LATAM, and eligible remote roles. Resul
 
 <!-- DASHBOARD:START -->
 
-## Dashboard: 2026-11-18
+## Dashboard: 2026-11-19
 
 > Your worth is not measured by an inbox. One thoughtful application at a time is enough for today.
 
-Publication day: 2026-11-18. Verified at: 2026-11-18T00:18:29.272049-08:00 (America/Los_Angeles).
+Publication day: 2026-11-19. Verified at: 2026-11-19T00:30:49.061237-08:00 (America/Los_Angeles).
 
 Up to 30 verified listings from the requested publication day. Coverage is limited to accessible sources.
 
-Reviewed: 61701 | Recommended: 0 | Applied excluded: 0 | Previously seen: 0 | Unverified: 1 | Outside topic focus: 0
+Reviewed: 61874 | Recommended: 0 | Applied excluded: 0 | Previously seen: 0 | Unverified: 0 | Outside topic focus: 0
 
-Accessible sources: 275 | LinkedIn candidates: 89
+Accessible sources: 275 | LinkedIn candidates: 93
 
 LinkedIn: Public access available: 42 searches; publication dates verified only against official sources
 
@@ -50,12 +50,12 @@ New verified employer boards retained for future searches: 0.
 | Latino and professional associations | Prospanica | 0 | 0 | 0 | 1 |
 | Latino and professional associations | HOPE - Hispanas Organized for Political Equality | 1 | 1 | 0 | 0 |
 | Latino and professional associations | Lean In Latinas | 1 | 0 | 0 | 1 |
-| Regional technology and startups | Built In San Francisco | 3 | 24 | 0 | 0 |
-| Games and entertainment | Hitmarker | 3 | 3 | 0 | 0 |
+| Regional technology and startups | Built In San Francisco | 3 | 21 | 0 | 0 |
+| Games and entertainment | Hitmarker | 3 | 6 | 0 | 0 |
 | Regional technology and startups | Welcome to the Jungle | 4 | 2 | 0 | 2 |
 | Life sciences | Biocom Career Hub | 1 | 0 | 0 | 1 |
 | Company careers | WelbeHealth official careers | 1 | 0 | 0 | 1 |
-| Company careers | Branch official careers | 1 | 11 | 0 | 0 |
+| Company careers | Branch official careers | 1 | 12 | 0 | 0 |
 | Company careers | thatgamecompany official careers | 0 | 0 | 0 | 1 |
 | Company careers | Turtle Rock Studios official careers | 1 | 3 | 0 | 0 |
 | Latino and professional associations | HLPA | 0 | 0 | 0 | 1 |
@@ -66,7 +66,7 @@ New verified employer boards retained for future searches: 0.
 | Women and inclusive career networks | Women Who Design | 1 | 0 | 0 | 1 |
 | Women and inclusive career networks | Women in Games International | 1 | 1 | 0 | 0 |
 | Women and inclusive career networks | Started by Women | 1 | 0 | 0 | 1 |
-| Regional technology and startups | Wellfound California | 1 | 0 | 0 | 1 |
+| Regional technology and startups | Wellfound California | 1 | 2 | 0 | 0 |
 | Regional technology and startups | Y Combinator California | 1 | 0 | 0 | 1 |
 | Games and entertainment | Games Jobs Direct | 0 | 0 | 0 | 1 |
 | Games and entertainment | Bloks | 0 | 0 | 0 | 1 |
@@ -150,7 +150,6 @@ The daily 5 pm run cannot include listings published after it begins. Historical
 - PowerToFly: No supported role links in public HTML; dynamic or member-only results may be unavailable
 - Women Who Design: No supported role links in public HTML; dynamic or member-only results may be unavailable
 - Started by Women: No supported role links in public HTML; dynamic or member-only results may be unavailable
-- Wellfound California: No supported role links in public HTML; dynamic or member-only results may be unavailable
 - Y Combinator California: No supported role links in public HTML; dynamic or member-only results may be unavailable
 - Games Jobs Direct: https://www.gamesjobsdirect.com/search: HTTP Error 406: Not Acceptable
 - Bloks: https://bloks.gg/: Host is not explicitly allowlisted
