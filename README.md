@@ -10,19 +10,19 @@ Search area: USA, Canada, Mexico, Spain, LATAM, and eligible remote roles. Resul
 
 <!-- DASHBOARD:START -->
 
-## Dashboard: 2026-11-19
+## Dashboard: 2026-11-20
 
 > Your worth is not measured by an inbox. One thoughtful application at a time is enough for today.
 
-Publication day: 2026-11-19. Verified at: 2026-11-19T00:30:49.061237-08:00 (America/Los_Angeles).
+Publication day: 2026-11-20. Verified at: 2026-11-20T00:12:26.982446-08:00 (America/Los_Angeles).
 
 Up to 30 verified listings from the requested publication day. Coverage is limited to accessible sources.
 
-Reviewed: 61874 | Recommended: 0 | Applied excluded: 0 | Previously seen: 0 | Unverified: 0 | Outside topic focus: 0
+Reviewed: 61850 | Recommended: 0 | Applied excluded: 0 | Previously seen: 0 | Unverified: 10 | Outside topic focus: 0
 
-Accessible sources: 275 | LinkedIn candidates: 93
+Accessible sources: 275 | LinkedIn candidates: 90
 
-LinkedIn: Public access available: 42 searches; publication dates verified only against official sources
+LinkedIn: Public access limited (HTTPError); no bypass or login attempted
 
 Regional coverage: Mexico 0 verified candidates | Spain 0 verified candidates. Target: 30; returned: 0.
 
@@ -51,7 +51,7 @@ New verified employer boards retained for future searches: 0.
 | Latino and professional associations | HOPE - Hispanas Organized for Political Equality | 1 | 1 | 0 | 0 |
 | Latino and professional associations | Lean In Latinas | 1 | 0 | 0 | 1 |
 | Regional technology and startups | Built In San Francisco | 3 | 21 | 0 | 0 |
-| Games and entertainment | Hitmarker | 3 | 6 | 0 | 0 |
+| Games and entertainment | Hitmarker | 3 | 3 | 0 | 0 |
 | Regional technology and startups | Welcome to the Jungle | 4 | 2 | 0 | 2 |
 | Life sciences | Biocom Career Hub | 1 | 0 | 0 | 1 |
 | Company careers | WelbeHealth official careers | 1 | 0 | 0 | 1 |
@@ -66,7 +66,7 @@ New verified employer boards retained for future searches: 0.
 | Women and inclusive career networks | Women Who Design | 1 | 0 | 0 | 1 |
 | Women and inclusive career networks | Women in Games International | 1 | 1 | 0 | 0 |
 | Women and inclusive career networks | Started by Women | 1 | 0 | 0 | 1 |
-| Regional technology and startups | Wellfound California | 1 | 2 | 0 | 0 |
+| Regional technology and startups | Wellfound California | 1 | 0 | 0 | 1 |
 | Regional technology and startups | Y Combinator California | 1 | 0 | 0 | 1 |
 | Games and entertainment | Games Jobs Direct | 0 | 0 | 0 | 1 |
 | Games and entertainment | Bloks | 0 | 0 | 0 | 1 |
@@ -75,9 +75,9 @@ New verified employer boards retained for future searches: 0.
 | Life sciences | BioSpace California | 0 | 0 | 0 | 1 |
 | Life sciences | BioTalent | 1 | 0 | 0 | 1 |
 | Remote and international | Manfred Spain | 1 | 0 | 0 | 1 |
-| Remote and international | Wellfound Remote | 1 | 28 | 0 | 0 |
+| Remote and international | Wellfound Remote | 1 | 29 | 0 | 0 |
 | Remote and international | Jobgether | 0 | 0 | 0 | 1 |
-| Remote and international | Remotely | 1 | 10 | 0 | 0 |
+| Remote and international | Remotely | 1 | 6 | 0 | 0 |
 ## Coverage and source issues
 
 The daily 5 pm run cannot include listings published after it begins. Historical searches include postings still accessible when checked. First-seen dates are never substituted for publication dates. SmartRecruiters release dates may refer to reposts. Work arrangements are not inferred from a city or an onboarding event. Additional discovery boards are checked through accessible public HTML with robots.txt respected. Member-only and JavaScript-only results may be unavailable. Third-party publication dates never replace official date evidence.
@@ -150,6 +150,7 @@ The daily 5 pm run cannot include listings published after it begins. Historical
 - PowerToFly: No supported role links in public HTML; dynamic or member-only results may be unavailable
 - Women Who Design: No supported role links in public HTML; dynamic or member-only results may be unavailable
 - Started by Women: No supported role links in public HTML; dynamic or member-only results may be unavailable
+- Wellfound California: No supported role links in public HTML; dynamic or member-only results may be unavailable
 - Y Combinator California: No supported role links in public HTML; dynamic or member-only results may be unavailable
 - Games Jobs Direct: https://www.gamesjobsdirect.com/search: HTTP Error 406: Not Acceptable
 - Bloks: https://bloks.gg/: Host is not explicitly allowlisted
