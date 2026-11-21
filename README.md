@@ -10,17 +10,17 @@ Search area: USA, Canada, Mexico, Spain, LATAM, and eligible remote roles. Resul
 
 <!-- DASHBOARD:START -->
 
-## Dashboard: 2026-11-20
+## Dashboard: 2026-11-21
 
 > Your worth is not measured by an inbox. One thoughtful application at a time is enough for today.
 
-Publication day: 2026-11-20. Verified at: 2026-11-20T00:12:26.982446-08:00 (America/Los_Angeles).
+Publication day: 2026-11-21. Verified at: 2026-11-21T00:05:47.180584-08:00 (America/Los_Angeles).
 
 Up to 30 verified listings from the requested publication day. Coverage is limited to accessible sources.
 
-Reviewed: 61850 | Recommended: 0 | Applied excluded: 0 | Previously seen: 0 | Unverified: 10 | Outside topic focus: 0
+Reviewed: 62059 | Recommended: 0 | Applied excluded: 0 | Previously seen: 0 | Unverified: 8 | Outside topic focus: 0
 
-Accessible sources: 275 | LinkedIn candidates: 90
+Accessible sources: 275 | LinkedIn candidates: 84
 
 LinkedIn: Public access limited (HTTPError); no bypass or login attempted
 
@@ -48,12 +48,12 @@ New verified employer boards retained for future searches: 0.
 | Source category | Source | Accessible seed pages | Candidate pages checked | Official date-verified discoveries before deduplication | Issues |
 |---|---|---|---|---|---|
 | Latino and professional associations | Prospanica | 0 | 0 | 0 | 1 |
-| Latino and professional associations | HOPE - Hispanas Organized for Political Equality | 1 | 1 | 0 | 0 |
+| Latino and professional associations | HOPE - Hispanas Organized for Political Equality | 1 | 1 | 0 | 1 |
 | Latino and professional associations | Lean In Latinas | 1 | 0 | 0 | 1 |
 | Regional technology and startups | Built In San Francisco | 3 | 21 | 0 | 0 |
 | Games and entertainment | Hitmarker | 3 | 3 | 0 | 0 |
 | Regional technology and startups | Welcome to the Jungle | 4 | 2 | 0 | 2 |
-| Life sciences | Biocom Career Hub | 1 | 0 | 0 | 1 |
+| Life sciences | Biocom Career Hub | 0 | 0 | 0 | 1 |
 | Company careers | WelbeHealth official careers | 1 | 0 | 0 | 1 |
 | Company careers | Branch official careers | 1 | 12 | 0 | 0 |
 | Company careers | thatgamecompany official careers | 0 | 0 | 0 | 1 |
@@ -137,10 +137,11 @@ The daily 5 pm run cannot include listings published after it begins. Historical
 - checkoutcom: HTTPError
 - flywire: HTTPError
 - Prospanica: https://jobs.prospanica.org/home/index.cfm: HTTP Error 403: Forbidden
+- HOPE - Hispanas Organized for Political Equality: https://www.governmentjobs.com/careers/oaklandca/jobs/5436057-0/program-analyst-iii-selective-certification-cultural-funding-coordinator:
 - Lean In Latinas: No supported role links in public HTML; dynamic or member-only results may be unavailable
 - Welcome to the Jungle: https://www.welcometothejungle.com/en/companies/mistral-ai/jobs/technical-program-manager-science-operations-code_paris_MA_m7LrdDN: HTTP Error 403: Forbidden
 - Welcome to the Jungle: https://www.welcometothejungle.com/en/companies/datadome/jobs/senior-partner-marketing-program-manager_los-angeles: HTTP Error 403: Forbidden
-- Biocom Career Hub: No supported role links in public HTML; dynamic or member-only results may be unavailable
+- Biocom Career Hub: https://careerhub.biocom.org/jobs?titlePrefix=Program%20Manager: Host is not explicitly allowlisted
 - WelbeHealth official careers: No supported role links in public HTML; dynamic or member-only results may be unavailable
 - thatgamecompany official careers: https://thatgamecompany.com/company/jobs/: Only public HTTPS URLs are allowed
 - HLPA: https://jobs.hlpa.com/employment/search.aspx: HTTP Error 406: Not Acceptable
