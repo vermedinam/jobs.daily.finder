@@ -1,14 +1,14 @@
 {
   "date": "2026-11-21",
-  "verified_at": "2026-11-21T00:05:47.180584-08:00",
+  "verified_at": "2026-11-21T23:51:29.323071-08:00",
   "metrics": {
-    "reviewed": 62059,
+    "reviewed": 62041,
     "sources_ok": 275,
-    "unverified": 8,
+    "unverified": 0,
     "applied_excluded": 0,
     "seen_excluded": 0,
     "linkedin_candidates": 84,
-    "linkedin": "Public access limited (HTTPError); no bypass or login attempted",
+    "linkedin": "Public access available: 42 searches; publication dates verified only against official sources",
     "errors": [
       "devot: HTTPError",
       "wiz: HTTPError",
@@ -66,7 +66,6 @@
       "checkoutcom: HTTPError",
       "flywire: HTTPError",
       "Prospanica: https://jobs.prospanica.org/home/index.cfm: HTTP Error 403: Forbidden",
-      "HOPE - Hispanas Organized for Political Equality: https://www.governmentjobs.com/careers/oaklandca/jobs/5436057-0/program-analyst-iii-selective-certification-cultural-funding-coordinator: <urlopen error timed out>",
       "Lean In Latinas: No supported role links in public HTML; dynamic or member-only results may be unavailable",
       "Welcome to the Jungle: https://www.welcometothejungle.com/en/companies/mistral-ai/jobs/technical-program-manager-science-operations-code_paris_MA_m7LrdDN: HTTP Error 403: Forbidden",
       "Welcome to the Jungle: https://www.welcometothejungle.com/en/companies/datadome/jobs/senior-partner-marketing-program-manager_los-angeles: HTTP Error 403: Forbidden",
@@ -80,10 +79,10 @@
       "PowerToFly: No supported role links in public HTML; dynamic or member-only results may be unavailable",
       "Women Who Design: No supported role links in public HTML; dynamic or member-only results may be unavailable",
       "Started by Women: No supported role links in public HTML; dynamic or member-only results may be unavailable",
-      "Wellfound California: No supported role links in public HTML; dynamic or member-only results may be unavailable",
       "Y Combinator California: No supported role links in public HTML; dynamic or member-only results may be unavailable",
       "Games Jobs Direct: https://www.gamesjobsdirect.com/search: HTTP Error 406: Not Acceptable",
       "Bloks: https://bloks.gg/: Host is not explicitly allowlisted",
+      "Gaming Industry Job Tracker: https://jobs.christran.gg/jobs/65830-senior-producer-at-cloud-imperium-games-manchester: HTTP Error 410: Gone",
       "ASGC Games Jobs: No supported role links in public HTML; dynamic or member-only results may be unavailable",
       "BioSpace California: https://jobs.biospace.com/california: HTTP Error 429: Too Many Requests",
       "BioTalent: No supported role links in public HTML; dynamic or member-only results may be unavailable",
@@ -107,9 +106,7 @@
         "pages": 1,
         "candidates": 1,
         "verified": 0,
-        "issues": [
-          "https://www.governmentjobs.com/careers/oaklandca/jobs/5436057-0/program-analyst-iii-selective-certification-cultural-funding-coordinator: <urlopen error timed out>"
-        ]
+        "issues": []
       },
       {
         "source": "Lean In Latinas",
@@ -276,11 +273,9 @@
         "source": "Wellfound California",
         "category": "Regional technology and startups",
         "pages": 1,
-        "candidates": 0,
+        "candidates": 1,
         "verified": 0,
-        "issues": [
-          "No supported role links in public HTML; dynamic or member-only results may be unavailable"
-        ]
+        "issues": []
       },
       {
         "source": "Y Combinator California",
@@ -318,7 +313,9 @@
         "pages": 1,
         "candidates": 1,
         "verified": 0,
-        "issues": []
+        "issues": [
+          "https://jobs.christran.gg/jobs/65830-senior-producer-at-cloud-imperium-games-manchester: HTTP Error 410: Gone"
+        ]
       },
       {
         "source": "ASGC Games Jobs",
