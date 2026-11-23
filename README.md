@@ -10,17 +10,17 @@ Search area: USA, Canada, Mexico, Spain, LATAM, and eligible remote roles. Resul
 
 <!-- DASHBOARD:START -->
 
-## Dashboard: 2026-11-21
+## Dashboard: 2026-11-23
 
 > Your worth is not measured by an inbox. One thoughtful application at a time is enough for today.
 
-Publication day: 2026-11-21. Verified at: 2026-11-21T23:51:29.323071-08:00 (America/Los_Angeles).
+Publication day: 2026-11-23. Verified at: 2026-11-23T00:42:26.778420-08:00 (America/Los_Angeles).
 
 Up to 30 verified listings from the requested publication day. Coverage is limited to accessible sources.
 
-Reviewed: 62041 | Recommended: 0 | Applied excluded: 0 | Previously seen: 0 | Unverified: 0 | Outside topic focus: 0
+Reviewed: 61963 | Recommended: 0 | Applied excluded: 0 | Previously seen: 0 | Unverified: 2 | Outside topic focus: 0
 
-Accessible sources: 275 | LinkedIn candidates: 84
+Accessible sources: 275 | LinkedIn candidates: 89
 
 LinkedIn: Public access available: 42 searches; publication dates verified only against official sources
 
@@ -48,10 +48,10 @@ New verified employer boards retained for future searches: 0.
 | Source category | Source | Accessible seed pages | Candidate pages checked | Official date-verified discoveries before deduplication | Issues |
 |---|---|---|---|---|---|
 | Latino and professional associations | Prospanica | 0 | 0 | 0 | 1 |
-| Latino and professional associations | HOPE - Hispanas Organized for Political Equality | 1 | 1 | 0 | 0 |
+| Latino and professional associations | HOPE - Hispanas Organized for Political Equality | 1 | 1 | 0 | 1 |
 | Latino and professional associations | Lean In Latinas | 1 | 0 | 0 | 1 |
 | Regional technology and startups | Built In San Francisco | 3 | 21 | 0 | 0 |
-| Games and entertainment | Hitmarker | 3 | 3 | 0 | 0 |
+| Games and entertainment | Hitmarker | 3 | 2 | 0 | 0 |
 | Regional technology and startups | Welcome to the Jungle | 4 | 2 | 0 | 2 |
 | Life sciences | Biocom Career Hub | 0 | 0 | 0 | 1 |
 | Company careers | WelbeHealth official careers | 1 | 0 | 0 | 1 |
@@ -70,7 +70,7 @@ New verified employer boards retained for future searches: 0.
 | Regional technology and startups | Y Combinator California | 1 | 0 | 0 | 1 |
 | Games and entertainment | Games Jobs Direct | 0 | 0 | 0 | 1 |
 | Games and entertainment | Bloks | 0 | 0 | 0 | 1 |
-| Games and entertainment | Gaming Industry Job Tracker | 1 | 1 | 0 | 1 |
+| Games and entertainment | Gaming Industry Job Tracker | 1 | 1 | 0 | 0 |
 | Games and entertainment | ASGC Games Jobs | 1 | 0 | 0 | 1 |
 | Life sciences | BioSpace California | 0 | 0 | 0 | 1 |
 | Life sciences | BioTalent | 1 | 0 | 0 | 1 |
@@ -137,6 +137,7 @@ The daily 5 pm run cannot include listings published after it begins. Historical
 - checkoutcom: HTTPError
 - flywire: HTTPError
 - Prospanica: https://jobs.prospanica.org/home/index.cfm: HTTP Error 403: Forbidden
+- HOPE - Hispanas Organized for Political Equality: https://www.governmentjobs.com/careers/oaklandca/jobs/5436057-0/program-analyst-iii-selective-certification-cultural-funding-coordinator:
 - Lean In Latinas: No supported role links in public HTML; dynamic or member-only results may be unavailable
 - Welcome to the Jungle: https://www.welcometothejungle.com/en/companies/mistral-ai/jobs/technical-program-manager-science-operations-code_paris_MA_m7LrdDN: HTTP Error 403: Forbidden
 - Welcome to the Jungle: https://www.welcometothejungle.com/en/companies/datadome/jobs/senior-partner-marketing-program-manager_los-angeles: HTTP Error 403: Forbidden
@@ -153,7 +154,6 @@ The daily 5 pm run cannot include listings published after it begins. Historical
 - Y Combinator California: No supported role links in public HTML; dynamic or member-only results may be unavailable
 - Games Jobs Direct: https://www.gamesjobsdirect.com/search: HTTP Error 406: Not Acceptable
 - Bloks: https://bloks.gg/: Host is not explicitly allowlisted
-- Gaming Industry Job Tracker: https://jobs.christran.gg/jobs/65830-senior-producer-at-cloud-imperium-games-manchester: HTTP Error 410: Gone
 - ASGC Games Jobs: No supported role links in public HTML; dynamic or member-only results may be unavailable
 - BioSpace California: https://jobs.biospace.com/california: HTTP Error 429: Too Many Requests
 - BioTalent: No supported role links in public HTML; dynamic or member-only results may be unavailable
