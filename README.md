@@ -10,19 +10,19 @@ Search area: USA, Canada, Mexico, Spain, LATAM, and eligible remote roles. Resul
 
 <!-- DASHBOARD:START -->
 
-## Dashboard: 2026-11-23
+## Dashboard: 2026-11-24
 
 > Your worth is not measured by an inbox. One thoughtful application at a time is enough for today.
 
-Publication day: 2026-11-23. Verified at: 2026-11-23T00:42:26.778420-08:00 (America/Los_Angeles).
+Publication day: 2026-11-24. Verified at: 2026-11-24T02:44:22.974565-08:00 (America/Los_Angeles).
 
 Up to 30 verified listings from the requested publication day. Coverage is limited to accessible sources.
 
-Reviewed: 61963 | Recommended: 0 | Applied excluded: 0 | Previously seen: 0 | Unverified: 2 | Outside topic focus: 0
+Reviewed: 62003 | Recommended: 0 | Applied excluded: 0 | Previously seen: 0 | Unverified: 7 | Outside topic focus: 0
 
-Accessible sources: 275 | LinkedIn candidates: 89
+Accessible sources: 274 | LinkedIn candidates: 97
 
-LinkedIn: Public access available: 42 searches; publication dates verified only against official sources
+LinkedIn: Public access limited (HTTPError); no bypass or login attempted
 
 Regional coverage: Mexico 0 verified candidates | Spain 0 verified candidates. Target: 30; returned: 0.
 
@@ -48,10 +48,10 @@ New verified employer boards retained for future searches: 0.
 | Source category | Source | Accessible seed pages | Candidate pages checked | Official date-verified discoveries before deduplication | Issues |
 |---|---|---|---|---|---|
 | Latino and professional associations | Prospanica | 0 | 0 | 0 | 1 |
-| Latino and professional associations | HOPE - Hispanas Organized for Political Equality | 1 | 1 | 0 | 1 |
+| Latino and professional associations | HOPE - Hispanas Organized for Political Equality | 1 | 1 | 0 | 0 |
 | Latino and professional associations | Lean In Latinas | 1 | 0 | 0 | 1 |
-| Regional technology and startups | Built In San Francisco | 3 | 21 | 0 | 0 |
-| Games and entertainment | Hitmarker | 3 | 2 | 0 | 0 |
+| Regional technology and startups | Built In San Francisco | 3 | 23 | 0 | 0 |
+| Games and entertainment | Hitmarker | 3 | 3 | 0 | 0 |
 | Regional technology and startups | Welcome to the Jungle | 4 | 2 | 0 | 2 |
 | Life sciences | Biocom Career Hub | 0 | 0 | 0 | 1 |
 | Company careers | WelbeHealth official careers | 1 | 0 | 0 | 1 |
@@ -82,6 +82,7 @@ New verified employer boards retained for future searches: 0.
 
 The daily 5 pm run cannot include listings published after it begins. Historical searches include postings still accessible when checked. First-seen dates are never substituted for publication dates. SmartRecruiters release dates may refer to reposts. Work arrangements are not inferred from a city or an onboarding event. Additional discovery boards are checked through accessible public HTML with robots.txt respected. Member-only and JavaScript-only results may be unavailable. Third-party publication dates never replace official date evidence.
 - devot: HTTPError
+- thoughtworks: HTTPError
 - wiz: HTTPError
 - yelp: HTTPError
 - contentsquare: HTTPError
@@ -137,7 +138,6 @@ The daily 5 pm run cannot include listings published after it begins. Historical
 - checkoutcom: HTTPError
 - flywire: HTTPError
 - Prospanica: https://jobs.prospanica.org/home/index.cfm: HTTP Error 403: Forbidden
-- HOPE - Hispanas Organized for Political Equality: https://www.governmentjobs.com/careers/oaklandca/jobs/5436057-0/program-analyst-iii-selective-certification-cultural-funding-coordinator:
 - Lean In Latinas: No supported role links in public HTML; dynamic or member-only results may be unavailable
 - Welcome to the Jungle: https://www.welcometothejungle.com/en/companies/mistral-ai/jobs/technical-program-manager-science-operations-code_paris_MA_m7LrdDN: HTTP Error 403: Forbidden
 - Welcome to the Jungle: https://www.welcometothejungle.com/en/companies/datadome/jobs/senior-partner-marketing-program-manager_los-angeles: HTTP Error 403: Forbidden
